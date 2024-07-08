@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 
 
@@ -7,8 +8,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="container mt-4">
-      </div>
+      <Hero />
     </div>
   )
 }

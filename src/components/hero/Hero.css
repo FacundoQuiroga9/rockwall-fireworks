@@ -1,0 +1,81 @@
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url('/hero1.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 50px 0;
+  height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-right{
+  margin-left: 5rem;
+}
+.product-img {
+  width: 500px;
+}
+
+.phrase-img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  align-self: flex-start;
+}
+
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.btn-rockwall {
+  color: #00051e;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  align-self: flex-start;
+  font-family: "Anton SC", sans-serif;
+  font-size: 2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.btn-rockwall:hover {
+  color: white;
+  background-color: #00051e;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  align-self: flex-start;
+  font-family: "Anton SC", sans-serif;
+  font-size: 2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
