@@ -1,0 +1,47 @@
+.top-bar {
+  background-color: #00051e;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.top-bar p{
+  font-family: "Jura", sans-serif;
+}
+
+.main-nav {
+  background: linear-gradient(135deg, #ffff 20%, #ff5215 20%);
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Anton SC", sans-serif;
+}
+
+.navbar-logo {
+  width: 280px; /* Ajusta el tamaño según sea necesario */
+  margin-left: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00051e !important;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-nav{
+  display: flex !important;
+}
+.navbar-nav li{
+  margin: 0 2rem;
+  font-size: 2rem;
+  list-style: none;
+}
