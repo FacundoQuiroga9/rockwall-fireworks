@@ -5,7 +5,7 @@
   background: url('/hero1.jpg') no-repeat center center;
   background-size: cover;
   padding: 50px 0;
-  height: calc(100vh - 300px);
+  min-height: calc(100vh - 300px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +36,7 @@
 .phrase-img {
   width: 500px;
   margin-bottom: 20px;
+  align-self:flex-start
 }
 
 .hero-description {
@@ -66,16 +67,50 @@
   font-size: 2rem;
   border-radius: .5rem;
   cursor: pointer;
+  border: 4px solid white;
 }
 
 .btn-rockwall:hover {
   color: white;
   background-color: #00051e;
-  padding: 1rem 2rem;
-  font-weight: bold;
-  align-self: flex-start;
-  font-family: "Anton SC", sans-serif;
-  font-size: 2rem;
-  border-radius: .5rem;
-  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+
+  .hero-right{
+    margin-left: 2.5rem;
+  }
+
+  .hero-description{
+    text-align:start;
+  }
+
+  .product-img {
+    width: 300px;
+  }
+
+  .phrase-img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .btn-rockwall {
+    padding: .8rem 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content{
+    display: block;
+    padding: 0 1.5rem;
+  }
+  .hero-right{
+    margin-left: 0;
+  }
+  .hero-description{
+    text-align:center;
+  }
+  .btn-rockwall {
+    align-self: center;
+  }
 }

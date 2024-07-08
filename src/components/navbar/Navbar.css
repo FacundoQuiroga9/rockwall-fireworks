@@ -11,7 +11,7 @@
 }
 
 .main-nav {
-  background: linear-gradient(135deg, #ffff 20%, #ff5215 20%);
+  background: linear-gradient(135deg, #ffff 30%, #ff5215 30%);
   padding: 10px 0;
   display: flex;
   flex-direction: row;
@@ -21,7 +21,7 @@
 }
 
 .navbar-logo {
-  width: 280px; /* Ajusta el tamaño según sea necesario */
+  width: 280px;
   margin-left: 1rem;
 }
 
@@ -44,4 +44,32 @@
   margin: 0 2rem;
   font-size: 2rem;
   list-style: none;
+}
+
+@media (max-width: 992px) {
+  .main-nav {
+    background: linear-gradient(135deg, #ffff 40%, #ff5215 40%);
+  }
+
+  .navbar-logo {
+    width: 200px;
+    margin-left: 1rem;
+  }
+  .navbar-nav li{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-logo {
+    width: 280px;
+    margin-left: 1rem;
+  }
+  .navbar-nav li{
+    margin: 0 2rem;
+    font-size: 1rem;
+    list-style: none;
+  }
 }
