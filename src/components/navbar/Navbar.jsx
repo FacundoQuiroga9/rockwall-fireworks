@@ -9,7 +9,7 @@ const Navbar = () => {
     setClassSpan(!classSpan)
   }
   return (
-    <div>
+    <div className='sticky-nav'>
       <div className="top-bar">
         <p>Take your celebration to the next level</p>
       </div>

@@ -5,12 +5,17 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  z-index: 3;
 }
 .top-bar p{
   font-family: "Jura", sans-serif;
 }
 
+.sticky-nav{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 .main-nav {
   background: linear-gradient(135deg, #ffff 30%, #ff5215 30%);
   padding: 10px 0;
@@ -20,7 +25,6 @@
   align-items: center;
   font-family: "Anton SC", sans-serif;
   position: relative;
-  z-index: 3;
 }
 
 .navbar-logo {
