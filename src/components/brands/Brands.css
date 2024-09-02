@@ -1,0 +1,113 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#brands{
+  scroll-margin-top: 31rem;
+}
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background-color: var(--blue)
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:hover .logos-slider {
+  animation-play-state: paused;
+}
+
+.logos-slider {
+  margin: 1rem 0;
+  animation: 35s slide infinite linear;
+  display: flex;
+  flex-direction: row;
+}
+
+.logos-slider img {
+  width: 4rem;
+  margin: 0 1rem;
+  object-fit: contain;
+}
+.dibujo{
+  padding: 2rem 3rem;
+}
+
+@media (min-width: 420px){
+  .logos:before,
+  .logos:after {
+    width: 80px;
+  }
+
+  .logos-slider {
+    margin: 2rem 0;
+  }
+  .logos-slider img {
+    width: 6rem;
+    margin: 0 1.5rem;
+  }
+
+}
+@media (min-width: 750px){
+  .logos:before,
+  .logos:after {
+    width: 120px;
+  }
+  .logos-slider {
+    margin: 2.5rem 0;
+  }
+  .logos-slider img {
+    width: 8rem;
+    margin: 0 2rem;
+  }
+
+  .dibujo{
+    padding: 3rem 6rem;
+  }
+}
+@media (min-width: 1000px){
+  .logos:before,
+  .logos:after {
+    width: 250px;
+  }
+
+  #brands{
+    scroll-margin-top: 10rem;
+  }
+
+  .logos-slide {
+    margin: 3rem 0;
+  }
+  .logos-slide img {
+    width: 10rem;
+    margin: 0 3rem;
+  }
+  .dibujo{
+    padding: 3.5rem 16rem;
+  }
+}
