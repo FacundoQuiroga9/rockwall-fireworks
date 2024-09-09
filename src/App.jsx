@@ -2,6 +2,9 @@ import './App.css';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Brands from "./components/brands/Brands";
+import About from "./components/about/About";
+import Countdown from "./components/countdown/Countdown";
+import Contact from "./components/contact/Contact"
 
 
 function App() {
@@ -11,6 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <Brands />
+      <About />
+      <Countdown/>
+      <Contact />
     </div>
   )
 }

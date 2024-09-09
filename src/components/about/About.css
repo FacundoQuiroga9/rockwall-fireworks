@@ -1,0 +1,34 @@
+.about-container{
+  height: calc(100vh - 157px);
+  background-image: url('/public/building.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  scroll-margin-top: 157px ;
+}
+
+
+.about-content{
+  height: 100%;
+  width: 40%;
+  background-color:#00051eb3;
+  color: white;
+  padding: 4rem;
+}
+
+
+.about-content h2{
+  font-size: 5rem;
+  font-family: "Anton SC", sans-serif;
+  line-height: 5.5rem;
+}
+
+.about-content p{
+  font-size: 1.7rem;
+  font-family: "Anton SC", sans-serif;
+  line-height: 2.2rem;
+  margin-top: 2rem;
+}

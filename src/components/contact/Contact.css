@@ -1,0 +1,38 @@
+.contact-container{
+  background-image: url('/public/fondo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 157px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.contact-title{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-family: "Anton SC", sans-serif;
+  color: var(--orange);
+}
+
+.contact-subtitle{
+  display: block;
+  margin: 1.5rem 0;
+  font-family: "Anton SC", sans-serif;
+  font-size: 2rem;
+
+}
+
+
+.contact-container p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-container p:hover a {
+  color: var(--orange)
+}

@@ -1,0 +1,36 @@
+.countdown {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #00051e;
+  padding: 4rem;
+}
+
+.countdown h2 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  font-family: "Anton SC", sans-serif;
+}
+
+.holiday{
+  color: var(--orange);
+}
+
+.time {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-family: "Jura", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .countdown h2 {
+    font-size: 1.5rem;
+  }
+  .time {
+    font-size: 1.2rem;
+  }
+}

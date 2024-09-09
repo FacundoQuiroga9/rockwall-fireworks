@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='sticky-nav'>
       <div className="top-bar">
-        <p>Take your celebration to the next level</p>
+        <p><ion-icon name="sparkles-sharp"></ion-icon>  Take your celebration to the next level  <ion-icon name="sparkles-sharp"></ion-icon></p>
       </div>
       <nav className="navbar navbar-expand-lg navbar-dark main-nav">
         <a className="navbar-brand" href="#">
@@ -23,10 +23,10 @@ const Navbar = () => {
               <a className="nav-link" href="#">FEATURED PRODUCTS</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">ABOUT</a>
+              <a className="nav-link" href="#about">ABOUT</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">CONTACT</a>
+              <a className="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
