@@ -8,6 +8,7 @@ import Monkey from '../../images/monkey.png'
 import Tsky from '../../images/tsky.png'
 import WCF from '../../images/wcf.png'
 import Boom from '../../images/boom.png'
+import HappyFamily from '../../images/happy-family.png'
 
 const Brands = () => {
   return(
@@ -23,6 +24,7 @@ const Brands = () => {
           <img src={WCF} />
           <img src={Brothers} />
           <img src={Boom} />
+          <img src={HappyFamily} />
           <img src={Cutting} />
           <img src={BlackCat} />
           <img src={Winda} />
@@ -32,6 +34,7 @@ const Brands = () => {
           <img src={WCF} />
           <img src={Brothers} />
           <img src={Boom} />
+          <img src={HappyFamily} />
         </div>
       </div>
     </>

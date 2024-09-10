@@ -1,0 +1,100 @@
+.carousel-container {
+  padding: 4rem 0;
+  background-color: var(--blue);
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "Anton SC", sans-serif;
+  margin: 3rem 0;
+  color: white;
+}
+
+.product-card {
+  background-color: transparent;
+  border-radius: 10px;
+  max-width: 18rem;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #071453;
+  height: 25rem;
+}
+
+.product-card:hover{
+  border: 1px solid #ff5215;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+  font-family: "Anton SC", sans-serif;
+  color: white;
+}
+
+p.product-category {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-family: "Jura", sans-serif !important;
+}
+
+.product-features {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Anton SC", sans-serif;
+}
+
+.product-button {
+  padding: 8px 12px;
+  border: none;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid var(--orange)
+}
+
+.product-button:hover {
+  background-color: white;
+  color: var(--orange);
+  border: 1px solid var(--orange)
+}
+
+/* Agrandar las flechas */
+.slick-prev,
+.slick-next {
+  width: 50px; /* Aumenta el ancho del botón */
+  height: 50px; /* Aumenta el alto del botón */
+  background-color: transparent; /* Cambia el color de fondo */
+  border-radius: 50%; /* Hace que las flechas sean circulares */
+  z-index: 1; /* Asegura que las flechas estén delante de otros elementos */
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 3rem;
+  color: #ff5215;
+}
+
+
+/* Ajustar la posición de las flechas */
+.slick-prev {
+  left: 0px; /* Mueve la flecha izquierda hacia afuera del carrusel */
+}
+
+.slick-next {
+  right: 0px; /* Mueve la flecha derecha hacia afuera del carrusel */
+}
