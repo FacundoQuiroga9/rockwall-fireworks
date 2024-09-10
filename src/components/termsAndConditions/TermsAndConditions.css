@@ -1,0 +1,43 @@
+/* src/components/termsAndConditions/TermsAndConditions.css */
+
+.terms-container {
+  padding: 6rem;
+  margin: 0 auto;
+  background-color: var(--blue); /* Asumiendo que sigues usando tus variables CSS */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Anton SC', sans-serif;
+  color: var(--orange);
+}
+
+.terms-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Anton SC', sans-serif;
+  color: var(--orange);
+}
+
+.terms-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Jura', sans-serif;
+}
+
+.terms-container section {
+  margin-bottom: 30px;
+}
+
+.terms-container .last-updated {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--orange);
+  font-family: 'Jura', sans-serif;
+}

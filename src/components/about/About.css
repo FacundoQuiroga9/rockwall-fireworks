@@ -1,6 +1,6 @@
 .about-container{
   height: calc(100vh - 157px);
-  background-image: url('/public/building.jpg');
+  background-image: url('/building.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

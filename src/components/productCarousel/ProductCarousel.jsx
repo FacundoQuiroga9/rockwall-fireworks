@@ -99,7 +99,7 @@ const ProductCarousel = () => {
   ];
 
   return (
-    <div className="carousel-container">
+    <div id="featured-products" className="carousel-container">
       <h2 className="carousel-title">Featured Products</h2>
       <Slider {...settings}>
         {products.map((product, index) => (
