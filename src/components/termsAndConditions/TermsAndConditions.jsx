@@ -28,29 +28,23 @@ const TermsAndConditions = () => {
         </p>
       </section>
 
-      <section>
-        <h2>4. Payment and Refund Policy</h2>
-        <p>
-          All payments are final. Refunds will only be issued under special circumstances as outlined in our Refund Policy. Please contact us if you believe you qualify for a refund.
-        </p>
-      </section>
 
       <section>
-        <h2>5. Limitation of Liability</h2>
+        <h2>4. Limitation of Liability</h2>
         <p>
           Rockwall Fireworks is not responsible for any damages that may arise from the use of this website. All content is provided "as is" without warranty of any kind.
         </p>
       </section>
 
       <section>
-        <h2>6. Changes to the Terms</h2>
+        <h2>5. Changes to the Terms</h2>
         <p>
           We may update these terms and conditions from time to time. If changes are made, they will be reflected on this page, and the "last updated" date will be revised accordingly.
         </p>
       </section>
 
       <section>
-        <h2>7. Contact Us</h2>
+        <h2>6. Contact Us</h2>
         <p>
           If you have any questions or concerns about these terms and conditions, please feel free to contact us at info@rockwallfireworks.com.
         </p>

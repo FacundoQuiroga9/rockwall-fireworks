@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="hero-right">
           <img src="/crazy-phrase.png" alt="Crazy Phrase" className="phrase-img" />
           <p className="hero-description">Your favorite fireworks are here</p>
-          <button className="btn btn-rockwall">CONTACT US</button>
+          <a className='btn btn-rockwall' href="tel:+19729775193">CONTACT US</a>
         </div>
       </div>
     </div>

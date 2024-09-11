@@ -89,12 +89,13 @@ p.product-category {
   color: #ff5215;
 }
 
-
 /* Ajustar la posición de las flechas */
 .slick-prev {
   left: 0px; /* Mueve la flecha izquierda hacia afuera del carrusel */
+  z-index: 1;
 }
 
 .slick-next {
   right: 0px; /* Mueve la flecha derecha hacia afuera del carrusel */
+  z-index: 1;
 }

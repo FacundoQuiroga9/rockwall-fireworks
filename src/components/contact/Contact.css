@@ -36,3 +36,16 @@
 .contact-container p:hover a {
   color: var(--orange)
 }
+
+.social-media-links{
+  display: flex;
+}
+
+.social-media-links a{
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.social-media-links a:hover{
+  color: var(--orange);
+}

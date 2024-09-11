@@ -21,7 +21,22 @@ const Contact = () =>{
       <a href="tel:+19729775193">(972) 977-5193</a>
       </p>
       <h4 className='contact-subtitle'><ion-icon name="phone-portrait-outline"></ion-icon> SOCIAL MEDIA</h4>
-      <p>Lorem ipsum.</p>
+      <div className="social-media-links">
+        <a
+          href="https://www.instagram.com/rockwallfireworks2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.facebook.com/rockwallfireworksllc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </div>
     </div>
   )
 }

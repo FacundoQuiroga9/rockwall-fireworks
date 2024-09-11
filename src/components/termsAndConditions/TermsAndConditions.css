@@ -2,6 +2,7 @@
 
 .terms-container {
   padding: 6rem;
+  width: 70%;
   margin: 0 auto;
   background-color: var(--blue); /* Asumiendo que sigues usando tus variables CSS */
   color: white;
