@@ -59,3 +59,10 @@
   color: var(--orange);
   text-decoration: none !important;
 }
+
+/* Portrait phones (480px and below) */
+@media (max-width: 480px) {
+  .footer-bottom {
+    font-size: .8rem;
+  }
+}
