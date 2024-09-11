@@ -1,4 +1,6 @@
-.contact-container{
+/* Estilos base para móviles primero */
+
+.contact-container {
   background-image: url('/fondo.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -9,73 +11,56 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  padding: 1rem;
 }
 
-.contact-title{
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   font-family: "Anton SC", sans-serif;
   color: var(--orange);
 }
 
-.contact-subtitle{
+.contact-subtitle {
   display: block;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   font-family: "Anton SC", sans-serif;
-  font-size: 2rem;
-
+  font-size: 1.5rem;
 }
 
-
 .contact-container p {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
   font-weight: bold;
 }
 
 .contact-container p:hover a {
-  color: var(--orange)
-}
-
-.social-media-links{
-  display: flex;
-}
-
-.social-media-links a{
-  font-size: 2rem;
-  margin: 0 1rem;
-}
-
-.social-media-links a:hover{
   color: var(--orange);
 }
 
-
-/* Tablets (1024px and below) */
-@media (max-width: 1024px) {
-  .contact-title{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .contact-subtitle{
-    font-size: 1.5rem;
-    margin: 1rem 0;
-
-  }
-
-  .contact-container p {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-  }
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-/* Landscape phones (768px and below) */
-@media (max-width: 768px) {
-  .contact-title{
+.social-media-links a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.social-media-links a:hover {
+  color: var(--orange);
+}
+
+/* Tablets (768px and arriba) */
+@media (min-width: 768px) {
+  .contact-title {
     font-size: 3rem;
     margin-bottom: 1.5rem;
   }
-  .contact-subtitle{
+
+  .contact-subtitle {
     margin: 1.2rem 0;
     font-size: 2rem;
   }
@@ -84,21 +69,37 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
   }
+
+  .social-media-links a {
+    font-size: 1.7rem;
+    margin: 0 0.8rem;
+  }
 }
 
-/* Portrait phones (480px and below) */
-@media (max-width: 480px) {
-  .contact-title{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+/* Laptops pequeñas y pantallas grandes (1024px y arriba) */
+@media (min-width: 1024px) {
+  .contact-title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
   }
-  .contact-subtitle{
-    font-size: 1.5rem;
+
+  .contact-subtitle {
+    font-size: 1.7rem;
     margin: 1rem 0;
   }
 
   .contact-container p {
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .social-media-links {
+    margin: .5rem;
+  }
+
+  .social-media-links a {
+    font-size: 1.7rem;
+    margin: 0 1rem;
   }
 }
+

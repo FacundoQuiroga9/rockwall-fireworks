@@ -1,4 +1,7 @@
-.about-container{
+/* Estilos base (Mobile First) */
+
+/* Portrait phones (480px and below) */
+.about-container {
   height: calc(100vh - 157px);
   background-image: url('/building.jpg');
   background-position: center;
@@ -6,72 +9,69 @@
   background-size: cover;
   position: relative;
   display: flex;
-  justify-content: end;
-  scroll-margin-top: 157px ;
+  justify-content: center; /* Alineado al centro para dispositivos móviles */
+  scroll-margin-top: 157px;
 }
 
-
-.about-content{
-  height: 100%;
-  width: 40%;
-  background-color:#00051eb3;
+.about-content {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00051eb3;
   color: white;
-  padding: 4rem;
 }
 
-
-.about-content h2{
-  font-size: 5rem;
+.about-content h2 {
+  font-size: 3rem;
   font-family: "Anton SC", sans-serif;
-  line-height: 5.5rem;
+  line-height: 3.5rem;
 }
 
-.about-content p{
-  font-size: 1.7rem;
+.about-content p {
+  font-size: 1.5rem;
   font-family: "Anton SC", sans-serif;
-  line-height: 2.2rem;
+  line-height: 1.7rem;
   margin-top: 2rem;
 }
 
-
-/* Tablets (1024px and below) */
-@media (max-width: 1024px) {
-  .about-content{
-    width: 60%;
-  }
-}
-
 /* Landscape phones (768px and below) */
-@media (max-width: 768px) {
-  .about-content{
+@media (min-width: 481px) {
+  .about-content {
     width: 70%;
     padding: 3rem;
   }
-  .about-content h2{
+
+  .about-content h2 {
     font-size: 3.5rem;
   }
 
-  .about-content p{
+  .about-content p {
     font-size: 2rem;
     line-height: 2.2rem;
   }
 }
 
-/* Portrait phones (480px and below) */
-@media (max-width: 480px) {
-  .about-content{
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* Tablets (1024px and below) */
+@media (min-width: 769px) {
+  .about-container{
+    justify-content: end;
   }
-  .about-content h2{
-    font-size: 3rem;
+  .about-content {
+    width: 60%;
+  }
+}
+
+/* Small laptops and desktops (1200px and below) */
+@media (min-width: 1025px) {
+
+  .about-content h2 {
+    font-size: 3.5rem;
   }
 
-  .about-content p{
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+  .about-content p {
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 }
