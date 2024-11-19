@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Developed by</h4>
-          <a href='https://quirogafacundo.com/' target='_blanck' className='footer-link'>QF designs</a>
+          <a href='https://bondicode.com/' target='_blanck' className='footer-link'>Bondi Code</a>
         </div>
       </div>
 

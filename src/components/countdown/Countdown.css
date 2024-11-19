@@ -1,18 +1,30 @@
 .countdown {
   text-align: center;
   font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   background-color: #00051e;
   padding: 4rem;
 }
 
-.countdown h2 {
-  font-size: 4rem;
-  margin-bottom: 10px;
-  font-family: "Anton SC", sans-serif;
+.next-opening {
+  background-color: #00051e;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
-.holiday{
+.countdown h2 {
+  font-size: 4rem;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+  font-family: "Anton SC", sans-serif;
+  color: #fff;
+}
+
+.holiday {
   color: var(--orange);
 }
 
@@ -26,6 +38,7 @@
   align-items: center;
 }
 
+/* Estilos Responsivos */
 @media (max-width: 768px) {
   .countdown h2 {
     font-size: 2rem;

@@ -1,44 +1,107 @@
-/* src/components/termsAndConditions/TermsAndConditions.css */
-
 .terms-container {
-  padding: 6rem;
-  width: 70%;
+  padding: 2rem; /* Reducción del padding para móviles */
+  width: 90%; /* Ampliar el ancho para móviles */
   margin: 0 auto;
-  background-color: var(--blue); /* Asumiendo que sigues usando tus variables CSS */
+  background-color: var(--blue); /* Color del primero */
   color: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra del primero */
 }
 
 .terms-container h1 {
-  font-size: 3rem;
+  font-size: 2rem; /* Ajuste de tamaño de fuente para móviles */
+  line-height: 2.2rem;
   text-align: center;
-  margin-bottom: 20px;
-  font-family: 'Anton SC', sans-serif;
-  color: var(--orange);
+  margin-bottom: 2rem;
+  font-family: 'Anton SC', sans-serif; /* Tipografía del primero */
+  color: var(--orange); /* Color del primero */
 }
 
 .terms-container h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  font-family: 'Anton SC', sans-serif;
-  color: var(--orange);
+  font-size: 1.5rem; /* Ajuste de tamaño de fuente para móviles */
+  line-height: 1.7rem;
+  margin-bottom: 0.625rem; /* 10px en rem */
+  font-family: 'Anton SC', sans-serif; /* Tipografía del primero */
+  color: var(--orange); /* Color del primero */
 }
 
 .terms-container p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-family: 'Jura', sans-serif;
+  font-size: 0.9rem; /* Ajuste de tamaño de fuente para móviles */
+  line-height: 1.5;
+  margin-bottom: 0.9375rem; /* 15px en rem */
+  font-family: 'Jura', sans-serif; /* Tipografía del primero */
 }
 
 .terms-container section {
-  margin-bottom: 30px;
+  margin-bottom: 1.25rem; /* 20px en rem */
 }
 
 .terms-container .last-updated {
   font-size: 0.9rem;
   text-align: center;
-  margin-top: 20px;
-  color: var(--orange);
-  font-family: 'Jura', sans-serif;
+  margin-top: 0.9375rem; /* 15px en rem */
+  color: var(--orange); /* Color del primero */
+  font-family: 'Jura', sans-serif; /* Tipografía del primero */
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 48rem) { /* 768px equivalente en rem */
+  .terms-container {
+    padding: 4rem; /* Aumentar el padding para tablets */
+    width: 80%; /* Ajuste del ancho */
+  }
+
+  .terms-container h1 {
+    font-size: 2.5rem; /* Aumentar tamaño de fuente */
+    margin-bottom: 3rem;
+  }
+
+  .terms-container h2 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .terms-container p {
+    font-size: 1rem;
+  }
+
+  .terms-container section {
+    margin-bottom: 1.5625rem; /* 25px en rem */
+  }
+
+  .terms-container .last-updated {
+    font-size: 1rem;
+    margin-top: 1.25rem; /* 20px en rem */
+  }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media (min-width: 64rem) { /* 1024px equivalente en rem */
+  .terms-container {
+    padding: 6rem;
+    width: 70%; /* Ajuste del ancho para pantallas grandes */
+  }
+
+  .terms-container h1 {
+    font-size: 3rem; /* Tamaño original para pantallas grandes */
+    margin-bottom: 4rem;
+  }
+
+  .terms-container h2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .terms-container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .terms-container section {
+    margin-bottom: 1.875rem; /* 30px en rem */
+  }
+
+  .terms-container .last-updated {
+    font-size: 1.1rem;
+    margin-top: 1.5rem; /* 24px en rem */
+  }
 }

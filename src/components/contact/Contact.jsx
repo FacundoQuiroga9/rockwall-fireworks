@@ -18,7 +18,7 @@ const Contact = () =>{
       </p>
       <h4 className='contact-subtitle'><ion-icon name="call-outline"></ion-icon>PHONE</h4>
       <p>
-      <a href="tel:+19729775193">(972) 977-5193</a>
+      <a href="tel:+19729775193">(214) 471-3434</a>
       </p>
       <h4 className='contact-subtitle'><ion-icon name="phone-portrait-outline"></ion-icon> SOCIAL MEDIA</h4>
       <div className="social-media-links">
