@@ -43,8 +43,8 @@ const Navbar = () => {
     <div className="sticky-nav">
       <div className="top-bar">
         <p>
-          <ion-icon name="sparkles-sharp"></ion-icon> Take your celebration to the next level{' '}
-          <ion-icon name="sparkles-sharp"></ion-icon>
+          <ion-icon name="ban"></ion-icon> No tariff tax guaranteed {''}
+          <ion-icon name="ban"></ion-icon>
         </p>
       </div>
       <nav className="navbar navbar-expand-lg navbar-dark main-nav">

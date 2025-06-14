@@ -8,9 +8,9 @@ const Hero = () => {
           <img src="/fireworks-sample.png" alt="Product" className="product-img" />
         </div>
         <div className="hero-right">
-          <img src="/crazy-phrase.png" alt="Crazy Phrase" className="phrase-img" />
-          <p className="hero-description">Your favorite fireworks are here</p>
-          <a className='btn btn-rockwall' href="tel:+12144713434">CONTACT US</a>
+          <img src="/50-years-phrase.png" alt="Crazy Phrase" className="phrase-img" />
+          <p className="hero-description">Proudly serving North Texas since 1975 with family-friendly service, low prices, and 100% tariff free fireworks guaranteed!</p>
+          <a className='btn btn-rockwall'  href='/rf coupons.pdf' target='_blanck'>SEE SPECIAL OFFERS</a>
         </div>
       </div>
     </div>

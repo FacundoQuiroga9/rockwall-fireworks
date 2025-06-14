@@ -1,0 +1,66 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-box {
+  background: #f3d296;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 90%;
+  width: 400px;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.btn-popup {
+  color: white;
+  background-color: var(--blue);
+  padding:  2rem 1rem;
+  font-weight: bold;
+  align-self: flex-start;
+  font-family: "Anton SC", sans-serif;
+  font-size: 2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  border: 4px solid var(--blue);
+}
+.btn-popup:hover {
+  color: var(--blue);
+  background-color: transparent;
+}
+
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #f3d296;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: 900;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -13,11 +13,13 @@ import TermsAndConditions from './components/termsAndConditions/TermsAndConditio
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop/ScrollToTop'; // Importar ScrollToTop
 
+import Popup from './components/popup/Popup';
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <Popup delayToShow={3000} autoCloseAfter={12000} />
       <Navbar />
       <Routes>
         <Route path="/" element={

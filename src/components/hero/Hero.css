@@ -34,16 +34,18 @@
 }
 
 .phrase-img {
-  width: 400px;
-  margin-bottom: 20px;
+  width: 60%;
   align-self:flex-start
 }
 
 .hero-description {
   font-size: 1.5rem;
+  line-height: 1.7rem;
   font-weight: bold;
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
   align-self: flex-start;
+  text-align: start;
+    width: 70%;
 }
 
 .hero-container::before {
@@ -55,6 +57,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+
 }
 
 .btn-rockwall {
@@ -82,7 +85,8 @@
   }
 
   .hero-description{
-    text-align:start;
+    text-align: start;
+    width: 90%;
   }
 
   .product-img {
@@ -90,7 +94,7 @@
   }
 
   .phrase-img {
-    width: 300px;
+    width: 90%;
     margin-bottom: 20px;
   }
   .btn-rockwall {
@@ -109,6 +113,11 @@
   }
   .hero-description{
     text-align:center;
+    width: 100%;
+  }
+    .phrase-img {
+    width: 100%;
+    margin: 1rem 0;
   }
   .btn-rockwall {
     align-self: center;
