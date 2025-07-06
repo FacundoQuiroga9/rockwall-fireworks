@@ -20,6 +20,10 @@ const Contact = () =>{
       <p>
       <a href="tel:+19729775193">(214) 471-3434</a>
       </p>
+      <h4 className='contact-subtitle'><ion-icon name="mail-outline"></ion-icon>EMAIL</h4>
+      <p>
+      <a href="tel:+19729775193">contact@rockwallfireworks.com</a>
+      </p>
       <h4 className='contact-subtitle'><ion-icon name="phone-portrait-outline"></ion-icon> SOCIAL MEDIA</h4>
       <div className="social-media-links">
         <a
