@@ -1,0 +1,53 @@
+:root {
+  color-scheme: light;
+
+  --color-background: #f1f3f6;
+  --color-surface: #00051e;
+  --color-surface-elevated: #071453;
+  --color-primary: #ff5215;
+  --color-primary-hover: #db3b05;
+  --color-text: #10152b;
+  --color-text-inverse: #ffffff;
+  --color-muted: #687086;
+  --color-border: rgb(0 5 30 / 16%);
+  --color-overlay: rgb(0 0 0 / 58%);
+
+  --font-display: "Anton SC", Impact, sans-serif;
+  --font-body: "Jura", "Trebuchet MS", sans-serif;
+
+  --container-width: 90rem;
+  --content-width: 68rem;
+  --section-spacing: clamp(3.5rem, 8vw, 7rem);
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --radius-small: 0.35rem;
+  --radius-medium: 0.75rem;
+  --radius-large: 1.25rem;
+  --radius-round: 999px;
+
+  --shadow-small: 0 0.25rem 0.75rem rgb(0 0 0 / 18%);
+  --shadow-large: 0 1.25rem 3rem rgb(0 0 0 / 32%);
+
+  --transition-fast: 180ms ease;
+  --transition-medium: 300ms ease;
+
+  --z-header: 100;
+  --z-dialog: 1000;
+  --header-offset: 9rem;
+
+  /* Compatibility aliases while component styles are progressively normalized. */
+  --blue: var(--color-surface);
+  --orange: var(--color-primary);
+  --white: var(--color-background);
+  --primary-style: var(--font-display);
+  --secondary-style: var(--font-body);
+}

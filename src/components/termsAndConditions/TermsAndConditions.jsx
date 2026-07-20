@@ -1,4 +1,5 @@
 import './TermsAndConditions.css';
+import { siteConfig } from '../../config/siteConfig';
 
 const TermsAndConditions = () => {
   return (
@@ -24,7 +25,7 @@ const TermsAndConditions = () => {
       <section>
         <h2>3. User Responsibilities</h2>
         <p>
-          As a user of this site, you agree not to misuse the information or services provided. You are prohibited from using this site to carry out illegal activities or infringe on others' rights.
+          As a user of this site, you agree not to misuse the information or services provided. You are prohibited from using this site to carry out illegal activities or infringe on others’ rights.
         </p>
       </section>
 
@@ -32,21 +33,21 @@ const TermsAndConditions = () => {
       <section>
         <h2>4. Limitation of Liability</h2>
         <p>
-          Rockwall Fireworks is not responsible for any damages that may arise from the use of this website. All content is provided "as is" without warranty of any kind.
+          Rockwall Fireworks is not responsible for any damages that may arise from the use of this website. All content is provided “as is” without warranty of any kind.
         </p>
       </section>
 
       <section>
         <h2>5. Changes to the Terms</h2>
         <p>
-          We may update these terms and conditions from time to time. If changes are made, they will be reflected on this page, and the "last updated" date will be revised accordingly.
+          We may update these terms and conditions from time to time. If changes are made, they will be reflected on this page, and the “last updated” date will be revised accordingly.
         </p>
       </section>
 
       <section>
         <h2>6. Contact Us</h2>
         <p>
-          If you have any questions or concerns about these terms and conditions, please feel free to contact us at info@rockwallfireworks.com.
+          If you have any questions or concerns about these terms and conditions, please contact us at <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
         </p>
       </section>
 

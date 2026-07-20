@@ -1,190 +1,182 @@
 .top-bar {
-  background-color: #00051e;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.75rem 1rem;
   text-align: center;
-  padding: 1rem 0;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
-}
-.top-bar p{
-  font-family: "Jura", sans-serif;
 }
 
-.sticky-nav{
+.top-bar p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  font-family: var(--secondary-style);
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+  font-weight: 700;
+}
+
+.sticky-nav {
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 18%);
 }
+
 .main-nav {
-  background: linear-gradient(135deg, #ffff 30%, #ff5215 30%);
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Anton SC", sans-serif;
   position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 6.5rem;
+  padding: 0.625rem clamp(1rem, 3vw, 2.5rem);
+  background: linear-gradient(135deg, #fff 30%, var(--orange) 30%);
+  font-family: var(--primary-style);
+}
+
+.navbar-brand {
+  display: flex;
+  flex: 0 1 17.5rem;
+  min-width: 11rem;
 }
 
 .navbar-logo {
-  width: 280px;
-  margin-left: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
-.navbar-nav .nav-link {
-  color: #fff !important;
-  cursor: pointer;
+.header-nav {
+  margin-left: auto;
 }
 
-.navbar-nav .nav-link:hover {
-  color: #00051e !important;
-  cursor: pointer;
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 4rem);
 }
 
-.navbar-toggler {
-  border-color: #fff;
-}
-
-.navbar-nav{
-  display: flex !important;
-}
-.navbar-nav li{
-  margin: 0 2rem;
-  font-size: 2rem;
+.navbar-nav li {
   list-style: none;
 }
 
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: #fff;
+  font-size: clamp(1.25rem, 2.25vw, 2rem);
+  text-transform: uppercase;
+  transition: color 180ms ease;
+}
 
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus-visible {
+  color: var(--blue);
+}
 
-.navbar-button{
+.navbar-button {
   display: none;
 }
 
+@media (max-width: 53.75rem) {
+  .main-nav {
+    min-height: 5.25rem;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #fff 62%, var(--orange) 62%);
+  }
 
-.mobile-nav{
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: #00051e;
-}
+  .navbar-brand {
+    flex-basis: clamp(10.5rem, 48vw, 13rem);
+    min-width: 0;
+  }
 
-@keyframes slideDown {
-  0% {
+  .header-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: calc(100dvh - 8.5rem);
+    margin: 0;
+    overflow-y: auto;
+    visibility: hidden;
     opacity: 0;
+    pointer-events: none;
+    transform: translateY(-0.75rem);
+    background-color: var(--blue);
+    transition:
+      opacity 180ms ease,
+      transform 180ms ease;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes slideUp {
-  0% {
+  .header-nav.active {
+    visibility: visible;
     opacity: 1;
+    pointer-events: auto;
     transform: translateY(0);
   }
-  100% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-}
 
-@media (max-width: 992px) {
-  .main-nav {
-    background: linear-gradient(135deg, #ffff 40%, #ff5215 40%);
-  }
-
-  .navbar-logo {
-    width: 200px;
-    margin-left: 1rem;
-  }
-  .navbar-nav li{
-    margin: 0 1rem;
-    font-size: 1.5rem;
-    list-style: none;
-  }
-}
-
-@media (max-width: 576px) {
-  .main-nav {
-    background: linear-gradient(135deg, #ffff 60%, #ff5215 60%);
-  }
-  .navbar-logo {
-    width: 180px;
-    margin-left: 1rem;
-  }
-  .navbar-nav li{
-    font-size: 2rem;
-    margin: 1rem 0;
-    list-style: none;
-  }
-
-
-  .nav-item .nav-link:hover{
-    color: #ff5215 !important;
-  }
-
-  .header-nav{
-    display: none;
-  }
-
-  .mobile-nav.active{
-    display: block;
-    height: 60vh;
-    opacity: 1;
-    animation: slideDown 0.5s forwards;
-  }
-
-  .mobile-nav.active .navbar-nav{
-    display: flex;
+  .navbar-nav {
+    min-height: min(24rem, calc(100dvh - 8.5rem));
     flex-direction: column;
     justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    justify-content: center;
+    min-width: min(19rem, 90vw);
+    min-height: 3.25rem;
+    font-size: clamp(1.75rem, 7vw, 2.25rem);
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus-visible {
+    color: var(--orange);
+  }
+
+  .navbar-button {
+    display: flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    flex-direction: column;
     align-items: center;
-    height: 100%;
-
-  }
-
-  .main-nav button.navbar-button{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
     justify-content: center;
-    padding: 0;
-    cursor: hover !important;
-    margin: 0 1rem;
-  }
-  .navbar-button span{
-    border-radius: .5rem;
-    background-color: white;
-    width: 3rem;
-    height: .5rem;
-    margin: .3rem 0;
-  }
-  .navbar-button .top-line-unclicked{
-    transition: ease-out .5s;
-  }
-  .navbar-button .top-line-clicked{
-    transform: translateY(.95rem) rotate(-45deg);
-    transition: ease-out .5s;
-    width: 3.5rem;
-    margin: 0;
-  }
-  .navbar-button .middle-line-unclicked{
-    transition: ease-out .5s;
-  }
-  .navbar-button .middle-line-clicked{
-    transform: scale(.01);
-    transition: ease-out .5s;
-  }
-  .navbar-button .bottom-line-unclicked{
-    transition: ease-out .5s;
-  }
-  .navbar-button .bottom-line-clicked{
-    transform: translateY(-.95rem) rotate(45deg);
-    width: 3.5rem;
-    transition: ease-out .5s;
+    flex: 0 0 auto;
+    cursor: pointer;
   }
 
+  .navbar-button span {
+    width: 2.5rem;
+    height: 0.3rem;
+    margin: 0.22rem 0;
+    border-radius: 999px;
+    background-color: #fff;
+    transition:
+      transform 180ms ease,
+      opacity 180ms ease;
+  }
+
+  .navbar-button .top-line-clicked {
+    transform: translateY(0.74rem) rotate(-45deg);
+  }
+
+  .navbar-button .middle-line-clicked {
+    opacity: 0;
+  }
+
+  .navbar-button .bottom-line-clicked {
+    transform: translateY(-0.74rem) rotate(45deg);
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-nav,
+  .navbar-button span,
+  .navbar-nav .nav-link {
+    transition-duration: 0.01ms;
+  }
 }

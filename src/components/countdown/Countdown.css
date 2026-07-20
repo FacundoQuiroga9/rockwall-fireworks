@@ -1,49 +1,37 @@
 .countdown {
+  display: grid;
+  min-height: clamp(22rem, 45svh, 34rem);
+  place-items: center;
+  padding: var(--section-spacing) var(--gutter);
+  background-color: var(--color-surface);
+  color: var(--color-text-inverse);
   text-align: center;
-  font-family: 'Arial', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #00051e;
-  padding: 4rem;
 }
 
 .next-opening {
-  background-color: #00051e;
-  padding: 2rem;
-  border-radius: 10px;
+  width: min(100%, var(--content-width));
 }
 
 .countdown h2 {
-  font-size: 4rem;
-  line-height: 2.5rem;
-  margin-bottom: 10px;
-  font-family: "Anton SC", sans-serif;
-  color: #fff;
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1.05;
+  text-transform: uppercase;
 }
 
 .holiday {
-  color: var(--orange);
+  display: inline-block;
+  color: var(--color-primary);
 }
 
 .time {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  font-family: "Jura", sans-serif;
   display: flex;
-  justify-content: center;
+  min-height: 2.75rem;
   align-items: center;
-}
-
-/* Estilos Responsivos */
-@media (max-width: 768px) {
-  .countdown h2 {
-    font-size: 2rem;
-  }
-  .time {
-    font-size: 1.5rem;
-  }
+  justify-content: center;
+  margin-top: clamp(1.5rem, 4vw, 2.5rem);
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1.35;
 }

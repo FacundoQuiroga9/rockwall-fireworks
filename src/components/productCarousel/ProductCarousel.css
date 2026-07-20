@@ -1,101 +1,227 @@
 .carousel-container {
-  padding: 4rem 0;
+  width: 100%;
+  overflow: hidden;
+  contain: inline-size;
+  padding: clamp(3.5rem, 7vw, 6rem) 0;
   background-color: var(--blue);
+  color: #fff;
+}
+
+.carousel-heading {
+  display: flex;
+  width: min(100% - 2rem, 90rem);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
 }
 
 .carousel-title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-family: "Anton SC", sans-serif;
-  margin: 3rem 0;
-  color: white;
+  font-family: var(--primary-style);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.carousel-controls {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.75rem;
+}
+
+.carousel-control {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  place-items: center;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+  background-color: var(--orange);
+  color: #fff;
+  cursor: pointer;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    opacity 180ms ease;
+}
+
+.carousel-control span {
+  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
+  line-height: 0.7;
+  transform: translateY(-0.1rem);
+}
+
+.carousel-control:hover:not(:disabled),
+.carousel-control:focus-visible:not(:disabled) {
+  background-color: #fff;
+  color: var(--orange);
+}
+
+.carousel-control:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.product-carousel {
+  display: grid;
+  width: min(100%, 94rem);
+  grid-auto-columns: min(82vw, 19rem);
+  grid-auto-flow: column;
+  gap: clamp(0.9rem, 2vw, 1.5rem);
+  margin: 0 auto;
+  padding: 0 max(1rem, calc((100vw - 90rem) / 2)) 1rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-padding-inline: 1rem;
+  scroll-snap-type: inline mandatory;
+  scrollbar-color: var(--orange) transparent;
+  scrollbar-width: thin;
+}
+
+.product-carousel:focus-visible {
+  outline-offset: 0.35rem;
 }
 
 .product-card {
-  background-color: transparent;
-  border-radius: 10px;
-  max-width: 18rem;
-  padding: 1rem 0;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #17245f;
+  border-radius: 0.75rem;
+  background-color: rgb(255 255 255 / 2%);
   text-align: center;
-  border: 1px solid #071453;
-  height: 25rem;
+  scroll-snap-align: start;
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease;
 }
 
-.product-card:hover{
-  border: 1px solid #ff5215;
+.product-card:hover,
+.product-card:focus-within {
+  border-color: var(--orange);
+  transform: translateY(-0.2rem);
+}
+
+.product-image-frame {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 1;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 0.625rem;
 }
 
 .product-image {
   width: 100%;
-  height: 200px;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-image-fallback {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px dashed rgb(255 255 255 / 35%);
+  color: rgb(255 255 255 / 75%);
+  font-family: var(--secondary-style);
+}
+
+.product-image-fallback [aria-hidden="true"] {
+  color: var(--orange);
+  font-size: 2rem;
 }
 
 .product-name {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-bottom: 5px;
-  font-family: "Anton SC", sans-serif;
-  color: white;
+  margin-top: 1.25rem;
+  color: #fff;
+  font-family: var(--primary-style);
+  font-size: clamp(1.4rem, 3vw, 1.75rem);
+  line-height: 1.1;
 }
 
-p.product-category {
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 1rem 0;
-  font-family: "Jura", sans-serif !important;
+.product-category {
+  min-height: 1.5rem;
+  margin: 0.75rem 0;
+  color: rgb(255 255 255 / 82%);
+  font-family: var(--secondary-style);
+  font-weight: 700;
 }
 
 .product-features {
   display: flex;
+  min-height: 2.75rem;
+  align-items: center;
   justify-content: center;
-  gap: 10px;
-  font-family: "Anton SC", sans-serif;
+  margin-top: auto;
+  font-family: var(--primary-style);
 }
 
 .product-button {
-  padding: 8px 12px;
-  border: none;
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--orange);
+  border-radius: 0.35rem;
   background-color: var(--orange);
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  border: 1px solid var(--orange)
+  color: var(--color-surface);
+  text-transform: uppercase;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
 }
 
-.product-button:hover {
-  background-color: white;
-  color: var(--orange);
-  border: 1px solid var(--orange)
+.product-button:hover,
+.product-button:focus-visible {
+  background-color: #fff;
+  color: var(--color-surface);
 }
 
-/* Agrandar las flechas */
-.slick-prev,
-.slick-next {
-  width: 50px; /* Aumenta el ancho del botón */
-  height: 50px; /* Aumenta el alto del botón */
-  background-color: transparent; /* Cambia el color de fondo */
-  border-radius: 50%; /* Hace que las flechas sean circulares */
-  z-index: 1; /* Asegura que las flechas estén delante de otros elementos */
+.product-preview-unavailable {
+  color: rgb(255 255 255 / 62%);
+  font-family: var(--secondary-style);
+  font-size: 0.875rem;
 }
 
-.slick-prev::before,
-.slick-next::before {
-  font-size: 3rem;
-  color: #ff5215;
+.products-empty-state {
+  width: min(100% - 2rem, 50rem);
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  border: 1px dashed rgb(255 255 255 / 35%);
+  border-radius: 0.75rem;
+  color: #fff;
+  text-align: center;
 }
 
-/* Ajustar la posición de las flechas */
-.slick-prev {
-  left: 0px; /* Mueve la flecha izquierda hacia afuera del carrusel */
-  z-index: 1;
+@media (min-width: 36rem) {
+  .product-carousel {
+    grid-auto-columns: min(45vw, 20rem);
+  }
 }
 
-.slick-next {
-  right: 0px; /* Mueve la flecha derecha hacia afuera del carrusel */
-  z-index: 1;
+@media (min-width: 48rem) {
+  .product-carousel {
+    grid-auto-columns: min(31vw, 19rem);
+  }
+}
+
+@media (min-width: 75rem) {
+  .product-carousel {
+    grid-auto-columns: min(18vw, 17rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-card,
+  .product-button,
+  .carousel-control {
+    transition-duration: 0.01ms;
+  }
 }

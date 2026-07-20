@@ -1,0 +1,92 @@
+[
+  {
+    "id": "the-reaper",
+    "name": "The Reaper",
+    "category": "Cakes",
+    "image": "/images/products/the-reaper.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=FP8t9UP0Im8",
+    "sortOrder": 1
+  },
+  {
+    "id": "alien-attack",
+    "name": "Alien Attack",
+    "category": "Cakes",
+    "image": "/images/products/alien-attack.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=wTSWjZvHc_M",
+    "sortOrder": 2
+  },
+  {
+    "id": "festival-balls-reloadable",
+    "name": "Festival Balls",
+    "category": "Reloadables",
+    "image": "/images/products/festival-balls-reloadable.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=38JSR3cUynU",
+    "sortOrder": 3
+  },
+  {
+    "id": "neon-beef",
+    "name": "Neon Beef",
+    "category": "Artillery Shells",
+    "image": "/images/products/neon-beef.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=Qnw1EaEoHs4",
+    "sortOrder": 4
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "category": "Artillery Shells",
+    "image": "/images/products/diablo.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=oWgGZIkl8cA&t=6s",
+    "sortOrder": 5
+  },
+  {
+    "id": "night-rider",
+    "name": "Night Rider",
+    "category": "Cakes",
+    "image": "/images/products/night-rider.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=e9y7KeeEg6Q",
+    "sortOrder": 6
+  },
+  {
+    "id": "futurama-artillery",
+    "name": "Futurama Artillery",
+    "category": "Artillery Shells",
+    "image": "/images/products/futurama-artillery.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=dZRsu66-XiQ",
+    "sortOrder": 7
+  },
+  {
+    "id": "festival-balls-artillery",
+    "name": "Festival Balls",
+    "category": "Artillery Shells",
+    "image": "/images/products/festival-balls-artillery.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=IUaMk3dJlcA",
+    "sortOrder": 8
+  },
+  {
+    "id": "star-light",
+    "name": "Star Light",
+    "category": "Assortments",
+    "image": "/images/products/star-light.webp",
+    "featured": true,
+    "previewVideo": null,
+    "sortOrder": 9
+  },
+  {
+    "id": "action-zone",
+    "name": "Action Zone",
+    "category": "Assortments",
+    "image": "/images/products/action-zone.webp",
+    "featured": true,
+    "previewVideo": null,
+    "sortOrder": 10
+  }
+]

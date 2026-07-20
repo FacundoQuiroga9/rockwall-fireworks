@@ -1,43 +1,36 @@
 import './Brands.css'
-import Cutting from '../../images/ce.png'
-import BlackCat from '../../images/bc.png'
-import Brothers from '../../images/BROTHERS.gif'
-import Winda from '../../images/WINDA.png'
-import Raccoon from '../../images/Raccoon.png'
-import Monkey from '../../images/monkey.png'
-import Tsky from '../../images/tsky.png'
-import WCF from '../../images/wcf.png'
-import Boom from '../../images/boom.png'
-import HappyFamily from '../../images/happy-family.png'
+import brands from '../../data/brands.json'
+
+const getSmallBrandImage = (image) =>
+  image.endsWith('.webp') ? image.replace(/\.webp$/, '-160.webp') : image;
 
 const Brands = () => {
   return(
-    <>
-      <div className="box logos">
-        <div className="logos-slider">
-          <img src={Cutting} />
-          <img src={BlackCat} />
-          <img src={Winda} />
-          <img src={Tsky} />
-          <img src={Monkey} />
-          <img src={Raccoon} />
-          <img src={WCF} />
-          <img src={Brothers} />
-          <img src={Boom} />
-          <img src={HappyFamily} />
-          <img src={Cutting} />
-          <img src={BlackCat} />
-          <img src={Winda} />
-          <img src={Tsky} />
-          <img src={Monkey} />
-          <img src={Raccoon} />
-          <img src={WCF} />
-          <img src={Brothers} />
-          <img src={Boom} />
-          <img src={HappyFamily} />
-        </div>
+    <section className="logos" aria-label="Firework brands we carry">
+      <div className="logos-slider">
+        {[false, true].map((duplicate) => (
+          <div
+            className="logos-group"
+            aria-hidden={duplicate || undefined}
+            key={duplicate ? 'duplicate' : 'primary'}
+          >
+            {brands.map((brand) => (
+              <img
+                src={brand.image}
+                srcSet={`${getSmallBrandImage(brand.image)} 160w, ${brand.image} ${brand.width}w`}
+                sizes="(max-width: 44rem) 4rem, (max-width: 90rem) 9vw, 8rem"
+                alt={duplicate ? '' : `${brand.name} logo`}
+                width={brand.width}
+                height={brand.height}
+                loading="lazy"
+                decoding="async"
+                key={`${duplicate ? 'duplicate-' : ''}${brand.id}`}
+              />
+            ))}
+          </div>
+        ))}
       </div>
-    </>
+    </section>
   )
 }
 

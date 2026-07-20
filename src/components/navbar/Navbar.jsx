@@ -1,101 +1,149 @@
-import { useState } from 'react';
-import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { Link as ScrollLink, scroller } from 'react-scroll'; // Importar desde react-scroll
+import { useEffect, useRef, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { siteConfig } from '../../config/siteConfig';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
-  const [classSpan, setClassSpan] = useState(false);
-  const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
+  const menuButtonRef = useRef(null);
+  const navigationRef = useRef(null);
 
-  const openMenu = () => {
-    setMenu(!menu);
-    setClassSpan(!classSpan);
-  };
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname, location.hash]);
 
-  // Función para manejar el desplazamiento
-  const handleScroll = (sectionId) => {
-    if (location.pathname !== '/') {
-      // Si no estamos en la página principal, navegamos a ella
-      navigate('/');
-      // Esperamos un momento para que la página principal cargue antes de hacer scroll
-      setTimeout(() => {
-        scroller.scrollTo(sectionId, {
-          smooth: true,
-          duration: 500,
-          offset: -157, // Ajustar según el tamaño de la navbar
+  useEffect(() => {
+    const desktopMedia = window.matchMedia('(min-width: 53.76rem)');
+    const closeAtDesktop = ({ matches }) => {
+      if (matches) setMenuOpen(false);
+    };
+
+    desktopMedia.addEventListener('change', closeAtDesktop);
+
+    return () => {
+      desktopMedia.removeEventListener('change', closeAtDesktop);
+    };
+  }, []);
+
+  useEffect(() => {
+    document.body.classList.toggle('menu-open', menuOpen);
+    const backgroundElements = [
+      document.querySelector('main'),
+      document.querySelector('footer'),
+    ].filter(Boolean);
+    backgroundElements.forEach((element) => {
+      element.inert = menuOpen;
+    });
+
+    if (!menuOpen) {
+      return () => {
+        document.body.classList.remove('menu-open');
+        backgroundElements.forEach((element) => {
+          element.inert = false;
         });
-      }, 300);
-    } else {
-      // Si estamos en la página principal, simplemente desplazamos a la sección
-      scroller.scrollTo(sectionId, {
-        smooth: true,
-        duration: 500,
-        offset: -157,
-      });
+      };
     }
-    // Cerrar menú móvil al hacer clic en los enlaces
-    openMenu();
-  };
+
+    const navigation = navigationRef.current;
+    const firstNavigationLink = navigation?.querySelector('a');
+    const focusFrame = window.requestAnimationFrame(() => {
+      firstNavigationLink?.focus();
+    });
+
+    const handleMenuKeyboard = (event) => {
+      if (event.key === 'Escape') {
+        setMenuOpen(false);
+        window.requestAnimationFrame(() => menuButtonRef.current?.focus());
+        return;
+      }
+
+      if (event.key !== 'Tab') return;
+
+      const focusableElements = [
+        ...document.querySelectorAll(
+          '.sticky-nav a[href], .sticky-nav button:not(:disabled)',
+        ),
+      ].filter((element) => element.offsetParent !== null);
+      const firstElement = focusableElements[0];
+      const lastElement = focusableElements.at(-1);
+
+      if (event.shiftKey && document.activeElement === firstElement) {
+        event.preventDefault();
+        lastElement?.focus();
+      } else if (!event.shiftKey && document.activeElement === lastElement) {
+        event.preventDefault();
+        firstElement?.focus();
+      }
+    };
+
+    document.addEventListener('keydown', handleMenuKeyboard);
+
+    return () => {
+      window.cancelAnimationFrame(focusFrame);
+      document.removeEventListener('keydown', handleMenuKeyboard);
+      document.body.classList.remove('menu-open');
+      backgroundElements.forEach((element) => {
+        element.inert = false;
+      });
+    };
+  }, [menuOpen]);
 
   return (
-    <div className="sticky-nav">
+    <header className="sticky-nav">
       <div className="top-bar">
         <p>
-          <ion-icon name="ban"></ion-icon> No tariff tax guaranteed {''}
-          <ion-icon name="ban"></ion-icon>
+          <span aria-hidden="true">⊘</span>
+          {siteConfig.announcement}
+          <span aria-hidden="true">⊘</span>
         </p>
       </div>
-      <nav className="navbar navbar-expand-lg navbar-dark main-nav">
-        <Link className="navbar-brand" to="/" onClick={() => handleScroll('top')}>
-          <img src="/logotipo.png" alt="Rockwall fireworks Logo" className="navbar-logo" />
+      <nav className="main-nav" aria-label="Primary navigation">
+        <Link className="navbar-brand" to="/#top" onClick={() => setMenuOpen(false)}>
+          <img
+            src="/images/hero/rockwall-fireworks-logo.webp"
+            srcSet="/images/hero/rockwall-fireworks-logo-360.webp 360w, /images/hero/rockwall-fireworks-logo.webp 720w"
+            sizes="(max-width: 53.75rem) 48vw, 17.5rem"
+            alt="Rockwall Fireworks"
+            className="navbar-logo"
+            width="720"
+            height="214"
+          />
         </Link>
-        <div className={`header-nav ${menu ? 'active' : ''}`} id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('featured-products')}>
-                FEATURED PRODUCTS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('about')}>
-                ABOUT
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('contact')}>
-                CONTACT
-              </a>
-            </li>
+        <div
+          className={`header-nav ${menuOpen ? 'active' : ''}`}
+          id="primary-navigation"
+          ref={navigationRef}
+        >
+          <ul className="navbar-nav">
+            {siteConfig.navigation.map((item) => (
+              <li className="nav-item" key={item.sectionId}>
+                <Link
+                  className="nav-link"
+                  to={`/#${item.sectionId}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-        <button className="navbar-button" onClick={openMenu}>
-          <span className={`top-line-${classSpan ? 'clicked' : 'unclicked'}`}></span>
-          <span className={`middle-line-${classSpan ? 'clicked' : 'unclicked'}`}></span>
-          <span className={`bottom-line-${classSpan ? 'clicked' : 'unclicked'}`}></span>
+        <button
+          ref={menuButtonRef}
+          className="navbar-button"
+          type="button"
+          aria-label={`${menuOpen ? 'Close' : 'Open'} navigation menu`}
+          aria-expanded={menuOpen}
+          aria-controls="primary-navigation"
+          onClick={() => setMenuOpen((currentValue) => !currentValue)}
+        >
+          <span className={`top-line-${menuOpen ? 'clicked' : 'unclicked'}`} />
+          <span className={`middle-line-${menuOpen ? 'clicked' : 'unclicked'}`} />
+          <span className={`bottom-line-${menuOpen ? 'clicked' : 'unclicked'}`} />
         </button>
-        <div className={`mobile-nav ${menu ? 'active' : ''}`} id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('featured-products')}>
-                FEATURED PRODUCTS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('about')}>
-                ABOUT
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => handleScroll('contact')}>
-                CONTACT
-              </a>
-            </li>
-          </ul>
-        </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

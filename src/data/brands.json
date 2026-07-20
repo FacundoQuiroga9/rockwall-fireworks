@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cutting-edge",
+    "name": "Cutting Edge Fireworks",
+    "image": "/images/brands/cutting-edge.webp",
+    "width": 265,
+    "height": 265
+  },
+  {
+    "id": "black-cat",
+    "name": "Black Cat Fireworks",
+    "image": "/images/brands/black-cat.webp",
+    "width": 225,
+    "height": 225
+  },
+  {
+    "id": "winda",
+    "name": "Winda Fireworks",
+    "image": "/images/brands/winda.webp",
+    "width": 320,
+    "height": 320
+  },
+  {
+    "id": "t-sky",
+    "name": "T-Sky Fireworks",
+    "image": "/images/brands/t-sky.webp",
+    "width": 320,
+    "height": 92
+  },
+  {
+    "id": "monkey-mania",
+    "name": "Monkey Mania Fireworks",
+    "image": "/images/brands/monkey-mania.webp",
+    "width": 320,
+    "height": 319
+  },
+  {
+    "id": "raccoon",
+    "name": "Raccoon Fireworks",
+    "image": "/images/brands/raccoon.webp",
+    "width": 320,
+    "height": 320
+  },
+  {
+    "id": "world-class-fireworks",
+    "name": "World-Class Fireworks",
+    "image": "/images/brands/world-class-fireworks.webp",
+    "width": 320,
+    "height": 298
+  },
+  {
+    "id": "brothers",
+    "name": "Brothers Fireworks",
+    "image": "/images/brands/brothers.webp",
+    "width": 320,
+    "height": 320
+  },
+  {
+    "id": "boom-wow",
+    "name": "Boom Wow Fireworks",
+    "image": "/images/brands/boom-wow.webp",
+    "width": 320,
+    "height": 202
+  },
+  {
+    "id": "happy-family",
+    "name": "Happy Family Fireworks",
+    "image": "/images/brands/happy-family.webp",
+    "width": 320,
+    "height": 267
+  }
+]

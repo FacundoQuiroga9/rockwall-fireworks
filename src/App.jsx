@@ -1,43 +1,36 @@
-import './App.css';
-import Hero from './components/hero/Hero';
-import Navbar from './components/navbar/Navbar';
-import Brands from "./components/brands/Brands";
-import About from "./components/about/About";
-import Countdown from "./components/countdown/Countdown";
-import Contact from "./components/contact/Contact";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import ProductCarousel from './components/productCarousel/ProductCarousel';
-import Footer from "./components/footer/Footer";
-import TermsAndConditions from './components/termsAndConditions/TermsAndConditions'; // Importar el nuevo componente
+import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ScrollToTop from './components/scrollToTop/ScrollToTop'; // Importar ScrollToTop
-
+import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
 import Popup from './components/popup/Popup';
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
+import HomePage from './pages/HomePage';
+
+const TermsPage = lazy(() => import('./pages/TermsPage'));
 
 function App() {
   return (
     <Router>
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <ScrollToTop />
-      <Popup delayToShow={3000} autoCloseAfter={12000} />
+      <Popup />
       <Navbar />
       <Routes>
-        <Route path="/" element={
-          <>
-            <Hero />
-            <Brands />
-            <ProductCarousel />
-            <About />
-            <Countdown />
-            <Contact />
-          </>
-        } />
-        {/* Ruta para la página de términos y condiciones */}
-        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/terms-and-conditions"
+          element={
+            <Suspense fallback={<main className="route-loading">Loading…</main>}>
+              <TermsPage />
+            </Suspense>
+          }
+        />
       </Routes>
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;
