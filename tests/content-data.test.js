@@ -72,6 +72,9 @@ test('brand and shared commercial assets resolve to local files', async () => {
   );
   await assertPublicAssetExists(siteConfig.promotion.offersUrl);
   await assertPublicAssetExists(siteConfig.seo.socialImage);
+  await assertPublicAssetExists(siteConfig.mobileApp.mockupImage);
+  await assertPublicAssetExists(siteConfig.mobileApp.appStoreBadge);
+  await assertPublicAssetExists(siteConfig.mobileApp.googlePlayBadge);
 
   for (const paymentMethod of siteConfig.paymentMethods) {
     await assertPublicAssetExists(paymentMethod.image);
@@ -109,6 +112,72 @@ test('SEO files use real site data and valid structured JSON', async () => {
   );
   assert.match(robots, /Sitemap: https:\/\/www\.rockwallfireworks\.com\/sitemap\.xml/);
   assert.match(sitemap, /https:\/\/www\.rockwallfireworks\.com\/terms-and-conditions/);
+});
+
+test('app publication pages have routes, metadata, and hidden navigation', async () => {
+  const appSource = await readFile(
+    path.join(projectRoot, 'src/App.jsx'),
+    'utf8',
+  );
+  const footerSource = await readFile(
+    path.join(projectRoot, 'src/components/footer/Footer.jsx'),
+    'utf8',
+  );
+  const metadataSource = await readFile(
+    path.join(projectRoot, 'src/hooks/usePageMetadata.js'),
+    'utf8',
+  );
+  const sitemap = await readFile(
+    path.join(projectRoot, 'public/sitemap.xml'),
+    'utf8',
+  );
+  const hostingerFallback = await readFile(
+    path.join(projectRoot, 'public/.htaccess'),
+    'utf8',
+  );
+
+  const appPageSeo = [
+    siteConfig.seo.terms,
+    siteConfig.seo.appPrivacy,
+    siteConfig.seo.appSupport,
+    siteConfig.seo.mobileApp,
+  ];
+
+  for (const pageSeo of appPageSeo) {
+    assert.ok(pageSeo.path.startsWith('/'));
+    assert.ok(pageSeo.title.trim());
+    assert.ok(pageSeo.description.trim());
+    assert.match(appSource, new RegExp(`path="${pageSeo.path}"`));
+  }
+
+  for (const metadataName of [
+    'description',
+    'og:title',
+    'og:description',
+    'og:url',
+    'og:image',
+    'twitter:title',
+    'twitter:description',
+    'twitter:image',
+  ]) {
+    assert.match(metadataSource, new RegExp(`['"]${metadataName}['"]`));
+  }
+
+  assert.equal(siteConfig.mobileApp.appStoreUrl, '#');
+  assert.equal(siteConfig.mobileApp.googlePlayUrl, '#');
+  assert.doesNotMatch(footerSource, /\/mobile-app/);
+  assert.doesNotMatch(sitemap, /\/mobile-app/);
+
+  for (const publicPagePath of [
+    '/terms-and-conditions',
+    '/app-privacy',
+    '/app-support',
+  ]) {
+    assert.match(sitemap, new RegExp(publicPagePath));
+  }
+
+  assert.match(hostingerFallback, /RewriteEngine On/);
+  assert.match(hostingerFallback, /RewriteRule \. \/index\.html \[L\]/);
 });
 
 test('featured products are sorted without mutating the source data', () => {

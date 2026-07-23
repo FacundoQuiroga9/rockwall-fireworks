@@ -15,7 +15,25 @@ export const siteConfig = {
       path: '/terms-and-conditions',
       title: 'Terms & Conditions | Rockwall Fireworks',
       description:
-        'Read the terms and conditions for using the Rockwall Fireworks website.',
+        'Read the terms and conditions for using the informational Rockwall Fireworks mobile app.',
+    },
+    appPrivacy: {
+      path: '/app-privacy',
+      title: 'App Privacy Policy | Rockwall Fireworks',
+      description:
+        'Learn how the Rockwall Fireworks mobile app handles favorites, local storage, external links, and privacy.',
+    },
+    appSupport: {
+      path: '/app-support',
+      title: 'Mobile App Support | Rockwall Fireworks',
+      description:
+        'Get official support for the Rockwall Fireworks mobile app, find answers to common questions, and contact the store.',
+    },
+    mobileApp: {
+      path: '/mobile-app',
+      title: 'Rockwall Fireworks Mobile App | Official App',
+      description:
+        'Explore the Rockwall Fireworks mobile app for the product catalog, favorites, seasonal dates, store information, and safety guidance.',
     },
   },
   announcement: 'No tariff tax guaranteed',
@@ -40,6 +58,14 @@ export const siteConfig = {
     structured: '+1-214-471-3434',
   },
   email: 'contact@rockwallfireworks.com',
+  mobileApp: {
+    mockupImage: '/images/mobile/rockwall-fireworks-app-mockup.png',
+    appStoreBadge: '/images/mobile/store-badges/app-store.svg',
+    googlePlayBadge: '/images/mobile/store-badges/google-play.svg',
+    // TODO(app-release): Replace both placeholders with the public store listing URLs before announcing the App.
+    appStoreUrl: '#',
+    googlePlayUrl: '#',
+  },
   socialLinks: [
     {
       id: 'instagram',

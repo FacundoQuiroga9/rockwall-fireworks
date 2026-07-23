@@ -1,0 +1,293 @@
+.mobile-app-page {
+  background-color: var(--color-background);
+}
+
+.mobile-app-hero {
+  position: relative;
+  display: grid;
+  min-height: clamp(38rem, calc(100svh - var(--header-offset)), 52rem);
+  place-items: center;
+  overflow: hidden;
+  padding: clamp(3rem, 7vw, 6rem) var(--gutter);
+  color: var(--color-text-inverse);
+}
+
+.mobile-app-hero::before {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: var(--color-overlay);
+  content: "";
+}
+
+.mobile-app-hero__background {
+  position: absolute;
+  inset: 0;
+}
+
+.mobile-app-hero__background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.mobile-app-hero__content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: min(100%, var(--container-width));
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.75fr);
+}
+
+.mobile-app-hero__copy {
+  min-width: 0;
+}
+
+.mobile-app-eyebrow {
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mobile-app-hero h1,
+.mobile-app-section h2,
+.mobile-app-rewards h2 {
+  font-family: var(--font-display);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.mobile-app-hero h1 {
+  max-width: 46rem;
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+
+.mobile-app-hero__subtitle {
+  max-width: 42rem;
+  margin-top: clamp(1.25rem, 3vw, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.mobile-app-hero__mockup {
+  display: grid;
+  min-width: 0;
+  place-items: center;
+  margin: 0;
+}
+
+.mobile-app-hero__mockup img {
+  width: auto;
+  height: auto;
+  max-width: min(100%, 30rem);
+  max-height: 42rem;
+  object-fit: contain;
+}
+
+.mobile-app-benefits,
+.mobile-app-download,
+.mobile-app-rewards {
+  padding: var(--section-spacing) var(--gutter);
+}
+
+.mobile-app-benefits .mobile-app-eyebrow {
+  color: var(--color-primary-hover);
+  font-size: clamp(1.17rem, 2vw, 1.25rem);
+}
+
+.mobile-app-section {
+  width: min(100%, var(--content-width));
+  margin: 0 auto;
+}
+
+.mobile-app-section > h2,
+.mobile-app-rewards h2 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.mobile-app-section__intro {
+  max-width: 52rem;
+  margin-top: 1.25rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.mobile-app-benefits__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+}
+
+.mobile-app-benefit {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-radius: var(--radius-medium);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-small);
+  color: var(--color-text-inverse);
+}
+
+.mobile-app-benefit h3 {
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.mobile-app-benefit p {
+  margin-top: 0.75rem;
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  line-height: 1.65;
+}
+
+.mobile-app-download {
+  background-color: var(--color-surface);
+  color: var(--color-text-inverse);
+  text-align: center;
+}
+
+.mobile-app-download .mobile-app-eyebrow,
+.mobile-app-download .mobile-app-section__intro {
+  margin-inline: auto;
+}
+
+.mobile-app-download__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: clamp(0.75rem, 2vw, 1rem);
+  margin-top: clamp(2rem, 5vw, 3rem);
+}
+
+.mobile-app-download__link {
+  display: flex;
+  width: min(100%, 17rem);
+  min-height: 5.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1rem;
+  border: 0.15rem solid var(--color-primary);
+  border-radius: var(--radius-medium);
+  background-color: var(--color-surface-elevated);
+  box-shadow: var(--shadow-small);
+  color: var(--color-primary);
+  overflow: hidden;
+  transition:
+    background-color 220ms ease-in-out,
+    border-color 220ms ease-in-out,
+    box-shadow 220ms ease-in-out,
+    color 220ms ease-in-out,
+    transform 220ms ease-in-out;
+}
+
+.mobile-app-download__badge {
+  display: block;
+  width: min(100%, 13.6rem);
+  aspect-ratio: 217.6 / 64.1;
+  background-color: currentColor;
+  mask: var(--store-badge-image) center / contain no-repeat;
+  mask-mode: alpha;
+  transition: background-color 220ms ease-in-out;
+  -webkit-mask: var(--store-badge-image) center / contain no-repeat;
+}
+
+.mobile-app-download__badge--app-store {
+  --store-badge-image: url("/images/mobile/store-badges/app-store.svg");
+}
+
+.mobile-app-download__badge--google-play {
+  --store-badge-image: url("/images/mobile/store-badges/google-play.svg");
+}
+
+.mobile-app-download__link:hover,
+.mobile-app-download__link:focus-visible {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  box-shadow:
+    0 0.55rem 1.25rem rgb(0 0 0 / 28%),
+    0 0 0 0.1rem rgb(255 82 21 / 22%);
+  color: var(--color-text-inverse);
+  transform: translateY(-0.125rem);
+}
+
+.mobile-app-download__link:focus-visible {
+  outline-offset: 0.25rem;
+}
+
+.mobile-app-download__link:active {
+  box-shadow: var(--shadow-small);
+  transform: translateY(0) scale(0.985);
+}
+
+.mobile-app-download__link[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.mobile-app-rewards__content {
+  width: min(100%, var(--content-width));
+  margin: 0 auto;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  border-left: 0.4rem solid var(--color-primary);
+  border-radius: var(--radius-medium);
+  background-color: var(--color-surface);
+  color: var(--color-text-inverse);
+}
+
+.mobile-app-rewards__content > p:last-child {
+  max-width: 52rem;
+  margin-top: 1rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  line-height: 1.6;
+}
+
+@media (max-width: 47.99rem) {
+  .mobile-app-hero {
+    min-height: 0;
+    padding-block: clamp(2.5rem, 10vw, 4rem);
+    text-align: center;
+  }
+
+  .mobile-app-hero__content {
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-app-hero__mockup {
+    order: -1;
+  }
+
+  .mobile-app-hero__mockup img {
+    width: auto;
+    max-width: min(78vw, 21rem);
+    max-height: 29rem;
+  }
+
+  .mobile-app-benefits__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 37.49rem) {
+  .mobile-app-download__links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-app-download__link:hover,
+  .mobile-app-download__link:focus-visible,
+  .mobile-app-download__link:active {
+    transform: none;
+  }
+}

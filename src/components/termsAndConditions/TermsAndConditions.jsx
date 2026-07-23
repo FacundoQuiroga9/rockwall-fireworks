@@ -1,58 +1,129 @@
-import './TermsAndConditions.css';
 import { siteConfig } from '../../config/siteConfig';
+import ContentPage, {
+  ContentSection,
+} from '../contentPage/ContentPage';
 
 const TermsAndConditions = () => {
   return (
-    <div className="terms-container">
-      <h1>Terms & Conditions</h1>
-
-      <section>
-        <h2>1. Introduction</h2>
+    <ContentPage
+      description="These Terms govern your use of the Rockwall Fireworks mobile application and its informational content."
+      eyebrow="Rockwall Fireworks Mobile App"
+      title="Terms & Conditions"
+    >
+      <ContentSection title="1. Acceptance of Terms">
         <p>
-          Welcome to Rockwall Fireworks. These terms and conditions outline the rules and regulations for the use of our website and services.
-          By accessing this website, we assume you accept these terms and conditions. Do not continue to use Rockwall Fireworks if you do not agree to all of the terms and conditions stated on this page.
+          By downloading, accessing, or using the Rockwall Fireworks mobile
+          application (the “App”), you agree to these Terms &amp; Conditions.
+          If you do not agree, please do not use the App.
         </p>
-      </section>
+      </ContentSection>
 
-      <section>
-        <h2>2. License</h2>
+      <ContentSection title="2. Informational Use">
         <p>
-          Unless otherwise stated, Rockwall Fireworks and/or its licensors own the intellectual property rights for all material on Rockwall Fireworks.
-          All intellectual property rights are reserved. You may access this from Rockwall Fireworks for your own personal use, subject to restrictions set in these terms and conditions.
+          The App is provided for general informational purposes. It may
+          present the Rockwall Fireworks product catalog, seasonal opening
+          information, store details, favorites, and safety guidance. You may
+          use this information only for lawful, personal, and non-commercial
+          purposes.
         </p>
-      </section>
+      </ContentSection>
 
-      <section>
-        <h2>3. User Responsibilities</h2>
+      <ContentSection title="3. Product Information Disclaimer">
         <p>
-          As a user of this site, you agree not to misuse the information or services provided. You are prohibited from using this site to carry out illegal activities or infringe on others’ rights.
+          Product names, images, descriptions, availability, and other catalog
+          details may change by season and may contain inadvertent errors.
+          Packaging and manufacturer instructions are the controlling source
+          for product-specific information. Contact or visit Rockwall
+          Fireworks to confirm current information.
         </p>
-      </section>
+      </ContentSection>
 
-
-      <section>
-        <h2>4. Limitation of Liability</h2>
+      <ContentSection title="4. Safety">
         <p>
-          Rockwall Fireworks is not responsible for any damages that may arise from the use of this website. All content is provided “as is” without warranty of any kind.
+          Fireworks can cause serious injury, fire, or property damage when
+          handled incorrectly. Always follow product labels, manufacturer
+          instructions, age restrictions, burn bans, and all applicable laws.
+          Use responsible adult supervision and keep water readily available.
+          Safety information in the App is general guidance and does not
+          replace official instructions, emergency services, or professional
+          advice.
         </p>
-      </section>
+      </ContentSection>
 
-      <section>
-        <h2>5. Changes to the Terms</h2>
+      <ContentSection title="5. Intellectual Property">
         <p>
-          We may update these terms and conditions from time to time. If changes are made, they will be reflected on this page, and the “last updated” date will be revised accordingly.
+          The App and its original text, branding, graphics, layout, and other
+          content are owned by Rockwall Fireworks or used with permission.
+          Product names, logos, and marks may belong to their respective
+          owners. You may not copy, distribute, modify, or exploit App content
+          without prior written permission, except as allowed by law.
         </p>
-      </section>
+      </ContentSection>
 
-      <section>
-        <h2>6. Contact Us</h2>
+      <ContentSection title="6. External Links">
         <p>
-          If you have any questions or concerns about these terms and conditions, please contact us at <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
+          The App may open third-party resources such as maps, social media,
+          product videos, and official safety information. Rockwall Fireworks
+          does not control those services and is not responsible for their
+          content, availability, security, or privacy practices. Your use of a
+          third-party service is subject to that provider’s terms.
         </p>
-      </section>
+      </ContentSection>
 
-      <p className="last-updated">Last updated: September 6, 2024</p>
-    </div>
+      <ContentSection title="7. Limitation of Liability">
+        <p>
+          To the fullest extent permitted by law, the App and its content are
+          provided “as is” and “as available,” without warranties of any kind.
+          Rockwall Fireworks is not liable for losses or damages arising from
+          reliance on App content, inability to use the App, use of external
+          services, or improper use of fireworks. Nothing in these Terms
+          excludes liability that cannot legally be excluded.
+        </p>
+      </ContentSection>
+
+      <ContentSection title="8. Changes to These Terms">
+        <p>
+          We may update these Terms as the App or applicable requirements
+          change. The revised version will be posted at this URL with a new
+          “Last updated” date. Continued use of the App after an update means
+          you accept the revised Terms.
+        </p>
+      </ContentSection>
+
+      <ContentSection title="9. Contact Information">
+        <p>
+          Questions about these Terms may be directed to Rockwall Fireworks:
+        </p>
+        <dl className="content-page__contact-list">
+          <div>
+            <dt>Email</dt>
+            <dd>
+              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd>
+              <a href={siteConfig.phone.href}>{siteConfig.phone.display}</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Address</dt>
+            <dd>
+              <a
+                href={siteConfig.address.mapsUrl}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {siteConfig.address.display}
+              </a>
+            </dd>
+          </div>
+        </dl>
+      </ContentSection>
+
+      <p className="content-page__updated">Last updated: July 23, 2026</p>
+    </ContentPage>
   );
 };
 

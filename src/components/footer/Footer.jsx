@@ -25,14 +25,27 @@ const Footer = () => {
                 height={paymentMethod.height}
                 loading="lazy"
                 decoding="async"
+                style={{
+                  width: `${((1.5 * paymentMethod.width) / paymentMethod.height).toFixed(3)}rem`,
+                }}
                 key={paymentMethod.id}
               />
             ))}
           </div>
         </div>
         <div className="footer-section">
-          <h2>Terms & Conditions</h2>
-          <Link to="/terms-and-conditions" className='footer-link'>Read here</Link>
+          <h2>Legal &amp; App</h2>
+          <nav aria-label="Legal and app support" className="footer-legal-links">
+            <Link to="/app-privacy" className="footer-link">
+              Privacy Policy
+            </Link>
+            <Link to="/terms-and-conditions" className="footer-link">
+              Terms &amp; Conditions
+            </Link>
+            <Link to="/app-support" className="footer-link">
+              App Support
+            </Link>
+          </nav>
         </div>
         <div className="footer-section">
           <h2>Developed by</h2>

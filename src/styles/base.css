@@ -158,7 +158,7 @@ button {
 }
 
 .route-loading {
-  min-height: 50vh;
+  min-height: calc(100svh - var(--header-offset));
   padding: var(--section-spacing) var(--gutter);
   background-color: var(--color-surface);
   color: var(--color-text-inverse);

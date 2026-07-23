@@ -263,8 +263,22 @@ const metricsExpression = String.raw`
           document.querySelector('meta[name="description"]')?.content ?? '',
         canonical:
           document.querySelector('link[rel="canonical"]')?.href ?? '',
+        ogTitle:
+          document.querySelector('meta[property="og:title"]')?.content ?? '',
+        ogDescription:
+          document.querySelector('meta[property="og:description"]')?.content ??
+          '',
+        ogUrl:
+          document.querySelector('meta[property="og:url"]')?.content ?? '',
         ogImage:
           document.querySelector('meta[property="og:image"]')?.content ?? '',
+        twitterTitle:
+          document.querySelector('meta[name="twitter:title"]')?.content ?? '',
+        twitterDescription:
+          document.querySelector('meta[name="twitter:description"]')?.content ??
+          '',
+        twitterImage:
+          document.querySelector('meta[name="twitter:image"]')?.content ?? '',
       },
       duplicateIds,
       images: [...document.images].map((image) => ({
@@ -314,6 +328,75 @@ const metricsExpression = String.raw`
         resources: resourceEntries,
       },
       fontStatus: document.fonts.status,
+    };
+  })()
+`;
+
+const downloadButtonsExpression = String.raw`
+  (() => {
+    const getRect = (element) => {
+      const rect = element.getBoundingClientRect();
+      return {
+        x: Math.round(rect.x),
+        y: Math.round(rect.y),
+        width: Math.round(rect.width),
+        height: Math.round(rect.height),
+        right: Math.round(rect.right),
+        bottom: Math.round(rect.bottom),
+      };
+    };
+
+    return {
+      activeElementLabel:
+        document.activeElement?.getAttribute('aria-label') ?? '',
+      hash: location.hash,
+      scrollY: Math.round(window.scrollY),
+      reducedMotion: matchMedia('(prefers-reduced-motion: reduce)').matches,
+      buttons: [
+        ...document.querySelectorAll('.mobile-app-download__link'),
+      ].map((link) => {
+        const badge = link.querySelector('.mobile-app-download__badge');
+        const image = link.querySelector('img');
+        const style = getComputedStyle(link);
+        const badgeStyle = badge ? getComputedStyle(badge) : null;
+
+        return {
+          ariaDisabled: link.getAttribute('aria-disabled'),
+          ariaLabel: link.getAttribute('aria-label'),
+          href: link.getAttribute('href'),
+          rect: getRect(link),
+          badge: badge
+            ? {
+                backgroundColor: badgeStyle.backgroundColor,
+                maskImage: badgeStyle.maskImage,
+                rect: getRect(badge),
+                webkitMaskImage: badgeStyle.webkitMaskImage,
+              }
+            : null,
+          image: image
+            ? {
+                alt: image.alt,
+                complete: image.complete,
+                naturalWidth: image.naturalWidth,
+                naturalHeight: image.naturalHeight,
+                rect: getRect(image),
+                src: image.currentSrc || image.src,
+              }
+            : null,
+          style: {
+            backgroundColor: style.backgroundColor,
+            borderColor: style.borderColor,
+            boxShadow: style.boxShadow,
+            color: style.color,
+            cursor: style.cursor,
+            outlineColor: style.outlineColor,
+            outlineStyle: style.outlineStyle,
+            outlineWidth: style.outlineWidth,
+            transform: style.transform,
+            transitionDuration: style.transitionDuration,
+          },
+        };
+      }),
     };
   })()
 `;
@@ -593,6 +676,190 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
     }
   }
 
+  if (pathname === '/mobile-app') {
+    const mobileAppSections = [390, 1440].includes(viewport.width)
+      ? [
+          ['benefits', '.mobile-app-benefits'],
+          ['download', '.mobile-app-download'],
+          ['rewards', '.mobile-app-rewards'],
+        ]
+      : [['download', '.mobile-app-download']];
+
+    for (const [sectionName, selector] of mobileAppSections) {
+      await client.send('Runtime.evaluate', {
+        expression: `
+          (() => {
+            const element = document.querySelector('${selector}');
+            const header = document.querySelector('.sticky-nav');
+            if (!element) return;
+            window.scrollTo({
+              top: element.offsetTop - (header?.offsetHeight ?? 0),
+              behavior: 'instant',
+            });
+          })()
+        `,
+      });
+      await delay(500);
+      const sectionScreenshot = await client.send('Page.captureScreenshot', {
+        format: 'png',
+        fromSurface: true,
+        captureBeyondViewport: false,
+      });
+      const sectionScreenshotPath = path.join(
+        OUTPUT_DIRECTORY,
+        `${LABEL}-${viewport.width}-mobile-app-${sectionName}.png`,
+      );
+      await writeFile(
+        sectionScreenshotPath,
+        sectionScreenshot.data,
+        'base64',
+      );
+      sectionScreenshots.push(sectionScreenshotPath);
+    }
+  }
+
+  let downloadButtonAudit = null;
+  if (pathname === '/mobile-app') {
+    await client.send('Runtime.evaluate', {
+      expression: `
+        (() => {
+          const element = document.querySelector('.mobile-app-download');
+          const header = document.querySelector('.sticky-nav');
+          if (!element) return;
+          window.scrollTo({
+            top: element.offsetTop - (header?.offsetHeight ?? 0),
+            behavior: 'instant',
+          });
+        })()
+      `,
+    });
+    await delay(250);
+
+    const evaluateDownloadButtons = async () => {
+      const state = await client.send('Runtime.evaluate', {
+        expression: downloadButtonsExpression,
+        returnByValue: true,
+      });
+      return state.result.value;
+    };
+
+    const normal = await evaluateDownloadButtons();
+    const firstButton = normal.buttons[0];
+
+    if (firstButton) {
+      const point = {
+        x: firstButton.rect.x + firstButton.rect.width / 2,
+        y: firstButton.rect.y + firstButton.rect.height / 2,
+      };
+
+      await client.send('Input.dispatchMouseEvent', {
+        type: 'mouseMoved',
+        ...point,
+      });
+      await delay(250);
+      const hover = await evaluateDownloadButtons();
+
+      await client.send('Input.dispatchMouseEvent', {
+        type: 'mousePressed',
+        button: 'left',
+        buttons: 1,
+        clickCount: 1,
+        ...point,
+      });
+      await delay(250);
+      const active = await evaluateDownloadButtons();
+      await client.send('Input.dispatchMouseEvent', {
+        type: 'mouseReleased',
+        button: 'left',
+        buttons: 0,
+        clickCount: 1,
+        ...point,
+      });
+
+      await client.send('Input.dispatchMouseEvent', {
+        type: 'mouseMoved',
+        x: 0,
+        y: 0,
+      });
+      await client.send('Runtime.evaluate', {
+        expression:
+          "document.querySelectorAll('.mobile-app-download__link')[1]?.focus({ preventScroll: true })",
+      });
+      await client.send('Input.dispatchKeyEvent', {
+        type: 'keyDown',
+        key: 'Tab',
+        code: 'Tab',
+        modifiers: 8,
+        windowsVirtualKeyCode: 9,
+      });
+      await client.send('Input.dispatchKeyEvent', {
+        type: 'keyUp',
+        key: 'Tab',
+        code: 'Tab',
+        modifiers: 8,
+        windowsVirtualKeyCode: 9,
+      });
+      await delay(250);
+      const focus = await evaluateDownloadButtons();
+
+      const placeholderClick = await client.send('Runtime.evaluate', {
+        expression: `
+          (() => {
+            const link = document.querySelector('.mobile-app-download__link');
+            const before = {
+              hash: location.hash,
+              scrollY: Math.round(window.scrollY),
+            };
+            link?.click();
+            return {
+              before,
+              after: {
+                hash: location.hash,
+                scrollY: Math.round(window.scrollY),
+              },
+            };
+          })()
+        `,
+        returnByValue: true,
+      });
+
+      await client.send('Emulation.setEmulatedMedia', {
+        features: [{ name: 'prefers-reduced-motion', value: 'reduce' }],
+      });
+      await delay(50);
+      const reducedMotion = await evaluateDownloadButtons();
+
+      let focusScreenshotPath = null;
+      if ([390, 1440].includes(viewport.width)) {
+        const focusScreenshot = await client.send('Page.captureScreenshot', {
+          format: 'png',
+          fromSurface: true,
+          captureBeyondViewport: false,
+        });
+        focusScreenshotPath = path.join(
+          OUTPUT_DIRECTORY,
+          `${LABEL}-${viewport.width}-mobile-app-download-focus.png`,
+        );
+        await writeFile(
+          focusScreenshotPath,
+          focusScreenshot.data,
+          'base64',
+        );
+        sectionScreenshots.push(focusScreenshotPath);
+      }
+
+      downloadButtonAudit = {
+        normal,
+        hover,
+        active,
+        focus,
+        placeholderClick: placeholderClick.result.value,
+        reducedMotion,
+        focusScreenshot: focusScreenshotPath,
+      };
+    }
+  }
+
   const result = {
     ...evaluation.result.value,
     consoleMessages,
@@ -601,6 +868,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
     errorResponses,
     screenshot: screenshotPath,
     sectionScreenshots,
+    downloadButtonAudit,
     menuAudit,
     dialogAudit,
   };
@@ -618,12 +886,24 @@ for (const viewport of viewports) {
 }
 
 const routeResults = [];
-for (const viewport of viewports.filter(({ width }) =>
-  [390, 1440].includes(width),
-)) {
-  routeResults.push(
-    await auditViewport(viewport, '/terms-and-conditions', '-terms'),
-  );
+const auditedRoutes = [
+  '/terms-and-conditions',
+  '/app-privacy',
+  '/app-support',
+  '/mobile-app',
+];
+
+for (const viewport of viewports) {
+  const routesForViewport = [390, 1440].includes(viewport.width)
+    ? auditedRoutes
+    : ['/mobile-app'];
+
+  for (const pathname of routesForViewport) {
+    const screenshotSuffix = `-${pathname.slice(1)}`;
+    routeResults.push(
+      await auditViewport(viewport, pathname, screenshotSuffix),
+    );
+  }
 }
 
 const report = {

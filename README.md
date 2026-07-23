@@ -23,7 +23,7 @@ npm run preview
 
 ## Organización
 
-- `src/pages/`: páginas de inicio y términos.
+- `src/pages/`: inicio y páginas informativas para la aplicación móvil.
 - `src/components/`: secciones y componentes de interfaz.
 - `src/data/products.json`: catálogo estático, destacados y orden.
 - `src/data/brands.json`: marcas que se muestran en la franja animada.
@@ -52,9 +52,9 @@ deben confirmarse antes de cada temporada.
 ## Despliegue
 
 Se puede publicar el contenido de `dist/` en un hosting estático convencional.
-Como el sitio usa `BrowserRouter`, el hosting debe devolver `index.html` para
-la ruta `/terms-and-conditions` y otras navegaciones internas. No hace falta
-SSR ni un servidor de aplicación.
+Como el sitio usa `BrowserRouter`, `public/.htaccess` configura el fallback a
+`index.html` para Hostinger/LiteSpeed y evita errores 404 al visitar rutas
+internas directamente. No hace falta SSR ni un servidor de aplicación.
 
 La auditoría inicial, el plan y el resultado final están documentados en
 `SITE_AUDIT.md`, `SITE_OPTIMIZATION_PLAN.md` y
