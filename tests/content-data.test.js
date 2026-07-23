@@ -177,7 +177,17 @@ test('app publication pages have routes, metadata, and hidden navigation', async
   }
 
   assert.match(hostingerFallback, /RewriteEngine On/);
-  assert.match(hostingerFallback, /RewriteRule \. \/index\.html \[L\]/);
+  assert.match(
+    hostingerFallback,
+    /RewriteCond %\{REQUEST_FILENAME\} -f \[OR\]/,
+  );
+  assert.match(
+    hostingerFallback,
+    /RewriteCond %\{REQUEST_FILENAME\} -d/,
+  );
+  assert.match(hostingerFallback, /RewriteRule \^ - \[L\]/);
+  assert.match(hostingerFallback, /RewriteRule \^ index\.html \[L\]/);
+  assert.doesNotMatch(hostingerFallback, /\bR=(?:301|302)\b/);
 });
 
 test('featured products are sorted without mutating the source data', () => {
