@@ -16,7 +16,6 @@ const Hero = () => {
           width="1440"
           height="1440"
           decoding="async"
-          fetchPriority="high"
         />
       </picture>
       <div className="hero-content">
@@ -30,7 +29,6 @@ const Hero = () => {
             width="800"
             height="735"
             decoding="async"
-            fetchPriority="low"
           />
         </div>
         <div className="hero-right">

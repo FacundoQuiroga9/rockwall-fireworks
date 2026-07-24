@@ -54,7 +54,6 @@ const MobileAppPage = () => {
           <img
             alt=""
             decoding="async"
-            fetchPriority="high"
             height="1440"
             src="/images/hero/fireworks-bg-1440.webp"
             width="1440"
@@ -74,7 +73,6 @@ const MobileAppPage = () => {
             <img
               alt="Rockwall Fireworks mobile app shown on a phone"
               decoding="async"
-              fetchPriority="low"
               height="1536"
               src={siteConfig.mobileApp.mockupImage}
               width="1024"

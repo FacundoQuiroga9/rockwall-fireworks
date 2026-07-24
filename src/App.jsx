@@ -12,7 +12,12 @@ const AppSupportPage = lazy(() => import('./pages/AppSupportPage'));
 
 function App() {
   return (
-    <Router>
+    <Router
+      future={{
+        v7_relativeSplatPath: true,
+        v7_startTransition: true,
+      }}
+    >
       <a className="skip-link" href="#main-content">
         Skip to main content
       </a>
