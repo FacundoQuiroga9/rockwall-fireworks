@@ -120,6 +120,8 @@ const MobileAppPage = () => {
               aria-label="Download on the App Store"
               className="mobile-app-download__link"
               href={siteConfig.mobileApp.appStoreUrl}
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <span
                 aria-hidden="true"
