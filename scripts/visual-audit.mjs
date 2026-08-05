@@ -735,6 +735,14 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
     });
     await delay(250);
 
+    await client.send('Runtime.evaluate', {
+      expression: `
+        document
+          .querySelector('.mobile-app-download__link:not([aria-disabled="true"])')
+          ?.addEventListener('click', (event) => event.preventDefault())
+      `,
+    });
+
     const evaluateDownloadButtons = async () => {
       const state = await client.send('Runtime.evaluate', {
         expression: downloadButtonsExpression,

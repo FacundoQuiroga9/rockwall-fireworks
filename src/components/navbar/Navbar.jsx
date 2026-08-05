@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { siteConfig } from '../../config/siteConfig';
 import './Navbar.css';
 
@@ -127,6 +127,15 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/mobile-app"
+                onClick={() => setMenuOpen(false)}
+              >
+                Mobile App
+              </NavLink>
+            </li>
           </ul>
         </div>
         <button

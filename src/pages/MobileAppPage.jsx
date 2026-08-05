@@ -109,21 +109,17 @@ const MobileAppPage = () => {
         aria-labelledby="mobile-app-download-title"
       >
         <div className="mobile-app-section">
-          <p className="mobile-app-eyebrow">Coming soon</p>
+          <p className="mobile-app-eyebrow">Available on the App Store</p>
           <h2 id="mobile-app-download-title">Download the App</h2>
           <p className="mobile-app-section__intro">
-            The official store listings will be linked here as soon as the App
-            is published.
+            The Rockwall Fireworks app is available now on the App Store.
           </p>
 
           <div className="mobile-app-download__links">
-            {/* TODO: Replace with official App Store URL */}
             <a
-              aria-label="Download on the App Store (coming soon)"
-              aria-disabled="true"
+              aria-label="Download on the App Store"
               className="mobile-app-download__link"
               href={siteConfig.mobileApp.appStoreUrl}
-              onClick={preventUnavailableDownload}
             >
               <span
                 aria-hidden="true"

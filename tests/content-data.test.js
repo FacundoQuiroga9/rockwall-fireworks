@@ -114,9 +114,13 @@ test('SEO files use real site data and valid structured JSON', async () => {
   assert.match(sitemap, /https:\/\/www\.rockwallfireworks\.com\/terms-and-conditions/);
 });
 
-test('app publication pages have routes, metadata, and hidden navigation', async () => {
+test('app publication pages have routes, metadata, and public navigation', async () => {
   const appSource = await readFile(
     path.join(projectRoot, 'src/App.jsx'),
+    'utf8',
+  );
+  const navbarSource = await readFile(
+    path.join(projectRoot, 'src/components/navbar/Navbar.jsx'),
     'utf8',
   );
   const footerSource = await readFile(
@@ -163,10 +167,14 @@ test('app publication pages have routes, metadata, and hidden navigation', async
     assert.match(metadataSource, new RegExp(`['"]${metadataName}['"]`));
   }
 
-  assert.equal(siteConfig.mobileApp.appStoreUrl, '#');
+  assert.equal(
+    siteConfig.mobileApp.appStoreUrl,
+    'https://apps.apple.com/us/app/id6793552663',
+  );
   assert.equal(siteConfig.mobileApp.googlePlayUrl, '#');
-  assert.doesNotMatch(footerSource, /\/mobile-app/);
-  assert.doesNotMatch(sitemap, /\/mobile-app/);
+  assert.match(navbarSource, /to="\/mobile-app"/);
+  assert.match(footerSource, /to="\/mobile-app"/);
+  assert.match(sitemap, /\/mobile-app/);
 
   for (const publicPagePath of [
     '/terms-and-conditions',

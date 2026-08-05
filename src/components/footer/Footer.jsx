@@ -36,6 +36,9 @@ const Footer = () => {
         <div className="footer-section">
           <h2>Legal &amp; App</h2>
           <nav aria-label="Legal and app support" className="footer-legal-links">
+            <Link to="/mobile-app" className="footer-link">
+              Mobile App
+            </Link>
             <Link to="/app-privacy" className="footer-link">
               Privacy Policy
             </Link>

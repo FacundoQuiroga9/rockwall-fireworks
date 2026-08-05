@@ -62,8 +62,8 @@ export const siteConfig = {
     mockupImage: '/images/mobile/rockwall-fireworks-app-mockup.png',
     appStoreBadge: '/images/mobile/store-badges/app-store.svg',
     googlePlayBadge: '/images/mobile/store-badges/google-play.svg',
-    // TODO(app-release): Replace both placeholders with the public store listing URLs before announcing the App.
-    appStoreUrl: '#',
+    appStoreUrl: 'https://apps.apple.com/us/app/id6793552663',
+    // TODO(app-release): Replace this placeholder with the public Google Play listing URL.
     googlePlayUrl: '#',
   },
   socialLinks: [
