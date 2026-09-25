@@ -1,293 +1,475 @@
-.mobile-app-page {
-  background-color: var(--color-background);
-}
-
 .mobile-app-hero {
-  position: relative;
-  display: grid;
-  min-height: clamp(38rem, calc(100svh - var(--header-offset)), 52rem);
-  place-items: center;
+  background: radial-gradient(ellipse at 80% 50%, #152360 0%, #00051e 60%);
+  color: white;
   overflow: hidden;
-  padding: clamp(3rem, 7vw, 6rem) var(--gutter);
-  color: var(--color-text-inverse);
-}
-
-.mobile-app-hero::before {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  background: var(--color-overlay);
-  content: "";
-}
-
-.mobile-app-hero__background {
-  position: absolute;
-  inset: 0;
-}
-
-.mobile-app-hero__background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 
 .mobile-app-hero__content {
-  position: relative;
-  z-index: 2;
   display: grid;
-  width: min(100%, var(--container-width));
+  grid-template-columns: 1.15fr 1fr;
   align-items: center;
-  gap: clamp(2rem, 6vw, 6rem);
-  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.75fr);
+  gap: 2rem;
+  min-height: 720px;
 }
 
 .mobile-app-hero__copy {
-  min-width: 0;
+  padding-block: 2rem 3rem;
+  position: relative;
+  z-index: 2;
 }
 
-.mobile-app-eyebrow {
-  margin-bottom: 0.75rem;
+.app-back {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  color: #c0c6dc;
+  font-size: .75rem;
+  margin-bottom: 2.5rem;
+}
+
+.app-back:hover {
   color: var(--color-primary);
-  font-size: clamp(0.8rem, 2vw, 0.95rem);
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
-.mobile-app-hero h1,
-.mobile-app-section h2,
-.mobile-app-rewards h2 {
-  font-family: var(--font-display);
-  line-height: 1;
-  text-transform: uppercase;
+.mobile-app-hero .eyebrow {
+  color: #ffb497;
+  margin-bottom: 1.5rem;
+  font-size: .7rem;
 }
 
 .mobile-app-hero h1 {
-  max-width: 46rem;
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-family: var(--font-display);
+  font-size: clamp(3.7rem, 6.8vw, 6.6rem);
+  font-weight: 400;
+  line-height: 1.03;
+  letter-spacing: -.02em;
+}
+
+.mobile-app-hero h1 span {
+  color: var(--color-primary);
 }
 
 .mobile-app-hero__subtitle {
-  max-width: 42rem;
-  margin-top: clamp(1.25rem, 3vw, 2rem);
-  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-  font-weight: 700;
-  line-height: 1.4;
+  margin-block: 1.6rem 2rem;
+  max-width: 29rem;
+  color: #cfd4e5;
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+
+.app-explore {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 2rem;
+  color: #c5cde2;
+  font-size: .75rem;
+  text-decoration: underline;
+  text-underline-offset: .4em;
+}
+
+.app-explore:hover {
+  color: var(--color-primary);
+}
+
+.mobile-app-hero__visual {
+  position: relative;
+  height: 700px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
 }
 
 .mobile-app-hero__mockup {
-  display: grid;
-  min-width: 0;
-  place-items: center;
-  margin: 0;
-}
-
-.mobile-app-hero__mockup img {
-  width: auto;
-  height: auto;
-  max-width: min(100%, 30rem);
-  max-height: 42rem;
+  width: 440px;
+  max-height: 100%;
   object-fit: contain;
+  transform: rotate(5deg);
+  position: relative;
+  z-index: 1;
 }
 
-.mobile-app-benefits,
-.mobile-app-download,
-.mobile-app-rewards {
-  padding: var(--section-spacing) var(--gutter);
+.phone-orbit {
+  width: 110%;
+  aspect-ratio: 1;
+  position: absolute;
+  border: 1px solid #5269bf55;
+  border-radius: 50%;
 }
 
-.mobile-app-benefits .mobile-app-eyebrow {
-  color: var(--color-primary-hover);
-  font-size: clamp(1.17rem, 2vw, 1.25rem);
+.phone-orbit::before {
+  content: '';
+  position: absolute;
+  inset: 12%;
+  border: 1px solid #5269bf40;
+  border-radius: 50%;
 }
 
-.mobile-app-section {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
+.mobile-app-hero .hero-spark {
+  right: -8%;
+  top: 6%;
+  width: 18rem;
+  height: 18rem;
+  opacity: .4;
 }
 
-.mobile-app-section > h2,
-.mobile-app-rewards h2 {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+.phone-caption {
+  position: absolute;
+  z-index: 2;
+  padding: .8rem 1rem;
+  border: 1px solid #ffffff30;
+  background: #071453e6;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  font-size: .75rem;
+  box-shadow: 0 10px 30px #0005;
 }
 
-.mobile-app-section__intro {
-  max-width: 52rem;
-  margin-top: 1.25rem;
-  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
-  font-weight: 600;
-  line-height: 1.55;
+.phone-caption > span {
+  color: #ff946c;
+  font-size: 1.35rem;
 }
 
-.mobile-app-benefits__grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: clamp(2rem, 5vw, 3.5rem);
+.phone-caption--top {
+  right: -2%;
+  top: 24%;
+  transform: rotate(5deg);
 }
 
-.mobile-app-benefit {
-  padding: clamp(1.25rem, 3vw, 2rem);
-  border-radius: var(--radius-medium);
-  background-color: var(--color-surface);
-  box-shadow: var(--shadow-small);
-  color: var(--color-text-inverse);
+.phone-caption--bottom {
+  left: -5%;
+  bottom: 14%;
+  transform: rotate(-5deg);
 }
 
-.mobile-app-benefit h3 {
+.app-ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 4rem);
+  border-top: 1px solid #ffffff26;
+  padding: 1.4rem var(--gutter);
+  color: #d2d8f1;
+  font-size: .7rem;
+  letter-spacing: .1em;
+  font-weight: 700;
+}
+
+.app-ribbon i {
   color: var(--color-primary);
-  font-family: var(--font-display);
-  font-size: clamp(1.4rem, 3vw, 2rem);
-  line-height: 1.15;
-  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
-.mobile-app-benefit p {
-  margin-top: 0.75rem;
-  font-size: clamp(0.95rem, 2vw, 1.1rem);
+.mobile-app-benefits {
+  padding-block: var(--section-spacing);
+  scroll-margin-top: var(--header-offset);
+}
+
+.app-section-heading {
+  display: flex;
+  gap: 4rem;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.app-section-heading .eyebrow {
+  margin-bottom: 1.5rem;
+}
+
+.app-section-heading > p {
+  max-width: 24rem;
+  color: var(--color-muted);
+}
+
+.app-benefit-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.app-benefit {
+  border-top: 1px solid #00051e50;
+  padding-top: 1.2rem;
+}
+
+.app-benefit-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.app-benefit-top > span:first-child {
+  text-transform: uppercase;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+}
+
+.app-benefit-top > span:last-child {
+  color: #ba3707;
+  font-size: 2.2rem;
+}
+
+.app-benefit h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.app-benefit p {
+  color: var(--color-muted);
+  font-size: .98rem;
+  line-height: 1.75;
+}
+
+.app-visit {
+  background: #e8e4da;
+  padding-block: var(--section-spacing);
+}
+
+.app-visit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: stretch;
+}
+
+.app-visit-photo {
+  position: relative;
+  min-height: 540px;
+}
+
+.app-visit-photo img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-visit-photo > span {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  color: white;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.app-visit-copy > .eyebrow {
+  margin-bottom: 1.5rem;
+}
+
+.app-visit-copy h2 {
+  margin-bottom: 2rem;
+}
+
+.app-visit-detail {
+  display: flex;
+  gap: 1.2rem;
+  padding-block: 1.25rem;
+  border-top: 1px solid #00051e25;
+}
+
+.app-visit-detail > span {
+  font-size: .7rem;
+  color: #b0360a;
+  padding-top: .2rem;
+  font-weight: 700;
+}
+
+.app-visit-detail h3 {
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+}
+
+.app-visit-detail p {
+  font-size: .9rem;
   line-height: 1.65;
+  color: #464e61;
 }
 
 .mobile-app-download {
-  background-color: var(--color-surface);
-  color: var(--color-text-inverse);
+  background: var(--color-primary);
+  padding-block: var(--section-spacing);
+  overflow: hidden;
   text-align: center;
 }
 
-.mobile-app-download .mobile-app-eyebrow,
-.mobile-app-download .mobile-app-section__intro {
-  margin-inline: auto;
+.mobile-app-download .shell {
+  position: relative;
 }
 
-.mobile-app-download__links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+.mobile-app-download .eyebrow {
   justify-content: center;
-  gap: clamp(0.75rem, 2vw, 1rem);
-  margin-top: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 1.5rem;
 }
 
-.mobile-app-download__link {
+.mobile-app-download .burst {
+  left: -5%;
+  top: 0;
+  color: var(--color-surface);
+  opacity: .16;
+  width: 19rem;
+  height: 19rem;
+}
+
+.mobile-app-download .display-title {
+  position: relative;
+}
+
+.mobile-app-download p:not(.eyebrow) {
+  position: relative;
+  margin-block: 1.5rem 2rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.mobile-app-download .store-badges {
+  justify-content: center;
+  position: relative;
+}
+
+.app-help {
   display: flex;
-  width: min(100%, 17rem);
-  min-height: 5.25rem;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  padding: 0.55rem 1rem;
-  border: 0.15rem solid var(--color-primary);
-  border-radius: var(--radius-medium);
-  background-color: var(--color-surface-elevated);
-  box-shadow: var(--shadow-small);
-  color: var(--color-primary);
-  overflow: hidden;
-  transition:
-    background-color 220ms ease-in-out,
-    border-color 220ms ease-in-out,
-    box-shadow 220ms ease-in-out,
-    color 220ms ease-in-out,
-    transform 220ms ease-in-out;
+  flex-wrap: wrap;
+  gap: .25rem 1.2rem;
+  font-size: .75rem;
+  margin-top: 2.2rem;
 }
 
-.mobile-app-download__badge {
-  display: block;
-  width: min(100%, 13.6rem);
-  aspect-ratio: 217.6 / 64.1;
-  background-color: currentColor;
-  mask: var(--store-badge-image) center / contain no-repeat;
-  mask-mode: alpha;
-  transition: background-color 220ms ease-in-out;
-  -webkit-mask: var(--store-badge-image) center / contain no-repeat;
+.app-help a {
+  text-decoration: underline;
+  text-underline-offset: .3rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.mobile-app-download__badge--app-store {
-  --store-badge-image: url("/images/mobile/store-badges/app-store.svg");
-}
-
-.mobile-app-download__badge--google-play {
-  --store-badge-image: url("/images/mobile/store-badges/google-play.svg");
-}
-
-.mobile-app-download__link:hover,
-.mobile-app-download__link:focus-visible {
-  background-color: transparent;
-  border-color: var(--color-primary);
-  box-shadow:
-    0 0.55rem 1.25rem rgb(0 0 0 / 28%),
-    0 0 0 0.1rem rgb(255 82 21 / 22%);
-  color: var(--color-text-inverse);
-  transform: translateY(-0.125rem);
-}
-
-.mobile-app-download__link:focus-visible {
-  outline-offset: 0.25rem;
-}
-
-.mobile-app-download__link:active {
-  box-shadow: var(--shadow-small);
-  transform: translateY(0) scale(0.985);
-}
-
-.mobile-app-download__link[aria-disabled="true"] {
-  cursor: not-allowed;
-}
-
-.mobile-app-rewards__content {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
-  padding: clamp(1.5rem, 5vw, 3rem);
-  border-left: 0.4rem solid var(--color-primary);
-  border-radius: var(--radius-medium);
-  background-color: var(--color-surface);
-  color: var(--color-text-inverse);
-}
-
-.mobile-app-rewards__content > p:last-child {
-  max-width: 52rem;
-  margin-top: 1rem;
-  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
-  line-height: 1.6;
-}
-
-@media (max-width: 47.99rem) {
-  .mobile-app-hero {
-    min-height: 0;
-    padding-block: clamp(2.5rem, 10vw, 4rem);
-    text-align: center;
-  }
-
+@media (max-width: 1000px) {
   .mobile-app-hero__content {
+    gap: 0;
+    min-height: 620px;
+  }
+  .mobile-app-hero__visual {
+    height: 570px;
+  }
+  .mobile-app-hero h1 {
+    font-size: 6.6vw;
+  }
+  .phone-caption {
+    font-size: .65rem;
+    padding: .5rem .7rem;
+  }
+  .app-visit-grid {
+    gap: 2.5rem;
+  }
+  .app-section-heading {
     gap: 2rem;
+  }
+  .app-benefit-list {
+    gap: 1.5rem;
+  }
+  .app-benefit h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .mobile-app-hero__content {
     grid-template-columns: 1fr;
   }
-
+  .mobile-app-hero__copy {
+    padding-block: 1rem 0;
+  }
+  .app-back {
+    margin-bottom: 1.5rem;
+  }
+  .mobile-app-hero h1 {
+    font-size: clamp(3.25rem, 14vw, 5rem);
+  }
+  .mobile-app-hero .eyebrow {
+    font-size: .63rem;
+    letter-spacing: .09em;
+  }
+  .mobile-app-hero__subtitle {
+    font-size: 1rem;
+  }
+  .app-explore {
+    margin-top: 1.4rem;
+  }
+  .mobile-app-hero__visual {
+    height: 510px;
+    width: min(100%, 390px);
+    margin-inline: auto;
+  }
   .mobile-app-hero__mockup {
-    order: -1;
+    width: 330px;
   }
-
-  .mobile-app-hero__mockup img {
-    width: auto;
-    max-width: min(78vw, 21rem);
-    max-height: 29rem;
+  .phone-caption--top {
+    right: -1%;
+    top: 18%;
   }
-
-  .mobile-app-benefits__grid {
+  .phone-caption--bottom {
+    left: 0;
+    bottom: 11%;
+  }
+  .mobile-app-hero .hero-spark {
+    width: 10rem;
+    height: 10rem;
+  }
+  .app-ribbon {
+    flex-wrap: wrap;
+    gap: .6rem 1rem;
+    font-size: .58rem;
+    padding-block: 1rem;
+  }
+  .app-ribbon > i:last-of-type, .app-ribbon > span:last-child {
+    display: none;
+  }
+  .app-section-heading {
+    display: block;
+  }
+  .app-section-heading > p {
+    margin-top: 1.5rem;
+  }
+  .app-benefit-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .app-benefit h3 {
+    font-size: 1.9rem;
+    margin-block: .5rem .75rem;
+  }
+  .app-visit-grid {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 37.49rem) {
-  .mobile-app-download__links {
-    flex-direction: column;
-    align-items: center;
+  .app-visit-photo {
+    min-height: 320px;
   }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .mobile-app-download__link:hover,
-  .mobile-app-download__link:focus-visible,
-  .mobile-app-download__link:active {
-    transform: none;
+  .app-visit-photo > span {
+    font-size: 2rem;
+  }
+  .mobile-app-download .display-title {
+    font-size: 2.6rem;
+  }
+  .mobile-app-download .burst {
+    width: 12rem;
+    height: 12rem;
+    top: -2rem;
+    left: -5rem;
   }
 }

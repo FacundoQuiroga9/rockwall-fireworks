@@ -2,14 +2,14 @@ export const siteConfig = {
   name: 'Rockwall Fireworks',
   url: 'https://www.rockwallfireworks.com',
   description:
-    'Family-owned fireworks store proudly serving North Texas since 1975.',
+    'Family-owned fireworks store proudly serving Rockwall, Texas since 1975.',
   seo: {
     socialImage: '/images/social/rockwall-fireworks-og.jpg',
     home: {
       path: '/',
-      title: 'Rockwall Fireworks | Fireworks Store in Lavon, TX',
+      title: 'Rockwall Fireworks | Serving Rockwall, Texas Since 1975',
       description:
-        'Rockwall Fireworks has served North Texas since 1975 with family-friendly service, low prices, and a wide selection of fireworks in Lavon, Texas.',
+        'Serving Rockwall, Texas since 1975 with family-friendly service, low prices, and a wide selection of fireworks. Plan your visit to Rockwall Fireworks.',
     },
     terms: {
       path: '/terms-and-conditions',
@@ -33,12 +33,13 @@ export const siteConfig = {
       path: '/mobile-app',
       title: 'Rockwall Fireworks Mobile App | Official App',
       description:
-        'Explore the Rockwall Fireworks mobile app for the product catalog, favorites, seasonal dates, store information, and safety guidance.',
+        'Plan your next celebration in Rockwall, Texas with the Rockwall Fireworks app: product catalog, favorites, seasonal dates, store information, and safety guidance.',
     },
   },
   announcement: 'No tariff tax guaranteed',
   navigation: [
-    { label: 'Featured Products', sectionId: 'featured-products' },
+    { label: 'Home', sectionId: 'top' },
+    { label: 'Products', path: '/products' },
     { label: 'About', sectionId: 'about' },
     { label: 'Contact', sectionId: 'contact' },
   ],
@@ -59,12 +60,12 @@ export const siteConfig = {
   },
   email: 'contact@rockwallfireworks.com',
   mobileApp: {
-    mockupImage: '/images/mobile/rockwall-fireworks-app-mockup.png',
+    mockupImage: '/images/mobile/rockwall-fireworks-app-mockup-800.webp',
     appStoreBadge: '/images/mobile/store-badges/app-store.svg',
     googlePlayBadge: '/images/mobile/store-badges/google-play.svg',
     appStoreUrl: 'https://apps.apple.com/us/app/id6793552663',
-    // TODO(app-release): Replace this placeholder with the public Google Play listing URL.
-    googlePlayUrl: '#',
+    // Android is not available yet; no placeholder download link.
+    googlePlayUrl: null,
   },
   socialLinks: [
     {
@@ -83,8 +84,6 @@ export const siteConfig = {
     image: '/images/promotion/50th-anniversary-offers.webp',
     imageAlt: 'Rockwall Fireworks 50th anniversary special offers',
     offersUrl: '/rf coupons.pdf',
-    delayToShow: 3000,
-    autoCloseAfter: 12000,
   },
   paymentMethods: [
     {

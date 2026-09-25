@@ -1,0 +1,35 @@
+[
+  {
+    "cardOverflow": [],
+    "cards": 50,
+    "dimensions": [
+      "306x464"
+    ],
+    "height": 1000,
+    "loaded": 50,
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "cardOverflow": [],
+    "cards": 50,
+    "dimensions": [
+      "169x432"
+    ],
+    "height": 844,
+    "loaded": 50,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "cardOverflow": [],
+    "cards": 50,
+    "dimensions": [
+      "234x464"
+    ],
+    "height": 1112,
+    "loaded": 50,
+    "overflow": false,
+    "width": 834
+  }
+]

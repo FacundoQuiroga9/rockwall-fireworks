@@ -159,7 +159,7 @@ const metricsExpression = String.raw`
         const outsideViewport =
           rect.left < -1 || rect.right > window.innerWidth + 1;
         const insideIntentionalScroller = element.closest(
-          '.logos, .product-carousel',
+          '.product-carousel, .hero-container, .countdown, .promotion-section, .app-teaser, .mobile-app-hero, .mobile-app-download',
         );
         return outsideViewport && !insideIntentionalScroller;
       })
@@ -353,7 +353,7 @@ const downloadButtonsExpression = String.raw`
       scrollY: Math.round(window.scrollY),
       reducedMotion: matchMedia('(prefers-reduced-motion: reduce)').matches,
       buttons: [
-        ...document.querySelectorAll('.mobile-app-download__link'),
+        ...document.querySelectorAll('.mobile-app-download .store-badge'),
       ].map((link) => {
         const badge = link.querySelector('.mobile-app-download__badge');
         const image = link.querySelector('img');
@@ -585,7 +585,10 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
 
   let dialogAudit = null;
   if (pathname === '/' && viewport.width === 390) {
-    await delay(1_800);
+    await client.send('Runtime.evaluate', {
+      expression: "document.querySelector('.promotion-actions button')?.click()",
+    });
+    await delay(400);
     const openDialogEvaluation = await client.send('Runtime.evaluate', {
       expression: `
         (() => ({
@@ -653,7 +656,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
       `,
     });
 
-    for (const sectionId of ['featured-products', 'about', 'contact']) {
+    for (const sectionId of ['featured-products', 'about', 'seasons', 'offers', 'contact']) {
       await client.send('Runtime.evaluate', {
         expression: `document.getElementById('${sectionId}')?.scrollIntoView({ block: 'start' })`,
       });
@@ -681,7 +684,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
       ? [
           ['benefits', '.mobile-app-benefits'],
           ['download', '.mobile-app-download'],
-          ['rewards', '.mobile-app-rewards'],
+          ['visit', '.app-visit'],
         ]
       : [['download', '.mobile-app-download']];
 
@@ -738,7 +741,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
     await client.send('Runtime.evaluate', {
       expression: `
         document
-          .querySelector('.mobile-app-download__link:not([aria-disabled="true"])')
+          .querySelector('.mobile-app-download .store-badge:not([aria-disabled="true"])')
           ?.addEventListener('click', (event) => event.preventDefault())
       `,
     });
@@ -791,7 +794,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
       });
       await client.send('Runtime.evaluate', {
         expression:
-          "document.querySelectorAll('.mobile-app-download__link')[1]?.focus({ preventScroll: true })",
+          "document.querySelector('.mobile-app-download a.store-badge')?.focus({ preventScroll: true })",
       });
       await client.send('Input.dispatchKeyEvent', {
         type: 'keyDown',
@@ -813,7 +816,7 @@ async function auditViewport(viewport, pathname = '/', screenshotSuffix = '') {
       const placeholderClick = await client.send('Runtime.evaluate', {
         expression: `
           (() => {
-            const link = document.querySelector('.mobile-app-download__link');
+            const link = document.querySelector('.mobile-app-download [aria-disabled="true"]');
             const before = {
               hash: location.hash,
               scrollY: Math.round(window.scrollY),

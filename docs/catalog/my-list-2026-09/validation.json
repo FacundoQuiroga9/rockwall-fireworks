@@ -1,0 +1,17 @@
+{
+  "approvedProducts": 302,
+  "unchangedProductPhotos": 302,
+  "photosWithRealAlpha": 302,
+  "bogoSourceRows": 68,
+  "bogoPublished": 8,
+  "cakeCategories": {
+    "500g Cakes": 52,
+    "Cakes - Size Unconfirmed": 31,
+    "200g Cakes": 29,
+    "Cake Packs": 5
+  },
+  "webTests": 75,
+  "appTests": 31,
+  "nativeRuntimeTested": false,
+  "pendingCommercialRules": true
+}

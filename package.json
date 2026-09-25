@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/catalog/build-pages.mjs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "test": "node --test",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "catalog:sync": "node scripts/catalog/sync.mjs",
+    "catalog:check": "node scripts/catalog/sync.mjs --check",
+    "catalog:frame": "python3 scripts/catalog/frame_products.py"
   },
   "dependencies": {
     "react": "^18.3.1",

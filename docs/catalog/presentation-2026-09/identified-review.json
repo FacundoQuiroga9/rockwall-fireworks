@@ -1,0 +1,419 @@
+[
+  {
+    "csv_row": "163",
+    "square_token": "6CSS3ISX42RRXQQ2MENLSZC6",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.scbfireworks.com/product/black-cat-firecrackers-32-500-roll/"
+    ],
+    "queries": [
+      "Compared code against official Winco UPC reference",
+      "BC 8000 Firecracker L299@P26: Firecrackers FCBCR8000 Black Cat Roll Firecrackers (715244101085) fireworks manufacturer"
+    ],
+    "reason": "Black Cat firecracker roll identity/count is known. Available manufacturer/distributor photographs group overlapping sizes; no approved isolated photograph establishes this specific 8000/4000/500 roll. nhpyro.com image download was denied by automatic approval review; no bypass attempted.",
+    "required_next_step": "Obtain a complete isolated photograph with the correct roll count visible. Preserve distinct Square UPCs.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "193",
+    "square_token": "YSCA5EM7QBGQ26342HWEVWIJ",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.scbfireworks.com/product/black-cat-firecrackers-32-500-roll/"
+    ],
+    "queries": [
+      "Compared code against official Winco UPC reference",
+      "Black Cat 4000 L298@P26: Firecrackers FCBCR4000 Black Cat Roll Firecrackers (715244140008) fireworks manufacturer"
+    ],
+    "reason": "Black Cat firecracker roll identity/count is known. Available manufacturer/distributor photographs group overlapping sizes; no approved isolated photograph establishes this specific 8000/4000/500 roll. nhpyro.com image download was denied by automatic approval review; no bypass attempted.",
+    "required_next_step": "Obtain a complete isolated photograph with the correct roll count visible. Preserve distinct Square UPCs.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "201",
+    "square_token": "OHKV5B66T3AXTW7D5M5EMGGO",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://blackcatfireworks.com/fireworks/firecrackers/",
+      "https://www.scbfireworks.com/product/black-cat-firecrackers-32-500-roll/"
+    ],
+    "queries": [
+      "Compared code against official Winco UPC reference",
+      "Black Cat 500ct Firecracker L295@P26: Firecrackers FCBCR00500 Black Cat Roll Firecrackers (715244105007) fireworks manufacturer"
+    ],
+    "reason": "Black Cat firecracker roll identity/count is known. Available manufacturer/distributor photographs group overlapping sizes; no approved isolated photograph establishes this specific 8000/4000/500 roll. nhpyro.com image download was denied by automatic approval review; no bypass attempted.",
+    "required_next_step": "Obtain a complete isolated photograph with the correct roll count visible. Preserve distinct Square UPCs.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "216",
+    "square_token": "HJGHH3DSBQ3WC6ZCQID7J7VX",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.starspanglednovelties.com/sparklers/neonsparklers.html",
+      "https://reliablefuse.com/product/neon-color-flame/"
+    ],
+    "queries": [
+      "Compared code against official Winco UPC reference",
+      "Black Cat Neon Sparkler Special 5 Ct L533@P46: Sparklers SKBC313-15* Neon Sparkler 17\": Special Effect (715244313136) fireworks manufacturer"
+    ],
+    "reason": "Neon Special Effects and Waterfall identities are known, but the local Winco candidate shows combined packages with their bottoms cut off. Other listings mix colors and variants; none provides a faithful complete exact retail package.",
+    "required_next_step": "Complete photograph of the exact five-pack variant with labels and entire package visible.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "217",
+    "square_token": "IGYZ3FSCVEQTCHU556SVQHRY",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://usa-fireworks.com/products/sparklers/neon-sparklers-bc/",
+      "https://blackcatfireworks.com/fireworks/firecrackers/",
+      "https://blackcatfireworks.com/",
+      "https://blackcatfireworks.com/fireworks/firecrackers/flashlight-firecrackers/",
+      "https://www.blackcatfireworks.co.uk/about/about-us/",
+      "https://www.blackcatfireworks.co.uk/about/our-brands/",
+      "https://www.starspanglednovelties.com/sparklers/neonsparklers.html",
+      "https://reliablefuse.com/product/neon-color-flame/"
+    ],
+    "queries": [
+      "\"715244313129\" fireworks",
+      "17\" BC Neon Sparklers Black Cat Fireworks official fireworks manufacturer"
+    ],
+    "reason": "Neon Special Effects and Waterfall identities are known, but the local Winco candidate shows combined packages with their bottoms cut off. Other listings mix colors and variants; none provides a faithful complete exact retail package.",
+    "required_next_step": "Complete photograph of the exact five-pack variant with labels and entire package visible.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "284",
+    "square_token": "HEQRXJPC54BDZL3AERGXQY7Y",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.liuyangfireworks.net/blog/liuyang-smoke-fireworks.html",
+      "https://elevatedfireworks.com/collections/smoke/products/black-cat-smoke-balls-12-pack"
+    ],
+    "queries": [
+      "Compared code against official Winco UPC reference",
+      "Color Smokeballs L507@P44: Smoke Items SMBC702 BC Color Smoke Balls (715244007028) fireworks manufacturer"
+    ],
+    "reason": "Black Cat 12-pack UPC 715244007028 is identified. The reviewed retailer photograph mixes an outer carton, multiple bags and loose balls; it does not clearly isolate one complete 12-pack.",
+    "required_next_step": "Readable complete 12-ball retail package photograph, not a wholesale carton or several retail units.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "339",
+    "square_token": "ADOJ2HOWLC3REE7GQSLVGOEP",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://staging.usa-fireworks.com/products/sparklers/10-color-sparkler-single-pack-of-8-sparklers/",
+      "https://www.connfireworks.com/shogun-10-color-sparklers.html",
+      "https://rkmfireworks.net/shogun-color-sparklers-10-bamboo-12-8/",
+      "https://www.superiorcelebrations.com/product/nce750b/10-color-sparklers.html",
+      "https://www.rkmfireworks.net/shogun-color-sparklers-10-bamboo-12-8/"
+    ],
+    "queries": [
+      "\"680149005007\" fireworks",
+      "10\" Color Sparkler Shogun official fireworks manufacturer"
+    ],
+    "reason": "The Winco UPC record identifies separate green/blue/red 10-inch electric wire sparkler eight-packs. Search candidates show Shogun bamboo sparklers or mixed colors, which cannot replace these wire/color variants.",
+    "required_next_step": "Exact wire-stick eight-pack photo for each UPC/color; do not use bamboo-stick or assorted substitutes.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "340",
+    "square_token": "EUGR467EG6YBC7IZANAOIYUQ",
+    "initial_status": "no_verified_identity",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.alibaba.com/electric-sparklers-fireworks-suppliers.html",
+      "https://www.championfireworks.com/application/indoor-wedding-electric-sparklers",
+      "https://www.tradeindia.com/products/75-cm-electric-sparklers-cs-007-2387822.html",
+      "https://electricmatch.com/",
+      "https://www.rameshcolour.com/",
+      "https://www.rkmfireworks.net/shogun-color-sparklers-10-bamboo-12-8/"
+    ],
+    "queries": [
+      "\"680149004987\" fireworks",
+      "Electric Sparklers Electric Sparklers BOGO fireworks manufacturer"
+    ],
+    "reason": "The Winco UPC record identifies separate green/blue/red 10-inch electric wire sparkler eight-packs. Search candidates show Shogun bamboo sparklers or mixed colors, which cannot replace these wire/color variants.",
+    "required_next_step": "Exact wire-stick eight-pack photo for each UPC/color; do not use bamboo-stick or assorted substitutes.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "341",
+    "square_token": "55MZDC6656ZFQBJ72GZUVDHL",
+    "initial_status": "no_verified_identity",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://www.alibaba.com/electric-sparklers-fireworks-suppliers.html",
+      "https://www.championfireworks.com/application/indoor-wedding-electric-sparklers",
+      "https://www.tradeindia.com/products/75-cm-electric-sparklers-cs-007-2387822.html",
+      "https://electricmatch.com/",
+      "https://www.rameshcolour.com/",
+      "https://www.rkmfireworks.net/shogun-color-sparklers-10-bamboo-12-8/"
+    ],
+    "queries": [
+      "\"680149004994\" fireworks",
+      "Electric Sparklers Electric Sparklers fireworks manufacturer"
+    ],
+    "reason": "The Winco UPC record identifies separate green/blue/red 10-inch electric wire sparkler eight-packs. Search candidates show Shogun bamboo sparklers or mixed colors, which cannot replace these wire/color variants.",
+    "required_next_step": "Exact wire-stick eight-pack photo for each UPC/color; do not use bamboo-stick or assorted substitutes.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "358",
+    "square_token": "TGZ6I3LK5MKTW6422R4E6QJL",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/festival-balls-3/",
+      "https://americanwholesalefireworks.com/festival-balls-boomer/"
+    ],
+    "queries": [
+      "\"805253335219\" fireworks",
+      "Festival Balls Boomer official fireworks manufacturer"
+    ],
+    "reason": "Boomer red/black Festival Balls six-pack UPC 805253335219 is identified. The former USA Fireworks image is unavailable locally and the current website rejects access. AWF lists BM1412, without evidence equating that presentation to this Square UPC.",
+    "required_next_step": "Complete six-pack red/black photo and UPC/model crosswalk; do not reuse the other published Festival Balls packages.",
+    "dynamite_candidates": "products.json[65] Festival Balls / Monkey Mania / /products/festival-balls.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "437",
+    "square_token": "QEOAHTBTI755LXMWGKRW5EMG",
+    "initial_status": "identified_missing_image",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone",
+      "https://fireworkconnection.com/product/hand-held-snow-cone/",
+      "https://simpsonfireworks.com/FN434-Hand-Held-Snow-Cone-R-PC/"
+    ],
+    "queries": [
+      "\"705108321346\" fireworks"
+    ],
+    "reason": "Official Winda P3213 page confirms purple/red/green/blue individual variants. Its photograph shows a display tray that occludes the cone bases; cropping cannot recover a complete individual product.",
+    "required_next_step": "Complete isolated photo of each color, including its base. Do not synthesize the hidden parts or substitute the published full-size Snow Cone.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png | products.json[184] Handheld Snow Cone / Winda / /products/handheld-snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "438",
+    "square_token": "O7G3LQMSVRJE5CJTYAGVNF4T",
+    "initial_status": "identified_missing_image",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone"
+    ],
+    "queries": [
+      "\"705108321339\" fireworks"
+    ],
+    "reason": "Official Winda P3213 page confirms purple/red/green/blue individual variants. Its photograph shows a display tray that occludes the cone bases; cropping cannot recover a complete individual product.",
+    "required_next_step": "Complete isolated photo of each color, including its base. Do not synthesize the hidden parts or substitute the published full-size Snow Cone.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png | products.json[184] Handheld Snow Cone / Winda / /products/handheld-snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "439",
+    "square_token": "YTBQUVMNKF7EU4VIEL4R3EAU",
+    "initial_status": "identified_missing_image",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone",
+      "https://americanwholesalefireworks.com/snow-cone-hand-held//"
+    ],
+    "queries": [
+      "\"705108321322\" fireworks"
+    ],
+    "reason": "Official Winda P3213 page confirms purple/red/green/blue individual variants. Its photograph shows a display tray that occludes the cone bases; cropping cannot recover a complete individual product.",
+    "required_next_step": "Complete isolated photo of each color, including its base. Do not synthesize the hidden parts or substitute the published full-size Snow Cone.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png | products.json[184] Handheld Snow Cone / Winda / /products/handheld-snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "440",
+    "square_token": "QMHFOJ62GJMP6R7RMLHHGCSG",
+    "initial_status": "identified_missing_image",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone",
+      "https://americanwholesalefireworks.com/snow-cone-handheld-single/"
+    ],
+    "queries": [
+      "\"705108321315\" fireworks"
+    ],
+    "reason": "Official Winda P3213 page confirms purple/red/green/blue individual variants. Its photograph shows a display tray that occludes the cone bases; cropping cannot recover a complete individual product.",
+    "required_next_step": "Complete isolated photo of each color, including its base. Do not synthesize the hidden parts or substitute the published full-size Snow Cone.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png | products.json[184] Handheld Snow Cone / Winda / /products/handheld-snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "499",
+    "square_token": "W34HU7UYYJB7LDAOD6P4LPVL",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://usa-fireworks.com/products/sparklers/36-morning-glory/",
+      "https://beta2024.usa-fireworks.com/products/sparklers/36-morning-glory-wc-2/",
+      "https://www.worldclassfireworks.com/",
+      "https://staging.usa-fireworks.com/products/sparklers/36-morning-glory-wc-2/",
+      "https://www.internationalfireworks.com/classc-fireworks/morning-glory-jumbo-sparkler/"
+    ],
+    "queries": [
+      "\"805253191013\" fireworks",
+      "36\" Jumbo Morning Glory World Class official fireworks manufacturer"
+    ],
+    "reason": "World Class 36-inch Morning Glory six-pack UPC 805253191013 is identified. The local 433×577 candidate cuts off the bottom of the package. Alternate vendor listings mix World Class and Cutting Edge presentations.",
+    "required_next_step": "Complete correct six-pack photograph with World Class identity and full length preserved.",
+    "dynamite_candidates": "products.json[60] Jumbo Crackling Ball MM / Monkey Mania / /products/jumbo-crackling-ball-mm.png | products.json[97] Jumbo Crackling Ball BP / Brothers / /products/jumbo-crackling-ball-bp.png | products.json[192] Jumbo Neon Smoke Ball / Winda / /products/jumbo-neon-smoke-ball.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "836",
+    "square_token": "UBCURPSLOYG22MXQUSCEACJ2",
+    "initial_status": "candidate_requires_package_review",
+    "status": "identified_missing_image",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://usa-fireworks.com/products/novelty/snappers-large-box/",
+      "https://cuttingedgefireworks.com/",
+      "https://usa-fireworks.com/products/novelty/snappers/"
+    ],
+    "queries": [
+      "\"8145270186213\" fireworks",
+      "Snappers - Large Box Cutting Edge official fireworks manufacturer"
+    ],
+    "reason": "Cutting Edge Snappers UPC 814527018621 / 340 / 40-count identity is known. The available candidate is a wholesale display rather than an isolated forty-count consumer package.",
+    "required_next_step": "Exact complete 40-count retail box photo, without wholesale display branding or added units.",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "844",
+    "square_token": "7HSTZSPFLZOBUPYELG63T6TG",
+    "initial_status": "candidate_requires_package_review",
+    "status": "data_conflict",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://beta2024.usa-fireworks.com/products/fountains/fountains-200-gram/product-1395-variation-4/",
+      "https://www.superiorfireworks.com/retail/product/cp3097/snow-cone-jr",
+      "https://www.elitefireworks.com/products/snow-cone-junior",
+      "https://usa-fireworks.com/products/fountains/snow-cone-jr/"
+    ],
+    "queries": [
+      "\"705108309740\" fireworks",
+      "Snow Cone Jr Winda official fireworks manufacturer"
+    ],
+    "reason": "The Winda Snow Cone Jr family is known, but the Square names indicate individual/tiny units while reference UPC listings describe a four-variety pack. The exact sale unit and color remain unresolved; the published four-pack must not be duplicated as these two records.",
+    "required_next_step": "Confirm retail unit/count and UPC/color from Rockwall packaging, then acquire its exact photograph.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "908",
+    "square_token": "X5BMZULGHXXAMM4P3Z32O6CZ",
+    "initial_status": "candidate_requires_package_review",
+    "status": "data_conflict",
+    "product_id": "",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "sources": [
+      "https://simpsonfireworks.com/FN396-Snow-Cone-Jr-R-PC/",
+      "https://www.superiorfireworks.com/retail/product/cp3097/snow-cone-jr",
+      "https://www.elitefireworks.com/products/snow-cone-junior",
+      "https://usa-fireworks.com/products/fountains/snow-cone-jr/"
+    ],
+    "queries": [
+      "\"705108309726\" fireworks",
+      "Snow Cone Jr. Winda official fireworks manufacturer"
+    ],
+    "reason": "The Winda Snow Cone Jr family is known, but the Square names indicate individual/tiny units while reference UPC listings describe a four-variety pack. The exact sale unit and color remain unresolved; the published four-pack must not be duplicated as these two records.",
+    "required_next_step": "Confirm retail unit/count and UPC/color from Rockwall packaging, then acquire its exact photograph.",
+    "dynamite_candidates": "products.json[114] Snow Cone / Winda / /products/snow-cone.png",
+    "reviewed_on": "2026-09-24"
+  },
+  {
+    "csv_row": "1042",
+    "square_token": "ANW2NNK77LR3WPA2LXT3TGB4",
+    "initial_status": "candidate_requires_package_review",
+    "status": "incorporated",
+    "product_id": "party-sparklers-4-pack",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P9012",
+    "sources": [
+      "https://www.getwinda.com/product-page/party-sparklers",
+      "https://shop.pyrocrate.com/SP208-Party-Sparklers-R-PC/"
+    ],
+    "queries": [
+      "\"705108901203\" fireworks"
+    ],
+    "reason": "Official Winda P9012 page distinguishes small four-piece box UPC 705108901203 from display UPC 705108901210. Its preserved original photograph already includes a complete detached four-pack. Cropped only that separate object at [10,90,130,385], preserving all packaging pixels; no generated reconstruction.",
+    "required_next_step": "",
+    "dynamite_candidates": "Unknown",
+    "reviewed_on": "2026-09-24"
+  }
+]

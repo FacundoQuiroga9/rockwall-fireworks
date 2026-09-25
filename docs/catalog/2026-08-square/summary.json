@@ -1,0 +1,35 @@
+{
+  "csv_data_rows": 1060,
+  "xlsx_items_data_rows": 1060,
+  "xlsx_component_inventory_data_rows": 0,
+  "reconciled_variant_records": 1060,
+  "regular_variant_rows": 980,
+  "named_variant_rows": 80,
+  "distinct_square_names": 963,
+  "same_name_groups": 67,
+  "duplicate_sku_groups": 4,
+  "substantive_source_differences": 0,
+  "numeric_price_format_differences": 0,
+  "dynamite_catalog_entries": 197,
+  "confirmed_dynamite_products": 28,
+  "existing_products_retained": 10,
+  "existing_products_linked": 7,
+  "new_products_added": 25,
+  "unique_products_resolved_in_square": 32,
+  "pending_variant_records": 1028,
+  "pending_by_status": {
+    "no_match": 940,
+    "probable": 73,
+    "conflict": 15
+  },
+  "confirmed_missing_assets": 0,
+  "excluded_data_records": 0,
+  "excluded_empty_layout_rows": 2,
+  "price_display_normalizations": 1052,
+  "source_hashes": {
+    "/Volumes/FACUNDO/Rockwall fireworks/MLTX6DPJDFYX7_catalog-2026-08-16-1724.csv": "c2389fe41ddf041bc746534ca11d6e9739c64014b0e0b93024f657cf3b044a0d",
+    "/Volumes/FACUNDO/Rockwall fireworks/rockwall fireworks items.xlsx": "604592fc8641ec62918431f06ca60c06785dec6eaf7bcf4e7d0a8b8cceb895d2",
+    "/Users/facundoquiroga/code/FacundoQuiroga9/dynamite-fireworks/public/products.json": "95d0cfbf3ea7c37a26467156a0ae99e106e589004132ca8f2a048ca01c3b6488",
+    "/Users/facundoquiroga/code/FacundoQuiroga9/dynamite-fireworks/public/gender-reveal.json": "c19f202f6d2f9bebe85ab41e3903e6664443fd03bbf4150a4d70c22d7cc30451"
+  }
+}

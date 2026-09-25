@@ -160,8 +160,57 @@
     width: min(100% - 1rem, 64rem);
     padding-inline: clamp(1.25rem, 6vw, 2rem);
   }
-
   .content-page__contact-list {
     grid-template-columns: 1fr;
   }
+}
+
+/* Reading pages share the editorial typography and warm paper of the store. */
+
+.content-page {
+  width: min(100% - var(--gutter) * 2, 68rem);
+  padding: clamp(1.5rem, 5vw, 5rem);
+  margin-block: 3rem;
+  border-radius: 0;
+  border-top: 5px solid var(--color-primary);
+  background: #fffdf8;
+  color: var(--color-surface);
+  box-shadow: none;
+}
+
+.content-page__header {
+  border-bottom-color: #00051e25;
+}
+
+.content-page h1 {
+  color: var(--color-surface);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.content-page__eyebrow, .content-section h2, .content-section a, .content-page__contact-list a, .content-page__legal-links a, .content-page__contact-list dt, .content-page__faq-list dt, .content-page__updated {
+  color: #b83304;
+}
+
+.content-section h2 {
+  font-weight: 400;
+}
+
+.content-page__callout, .content-page__faq-list > div {
+  background: #f0ece2;
+  border-radius: 0;
+}
+
+.content-page__faq-list > div {
+  border: 0;
+  border-top: 1px solid #00051e25;
+}
+
+.content-page__description {
+  color: #4d566c;
+}
+
+.content-page__body {
+  max-width: 52rem;
 }

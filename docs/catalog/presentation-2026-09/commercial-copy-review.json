@@ -1,0 +1,4256 @@
+[
+  {
+    "id": "neon-fish",
+    "name": "Neon Fish",
+    "fields": {
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "presentation": "Fountain"
+    }
+  },
+  {
+    "id": "bad-cactus",
+    "name": "Bad Cactus",
+    "fields": {
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "presentation": "Fountain"
+    }
+  },
+  {
+    "id": "fun-fuel",
+    "name": "Fun Fuel",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "50 shots",
+        "Panoramic fan finale"
+      ]
+    }
+  },
+  {
+    "id": "military-parachute-2-pack",
+    "name": "Military Parachute",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "Two-piece boxed presentation",
+        "Daytime parachute effect"
+      ]
+    }
+  },
+  {
+    "id": "princess-parachute-2-pack",
+    "name": "Princess Parachute",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "Two-piece boxed presentation",
+        "Pink parachutes with princess figures"
+      ]
+    }
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "Six canister shells",
+        "Double-break effects"
+      ]
+    }
+  },
+  {
+    "id": "diwali-dazzler",
+    "name": "Diwali Dazzler",
+    "fields": {
+      "description": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "A Winda assortment in the P0038 presentation.",
+      "presentation": "P0038 assortment"
+    }
+  },
+  {
+    "id": "snow-cone",
+    "name": "Snow Cone",
+    "fields": {
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "presentation": "P3088 fountain",
+      "features": [
+        "Full-size P3088 presentation"
+      ]
+    }
+  },
+  {
+    "id": "eagle-pride",
+    "name": "Eagle Pride",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "30 shots"
+      ]
+    }
+  },
+  {
+    "id": "america-first",
+    "name": "America First",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "24 shots"
+      ]
+    }
+  },
+  {
+    "id": "us-power",
+    "name": "U.S. Power",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Orange tails lead to silver and colorful bursts, followed by a crackling silver-chrysanthemum finale.",
+      "features": [
+        "16 shots"
+      ]
+    }
+  },
+  {
+    "id": "3-min",
+    "name": "3 Min",
+    "fields": {
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "presentation": "MM-F1808 fountain",
+      "features": [
+        "MM-F1808 presentation"
+      ]
+    }
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "name": "Ladybugs",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "Three-piece carded presentation"
+      ]
+    }
+  },
+  {
+    "id": "blond-joke",
+    "name": "Blond Joke",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "36 shots",
+        "Twelve-shot finale"
+      ]
+    }
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "name": "USA Saturn Missile Battery",
+    "fields": {
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "features": [
+        "297 shots"
+      ]
+    }
+  },
+  {
+    "id": "2-minute-bomb",
+    "name": "2-Minute Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "2-Minute Bomb by Raccoon. 500 gram · 70 shots.",
+      "features": [
+        "500 gram",
+        "70 shots"
+      ]
+    }
+  },
+  {
+    "id": "250-paratroopers",
+    "name": "250 Paratroopers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "250 Paratroopers by Winda. 250 parachutes.",
+      "features": [
+        "250 parachutes"
+      ]
+    }
+  },
+  {
+    "id": "american-anthem",
+    "name": "American Anthem",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "American Anthem by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "ant-chant",
+    "name": "Ant Chant",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ant Chant by Raccoon. 500 gram · 180 shots.",
+      "features": [
+        "500 gram",
+        "180 shots"
+      ]
+    }
+  },
+  {
+    "id": "band-of-brothers",
+    "name": "Band of Brothers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Band of Brothers by Raccoon. 500 gram · 12 shots.",
+      "features": [
+        "500 gram",
+        "12 shots"
+      ]
+    }
+  },
+  {
+    "id": "born-leaders",
+    "name": "Born Leaders",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Born Leaders by Winda. 3-cake set · 757 shots.",
+      "features": [
+        "3-cake set",
+        "757 shots"
+      ]
+    }
+  },
+  {
+    "id": "ceo-of-assortments",
+    "name": "CEO of Assortments",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "CEO of Assortments by Winda. Aerial assortment.",
+      "presentation": "Aerial assortment",
+      "features": [
+        "Aerial assortment"
+      ]
+    }
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Chameleon Shells by Winda. 5-inch shells · 24 pack.",
+      "features": [
+        "5-inch shells",
+        "24 pack"
+      ]
+    }
+  },
+  {
+    "id": "cluster-bomb",
+    "name": "Cluster Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cluster Bomb by Raccoon. 500 gram · 40 shots.",
+      "features": [
+        "500 gram",
+        "40 shots"
+      ]
+    }
+  },
+  {
+    "id": "colorful-skies",
+    "name": "Colorful Skies",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Colorful Skies by Raccoon. 200 gram · 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "dance-in-the-rain",
+    "name": "Dance in the Rain",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Dance in the Rain by Raccoon. 500 gram · 23 shots.",
+      "features": [
+        "500 gram",
+        "23 shots"
+      ]
+    }
+  },
+  {
+    "id": "flying-pig-rockets",
+    "name": "Flying Pig Rocket",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Flying Pig Rocket by Monkey Mania. 5-stick pack.",
+      "features": [
+        "5-stick pack"
+      ]
+    }
+  },
+  {
+    "id": "freedoms-wings",
+    "name": "Freedom’s Wings",
+    "fields": {
+      "description": "An eagle-shaped fountain with silver sprays from its moving wings and red flames above.",
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Freedom’s Wings by Winda. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    },
+    "sources": [
+      "https://www.getwinda.com/product-page/freedom-s-wings"
+    ]
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "G-Force by Winda. 4-inch shells · 24 pack.",
+      "features": [
+        "4-inch shells",
+        "24 pack"
+      ]
+    }
+  },
+  {
+    "id": "galactic-empire",
+    "name": "Galactic Empire",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Galactic Empire by Raccoon. 500 gram · 21 shots.",
+      "features": [
+        "500 gram",
+        "21 shots"
+      ]
+    }
+  },
+  {
+    "id": "ghost-dragon",
+    "name": "Ghost Dragon",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ghost Dragon by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "ghost-killer",
+    "name": "Ghost Killer",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ghost Killer by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "ghost-rings",
+    "name": "Ghost Rings",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ghost Rings by Winda. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "grand-cannon",
+    "name": "Grand Cannon",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Grand Cannon by Winda. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "howling-commandos",
+    "name": "Howling Commandos",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Howling Commandos by Winda. 6-stick pack.",
+      "features": [
+        "6-stick pack"
+      ]
+    }
+  },
+  {
+    "id": "jawbreaker",
+    "name": "Jawbreaker",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Jawbreaker by Raccoon. 200 gram · 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "name": "King Dragon",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "King Dragon by Raccoon. 6-inch shells · 24 pack.",
+      "features": [
+        "6-inch shells",
+        "24 pack"
+      ]
+    }
+  },
+  {
+    "id": "lucky-streak",
+    "name": "Lucky Streak",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Lucky Streak by Bright Star. 66 shots.",
+      "features": [
+        "66 shots"
+      ]
+    }
+  },
+  {
+    "id": "magnum-tremors",
+    "name": "Magnum Tremors",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Magnum Tremors by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Migraine by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "monkey-business",
+    "name": "Monkey Business",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Monkey Business by Raccoon. 200 gram · 24 shots.",
+      "features": [
+        "200 gram",
+        "24 shots"
+      ]
+    }
+  },
+  {
+    "id": "neon-boom",
+    "name": "Neon Boom",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Neon Boom by Raccoon. 500 gram · 25 shots.",
+      "features": [
+        "500 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "occupy-mars",
+    "name": "Occupy Mars",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Occupy Mars by Winda. 10 shots · girandola finale.",
+      "features": [
+        "10 shots",
+        "girandola finale"
+      ]
+    }
+  },
+  {
+    "id": "party-like-its-1776",
+    "name": "Party Like It’s 1776",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Like It’s 1776 by Winda. 156 shots.",
+      "features": [
+        "156 shots"
+      ]
+    }
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Peacock Spider by Raccoon. 5-inch shells · 24 pack.",
+      "features": [
+        "5-inch shells",
+        "24 pack"
+      ]
+    }
+  },
+  {
+    "id": "battle-of-princeton",
+    "name": "Battle of Princeton",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Battle of Princeton by Raccoon. 500 gram · 36 shots.",
+      "features": [
+        "500 gram",
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "raging-willow",
+    "name": "Raging Willow",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Raging Willow by Raccoon. 200 gram · 19 shots.",
+      "features": [
+        "200 gram",
+        "19 shots"
+      ]
+    }
+  },
+  {
+    "id": "rainbow-ghost",
+    "name": "Rainbow Ghost",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Rainbow Ghost by Raccoon. 500 gram · 195 shots.",
+      "features": [
+        "500 gram",
+        "195 shots"
+      ]
+    }
+  },
+  {
+    "id": "revolution-now",
+    "name": "Revolution Now",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Revolution Now by Raccoon. 500 gram · 30 shots.",
+      "features": [
+        "500 gram",
+        "30 shots"
+      ]
+    }
+  },
+  {
+    "id": "road-rage-bright-star",
+    "name": "Road Rage",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Road Rage by Bright Star. 500 gram cake.",
+      "features": [
+        "500 gram cake"
+      ]
+    }
+  },
+  {
+    "id": "assorted-roman-candles-4-pack",
+    "name": "10S Assorted Roman Candle",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "10S Assorted Roman Candle by Monkey Mania. 4 candles · 10 shots each.",
+      "features": [
+        "4 candles",
+        "10 shots each"
+      ]
+    }
+  },
+  {
+    "id": "strato-launcher",
+    "name": "Strato Launcher",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Strato Launcher by Monkey Mania. 200 gram · 100 shots.",
+      "features": [
+        "200 gram",
+        "100 shots"
+      ]
+    }
+  },
+  {
+    "id": "strobing-willow",
+    "name": "Strobing Willow",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Strobing Willow by Raccoon. 200 gram · 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "take-me-to-your-leader",
+    "name": "Take Me to Your Leader",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Take Me to Your Leader by Winda. 2-stage girandola.",
+      "features": [
+        "2-stage girandola"
+      ]
+    }
+  },
+  {
+    "id": "whisky-business",
+    "name": "Whisky Business",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Whisky Business by Bright Star. 20 shots.",
+      "features": [
+        "20 shots"
+      ]
+    }
+  },
+  {
+    "id": "wild-horses",
+    "name": "Wild Horses",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Wild Horses by Raccoon. 200 gram · 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "willow-explosion",
+    "name": "Willow Explosion",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Willow Explosion by Raccoon. 500 gram · 24 shots.",
+      "features": [
+        "500 gram",
+        "24 shots"
+      ]
+    }
+  },
+  {
+    "id": "neon-jellyfish",
+    "name": "Neon Jellyfish",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Neon Jellyfish by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "party-sparklers-display",
+    "name": "Party Sparklers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Sparklers by Winda. Display · 20 packs of 4.",
+      "features": [
+        "Display",
+        "20 packs of 4"
+      ]
+    }
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "name": "Raise the Dead",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Raise the Dead by Winda. 7-inch shells · 24 pack.",
+      "features": [
+        "7-inch shells",
+        "24 pack"
+      ]
+    }
+  },
+  {
+    "id": "trooper-turret",
+    "name": "Trooper Turret",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Trooper Turret by Winda. 240 shots.",
+      "features": [
+        "240 shots"
+      ]
+    }
+  },
+  {
+    "id": "wings-of-wrath",
+    "name": "Wings of Wrath",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Wings of Wrath by Raccoon. 200 gram · 35 shots.",
+      "features": [
+        "200 gram",
+        "35 shots"
+      ]
+    }
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "name": "No. 3 Cone Fountain",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "A pair of No. 3 cone fountains from Monkey Mania.",
+      "features": [
+        "2-cone pack",
+        "Model MM-FC06A/B"
+      ]
+    }
+  },
+  {
+    "id": "atom-bomb",
+    "name": "Atom Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Atom Bomb by Brothers. 36 shots.",
+      "features": [
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "bamboozle",
+    "name": "Bamboozle",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Bamboozle by Brothers. 42 shots.",
+      "features": [
+        "42 shots"
+      ]
+    }
+  },
+  {
+    "id": "big-top",
+    "name": "Big Top",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Big Top by Brothers. 42 shots.",
+      "features": [
+        "42 shots"
+      ]
+    }
+  },
+  {
+    "id": "blood-money",
+    "name": "Blood Money",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Blood Money by Brothers. 49 shots.",
+      "features": [
+        "49 shots"
+      ]
+    }
+  },
+  {
+    "id": "canopus",
+    "name": "Canopus",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Canopus by Brothers. 48 shots.",
+      "features": [
+        "48 shots"
+      ]
+    }
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Capella by Brothers. 48 shots.",
+      "features": [
+        "48 shots"
+      ]
+    }
+  },
+  {
+    "id": "captain-sam",
+    "name": "Captain Sam",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Captain Sam by Brothers. 30 shots, Daytime parachutes.",
+      "features": [
+        "30 shots",
+        "Daytime parachutes"
+      ]
+    }
+  },
+  {
+    "id": "centauri",
+    "name": "Centauri",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Centauri by Brothers. 48 shots.",
+      "features": [
+        "48 shots"
+      ]
+    }
+  },
+  {
+    "id": "cobalt-bomb",
+    "name": "Cobalt Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cobalt Bomb by Brothers. 36 shots.",
+      "features": [
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "crime-scene",
+    "name": "Crime Scene",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Crime Scene by Brothers. 49 shots.",
+      "features": [
+        "49 shots"
+      ]
+    }
+  },
+  {
+    "id": "daffodil",
+    "name": "Daffodil",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Daffodil by Brothers. 200 gram, 16 shots.",
+      "features": [
+        "200 gram",
+        "16 shots"
+      ]
+    }
+  },
+  {
+    "id": "the-deadly-dozen",
+    "name": "The Deadly Dozen",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "The Deadly Dozen by Brothers. 12 cakes, 200 gram cakes.",
+      "features": [
+        "12 cakes",
+        "200 gram cakes"
+      ]
+    }
+  },
+  {
+    "id": "fairies-in-a-jar",
+    "name": "Fairies in a Jar",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Fairies in a Jar by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "flash-flood-assortment",
+    "name": "Flash Flood",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Flash Flood by Brothers. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Full Speed Fireworks by Brothers. 7-inch shells, 24 shells.",
+      "features": [
+        "7-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "golden-peacock",
+    "name": "Golden Peacock",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Golden Peacock by Brothers. 200 gram, 16 shots.",
+      "features": [
+        "200 gram",
+        "16 shots"
+      ]
+    }
+  },
+  {
+    "id": "hydrogen-bomb",
+    "name": "Hydrogen Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Hydrogen Bomb by Brothers. 36 shots.",
+      "features": [
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "inside-job",
+    "name": "Inside Job",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Inside Job by Brothers. 49 shots.",
+      "features": [
+        "49 shots"
+      ]
+    }
+  },
+  {
+    "id": "jaws-brothers",
+    "name": "Jaws",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Jaws by Brothers. 16 shots.",
+      "features": [
+        "16 shots"
+      ]
+    }
+  },
+  {
+    "id": "jumboshell-fountain",
+    "name": "Jumboshell Fountain",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Jumboshell Fountain by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "m1-abrams-2-pack",
+    "name": "M1 Abrams",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M1 Abrams by Brothers. 2 tanks.",
+      "features": [
+        "2 tanks"
+      ]
+    }
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Maelstrom by Brothers. 6-inch shells, 24 shells.",
+      "features": [
+        "6-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "magic-crystal-4-pack",
+    "name": "Magic Crystal",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Magic Crystal by Brothers. 4 pieces.",
+      "features": [
+        "4 pieces"
+      ]
+    }
+  },
+  {
+    "id": "maximum-altitude-4-pack",
+    "name": "Maximum Altitude",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Maximum Altitude by Brothers. 4 rockets.",
+      "features": [
+        "4 rockets"
+      ]
+    }
+  },
+  {
+    "id": "mechanical-bug",
+    "name": "Mechanical Bug",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Mechanical Bug by Brothers. 100 shots.",
+      "features": [
+        "100 shots"
+      ]
+    }
+  },
+  {
+    "id": "megawatt",
+    "name": "MegaWatt",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "MegaWatt by Brothers. 295 shots.",
+      "features": [
+        "295 shots"
+      ]
+    }
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Midnight by Brothers. 204 shots.",
+      "features": [
+        "204 shots"
+      ]
+    }
+  },
+  {
+    "id": "movie-time",
+    "name": "Movie Time",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Movie Time by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "neutron-bomb",
+    "name": "Neutron Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Neutron Bomb by Brothers. 36 shots.",
+      "features": [
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "old-ironsides",
+    "name": "Old Ironsides",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Old Ironsides by Brothers. 30 shots.",
+      "features": [
+        "30 shots"
+      ]
+    }
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Quest by Brothers. 4-inch shells, 24 shells.",
+      "features": [
+        "4-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ruckus by Brothers. 12 ball shells.",
+      "features": [
+        "12 ball shells"
+      ]
+    }
+  },
+  {
+    "id": "serious-equipment",
+    "name": "Serious Equipment",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Serious Equipment by Brothers. 48 shells, 82 breaks.",
+      "features": [
+        "48 shells",
+        "82 breaks"
+      ]
+    }
+  },
+  {
+    "id": "smash-hit",
+    "name": "Smash Hit",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Smash Hit by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "sons-of-liberty",
+    "name": "Sons of Liberty",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Sons of Liberty by Brothers. 500 gram, 36 shots.",
+      "features": [
+        "500 gram",
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "name": "The Red, White and Blue Salute",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "The Red, White and Blue Salute by Brothers. 24 shots.",
+      "features": [
+        "24 shots"
+      ]
+    }
+  },
+  {
+    "id": "turf-war",
+    "name": "Turf War",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Turf War by Brothers. 49 shots.",
+      "features": [
+        "49 shots"
+      ]
+    }
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Vega by Brothers. 48 shots.",
+      "features": [
+        "48 shots"
+      ]
+    }
+  },
+  {
+    "id": "wild-west",
+    "name": "Wild West",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Wild West by Brothers. 25 shots.",
+      "features": [
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "wildcard",
+    "name": "Wildcard",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Wildcard by Brothers. 200 gram, 49 shots.",
+      "features": [
+        "200 gram",
+        "49 shots"
+      ]
+    }
+  },
+  {
+    "id": "da-big-box-o-bombs",
+    "name": "Da Big Box O' Bombs",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Da Big Box O' Bombs by Brothers. 4 cakes, 144 shots total.",
+      "features": [
+        "4 cakes",
+        "144 shots total"
+      ]
+    }
+  },
+  {
+    "id": "flying-colors",
+    "name": "Flying Colors",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Flying Colors by Brothers. 41 shots.",
+      "features": [
+        "41 shots"
+      ]
+    }
+  },
+  {
+    "id": "mob-madness",
+    "name": "Mob Madness",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Mob Madness by Brothers. 4 cakes, 49 shots per cake.",
+      "features": [
+        "4 cakes",
+        "49 shots per cake"
+      ]
+    }
+  },
+  {
+    "id": "super-fountain",
+    "name": "Super Fountain",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Super Fountain by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "brothers-container-load",
+    "name": "Brothers Container Load",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Brothers Container Load by Brothers. 30-piece assortment.",
+      "features": [
+        "30-piece assortment"
+      ]
+    }
+  },
+  {
+    "id": "solar-flare-no-3",
+    "name": "Solar Flare #3",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Solar Flare #3 by Black Cat. Cone fountain.",
+      "presentation": "Cone fountain",
+      "features": [
+        "Cone fountain"
+      ]
+    }
+  },
+  {
+    "id": "turbo-flash-no-4",
+    "name": "Turbo Flash #4",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Turbo Flash #4 by Black Cat. Cone fountain.",
+      "presentation": "Cone fountain",
+      "features": [
+        "Cone fountain"
+      ]
+    }
+  },
+  {
+    "id": "pharaohs-treasure-no-8",
+    "name": "Pharaoh's Treasure #8",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pharaoh's Treasure #8 by Black Cat. Cone fountain.",
+      "presentation": "Cone fountain",
+      "features": [
+        "Cone fountain"
+      ]
+    }
+  },
+  {
+    "id": "120-shot-camo-pack",
+    "name": "120 Shot Camo Pack",
+    "fields": {
+      "description": "Red, green, blue and purple stars mix with crackling effects and reports.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "120 Shot Camo Pack. 12 candles, 120 shots total.",
+      "features": [
+        "12 candles",
+        "120 shots total"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/120-shot-camo-pack/"
+    ]
+  },
+  {
+    "id": "snow-cone-jr-4-pack",
+    "name": "Snow Cone Jr.",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Snow Cone Jr. by Winda. 4 fountains.",
+      "features": [
+        "4 fountains"
+      ]
+    }
+  },
+  {
+    "id": "above-the-law-assortment",
+    "name": "Above the Law",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Above the Law. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "absolute-pyro",
+    "name": "Absolute Pyro",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Absolute Pyro. 156 shots.",
+      "features": [
+        "156 shots"
+      ]
+    }
+  },
+  {
+    "id": "big-city-display",
+    "name": "Big City Display",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Big City Display. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "big-and-bad-rockets",
+    "name": "Big and Bad",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Big and Bad by Black Cat. 6 rockets.",
+      "features": [
+        "6 rockets"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-four-assorted-9-inch",
+    "name": "Four Assorted 9-inch Fountains",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Four Assorted 9-inch Fountains by Black Cat. 9-inch fountains, 4-pack.",
+      "features": [
+        "9-inch fountains",
+        "4-pack"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-four-assorted-6-inch",
+    "name": "Four Assorted 6-inch Fountains",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Four Assorted 6-inch Fountains by Black Cat. 6-inch fountains, 4-pack.",
+      "features": [
+        "6-inch fountains",
+        "4-pack"
+      ]
+    }
+  },
+  {
+    "id": "cat-eyes-3-pack",
+    "name": "Cat Eyes",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cat Eyes by Black Cat. 3 spinners.",
+      "features": [
+        "3 spinners"
+      ]
+    }
+  },
+  {
+    "id": "fountastic",
+    "name": "Fountastic",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Fountastic by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-four-assorted-7-inch",
+    "name": "Four Assorted 7-inch Fountains",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Four Assorted 7-inch Fountains by Black Cat. 7-inch fountains, 4-pack.",
+      "features": [
+        "7-inch fountains",
+        "4-pack"
+      ]
+    }
+  },
+  {
+    "id": "little-dynamite-100",
+    "name": "Little Dynamite",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Little Dynamite by Black Cat. 100 firecrackers.",
+      "features": [
+        "100 firecrackers"
+      ]
+    }
+  },
+  {
+    "id": "3-for-1-fountains",
+    "name": "3 For 1!",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "3 For 1! by Black Cat. 3 fountains.",
+      "features": [
+        "3 fountains"
+      ]
+    }
+  },
+  {
+    "id": "camo-smoke",
+    "name": "Camo Smoke",
+    "fields": {
+      "description": "Produces a thick plume of white smoke.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Camo Smoke. Single smoke tube.",
+      "features": [
+        "Single smoke tube"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/camo-smoke/"
+    ]
+  },
+  {
+    "id": "confetti-blaster-24-inch",
+    "name": "Confetti Blaster",
+    "fields": {
+      "description": "Launches a burst of confetti.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Confetti Blaster. 24-inch confetti blaster.",
+      "features": [
+        "24-inch confetti blaster"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/confetti-blasters-24/"
+    ]
+  },
+  {
+    "id": "cracker-balls-6-pack",
+    "name": "Cracker Balls",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cracker Balls by Black Cat. 6-pack.",
+      "features": [
+        "6-pack"
+      ]
+    }
+  },
+  {
+    "id": "cracker-bomb-3-pack",
+    "name": "Cracker Bomb",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cracker Bomb by Black Cat. 3 sticks, 50 firecrackers per stick.",
+      "features": [
+        "3 sticks",
+        "50 firecrackers per stick"
+      ]
+    }
+  },
+  {
+    "id": "fallout",
+    "name": "Fallout",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Fallout by Fox. 500 gram, 24 shots.",
+      "features": [
+        "500 gram",
+        "24 shots"
+      ]
+    }
+  },
+  {
+    "id": "joker-black-cat-fountain",
+    "name": "Joker",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Joker by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "jr-pyro-backpack-black-cat",
+    "name": "Jr. Pyro Backpack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Jr. Pyro Backpack by Black Cat. Backpack assortment.",
+      "features": [
+        "Backpack assortment"
+      ]
+    }
+  },
+  {
+    "id": "jumbo-assorted-candles-4-pack",
+    "name": "Jumbo Assorted Candles",
+    "fields": {
+      "description": "Green and red wave effects alternate with silver strobes.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Jumbo Assorted Candles. 4 candles, 8 shots per candle.",
+      "features": [
+        "4 candles",
+        "8 shots per candle"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/jumbo-assorted-candles/"
+    ]
+  },
+  {
+    "id": "texas-bandit-rockets",
+    "name": "Texas Bandit Rocket",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Texas Bandit Rocket by Black Cat. 6 rockets.",
+      "features": [
+        "6 rockets"
+      ]
+    }
+  },
+  {
+    "id": "junior-pyro-assortment",
+    "name": "Junior Pyro",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Junior Pyro. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "kids-pack-black-cat",
+    "name": "Kids Pack",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Kids Pack by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Light Brigade by Brothers. 42 shots.",
+      "features": [
+        "42 shots"
+      ]
+    }
+  },
+  {
+    "id": "m150-red-12-pack",
+    "name": "M-150 Red Salute",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M-150 Red Salute by Black Cat. 12 firecrackers.",
+      "features": [
+        "12 firecrackers"
+      ]
+    }
+  },
+  {
+    "id": "m150-red-silver-36-pack",
+    "name": "M-150 Red/Silver Salute",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M-150 Red/Silver Salute by Black Cat. 36 firecrackers.",
+      "features": [
+        "36 firecrackers"
+      ]
+    }
+  },
+  {
+    "id": "magical-barrage-100",
+    "name": "Magical Barrage",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Magical Barrage by Black Cat. 100 shots.",
+      "features": [
+        "100 shots"
+      ]
+    }
+  },
+  {
+    "id": "neon-camo-smoke-4-pack",
+    "name": "Neon Camo Smoke",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Neon Camo Smoke by Black Cat. 4 smoke tubes.",
+      "features": [
+        "4 smoke tubes"
+      ]
+    }
+  },
+  {
+    "id": "outlaw-justice",
+    "name": "Outlaw Justice",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Outlaw Justice by Fox. 500 gram, 36 shots.",
+      "features": [
+        "500 gram",
+        "36 shots"
+      ]
+    }
+  },
+  {
+    "id": "packin-purple",
+    "name": "Packin' Purple",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Packin' Purple by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "party-animal-assortment",
+    "name": "Party Animal",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Animal by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-party-pack-5",
+    "name": "Party Pack #5",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Pack #5 by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-party-pack-5-safe-sane",
+    "name": "Party Pack #5 Safe and Sane",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Pack #5 Safe and Sane by Black Cat. Safe and sane assortment.",
+      "features": [
+        "Safe and sane assortment"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-party-pack-6",
+    "name": "Party Pack #6",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Pack #6 by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "party-poppers-6-pack",
+    "name": "Party Poppers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Poppers by Black Cat. 6 party poppers.",
+      "features": [
+        "6 party poppers"
+      ]
+    }
+  },
+  {
+    "id": "doggie-doo-doo",
+    "name": "Doggie Doo Doo",
+    "fields": {
+      "description": "A dog-shaped novelty that produces a curling ash snake with crackling effects.",
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Doggie Doo Doo. Novelty.",
+      "features": [
+        "Novelty"
+      ],
+      "presentation": "Novelty"
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/doggie-doo-doo/"
+    ]
+  },
+  {
+    "id": "pride-and-honor-6",
+    "name": "Pride and Honor #6",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pride and Honor #6 by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "princess-power-sword",
+    "name": "Princess Power Sword",
+    "fields": {
+      "description": "A sword-shaped fountain with colorful sparks and a light crackle.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Princess Power Sword. Pink sword fountain.",
+      "features": [
+        "Pink sword fountain"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/princess-sword/"
+    ]
+  },
+  {
+    "id": "pyro-city-safe-sane",
+    "name": "Pyro City Safe and Sane",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pyro City Safe and Sane. Safe and sane assortment.",
+      "features": [
+        "Safe and sane assortment"
+      ]
+    }
+  },
+  {
+    "id": "pyro-city-assortment",
+    "name": "Pyro City",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pyro City. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "pyro-pack",
+    "name": "Pyro Pack",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pyro Pack by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "the-beast-black-cat",
+    "name": "The Beast",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "The Beast by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "beast-candle",
+    "name": "Beast",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Beast by Fox. 666 shots.",
+      "features": [
+        "666 shots"
+      ]
+    }
+  },
+  {
+    "id": "victory-sword",
+    "name": "Victory Sword",
+    "fields": {
+      "description": "Colorful sparks and a light crackle emerge from this sword-shaped fountain.",
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Victory Sword. Sword fountain.",
+      "presentation": "Sword fountain",
+      "features": [
+        "Sword fountain"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/victory-sword/"
+    ]
+  },
+  {
+    "id": "whacky-tobacky",
+    "name": "Whacky Tobacky",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Whacky Tobacky by Brothers. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "walkin-dead",
+    "name": "Walkin' Dead",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Walkin' Dead by Black Cat. 200 gram, 19 shots.",
+      "features": [
+        "200 gram",
+        "19 shots"
+      ]
+    }
+  },
+  {
+    "id": "war-hero",
+    "name": "War Hero",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "War Hero. 500 gram, 30 shots.",
+      "features": [
+        "500 gram",
+        "30 shots"
+      ]
+    }
+  },
+  {
+    "id": "whistling-chaser-8-pack",
+    "name": "Whistling Chaser",
+    "fields": {
+      "description": "Whistles and releases bright sparks as it travels along the ground.",
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Whistling Chaser. 8-pack.",
+      "features": [
+        "8-pack"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/whistling-chaser/"
+    ]
+  },
+  {
+    "id": "black-cat-morning-glory-36-inch",
+    "name": "36-inch Morning Glory",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "36-inch Morning Glory by Black Cat. 36-inch sparklers, 6-pack.",
+      "features": [
+        "36-inch sparklers",
+        "6-pack"
+      ]
+    }
+  },
+  {
+    "id": "excellent-bag",
+    "name": "Excellent Bag",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Excellent Bag by Black Cat. Assortment.",
+      "presentation": "Assortment",
+      "features": [
+        "Assortment"
+      ]
+    }
+  },
+  {
+    "id": "call-the-cops",
+    "name": "Call the Cops",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Call the Cops by Black Cat. 200 gram, 87 shots.",
+      "features": [
+        "200 gram",
+        "87 shots"
+      ]
+    }
+  },
+  {
+    "id": "cowboy-rockets-9-pack",
+    "name": "Cowboy Rocket",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cowboy Rocket by Black Cat. 9 rockets.",
+      "features": [
+        "9 rockets"
+      ]
+    }
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Drone by Fox. Spinning aerial novelty.",
+      "features": [
+        "Spinning aerial novelty"
+      ]
+    }
+  },
+  {
+    "id": "festival-fountain",
+    "name": "Festival Fountain",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Festival Fountain by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "forever-loyal",
+    "name": "Forever Loyal",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Forever Loyal by Pyro Shine. 500 gram, 25 shots.",
+      "features": [
+        "500 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "fuego-loco",
+    "name": "Fuego Loco",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Fuego Loco by Black Cat. 200 gram, 20 shots.",
+      "features": [
+        "200 gram",
+        "20 shots"
+      ]
+    }
+  },
+  {
+    "id": "holiday-lights",
+    "name": "Holiday Lights",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Holiday Lights by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Mass Confusion by Black Cat. 500 gram, 45 shots.",
+      "features": [
+        "500 gram",
+        "45 shots"
+      ]
+    }
+  },
+  {
+    "id": "sky-ink",
+    "name": "Sky Ink",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Sky Ink by Black Cat. 200 gram, 16 shots.",
+      "features": [
+        "200 gram",
+        "16 shots"
+      ]
+    }
+  },
+  {
+    "id": "stealth-bomber-2-pack",
+    "name": "Stealth Bomber",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Stealth Bomber by Black Cat. 2-pack.",
+      "features": [
+        "2-pack"
+      ]
+    }
+  },
+  {
+    "id": "sugar-pop",
+    "name": "Sugar Pop",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Sugar Pop by Fox. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "worlds-largest-fountain",
+    "name": "World's Largest Fountain",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "World's Largest Fountain by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "aggression",
+    "name": "Aggression",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Aggression by Raccoon. 200 gram, 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Arms Depot by Raccoon. 4-inch shells, 16 shells.",
+      "features": [
+        "4-inch shells",
+        "16 shells"
+      ]
+    }
+  },
+  {
+    "id": "bang-bros",
+    "name": "Bang Bros",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Bang Bros by Raccoon. 500 gram, 44 shots.",
+      "features": [
+        "500 gram",
+        "44 shots"
+      ]
+    }
+  },
+  {
+    "id": "battle-cry",
+    "name": "Battle Cry",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Battle Cry by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Break the Rules by Raccoon. 6-inch shells, 6 shells.",
+      "features": [
+        "6-inch shells",
+        "6 shells"
+      ]
+    }
+  },
+  {
+    "id": "color-rage",
+    "name": "Color Rage",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Color Rage by Raccoon. 500 gram, 30 shots.",
+      "features": [
+        "500 gram",
+        "30 shots"
+      ]
+    }
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Flawless by Raccoon. 5-inch shells, 24 shells.",
+      "features": [
+        "5-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "name": "Ghostacular",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ghostacular by Raccoon. 5-inch shells, 24 shells.",
+      "features": [
+        "5-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "home-of-the-brave",
+    "name": "Home of the Brave",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Home of the Brave by Monkey Mania. 48 shells, 72 breaks.",
+      "features": [
+        "48 shells",
+        "72 breaks"
+      ]
+    }
+  },
+  {
+    "id": "hot-as-hell",
+    "name": "Hot as Hell",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Hot as Hell by Raccoon. 9-shot rack.",
+      "features": [
+        "9-shot rack"
+      ]
+    }
+  },
+  {
+    "id": "joker-raccoon",
+    "name": "Joker",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Joker by Raccoon. 200 gram, 20 shots.",
+      "features": [
+        "200 gram",
+        "20 shots"
+      ]
+    }
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "name": "Let Freedom Ring",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Let Freedom Ring by Raccoon. 5-inch shells, 24 shells.",
+      "features": [
+        "5-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "neon-celebration",
+    "name": "Neon Celebration",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Neon Celebration by Raccoon. 500 gram, 60 shots.",
+      "features": [
+        "500 gram",
+        "60 shots"
+      ]
+    }
+  },
+  {
+    "id": "monkey-mania-10-ball-candles-6-pack",
+    "name": "10 Ball Roman Candle",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "10 Ball Roman Candle by Monkey Mania. 6 candles, 10 shots per candle.",
+      "features": [
+        "6 candles",
+        "10 shots per candle"
+      ]
+    }
+  },
+  {
+    "id": "sky-painter-fountain",
+    "name": "Sky Painter",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Sky Painter by Monkey Mania. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Sniper Fire by Raccoon. 4-inch shells, 12 shells.",
+      "features": [
+        "4-inch shells",
+        "12 shells"
+      ]
+    }
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "name": "Tiger Force",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Tiger Force by Raccoon. 6-inch shells, 24 shells.",
+      "features": [
+        "6-inch shells",
+        "24 shells"
+      ]
+    }
+  },
+  {
+    "id": "8-oz-rockets-cutting-edge",
+    "name": "8 oz Rockets",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "8 oz Rockets by Cutting Edge. 12 rockets.",
+      "features": [
+        "12 rockets"
+      ]
+    }
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "name": "1-inch Mini Artillery Shells",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "1-inch Mini Artillery Shells by Cutting Edge. 1-inch shells, 12-pack.",
+      "features": [
+        "1-inch shells",
+        "12-pack"
+      ]
+    }
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "2 Minutes Extravaganza by TNT. Multi-aerial cake.",
+      "presentation": "Multi-aerial cake",
+      "features": [
+        "Multi-aerial cake"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-2000-roll",
+    "name": "Black Cat 2000 Roll",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Black Cat 2000 Roll by Black Cat. 2000-count roll.",
+      "features": [
+        "2000-count roll"
+      ]
+    }
+  },
+  {
+    "id": "world-class-2000-roll",
+    "name": "World Class 2000 Roll",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "World Class 2000 Roll by World-Class. 2000-count roll.",
+      "features": [
+        "2000-count roll"
+      ]
+    }
+  },
+  {
+    "id": "world-class-saturn-25",
+    "name": "25 Shot Saturn Missile",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "25 Shot Saturn Missile by World-Class. 25 shots, Plastic base.",
+      "features": [
+        "25 shots",
+        "Plastic base"
+      ]
+    }
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "name": "Whistling Buster",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Whistling Buster by T-Sky. 6 shells, 1 tube.",
+      "features": [
+        "6 shells",
+        "1 tube"
+      ]
+    }
+  },
+  {
+    "id": "america-enduring",
+    "name": "America Enduring",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "America Enduring by Sky Bacon. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "american-pride-fountain",
+    "name": "American Pride",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "American Pride by World-Class. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "american-wildcard",
+    "name": "American Wildcard",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "American Wildcard by Brothers. 49 shots, 200 gram.",
+      "features": [
+        "49 shots",
+        "200 gram"
+      ]
+    }
+  },
+  {
+    "id": "americas-best-snappers",
+    "name": "America's Best Snappers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "America's Best Snappers by Sky Bacon. Red, white and blue snappers.",
+      "features": [
+        "Red, white and blue snappers"
+      ]
+    }
+  },
+  {
+    "id": "armadillo-fountain",
+    "name": "Armadillo",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Armadillo by Cutting Edge. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-50-pack",
+    "name": "Black Cat Firecrackers 50 Pack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Black Cat Firecrackers 50 Pack by Black Cat. 50-count pack.",
+      "features": [
+        "50-count pack"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-200-pack",
+    "name": "Black Cat Firecrackers 200 Pack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Black Cat Firecrackers 200 Pack by Black Cat. 200-count pack.",
+      "features": [
+        "200-count pack"
+      ]
+    }
+  },
+  {
+    "id": "citrus-fountain",
+    "name": "Citrus",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Citrus by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "cutting-edge-1000-roll",
+    "name": "Cutting Edge 1000 Roll",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Cutting Edge 1000 Roll by Cutting Edge. 1000-count roll.",
+      "features": [
+        "1000-count roll"
+      ]
+    }
+  },
+  {
+    "id": "daytime-reveal-pink",
+    "name": "Daytime Reveal Pink",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Daytime Reveal Pink by Sky Bacon. 16 shots, Pink smoke.",
+      "features": [
+        "16 shots",
+        "Pink smoke"
+      ]
+    }
+  },
+  {
+    "id": "excalibur-24-pack",
+    "name": "Excalibur",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Excalibur by World-Class. 4-inch shells, 24-pack.",
+      "features": [
+        "4-inch shells",
+        "24-pack"
+      ]
+    }
+  },
+  {
+    "id": "flag-missile-200",
+    "name": "Flag Missile Battery",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Flag Missile Battery by Firehawk. 200 shots.",
+      "features": [
+        "200 shots"
+      ]
+    }
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Hot Dog by World-Class. 16 shots, 200 gram.",
+      "features": [
+        "16 shots",
+        "200 gram"
+      ]
+    }
+  },
+  {
+    "id": "howler-fountain",
+    "name": "Howler",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Howler by Cutting Edge. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "junior-pyro-pack-sky-bacon",
+    "name": "Junior Pyro Pack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Junior Pyro Pack by Sky Bacon. Blue backpack, Safe & Sane assortment.",
+      "features": [
+        "Blue backpack",
+        "Safe & Sane assortment"
+      ]
+    }
+  },
+  {
+    "id": "killer-bees-4-pack",
+    "name": "Killer Bees",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Killer Bees by Sky Bacon. 4-pack.",
+      "features": [
+        "4-pack"
+      ]
+    }
+  },
+  {
+    "id": "m-200-salute-12-pack",
+    "name": "M-200 Salute",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M-200 Salute by Sky Bacon. 12-pack.",
+      "features": [
+        "12-pack"
+      ]
+    }
+  },
+  {
+    "id": "m-5000-world-class-12-pack",
+    "name": "M-5000 Salute Crackers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M-5000 Salute Crackers by World-Class. 12-pack.",
+      "features": [
+        "12-pack"
+      ]
+    }
+  },
+  {
+    "id": "m-5000-cutting-edge-12-pack",
+    "name": "M-5000 Salute Crackers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "M-5000 Salute Crackers by Cutting Edge. 12-pack.",
+      "features": [
+        "12-pack"
+      ]
+    }
+  },
+  {
+    "id": "major-mojo",
+    "name": "Major Mojo",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Major Mojo by World-Class. Fireworks assortment.",
+      "features": [
+        "Fireworks assortment"
+      ],
+      "presentation": "Fireworks assortment"
+    }
+  },
+  {
+    "id": "mexican-jumping-beans",
+    "name": "Mexican Jumping Beans",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Mexican Jumping Beans by Red Rhino. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "morning-glory-144-cutting-edge",
+    "name": "14-inch Morning Glory",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "14-inch Morning Glory by Cutting Edge. 14-inch sparklers, 144-count box.",
+      "features": [
+        "14-inch sparklers",
+        "144-count box"
+      ]
+    }
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Nishiki Blast by Raccoon. 5-inch shells, 6-pack.",
+      "features": [
+        "5-inch shells",
+        "6-pack"
+      ]
+    }
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "name": "One Bad Mother-In-Law",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "One Bad Mother-In-Law by World-Class. 16 shots, 500 gram.",
+      "features": [
+        "16 shots",
+        "500 gram"
+      ]
+    }
+  },
+  {
+    "id": "pizza-platter",
+    "name": "Pizza Platter",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pizza Platter by Winda. 6 cakes, 15 shots per cake.",
+      "features": [
+        "6 cakes",
+        "15 shots per cake"
+      ]
+    }
+  },
+  {
+    "id": "poopy-puppy",
+    "name": "Poopy Puppy",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Poopy Puppy by Boomer. Novelty firework.",
+      "features": [
+        "Novelty firework"
+      ],
+      "presentation": "Novelty firework"
+    }
+  },
+  {
+    "id": "pyro-princess-pack",
+    "name": "Pyro Princess Pack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pyro Princess Pack by Sky Bacon. Pink backpack, Safe & Sane assortment.",
+      "features": [
+        "Pink backpack",
+        "Safe & Sane assortment"
+      ]
+    }
+  },
+  {
+    "id": "jumbo-crackling-balls-3-pack",
+    "name": "Jumbo Crackling Balls",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Jumbo Crackling Balls by Sky Bacon. 3-pack.",
+      "features": [
+        "3-pack"
+      ]
+    }
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "name": "Raccoon 5-inch Canister Shells",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Raccoon 5-inch Canister Shells by Raccoon. 5-inch shells, 24-pack.",
+      "features": [
+        "5-inch shells",
+        "24-pack"
+      ]
+    }
+  },
+  {
+    "id": "american-saturn-missile-300",
+    "name": "American Saturn Missile Battery",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "American Saturn Missile Battery by World-Class. 300 shots.",
+      "features": [
+        "300 shots"
+      ]
+    }
+  },
+  {
+    "id": "stars-and-stripes-assortment",
+    "name": "Stars and Stripes",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Stars and Stripes by World-Class. Fireworks assortment.",
+      "features": [
+        "Fireworks assortment"
+      ],
+      "presentation": "Fireworks assortment"
+    }
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "name": "Super Cakes",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Super Cakes by Happy Family. Four-cake assortment.",
+      "features": [
+        "4 cakes"
+      ]
+    }
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Super Magnum by Boomer. 12 shells.",
+      "features": [
+        "12 shells"
+      ]
+    }
+  },
+  {
+    "id": "the-king-assortment",
+    "name": "The King",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "The King by World-Class. Fireworks assortment.",
+      "features": [
+        "Fireworks assortment"
+      ],
+      "presentation": "Fireworks assortment"
+    }
+  },
+  {
+    "id": "tomahawk-missile",
+    "name": "Tomahawk Missile",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Tomahawk Missile by World-Class. 12-inch missile.",
+      "features": [
+        "12-inch missile"
+      ]
+    }
+  },
+  {
+    "id": "torpedo-snappers",
+    "name": "Torpedo Snappers",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Torpedo Snappers by Black Cat. 20-count box.",
+      "features": [
+        "20-count box"
+      ]
+    }
+  },
+  {
+    "id": "unicorn-chaser-2-pack",
+    "name": "Unicorn Chaser",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Unicorn Chaser by Sky Bacon. 2-pack.",
+      "features": [
+        "2-pack"
+      ]
+    }
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "name": "United We Stand",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "United We Stand by World-Class. 48 shells, 84 breaks.",
+      "features": [
+        "48 shells",
+        "84 breaks"
+      ]
+    }
+  },
+  {
+    "id": "vertical-limit",
+    "name": "Vertical Limit",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Vertical Limit by Cutting Edge. 16 shots, 200 gram.",
+      "features": [
+        "16 shots",
+        "200 gram"
+      ]
+    }
+  },
+  {
+    "id": "viva-mexico",
+    "name": "Viva Mexico",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Viva Mexico by Sky Bacon. 19 shots, 500 gram.",
+      "features": [
+        "19 shots",
+        "500 gram"
+      ]
+    }
+  },
+  {
+    "id": "watermelon-ninja",
+    "name": "Watermelon Ninja",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Watermelon Ninja by Sky Bacon. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "what-boys-are-made-of",
+    "name": "What Boys Are Made Of",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "What Boys Are Made Of by World-Class. Backpack assortment.",
+      "features": [
+        "Backpack assortment"
+      ]
+    }
+  },
+  {
+    "id": "whats-that",
+    "name": "What's That!?!",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "What's That!?! by Sky Bacon. Cake and girandola.",
+      "features": [
+        "Cake and girandola"
+      ]
+    }
+  },
+  {
+    "id": "frog-princess",
+    "name": "Frog Princess",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Frog Princess by World-Class. Pink frog fountain.",
+      "features": [
+        "Pink frog fountain"
+      ]
+    }
+  },
+  {
+    "id": "frog-prince",
+    "name": "Frog Prince",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Frog Prince by World-Class. Green frog fountain.",
+      "features": [
+        "Green frog fountain"
+      ]
+    }
+  },
+  {
+    "id": "goliath-36-shells",
+    "name": "Goliath",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Goliath by World-Class. 36 shells.",
+      "features": [
+        "36 shells"
+      ]
+    }
+  },
+  {
+    "id": "hoot-hoot-hooray",
+    "name": "Hoot Hoot Hooray!",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Hoot Hoot Hooray! by Winda. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "smoke-crayon-8-pack",
+    "name": "Smoke Crayon",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Smoke Crayon by Sky Bacon. 8-pack, Assorted colors.",
+      "features": [
+        "8-pack",
+        "Assorted colors"
+      ]
+    }
+  },
+  {
+    "id": "openfire",
+    "name": "Openfire",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Openfire by Brothers. 33 shots, 500 gram.",
+      "features": [
+        "33 shots",
+        "500 gram"
+      ]
+    }
+  },
+  {
+    "id": "pure-fantasy",
+    "name": "Pure Fantasy",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pure Fantasy by Brothers. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "secret-vault",
+    "name": "Secret Vault",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Secret Vault by Brothers. Fireworks assortment.",
+      "features": [
+        "Fireworks assortment"
+      ],
+      "presentation": "Fireworks assortment"
+    }
+  },
+  {
+    "id": "skybolt-rockets-5-pack",
+    "name": "Skybolt",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Skybolt by Brothers. 5 rockets.",
+      "features": [
+        "5 rockets"
+      ]
+    }
+  },
+  {
+    "id": "super-sword",
+    "name": "Super Sword",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Super Sword by Brothers. Handheld fountain.",
+      "features": [
+        "Handheld fountain"
+      ]
+    }
+  },
+  {
+    "id": "gatlin-pack",
+    "name": "Gatlin Pack",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Gatlin Pack by Black Cat. 8 candles, 5 shots per candle, Includes launch tube.",
+      "features": [
+        "8 candles",
+        "5 shots per candle",
+        "Includes launch tube"
+      ]
+    }
+  },
+  {
+    "id": "goal-fountain",
+    "name": "Goal",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Goal by Fox. Soccer ball fountain.",
+      "features": [
+        "Soccer ball fountain"
+      ]
+    }
+  },
+  {
+    "id": "patriotic-fury",
+    "name": "Patriotic Fury",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Patriotic Fury by Fox. 250 shots.",
+      "features": [
+        "250 shots"
+      ]
+    }
+  },
+  {
+    "id": "silent-treatment",
+    "name": "Silent Treatment",
+    "fields": {
+      "description": "Red flames lead into silver sprays, colorful fish effects and chrysanthemums with red, green and yellow stars.",
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Exact existing identity and manufacturer/distributor effects reviewed. Rewritten in concise customer language; no duration or unverified specifications added. Repeated facts omitted.",
+    "before": {
+      "description": "Silent Treatment. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    },
+    "sources": [
+      "https://www.wincofireworks.com/product/silent-treatment/"
+    ]
+  },
+  {
+    "id": "black-cat-missile-base-100",
+    "name": "100 Shot Missile Base",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "100 Shot Missile Base by Black Cat. 100 shots.",
+      "features": [
+        "100 shots"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-night-display",
+    "name": "Night Display",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Night Display by Black Cat. Aerial assortment.",
+      "presentation": "Aerial assortment",
+      "features": [
+        "Aerial assortment"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-party-pack-4",
+    "name": "Party Pack 4",
+    "fields": {
+      "description": null,
+      "features": null,
+      "presentation": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Party Pack 4 by Black Cat. Fireworks assortment.",
+      "features": [
+        "Fireworks assortment"
+      ],
+      "presentation": "Fireworks assortment"
+    }
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "name": "Black Cat Combo Cakes",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Black Cat Combo Cakes by Black Cat. 4 cakes, 15 shots per cake.",
+      "features": [
+        "4 cakes",
+        "15 shots per cake"
+      ]
+    }
+  },
+  {
+    "id": "dragon-fire-black-cat",
+    "name": "Dragon Fire",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Dragon Fire by Black Cat. Dragon-shaped novelty fountain.",
+      "features": [
+        "Dragon-shaped novelty fountain"
+      ]
+    }
+  },
+  {
+    "id": "hot-sauce",
+    "name": "Hot Sauce",
+    "fields": {
+      "description": null,
+      "presentation": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Hot Sauce by Black Cat. Fountain.",
+      "presentation": "Fountain",
+      "features": [
+        "Fountain"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-assorted-snakes",
+    "name": "Assorted Snakes",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Assorted Snakes by Black Cat. 6 boxes, Black snakes, colored snakes and glow worms.",
+      "features": [
+        "6 boxes",
+        "Black snakes, colored snakes and glow worms"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-1000-roll",
+    "name": "Black Cat 1000 Roll",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Black Cat 1000 Roll by Black Cat. 1000-count roll.",
+      "features": [
+        "1000-count roll"
+      ]
+    }
+  },
+  {
+    "id": "dreams-from-heaven",
+    "name": "Dreams from Heaven",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Dreams from Heaven by Raccoon. 200 gram, 25 shots.",
+      "features": [
+        "200 gram",
+        "25 shots"
+      ]
+    }
+  },
+  {
+    "id": "pirate-captain",
+    "name": "Pirate Captain",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Pirate Captain by Raccoon. 200 gram, 21 shots.",
+      "features": [
+        "200 gram",
+        "21 shots"
+      ]
+    }
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "name": "Ring of Honor",
+    "fields": {
+      "description": null,
+      "features": null
+    },
+    "reason": "Editorial review: omit templated copy, internal model prose, category-only subtitles and facts already stated in the presentation or useful description. Keep source evidence and manufacturerCode.",
+    "before": {
+      "description": "Ring of Honor by Raccoon. 5-inch shells, 6-pack.",
+      "features": [
+        "5-inch shells",
+        "6-pack"
+      ]
+    }
+  },
+  {
+    "id": "lets-celebrate",
+    "name": "Let’s Celebrate",
+    "fields": {
+      "presentation": null
+    },
+    "before": {
+      "presentation": "Assortment pack"
+    },
+    "reason": "Remove category-only presentation; identity remains in source audit."
+  },
+  {
+    "id": "sky-pattern",
+    "name": "Sky Pattern",
+    "fields": {
+      "presentation": null
+    },
+    "before": {
+      "presentation": "Rocket kit"
+    },
+    "reason": "Remove category-only presentation; identity remains in source audit."
+  },
+  {
+    "id": "bump-bear",
+    "name": "Bump Bear",
+    "fields": {
+      "features": [
+        "Gold, red, silver and green palm effects"
+      ]
+    },
+    "before": {
+      "features": [
+        "16 shots",
+        "Gold, red, silver and green palm effects"
+      ]
+    },
+    "reason": "Remove the first feature because its shot/shell/break count is already stated in the presentation; retain the verified effects or shell breakdown."
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "fields": {
+      "features": [
+        "16 single-break, 8 canister, 6 double-break and 6 triple-break shells"
+      ]
+    },
+    "before": {
+      "features": [
+        "36 shells with 54 breaks",
+        "16 single-break, 8 canister, 6 double-break and 6 triple-break shells"
+      ]
+    },
+    "reason": "Remove the first feature because its shot/shell/break count is already stated in the presentation; retain the verified effects or shell breakdown."
+  }
+]

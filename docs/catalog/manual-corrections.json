@@ -1,0 +1,119 @@
+[
+  {
+    "id": "the-reaper",
+    "name": "The Reaper",
+    "image": "/images/products/the-reaper.webp",
+    "brandId": "raccoon",
+    "brand": "Raccoon",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "alien-attack",
+    "name": "Alien Attack",
+    "image": "/images/products/alien-attack.webp",
+    "brandId": "happy-family",
+    "brand": "Happy Family",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "neon-beef",
+    "name": "Neon Beef",
+    "image": "/images/products/neon-beef.webp",
+    "brandId": "winda",
+    "brand": "Winda",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "night-rider",
+    "name": "Night Rider",
+    "image": "/images/products/night-rider.webp",
+    "brandId": "monkey-mania",
+    "brand": "Monkey Mania",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "futurama-artillery",
+    "name": "Futurama Artillery",
+    "image": "/images/products/futurama-artillery.webp",
+    "brandId": "raccoon",
+    "brand": "Raccoon",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "festival-balls-artillery",
+    "name": "Festival Balls",
+    "image": "/images/products/festival-balls-artillery.webp",
+    "brandId": "black-cat",
+    "brand": "Black Cat",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "star-light",
+    "name": "Star Light",
+    "image": "/images/products/star-light.webp",
+    "brandId": "winda",
+    "brand": "Winda",
+    "source": "User-confirmed correction, 2026-09-24",
+    "reason": "Applies only to this existing unbranded ID and approved photograph. Does not identify or merge other same-name Square presentations."
+  },
+  {
+    "id": "big-city-display",
+    "name": "Big City Display",
+    "image": "/images/products/big-city-display.webp",
+    "brandId": "black-cat",
+    "brand": "Black Cat",
+    "source": "User-confirmed correction, catalog presentation request, 2026-09-24",
+    "reason": "Exact existing product ID and presentation; preserve identity, image and favorites."
+  },
+  {
+    "id": "junior-pyro-assortment",
+    "name": "Junior Pyro",
+    "image": "/images/products/junior-pyro-assortment.webp",
+    "brandId": "black-cat",
+    "brand": "Black Cat",
+    "source": "User-confirmed correction, catalog presentation request, 2026-09-24",
+    "reason": "Exact existing product ID and presentation; preserve identity, image and favorites."
+  },
+  {
+    "id": "pyro-city-safe-sane",
+    "name": "Pyro City Safe and Sane",
+    "image": "/images/products/pyro-city-safe-sane.webp",
+    "brandId": "black-cat",
+    "brand": "Black Cat",
+    "source": "User-confirmed correction, catalog presentation request, 2026-09-24",
+    "reason": "Exact existing product ID and presentation; preserve identity, image and favorites."
+  },
+  {
+    "id": "war-hero",
+    "name": "War Hero",
+    "image": "/images/products/war-hero.webp",
+    "brandId": "brothers",
+    "brand": "Brothers",
+    "source": "User-confirmed correction, catalog presentation request, 2026-09-24",
+    "reason": "Exact existing product ID and presentation; preserve identity, image and favorites."
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "image": "/images/products/super-magnum-12-pack.webp",
+    "brandId": "world-class-fireworks",
+    "brand": "World-Class",
+    "source": "User-confirmed correction, catalog presentation request, 2026-09-24",
+    "reason": "Exact existing product ID and presentation; preserve identity, image and favorites."
+  },
+  {
+    "id": "silent-treatment",
+    "name": "Silent Treatment",
+    "image": "/images/products/silent-treatment.webp",
+    "brandId": "fox",
+    "brand": "Fox",
+    "source": "User confirmed in My List iteration, 2026-09-24",
+    "reason": "Exact existing ID and approved image. Preserve variant and favorites."
+  }
+]

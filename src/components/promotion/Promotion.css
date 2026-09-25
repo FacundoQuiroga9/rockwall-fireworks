@@ -1,0 +1,110 @@
+.promotion-section {
+  overflow: clip;
+  background: var(--color-primary);
+  color: var(--color-surface);
+  padding-block: clamp(2.5rem, 6vh, 4.5rem);
+}
+
+.promotion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+
+.promotion-graphic {
+  position: relative;
+  border: 2px solid var(--color-surface);
+  padding: 2rem 2.5rem;
+  transform: rotate(-4deg);
+}
+
+.promotion-graphic > span {
+  font-family: var(--font-display);
+  font-size: clamp(2.3rem, 4.2vw, 4rem);
+  line-height: 1.08;
+  display: block;
+  position: relative;
+}
+
+.promotion-graphic em {
+  font-style: normal;
+  color: white;
+}
+
+.promotion-graphic .burst {
+  right: -2rem;
+  top: -2rem;
+  width: 10rem;
+  height: 10rem;
+  color: var(--color-surface);
+  opacity: .55;
+}
+
+.promotion-copy .eyebrow {
+  font-size: .67rem;
+  margin-bottom: 1rem;
+}
+
+.promotion-copy h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.5rem, 3.5vw, 3.8rem);
+  line-height: 1.07;
+}
+
+.promotion-copy > p:not(.eyebrow) {
+  max-width: 32rem;
+  line-height: 1.65;
+  margin-top: 1rem;
+}
+
+.promotion-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.promotion-actions .button {
+  background: var(--color-surface);
+  color: white;
+}
+
+.promotion-actions .button:hover {
+  background: var(--color-surface-elevated);
+}
+
+.promotion-actions .text-link {
+  font-size: .8rem;
+}
+
+.promotion-copy .promotion-note {
+  font-size: .7rem;
+}
+
+@media (max-width: 900px) {
+  .promotion-grid {
+    gap: 3rem;
+  }
+  .promotion-graphic {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .promotion-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .promotion-section {
+    padding-block: 3.5rem;
+  }
+  .promotion-graphic {
+    margin-inline: .5rem;
+  }
+  .promotion-graphic > span {
+    font-size: 2.9rem;
+  }
+}

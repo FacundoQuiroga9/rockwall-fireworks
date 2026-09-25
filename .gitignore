@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 artifacts
+/tmp/
+__pycache__/
+*.py[cod]
 *.local
 
 # Editor directories and files

@@ -1,0 +1,1292 @@
+{
+  "generatedAt": "2026-09-25T13:41:32.402Z",
+  "actual": {
+    "version": 1,
+    "groups": [
+      {
+        "id": "list-muh0eq9f-2fkyxstzo",
+        "kind": "bogo",
+        "promotionId": "bogo-store",
+        "promotionRevision": "2026-09-24-review-1",
+        "items": [
+          {
+            "productId": "black-cat-200-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "black-cat-200-pack",
+              "name": "Black Cat Firecrackers 200 Pack",
+              "category": "Firecrackers",
+              "brand": "Black Cat",
+              "presentation": "200-count pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "IMSHHADLXVKXXU4KWSCGVL7P",
+                  "sku": "715244102006",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "m-5000-world-class-12-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "m-5000-world-class-12-pack",
+              "name": "M-5000 Salute Crackers",
+              "category": "Firecrackers",
+              "brand": "World-Class",
+              "presentation": "12-pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "WXWPSN4ND2Z3WGEC2GAJCWE6",
+                  "sku": "8052530020319",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9f-f12binca8",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "the-reaper",
+            "quantity": 2,
+            "snapshot": {
+              "id": "the-reaper",
+              "name": "The Reaper",
+              "category": "500g Cakes",
+              "brand": "Raccoon",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "XEVPEMJRFP7JSF4EQBHZEKB5",
+                  "sku": "757201536295",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9f-sazyft8v8",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "alien-attack",
+            "quantity": 2,
+            "snapshot": {
+              "id": "alien-attack",
+              "name": "Alien Attack",
+              "category": "500g Cakes",
+              "brand": "Happy Family",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9f-ak4c7qe51",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "festival-balls-reloadable",
+            "quantity": 2,
+            "snapshot": {
+              "id": "festival-balls-reloadable",
+              "name": "Festival Balls",
+              "category": "Reloadables",
+              "brand": "Monkey Mania",
+              "presentation": "6-piece pack · yellow box",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "BFEN6Q4PLHJEBALNWMHA4CCY",
+                  "sku": "757201000086",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-feh831923",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "neon-beef",
+            "quantity": 2,
+            "snapshot": {
+              "id": "neon-beef",
+              "name": "Neon Beef",
+              "category": "Artillery Shells",
+              "brand": "Winda",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "J52CWDQSQYWOKE7XZILPSEI5",
+                  "sku": "705108804306",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-bzoywqg5o",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "diablo",
+            "quantity": 2,
+            "snapshot": {
+              "id": "diablo",
+              "name": "Diablo",
+              "category": "Artillery Shells",
+              "brand": "Black Cat",
+              "presentation": "5-inch shells · 24 pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "OFSRHJBV5QEQRPP54T36Q6YH",
+                  "sku": "715244063291",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-mfhyvi3tu",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "night-rider",
+            "quantity": 2,
+            "snapshot": {
+              "id": "night-rider",
+              "name": "Night Rider",
+              "category": "200g Cakes",
+              "brand": "Monkey Mania",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-fh9ywzig3",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "futurama-artillery",
+            "quantity": 2,
+            "snapshot": {
+              "id": "futurama-artillery",
+              "name": "Futurama Artillery",
+              "category": "Artillery Shells",
+              "brand": "Raccoon",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "TNVALDFGTARHACENIREHIXAS",
+                  "sku": "757201712019",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-p9aoe9jic",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "festival-balls-artillery",
+            "quantity": 2,
+            "snapshot": {
+              "id": "festival-balls-artillery",
+              "name": "Festival Balls",
+              "category": "Artillery Shells",
+              "brand": "Black Cat",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-ivbduia5m",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "star-light",
+            "quantity": 2,
+            "snapshot": {
+              "id": "star-light",
+              "name": "Star Light",
+              "category": "Assortments",
+              "brand": "Winda",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "CHMELJFUKR2PD2Z6CM2QTBPI",
+                  "sku": "705108001217",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-afjlfyrvj",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "action-zone",
+            "quantity": 2,
+            "snapshot": {
+              "id": "action-zone",
+              "name": "Action Zone",
+              "category": "Assortments",
+              "brand": "Monkey Mania",
+              "presentation": "Family pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "DVBX6GI2QDAKB3AOFVTXGCXS",
+                  "sku": "757202300031",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-q6qq4iv7h",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "mother-of-all-fireworks",
+            "quantity": 1,
+            "snapshot": {
+              "id": "mother-of-all-fireworks",
+              "name": "Mother of All Fireworks",
+              "category": "Artillery Shells",
+              "brand": "Raccoon",
+              "presentation": "4-inch shells · 24 pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "FJ6A27NZQWFNEC45WRS7B735",
+                  "sku": "757201124027",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-gbsnp8yvt",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "neon-skies",
+            "quantity": 1,
+            "snapshot": {
+              "id": "neon-skies",
+              "name": "Neon Skies",
+              "category": "Artillery Shells",
+              "brand": "Raccoon",
+              "presentation": "4-inch shells · 24 pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "H5F3BJT34LCN6P2AY2J62MF4",
+                  "sku": "757201124010",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-pficq0or1",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "sucker-punch",
+            "quantity": 1,
+            "snapshot": {
+              "id": "sucker-punch",
+              "name": "Sucker Punch",
+              "category": "500g Cakes",
+              "brand": "Raccoon",
+              "presentation": "500 gram · 182 shots",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "X3Q5SIJNL3ELAOABV3AD5PNT",
+                  "sku": "757201512060",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-twiq725re",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "invincible",
+            "quantity": 1,
+            "snapshot": {
+              "id": "invincible",
+              "name": "Invincible",
+              "category": "500g Cakes",
+              "brand": "Raccoon",
+              "presentation": "500 gram · 198 shots",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "IOQGZSAZOI4GCUFZ3KNHHZ6V",
+                  "sku": "757201512015",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-1eehr9igx",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "purely-american",
+            "quantity": 1,
+            "snapshot": {
+              "id": "purely-american",
+              "name": "Purely American",
+              "category": "500g Cakes",
+              "brand": "Raccoon",
+              "presentation": "500 gram · 135 shots",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "YDRRJKGNOJXGW2GJTT657UMN",
+                  "sku": "757201536202",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-45m4g2nqt",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "neon-fish",
+            "quantity": 1,
+            "snapshot": {
+              "id": "neon-fish",
+              "name": "Neon Fish",
+              "category": "Fountains",
+              "brand": "Monkey Mania",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "JQ237JASEB65EVAXBN5T6GGF",
+                  "sku": "757202118063",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-hjwjr55wm",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "lets-celebrate",
+            "quantity": 1,
+            "snapshot": {
+              "id": "lets-celebrate",
+              "name": "Let’s Celebrate",
+              "category": "Assortments",
+              "brand": "Monkey Mania",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "CZJ7INCFGQDXNS7QLTRFONXQ",
+                  "sku": "757202300024",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-nyowdo0og",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "high-falutin",
+            "quantity": 1,
+            "snapshot": {
+              "id": "high-falutin",
+              "name": "High Falutin’",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "SRKN24ZARY5PSJI5Z5EHHKO5",
+                  "sku": "687985245710",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-63snhabwi",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "hit-the-road-jack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "hit-the-road-jack",
+              "name": "Hit the Road Jack",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "EJ7FR42AGUDMBD2NDGHJLFJQ",
+                  "sku": "687985245819",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-7d7u7ukq3",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "silent-treatment",
+            "quantity": 1,
+            "snapshot": {
+              "id": "silent-treatment",
+              "name": "Silent Treatment",
+              "category": "Fountains",
+              "brand": "Fox",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "44TDILAVET7KFW3RUYZOHEBZ",
+                  "sku": "514677002255",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-pxbrefisf",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "black-cat-combo-cakes",
+            "quantity": 1,
+            "snapshot": {
+              "id": "black-cat-combo-cakes",
+              "name": "Black Cat Combo Cakes",
+              "category": "Cake Packs",
+              "brand": "Black Cat",
+              "presentation": "4 cakes · 15 shots per cake",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "C7MGH6L5OBMU2I7P6XRLCCYG",
+                  "sku": "715244963935",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eq9g-5s3o48btg",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "party-sparklers-4-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "party-sparklers-4-pack",
+              "name": "Party Sparklers",
+              "category": "Sparklers",
+              "brand": "Winda",
+              "presentation": "4-pack",
+              "manufacturerCode": "P9012",
+              "storeCodes": [
+                {
+                  "token": "ANW2NNK77LR3WPA2LXT3TGB4",
+                  "sku": "705108901203",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "syntheticTestOnly": {
+    "version": 1,
+    "groups": [
+      {
+        "id": "list-muh0eqa5-ng8uh7p1x",
+        "kind": "bogo",
+        "promotionId": "test-only-bogo",
+        "promotionRevision": "test",
+        "items": [
+          {
+            "productId": "black-cat-200-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "black-cat-200-pack",
+              "name": "TEST ONLY A very long package name with multiple presentation details and identifiers for print wrapping - Black Cat Firecrackers 200 Pack",
+              "category": "Firecrackers",
+              "brand": "Black Cat",
+              "presentation": "200-count pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "IMSHHADLXVKXXU4KWSCGVL7P",
+                  "sku": "715244102006",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "m-5000-world-class-12-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "m-5000-world-class-12-pack",
+              "name": "TEST ONLY M-5000 Salute Crackers",
+              "category": "Firecrackers",
+              "brand": "World-Class",
+              "presentation": "12-pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "WXWPSN4ND2Z3WGEC2GAJCWE6",
+                  "sku": "8052530020319",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-bw1jk6rur",
+        "kind": "promotion",
+        "promotionId": "test-only-choice",
+        "promotionRevision": "test",
+        "items": [
+          {
+            "productId": "high-falutin",
+            "quantity": 1,
+            "snapshot": {
+              "id": "high-falutin",
+              "name": "TEST ONLY High Falutin’",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "SRKN24ZARY5PSJI5Z5EHHKO5",
+                  "sku": "687985245710",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "hit-the-road-jack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "hit-the-road-jack",
+              "name": "TEST ONLY Hit the Road Jack",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "EJ7FR42AGUDMBD2NDGHJLFJQ",
+                  "sku": "687985245819",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "saturday-night-special",
+            "quantity": 1,
+            "snapshot": {
+              "id": "saturday-night-special",
+              "name": "TEST ONLY Saturday Night Special",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "J6T5NYC7BD5VTR3H552JDPC4",
+                  "sku": "687985297917",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-n8fvin5yt",
+        "kind": "promotion",
+        "promotionId": "test-only-fixed",
+        "promotionRevision": "test",
+        "items": [
+          {
+            "productId": "high-falutin",
+            "quantity": 1,
+            "snapshot": {
+              "id": "high-falutin",
+              "name": "TEST ONLY High Falutin’",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "SRKN24ZARY5PSJI5Z5EHHKO5",
+                  "sku": "687985245710",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "hit-the-road-jack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "hit-the-road-jack",
+              "name": "TEST ONLY Hit the Road Jack",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "EJ7FR42AGUDMBD2NDGHJLFJQ",
+                  "sku": "687985245819",
+                  "gtin": ""
+                }
+              ]
+            }
+          },
+          {
+            "productId": "saturday-night-special",
+            "quantity": 1,
+            "snapshot": {
+              "id": "saturday-night-special",
+              "name": "TEST ONLY Saturday Night Special",
+              "category": "500g Cakes",
+              "brand": "Brothers",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "J6T5NYC7BD5VTR3H552JDPC4",
+                  "sku": "687985297917",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-zr6rj4xs2",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "smiling-faces-ear-to-ear",
+            "quantity": 1,
+            "snapshot": {
+              "id": "smiling-faces-ear-to-ear",
+              "name": "TEST ONLY Smiling Faces Ear to Ear",
+              "category": "Rockets",
+              "brand": "Firehawk",
+              "presentation": "5-stick pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "X4B7BR7A4QTZPCXUFL4DHCV4",
+                  "sku": "8052530015520",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-2l0o0wdib",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "sky-pattern",
+            "quantity": 1,
+            "snapshot": {
+              "id": "sky-pattern",
+              "name": "TEST ONLY Sky Pattern",
+              "category": "Rockets",
+              "brand": "Firehawk",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "7I7ICERBSIGVAHLOKRERBOOJ",
+                  "sku": "293936961358",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-s6oet8oyr",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "rush-hour",
+            "quantity": 1,
+            "snapshot": {
+              "id": "rush-hour",
+              "name": "TEST ONLY Rush Hour",
+              "category": "500g Cakes",
+              "brand": "Winda",
+              "presentation": "500 gram · 100 shots · 3 minutes",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "7PAQYGZEQZYMPBX5OK5Y3FL3",
+                  "sku": "705108554706",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-vfxosc31u",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "neon-diablo-24-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "neon-diablo-24-pack",
+              "name": "TEST ONLY Neon Diablo",
+              "category": "Artillery Shells",
+              "brand": "Black Cat",
+              "presentation": "5-inch shells · 24 pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "SBY3GLLCOXVL5YHSAJRZUXAU",
+                  "sku": "715244064601",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-qf0hghepv",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "galaxy-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "galaxy-pack",
+              "name": "TEST ONLY Galaxy Pack",
+              "category": "Rockets",
+              "brand": "Black Cat",
+              "presentation": "9-stick pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "Y47P4UU2KPAGDIPI3IUAPIXT",
+                  "sku": "715244046188",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-4lt8fbrr2",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "the-patriot-24-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "the-patriot-24-pack",
+              "name": "TEST ONLY The Patriot",
+              "category": "Artillery Shells",
+              "brand": "Black Cat",
+              "presentation": "6-inch shells · 24 pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "5C7IFQOUCWYTXJGISORCIBWN",
+                  "sku": "715244064380",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-y0e27k10c",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "avalanche",
+            "quantity": 1,
+            "snapshot": {
+              "id": "avalanche",
+              "name": "TEST ONLY Avalanche",
+              "category": "200g Cakes",
+              "brand": "Winda",
+              "presentation": "200 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "L3RQWHODOW4DTUU5YRLV3EC7",
+                  "sku": "",
+                  "gtin": "705108513802"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-h5dwkzjg9",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "good-thinkin-lincoln",
+            "quantity": 1,
+            "snapshot": {
+              "id": "good-thinkin-lincoln",
+              "name": "TEST ONLY Good Thinkin’ Lincoln",
+              "category": "500g Cakes",
+              "brand": "Winda",
+              "presentation": "134 shots",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "6HCFSGQXLROGN5BNWPU2MJVA",
+                  "sku": "",
+                  "gtin": "705108558209"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-u3xj34maf",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "ipa-4-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "ipa-4-pack",
+              "name": "TEST ONLY IPA 4-Pack",
+              "category": "Cake Packs",
+              "brand": "Winda",
+              "presentation": "4-cake pack",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "SXXM66XTUQ7HW37YFSDHXTWB",
+                  "sku": "705108955497",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-61n1u24kq",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "make-america-great-again",
+            "quantity": 1,
+            "snapshot": {
+              "id": "make-america-great-again",
+              "name": "TEST ONLY Make America Great Again",
+              "category": "500g Cakes",
+              "brand": "Winda",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "JN7TQYKX5GLXNYUYEFUJVRHO",
+                  "sku": "705108550210",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-9k5umdd2c",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "man-cave",
+            "quantity": 1,
+            "snapshot": {
+              "id": "man-cave",
+              "name": "TEST ONLY Man Cave",
+              "category": "500g Cakes",
+              "brand": "Winda",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "3XD2NWMYF7T7SYWH6ZXIRL6C",
+                  "sku": "705108552702",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-3g2u23bf4",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "nation-ovation",
+            "quantity": 1,
+            "snapshot": {
+              "id": "nation-ovation",
+              "name": "TEST ONLY Nation Ovation",
+              "category": "200g Cakes",
+              "brand": "Winda",
+              "presentation": "200 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "I23QLAHWWSGHYYDBAMASVDFZ",
+                  "sku": "705108518401",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-ij8khn57l",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "pyro-pilot",
+            "quantity": 1,
+            "snapshot": {
+              "id": "pyro-pilot",
+              "name": "TEST ONLY Pyro Pilot",
+              "category": "200g Cakes",
+              "brand": "Winda",
+              "presentation": "200 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "V4SFMS63R6VNL3PIC2LJZYS3",
+                  "sku": "705108518203",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-qqia5jxzo",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "us-66",
+            "quantity": 1,
+            "snapshot": {
+              "id": "us-66",
+              "name": "TEST ONLY US 66",
+              "category": "500g Cakes",
+              "brand": "Winda",
+              "presentation": "500 gram",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "NV3W6SDTABEI2B7SXTY7OK5C",
+                  "sku": "705108554607",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-ekeot9e45",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "bad-cactus",
+            "quantity": 1,
+            "snapshot": {
+              "id": "bad-cactus",
+              "name": "TEST ONLY Bad Cactus",
+              "category": "Fountains",
+              "brand": "Winda",
+              "presentation": "",
+              "manufacturerCode": "",
+              "storeCodes": [
+                {
+                  "token": "WGFFCBYJ2GMOK6RTIJSDWMFA",
+                  "sku": "705108322008",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-pcxwyj69s",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "bump-bear",
+            "quantity": 1,
+            "snapshot": {
+              "id": "bump-bear",
+              "name": "TEST ONLY Bump Bear",
+              "category": "200g Cakes",
+              "brand": "Winda",
+              "presentation": "200 gram · 16 shots",
+              "manufacturerCode": "P5011",
+              "storeCodes": [
+                {
+                  "token": "RMHJFIXZYBQN2KUAIQCXEAJN",
+                  "sku": "",
+                  "gtin": "705108501106"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-t57y3j2e3",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "fun-fuel",
+            "quantity": 1,
+            "snapshot": {
+              "id": "fun-fuel",
+              "name": "TEST ONLY Fun Fuel",
+              "category": "200g Cakes",
+              "brand": "Winda",
+              "presentation": "200 gram · 50 shots",
+              "manufacturerCode": "P5191",
+              "storeCodes": [
+                {
+                  "token": "XLIUBKNNYOS7BPGUJMKEB7JA",
+                  "sku": "705108519101",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-d2x9e4syu",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "military-parachute-2-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "military-parachute-2-pack",
+              "name": "TEST ONLY Military Parachute",
+              "category": "Parachutes",
+              "brand": "Winda",
+              "presentation": "2-piece pack",
+              "manufacturerCode": "P5083",
+              "storeCodes": [
+                {
+                  "token": "UZ3IJ3UW3ZVS2M3E74R3VNLV",
+                  "sku": "705108508303",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-ar4716jld",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "princess-parachute-2-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "princess-parachute-2-pack",
+              "name": "TEST ONLY Princess Parachute",
+              "category": "Parachutes",
+              "brand": "Winda",
+              "presentation": "2-piece pack",
+              "manufacturerCode": "P5089",
+              "storeCodes": [
+                {
+                  "token": "SLK6V23MUILATCG47E752KNE",
+                  "sku": "705108508907",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-q1fisugyv",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "double-dragon-6-pack",
+            "quantity": 1,
+            "snapshot": {
+              "id": "double-dragon-6-pack",
+              "name": "TEST ONLY Double Dragon",
+              "category": "Artillery Shells",
+              "brand": "Winda",
+              "presentation": "6-inch shells · 6-piece pack",
+              "manufacturerCode": "P8044",
+              "storeCodes": [
+                {
+                  "token": "3WHGF7SVFDVFMRVXUCISOM7A",
+                  "sku": "705108804405",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "list-muh0eqa5-zmx4abwz4",
+        "kind": "individual",
+        "items": [
+          {
+            "productId": "diwali-dazzler",
+            "quantity": 1,
+            "snapshot": {
+              "id": "diwali-dazzler",
+              "name": "TEST ONLY Diwali Dazzler",
+              "category": "Assortments",
+              "brand": "Winda",
+              "presentation": "",
+              "manufacturerCode": "P0038",
+              "storeCodes": [
+                {
+                  "token": "6GDRTFRVROGYS5VXDFGBZLSK",
+                  "sku": "705108003808",
+                  "gtin": ""
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -18,7 +18,7 @@ const AppSupportPage = () => {
         <ContentSection title="About the App">
           <p>
             The Rockwall Fireworks mobile app puts the current product catalog,
-            favorite products, seasonal opening information, store details, and
+            favorite products, seasonal date information, store details, and
             safety guidance in one convenient place. No account is required.
           </p>
         </ContentSection>

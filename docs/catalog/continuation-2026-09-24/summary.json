@@ -1,0 +1,46 @@
+{
+  "initial_catalog_products": 50,
+  "final_catalog_products": 301,
+  "new_products": 251,
+  "existing_products_enriched": 7,
+  "brand_corrections": 7,
+  "featured_preserved": 10,
+  "initial_pending_rows": 1013,
+  "outcomes": {
+    "no_verified_identity": 278,
+    "candidate_requires_package_review": 103,
+    "identity_confirmation_needed": 307,
+    "incorporated": 251,
+    "data_conflict": 29,
+    "duplicate": 4,
+    "excluded": 1,
+    "identified_missing_image": 19,
+    "package_review": 21
+  },
+  "remaining_pending_rows": 757,
+  "remaining_distinct_names_not_unique_products": 678,
+  "initial_438_candidate_outcomes": {
+    "candidate_requires_package_review": 101,
+    "incorporated": 221,
+    "identity_confirmation_needed": 37,
+    "data_conflict": 16,
+    "duplicate": 2,
+    "identified_missing_image": 13,
+    "package_review": 15,
+    "no_verified_identity": 33
+  },
+  "batches": {
+    "2026-09-24-official-1": 48,
+    "2026-09-24-official-2": 45,
+    "2026-09-24-supplier-3": 66,
+    "2026-09-24-official-4": 17,
+    "2026-09-24-reviewed-5": 64,
+    "2026-09-24-supplier-6": 8,
+    "2026-09-24-official-7": 3
+  },
+  "new_products_with_video": 112,
+  "all_products_with_video": 158,
+  "all_products_without_video": 143,
+  "confirmed_square_product_identities": 298,
+  "historical_catalog_ids_without_resolved_square_link": 3
+}

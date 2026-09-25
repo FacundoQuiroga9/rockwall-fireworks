@@ -1,37 +1,62 @@
-.countdown {
-  display: grid;
-  min-height: clamp(22rem, 45svh, 34rem);
-  place-items: center;
-  padding: var(--section-spacing) var(--gutter);
-  background-color: var(--color-surface);
-  color: var(--color-text-inverse);
-  text-align: center;
+.countdown { background: var(--color-surface); color: #fff; padding-block: var(--section-spacing); overflow: hidden; }
+.countdown-top { position: relative; display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: 4rem; margin-bottom: 2rem; }
+.countdown-top > .burst { left: 38%; top: -3rem; width: 20rem; height: 20rem; opacity: .1; }
+.countdown-top > div { z-index: 1; min-width: 0; }
+.countdown .eyebrow { color: #ffad8d; margin-bottom: 1.7rem; }
+.countdown-status { font-size: .8rem; color: #c1c5d6; margin-bottom: .7rem; }
+.countdown .display-title { max-width: 36rem; font-size: clamp(2.7rem, 5.1vw, 4.8rem); }
+.countdown-clock { padding-left: 2.5rem; border-left: 1px solid #ffffff30; }
+.countdown-clock > p { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+.countdown-digits { display: flex; gap: 2rem; margin-block: 1rem; }
+.countdown-digits > div { display: flex; flex-direction: column; }
+.countdown-digits strong { font-family: var(--font-display); font-weight: 400; font-size: clamp(4rem, 6vw, 6.5rem); line-height: 1.1; font-variant-numeric: tabular-nums; overflow: clip; }
+.countdown-digits b { display: block; font-weight: inherit; }
+.countdown-digits span { font-size: .75rem; text-transform: uppercase; letter-spacing: .15em; color: #c1c5d6; margin-top: .5rem; }
+.countdown-clock .countdown-zone { color: #a8aec7; font-size: .65rem; margin-top: 1.5rem; text-transform: none; letter-spacing: 0; }
+.season-attendance { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 1.5rem 1.75rem; background: #142242; border-left: 2px solid #ff814f; margin-bottom: 2.2rem; }
+.season-service-label { font-weight: 700; font-size: .86rem; color: #ffad8d; margin-bottom: .4rem; }
+.season-message { max-width: 46rem; color: #d0d8ea; font-size: .9rem; line-height: 1.7; }
+.season-cta { flex: 0 0 auto; gap: .7rem; }
+.season-calendar-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; }
+.season-calendar-heading h3 { font-size: .73rem; letter-spacing: .12em; text-transform: uppercase; }
+.season-calendar-heading > span { font-size: .7rem; color: #a8aec7; }
+.season-list { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); list-style: none; border-top: 1px solid #ffffff30; }
+.season-item { position: relative; padding: 1.2rem 1rem 0 0; }
+.season-number { display: block; font-size: .65rem; color: #97a6c4; margin-bottom: .55rem; }
+.season-item h4 { font-size: .88rem; font-weight: 700; line-height: 1.4; min-height: 2.8em; text-wrap: initial; }
+.season-mode { font-size: .75rem; line-height: 1.5; color: #d0d8ea; margin-top: .5rem; }
+.season-dates { font-size: .72rem; color: #bdc3d9; margin-top: .35rem; }
+.season-item--selected::before { content: ''; position: absolute; top: -2px; height: 3px; left: 0; right: 1rem; background: #ff814f; }
+.season-item--selected .season-number { color: #ffad8d; }
+.season-current { display: flex; align-items: center; gap: .4rem; color: #ffad8d; font-size: .68rem; margin-top: .6rem; }
+.season-current::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+@media (max-width: 1000px) {
+  .countdown-top { gap: 2rem; }
+  .countdown-clock { padding-left: 1.5rem; }
+  .countdown-digits { gap: 1rem; }
+  .season-attendance { gap: 1.5rem; padding: 1.2rem; }
+  .season-cta { max-width: 15rem; text-align: center; }
+  .season-list { grid-template-columns: repeat(3, minmax(0,1fr)); row-gap: 1.2rem; }
 }
-
-.next-opening {
-  width: min(100%, var(--content-width));
+@media (max-width: 700px) {
+  .countdown-top { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+  .countdown .eyebrow { font-size: .68rem; margin-bottom: 1.4rem; }
+  .countdown .display-title { font-size: clamp(2.55rem, 10vw, 3.7rem); }
+  .countdown-clock { border-left: 0; border-top: 1px solid #ffffff30; padding: 1.2rem 0 0; }
+  .countdown-digits { justify-content: space-between; max-width: 25rem; margin-block: .7rem; }
+  .countdown-digits strong { font-size: clamp(3.8rem, 18vw, 4.8rem); }
+  .countdown-clock .countdown-zone { margin-top: .8rem; }
+  .countdown-top > .burst { left: 50%; top: -2rem; }
+  .season-attendance { align-items: flex-start; flex-direction: column; gap: 1.2rem; padding: 1.2rem; margin-bottom: 1.8rem; }
+  .season-cta { width: 100%; max-width: none; font-size: .8rem; padding-inline: .6rem; }
+  .season-list { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .season-calendar-heading h3 { font-size: .65rem; }
+  .season-calendar-heading > span { font-size: .65rem; }
 }
-
-.countdown h2 {
-  font-family: var(--font-display);
-  font-size: clamp(2.5rem, 7vw, 5rem);
-  line-height: 1.05;
-  text-transform: uppercase;
+@media (prefers-reduced-motion: no-preference) {
+  .countdown-digits b { animation: digit-turn 480ms cubic-bezier(.2,.8,.2,1) both; }
 }
-
-.holiday {
-  display: inline-block;
-  color: var(--color-primary);
-}
-
-.time {
-  display: flex;
-  min-height: 2.75rem;
-  align-items: center;
-  justify-content: center;
-  margin-top: clamp(1.5rem, 4vw, 2.5rem);
-  font-size: clamp(1.2rem, 3vw, 2rem);
-  font-variant-numeric: tabular-nums;
-  font-weight: 700;
-  line-height: 1.35;
+@keyframes digit-turn {
+  from { transform: perspective(500px) translateY(-75%) rotateX(35deg); opacity: .15; }
+  to { transform: perspective(500px) translateY(0) rotateX(0); opacity: 1; }
 }

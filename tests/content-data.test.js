@@ -99,6 +99,12 @@ test('SEO files use real site data and valid structured JSON', async () => {
     structuredData.address.streetAddress,
     siteConfig.address.streetAddress,
   );
+  assert.equal(structuredData.address.addressLocality, 'Lavon');
+  assert.equal(structuredData.address.addressRegion, siteConfig.address.addressRegion);
+  assert.equal(structuredData.address.postalCode, siteConfig.address.postalCode);
+  assert.equal(structuredData.description, siteConfig.description);
+  assert.equal(indexHtml.match(/<title>(.*?)<\/title>/)[1], siteConfig.seo.home.title);
+  assert.ok(indexHtml.includes(`content="${siteConfig.seo.home.description}"`));
   assert.equal(structuredData.ratingValue, undefined);
   assert.equal(structuredData.openingHours, undefined);
 
@@ -171,7 +177,7 @@ test('app publication pages have routes, metadata, and public navigation', async
     siteConfig.mobileApp.appStoreUrl,
     'https://apps.apple.com/us/app/id6793552663',
   );
-  assert.equal(siteConfig.mobileApp.googlePlayUrl, '#');
+  assert.equal(siteConfig.mobileApp.googlePlayUrl, null);
   assert.match(navbarSource, /to="\/mobile-app"/);
   assert.match(footerSource, /to="\/mobile-app"/);
   assert.match(sitemap, /\/mobile-app/);
@@ -211,36 +217,37 @@ test('featured products are sorted without mutating the source data', () => {
     products.map((product) => product.id),
     originalOrder,
   );
-  assert.deepEqual(getProductCategories(products), [
-    'Cakes',
+  assert.deepEqual(getProductCategories(featuredProducts), [
+    '500g Cakes',
     'Reloadables',
     'Artillery Shells',
+    '200g Cakes',
     'Assortments',
   ]);
 });
 
-test('New Year range remains open on January 1 in the store time zone', () => {
+test('New Year public season remains active on January 1 in the store time zone', () => {
   const januaryFirstInTexas = Date.parse('2026-01-01T12:00:00-06:00');
   const state = getSeasonalCountdown(
     seasonalConfig,
     januaryFirstInTexas,
   );
 
-  assert.equal(state.isOpen, true);
+  assert.equal(state.isSeasonActive, true);
   assert.equal(state.title, "New Year's Eve");
   assert.ok(state.remaining.days >= 0);
   assert.ok(state.remaining.hours >= 0);
   assert.ok(state.remaining.minutes >= 0);
 });
 
-test('countdown selects the next configured range without negative values', () => {
+test('countdown selects the next chronological range without negative values', () => {
   const julyTwentiethInTexas = Date.parse('2026-07-20T12:00:00-05:00');
   const state = getSeasonalCountdown(
     seasonalConfig,
     julyTwentiethInTexas,
   );
 
-  assert.equal(state.isOpen, false);
+  assert.equal(state.isSeasonActive, false);
   assert.equal(state.title, 'Diwali');
   assert.ok(state.target > julyTwentiethInTexas);
   assert.ok(Object.values(state.remaining).every((value) => value >= 0));

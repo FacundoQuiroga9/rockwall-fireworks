@@ -1,0 +1,2329 @@
+[
+  {
+    "id": "the-reaper",
+    "name": "The Reaper",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": null,
+    "sources": [
+      {
+        "square_token": "XEVPEMJRFP7JSF4EQBHZEKB5",
+        "square_sku": "757201536295",
+        "gtin": "",
+        "original_name": "The Reaper 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "899",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "900"
+      }
+    ]
+  },
+  {
+    "id": "alien-attack",
+    "name": "Alien Attack",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": null,
+    "sources": []
+  },
+  {
+    "id": "night-rider",
+    "name": "Night Rider",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": null,
+    "sources": []
+  },
+  {
+    "id": "sucker-punch",
+    "name": "Sucker Punch",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 182 shots",
+    "sources": [
+      {
+        "square_token": "X3Q5SIJNL3ELAOABV3AD5PNT",
+        "square_sku": "757201512060",
+        "gtin": "",
+        "original_name": "Sucker Punch 182 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "865",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "866"
+      }
+    ]
+  },
+  {
+    "id": "invincible",
+    "name": "Invincible",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 198 shots",
+    "sources": [
+      {
+        "square_token": "IOQGZSAZOI4GCUFZ3KNHHZ6V",
+        "square_sku": "757201512015",
+        "gtin": "",
+        "original_name": "Invincible 198 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "485",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "486"
+      }
+    ]
+  },
+  {
+    "id": "purely-american",
+    "name": "Purely American",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 135 shots",
+    "sources": [
+      {
+        "square_token": "YDRRJKGNOJXGW2GJTT657UMN",
+        "square_sku": "757201536202",
+        "gtin": "",
+        "original_name": "Purely American 500g 135 Shots",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "710",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "711"
+      }
+    ]
+  },
+  {
+    "id": "high-falutin",
+    "name": "High Falutin’",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "SRKN24ZARY5PSJI5Z5EHHKO5",
+        "square_sku": "687985245710",
+        "gtin": "",
+        "original_name": "High Flautin 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "449",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "450"
+      }
+    ]
+  },
+  {
+    "id": "hit-the-road-jack",
+    "name": "Hit the Road Jack",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "EJ7FR42AGUDMBD2NDGHJLFJQ",
+        "square_sku": "687985245819",
+        "gtin": "",
+        "original_name": "Hit The Road Jack 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "451",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "452"
+      }
+    ]
+  },
+  {
+    "id": "saturday-night-special",
+    "name": "Saturday Night Special",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "J6T5NYC7BD5VTR3H552JDPC4",
+        "square_sku": "687985297917",
+        "gtin": "",
+        "original_name": "Saturday Night Special 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "785",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "786"
+      }
+    ]
+  },
+  {
+    "id": "rush-hour",
+    "name": "Rush Hour",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 100 shots · 3 minutes",
+    "sources": [
+      {
+        "square_token": "7PAQYGZEQZYMPBX5OK5Y3FL3",
+        "square_sku": "705108554706",
+        "gtin": "",
+        "original_name": "Rush Hour 500 Gram 100 Shot 3 Min",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "780",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "781"
+      }
+    ]
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram",
+    "sources": [
+      {
+        "square_token": "L3RQWHODOW4DTUU5YRLV3EC7",
+        "square_sku": "",
+        "gtin": "705108513802",
+        "original_name": "Avalanche 200 G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "161",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "162"
+      }
+    ]
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "name": "Good Thinkin’ Lincoln",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "134 shots",
+    "sources": [
+      {
+        "square_token": "6HCFSGQXLROGN5BNWPU2MJVA",
+        "square_sku": "",
+        "gtin": "705108558209",
+        "original_name": "Good Thinkin Lincoln 134's",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "423",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "424"
+      }
+    ]
+  },
+  {
+    "id": "ipa-4-pack",
+    "name": "IPA 4-Pack",
+    "category": "Cake Packs",
+    "reason": "Verified complete retail pack; not a single cake. Gram class per component not established.",
+    "approvedPresentation": "4-cake pack",
+    "sources": [
+      {
+        "square_token": "SXXM66XTUQ7HW37YFSDHXTWB",
+        "square_sku": "705108955497",
+        "gtin": "",
+        "original_name": "Ipa 4 Pack",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "486",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "487"
+      }
+    ]
+  },
+  {
+    "id": "make-america-great-again",
+    "name": "Make America Great Again",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "JN7TQYKX5GLXNYUYEFUJVRHO",
+        "square_sku": "705108550210",
+        "gtin": "",
+        "original_name": "Make America Great Again 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "577",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "578"
+      }
+    ]
+  },
+  {
+    "id": "man-cave",
+    "name": "Man Cave",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "3XD2NWMYF7T7SYWH6ZXIRL6C",
+        "square_sku": "705108552702",
+        "gtin": "",
+        "original_name": "Man Cave 500G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "579",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "580"
+      }
+    ]
+  },
+  {
+    "id": "nation-ovation",
+    "name": "Nation Ovation",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram",
+    "sources": [
+      {
+        "square_token": "I23QLAHWWSGHYYDBAMASVDFZ",
+        "square_sku": "705108518401",
+        "gtin": "",
+        "original_name": "Nation Ovation 200g",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "618",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "619"
+      }
+    ]
+  },
+  {
+    "id": "pyro-pilot",
+    "name": "Pyro Pilot",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram",
+    "sources": [
+      {
+        "square_token": "V4SFMS63R6VNL3PIC2LJZYS3",
+        "square_sku": "705108518203",
+        "gtin": "",
+        "original_name": "Pyro Pilot 200 G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "724",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "725"
+      }
+    ]
+  },
+  {
+    "id": "us-66",
+    "name": "US 66",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram",
+    "sources": [
+      {
+        "square_token": "NV3W6SDTABEI2B7SXTY7OK5C",
+        "square_sku": "705108554607",
+        "gtin": "",
+        "original_name": "Us 66 500G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "938",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "939"
+      }
+    ]
+  },
+  {
+    "id": "bump-bear",
+    "name": "Bump Bear",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 16 shots",
+    "sources": [
+      {
+        "square_token": "RMHJFIXZYBQN2KUAIQCXEAJN",
+        "square_sku": "",
+        "gtin": "705108501106",
+        "original_name": "bump bear",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "998",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "999"
+      }
+    ]
+  },
+  {
+    "id": "fun-fuel",
+    "name": "Fun Fuel",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 50 shots",
+    "sources": [
+      {
+        "square_token": "XLIUBKNNYOS7BPGUJMKEB7JA",
+        "square_sku": "705108519101",
+        "gtin": "",
+        "original_name": "Fun Fuel",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "391",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "392"
+      }
+    ]
+  },
+  {
+    "id": "eagle-pride",
+    "name": "Eagle Pride",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 30 shots",
+    "sources": [
+      {
+        "square_token": "4JAYK7GEHVPQZLW4ANRC4HX3",
+        "square_sku": "757205301202",
+        "gtin": "",
+        "original_name": "Eagle Pride",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "336",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "337"
+      }
+    ]
+  },
+  {
+    "id": "america-first",
+    "name": "America First",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 24 shots",
+    "sources": [
+      {
+        "square_token": "NNRAJOMOO6QMDDNVRN3MLQ2G",
+        "square_sku": "757201530644",
+        "gtin": "",
+        "original_name": "America First",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "128",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "129"
+      }
+    ]
+  },
+  {
+    "id": "us-power",
+    "name": "U.S. Power",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 16 shots",
+    "sources": [
+      {
+        "square_token": "RMIBK4Q2HGJO7WTEL7YGXGFF",
+        "square_sku": "",
+        "gtin": "757201225342",
+        "original_name": "us power 200g",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "1059",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "1060"
+      }
+    ]
+  },
+  {
+    "id": "blond-joke",
+    "name": "Blond Joke",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 36 shots",
+    "sources": [
+      {
+        "square_token": "7W4TMQGPSRAQMBAUNBIOH3OH",
+        "square_sku": "687985297511",
+        "gtin": "",
+        "original_name": "blond joke",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "997",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "998"
+      }
+    ]
+  },
+  {
+    "id": "2-minute-bomb",
+    "name": "2-Minute Bomb",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 70 shots",
+    "sources": [
+      {
+        "square_token": "K5DWDAJDWJNG6DTWEO5DGLHG",
+        "square_sku": "757205302599",
+        "gtin": "",
+        "original_name": "2 Minute Bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "59",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "60"
+      },
+      {
+        "square_token": "NPIALSN4V63R3R64QQOCWAML",
+        "square_sku": "",
+        "gtin": "757205302599",
+        "original_name": "2 minute bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "62",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "63"
+      }
+    ]
+  },
+  {
+    "id": "american-anthem",
+    "name": "American Anthem",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "NX53FTYFRKZQY6WLTR2DY3WJ",
+        "square_sku": "757201572187",
+        "gtin": "",
+        "original_name": "American Anthem",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "130",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "131"
+      }
+    ]
+  },
+  {
+    "id": "ant-chant",
+    "name": "Ant Chant",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 180 shots",
+    "sources": [
+      {
+        "square_token": "XEHFK3MLUWNJO53ONKR3COLJ",
+        "square_sku": "757205301677",
+        "gtin": "",
+        "original_name": "Ant Chant",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "138",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "139"
+      }
+    ]
+  },
+  {
+    "id": "band-of-brothers",
+    "name": "Band of Brothers",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 12 shots",
+    "sources": [
+      {
+        "square_token": "5WOBUE3YYS4WYVYLWDNIR7WP",
+        "square_sku": "757201536530",
+        "gtin": "",
+        "original_name": "Band Of Brothers",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "173",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "174"
+      }
+    ]
+  },
+  {
+    "id": "born-leaders",
+    "name": "Born Leaders",
+    "category": "Cake Packs",
+    "reason": "Verified complete retail pack; not a single cake. Gram class per component not established.",
+    "approvedPresentation": "3-cake set · 757 shots",
+    "sources": [
+      {
+        "square_token": "IGG6JYTEMGHDBF5V5HAML3QY",
+        "square_sku": "705108955992",
+        "gtin": "",
+        "original_name": "Born Leaders",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "234",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "235"
+      }
+    ]
+  },
+  {
+    "id": "cluster-bomb",
+    "name": "Cluster Bomb",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 40 shots",
+    "sources": [
+      {
+        "square_token": "ILCUK2NMBSHM2346N44FLBD4",
+        "square_sku": "757205301196",
+        "gtin": "",
+        "original_name": "Cluster Bomb 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "271",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "272"
+      }
+    ]
+  },
+  {
+    "id": "colorful-skies",
+    "name": "Colorful Skies",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "7URDOO5AVQK3XPYBFVZG3BCI",
+        "square_sku": "757201220033",
+        "gtin": "",
+        "original_name": "Colorful Skies",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "286",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "287"
+      }
+    ]
+  },
+  {
+    "id": "dance-in-the-rain",
+    "name": "Dance in the Rain",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 23 shots",
+    "sources": [
+      {
+        "square_token": "TPBOMNN4CK7ETI3SUSVUTQZ7",
+        "square_sku": "757205301462",
+        "gtin": "",
+        "original_name": "Dance In The Rain 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "311",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "312"
+      }
+    ]
+  },
+  {
+    "id": "galactic-empire",
+    "name": "Galactic Empire",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 21 shots",
+    "sources": [
+      {
+        "square_token": "R4GQVTO4EUT5C4LHMA44BP2K",
+        "square_sku": "757205301264",
+        "gtin": "",
+        "original_name": "Galactic Empire",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "398",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "399"
+      }
+    ]
+  },
+  {
+    "id": "ghost-dragon",
+    "name": "Ghost Dragon",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "CX3WJWBLRRX53W7VQZFUUZ5C",
+        "square_sku": "757201572194",
+        "gtin": "",
+        "original_name": "Ghost Dragon",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "410",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "411"
+      }
+    ]
+  },
+  {
+    "id": "ghost-killer",
+    "name": "Ghost Killer",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "Q5DCX2MGZHMYFX7ADSL5C6FU",
+        "square_sku": "757201572170",
+        "gtin": "",
+        "original_name": "Ghost Killer",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "411",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "412"
+      }
+    ]
+  },
+  {
+    "id": "ghost-rings",
+    "name": "Ghost Rings",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "DK52TXNEXPJ5HDJE6462D23I",
+        "square_sku": "705108549801",
+        "gtin": "",
+        "original_name": "Ghost Rings",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "412",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "413"
+      }
+    ]
+  },
+  {
+    "id": "jawbreaker",
+    "name": "Jawbreaker",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "2I2ITQB4TQZX3IXYE3UZJNMR",
+        "square_sku": "757201220095",
+        "gtin": "",
+        "original_name": "Jawbreaker 25 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "491",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "492"
+      }
+    ]
+  },
+  {
+    "id": "lucky-streak",
+    "name": "Lucky Streak",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "66 shots",
+    "sources": [
+      {
+        "square_token": "DM4RMWLVBBUGLXYFTBGIJX3N",
+        "square_sku": "705108602063",
+        "gtin": "705108602063",
+        "original_name": "Lucky Streak",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "550",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "551"
+      }
+    ]
+  },
+  {
+    "id": "magnum-tremors",
+    "name": "Magnum Tremors",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "BATDQ2BB2DBWSRLIYDMUHFPI",
+        "square_sku": "757201572064",
+        "gtin": "",
+        "original_name": "Magnum Tremors",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "575",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "576"
+      }
+    ]
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "OKCB2UOBBJRUB7NBKFRGDTUE",
+        "square_sku": "757201572071",
+        "gtin": "",
+        "original_name": "Migraine",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "600",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "601"
+      }
+    ]
+  },
+  {
+    "id": "monkey-business",
+    "name": "Monkey Business",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 24 shots",
+    "sources": [
+      {
+        "square_token": "KHQGTUGPX2ABWY6TBLOAXTS7",
+        "square_sku": "757201225212",
+        "gtin": "",
+        "original_name": "Monkey Business",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "604",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "605"
+      }
+    ]
+  },
+  {
+    "id": "neon-boom",
+    "name": "Neon Boom",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "6XC2CG64XOVFC5ZSL4AL6TQS",
+        "square_sku": "757201530408",
+        "gtin": "",
+        "original_name": "Neon Boom 25 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "622",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "623"
+      }
+    ]
+  },
+  {
+    "id": "occupy-mars",
+    "name": "Occupy Mars",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "10 shots · girandola finale",
+    "sources": [
+      {
+        "square_token": "PIXOQTBXHYSS7P6ZG56QBEEV",
+        "square_sku": "705108603701",
+        "gtin": "",
+        "original_name": "Occupy Mars 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "649",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "650"
+      }
+    ]
+  },
+  {
+    "id": "party-like-its-1776",
+    "name": "Party Like It’s 1776",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "156 shots",
+    "sources": [
+      {
+        "square_token": "GTJEOQD2CEPZLB6IG34L5DJL",
+        "square_sku": "705108555406",
+        "gtin": "",
+        "original_name": "Party Like Its 1776 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "663",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "664"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-princeton",
+    "name": "Battle of Princeton",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 36 shots",
+    "sources": [
+      {
+        "square_token": "3U776SJS6U6ZARDKVW3VDN6F",
+        "square_sku": "757201525428",
+        "gtin": "",
+        "original_name": "Princeton 500g",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "705",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "706"
+      }
+    ]
+  },
+  {
+    "id": "raging-willow",
+    "name": "Raging Willow",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 19 shots",
+    "sources": [
+      {
+        "square_token": "TNYRSG3Q5J6EIUJNPKI3XOSD",
+        "square_sku": "757201225120",
+        "gtin": "",
+        "original_name": "Raging Willow",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "742",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "743"
+      }
+    ]
+  },
+  {
+    "id": "rainbow-ghost",
+    "name": "Rainbow Ghost",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 195 shots",
+    "sources": [
+      {
+        "square_token": "LAFSLBBO5TCGIGANK6PD6X6T",
+        "square_sku": "757205301189",
+        "gtin": "",
+        "original_name": "Rainbow Ghost 195 Shot Zipper Cake",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "743",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "744"
+      }
+    ]
+  },
+  {
+    "id": "revolution-now",
+    "name": "Revolution Now",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 30 shots",
+    "sources": [
+      {
+        "square_token": "RXXAJBEZGNQ5F3XLRYKTDH6B",
+        "square_sku": "757201530712",
+        "gtin": "",
+        "original_name": "Revolution Now 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "755",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "756"
+      }
+    ]
+  },
+  {
+    "id": "road-rage-bright-star",
+    "name": "Road Rage",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram cake",
+    "sources": [
+      {
+        "square_token": "VDKQHYGJDBMFBXL65I3TCORF",
+        "square_sku": "705108804764",
+        "gtin": "",
+        "original_name": "Road Rage",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "758",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "759"
+      }
+    ]
+  },
+  {
+    "id": "strato-launcher",
+    "name": "Strato Launcher",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 100 shots",
+    "sources": [
+      {
+        "square_token": "PFUMNN4F7CTUD6OCYKHDPQLR",
+        "square_sku": "757202110012",
+        "gtin": "",
+        "original_name": "Strato Launcher 100 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "862",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "863"
+      }
+    ]
+  },
+  {
+    "id": "strobing-willow",
+    "name": "Strobing Willow",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "3UA3DE63WWEIXYDEIHWR6NFD",
+        "square_sku": "757201220040",
+        "gtin": "",
+        "original_name": "Strobing Willow",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "864",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "865"
+      }
+    ]
+  },
+  {
+    "id": "whisky-business",
+    "name": "Whisky Business",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "20 shots",
+    "sources": [
+      {
+        "square_token": "6DOXRDGFLEMBC4IEFOHUXQ33",
+        "square_sku": "",
+        "gtin": "705108803965",
+        "original_name": "Whiskey Business",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "968",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "969"
+      }
+    ]
+  },
+  {
+    "id": "wild-horses",
+    "name": "Wild Horses",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "6SQ25JK3RYG5ECAM3GS2PQ3R",
+        "square_sku": "757201220026",
+        "gtin": "",
+        "original_name": "Wild Horses",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "973",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "974"
+      }
+    ]
+  },
+  {
+    "id": "willow-explosion",
+    "name": "Willow Explosion",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 24 shots",
+    "sources": [
+      {
+        "square_token": "RIOM3SESJXPNVNW246HUV6UY",
+        "square_sku": "757201536318",
+        "gtin": "",
+        "original_name": "Willow Explosion",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "977",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "978"
+      }
+    ]
+  },
+  {
+    "id": "neon-jellyfish",
+    "name": "Neon Jellyfish",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "TMC3YHZW3USJLNP2YNAQF35V",
+        "square_sku": "757201572125",
+        "gtin": "",
+        "original_name": "neon jellyfish",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "1036",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "1037"
+      }
+    ]
+  },
+  {
+    "id": "wings-of-wrath",
+    "name": "Wings of Wrath",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 35 shots",
+    "sources": [
+      {
+        "square_token": "U4VMQYNRVE7JHWKOKZQ6PKCC",
+        "square_sku": "757201216050",
+        "gtin": "",
+        "original_name": "wings of wrath",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "1060",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "1061"
+      }
+    ]
+  },
+  {
+    "id": "atom-bomb",
+    "name": "Atom Bomb",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "36 shots",
+    "sources": [
+      {
+        "square_token": "5FGW7K44ZLKLWCCNLF46GVBU",
+        "square_sku": "687985901319",
+        "gtin": "",
+        "original_name": "Atom Bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "159",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "160"
+      }
+    ]
+  },
+  {
+    "id": "bamboozle",
+    "name": "Bamboozle",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "42 shots",
+    "sources": [
+      {
+        "square_token": "AREZ7BUJBZVK2OEMOVNEZLRN",
+        "square_sku": "687985245512",
+        "gtin": "",
+        "original_name": "Bamboozle 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "171",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "172"
+      }
+    ]
+  },
+  {
+    "id": "big-top",
+    "name": "Big Top",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "42 shots",
+    "sources": [
+      {
+        "square_token": "BNWVUD62G4H3RHAG6WM5WJ7D",
+        "square_sku": "687985203512",
+        "gtin": "",
+        "original_name": "Big Top",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "182",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "183"
+      }
+    ]
+  },
+  {
+    "id": "blood-money",
+    "name": "Blood Money",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "49 shots",
+    "sources": [
+      {
+        "square_token": "XLO7UDEHBHTQYPEROBAO3RV4",
+        "square_sku": "687985909032",
+        "gtin": "",
+        "original_name": "Blood Money",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "226",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "227"
+      }
+    ]
+  },
+  {
+    "id": "canopus",
+    "name": "Canopus",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "48 shots",
+    "sources": [
+      {
+        "square_token": "BZM75VLS7V57JD3765BT6ND4",
+        "square_sku": "687985908417",
+        "gtin": "",
+        "original_name": "Canopus",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "252",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "253"
+      }
+    ]
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "48 shots",
+    "sources": [
+      {
+        "square_token": "RGD7OXT4MUNLMZKZWWNOE6YH",
+        "square_sku": "687985908448",
+        "gtin": "",
+        "original_name": "Capella",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "253",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "254"
+      }
+    ]
+  },
+  {
+    "id": "captain-sam",
+    "name": "Captain Sam",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "30 shots · Daytime parachutes",
+    "sources": [
+      {
+        "square_token": "4BECHQGPMIFJ2I3VL7Q6BJWV",
+        "square_sku": "687985222810",
+        "gtin": "",
+        "original_name": "Captain Sam 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "254",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "255"
+      }
+    ]
+  },
+  {
+    "id": "centauri",
+    "name": "Centauri",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "48 shots",
+    "sources": [
+      {
+        "square_token": "5SOYZ27LJ73CYTCXGVI6XIJN",
+        "square_sku": "687985908424",
+        "gtin": "",
+        "original_name": "Centauri",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "257",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "258"
+      }
+    ]
+  },
+  {
+    "id": "cobalt-bomb",
+    "name": "Cobalt Bomb",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "36 shots",
+    "sources": [
+      {
+        "square_token": "MGK6SZ2H563SI4HJP3OBSS5U",
+        "square_sku": "687985901340",
+        "gtin": "",
+        "original_name": "Cobalt Bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "272",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "273"
+      }
+    ]
+  },
+  {
+    "id": "crime-scene",
+    "name": "Crime Scene",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "49 shots",
+    "sources": [
+      {
+        "square_token": "GFUHBZGQTVWBTZPNL5L4BB4L",
+        "square_sku": "687985909018",
+        "gtin": "",
+        "original_name": "Crime Scene",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "300",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "301"
+      }
+    ]
+  },
+  {
+    "id": "daffodil",
+    "name": "Daffodil",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 16 shots",
+    "sources": [
+      {
+        "square_token": "J6SLR7ZFLS7GBVRMGAEKIT4T",
+        "square_sku": "",
+        "gtin": "687985211517",
+        "original_name": "Daffodil 200 Gram",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "309",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "310"
+      }
+    ]
+  },
+  {
+    "id": "golden-peacock",
+    "name": "Golden Peacock",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 16 shots",
+    "sources": [
+      {
+        "square_token": "6AVGKVTQYLP3PSQNTCP4MSM4",
+        "square_sku": "687985211210",
+        "gtin": "",
+        "original_name": "Golden Peacock",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "421",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "422"
+      }
+    ]
+  },
+  {
+    "id": "hydrogen-bomb",
+    "name": "Hydrogen Bomb",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "36 shots",
+    "sources": [
+      {
+        "square_token": "AKI3KKIBYKNIRZHLPMG6HPDE",
+        "square_sku": "687985901326",
+        "gtin": "",
+        "original_name": "Hydrogen Bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "468",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "469"
+      }
+    ]
+  },
+  {
+    "id": "inside-job",
+    "name": "Inside Job",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "49 shots",
+    "sources": [
+      {
+        "square_token": "PB4BRS3FE2O4BB5DDXL53LT6",
+        "square_sku": "687985909025",
+        "gtin": "",
+        "original_name": "Inside Job",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "483",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "484"
+      }
+    ]
+  },
+  {
+    "id": "jaws-brothers",
+    "name": "Jaws",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "16 shots",
+    "sources": [
+      {
+        "square_token": "UZCBBHPKUEH64KANXEM37JVQ",
+        "square_sku": "687985237715",
+        "gtin": "",
+        "original_name": "Jaws 16 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "492",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "493"
+      }
+    ]
+  },
+  {
+    "id": "mechanical-bug",
+    "name": "Mechanical Bug",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "100 shots",
+    "sources": [
+      {
+        "square_token": "MD45INUFCC64T2JKSK5NHQNX",
+        "square_sku": "687985283811",
+        "gtin": "",
+        "original_name": "Mechanical Bug 100 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "585",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "586"
+      }
+    ]
+  },
+  {
+    "id": "megawatt",
+    "name": "MegaWatt",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "295 shots",
+    "sources": [
+      {
+        "square_token": "JZSYHXE4DQ7QGMED4JK76XXM",
+        "square_sku": "687985260812",
+        "gtin": "",
+        "original_name": "Megawatt-295 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "591",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "592"
+      }
+    ]
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "204 shots",
+    "sources": [
+      {
+        "square_token": "E3UXSYRN2VAH4HHUW5HI4IHN",
+        "square_sku": "687985234615",
+        "gtin": "",
+        "original_name": "Midnight 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "594",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "595"
+      }
+    ]
+  },
+  {
+    "id": "neutron-bomb",
+    "name": "Neutron Bomb",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "36 shots",
+    "sources": [
+      {
+        "square_token": "73ZKYLH5IUS5MUMFLKHERCSJ",
+        "square_sku": "687985901333",
+        "gtin": "",
+        "original_name": "Neutron Bomb",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "639",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "640"
+      }
+    ]
+  },
+  {
+    "id": "old-ironsides",
+    "name": "Old Ironsides",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "Conflicting gram classifications in prior evidence.",
+    "approvedPresentation": "30 shots",
+    "sources": [
+      {
+        "square_token": "TJCEVYQKEURJTZKRXDKTT7TF",
+        "square_sku": "687985245215",
+        "gtin": "",
+        "original_name": "Old Ironsides 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "652",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "653"
+      }
+    ]
+  },
+  {
+    "id": "sons-of-liberty",
+    "name": "Sons of Liberty",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 36 shots",
+    "sources": [
+      {
+        "square_token": "5D6GORADGNMEPLTPWFS3A6BA",
+        "square_sku": "687985247219",
+        "gtin": "",
+        "original_name": "Sons of Liberty 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "846",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "847"
+      }
+    ]
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "name": "The Red, White and Blue Salute",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "24 shots",
+    "sources": [
+      {
+        "square_token": "JVJVJDEHKQTOTIG75XHAVP7R",
+        "square_sku": "687985290512",
+        "gtin": "",
+        "original_name": "The Red White And Blue Salute",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "900",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "901"
+      }
+    ]
+  },
+  {
+    "id": "turf-war",
+    "name": "Turf War",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "49 shots",
+    "sources": [
+      {
+        "square_token": "4XNAMHJPDAR3ZZXVWJRVFCN7",
+        "square_sku": "687985909049",
+        "gtin": "",
+        "original_name": "Turf War",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "924",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "925"
+      }
+    ]
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "48 shots",
+    "sources": [
+      {
+        "square_token": "6QWKN4NYSMH5FE4SPP4TXZEZ",
+        "square_sku": "687985908431",
+        "gtin": "",
+        "original_name": "Vega",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "939",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "940"
+      }
+    ]
+  },
+  {
+    "id": "wild-west",
+    "name": "Wild West",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "25 shots",
+    "sources": [
+      {
+        "square_token": "VDUDV2IJWJQDR3OXDDXGSYVX",
+        "square_sku": "687985292417",
+        "gtin": "",
+        "original_name": "Wild West",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "975",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "976"
+      }
+    ]
+  },
+  {
+    "id": "wildcard",
+    "name": "Wildcard",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 49 shots",
+    "sources": [
+      {
+        "square_token": "6HVANF2BUGX7XBWGM6KGJOJI",
+        "square_sku": "687985262410",
+        "gtin": "",
+        "original_name": "Wildcard",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "976",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "977"
+      }
+    ]
+  },
+  {
+    "id": "flying-colors",
+    "name": "Flying Colors",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "41 shots",
+    "sources": [
+      {
+        "square_token": "JOZNARA424EEK6F2KF7HBTKU",
+        "square_sku": "687985285617",
+        "gtin": "",
+        "original_name": "flying colors",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "1010",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "1011"
+      }
+    ]
+  },
+  {
+    "id": "absolute-pyro",
+    "name": "Absolute Pyro",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "156 shots",
+    "sources": [
+      {
+        "square_token": "A3TTFCDNXBESWGPAC4RVRVLA",
+        "square_sku": "652009906540",
+        "gtin": "",
+        "original_name": "Absolute Pyro",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+        "csv_row": "115",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "116"
+      }
+    ]
+  },
+  {
+    "id": "fallout",
+    "name": "Fallout",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 24 shots",
+    "sources": [
+      {
+        "square_token": "Y6HDHYHSC4SVETG4GORA6KKQ",
+        "square_sku": "514677060231",
+        "gtin": "",
+        "original_name": "Fallout 24 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "353",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "354"
+      }
+    ]
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "42 shots",
+    "sources": [
+      {
+        "square_token": "GP4VTTYIGJ6FXPLM52AVKSEX",
+        "square_sku": "687985245314",
+        "gtin": "",
+        "original_name": "Light Bergade",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "541",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "542"
+      }
+    ]
+  },
+  {
+    "id": "magical-barrage-100",
+    "name": "Magical Barrage",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "100 shots",
+    "sources": [
+      {
+        "square_token": "ELISRVGSZLOV7VVRCNLZLY5O",
+        "square_sku": "715244064120",
+        "gtin": "",
+        "original_name": "Magical Garage 100 shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "573",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "574"
+      }
+    ]
+  },
+  {
+    "id": "outlaw-justice",
+    "name": "Outlaw Justice",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 36 shots",
+    "sources": [
+      {
+        "square_token": "RJI3L3ZOH6A34DOCTHDC2W66",
+        "square_sku": "514677060194",
+        "gtin": "",
+        "original_name": "Outlaw Justice",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "658",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "659"
+      }
+    ]
+  },
+  {
+    "id": "whacky-tobacky",
+    "name": "Whacky Tobacky",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "XTL5TLDJI3LTZYGCDMI4ODSC",
+        "square_sku": "687985250110",
+        "gtin": "",
+        "original_name": "Wacky Tobocey",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "948",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "949"
+      }
+    ]
+  },
+  {
+    "id": "walkin-dead",
+    "name": "Walkin' Dead",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 19 shots",
+    "sources": [
+      {
+        "square_token": "Z5AQ5L7DNIGG2FSAUAZOSQQ5",
+        "square_sku": "715244063178",
+        "gtin": "",
+        "original_name": "Walking Dead 19 Shots",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "949",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "950"
+      }
+    ]
+  },
+  {
+    "id": "war-hero",
+    "name": "War Hero",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 30 shots",
+    "sources": [
+      {
+        "square_token": "YIKPT4VA36G77JLEBR336HWV",
+        "square_sku": "687985985111",
+        "gtin": "",
+        "original_name": "War Hero 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "951",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "952"
+      }
+    ]
+  },
+  {
+    "id": "call-the-cops",
+    "name": "Call the Cops",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 87 shots",
+    "sources": [
+      {
+        "square_token": "YBTSQXW5MJG6UTYHOSOYIBRG",
+        "square_sku": "715244165100",
+        "gtin": "",
+        "original_name": "Call The Cops 200G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "248",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "249"
+      }
+    ]
+  },
+  {
+    "id": "forever-loyal",
+    "name": "Forever Loyal",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "ERZ4KRTZQCD4FRIINSYC7KN6",
+        "square_sku": "",
+        "gtin": "702367266043",
+        "original_name": "Forever Loyal Pyro Shine 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "378",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "379"
+      }
+    ]
+  },
+  {
+    "id": "fuego-loco",
+    "name": "Fuego Loco",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 20 shots",
+    "sources": [
+      {
+        "square_token": "7EQHCPTRPGKCHMZ72HTQHAWQ",
+        "square_sku": "715244065370",
+        "gtin": "",
+        "original_name": "Fuego Loco 200G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "389",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "390"
+      }
+    ]
+  },
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 45 shots",
+    "sources": [
+      {
+        "square_token": "5JPUFA6DW2VVHUQEXK7JAJC3",
+        "square_sku": "715244065356",
+        "gtin": "",
+        "original_name": "Mass Confusion 500G 45 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "581",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "582"
+      }
+    ]
+  },
+  {
+    "id": "sky-ink",
+    "name": "Sky Ink",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 16 shots",
+    "sources": [
+      {
+        "square_token": "WTLUAOGLASBOLXA3LAEELXAQ",
+        "square_sku": "715244065301",
+        "gtin": "",
+        "original_name": "Sky Ink 200G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "809",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "810"
+      }
+    ]
+  },
+  {
+    "id": "aggression",
+    "name": "Aggression",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "SRP2KXXSRJ5ZLRYNRYPEYTA3",
+        "square_sku": "757201220071",
+        "gtin": "",
+        "original_name": "Aggression",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "119",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "120"
+      }
+    ]
+  },
+  {
+    "id": "bang-bros",
+    "name": "Bang Bros",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 44 shots",
+    "sources": [
+      {
+        "square_token": "C2C7EL6NNRTZWJT3IFXTDJMD",
+        "square_sku": "757201530781",
+        "gtin": "",
+        "original_name": "Bang Bros",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "174",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "175"
+      }
+    ]
+  },
+  {
+    "id": "battle-cry",
+    "name": "Battle Cry",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "TCFS7DODQT6FOX5OZPYXNCX3",
+        "square_sku": "757201572033",
+        "gtin": "",
+        "original_name": "Battle Cry",
+        "original_variation": "Regular",
+        "square_category": "9-SHOT 500 GRAM RACKS",
+        "csv_row": "175",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "176"
+      }
+    ]
+  },
+  {
+    "id": "color-rage",
+    "name": "Color Rage",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 30 shots",
+    "sources": [
+      {
+        "square_token": "VLK3AKYITHQA2VRQ2QD7MWRS",
+        "square_sku": "757201530729",
+        "gtin": "",
+        "original_name": "Color Rage",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "280",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "281"
+      }
+    ]
+  },
+  {
+    "id": "hot-as-hell",
+    "name": "Hot as Hell",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": "9-shot rack",
+    "sources": [
+      {
+        "square_token": "VO5VKMURGPFHWLH2WHVHDHTY",
+        "square_sku": "757201572163",
+        "gtin": "",
+        "original_name": "Hot As Hell 9 Rack",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "458",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "459"
+      }
+    ]
+  },
+  {
+    "id": "joker-raccoon",
+    "name": "Joker",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 20 shots",
+    "sources": [
+      {
+        "square_token": "KIQSPT7TDOXOPH6FPCTYHWUM",
+        "square_sku": "757201225175",
+        "gtin": "",
+        "original_name": "Joker",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "495",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "496"
+      }
+    ]
+  },
+  {
+    "id": "neon-celebration",
+    "name": "Neon Celebration",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "500 gram · 60 shots",
+    "sources": [
+      {
+        "square_token": "6SA6Q2XJKOHET5CW5VO67ZPO",
+        "square_sku": "757201520034",
+        "gtin": "",
+        "original_name": "Neon Celebration",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "625",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "626"
+      }
+    ]
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "category": "Cakes - Size Unconfirmed",
+    "reason": "No explicit verified gram class for this exact identity.",
+    "approvedPresentation": null,
+    "sources": [
+      {
+        "square_token": "T3AVLYCRGWAKT6BREUWYYAAL",
+        "square_sku": "887946004213",
+        "gtin": "",
+        "original_name": "2 Min Extravaganza",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "58",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "59"
+      }
+    ]
+  },
+  {
+    "id": "american-wildcard",
+    "name": "American Wildcard",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "49 shots · 200 gram",
+    "sources": [
+      {
+        "square_token": "QF4SJO5A26QPFJ3INJVAWKZB",
+        "square_sku": "687985961214",
+        "gtin": "",
+        "original_name": "American Wildcard 200G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "135",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "136"
+      }
+    ]
+  },
+  {
+    "id": "daytime-reveal-pink",
+    "name": "Daytime Reveal Pink",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "16 shots · Pink smoke",
+    "sources": [
+      {
+        "square_token": "GOIVSX5DISLUFTWXVSAEYSUG",
+        "square_sku": "705108146932",
+        "gtin": "",
+        "original_name": "Daytime Gender Reveal 16 Shot 200G",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "313",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "314"
+      }
+    ]
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "16 shots · 200 gram",
+    "sources": [
+      {
+        "square_token": "XJZEMQJXB5U2J6MBX7XQ6PCY",
+        "square_sku": "8052531342212",
+        "gtin": "",
+        "original_name": "Hot Dog 200 Gram 16 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "459",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "460"
+      }
+    ]
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "name": "One Bad Mother-In-Law",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "16 shots · 500 gram",
+    "sources": [
+      {
+        "square_token": "D2NK6VMC6V5Q6F7UV5RP7HCA",
+        "square_sku": "8052531503712",
+        "gtin": "",
+        "original_name": "One Bad Mother-In-Law 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "653",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "654"
+      }
+    ]
+  },
+  {
+    "id": "pizza-platter",
+    "name": "Pizza Platter",
+    "category": "Cake Packs",
+    "reason": "Verified complete retail pack; not a single cake. Gram class per component not established.",
+    "approvedPresentation": "6 cakes · 15 shots per cake",
+    "sources": [
+      {
+        "square_token": "RG25535S4I3QWL6XUOT4SJVP",
+        "square_sku": "705108955640",
+        "gtin": "",
+        "original_name": "Pizza Platter",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "688",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "689"
+      }
+    ]
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "name": "Super Cakes",
+    "category": "Cake Packs",
+    "reason": "Verified complete retail pack; not a single cake. Gram class per component not established.",
+    "approvedPresentation": "4 cakes",
+    "sources": [
+      {
+        "square_token": "FZ4UOHXN2PATZIU7FO7IYHQR",
+        "square_sku": "202112120298",
+        "gtin": "",
+        "original_name": "Super Cakes 4",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "872",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "873"
+      }
+    ]
+  },
+  {
+    "id": "vertical-limit",
+    "name": "Vertical Limit",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "16 shots · 200 gram",
+    "sources": [
+      {
+        "square_token": "53PY236TSO7UAIDCPQL23F4D",
+        "square_sku": "8145270145913",
+        "gtin": "",
+        "original_name": "Vertical Limit 200 Gram 16 Shot",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "942",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "943"
+      }
+    ]
+  },
+  {
+    "id": "viva-mexico",
+    "name": "Viva Mexico",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "19 shots · 500 gram",
+    "sources": [
+      {
+        "square_token": "GRLCY6BUJIQP24563LEUEXK4",
+        "square_sku": "800000323105",
+        "gtin": "",
+        "original_name": "Viva Mexico 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "947",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "948"
+      }
+    ]
+  },
+  {
+    "id": "whats-that",
+    "name": "What's That!?!",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "Cake and girandola",
+    "sources": [
+      {
+        "square_token": "FLN6Q2HNLPI5J536VFRX5FV3",
+        "square_sku": "674662504420",
+        "gtin": "",
+        "original_name": "What's That 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "967",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "968"
+      }
+    ]
+  },
+  {
+    "id": "openfire",
+    "name": "Openfire",
+    "category": "500g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "33 shots · 500 gram",
+    "sources": [
+      {
+        "square_token": "4QSJROFXXZ4LS3FKPOCQLOWI",
+        "square_sku": "687985208616",
+        "gtin": "",
+        "original_name": "Open Fire 500 Gram",
+        "original_variation": "Regular",
+        "square_category": "500 GRAM FINALE",
+        "csv_row": "655",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "656"
+      }
+    ]
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "name": "Black Cat Combo Cakes",
+    "category": "Cake Packs",
+    "reason": "Verified complete retail pack; not a single cake. Gram class per component not established.",
+    "approvedPresentation": "4 cakes · 15 shots per cake",
+    "sources": [
+      {
+        "square_token": "C7MGH6L5OBMU2I7P6XRLCCYG",
+        "square_sku": "715244963935",
+        "gtin": "",
+        "original_name": "Black Cat combo Cakes",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "221",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "222"
+      }
+    ]
+  },
+  {
+    "id": "dreams-from-heaven",
+    "name": "Dreams from Heaven",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 25 shots",
+    "sources": [
+      {
+        "square_token": "PQP2GSG52X57UH5U4X4ATBUH",
+        "square_sku": "757201220101",
+        "gtin": "",
+        "original_name": "Dreams From Heaven",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "333",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "334"
+      }
+    ]
+  },
+  {
+    "id": "pirate-captain",
+    "name": "Pirate Captain",
+    "category": "200g Cakes",
+    "reason": "Explicit gram class in approved presentation or linked Square name/category, not shipping weight.",
+    "approvedPresentation": "200 gram · 21 shots",
+    "sources": [
+      {
+        "square_token": "7NIKJPUYYNEFFUPR4OAZ5TLP",
+        "square_sku": "757201225182",
+        "gtin": "",
+        "original_name": "Pirate Captain",
+        "original_variation": "Regular",
+        "square_category": "Unknown",
+        "csv_row": "685",
+        "xlsx_sheet": "Items",
+        "xlsx_row": "686"
+      }
+    ]
+  }
+]

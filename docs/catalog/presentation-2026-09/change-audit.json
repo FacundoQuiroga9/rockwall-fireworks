@@ -1,0 +1,42 @@
+{
+  "rockwall-fireworks": {
+    "changed_count": 898,
+    "code_and_reports": [
+      "src/utils/productData.js",
+      "src/data/products.json",
+      "src/data/brands.json",
+      "src/pages/ProductsPage.css",
+      "src/components/productCarousel/FullCatalog.css",
+      "src/components/productCarousel/ProductCarousel.css",
+      "src/components/productCarousel/FullCatalog.jsx",
+      "src/components/productCarousel/ProductCard.jsx",
+      "src/components/brands/Brands.css",
+      "src/components/brands/Brands.jsx",
+      "public/sitemap.xml",
+      "public/.htaccess",
+      "scripts/catalog/sync.mjs",
+      "tests/catalog-import.test.js",
+      "tests/catalog-experience.test.js",
+      "docs/catalog/asset-identities.json",
+      "docs/catalog/README.md",
+      "docs/catalog/manual-corrections.json",
+      "docs/catalog/continuation-2026-09-24/row-decisions.json",
+      "docs/catalog/enrichment-2026-09/identified-missing-images.csv",
+      "docs/catalog/enrichment-2026-09/research-ledger.csv",
+      "docs/catalog/enrichment-2026-09/reviewed-products.json",
+      "docs/catalog/enrichment-2026-09/research-summary.json",
+      "docs/catalog/enrichment-2026-09/conflicts.csv",
+      "docs/catalog/enrichment-2026-09/pending-products.csv"
+    ]
+  },
+  "rockwall-fireworks-mobile": {
+    "changed_count": 296,
+    "code_and_reports": [
+      "src/types/product.ts",
+      "src/data/products.ts",
+      "src/data/productImages.ts",
+      "tests/catalog.test.mjs",
+      "docs/catalog/web-catalog-snapshot.json"
+    ]
+  }
+}

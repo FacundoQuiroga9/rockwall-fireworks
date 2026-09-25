@@ -1,0 +1,12 @@
+[
+  {
+    "project": "rockwall-fireworks",
+    "preserved_image_files": 170,
+    "sha256_unchanged": true
+  },
+  {
+    "project": "rockwall-fireworks-mobile",
+    "preserved_image_files": 50,
+    "sha256_unchanged": true
+  }
+]

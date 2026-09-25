@@ -1,0 +1,1855 @@
+[
+  {
+    "row": "12",
+    "name": "#3 Solar Wave Cone",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "CNBC288",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Solar-Wave.png",
+    "page": "https://www.wincofireworks.com/product/3-solar-wave-cone/",
+    "file": "winco-photo-12-4841.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "15",
+    "name": "#4 Turbo Flash Cone",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "CNBC289",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Turbo-Flash.png",
+    "page": "https://www.wincofireworks.com/product/4-turbo-flash-cone/",
+    "file": "winco-photo-15-4842.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "23",
+    "name": "#8 Pharaoh’s Treasure",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "CNBC290",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Pharaohs-Treasure.png",
+    "page": "https://www.wincofireworks.com/product/8-pharaohs-treasure/",
+    "file": "winco-photo-23-4843.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "38",
+    "name": "1000 Gram Display",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBC6401",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/1000-gram-display.png",
+    "page": "https://www.wincofireworks.com/product/1000-gram-display/",
+    "file": "winco-photo-38-4297.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "49",
+    "name": "120 Shot Camo Pack",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "RCJP-510",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/120-shot-camo-pack.png",
+    "page": "https://www.wincofireworks.com/product/120-shot-camo-pack/",
+    "file": "winco-photo-49-3956.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "65",
+    "name": "Black Cat 2000 Roll",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBCR2000",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/black-cat-roll-firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-2000-roll/",
+    "file": "winco-photo-65-4156.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "85",
+    "name": "Snow Cone Jr.",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNP3097",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Snow-Cone-Jr.png",
+    "page": "https://www.wincofireworks.com/product/snow-cone-jr/",
+    "file": "winco-photo-85-4871.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "114",
+    "name": "Above the Law",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATLAW",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Above-the-Law.png",
+    "page": "https://www.wincofireworks.com/product/above-the-law/",
+    "file": "winco-photo-114-4082.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "115",
+    "name": "Absolute Pyro",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEJP-654",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/absolute-pyro.png",
+    "page": "https://www.wincofireworks.com/product/absolute-pyro/",
+    "file": "winco-photo-115-4395.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "163",
+    "name": "Black Cat 8000 Roll",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBCR8000",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/black-cat-roll-firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-8000-roll/",
+    "file": "winco-photo-163-4158.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "178",
+    "name": "Big City Display",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBCITY",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/big-city-display.png",
+    "page": "https://www.wincofireworks.com/product/big-city-display/",
+    "file": "winco-photo-178-4084.image",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "181",
+    "name": "Big and Bad",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ARBC476",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/big-and-bad.png",
+    "page": "https://www.wincofireworks.com/product/big-and-bad/",
+    "file": "winco-photo-181-4508.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "186",
+    "name": "Black Cat 1000 Roll",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBCR1000",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/black-cat-roll-firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-1000-roll/",
+    "file": "winco-photo-186-4155.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "188",
+    "name": "Black Cat 20/100",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBC00100",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Black-Cat-Firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-20-100/",
+    "file": "winco-photo-188-4139.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "192",
+    "name": "Black Cat 5/400",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBC00400",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Black-Cat-Firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-5-400/",
+    "file": "winco-photo-192-4153.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "193",
+    "name": "Black Cat 4000 Roll",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBCR4000",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/black-cat-roll-firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-4000-roll/",
+    "file": "winco-photo-193-4157.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "194",
+    "name": "9 inch Four Assorted",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2045",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/9-inch-four-assorted.png",
+    "page": "https://www.wincofireworks.com/product/9-inch-four-assorted/",
+    "file": "winco-photo-194-4184.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "199",
+    "name": "6 inch Four Assorted",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2001-17",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/6-inch-four-assorted.png",
+    "page": "https://www.wincofireworks.com/product/6-inch-four-assorted/",
+    "file": "winco-photo-199-4182.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "200",
+    "name": "Black Cat 5 Inch Canister Shells",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Black-Cat-5-Inch-Canister.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-5-inch-canister-shells/",
+    "file": "winco-photo-200-4911.image",
+    "dimensions": [
+      400,
+      400
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "201",
+    "name": "Black Cat 500 Roll",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBCR00500",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/black-cat-roll-firecrackers.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-500-roll/",
+    "file": "winco-photo-201-4154.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "203",
+    "name": "16″ Morning Glory",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SKBC313-06",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Morning-Glory-BC.png",
+    "page": "https://www.wincofireworks.com/product/16-inch-morning-glory/",
+    "file": "winco-photo-203-3993.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "204",
+    "name": "Cat Eyes",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Cat-eyes.png",
+    "page": "https://www.wincofireworks.com/product/cat-eyes/",
+    "file": "winco-photo-204-4974.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "205",
+    "name": "Black Cat Celebrate America #5",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Celebrate-America.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-celebrate-america-5/",
+    "file": "winco-photo-205-5000.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "208",
+    "name": "Black Cat Fireworks Fiesta",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Fireworks-Fiesta-1.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-fireworks-fiesta/",
+    "file": "winco-photo-208-4918.image",
+    "dimensions": [
+      400,
+      400
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "209",
+    "name": "Fountastic",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2174",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Fountastic.png",
+    "page": "https://www.wincofireworks.com/product/fountastic/",
+    "file": "winco-photo-209-3585.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "210",
+    "name": "7 inch Four Assorted",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2019-22",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/7-inch-four-assorted.png",
+    "page": "https://www.wincofireworks.com/product/7-inch-four-assorted/",
+    "file": "winco-photo-210-4183.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "213",
+    "name": "Little Dynamite",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBC105",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Little-Dynamite.png",
+    "page": "https://www.wincofireworks.com/product/little-dynamite/",
+    "file": "winco-photo-213-3540.image",
+    "dimensions": [
+      250,
+      229
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "215",
+    "name": "Neon Diablo 5 Inch Shells",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Neon-Diablo.png",
+    "page": "https://www.wincofireworks.com/product/neon-diablo-5-inch-shells/",
+    "file": "winco-photo-215-4915.image",
+    "dimensions": [
+      400,
+      400
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "225",
+    "name": "3 For 1!",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2224",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/3-for-1.png",
+    "page": "https://www.wincofireworks.com/product/3-for-1/",
+    "file": "winco-photo-225-3547.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "251",
+    "name": "Camo Smoke",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SMM100",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Camo-Smoke.png",
+    "page": "https://www.wincofireworks.com/product/camo-smoke/",
+    "file": "winco-photo-251-3983.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "283",
+    "name": "Smoke Grenade Pull String",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Color-Smoke-Grenade.png",
+    "page": "https://www.wincofireworks.com/product/smoke-grenade-pull-string/",
+    "file": "winco-photo-283-4868.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "284",
+    "name": "Color Smoke Balls 12 pack",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SMBC702",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/color-smoke-balls-12-pack.png",
+    "page": "https://www.wincofireworks.com/product/color-smoke-balls-12-pack/",
+    "file": "winco-photo-284-4593.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "288",
+    "name": "Confetti Blasters 24″",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "NV1741",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/NV1741.png",
+    "page": "https://www.wincofireworks.com/product/confetti-blasters-24/",
+    "file": "winco-photo-288-4875.image",
+    "dimensions": [
+      900,
+      900
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "292",
+    "name": "Cracker Balls",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "NVBC340",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Cracker-balls.png",
+    "page": "https://www.wincofireworks.com/product/cracker-balls/",
+    "file": "winco-photo-292-3885.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "293",
+    "name": "Cracker Bomb",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Cracker-Bomb.png",
+    "page": "https://www.wincofireworks.com/product/cracker-bomb/",
+    "file": "winco-photo-293-4931.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "353",
+    "name": "Fallout",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Fallout.png",
+    "page": "https://www.wincofireworks.com/product/fallout/",
+    "file": "winco-photo-353-5533.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "366",
+    "name": "Fireworks Surprise S&S",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Fireworks-Surprise-1.png",
+    "page": "https://www.wincofireworks.com/product/fireworks-surprise/",
+    "file": "winco-photo-366-8705.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "402",
+    "name": "Garden In Spring",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBC6059",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Garden-In-Spring.png",
+    "page": "https://www.wincofireworks.com/product/garden-in-spring-2/",
+    "file": "winco-photo-402-3695.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "404",
+    "name": "Gatlin Pack BC",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "RCBC505",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Gatlin-pack.png",
+    "page": "https://www.wincofireworks.com/product/gatlin-pack-bc/",
+    "file": "winco-photo-404-3962.image",
+    "dimensions": [
+      250,
+      264
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "429",
+    "name": "T-800",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/T-800-Shells.png",
+    "page": "https://www.wincofireworks.com/product/t-800/",
+    "file": "winco-photo-429-4890.image",
+    "dimensions": [
+      388,
+      400
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "493",
+    "name": "Joker",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2184",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Joker.png",
+    "page": "https://www.wincofireworks.com/product/joker/",
+    "file": "winco-photo-493-3592.image",
+    "dimensions": [
+      250,
+      262
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "497",
+    "name": "Jr Pyro Backpack",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBC089-12",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Jr-Pyro-Backpack.png",
+    "page": "https://www.wincofireworks.com/product/jr-pyro-backpack/",
+    "file": "winco-photo-497-3513.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "500",
+    "name": "Jumbo Assorted Candles",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "RCLR3128A",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/jumbo-assorted-candles.png",
+    "page": "https://www.wincofireworks.com/product/jumbo-assorted-candles/",
+    "file": "winco-photo-500-4573.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "508",
+    "name": "Texas Bandit Rocket",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ARBC484",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/BC484-Texas-Bandit.png",
+    "page": "https://www.wincofireworks.com/product/texas-bandit-rocket/",
+    "file": "winco-photo-508-4774.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "514",
+    "name": "Junior Pyro",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATJP-12",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Junior-Pyro-2026.png",
+    "page": "https://www.wincofireworks.com/product/junior-pyro/",
+    "file": "winco-photo-514-4108.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "520",
+    "name": "Kids Pack",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATKP-1",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/kids-pack.png",
+    "page": "https://www.wincofireworks.com/product/kids-pack/",
+    "file": "winco-photo-520-4135.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "541",
+    "name": "Light Brigade",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBP2453",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/light-brigade.png",
+    "page": "https://www.wincofireworks.com/product/light-brigade/",
+    "file": "winco-photo-541-4351.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "553",
+    "name": "M-150 Red Salute",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBC117",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/BC117-M-150-1.png",
+    "page": "https://www.wincofireworks.com/product/m-150-red-salute/",
+    "file": "winco-photo-553-4772.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "561",
+    "name": "M-150 Red/Silver Salute Assorted",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FCBC114",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/BC114-M-150-1.png",
+    "page": "https://www.wincofireworks.com/product/m-150-red-silver-salute-assorted/",
+    "file": "winco-photo-561-4771.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "573",
+    "name": "Magical Barrage",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBC6412",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/BC6412-Magical-Barrage.png",
+    "page": "https://www.wincofireworks.com/product/magical-barrage/",
+    "file": "winco-photo-573-4796.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "615",
+    "name": "Mother Of All Bombs",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEP5494",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Mother-Of-All-Bombs.jpg",
+    "page": "https://www.wincofireworks.com/product/mother-of-all-bombs/",
+    "file": "winco-photo-615-8816.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "624",
+    "name": "Neon Camo Smoke",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SMBC725",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Neon-Camo-Smoke.png",
+    "page": "https://www.wincofireworks.com/product/neon-camo-smoke/",
+    "file": "winco-photo-624-3988.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "624",
+    "name": "Jumbo Smoke Bomb",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SMBC725",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Jumbo-Smoke-Bombs-1.png",
+    "page": "https://www.wincofireworks.com/product/jumbo-smoke-bomb/",
+    "file": "winco-photo-624-3986.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "658",
+    "name": "Outlaw Justice",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Outlaw-Justice.png",
+    "page": "https://www.wincofireworks.com/product/outlaw-justice/",
+    "file": "winco-photo-658-5560.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "659",
+    "name": "Packin’ Purple",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNBC2199",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Packin-Purple-2.png",
+    "page": "https://www.wincofireworks.com/product/packin-purple/",
+    "file": "winco-photo-659-3603.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "660",
+    "name": "Pandamonium",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEP5484",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Pandamonium.png",
+    "page": "https://www.wincofireworks.com/product/pandamonium/",
+    "file": "winco-photo-660-8951.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "662",
+    "name": "Party Animal",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBCPA",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Party-Animal.png",
+    "page": "https://www.wincofireworks.com/product/party-animal/",
+    "file": "winco-photo-662-3507.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "664",
+    "name": "#3 Assortment",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATLG3BOX",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/3-Assortment.png",
+    "page": "https://www.wincofireworks.com/product/3-assortment/",
+    "file": "winco-photo-664-4104.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "665",
+    "name": "Party Pack #5",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATGKPP5",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Party-Pack-5-2026.png",
+    "page": "https://www.wincofireworks.com/product/party-pack-5/",
+    "file": "winco-photo-665-3509.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "666",
+    "name": "Party Pack #5 Safe and Sane",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATGKPP5S",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/party-pack-5-safe-sane.png",
+    "page": "https://www.wincofireworks.com/product/party-pack-5-safe-and-sane/",
+    "file": "winco-photo-666-4111.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "667",
+    "name": "Party Pack #6",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBBPP6",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Party-Pack-6-2026.png",
+    "page": "https://www.wincofireworks.com/product/party-pack-6/",
+    "file": "winco-photo-667-4100.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "668",
+    "name": "Party Popper",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "NVBC341A",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Party-Popper-BC-2.png",
+    "page": "https://www.wincofireworks.com/product/party-popper-2/",
+    "file": "winco-photo-668-4465.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "690",
+    "name": "Poop!",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Poop.jpg",
+    "page": "https://www.wincofireworks.com/product/poop/",
+    "file": "winco-photo-690-5597.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "691",
+    "name": "Doggie Doo Doo",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "NVJP-345",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Doggie-doo-doo.png",
+    "page": "https://www.wincofireworks.com/product/doggie-doo-doo/",
+    "file": "winco-photo-691-3888.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "700",
+    "name": "Black Cat Pride and Honor #6",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Pride-and-Honor-2026.png",
+    "page": "https://www.wincofireworks.com/product/black-cat-pride-and-honor-6/",
+    "file": "winco-photo-700-5001.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "704",
+    "name": "Princess Sword",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNTPF8022",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/princess-sword.png",
+    "page": "https://www.wincofireworks.com/product/princess-sword/",
+    "file": "winco-photo-704-4201.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "720",
+    "name": "Pyro City Safe and Sane",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATPCS-2",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/pyro-city-safe-sane.png",
+    "page": "https://www.wincofireworks.com/product/pyro-city-safe-and-sane/",
+    "file": "winco-photo-720-4109.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "721",
+    "name": "Pyro City",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATPC-2",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Pyro-City-2024.png",
+    "page": "https://www.wincofireworks.com/product/pyro-city/",
+    "file": "winco-photo-721-4083.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "722",
+    "name": "Pyro Pack",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATPP-12",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Pyro-Pack-2026.png",
+    "page": "https://www.wincofireworks.com/product/pyro-pack/",
+    "file": "winco-photo-722-3510.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "745",
+    "name": "Reaper Smoke",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SMF700",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Reaper-Smoke-rotated-1.jpg",
+    "page": "https://www.wincofireworks.com/product/reaper-smoke/",
+    "file": "winco-photo-745-8965.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "769",
+    "name": "10 Ball w/ Report",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "RC0529",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/10-ball-report.png",
+    "page": "https://www.wincofireworks.com/product/10-ball-w-report/",
+    "file": "winco-photo-769-4570.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "810",
+    "name": "Sky Lantern American Flag",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "XXLANTERN-AF",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Sky-Lantern-American-Flag.png",
+    "page": "https://www.wincofireworks.com/product/sky-lantern-american-flag/",
+    "file": "winco-photo-810-8797.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "849",
+    "name": "Space Falcon",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Space-Falcon.jpg",
+    "page": "https://www.wincofireworks.com/product/space-falcon/",
+    "file": "winco-photo-849-5599.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "875",
+    "name": "Super Snaps Small",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "NVBC336B",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Snappers-BC-Super-Small.png",
+    "page": "https://www.wincofireworks.com/product/super-snaps-small/",
+    "file": "winco-photo-875-4479.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "880",
+    "name": "T.H.A.A.D.",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEWPP-6003",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/THAAD.png",
+    "page": "https://www.wincofireworks.com/product/t-h-a-a-d/",
+    "file": "winco-photo-880-4410.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "889",
+    "name": "The Beast",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBCBST",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/The-Beast-2025.png",
+    "page": "https://www.wincofireworks.com/product/the-beast/",
+    "file": "winco-photo-889-3511.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "890",
+    "name": "Beast",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Beast.png",
+    "page": "https://www.wincofireworks.com/product/beast/",
+    "file": "winco-photo-890-5453.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "891",
+    "name": "The Godfather",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATGOD",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2020/10/Godfather.png",
+    "page": "https://www.wincofireworks.com/product/the-godfather/",
+    "file": "winco-photo-891-3512.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "934",
+    "name": "Unicorn",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Unicorn.png",
+    "page": "https://www.wincofireworks.com/product/unicorn/",
+    "file": "winco-photo-934-5572.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "943",
+    "name": "Victory Sword",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "FNPK8022",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Victory-Sword.png",
+    "page": "https://www.wincofireworks.com/product/victory-sword/",
+    "file": "winco-photo-943-3629.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "948",
+    "name": "Whacky Tobacky",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBP2501",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Wacky-Tobacky.png",
+    "page": "https://www.wincofireworks.com/product/whacky-tobacky/",
+    "file": "winco-photo-948-3855.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "949",
+    "name": "Walkin’ Dead",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEBC6317",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/walkin-dead.png",
+    "page": "https://www.wincofireworks.com/product/walkin-dead/",
+    "file": "winco-photo-949-4278.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "951",
+    "name": "War Hero",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEWB007",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/War-Hero.png",
+    "page": "https://www.wincofireworks.com/product/war-hero/",
+    "file": "winco-photo-951-3829.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "953",
+    "name": "War Game",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "MEJP-653",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/war-game.png",
+    "page": "https://www.wincofireworks.com/product/war-game/",
+    "file": "winco-photo-953-4411.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "970",
+    "name": "Whistling Chaser",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SP0238A",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Whistling-chaser.png",
+    "page": "https://www.wincofireworks.com/product/whistling-chaser/",
+    "file": "winco-photo-970-4044.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "992",
+    "name": "Alien Chaser",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SPWPP-801",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Alien-Chaser.png",
+    "page": "https://www.wincofireworks.com/product/alien-chaser/",
+    "file": "winco-photo-992-8966.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  {
+    "row": "1034",
+    "name": "36″ Morning Glory",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "SKBC313-24",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Morning-Glory-36.png",
+    "page": "https://www.wincofireworks.com/product/36-morning-glory/",
+    "file": "winco-photo-1034-4011.image",
+    "dimensions": [
+      300,
+      300
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "1040",
+    "name": "Party Animal",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBCPA",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Party-Animal.png",
+    "page": "https://www.wincofireworks.com/product/party-animal/",
+    "file": "winco-photo-1040-3507.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "1053",
+    "name": "Excellent Bag",
+    "match": "Winco historical UPC + exact current supplier model",
+    "supplierModel": "ATBC032",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Excellent-Bag.png",
+    "page": "https://www.wincofireworks.com/product/excellent-bag/",
+    "file": "winco-photo-1053-3505.image",
+    "dimensions": [
+      250,
+      250
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "166",
+    "name": "Pro 8″ Shell",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Pro-8_-1.png",
+    "page": "https://www.wincofireworks.com/product/pro-8/",
+    "file": "winco-photo-166-14614.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "248",
+    "name": "Call the Cops",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Call-The-Cops.png",
+    "page": "https://www.wincofireworks.com/product/call-the-cops/",
+    "file": "winco-photo-248-14534.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "290",
+    "name": "Cowboy Rocket",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Cowboy-Rocket.png",
+    "page": "https://www.wincofireworks.com/product/cowboy-rocket/",
+    "file": "winco-photo-290-10442.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "334",
+    "name": "Drone",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/WGF800-Drone.png",
+    "page": "https://www.wincofireworks.com/product/drone/",
+    "file": "winco-photo-334-10426.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "339",
+    "name": "10″ Color Wire",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/SEP10A.png",
+    "page": "https://www.wincofireworks.com/product/10-color-wire/",
+    "file": "winco-photo-339-10436.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "340",
+    "name": "10″ Color Wire",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/SEP10A.png",
+    "page": "https://www.wincofireworks.com/product/10-color-wire/",
+    "file": "winco-photo-340-10436.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "341",
+    "name": "10″ Color Wire",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/SEP10A.png",
+    "page": "https://www.wincofireworks.com/product/10-color-wire/",
+    "file": "winco-photo-341-10436.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "361",
+    "name": "Festival Fountain",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Festival-Fountain.png",
+    "page": "https://www.wincofireworks.com/product/festival-fountain/",
+    "file": "winco-photo-361-10229.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "378",
+    "name": "Forever Loyal",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/PS-238-Forever-Loyal.png",
+    "page": "https://www.wincofireworks.com/product/forever-loyal/",
+    "file": "winco-photo-378-10474.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "389",
+    "name": "Fuego Loco",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Fuego-Loco.png",
+    "page": "https://www.wincofireworks.com/product/fuego-loco/",
+    "file": "winco-photo-389-14562.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "417",
+    "name": "Goal",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/FNF220-Goal.png",
+    "page": "https://www.wincofireworks.com/product/goal-2/",
+    "file": "winco-photo-417-10403.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "453",
+    "name": "Holiday Lights",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Holiday-Lights.png",
+    "page": "https://www.wincofireworks.com/product/holiday-lights/",
+    "file": "winco-photo-453-10452.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "581",
+    "name": "Mass Confusion",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Mass-Confusion.png",
+    "page": "https://www.wincofireworks.com/product/mass-confusion/",
+    "file": "winco-photo-581-14566.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "675",
+    "name": "Patriotic Fury",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Patriotic_Fury1.png",
+    "page": "https://www.wincofireworks.com/product/patriotic-fury/",
+    "file": "winco-photo-675-14582.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "805",
+    "name": "Silent Treatment",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Silent-Treatment.png",
+    "page": "https://www.wincofireworks.com/product/silent-treatment/",
+    "file": "winco-photo-805-10261.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "809",
+    "name": "Sky Ink",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Sky-Ink.png",
+    "page": "https://www.wincofireworks.com/product/sky-ink/",
+    "file": "winco-photo-809-14536.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "858",
+    "name": "Stealth Bomber",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Stealth-Bomber.png",
+    "page": "https://www.wincofireworks.com/product/stealth-bomber/",
+    "file": "winco-photo-858-14553.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "867",
+    "name": "Sugar Pop",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2026/01/Sugar_Pop1.png",
+    "page": "https://www.wincofireworks.com/product/sugar-pop/",
+    "file": "winco-photo-867-14592.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "912",
+    "name": "Tommy Gun",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Tommy-Gun.png",
+    "page": "https://www.wincofireworks.com/product/tommy-gun/",
+    "file": "winco-photo-912-5601.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "row": "982",
+    "name": "World’s Largest Fountain",
+    "match": "Current supplier page lists exact Square UPC",
+    "supplierModel": "",
+    "url": "https://www.wincofireworks.com/wp-content/uploads/2025/08/Worlds-Largest-Fountain.png",
+    "page": "https://www.wincofireworks.com/product/worlds-largest-fountain/",
+    "file": "winco-photo-982-10217.image",
+    "dimensions": [
+      600,
+      600
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  }
+]

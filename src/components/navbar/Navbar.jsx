@@ -1,13 +1,27 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { siteConfig } from '../../config/siteConfig';
 import './Navbar.css';
+import { useMyList } from '../../hooks/useMyList';
 
 const Navbar = () => {
+  const { count } = useMyList();
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   const menuButtonRef = useRef(null);
   const navigationRef = useRef(null);
+  const headerRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const header = headerRef.current;
+    const measure = () => {
+      document.documentElement.style.setProperty('--header-offset', `${header.getBoundingClientRect().height}px`);
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(header);
+    return () => { observer.disconnect(); document.documentElement.style.removeProperty('--header-offset'); };
+  }, []);
 
   useEffect(() => {
     setMenuOpen(false);
@@ -90,7 +104,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <header className="sticky-nav">
+    <header className="sticky-nav" ref={headerRef}>
       <div className="top-bar">
         <p>
           <span aria-hidden="true">⊘</span>
@@ -117,10 +131,10 @@ const Navbar = () => {
         >
           <ul className="navbar-nav">
             {siteConfig.navigation.map((item) => (
-              <li className="nav-item" key={item.sectionId}>
+              <li className="nav-item" key={item.path || item.sectionId}>
                 <Link
                   className="nav-link"
-                  to={`/#${item.sectionId}`}
+                  to={item.path || `/#${item.sectionId}`}
                   onClick={() => setMenuOpen(false)}
                 >
                   {item.label}
@@ -138,6 +152,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        <NavLink className="nav-my-list" to="/my-list" onClick={() => setMenuOpen(false)} aria-label={`My List, ${count} selected units`}>My List <span aria-live="polite">{count}</span></NavLink>
         <button
           ref={menuButtonRef}
           className="navbar-button"

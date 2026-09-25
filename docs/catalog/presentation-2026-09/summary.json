@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-24",
+  "initial_products": 301,
+  "final_products": 302,
+  "added_ids": [
+    "party-sparklers-4-pack"
+  ],
+  "brand_corrections_this_iteration": 5,
+  "editorial_overrides": 270,
+  "framed_images": 292,
+  "approved_featured_images_unchanged": 10,
+  "unknown_brand_products": 12,
+  "identified_ready_unpublished": 0,
+  "identified_missing_image_rows": 16,
+  "pending_rows": 756,
+  "research_ledger_statuses": {
+    "no_verified_identity": 278,
+    "candidate_requires_package_review": 103,
+    "identity_confirmation_needed": 307,
+    "incorporated": 267,
+    "data_conflict": 31,
+    "duplicate": 4,
+    "excluded": 1,
+    "identified_missing_image": 16,
+    "package_review": 21
+  },
+  "web_tests": 60,
+  "mobile_tests": 18,
+  "web_build": "PASS",
+  "catalog_parity": "PASS",
+  "apache_syntax": "PASS; HTTP/server validation blocked",
+  "app_runtime": "No simulator or physical device validation",
+  "preview": "http://127.0.0.1:5175/products",
+  "screenshots": [
+    "brands-mobile.png",
+    "brands-home-desktop.png",
+    "party-sparklers-mobile.png",
+    "detail-mobile.png",
+    "brands-desktop.png",
+    "snow-cone-mobile.png",
+    "brands-home-mobile.png",
+    "detail-desktop.png",
+    "catalog-mobile.png",
+    "catalog-tablet.png",
+    "catalog-desktop.png"
+  ]
+}

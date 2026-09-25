@@ -1,0 +1,14 @@
+{
+  "tnt": {
+    "method": "Built-in Imagegen background extraction; source rectangle removed, logo interior retained. Original supplied file preserved.",
+    "original": "public/images/brands/tnt loogo.png",
+    "output": "public/images/brands/tnt.webp",
+    "sha256": "e55fdcfde565b6ee85d62339654a55e6c787c568a24fd265a5c2b54c915c20f3"
+  },
+  "fox": {
+    "method": "Existing real alpha retained. Remove CSS night block; tight shadow for light letters on white."
+  },
+  "pyro-shine": {
+    "method": "Existing real alpha retained. Remove CSS night block; tight shadow for gold on white."
+  }
+}

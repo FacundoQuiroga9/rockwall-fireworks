@@ -1,0 +1,16 @@
+[
+  {
+    "product": "Bump Bear",
+    "method": "Imagegen localized marketing edit",
+    "reference": "references/bump-bear-original.png",
+    "decision": "Rejected generation; published original real photograph optimized with true alpha.",
+    "reason": "Generated result rewrote performance/warning microtext and added a Made in China label."
+  },
+  {
+    "product": "Da Big Box O’ Bombs",
+    "method": "Imagegen background-only edit, preserve packaging requested",
+    "reference": "references/pending-da-big-box-o-bombs-original.png",
+    "decision": "Rejected generation; product remains pending an appropriate faithful image.",
+    "reason": "Result changed printed BP-A013 model labels to BP-A025 and reconstructed small package text. Original local photo has an opaque rectangular background."
+  }
+]

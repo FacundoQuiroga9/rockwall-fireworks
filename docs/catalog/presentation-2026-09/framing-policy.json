@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "defaultOccupancy": 0.72,
+  "objectAlphaThreshold": 16,
+  "minimumShadowMargin": 0.03,
+  "categories": {"Assortments": 0.8, "Artillery Shells": 0.75, "Reloadables": 0.75, "Rockets": 0.76, "Roman Candles": 0.76, "Sparklers": 0.72, "Novelties": 0.66, "Spinners": 0.66, "Firecrackers": 0.68},
+  "overrides": {},
+  "notes": "Occupancy measures the longest visible object dimension, not image file dimensions. Aspect ratio and shadows remain intact. Approved Featured Products provide the 0.69–0.76 baseline and remain unchanged. Physical size is not inferred from photography."
+}

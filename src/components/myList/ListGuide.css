@@ -1,0 +1,31 @@
+.list-guide { padding: 1.35rem; border: 1px solid #ffb38b55; border-radius: 3px 16px 3px 16px; background: radial-gradient(ellipse at 90% 0, #ff91550b, transparent 65%); }
+.list-guide > h2 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 400; line-height: 1.25; color: #ffe4d1; margin-bottom: 1.3rem; }
+.list-guide ol { list-style: none; padding: 0; display: grid; gap: 1.2rem; }
+.list-guide li { display: grid; grid-template-columns: 53px minmax(0,1fr); gap: .9rem; align-items: center; position: relative; }
+.list-guide li:not(:last-child)::after { content: ''; position: absolute; width: 1px; height: 15px; background: #ffb38b55; left: 25px; bottom: -17px; }
+.list-guide-art { position: relative; display: grid; color: #ffb38b; }
+.list-guide-art > span { position: absolute; left: -2px; top: -4px; width: 17px; height: 17px; display: grid; place-items: center; border-radius: 50%; color: #ffcfb7; background: #071329; border: 1px solid #e6a17d; font-size: .63rem; }
+.list-guide h3 { font-size: .85rem; color: #ffdbc7; margin-bottom: .3rem; }
+.list-guide li p { font-size: .73rem; line-height: 1.5; color: #c4d1e5; }
+.list-guide .list-guide-note { font-size: .68rem; color: #c2d0e3; border-top: 1px solid #6b82a655; margin-top: 1.2rem; padding-top: .9rem; }
+.list-sidebar { display: grid; gap: 1.25rem; min-width: 0; }
+.list-sidebar .list-summary { position: static; }
+.counter-view .list-guide { display: none; }
+@media (max-width: 740px) { .list-guide { padding: 1rem; } .list-guide > h2 { font-size: 1.2rem; margin-bottom: 1rem; } .list-guide ol { gap: .85rem; } .list-guide li { grid-template-columns: 40px minmax(0,1fr); gap: .75rem; } .list-guide-art svg { width: 40px; height: 40px; } .list-guide li:not(:last-child)::after { display: none; } .list-guide h3 { margin-bottom: .15rem; } }
+/* Explain the flow in the unused space beside the title, above the working list. */
+.list-heading { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); align-items: center; }
+.list-heading .detail-back { display: inline-flex; margin-top: 1rem; }
+.list-heading .list-guide ol { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.list-heading .list-guide li { display: flex; flex-direction: column; align-items: flex-start; gap: .7rem; }
+.list-heading .list-guide li:not(:last-child)::after { width: calc(100% - 60px); height: 1px; top: 26px; left: 60px; bottom: auto; background: linear-gradient(90deg,#ffb38b70,transparent); }
+.list-guide-toggle { display: none; }
+@media (max-width: 1000px) and (min-width: 741px) { .list-heading { grid-template-columns: 1fr; } .list-heading > div { position: relative; } .list-heading .detail-back { position: absolute; bottom: 0; right: 0; } }
+@media (max-width: 740px) {
+  .list-heading { display: flex; align-items: stretch; gap: 1rem; }
+  .list-heading .list-guide { padding: .25rem 1rem; }
+  .list-guide > h2, .list-guide:not(.is-expanded) ol, .list-guide:not(.is-expanded) .list-guide-note { display: none; }
+  .list-guide-toggle { display: flex; min-height: 44px; gap: 1rem; align-items: center; justify-content: space-between; width: 100%; font-size: .8rem; color: #ffdbc7; font-weight: 700; text-align: left; }
+  .list-heading .list-guide ol { grid-template-columns: 1fr; margin-block: .7rem; }
+  .list-heading .list-guide li { display: grid; grid-template-columns: 40px minmax(0,1fr); align-items: center; gap: .8rem; }
+  .list-guide .list-guide-note { margin-bottom: 1rem; }
+}

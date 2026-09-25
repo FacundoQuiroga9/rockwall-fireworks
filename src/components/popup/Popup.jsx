@@ -1,63 +1,19 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { siteConfig } from '../../config/siteConfig';
 import './Popup.css';
 
-const SESSION_KEY = 'rockwall-promotion-dismissed';
-
-const wasDismissedThisSession = () => {
-  try {
-    return window.sessionStorage.getItem(SESSION_KEY) === 'true';
-  } catch {
-    return false;
-  }
-};
-
-const rememberDismissal = () => {
-  try {
-    window.sessionStorage.setItem(SESSION_KEY, 'true');
-  } catch {
-    // The dialog still closes when storage is unavailable.
-  }
-};
-
-const Popup = () => {
-  const [visible, setVisible] = useState(false);
+const Popup = ({ onClose }) => {
   const dialogRef = useRef(null);
   const closeButtonRef = useRef(null);
   const previouslyFocusedElement = useRef(null);
   const promotionImageBase = siteConfig.promotion.image.replace(/\.webp$/, '');
-  const promotionImageSrcSet = siteConfig.promotion.image.endsWith('.webp')
-    ? `${promotionImageBase}-480.webp 480w, ${promotionImageBase}-640.webp 640w, ${siteConfig.promotion.image} 800w`
-    : undefined;
-
-  const closePopup = useCallback(() => {
-    setVisible(false);
-    rememberDismissal();
-  }, []);
+  const promotionImageSrcSet = `${promotionImageBase}-480.webp 480w, ${promotionImageBase}-640.webp 640w, ${siteConfig.promotion.image} 800w`;
+  const closeCallback = useRef(onClose);
+  closeCallback.current = onClose;
+  const closePopup = useCallback(() => closeCallback.current(), []);
 
   useEffect(() => {
-    if (wasDismissedThisSession()) {
-      return undefined;
-    }
-
-    const showTimer = window.setTimeout(
-      () => setVisible(true),
-      siteConfig.promotion.delayToShow,
-    );
-    const closeTimer = window.setTimeout(
-      closePopup,
-      siteConfig.promotion.delayToShow +
-        siteConfig.promotion.autoCloseAfter,
-    );
-
-    return () => {
-      window.clearTimeout(showTimer);
-      window.clearTimeout(closeTimer);
-    };
-  }, [closePopup]);
-
-  useEffect(() => {
-    if (!visible) return undefined;
 
     previouslyFocusedElement.current = document.activeElement;
     const backgroundElements = [
@@ -116,11 +72,9 @@ const Popup = () => {
         previouslyFocusedElement.current.focus();
       }
     };
-  }, [closePopup, visible]);
+  }, [closePopup]);
 
-  if (!visible) return null;
-
-  return (
+  return createPortal(
     <div
       className="popup-overlay"
       onMouseDown={(event) => {
@@ -135,17 +89,17 @@ const Popup = () => {
         aria-labelledby="promotion-title"
         aria-describedby="promotion-description"
       >
-        <h2 id="promotion-title" className="sr-only">
-          Rockwall Fireworks special offers
+        <h2 id="promotion-title">
+          A little extra spark.
         </h2>
-        <p id="promotion-description" className="sr-only">
-          View the current 50th anniversary promotional offers.
+        <p id="promotion-description">
+          Archived 50th anniversary flyer. Priced offers expired July 4, 2025. Contact the store for current offers.
         </p>
         <button
           ref={closeButtonRef}
           className="popup-close"
           type="button"
-          aria-label="Close special offers"
+          aria-label="Close archived flyer"
           onClick={closePopup}
         >
           <span aria-hidden="true">×</span>
@@ -164,13 +118,14 @@ const Popup = () => {
           href={siteConfig.promotion.offersUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-popup"
+          className="button btn-popup"
           onClick={closePopup}
         >
-          See special offers
+          Open archived PDF (2025)
         </a>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 };
 

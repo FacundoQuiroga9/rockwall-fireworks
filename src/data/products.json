@@ -2,20 +2,40 @@
   {
     "id": "the-reaper",
     "name": "The Reaper",
-    "category": "Cakes",
+    "category": "500g Cakes",
     "image": "/images/products/the-reaper.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=FP8t9UP0Im8",
-    "sortOrder": 1
+    "sortOrder": 1,
+    "slug": "the-reaper",
+    "brand": "Raccoon",
+    "storeCodes": [
+      {
+        "token": "XEVPEMJRFP7JSF4EQBHZEKB5",
+        "sku": "757201536295",
+        "gtin": "",
+        "sourceRow": 899
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
   },
   {
     "id": "alien-attack",
     "name": "Alien Attack",
-    "category": "Cakes",
+    "category": "500g Cakes",
     "image": "/images/products/alien-attack.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=wTSWjZvHc_M",
-    "sortOrder": 2
+    "sortOrder": 2,
+    "slug": "alien-attack",
+    "brand": "Happy Family",
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
   },
   {
     "id": "festival-balls-reloadable",
@@ -24,7 +44,18 @@
     "image": "/images/products/festival-balls-reloadable.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=38JSR3cUynU",
-    "sortOrder": 3
+    "sortOrder": 3,
+    "brand": "Monkey Mania",
+    "presentation": "6-piece pack · yellow box",
+    "slug": "festival-balls-reloadable",
+    "storeCodes": [
+      {
+        "token": "BFEN6Q4PLHJEBALNWMHA4CCY",
+        "sku": "757201000086",
+        "gtin": "",
+        "sourceRow": 359
+      }
+    ]
   },
   {
     "id": "neon-beef",
@@ -33,7 +64,17 @@
     "image": "/images/products/neon-beef.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=Qnw1EaEoHs4",
-    "sortOrder": 4
+    "sortOrder": 4,
+    "slug": "neon-beef",
+    "brand": "Winda",
+    "storeCodes": [
+      {
+        "token": "J52CWDQSQYWOKE7XZILPSEI5",
+        "sku": "705108804306",
+        "gtin": "",
+        "sourceRow": 621
+      }
+    ]
   },
   {
     "id": "diablo",
@@ -42,16 +83,33 @@
     "image": "/images/products/diablo.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=oWgGZIkl8cA&t=6s",
-    "sortOrder": 5
+    "sortOrder": 5,
+    "brand": "Black Cat",
+    "presentation": "5-inch shells · 24 pack",
+    "slug": "diablo",
+    "storeCodes": [
+      {
+        "token": "OFSRHJBV5QEQRPP54T36Q6YH",
+        "sku": "715244063291",
+        "gtin": "",
+        "sourceRow": 206
+      }
+    ]
   },
   {
     "id": "night-rider",
     "name": "Night Rider",
-    "category": "Cakes",
+    "category": "200g Cakes",
     "image": "/images/products/night-rider.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=e9y7KeeEg6Q",
-    "sortOrder": 6
+    "sortOrder": 6,
+    "slug": "night-rider",
+    "brand": "Monkey Mania",
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
   },
   {
     "id": "futurama-artillery",
@@ -60,7 +118,17 @@
     "image": "/images/products/futurama-artillery.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=dZRsu66-XiQ",
-    "sortOrder": 7
+    "sortOrder": 7,
+    "slug": "futurama-artillery",
+    "brand": "Raccoon",
+    "storeCodes": [
+      {
+        "token": "TNVALDFGTARHACENIREHIXAS",
+        "sku": "757201712019",
+        "gtin": "",
+        "sourceRow": 396
+      }
+    ]
   },
   {
     "id": "festival-balls-artillery",
@@ -69,7 +137,9 @@
     "image": "/images/products/festival-balls-artillery.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=IUaMk3dJlcA",
-    "sortOrder": 8
+    "sortOrder": 8,
+    "slug": "festival-balls-artillery",
+    "brand": "Black Cat"
   },
   {
     "id": "star-light",
@@ -78,7 +148,17 @@
     "image": "/images/products/star-light.webp",
     "featured": true,
     "previewVideo": null,
-    "sortOrder": 9
+    "sortOrder": 9,
+    "slug": "star-light",
+    "brand": "Winda",
+    "storeCodes": [
+      {
+        "token": "CHMELJFUKR2PD2Z6CM2QTBPI",
+        "sku": "705108001217",
+        "gtin": "",
+        "sourceRow": 855
+      }
+    ]
   },
   {
     "id": "action-zone",
@@ -87,6 +167,7966 @@
     "image": "/images/products/action-zone.webp",
     "featured": true,
     "previewVideo": null,
-    "sortOrder": 10
+    "sortOrder": 10,
+    "brand": "Monkey Mania",
+    "presentation": "Family pack",
+    "slug": "action-zone",
+    "storeCodes": [
+      {
+        "token": "DVBX6GI2QDAKB3AOFVTXGCXS",
+        "sku": "757202300031",
+        "gtin": "",
+        "sourceRow": 116
+      }
+    ]
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "name": "Mother of All Fireworks",
+    "category": "Artillery Shells",
+    "brand": "Raccoon",
+    "presentation": "4-inch shells · 24 pack",
+    "image": "/images/products/mother-of-all-fireworks.webp",
+    "imageWidths": [
+      320,
+      480,
+      604
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=Ovx4aht3c4k&pp=ygUfbW90aGVyIG9mIGFsbCBmaXJld29ya3MgcmFjY29vbg%3D%3D",
+    "sortOrder": 11,
+    "slug": "mother-of-all-fireworks",
+    "storeCodes": [
+      {
+        "token": "FJ6A27NZQWFNEC45WRS7B735",
+        "sku": "757201124027",
+        "gtin": "",
+        "sourceRow": 614
+      }
+    ]
+  },
+  {
+    "id": "neon-skies",
+    "name": "Neon Skies",
+    "category": "Artillery Shells",
+    "brand": "Raccoon",
+    "presentation": "4-inch shells · 24 pack",
+    "image": "/images/products/neon-skies.webp",
+    "imageWidths": [
+      320,
+      480,
+      588
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=lkwuy6Fg5AM&pp=ygURbmVvbiBza2llc3JhY2Nvb24%3D",
+    "sortOrder": 12,
+    "slug": "neon-skies",
+    "storeCodes": [
+      {
+        "token": "H5F3BJT34LCN6P2AY2J62MF4",
+        "sku": "757201124010",
+        "gtin": "",
+        "sourceRow": 630
+      }
+    ]
+  },
+  {
+    "id": "sucker-punch",
+    "name": "Sucker Punch",
+    "category": "500g Cakes",
+    "brand": "Raccoon",
+    "presentation": "500 gram · 182 shots",
+    "image": "/images/products/sucker-punch.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=gp2KDp1AwK0&pp=ygUUc3Vja2VyIHB1bmNoIHJhY2Nvb24%3D",
+    "sortOrder": 13,
+    "slug": "sucker-punch",
+    "storeCodes": [
+      {
+        "token": "X3Q5SIJNL3ELAOABV3AD5PNT",
+        "sku": "757201512060",
+        "gtin": "",
+        "sourceRow": 865
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "invincible",
+    "name": "Invincible",
+    "category": "500g Cakes",
+    "brand": "Raccoon",
+    "presentation": "500 gram · 198 shots",
+    "image": "/images/products/invincible.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=HAI30K7Efvs&pp=ygUcaW52aW5jaWJsZSByYWNjb29uIGZpcmV3b3Jrcw%3D%3D",
+    "sortOrder": 14,
+    "slug": "invincible",
+    "storeCodes": [
+      {
+        "token": "IOQGZSAZOI4GCUFZ3KNHHZ6V",
+        "sku": "757201512015",
+        "gtin": "",
+        "sourceRow": 485
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "purely-american",
+    "name": "Purely American",
+    "category": "500g Cakes",
+    "brand": "Raccoon",
+    "presentation": "500 gram · 135 shots",
+    "image": "/images/products/purely-american.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=aGbdVTJ_H34&pp=ygUhcHVyZWx5IGFtZXJpY2FuIHJhY2Nvb24gZmlyZXdvcmtz",
+    "sortOrder": 15,
+    "slug": "purely-american",
+    "storeCodes": [
+      {
+        "token": "YDRRJKGNOJXGW2GJTT657UMN",
+        "sku": "757201536202",
+        "gtin": "",
+        "sourceRow": 710
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "neon-fish",
+    "name": "Neon Fish",
+    "category": "Fountains",
+    "brand": "Monkey Mania",
+    "image": "/images/products/neon-fish.webp",
+    "imageWidths": [
+      320,
+      470,
+      470
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=185BWnn2fBw&pp=ygUVbmVvbiBmaXNobW9ua2V5IG1hbmlh",
+    "sortOrder": 16,
+    "slug": "neon-fish",
+    "storeCodes": [
+      {
+        "token": "JQ237JASEB65EVAXBN5T6GGF",
+        "sku": "757202118063",
+        "gtin": "",
+        "sourceRow": 626
+      }
+    ]
+  },
+  {
+    "id": "lets-celebrate",
+    "name": "Let’s Celebrate",
+    "category": "Assortments",
+    "brand": "Monkey Mania",
+    "image": "/images/products/lets-celebrate.webp",
+    "imageWidths": [
+      320,
+      480,
+      542
+    ],
+    "featured": false,
+    "previewVideo": null,
+    "sortOrder": 17,
+    "slug": "lets-celebrate",
+    "storeCodes": [
+      {
+        "token": "CZJ7INCFGQDXNS7QLTRFONXQ",
+        "sku": "757202300024",
+        "gtin": "",
+        "sourceRow": 539
+      }
+    ]
+  },
+  {
+    "id": "high-falutin",
+    "name": "High Falutin’",
+    "category": "500g Cakes",
+    "brand": "Brothers",
+    "presentation": "500 gram",
+    "image": "/images/products/high-falutin.webp",
+    "imageWidths": [
+      320,
+      480,
+      634
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=-T7GDnGOadw&pp=ygUfZ2lnaCBmYWx1dGluJ2Jyb3RoZXJzIGZpcmV3b3Jrcw%3D%3D",
+    "sortOrder": 18,
+    "slug": "high-falutin",
+    "storeCodes": [
+      {
+        "token": "SRKN24ZARY5PSJI5Z5EHHKO5",
+        "sku": "687985245710",
+        "gtin": "",
+        "sourceRow": 449
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "hit-the-road-jack",
+    "name": "Hit the Road Jack",
+    "category": "500g Cakes",
+    "brand": "Brothers",
+    "presentation": "500 gram",
+    "image": "/images/products/hit-the-road-jack.webp",
+    "imageWidths": [
+      320,
+      480,
+      632
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=0GOAHnEJ5pQ&pp=ygUkaGl0IHRoZSByb2FkIGphY2sgYnJvdGhlcnMgZmlyZXdvcmtz",
+    "sortOrder": 19,
+    "slug": "hit-the-road-jack",
+    "storeCodes": [
+      {
+        "token": "EJ7FR42AGUDMBD2NDGHJLFJQ",
+        "sku": "687985245819",
+        "gtin": "",
+        "sourceRow": 451
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "saturday-night-special",
+    "name": "Saturday Night Special",
+    "category": "500g Cakes",
+    "brand": "Brothers",
+    "presentation": "500 gram",
+    "image": "/images/products/saturday-night-special.webp",
+    "imageWidths": [
+      320,
+      480,
+      609
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=MLzX_n7uqaQ&pp=ygUoc2F0dWRheSBuaWdodCBzcGVjaWFsIGJyb3RoZXJzIGZpcmV3b3Jrcw%3D%3D",
+    "sortOrder": 20,
+    "slug": "saturday-night-special",
+    "storeCodes": [
+      {
+        "token": "J6T5NYC7BD5VTR3H552JDPC4",
+        "sku": "687985297917",
+        "gtin": "",
+        "sourceRow": 785
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "smiling-faces-ear-to-ear",
+    "name": "Smiling Faces Ear to Ear",
+    "category": "Rockets",
+    "brand": "Firehawk",
+    "presentation": "5-stick pack",
+    "image": "/images/products/smiling-faces-ear-to-ear.webp",
+    "imageWidths": [
+      320,
+      480,
+      533
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=7ktTfEy-v_A&pp=ygUfc21pbGluZyBmYWNlIGZpcmVoYXdrIGZpcmV3b3Jrcw%3D%3D",
+    "sortOrder": 21,
+    "slug": "smiling-faces-ear-to-ear",
+    "storeCodes": [
+      {
+        "token": "X4B7BR7A4QTZPCXUFL4DHCV4",
+        "sku": "8052530015520",
+        "gtin": "",
+        "sourceRow": 826
+      }
+    ]
+  },
+  {
+    "id": "sky-pattern",
+    "name": "Sky Pattern",
+    "category": "Rockets",
+    "brand": "Firehawk",
+    "image": "/images/products/sky-pattern.webp",
+    "imageWidths": [
+      320,
+      480,
+      487
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=BTFkoz1aAA8&pp=ygUec2t5IHBhdHRlcm4gZmlyZWhhd2sgZmlyZXdvcmtz",
+    "sortOrder": 22,
+    "slug": "sky-pattern",
+    "storeCodes": [
+      {
+        "token": "7I7ICERBSIGVAHLOKRERBOOJ",
+        "sku": "293936961358",
+        "gtin": "",
+        "sourceRow": 813
+      }
+    ]
+  },
+  {
+    "id": "rush-hour",
+    "name": "Rush Hour",
+    "category": "500g Cakes",
+    "brand": "Winda",
+    "presentation": "500 gram · 100 shots · 3 minutes",
+    "image": "/images/products/rush-hour.webp",
+    "imageWidths": [
+      320,
+      480,
+      605
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=lvFlycGGXpc&pp=ygUPcnVzaCBob3VyIHdpbmRh",
+    "sortOrder": 23,
+    "slug": "rush-hour",
+    "storeCodes": [
+      {
+        "token": "7PAQYGZEQZYMPBX5OK5Y3FL3",
+        "sku": "705108554706",
+        "gtin": "",
+        "sourceRow": 780
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "name": "Neon Diablo",
+    "category": "Artillery Shells",
+    "brand": "Black Cat",
+    "presentation": "5-inch shells · 24 pack",
+    "image": "/images/products/neon-diablo-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      587
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=SCmgR_VrQEA&pp=ygUYbmVvbiBkaWFibG8gMjQgYmFsY2sgY2F0",
+    "sortOrder": 24,
+    "slug": "neon-diablo-24-pack",
+    "storeCodes": [
+      {
+        "token": "SBY3GLLCOXVL5YHSAJRZUXAU",
+        "sku": "715244064601",
+        "gtin": "",
+        "sourceRow": 214
+      }
+    ]
+  },
+  {
+    "id": "galaxy-pack",
+    "name": "Galaxy Pack",
+    "category": "Rockets",
+    "brand": "Black Cat",
+    "presentation": "9-stick pack",
+    "image": "/images/products/galaxy-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      522
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=uUbF7UWuhX0&pp=ygUWZ2FsYXh5IHBhY2sgIGJsYWNrIGNhdA%3D%3D",
+    "sortOrder": 25,
+    "slug": "galaxy-pack",
+    "storeCodes": [
+      {
+        "token": "Y47P4UU2KPAGDIPI3IUAPIXT",
+        "sku": "715244046188",
+        "gtin": "",
+        "sourceRow": 399
+      }
+    ]
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "name": "The Patriot",
+    "category": "Artillery Shells",
+    "brand": "Black Cat",
+    "presentation": "6-inch shells · 24 pack",
+    "image": "/images/products/the-patriot-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      544
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=wZaWki1pnuQ&pp=ygUVdGhlIHBhdHJpb3QgYmxhY2sgY2F0",
+    "sortOrder": 26,
+    "slug": "the-patriot-24-pack",
+    "storeCodes": [
+      {
+        "token": "5C7IFQOUCWYTXJGISORCIBWN",
+        "sku": "715244064380",
+        "gtin": "",
+        "sourceRow": 220
+      }
+    ]
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "category": "200g Cakes",
+    "brand": "Winda",
+    "presentation": "200 gram",
+    "image": "/images/products/avalanche.webp",
+    "imageWidths": [
+      320,
+      345,
+      345
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=rwmnn5bXmIk&pp=ygUPYXZhbGFuY2hlIHdpbmRh",
+    "sortOrder": 27,
+    "slug": "avalanche",
+    "storeCodes": [
+      {
+        "token": "L3RQWHODOW4DTUU5YRLV3EC7",
+        "sku": "",
+        "gtin": "705108513802",
+        "sourceRow": 161
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "name": "Good Thinkin’ Lincoln",
+    "category": "500g Cakes",
+    "brand": "Winda",
+    "presentation": "134 shots",
+    "image": "/images/products/good-thinkin-lincoln.webp",
+    "imageWidths": [
+      320,
+      345,
+      345
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=zsVhk-XwLq0&pp=ygUaZ29vZCB0aGlua2luIGxpbmNvbG4gd2luZGE%3D",
+    "sortOrder": 28,
+    "slug": "good-thinkin-lincoln",
+    "storeCodes": [
+      {
+        "token": "6HCFSGQXLROGN5BNWPU2MJVA",
+        "sku": "",
+        "gtin": "705108558209",
+        "sourceRow": 423
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "ipa-4-pack",
+    "name": "IPA 4-Pack",
+    "category": "Cake Packs",
+    "brand": "Winda",
+    "presentation": "4-cake pack",
+    "image": "/images/products/ipa-4-pack.webp",
+    "imageWidths": [
+      320,
+      432,
+      432
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=V61aoJuZnJM&pp=ygUQaXBhIDQgcGFjayB3aW5kYQ%3D%3D",
+    "sortOrder": 29,
+    "slug": "ipa-4-pack",
+    "storeCodes": [
+      {
+        "token": "SXXM66XTUQ7HW37YFSDHXTWB",
+        "sku": "705108955497",
+        "gtin": "",
+        "sourceRow": 486
+      }
+    ],
+    "saleUnit": "pack",
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "make-america-great-again",
+    "name": "Make America Great Again",
+    "category": "500g Cakes",
+    "brand": "Winda",
+    "presentation": "500 gram",
+    "image": "/images/products/make-america-great-again.webp",
+    "imageWidths": [
+      320,
+      389,
+      389
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=2lO-5kvcg8E&pp=ygUebWFrZSBhbWVyaWNhIGdyZWF0IGFnYWluIHdpbmRh",
+    "sortOrder": 30,
+    "slug": "make-america-great-again",
+    "storeCodes": [
+      {
+        "token": "JN7TQYKX5GLXNYUYEFUJVRHO",
+        "sku": "705108550210",
+        "gtin": "",
+        "sourceRow": 577
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "man-cave",
+    "name": "Man Cave",
+    "category": "500g Cakes",
+    "brand": "Winda",
+    "presentation": "500 gram",
+    "image": "/images/products/man-cave.webp",
+    "imageWidths": [
+      320,
+      370,
+      370
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=QFNhivmo4EE&pp=ygUObWFuIGNhdmUgd2luZGE%3D",
+    "sortOrder": 31,
+    "slug": "man-cave",
+    "storeCodes": [
+      {
+        "token": "3XD2NWMYF7T7SYWH6ZXIRL6C",
+        "sku": "705108552702",
+        "gtin": "",
+        "sourceRow": 579
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "nation-ovation",
+    "name": "Nation Ovation",
+    "category": "200g Cakes",
+    "brand": "Winda",
+    "presentation": "200 gram",
+    "image": "/images/products/nation-ovation.webp",
+    "imageWidths": [
+      320,
+      334,
+      334
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=EeZPscToUz0&pp=ygUUbmF0aW9uIG92YXRpb24gd2luZGE%3D",
+    "sortOrder": 32,
+    "slug": "nation-ovation",
+    "storeCodes": [
+      {
+        "token": "I23QLAHWWSGHYYDBAMASVDFZ",
+        "sku": "705108518401",
+        "gtin": "",
+        "sourceRow": 618
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "pyro-pilot",
+    "name": "Pyro Pilot",
+    "category": "200g Cakes",
+    "brand": "Winda",
+    "presentation": "200 gram",
+    "image": "/images/products/pyro-pilot.webp",
+    "imageWidths": [
+      320,
+      344,
+      344
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=zQST3i4YhlY&pp=ygUQcHlybyBwaWxvdCB3aW5kYQ%3D%3D",
+    "sortOrder": 33,
+    "slug": "pyro-pilot",
+    "storeCodes": [
+      {
+        "token": "V4SFMS63R6VNL3PIC2LJZYS3",
+        "sku": "705108518203",
+        "gtin": "",
+        "sourceRow": 724
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "us-66",
+    "name": "US 66",
+    "category": "500g Cakes",
+    "brand": "Winda",
+    "presentation": "500 gram",
+    "image": "/images/products/us-66.webp",
+    "imageWidths": [
+      320,
+      375,
+      375
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=Y5SX7BheKYc&pp=ygULdXMgNjYgd2luZGE%3D",
+    "sortOrder": 34,
+    "slug": "us-66",
+    "storeCodes": [
+      {
+        "token": "NV3W6SDTABEI2B7SXTY7OK5C",
+        "sku": "705108554607",
+        "gtin": "",
+        "sourceRow": 938
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "bad-cactus",
+    "name": "Bad Cactus",
+    "category": "Fountains",
+    "brand": "Winda",
+    "image": "/images/products/bad-cactus.webp",
+    "imageWidths": [
+      320,
+      371,
+      371
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=AKJYyBBGgbE&pp=ygUQYmFkIGNhY3R1cyB3aW5kYQ%3D%3D",
+    "sortOrder": 35,
+    "slug": "bad-cactus",
+    "storeCodes": [
+      {
+        "token": "WGFFCBYJ2GMOK6RTIJSDWMFA",
+        "sku": "705108322008",
+        "gtin": "",
+        "sourceRow": 995
+      }
+    ]
+  },
+  {
+    "id": "bump-bear",
+    "name": "Bump Bear",
+    "brand": "Winda",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 16 shots",
+    "description": "A compact Winda cake with colorful palm effects and glittering silver tails.",
+    "features": [
+      "Gold, red, silver and green palm effects"
+    ],
+    "manufacturerCode": "P5011",
+    "previewVideo": "https://www.youtube.com/watch?v=is8CCkWA4yI",
+    "slug": "bump-bear",
+    "image": "/images/products/bump-bear.webp",
+    "imageWidths": [
+      320,
+      338,
+      338
+    ],
+    "featured": false,
+    "sortOrder": 36,
+    "storeCodes": [
+      {
+        "token": "RMHJFIXZYBQN2KUAIQCXEAJN",
+        "sku": "",
+        "gtin": "705108501106",
+        "sourceRow": 998
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "fun-fuel",
+    "name": "Fun Fuel",
+    "brand": "Winda",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 50 shots",
+    "description": "Gold willow, blue peony, brocade and palm effects build to a wide fan finale.",
+    "manufacturerCode": "P5191",
+    "previewVideo": "https://www.youtube.com/watch?v=ayB9Kc8m-wc",
+    "slug": "fun-fuel",
+    "image": "/images/products/fun-fuel.webp",
+    "imageWidths": [
+      320,
+      380,
+      380
+    ],
+    "featured": false,
+    "sortOrder": 37,
+    "storeCodes": [
+      {
+        "token": "XLIUBKNNYOS7BPGUJMKEB7JA",
+        "sku": "705108519101",
+        "gtin": "",
+        "sourceRow": 391
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "military-parachute-2-pack",
+    "name": "Military Parachute",
+    "brand": "Winda",
+    "category": "Parachutes",
+    "presentation": "2-piece pack",
+    "description": "A daytime parachute effect carrying a plastic soldier figure.",
+    "manufacturerCode": "P5083",
+    "previewVideo": "https://www.youtube.com/watch?v=ns-fHDDgY7A",
+    "slug": "military-parachute-2-pack",
+    "image": "/images/products/military-parachute-2-pack.webp",
+    "imageWidths": [
+      320,
+      366,
+      366
+    ],
+    "featured": false,
+    "sortOrder": 38,
+    "storeCodes": [
+      {
+        "token": "UZ3IJ3UW3ZVS2M3E74R3VNLV",
+        "sku": "705108508303",
+        "gtin": "",
+        "sourceRow": 602
+      }
+    ]
+  },
+  {
+    "id": "princess-parachute-2-pack",
+    "name": "Princess Parachute",
+    "brand": "Winda",
+    "category": "Parachutes",
+    "presentation": "2-piece pack",
+    "description": "Princess figures descend under pink parachutes in this daytime display.",
+    "manufacturerCode": "P5089",
+    "previewVideo": "https://www.youtube.com/watch?v=VPzWHJ4q0yI",
+    "slug": "princess-parachute-2-pack",
+    "image": "/images/products/princess-parachute-2-pack.webp",
+    "imageWidths": [
+      320,
+      364,
+      364
+    ],
+    "featured": false,
+    "sortOrder": 39,
+    "storeCodes": [
+      {
+        "token": "SLK6V23MUILATCG47E752KNE",
+        "sku": "705108508907",
+        "gtin": "",
+        "sourceRow": 703
+      }
+    ]
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "6-inch shells · 6-piece pack",
+    "description": "Six-inch canister shells with two breaks in each shot.",
+    "manufacturerCode": "P8044",
+    "previewVideo": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+    "slug": "double-dragon-6-pack",
+    "image": "/images/products/double-dragon-6-pack.webp",
+    "imageWidths": [
+      320,
+      352,
+      352
+    ],
+    "featured": false,
+    "sortOrder": 40,
+    "storeCodes": [
+      {
+        "token": "3WHGF7SVFDVFMRVXUCISOM7A",
+        "sku": "705108804405",
+        "gtin": "",
+        "sourceRow": 330
+      }
+    ]
+  },
+  {
+    "id": "diwali-dazzler",
+    "name": "Diwali Dazzler",
+    "brand": "Winda",
+    "category": "Assortments",
+    "features": [],
+    "manufacturerCode": "P0038",
+    "previewVideo": null,
+    "slug": "diwali-dazzler",
+    "image": "/images/products/diwali-dazzler.webp",
+    "imageWidths": [
+      320,
+      480,
+      567
+    ],
+    "featured": false,
+    "sortOrder": 41,
+    "storeCodes": [
+      {
+        "token": "6GDRTFRVROGYS5VXDFGBZLSK",
+        "sku": "705108003808",
+        "gtin": "",
+        "sourceRow": 326
+      }
+    ]
+  },
+  {
+    "id": "snow-cone",
+    "name": "Snow Cone",
+    "brand": "Winda",
+    "category": "Fountains",
+    "description": "A multistage fountain with colorful fish, spring-flower effects and red, green and blue pearls.",
+    "manufacturerCode": "P3088",
+    "previewVideo": "https://www.youtube.com/watch?v=JTc54W8erGg",
+    "slug": "snow-cone",
+    "image": "/images/products/snow-cone.webp",
+    "imageWidths": [
+      320,
+      480,
+      594
+    ],
+    "featured": false,
+    "sortOrder": 42,
+    "storeCodes": [
+      {
+        "token": "CBRHNYWVQY2LISAFKAJPV4ZZ",
+        "sku": "705108308804",
+        "gtin": "",
+        "sourceRow": 840
+      }
+    ]
+  },
+  {
+    "id": "eagle-pride",
+    "name": "Eagle Pride",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 30 shots",
+    "description": "A patriotic cake built around red, white and blue effects.",
+    "manufacturerCode": "RA530120",
+    "previewVideo": "https://www.youtube.com/watch?v=F3JOpCzt4fw",
+    "slug": "eagle-pride",
+    "image": "/images/products/eagle-pride.webp",
+    "imageWidths": [
+      320,
+      480,
+      599
+    ],
+    "featured": false,
+    "sortOrder": 43,
+    "storeCodes": [
+      {
+        "token": "4JAYK7GEHVPQZLW4ANRC4HX3",
+        "sku": "757205301202",
+        "gtin": "",
+        "sourceRow": 336
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "america-first",
+    "name": "America First",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 24 shots",
+    "description": "Colorful bursts with white strobe, brocade crowns and Nishiki willow effects.",
+    "manufacturerCode": "RA53064",
+    "previewVideo": "https://www.youtube.com/watch?v=AoL13E3J2G8",
+    "slug": "america-first",
+    "image": "/images/products/america-first.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 44,
+    "storeCodes": [
+      {
+        "token": "NNRAJOMOO6QMDDNVRN3MLQ2G",
+        "sku": "757201530644",
+        "gtin": "",
+        "sourceRow": 128
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "us-power",
+    "name": "U.S. Power",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 16 shots",
+    "manufacturerCode": "RA22534",
+    "previewVideo": "https://www.youtube.com/watch?v=b0xT23KjsGk",
+    "slug": "us-power",
+    "image": "/images/products/us-power.webp",
+    "imageWidths": [
+      320,
+      480,
+      580
+    ],
+    "featured": false,
+    "sortOrder": 45,
+    "storeCodes": [
+      {
+        "token": "RMIBK4Q2HGJO7WTEL7YGXGFF",
+        "sku": "",
+        "gtin": "757201225342",
+        "sourceRow": 1059
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "3-min",
+    "name": "3 Min",
+    "brand": "Monkey Mania",
+    "category": "Fountains",
+    "description": "Silver fountain effects combine with red and green stars and crackling.",
+    "manufacturerCode": "MM-F1808",
+    "previewVideo": "https://www.youtube.com/watch?v=f9FzaW2jNRQ",
+    "slug": "3-min",
+    "image": "/images/products/3-min.webp",
+    "imageWidths": [
+      320,
+      464,
+      464
+    ],
+    "featured": false,
+    "sortOrder": 46,
+    "storeCodes": [
+      {
+        "token": "MH57SPBVIQPICVM4BHIMB5O2",
+        "sku": "757202118087",
+        "gtin": "",
+        "sourceRow": 75
+      }
+    ]
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "name": "Ladybugs",
+    "brand": "Brothers",
+    "category": "Spinners",
+    "presentation": "3-piece pack",
+    "description": "Red-glowing spinners rise with green and red lights and finish with silver flower effects.",
+    "manufacturerCode": "BP5035",
+    "previewVideo": "https://www.youtube.com/watch?v=nktHb0AWQ5g",
+    "slug": "ladybugs-3-pack",
+    "image": "/images/products/ladybugs-3-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      632
+    ],
+    "featured": false,
+    "sortOrder": 47,
+    "storeCodes": [
+      {
+        "token": "UNM6M7P645DLCLTNLXP5OQJ4",
+        "sku": "687985503520",
+        "gtin": "",
+        "sourceRow": 530
+      }
+    ]
+  },
+  {
+    "id": "blond-joke",
+    "name": "Blond Joke",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 36 shots",
+    "description": "Red crackling stars and green and blue bouquets build to a twelve-shot finale.",
+    "manufacturerCode": "BP2975",
+    "previewVideo": "https://www.youtube.com/watch?v=fgec75dC5C4",
+    "slug": "blond-joke",
+    "image": "/images/products/blond-joke.webp",
+    "imageWidths": [
+      320,
+      480,
+      598
+    ],
+    "featured": false,
+    "sortOrder": 48,
+    "storeCodes": [
+      {
+        "token": "7W4TMQGPSRAQMBAUNBIOH3OH",
+        "sku": "687985297511",
+        "gtin": "",
+        "sourceRow": 997
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "brand": "Monkey Mania",
+    "category": "Artillery Shells",
+    "presentation": "36 shells · 54 breaks",
+    "description": "An artillery assortment combining single-break, double-break and triple-break shells with canister shells.",
+    "features": [
+      "16 single-break, 8 canister, 6 double-break and 6 triple-break shells"
+    ],
+    "manufacturerCode": "MM40002",
+    "previewVideo": "https://www.youtube.com/watch?v=2dHuIqzB-30",
+    "slug": "land-of-the-free",
+    "image": "/images/products/land-of-the-free.webp",
+    "imageWidths": [
+      320,
+      480,
+      583
+    ],
+    "featured": false,
+    "sortOrder": 49,
+    "storeCodes": [
+      {
+        "token": "XZN7DKWNDG3J6PTPAD2S5X2W",
+        "sku": "757202400021",
+        "gtin": "",
+        "sourceRow": 534
+      }
+    ]
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "name": "USA Saturn Missile Battery",
+    "brand": "Brothers",
+    "category": "Missiles",
+    "presentation": "297 shots",
+    "description": "A missile battery with silver tails, whistles and reports.",
+    "manufacturerCode": "BP2324",
+    "previewVideo": "https://www.youtube.com/watch?v=XPHbYJpeGHg",
+    "slug": "usa-saturn-missile-battery",
+    "image": "/images/products/usa-saturn-missile-battery.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 50,
+    "storeCodes": [
+      {
+        "token": "DKHRWMFALVXVHW7T3N6RJ6TF",
+        "sku": "687985232413",
+        "gtin": "",
+        "sourceRow": 931
+      }
+    ]
+  },
+  {
+    "id": "2-minute-bomb",
+    "name": "2-Minute Bomb",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 70 shots",
+    "manufacturerCode": "RA530259",
+    "previewVideo": "https://www.youtube.com/watch?v=dEeBqT5yOWw",
+    "slug": "2-minute-bomb",
+    "image": "/images/products/2-minute-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 51,
+    "storeCodes": [
+      {
+        "token": "K5DWDAJDWJNG6DTWEO5DGLHG",
+        "sku": "757205302599",
+        "gtin": "",
+        "sourceRow": 59
+      },
+      {
+        "token": "NPIALSN4V63R3R64QQOCWAML",
+        "sku": "",
+        "gtin": "757205302599",
+        "sourceRow": 62
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "250-paratroopers",
+    "name": "250 Paratroopers",
+    "brand": "Winda",
+    "category": "Parachutes",
+    "presentation": "250 parachutes",
+    "manufacturerCode": "P5614",
+    "previewVideo": null,
+    "slug": "250-paratroopers",
+    "image": "/images/products/250-paratroopers.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 52,
+    "storeCodes": [
+      {
+        "token": "4HWFFPKQHZTJ2Q7APAMG44QB",
+        "sku": "705108561407",
+        "gtin": "",
+        "sourceRow": 72
+      }
+    ]
+  },
+  {
+    "id": "american-anthem",
+    "name": "American Anthem",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57218",
+    "previewVideo": "https://www.youtube.com/watch?v=XlKS1F6et98",
+    "slug": "american-anthem",
+    "image": "/images/products/american-anthem.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 53,
+    "storeCodes": [
+      {
+        "token": "NX53FTYFRKZQY6WLTR2DY3WJ",
+        "sku": "757201572187",
+        "gtin": "",
+        "sourceRow": 130
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "ant-chant",
+    "name": "Ant Chant",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 180 shots",
+    "manufacturerCode": "RA530167",
+    "previewVideo": "https://www.youtube.com/watch?v=Vi0sYfaM0GA",
+    "slug": "ant-chant",
+    "image": "/images/products/ant-chant.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 54,
+    "storeCodes": [
+      {
+        "token": "XEHFK3MLUWNJO53ONKR3COLJ",
+        "sku": "757205301677",
+        "gtin": "",
+        "sourceRow": 138
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "band-of-brothers",
+    "name": "Band of Brothers",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 12 shots",
+    "manufacturerCode": "RA53653",
+    "previewVideo": "https://www.youtube.com/watch?v=Ndro9los2fk",
+    "slug": "band-of-brothers",
+    "image": "/images/products/band-of-brothers.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 55,
+    "storeCodes": [
+      {
+        "token": "5WOBUE3YYS4WYVYLWDNIR7WP",
+        "sku": "757201536530",
+        "gtin": "",
+        "sourceRow": 173
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "born-leaders",
+    "name": "Born Leaders",
+    "brand": "Winda",
+    "category": "Cake Packs",
+    "presentation": "3-cake set · 757 shots",
+    "manufacturerCode": "P5599",
+    "previewVideo": null,
+    "slug": "born-leaders",
+    "image": "/images/products/born-leaders.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 56,
+    "storeCodes": [
+      {
+        "token": "IGG6JYTEMGHDBF5V5HAML3QY",
+        "sku": "705108955992",
+        "gtin": "",
+        "sourceRow": 234
+      }
+    ],
+    "saleUnit": "pack",
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "ceo-of-assortments",
+    "name": "CEO of Assortments",
+    "brand": "Winda",
+    "category": "Assortments",
+    "previewVideo": null,
+    "slug": "ceo-of-assortments",
+    "image": "/images/products/ceo-of-assortments.webp",
+    "imageWidths": [
+      320,
+      480,
+      579
+    ],
+    "featured": false,
+    "sortOrder": 57,
+    "storeCodes": [
+      {
+        "token": "EEB6GYW6OKUONPAP7CIMSVUX",
+        "sku": "705108003907",
+        "gtin": "",
+        "sourceRow": 247
+      }
+    ]
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells · 24 pack",
+    "manufacturerCode": "P8050",
+    "previewVideo": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+    "slug": "chameleon-shells-24-pack",
+    "image": "/images/products/chameleon-shells-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 58,
+    "storeCodes": [
+      {
+        "token": "7KHVOFXS6SBVFD3SWNDZTBNE",
+        "sku": "",
+        "gtin": "705108805006",
+        "sourceRow": 249
+      }
+    ]
+  },
+  {
+    "id": "cluster-bomb",
+    "name": "Cluster Bomb",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 40 shots",
+    "manufacturerCode": "RA530119",
+    "previewVideo": "https://www.youtube.com/watch?v=ZRbTtKDS3Uw",
+    "slug": "cluster-bomb",
+    "image": "/images/products/cluster-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 59,
+    "storeCodes": [
+      {
+        "token": "ILCUK2NMBSHM2346N44FLBD4",
+        "sku": "757205301196",
+        "gtin": "",
+        "sourceRow": 271
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "colorful-skies",
+    "name": "Colorful Skies",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22003",
+    "previewVideo": "https://www.youtube.com/watch?v=7gcAO4M6p8s",
+    "slug": "colorful-skies",
+    "image": "/images/products/colorful-skies.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 60,
+    "storeCodes": [
+      {
+        "token": "7URDOO5AVQK3XPYBFVZG3BCI",
+        "sku": "757201220033",
+        "gtin": "",
+        "sourceRow": 286
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "dance-in-the-rain",
+    "name": "Dance in the Rain",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 23 shots",
+    "manufacturerCode": "RA530146",
+    "previewVideo": "https://www.youtube.com/watch?v=JMIKiAhQ2m4",
+    "slug": "dance-in-the-rain",
+    "image": "/images/products/dance-in-the-rain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 61,
+    "storeCodes": [
+      {
+        "token": "TPBOMNN4CK7ETI3SUSVUTQZ7",
+        "sku": "757205301462",
+        "gtin": "",
+        "sourceRow": 311
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "flying-pig-rockets",
+    "name": "Flying Pig Rocket",
+    "brand": "Monkey Mania",
+    "category": "Rockets",
+    "presentation": "5-stick pack",
+    "manufacturerCode": "MM-8201",
+    "previewVideo": "https://www.youtube.com/watch?v=IaTy9tbOmtg",
+    "slug": "flying-pig-rockets",
+    "image": "/images/products/flying-pig-rockets.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 62,
+    "storeCodes": [
+      {
+        "token": "6HTTDB3PZXERBXUHKFQRZ4JS",
+        "sku": "757202282016",
+        "gtin": "",
+        "sourceRow": 374
+      }
+    ]
+  },
+  {
+    "id": "freedoms-wings",
+    "name": "Freedom’s Wings",
+    "brand": "Winda",
+    "category": "Fountains",
+    "manufacturerCode": "P6036",
+    "previewVideo": null,
+    "slug": "freedoms-wings",
+    "image": "/images/products/freedoms-wings.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 63,
+    "description": "An eagle-shaped fountain with silver sprays from its moving wings and red flames above.",
+    "storeCodes": [
+      {
+        "token": "2CYKZ3ADBOY7HQ3VRW2OTG76",
+        "sku": "705108603602",
+        "gtin": "",
+        "sourceRow": 385
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Fountains",
+      "sourceTokens": [
+        "2CYKZ3ADBOY7HQ3VRW2OTG76"
+      ]
+    }
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "4-inch shells · 24 pack",
+    "manufacturerCode": "P8031",
+    "previewVideo": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+    "slug": "g-force-24-pack",
+    "image": "/images/products/g-force-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      624
+    ],
+    "featured": false,
+    "sortOrder": 64,
+    "storeCodes": [
+      {
+        "token": "N6OTOY4DNT3WRUBLSUR5YSC7",
+        "sku": "705108803101",
+        "gtin": "",
+        "sourceRow": 397
+      }
+    ]
+  },
+  {
+    "id": "galactic-empire",
+    "name": "Galactic Empire",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 21 shots",
+    "manufacturerCode": "RA530126",
+    "previewVideo": "https://www.youtube.com/watch?v=0OkveYwscvs",
+    "slug": "galactic-empire",
+    "image": "/images/products/galactic-empire.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 65,
+    "storeCodes": [
+      {
+        "token": "R4GQVTO4EUT5C4LHMA44BP2K",
+        "sku": "757205301264",
+        "gtin": "",
+        "sourceRow": 398
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "ghost-dragon",
+    "name": "Ghost Dragon",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57219",
+    "previewVideo": "https://www.youtube.com/watch?v=6zFLJt1m7q8",
+    "slug": "ghost-dragon",
+    "image": "/images/products/ghost-dragon.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 66,
+    "storeCodes": [
+      {
+        "token": "CX3WJWBLRRX53W7VQZFUUZ5C",
+        "sku": "757201572194",
+        "gtin": "",
+        "sourceRow": 410
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "ghost-killer",
+    "name": "Ghost Killer",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57217",
+    "previewVideo": "https://www.youtube.com/watch?v=oqXARGKUAXk",
+    "slug": "ghost-killer",
+    "image": "/images/products/ghost-killer.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 67,
+    "storeCodes": [
+      {
+        "token": "Q5DCX2MGZHMYFX7ADSL5C6FU",
+        "sku": "757201572170",
+        "gtin": "",
+        "sourceRow": 411
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "ghost-rings",
+    "name": "Ghost Rings",
+    "brand": "Winda",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "P5498",
+    "previewVideo": null,
+    "slug": "ghost-rings",
+    "image": "/images/products/ghost-rings.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 68,
+    "storeCodes": [
+      {
+        "token": "DK52TXNEXPJ5HDJE6462D23I",
+        "sku": "705108549801",
+        "gtin": "",
+        "sourceRow": 412
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "grand-cannon",
+    "name": "Grand Cannon",
+    "brand": "Winda",
+    "category": "Fountains",
+    "manufacturerCode": "P3215",
+    "previewVideo": null,
+    "slug": "grand-cannon",
+    "image": "/images/products/grand-cannon.webp",
+    "imageWidths": [
+      320,
+      480,
+      637
+    ],
+    "featured": false,
+    "sortOrder": 69,
+    "storeCodes": [
+      {
+        "token": "FUX46WMJ6KKMB42MBGW2QFQB",
+        "sku": "705108321506",
+        "gtin": "",
+        "sourceRow": 426
+      }
+    ]
+  },
+  {
+    "id": "howling-commandos",
+    "name": "Howling Commandos",
+    "brand": "Winda",
+    "category": "Rockets",
+    "presentation": "6-stick pack",
+    "manufacturerCode": "P2030",
+    "previewVideo": "https://www.youtube.com/watch?v=MiXprVX1qxc",
+    "slug": "howling-commandos",
+    "image": "/images/products/howling-commandos.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 70,
+    "storeCodes": [
+      {
+        "token": "XSHQZDOB32OQODB4SVTRD6EY",
+        "sku": "705108203000",
+        "gtin": "",
+        "sourceRow": 465
+      }
+    ]
+  },
+  {
+    "id": "jawbreaker",
+    "name": "Jawbreaker",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22009",
+    "previewVideo": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
+    "slug": "jawbreaker",
+    "image": "/images/products/jawbreaker.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 71,
+    "storeCodes": [
+      {
+        "token": "2I2ITQB4TQZX3IXYE3UZJNMR",
+        "sku": "757201220095",
+        "gtin": "",
+        "sourceRow": 491
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "name": "King Dragon",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "6-inch shells · 24 pack",
+    "manufacturerCode": "RA62401A/B/C/D",
+    "previewVideo": "https://www.youtube.com/watch?v=IKgzCr-3u10",
+    "slug": "king-dragon-24-pack",
+    "image": "/images/products/king-dragon-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 72,
+    "storeCodes": [
+      {
+        "token": "PWYZQFTHJFKS7DQI5MFQSDSU",
+        "sku": "757201624015",
+        "gtin": "",
+        "sourceRow": 525
+      }
+    ]
+  },
+  {
+    "id": "lucky-streak",
+    "name": "Lucky Streak",
+    "brand": "Bright Star",
+    "category": "200g Cakes",
+    "presentation": "66 shots",
+    "manufacturerCode": "BS6020",
+    "previewVideo": "https://www.youtube.com/watch?v=Yf7BARQKKck",
+    "slug": "lucky-streak",
+    "image": "/images/products/lucky-streak.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 73,
+    "storeCodes": [
+      {
+        "token": "DM4RMWLVBBUGLXYFTBGIJX3N",
+        "sku": "705108602063",
+        "gtin": "705108602063",
+        "sourceRow": 550
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "magnum-tremors",
+    "name": "Magnum Tremors",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57206",
+    "previewVideo": "https://www.youtube.com/watch?v=VihP3cMcJi4",
+    "slug": "magnum-tremors",
+    "image": "/images/products/magnum-tremors.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 74,
+    "storeCodes": [
+      {
+        "token": "BATDQ2BB2DBWSRLIYDMUHFPI",
+        "sku": "757201572064",
+        "gtin": "",
+        "sourceRow": 575
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57207",
+    "previewVideo": "https://www.youtube.com/watch?v=ElEOhs6JI0U",
+    "slug": "migraine",
+    "image": "/images/products/migraine.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 75,
+    "storeCodes": [
+      {
+        "token": "OKCB2UOBBJRUB7NBKFRGDTUE",
+        "sku": "757201572071",
+        "gtin": "",
+        "sourceRow": 600
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "monkey-business",
+    "name": "Monkey Business",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 24 shots",
+    "manufacturerCode": "RA22521",
+    "previewVideo": "https://www.youtube.com/watch?v=2WLNk8n4KPg",
+    "slug": "monkey-business",
+    "image": "/images/products/monkey-business.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 76,
+    "storeCodes": [
+      {
+        "token": "KHQGTUGPX2ABWY6TBLOAXTS7",
+        "sku": "757201225212",
+        "gtin": "",
+        "sourceRow": 604
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "neon-boom",
+    "name": "Neon Boom",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 25 shots",
+    "manufacturerCode": "RA53040",
+    "previewVideo": "https://www.youtube.com/watch?v=CR1TTvKxTCo",
+    "slug": "neon-boom",
+    "image": "/images/products/neon-boom.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 77,
+    "storeCodes": [
+      {
+        "token": "6XC2CG64XOVFC5ZSL4AL6TQS",
+        "sku": "757201530408",
+        "gtin": "",
+        "sourceRow": 622
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "occupy-mars",
+    "name": "Occupy Mars",
+    "brand": "Winda",
+    "category": "500g Cakes",
+    "presentation": "10 shots · girandola finale",
+    "manufacturerCode": "P6037",
+    "previewVideo": "https://www.youtube.com/watch?v=R1BXlnwc260",
+    "slug": "occupy-mars",
+    "image": "/images/products/occupy-mars.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 78,
+    "storeCodes": [
+      {
+        "token": "PIXOQTBXHYSS7P6ZG56QBEEV",
+        "sku": "705108603701",
+        "gtin": "",
+        "sourceRow": 649
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "party-like-its-1776",
+    "name": "Party Like It’s 1776",
+    "brand": "Winda",
+    "category": "500g Cakes",
+    "presentation": "156 shots",
+    "manufacturerCode": "P5554",
+    "previewVideo": "https://www.youtube.com/watch?v=Md5UiOmVtG4",
+    "slug": "party-like-its-1776",
+    "image": "/images/products/party-like-its-1776.webp",
+    "imageWidths": [
+      320,
+      480,
+      599
+    ],
+    "featured": false,
+    "sortOrder": 79,
+    "storeCodes": [
+      {
+        "token": "GTJEOQD2CEPZLB6IG34L5DJL",
+        "sku": "705108555406",
+        "gtin": "",
+        "sourceRow": 663
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells · 24 pack",
+    "manufacturerCode": "RA32408",
+    "previewVideo": "https://www.youtube.com/watch?v=b2bpAABo2NI",
+    "slug": "peacock-spider-24-pack",
+    "image": "/images/products/peacock-spider-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 80,
+    "storeCodes": [
+      {
+        "token": "LV65VKZH67LIUO4NCR3MY7E3",
+        "sku": "757201324083",
+        "gtin": "",
+        "sourceRow": 679
+      }
+    ]
+  },
+  {
+    "id": "battle-of-princeton",
+    "name": "Battle of Princeton",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 36 shots",
+    "manufacturerCode": "RA52542",
+    "previewVideo": "https://www.youtube.com/watch?v=X5CKkC6qPxI",
+    "slug": "battle-of-princeton",
+    "image": "/images/products/battle-of-princeton.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 81,
+    "storeCodes": [
+      {
+        "token": "3U776SJS6U6ZARDKVW3VDN6F",
+        "sku": "757201525428",
+        "gtin": "",
+        "sourceRow": 705
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "raging-willow",
+    "name": "Raging Willow",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 19 shots",
+    "manufacturerCode": "RA22512",
+    "previewVideo": "https://www.youtube.com/watch?v=PnXkPdmX0NE",
+    "slug": "raging-willow",
+    "image": "/images/products/raging-willow.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 82,
+    "storeCodes": [
+      {
+        "token": "TNYRSG3Q5J6EIUJNPKI3XOSD",
+        "sku": "757201225120",
+        "gtin": "",
+        "sourceRow": 742
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "rainbow-ghost",
+    "name": "Rainbow Ghost",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 195 shots",
+    "manufacturerCode": "RA530118",
+    "previewVideo": "https://www.youtube.com/watch?v=Fg-sEyV_LzA",
+    "slug": "rainbow-ghost",
+    "image": "/images/products/rainbow-ghost.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 83,
+    "storeCodes": [
+      {
+        "token": "LAFSLBBO5TCGIGANK6PD6X6T",
+        "sku": "757205301189",
+        "gtin": "",
+        "sourceRow": 743
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "revolution-now",
+    "name": "Revolution Now",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 30 shots",
+    "manufacturerCode": "RA53071",
+    "previewVideo": "https://www.youtube.com/watch?v=DBZVSoZg_-k",
+    "slug": "revolution-now",
+    "image": "/images/products/revolution-now.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 84,
+    "storeCodes": [
+      {
+        "token": "RXXAJBEZGNQ5F3XLRYKTDH6B",
+        "sku": "757201530712",
+        "gtin": "",
+        "sourceRow": 755
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "road-rage-bright-star",
+    "name": "Road Rage",
+    "brand": "Bright Star",
+    "category": "500g Cakes",
+    "presentation": "500 gram cake",
+    "manufacturerCode": "BS8047",
+    "previewVideo": null,
+    "slug": "road-rage-bright-star",
+    "image": "/images/products/road-rage-bright-star.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 85,
+    "storeCodes": [
+      {
+        "token": "VDKQHYGJDBMFBXL65I3TCORF",
+        "sku": "705108804764",
+        "gtin": "",
+        "sourceRow": 758
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "assorted-roman-candles-4-pack",
+    "name": "10S Assorted Roman Candle",
+    "brand": "Monkey Mania",
+    "category": "Roman Candles",
+    "presentation": "4 candles · 10 shots each",
+    "manufacturerCode": "MM-RM1807A/B/C/D",
+    "previewVideo": "https://www.youtube.com/watch?v=aPJZMnWuujc",
+    "slug": "assorted-roman-candles-4-pack",
+    "image": "/images/products/assorted-roman-candles-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 86,
+    "storeCodes": [
+      {
+        "token": "VRVRESOI3PY3GDDSSGJYXK4S",
+        "sku": "757201018074",
+        "gtin": "",
+        "sourceRow": 768
+      }
+    ]
+  },
+  {
+    "id": "strato-launcher",
+    "name": "Strato Launcher",
+    "brand": "Monkey Mania",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 100 shots",
+    "manufacturerCode": "MM-RM1001",
+    "previewVideo": "https://www.youtube.com/watch?v=dCPxXYGNVQg",
+    "slug": "strato-launcher",
+    "image": "/images/products/strato-launcher.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 87,
+    "storeCodes": [
+      {
+        "token": "PFUMNN4F7CTUD6OCYKHDPQLR",
+        "sku": "757202110012",
+        "gtin": "",
+        "sourceRow": 862
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "strobing-willow",
+    "name": "Strobing Willow",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22004",
+    "previewVideo": "https://www.youtube.com/watch?v=prG4cr0TASo",
+    "slug": "strobing-willow",
+    "image": "/images/products/strobing-willow.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 88,
+    "storeCodes": [
+      {
+        "token": "3UA3DE63WWEIXYDEIHWR6NFD",
+        "sku": "757201220040",
+        "gtin": "",
+        "sourceRow": 864
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "take-me-to-your-leader",
+    "name": "Take Me to Your Leader",
+    "brand": "Winda",
+    "category": "Spinners",
+    "presentation": "2-stage girandola",
+    "manufacturerCode": "P6030",
+    "previewVideo": "https://www.youtube.com/watch?v=uqMID7-IziA",
+    "slug": "take-me-to-your-leader",
+    "image": "/images/products/take-me-to-your-leader.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 89,
+    "storeCodes": [
+      {
+        "token": "OCNKFMWD4RXNQEOM4RTQQJBQ",
+        "sku": "705108603008",
+        "gtin": "",
+        "sourceRow": 882
+      }
+    ]
+  },
+  {
+    "id": "whisky-business",
+    "name": "Whisky Business",
+    "brand": "Bright Star",
+    "category": "500g Cakes",
+    "presentation": "20 shots",
+    "manufacturerCode": "BS8039",
+    "previewVideo": "https://www.youtube.com/watch?v=SxzplhvlmUk",
+    "slug": "whisky-business",
+    "image": "/images/products/whisky-business.webp",
+    "imageWidths": [
+      320,
+      480,
+      610
+    ],
+    "featured": false,
+    "sortOrder": 90,
+    "storeCodes": [
+      {
+        "token": "6DOXRDGFLEMBC4IEFOHUXQ33",
+        "sku": "",
+        "gtin": "705108803965",
+        "sourceRow": 968
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "wild-horses",
+    "name": "Wild Horses",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22002",
+    "previewVideo": "https://www.youtube.com/watch?v=w5QUlnKoDnA",
+    "slug": "wild-horses",
+    "image": "/images/products/wild-horses.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 91,
+    "storeCodes": [
+      {
+        "token": "6SQ25JK3RYG5ECAM3GS2PQ3R",
+        "sku": "757201220026",
+        "gtin": "",
+        "sourceRow": 973
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "willow-explosion",
+    "name": "Willow Explosion",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 24 shots",
+    "manufacturerCode": "RA53631",
+    "previewVideo": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
+    "slug": "willow-explosion",
+    "image": "/images/products/willow-explosion.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 92,
+    "storeCodes": [
+      {
+        "token": "RIOM3SESJXPNVNW246HUV6UY",
+        "sku": "757201536318",
+        "gtin": "",
+        "sourceRow": 977
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "neon-jellyfish",
+    "name": "Neon Jellyfish",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57212",
+    "previewVideo": "https://www.youtube.com/watch?v=UG_3QDM9310",
+    "slug": "neon-jellyfish",
+    "image": "/images/products/neon-jellyfish.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 93,
+    "storeCodes": [
+      {
+        "token": "TMC3YHZW3USJLNP2YNAQF35V",
+        "sku": "757201572125",
+        "gtin": "",
+        "sourceRow": 1036
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "party-sparklers-display",
+    "name": "Party Sparklers",
+    "brand": "Winda",
+    "category": "Sparklers",
+    "presentation": "Display · 20 packs of 4",
+    "manufacturerCode": "P9012",
+    "previewVideo": null,
+    "slug": "party-sparklers-display",
+    "image": "/images/products/party-sparklers-display.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 94,
+    "storeCodes": [
+      {
+        "token": "Y3GNKR7ETF7UXZDUEI7GRN3Q",
+        "sku": "705108901210",
+        "gtin": "",
+        "sourceRow": 1041
+      }
+    ]
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "name": "Raise the Dead",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "7-inch shells · 24 pack",
+    "manufacturerCode": "P8057",
+    "previewVideo": null,
+    "slug": "raise-the-dead-24-pack",
+    "image": "/images/products/raise-the-dead-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 95,
+    "storeCodes": [
+      {
+        "token": "72YAFHVRGOCXMFTRMJYMR6L4",
+        "sku": "",
+        "gtin": "705108805709",
+        "sourceRow": 1044
+      }
+    ]
+  },
+  {
+    "id": "trooper-turret",
+    "name": "Trooper Turret",
+    "brand": "Winda",
+    "category": "Roman Candles",
+    "presentation": "240 shots",
+    "manufacturerCode": "P4031",
+    "previewVideo": "https://www.youtube.com/watch?v=wqqWednU3wY",
+    "slug": "trooper-turret",
+    "image": "/images/products/trooper-turret.webp",
+    "imageWidths": [
+      320,
+      480,
+      586
+    ],
+    "featured": false,
+    "sortOrder": 96,
+    "storeCodes": [
+      {
+        "token": "VHFD2RMJF2FNH7YGT2NOMQIA",
+        "sku": "705108403103",
+        "gtin": "",
+        "sourceRow": 1057
+      }
+    ]
+  },
+  {
+    "id": "wings-of-wrath",
+    "name": "Wings of Wrath",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 35 shots",
+    "manufacturerCode": "RA21605",
+    "previewVideo": "https://www.youtube.com/watch?v=7L0NtDmfqCI",
+    "slug": "wings-of-wrath",
+    "image": "/images/products/wings-of-wrath.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 97,
+    "storeCodes": [
+      {
+        "token": "U4VMQYNRVE7JHWKOKZQ6PKCC",
+        "sku": "757201216050",
+        "gtin": "",
+        "sourceRow": 1060
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "name": "No. 3 Cone Fountain",
+    "brand": "Monkey Mania",
+    "category": "Fountains",
+    "presentation": "2-cone pack",
+    "manufacturerCode": "MM-FC06A/B",
+    "previewVideo": null,
+    "slug": "no-3-cone-fountain-2-pack",
+    "image": "/images/products/no-3-cone-fountain-2-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      614
+    ],
+    "featured": false,
+    "sortOrder": 98,
+    "storeCodes": [
+      {
+        "token": "OJQE63ODOA5VPD3QCXH5T5YC",
+        "sku": "",
+        "gtin": "757201000062",
+        "sourceRow": 6
+      }
+    ]
+  },
+  {
+    "id": "atom-bomb",
+    "name": "Atom Bomb",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "36 shots",
+    "manufacturerCode": "BP-A013-1",
+    "previewVideo": "",
+    "slug": "atom-bomb",
+    "image": "/images/products/atom-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 99,
+    "storeCodes": [
+      {
+        "token": "5FGW7K44ZLKLWCCNLF46GVBU",
+        "sku": "687985901319",
+        "gtin": "",
+        "sourceRow": 159
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "bamboozle",
+    "name": "Bamboozle",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "42 shots",
+    "manufacturerCode": "BP2455",
+    "previewVideo": "",
+    "slug": "bamboozle",
+    "image": "/images/products/bamboozle.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 100,
+    "storeCodes": [
+      {
+        "token": "AREZ7BUJBZVK2OEMOVNEZLRN",
+        "sku": "687985245512",
+        "gtin": "",
+        "sourceRow": 171
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "big-top",
+    "name": "Big Top",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "42 shots",
+    "manufacturerCode": "BP2035",
+    "previewVideo": "",
+    "slug": "big-top",
+    "image": "/images/products/big-top.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 101,
+    "storeCodes": [
+      {
+        "token": "BNWVUD62G4H3RHAG6WM5WJ7D",
+        "sku": "687985203512",
+        "gtin": "",
+        "sourceRow": 182
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "blood-money",
+    "name": "Blood Money",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "49 shots",
+    "manufacturerCode": "BP-A090-3",
+    "previewVideo": "https://www.youtube.com/watch?v=CG05DMsgT1s",
+    "slug": "blood-money",
+    "image": "/images/products/blood-money.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 102,
+    "storeCodes": [
+      {
+        "token": "XLO7UDEHBHTQYPEROBAO3RV4",
+        "sku": "687985909032",
+        "gtin": "",
+        "sourceRow": 226
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "canopus",
+    "name": "Canopus",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "48 shots",
+    "manufacturerCode": "BP-A084-1",
+    "previewVideo": "",
+    "slug": "canopus",
+    "image": "/images/products/canopus.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 103,
+    "storeCodes": [
+      {
+        "token": "BZM75VLS7V57JD3765BT6ND4",
+        "sku": "687985908417",
+        "gtin": "",
+        "sourceRow": 252
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "48 shots",
+    "manufacturerCode": "BP-A084-4",
+    "previewVideo": "",
+    "slug": "capella",
+    "image": "/images/products/capella.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 104,
+    "storeCodes": [
+      {
+        "token": "RGD7OXT4MUNLMZKZWWNOE6YH",
+        "sku": "687985908448",
+        "gtin": "",
+        "sourceRow": 253
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "captain-sam",
+    "name": "Captain Sam",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "30 shots · Daytime parachutes",
+    "manufacturerCode": "BP2228",
+    "previewVideo": "",
+    "slug": "captain-sam",
+    "image": "/images/products/captain-sam.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 105,
+    "storeCodes": [
+      {
+        "token": "4BECHQGPMIFJ2I3VL7Q6BJWV",
+        "sku": "687985222810",
+        "gtin": "",
+        "sourceRow": 254
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "centauri",
+    "name": "Centauri",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "48 shots",
+    "manufacturerCode": "BP-A084-2",
+    "previewVideo": "",
+    "slug": "centauri",
+    "image": "/images/products/centauri.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 106,
+    "storeCodes": [
+      {
+        "token": "5SOYZ27LJ73CYTCXGVI6XIJN",
+        "sku": "687985908424",
+        "gtin": "",
+        "sourceRow": 257
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "cobalt-bomb",
+    "name": "Cobalt Bomb",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "36 shots",
+    "manufacturerCode": "BP-A013-4",
+    "previewVideo": "",
+    "slug": "cobalt-bomb",
+    "image": "/images/products/cobalt-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 107,
+    "storeCodes": [
+      {
+        "token": "MGK6SZ2H563SI4HJP3OBSS5U",
+        "sku": "687985901340",
+        "gtin": "",
+        "sourceRow": 272
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "crime-scene",
+    "name": "Crime Scene",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "49 shots",
+    "manufacturerCode": "BP-A090-1",
+    "previewVideo": "https://www.youtube.com/watch?v=XLFL_7QO1bA",
+    "slug": "crime-scene",
+    "image": "/images/products/crime-scene.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 108,
+    "storeCodes": [
+      {
+        "token": "GFUHBZGQTVWBTZPNL5L4BB4L",
+        "sku": "687985909018",
+        "gtin": "",
+        "sourceRow": 300
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "daffodil",
+    "name": "Daffodil",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 16 shots",
+    "manufacturerCode": "BP2115",
+    "previewVideo": "https://www.youtube.com/watch?v=_8IthnKIchA",
+    "slug": "daffodil",
+    "image": "/images/products/daffodil.webp",
+    "imageWidths": [
+      320,
+      480,
+      559
+    ],
+    "featured": false,
+    "sortOrder": 109,
+    "storeCodes": [
+      {
+        "token": "J6SLR7ZFLS7GBVRMGAEKIT4T",
+        "sku": "",
+        "gtin": "687985211517",
+        "sourceRow": 309
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "the-deadly-dozen",
+    "name": "The Deadly Dozen",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "presentation": "12 cakes · 200 gram cakes",
+    "manufacturerCode": "BP-A085",
+    "previewVideo": "https://www.youtube.com/watch?v=xtr2jlpZ7b4",
+    "slug": "the-deadly-dozen",
+    "image": "/images/products/the-deadly-dozen.webp",
+    "imageWidths": [
+      320,
+      480,
+      634
+    ],
+    "featured": false,
+    "sortOrder": 110,
+    "storeCodes": [
+      {
+        "token": "XES5VOPMCWFHSSS2Z36CIXHS",
+        "sku": "687985908592",
+        "gtin": "",
+        "sourceRow": 314
+      }
+    ]
+  },
+  {
+    "id": "fairies-in-a-jar",
+    "name": "Fairies in a Jar",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4315",
+    "previewVideo": "",
+    "slug": "fairies-in-a-jar",
+    "image": "/images/products/fairies-in-a-jar.webp",
+    "imageWidths": [
+      320,
+      480,
+      634
+    ],
+    "featured": false,
+    "sortOrder": 111,
+    "storeCodes": [
+      {
+        "token": "TZ7NZC3KAQMF42QI6KKDPPCB",
+        "sku": "",
+        "gtin": "687985431519",
+        "sourceRow": 352
+      }
+    ]
+  },
+  {
+    "id": "flash-flood-assortment",
+    "name": "Flash Flood",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "manufacturerCode": "BP-A106",
+    "previewVideo": "",
+    "slug": "flash-flood-assortment",
+    "image": "/images/products/flash-flood-assortment.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 112,
+    "storeCodes": [
+      {
+        "token": "TCSRFBWF6NWLUY3OTAFYOKXD",
+        "sku": "687985910601",
+        "gtin": "",
+        "sourceRow": 368
+      }
+    ]
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "7-inch shells · 24 shells",
+    "manufacturerCode": "BP-A113",
+    "previewVideo": "https://www.youtube.com/watch?v=CLfZr6AahYg",
+    "slug": "full-speed-24-pack",
+    "image": "/images/products/full-speed-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 113,
+    "storeCodes": [
+      {
+        "token": "33MRBL6PIMW3VFZZO24AOADU",
+        "sku": "687985911301",
+        "gtin": "",
+        "sourceRow": 390
+      }
+    ]
+  },
+  {
+    "id": "golden-peacock",
+    "name": "Golden Peacock",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 16 shots",
+    "manufacturerCode": "BP2112",
+    "previewVideo": "https://www.youtube.com/watch?v=0ZGF8eiJvcc",
+    "slug": "golden-peacock",
+    "image": "/images/products/golden-peacock.webp",
+    "imageWidths": [
+      320,
+      480,
+      578
+    ],
+    "featured": false,
+    "sortOrder": 114,
+    "storeCodes": [
+      {
+        "token": "6AVGKVTQYLP3PSQNTCP4MSM4",
+        "sku": "687985211210",
+        "gtin": "",
+        "sourceRow": 421
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "hydrogen-bomb",
+    "name": "Hydrogen Bomb",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "36 shots",
+    "manufacturerCode": "BP-A013-2",
+    "previewVideo": "",
+    "slug": "hydrogen-bomb",
+    "image": "/images/products/hydrogen-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 115,
+    "storeCodes": [
+      {
+        "token": "AKI3KKIBYKNIRZHLPMG6HPDE",
+        "sku": "687985901326",
+        "gtin": "",
+        "sourceRow": 468
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "inside-job",
+    "name": "Inside Job",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "49 shots",
+    "manufacturerCode": "BP-A090-2",
+    "previewVideo": "https://www.youtube.com/watch?v=ZeYCnVqun4g",
+    "slug": "inside-job",
+    "image": "/images/products/inside-job.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 116,
+    "storeCodes": [
+      {
+        "token": "PB4BRS3FE2O4BB5DDXL53LT6",
+        "sku": "687985909025",
+        "gtin": "",
+        "sourceRow": 483
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "jaws-brothers",
+    "name": "Jaws",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "16 shots",
+    "manufacturerCode": "BP2377",
+    "previewVideo": "",
+    "slug": "jaws-brothers",
+    "image": "/images/products/jaws-brothers.webp",
+    "imageWidths": [
+      320,
+      480,
+      571
+    ],
+    "featured": false,
+    "sortOrder": 117,
+    "storeCodes": [
+      {
+        "token": "UZCBBHPKUEH64KANXEM37JVQ",
+        "sku": "687985237715",
+        "gtin": "",
+        "sourceRow": 492
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "jumboshell-fountain",
+    "name": "Jumboshell Fountain",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4247",
+    "previewVideo": "https://www.youtube.com/watch?v=hOgReJdyXEs",
+    "slug": "jumboshell-fountain",
+    "image": "/images/products/jumboshell-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 118,
+    "storeCodes": [
+      {
+        "token": "G5DP2C4PMD5CQGRSTL3IRSZA",
+        "sku": "",
+        "gtin": "687985424719",
+        "sourceRow": 509
+      }
+    ]
+  },
+  {
+    "id": "m1-abrams-2-pack",
+    "name": "M1 Abrams",
+    "brand": "Brothers",
+    "category": "Novelties",
+    "presentation": "2 tanks",
+    "manufacturerCode": "BP7127",
+    "previewVideo": "",
+    "slug": "m1-abrams-2-pack",
+    "image": "/images/products/m1-abrams-2-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 119,
+    "storeCodes": [
+      {
+        "token": "VNSBHW2JFT7YH7Z45FOYZXPC",
+        "sku": "687985712700",
+        "gtin": "",
+        "sourceRow": 560
+      }
+    ]
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "6-inch shells · 24 shells",
+    "manufacturerCode": "BP-A109",
+    "previewVideo": "",
+    "slug": "maelstrom-24-pack",
+    "image": "/images/products/maelstrom-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 120,
+    "storeCodes": [
+      {
+        "token": "4TG53MYUHLIM42CZSPF6DYWV",
+        "sku": "687985910908",
+        "gtin": "",
+        "sourceRow": 564
+      }
+    ]
+  },
+  {
+    "id": "magic-crystal-4-pack",
+    "name": "Magic Crystal",
+    "brand": "Brothers",
+    "category": "Spinners",
+    "presentation": "4 pieces",
+    "manufacturerCode": "BP5028",
+    "previewVideo": "",
+    "slug": "magic-crystal-4-pack",
+    "image": "/images/products/magic-crystal-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 121,
+    "storeCodes": [
+      {
+        "token": "DNK6Z7PLBHKQRMCA3SSJLZ3T",
+        "sku": "687985502820",
+        "gtin": "",
+        "sourceRow": 568
+      }
+    ]
+  },
+  {
+    "id": "maximum-altitude-4-pack",
+    "name": "Maximum Altitude",
+    "brand": "Brothers",
+    "category": "Rockets",
+    "presentation": "4 rockets",
+    "manufacturerCode": "BP1212",
+    "previewVideo": "https://www.youtube.com/watch?v=ufp-Re3i0Z4",
+    "slug": "maximum-altitude-4-pack",
+    "image": "/images/products/maximum-altitude-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 122,
+    "storeCodes": [
+      {
+        "token": "7OHLMFFWUS7NBPRKIHKWX3HX",
+        "sku": "687985121229",
+        "gtin": "",
+        "sourceRow": 584
+      }
+    ]
+  },
+  {
+    "id": "mechanical-bug",
+    "name": "Mechanical Bug",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "100 shots",
+    "manufacturerCode": "BP2838",
+    "previewVideo": "",
+    "slug": "mechanical-bug",
+    "image": "/images/products/mechanical-bug.webp",
+    "imageWidths": [
+      320,
+      480,
+      638
+    ],
+    "featured": false,
+    "sortOrder": 123,
+    "storeCodes": [
+      {
+        "token": "MD45INUFCC64T2JKSK5NHQNX",
+        "sku": "687985283811",
+        "gtin": "",
+        "sourceRow": 585
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "megawatt",
+    "name": "MegaWatt",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "295 shots",
+    "manufacturerCode": "BP2608",
+    "previewVideo": "",
+    "slug": "megawatt",
+    "image": "/images/products/megawatt.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 124,
+    "storeCodes": [
+      {
+        "token": "JZSYHXE4DQ7QGMED4JK76XXM",
+        "sku": "687985260812",
+        "gtin": "",
+        "sourceRow": 591
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "204 shots",
+    "manufacturerCode": "BP2346",
+    "previewVideo": "",
+    "slug": "midnight",
+    "image": "/images/products/midnight.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 125,
+    "storeCodes": [
+      {
+        "token": "E3UXSYRN2VAH4HHUW5HI4IHN",
+        "sku": "687985234615",
+        "gtin": "",
+        "sourceRow": 594
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "movie-time",
+    "name": "Movie Time",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4213",
+    "previewVideo": "",
+    "slug": "movie-time",
+    "image": "/images/products/movie-time.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 126,
+    "storeCodes": [
+      {
+        "token": "Z3OHILX3F5STN22AG3IR2YH7",
+        "sku": "687985421312",
+        "gtin": "",
+        "sourceRow": 617
+      }
+    ]
+  },
+  {
+    "id": "neutron-bomb",
+    "name": "Neutron Bomb",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "36 shots",
+    "manufacturerCode": "BP-A013-3",
+    "previewVideo": "",
+    "slug": "neutron-bomb",
+    "image": "/images/products/neutron-bomb.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 127,
+    "storeCodes": [
+      {
+        "token": "73ZKYLH5IUS5MUMFLKHERCSJ",
+        "sku": "687985901333",
+        "gtin": "",
+        "sourceRow": 639
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "old-ironsides",
+    "name": "Old Ironsides",
+    "brand": "Brothers",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "30 shots",
+    "manufacturerCode": "BP2452",
+    "previewVideo": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
+    "slug": "old-ironsides",
+    "image": "/images/products/old-ironsides.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 128,
+    "storeCodes": [
+      {
+        "token": "TJCEVYQKEURJTZKRXDKTT7TF",
+        "sku": "687985245215",
+        "gtin": "",
+        "sourceRow": 652
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "4-inch shells · 24 shells",
+    "manufacturerCode": "BP-A053-2/24",
+    "previewVideo": "",
+    "slug": "quest-24-pack",
+    "image": "/images/products/quest-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 129,
+    "storeCodes": [
+      {
+        "token": "7TS7HQ3JDS5V5H6BDNGX3J66",
+        "sku": "687985905300",
+        "gtin": "",
+        "sourceRow": 736
+      }
+    ]
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "12 ball shells",
+    "manufacturerCode": "BP2690",
+    "previewVideo": "",
+    "slug": "ruckus-12-pack",
+    "image": "/images/products/ruckus-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 130,
+    "storeCodes": [
+      {
+        "token": "Q6KGAOERMQ3NMSBOJ2GJTR22",
+        "sku": "687985269013",
+        "gtin": "",
+        "sourceRow": 779
+      }
+    ]
+  },
+  {
+    "id": "serious-equipment",
+    "name": "Serious Equipment",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "48 shells · 82 breaks",
+    "manufacturerCode": "BP-A011",
+    "previewVideo": "",
+    "slug": "serious-equipment",
+    "image": "/images/products/serious-equipment.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 131,
+    "storeCodes": [
+      {
+        "token": "HBOU625S5LEK4PCVRH53HOQG",
+        "sku": "687985901104",
+        "gtin": "",
+        "sourceRow": 798
+      }
+    ]
+  },
+  {
+    "id": "smash-hit",
+    "name": "Smash Hit",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4354",
+    "previewVideo": "https://www.youtube.com/watch?v=KFtrrmeIb-s",
+    "slug": "smash-hit",
+    "image": "/images/products/smash-hit.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 132,
+    "storeCodes": [
+      {
+        "token": "EUMY5KCK234U6I7QG6EPUBCY",
+        "sku": "687985435418",
+        "gtin": "",
+        "sourceRow": 825
+      }
+    ]
+  },
+  {
+    "id": "sons-of-liberty",
+    "name": "Sons of Liberty",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 36 shots",
+    "manufacturerCode": "BP2472",
+    "previewVideo": "https://www.youtube.com/watch?v=UvEESO3wl_8",
+    "slug": "sons-of-liberty",
+    "image": "/images/products/sons-of-liberty.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 133,
+    "storeCodes": [
+      {
+        "token": "5D6GORADGNMEPLTPWFS3A6BA",
+        "sku": "687985247219",
+        "gtin": "",
+        "sourceRow": 846
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "name": "The Red, White and Blue Salute",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "24 shots",
+    "manufacturerCode": "BP2905",
+    "previewVideo": "https://www.youtube.com/watch?v=c0yqJUHTdkQ",
+    "slug": "the-red-white-and-blue-salute",
+    "image": "/images/products/the-red-white-and-blue-salute.webp",
+    "imageWidths": [
+      320,
+      480,
+      527
+    ],
+    "featured": false,
+    "sortOrder": 134,
+    "storeCodes": [
+      {
+        "token": "JVJVJDEHKQTOTIG75XHAVP7R",
+        "sku": "687985290512",
+        "gtin": "",
+        "sourceRow": 900
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "turf-war",
+    "name": "Turf War",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "49 shots",
+    "manufacturerCode": "BP-A090-4",
+    "previewVideo": "https://www.youtube.com/watch?v=Qrs8rEAhXRE",
+    "slug": "turf-war",
+    "image": "/images/products/turf-war.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 135,
+    "storeCodes": [
+      {
+        "token": "4XNAMHJPDAR3ZZXVWJRVFCN7",
+        "sku": "687985909049",
+        "gtin": "",
+        "sourceRow": 924
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "48 shots",
+    "manufacturerCode": "BP-A084-3",
+    "previewVideo": "https://www.youtube.com/watch?v=H3oBKOX2QnM",
+    "slug": "vega",
+    "image": "/images/products/vega.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 136,
+    "storeCodes": [
+      {
+        "token": "6QWKN4NYSMH5FE4SPP4TXZEZ",
+        "sku": "687985908431",
+        "gtin": "",
+        "sourceRow": 939
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "wild-west",
+    "name": "Wild West",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "25 shots",
+    "manufacturerCode": "BP2924",
+    "previewVideo": "",
+    "slug": "wild-west",
+    "image": "/images/products/wild-west.webp",
+    "imageWidths": [
+      320,
+      480,
+      578
+    ],
+    "featured": false,
+    "sortOrder": 137,
+    "storeCodes": [
+      {
+        "token": "VDUDV2IJWJQDR3OXDDXGSYVX",
+        "sku": "687985292417",
+        "gtin": "",
+        "sourceRow": 975
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "wildcard",
+    "name": "Wildcard",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 49 shots",
+    "manufacturerCode": "BP2624",
+    "previewVideo": "https://www.youtube.com/watch?v=R9QML3hq5kM",
+    "slug": "wildcard",
+    "image": "/images/products/wildcard.webp",
+    "imageWidths": [
+      320,
+      480,
+      634
+    ],
+    "featured": false,
+    "sortOrder": 138,
+    "storeCodes": [
+      {
+        "token": "6HVANF2BUGX7XBWGM6KGJOJI",
+        "sku": "687985262410",
+        "gtin": "",
+        "sourceRow": 976
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "da-big-box-o-bombs",
+    "name": "Da Big Box O' Bombs",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "presentation": "4 cakes · 144 shots total",
+    "manufacturerCode": "BP-A013",
+    "previewVideo": "",
+    "slug": "da-big-box-o-bombs",
+    "image": "/images/products/da-big-box-o-bombs.webp",
+    "imageWidths": [
+      320,
+      480,
+      595
+    ],
+    "featured": false,
+    "sortOrder": 139,
+    "storeCodes": [
+      {
+        "token": "JHH35X7EGHAJV5SLSC7BDZSK",
+        "sku": "687985901395",
+        "gtin": "",
+        "sourceRow": 1003
+      }
+    ]
+  },
+  {
+    "id": "flying-colors",
+    "name": "Flying Colors",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "41 shots",
+    "manufacturerCode": "BP2856",
+    "previewVideo": "",
+    "slug": "flying-colors",
+    "image": "/images/products/flying-colors.webp",
+    "imageWidths": [
+      320,
+      480,
+      574
+    ],
+    "featured": false,
+    "sortOrder": 140,
+    "storeCodes": [
+      {
+        "token": "JOZNARA424EEK6F2KF7HBTKU",
+        "sku": "687985285617",
+        "gtin": "",
+        "sourceRow": 1010
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "mob-madness",
+    "name": "Mob Madness",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "presentation": "4 cakes · 49 shots per cake",
+    "manufacturerCode": "BP-A090",
+    "previewVideo": "https://www.youtube.com/watch?v=lJoOR04XnO4",
+    "slug": "mob-madness",
+    "image": "/images/products/mob-madness.webp",
+    "imageWidths": [
+      320,
+      480,
+      632
+    ],
+    "featured": false,
+    "sortOrder": 141,
+    "storeCodes": [
+      {
+        "token": "ZQ5P53VXBJ5IS573IJDOWKNB",
+        "sku": "687985909094",
+        "gtin": "",
+        "sourceRow": 1032
+      }
+    ]
+  },
+  {
+    "id": "super-fountain",
+    "name": "Super Fountain",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4252",
+    "previewVideo": "",
+    "slug": "super-fountain",
+    "image": "/images/products/super-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 142,
+    "storeCodes": [
+      {
+        "token": "6MRMR67QMNNCTTRHZE2254MW",
+        "sku": "687985425211",
+        "gtin": "",
+        "sourceRow": 1052
+      }
+    ]
+  },
+  {
+    "id": "brothers-container-load",
+    "name": "Brothers Container Load",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "presentation": "30-piece assortment",
+    "manufacturerCode": "BP-A046",
+    "previewVideo": "https://www.youtube.com/watch?v=rTS1GHs0QG8",
+    "slug": "brothers-container-load",
+    "image": "/images/products/brothers-container-load.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 143,
+    "storeCodes": [
+      {
+        "token": "FRFVWA6OPHD7DZENTVJS2RBE",
+        "sku": "687985904624",
+        "gtin": "",
+        "sourceRow": 1001
+      }
+    ]
+  },
+  {
+    "id": "solar-flare-no-3",
+    "name": "Solar Flare #3",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "solar-flare-no-3",
+    "image": "/images/products/solar-flare-no-3.webp",
+    "imageWidths": [
+      320,
+      407,
+      407
+    ],
+    "featured": false,
+    "sortOrder": 144,
+    "storeCodes": [
+      {
+        "token": "HPCVXOYT2OFAXABHQZESYK6X",
+        "sku": "715244102884",
+        "gtin": "",
+        "sourceRow": 12
+      }
+    ]
+  },
+  {
+    "id": "turbo-flash-no-4",
+    "name": "Turbo Flash #4",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "turbo-flash-no-4",
+    "image": "/images/products/turbo-flash-no-4.webp",
+    "imageWidths": [
+      320,
+      406,
+      406
+    ],
+    "featured": false,
+    "sortOrder": 145,
+    "storeCodes": [
+      {
+        "token": "2ZRYMSNE7SUXC3BUQPGZSS6L",
+        "sku": "715244002894",
+        "gtin": "",
+        "sourceRow": 15
+      }
+    ]
+  },
+  {
+    "id": "pharaohs-treasure-no-8",
+    "name": "Pharaoh's Treasure #8",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "pharaohs-treasure-no-8",
+    "image": "/images/products/pharaohs-treasure-no-8.webp",
+    "imageWidths": [
+      320,
+      403,
+      403
+    ],
+    "featured": false,
+    "sortOrder": 146,
+    "storeCodes": [
+      {
+        "token": "OIJ7TSC5JP2IUVH2VMHIEGIM",
+        "sku": "715244002900",
+        "gtin": "",
+        "sourceRow": 23
+      }
+    ]
+  },
+  {
+    "id": "120-shot-camo-pack",
+    "name": "120 Shot Camo Pack",
+    "brand": "",
+    "category": "Roman Candles",
+    "presentation": "12 candles · 120 shots total",
+    "previewVideo": "",
+    "slug": "120-shot-camo-pack",
+    "image": "/images/products/120-shot-camo-pack.webp",
+    "imageWidths": [
+      320,
+      370,
+      370
+    ],
+    "featured": false,
+    "sortOrder": 147,
+    "description": "Red, green, blue and purple stars mix with crackling effects and reports.",
+    "storeCodes": [
+      {
+        "token": "45N4PAZ53P7YTNQENWTOP3XJ",
+        "sku": "652009905109",
+        "gtin": "",
+        "sourceRow": 49
+      }
+    ]
+  },
+  {
+    "id": "snow-cone-jr-4-pack",
+    "name": "Snow Cone Jr.",
+    "brand": "Winda",
+    "category": "Fountains",
+    "presentation": "4 fountains",
+    "previewVideo": "",
+    "slug": "snow-cone-jr-4-pack",
+    "image": "/images/products/snow-cone-jr-4-pack.webp",
+    "imageWidths": [
+      320,
+      405,
+      405
+    ],
+    "featured": false,
+    "sortOrder": 148,
+    "storeCodes": [
+      {
+        "token": "5O66QKT6BJQUWDBZEA64YIJ4",
+        "sku": "705108309702",
+        "gtin": "",
+        "sourceRow": 85
+      }
+    ]
+  },
+  {
+    "id": "above-the-law-assortment",
+    "name": "Above the Law",
+    "brand": "",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "above-the-law-assortment",
+    "image": "/images/products/above-the-law-assortment.webp",
+    "imageWidths": [
+      320,
+      350,
+      350
+    ],
+    "featured": false,
+    "sortOrder": 149,
+    "storeCodes": [
+      {
+        "token": "DJGH4MOSEAF477EDNI4PRQ4O",
+        "sku": "",
+        "gtin": "652009200020",
+        "sourceRow": 114
+      }
+    ]
+  },
+  {
+    "id": "absolute-pyro",
+    "name": "Absolute Pyro",
+    "brand": "",
+    "category": "500g Cakes",
+    "presentation": "156 shots",
+    "previewVideo": "",
+    "slug": "absolute-pyro",
+    "image": "/images/products/absolute-pyro.webp",
+    "imageWidths": [
+      320,
+      402,
+      402
+    ],
+    "featured": false,
+    "sortOrder": 150,
+    "storeCodes": [
+      {
+        "token": "A3TTFCDNXBESWGPAC4RVRVLA",
+        "sku": "652009906540",
+        "gtin": "",
+        "sourceRow": 115
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "big-city-display",
+    "name": "Big City Display",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "big-city-display",
+    "image": "/images/products/big-city-display.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 151,
+    "storeCodes": [
+      {
+        "token": "4UDECG7T6TXR37II5JLGEPWG",
+        "sku": "652009001092",
+        "gtin": "",
+        "sourceRow": 178
+      }
+    ]
+  },
+  {
+    "id": "big-and-bad-rockets",
+    "name": "Big and Bad",
+    "brand": "Black Cat",
+    "category": "Rockets",
+    "presentation": "6 rockets",
+    "previewVideo": "",
+    "slug": "big-and-bad-rockets",
+    "image": "/images/products/big-and-bad-rockets.webp",
+    "imageWidths": [
+      320,
+      354,
+      354
+    ],
+    "featured": false,
+    "sortOrder": 152,
+    "storeCodes": [
+      {
+        "token": "4TH237NF56TPMUBWACH7JUXN",
+        "sku": "715244004768",
+        "gtin": "",
+        "sourceRow": 181
+      }
+    ]
+  },
+  {
+    "id": "black-cat-four-assorted-9-inch",
+    "name": "Four Assorted 9-inch Fountains",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "presentation": "9-inch fountains · 4-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=G3KOjofzkho",
+    "slug": "black-cat-four-assorted-9-inch",
+    "image": "/images/products/black-cat-four-assorted-9-inch.webp",
+    "imageWidths": [
+      320,
+      345,
+      345
+    ],
+    "featured": false,
+    "sortOrder": 153,
+    "storeCodes": [
+      {
+        "token": "WE4BJSDDQ2RUISDGUILR7WWQ",
+        "sku": "715244020454",
+        "gtin": "",
+        "sourceRow": 194
+      }
+    ]
+  },
+  {
+    "id": "black-cat-four-assorted-6-inch",
+    "name": "Four Assorted 6-inch Fountains",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "presentation": "6-inch fountains · 4-pack",
+    "previewVideo": "",
+    "slug": "black-cat-four-assorted-6-inch",
+    "image": "/images/products/black-cat-four-assorted-6-inch.webp",
+    "imageWidths": [
+      320,
+      348,
+      348
+    ],
+    "featured": false,
+    "sortOrder": 154,
+    "storeCodes": [
+      {
+        "token": "SZ5GTVLHSQZHQZF36S76IXVT",
+        "sku": "715244200115",
+        "gtin": "",
+        "sourceRow": 199
+      }
+    ]
+  },
+  {
+    "id": "cat-eyes-3-pack",
+    "name": "Cat Eyes",
+    "brand": "Black Cat",
+    "category": "Spinners",
+    "presentation": "3 spinners",
+    "previewVideo": "",
+    "slug": "cat-eyes-3-pack",
+    "image": "/images/products/cat-eyes-3-pack.webp",
+    "imageWidths": [
+      320,
+      443,
+      443
+    ],
+    "featured": false,
+    "sortOrder": 155,
+    "storeCodes": [
+      {
+        "token": "ZJCPCWGRIODBVZMR7O2VBAP7",
+        "sku": "715244084203",
+        "gtin": "",
+        "sourceRow": 204
+      }
+    ]
+  },
+  {
+    "id": "fountastic",
+    "name": "Fountastic",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "fountastic",
+    "image": "/images/products/fountastic.webp",
+    "imageWidths": [
+      298,
+      298,
+      298
+    ],
+    "featured": false,
+    "sortOrder": 156,
+    "storeCodes": [
+      {
+        "token": "2CAQEPKBJEJ3RLNNXOSPI2WJ",
+        "sku": "715244021741",
+        "gtin": "",
+        "sourceRow": 209
+      }
+    ]
+  },
+  {
+    "id": "black-cat-four-assorted-7-inch",
+    "name": "Four Assorted 7-inch Fountains",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "presentation": "7-inch fountains · 4-pack",
+    "previewVideo": "",
+    "slug": "black-cat-four-assorted-7-inch",
+    "image": "/images/products/black-cat-four-assorted-7-inch.webp",
+    "imageWidths": [
+      320,
+      375,
+      375
+    ],
+    "featured": false,
+    "sortOrder": 157,
+    "storeCodes": [
+      {
+        "token": "Z42WT7QYMWVQSGSLZELGXT3L",
+        "sku": "715244201921",
+        "gtin": "",
+        "sourceRow": 210
+      }
+    ]
+  },
+  {
+    "id": "little-dynamite-100",
+    "name": "Little Dynamite",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "100 firecrackers",
+    "previewVideo": "",
+    "slug": "little-dynamite-100",
+    "image": "/images/products/little-dynamite-100.webp",
+    "imageWidths": [
+      320,
+      346,
+      346
+    ],
+    "featured": false,
+    "sortOrder": 158,
+    "storeCodes": [
+      {
+        "token": "FKOTG65DY2KEAIG72E6ZQNZX",
+        "sku": "715244001057",
+        "gtin": "",
+        "sourceRow": 213
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Firecrackers",
+      "sourceTokens": [
+        "FKOTG65DY2KEAIG72E6ZQNZX"
+      ]
+    }
+  },
+  {
+    "id": "3-for-1-fountains",
+    "name": "3 For 1!",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "presentation": "3 fountains",
+    "previewVideo": "",
+    "slug": "3-for-1-fountains",
+    "image": "/images/products/3-for-1-fountains.webp",
+    "imageWidths": [
+      275,
+      275,
+      275
+    ],
+    "featured": false,
+    "sortOrder": 159,
+    "storeCodes": [
+      {
+        "token": "EKGYPF5RGKPY6227FPL5HPLT",
+        "sku": "715244022243",
+        "gtin": "",
+        "sourceRow": 225
+      }
+    ]
+  },
+  {
+    "id": "camo-smoke",
+    "name": "Camo Smoke",
+    "brand": "",
+    "category": "Smoke",
+    "presentation": "Single smoke tube",
+    "previewVideo": "",
+    "slug": "camo-smoke",
+    "image": "/images/products/camo-smoke.webp",
+    "imageWidths": [
+      320,
+      387,
+      387
+    ],
+    "featured": false,
+    "sortOrder": 160,
+    "description": "Produces a thick plume of white smoke.",
+    "storeCodes": [
+      {
+        "token": "YQ5XSAV4O7JC4DVQKJAPRWIR",
+        "sku": "652009001757",
+        "gtin": "",
+        "sourceRow": 251
+      }
+    ]
+  },
+  {
+    "id": "confetti-blaster-24-inch",
+    "name": "Confetti Blaster",
+    "brand": "",
+    "category": "Novelties",
+    "presentation": "24-inch confetti blaster",
+    "previewVideo": "",
+    "slug": "confetti-blaster-24-inch",
+    "image": "/images/products/confetti-blaster-24-inch.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 161,
+    "description": "Launches a burst of confetti.",
+    "storeCodes": [
+      {
+        "token": "ZYEQGHWQMW24XASSI2XV3ECG",
+        "sku": "777319994121",
+        "gtin": "",
+        "sourceRow": 288
+      }
+    ]
+  },
+  {
+    "id": "cracker-balls-6-pack",
+    "name": "Cracker Balls",
+    "brand": "Black Cat",
+    "category": "Novelties",
+    "presentation": "6-pack",
+    "previewVideo": "",
+    "slug": "cracker-balls-6-pack",
+    "image": "/images/products/cracker-balls-6-pack.webp",
+    "imageWidths": [
+      279,
+      279,
+      279
+    ],
+    "featured": false,
+    "sortOrder": 162,
+    "storeCodes": [
+      {
+        "token": "ODY4X5F35PDVTDU6QVKBRWBZ",
+        "sku": "715244003402",
+        "gtin": "",
+        "sourceRow": 292
+      }
+    ]
+  },
+  {
+    "id": "cracker-bomb-3-pack",
+    "name": "Cracker Bomb",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "3 sticks · 50 firecrackers per stick",
+    "previewVideo": "https://www.youtube.com/watch?v=_a758WuyXkM",
+    "slug": "cracker-bomb-3-pack",
+    "image": "/images/products/cracker-bomb-3-pack.webp",
+    "imageWidths": [
+      320,
+      427,
+      427
+    ],
+    "featured": false,
+    "sortOrder": 163,
+    "storeCodes": [
+      {
+        "token": "LKBNUIDOVUHJUQVVRHSX2VM3",
+        "sku": "715244001187",
+        "gtin": "",
+        "sourceRow": 293
+      }
+    ]
+  },
+  {
+    "id": "fallout",
+    "name": "Fallout",
+    "brand": "Fox",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 24 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=cieneeS7rKc",
+    "slug": "fallout",
+    "image": "/images/products/fallout.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 164,
+    "storeCodes": [
+      {
+        "token": "Y6HDHYHSC4SVETG4GORA6KKQ",
+        "sku": "514677060231",
+        "gtin": "",
+        "sourceRow": 353
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "joker-black-cat-fountain",
+    "name": "Joker",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "joker-black-cat-fountain",
+    "image": "/images/products/joker-black-cat-fountain.webp",
+    "imageWidths": [
+      320,
+      341,
+      341
+    ],
+    "featured": false,
+    "sortOrder": 165,
+    "storeCodes": [
+      {
+        "token": "JUSF3HFQOT35RZT5ID4CJ5CF",
+        "sku": "715244021840",
+        "gtin": "",
+        "sourceRow": 493
+      }
+    ]
+  },
+  {
+    "id": "jr-pyro-backpack-black-cat",
+    "name": "Jr. Pyro Backpack",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "presentation": "Backpack assortment",
+    "previewVideo": "",
+    "slug": "jr-pyro-backpack-black-cat",
+    "image": "/images/products/jr-pyro-backpack-black-cat.webp",
+    "imageWidths": [
+      293,
+      293,
+      293
+    ],
+    "featured": false,
+    "sortOrder": 166,
+    "storeCodes": [
+      {
+        "token": "VFDWZ7GPUOWDTWBKHLSGJRVM",
+        "sku": "715244000890",
+        "gtin": "",
+        "sourceRow": 497
+      }
+    ]
+  },
+  {
+    "id": "jumbo-assorted-candles-4-pack",
+    "name": "Jumbo Assorted Candles",
+    "brand": "",
+    "category": "Roman Candles",
+    "presentation": "4 candles · 8 shots per candle",
+    "previewVideo": "",
+    "slug": "jumbo-assorted-candles-4-pack",
+    "image": "/images/products/jumbo-assorted-candles-4-pack.webp",
+    "imageWidths": [
+      320,
+      378,
+      378
+    ],
+    "featured": false,
+    "sortOrder": 167,
+    "description": "Green and red wave effects alternate with silver strobes.",
+    "storeCodes": [
+      {
+        "token": "U4RZFA74W7UMWQXRGYKXPVE6",
+        "sku": "111218312882",
+        "gtin": "",
+        "sourceRow": 500
+      }
+    ]
+  },
+  {
+    "id": "texas-bandit-rockets",
+    "name": "Texas Bandit Rocket",
+    "brand": "Black Cat",
+    "category": "Rockets",
+    "presentation": "6 rockets",
+    "previewVideo": "",
+    "slug": "texas-bandit-rockets",
+    "image": "/images/products/texas-bandit-rockets.webp",
+    "imageWidths": [
+      258,
+      258,
+      258
+    ],
+    "featured": false,
+    "sortOrder": 168,
+    "storeCodes": [
+      {
+        "token": "MOXRWPWWMQ5SUT4WOH6OQJLB",
+        "sku": "715244004843",
+        "gtin": "",
+        "sourceRow": 508
+      }
+    ]
+  },
+  {
+    "id": "junior-pyro-assortment",
+    "name": "Junior Pyro",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "junior-pyro-assortment",
+    "image": "/images/products/junior-pyro-assortment.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 169,
+    "storeCodes": [
+      {
+        "token": "PCD2Q6Z2XMIGC4HW3QMTTN4K",
+        "sku": "952009001017",
+        "gtin": "",
+        "sourceRow": 514
+      }
+    ]
+  },
+  {
+    "id": "kids-pack-black-cat",
+    "name": "Kids Pack",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "kids-pack-black-cat",
+    "image": "/images/products/kids-pack-black-cat.webp",
+    "imageWidths": [
+      320,
+      335,
+      335
+    ],
+    "featured": false,
+    "sortOrder": 170,
+    "storeCodes": [
+      {
+        "token": "QKRK7IYAFXKSB4YNKICGHL7J",
+        "sku": "715244001705",
+        "gtin": "",
+        "sourceRow": 520
+      }
+    ]
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "brand": "Brothers",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "42 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=eKDVVEhl6ss",
+    "slug": "light-brigade",
+    "image": "/images/products/light-brigade.webp",
+    "imageWidths": [
+      320,
+      387,
+      387
+    ],
+    "featured": false,
+    "sortOrder": 171,
+    "storeCodes": [
+      {
+        "token": "GP4VTTYIGJ6FXPLM52AVKSEX",
+        "sku": "687985245314",
+        "gtin": "",
+        "sourceRow": 541
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "m150-red-12-pack",
+    "name": "M-150 Red Salute",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "12 firecrackers",
+    "previewVideo": "",
+    "slug": "m150-red-12-pack",
+    "image": "/images/products/m150-red-12-pack.webp",
+    "imageWidths": [
+      246,
+      246,
+      246
+    ],
+    "featured": false,
+    "sortOrder": 172,
+    "storeCodes": [
+      {
+        "token": "X7P67M6U25SNAVKSLJSSR6XU",
+        "sku": "715244001170",
+        "gtin": "",
+        "sourceRow": 553
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Firecrackers",
+      "sourceTokens": [
+        "X7P67M6U25SNAVKSLJSSR6XU"
+      ]
+    }
+  },
+  {
+    "id": "m150-red-silver-36-pack",
+    "name": "M-150 Red/Silver Salute",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "36 firecrackers",
+    "previewVideo": "",
+    "slug": "m150-red-silver-36-pack",
+    "image": "/images/products/m150-red-silver-36-pack.webp",
+    "imageWidths": [
+      320,
+      365,
+      365
+    ],
+    "featured": false,
+    "sortOrder": 173,
+    "storeCodes": [
+      {
+        "token": "MYGOS6NQDT54NB7PCTWKCZ3Z",
+        "sku": "715244001149",
+        "gtin": "",
+        "sourceRow": 561
+      }
+    ]
+  },
+  {
+    "id": "magical-barrage-100",
+    "name": "Magical Barrage",
+    "brand": "Black Cat",
+    "category": "200g Cakes",
+    "presentation": "100 shots",
+    "previewVideo": "",
+    "slug": "magical-barrage-100",
+    "image": "/images/products/magical-barrage-100.webp",
+    "imageWidths": [
+      320,
+      392,
+      392
+    ],
+    "featured": false,
+    "sortOrder": 174,
+    "storeCodes": [
+      {
+        "token": "ELISRVGSZLOV7VVRCNLZLY5O",
+        "sku": "715244064120",
+        "gtin": "",
+        "sourceRow": 573
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 200
+    }
+  },
+  {
+    "id": "neon-camo-smoke-4-pack",
+    "name": "Neon Camo Smoke",
+    "brand": "Black Cat",
+    "category": "Smoke",
+    "presentation": "4 smoke tubes",
+    "previewVideo": "",
+    "slug": "neon-camo-smoke-4-pack",
+    "image": "/images/products/neon-camo-smoke-4-pack.webp",
+    "imageWidths": [
+      300,
+      300,
+      300
+    ],
+    "featured": false,
+    "sortOrder": 175,
+    "storeCodes": [
+      {
+        "token": "65SPR36TT4PVNGW7PZMKA67K",
+        "sku": "715244007257",
+        "gtin": "",
+        "sourceRow": 624
+      }
+    ]
+  },
+  {
+    "id": "outlaw-justice",
+    "name": "Outlaw Justice",
+    "brand": "Fox",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 36 shots",
+    "previewVideo": "",
+    "slug": "outlaw-justice",
+    "image": "/images/products/outlaw-justice.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 176,
+    "storeCodes": [
+      {
+        "token": "RJI3L3ZOH6A34DOCTHDC2W66",
+        "sku": "514677060194",
+        "gtin": "",
+        "sourceRow": 658
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "packin-purple",
+    "name": "Packin' Purple",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "packin-purple",
+    "image": "/images/products/packin-purple.webp",
+    "imageWidths": [
+      269,
+      269,
+      269
+    ],
+    "featured": false,
+    "sortOrder": 177,
+    "storeCodes": [
+      {
+        "token": "35NAPEUSRBXWA6VJOXXS2P2K",
+        "sku": "715244021994",
+        "gtin": "",
+        "sourceRow": 659
+      }
+    ]
+  },
+  {
+    "id": "party-animal-assortment",
+    "name": "Party Animal",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "party-animal-assortment",
+    "image": "/images/products/party-animal-assortment.webp",
+    "imageWidths": [
+      290,
+      290,
+      290
+    ],
+    "featured": false,
+    "sortOrder": 178,
+    "storeCodes": [
+      {
+        "token": "OYYJWZFHABFVJ2I5GEN3BXNW",
+        "sku": "",
+        "gtin": "715244001200",
+        "sourceRow": 662
+      },
+      {
+        "token": "WD4UKVVQLK62VDXAMJEYHTDB",
+        "sku": "715244001200",
+        "gtin": "",
+        "sourceRow": 1040
+      }
+    ]
+  },
+  {
+    "id": "black-cat-party-pack-5",
+    "name": "Party Pack #5",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "black-cat-party-pack-5",
+    "image": "/images/products/black-cat-party-pack-5.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 179,
+    "storeCodes": [
+      {
+        "token": "LVDV62MTB2UNJZMKZAAKZHU4",
+        "sku": "",
+        "gtin": "715244000654",
+        "sourceRow": 665
+      }
+    ]
+  },
+  {
+    "id": "black-cat-party-pack-5-safe-sane",
+    "name": "Party Pack #5 Safe and Sane",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "presentation": "Safe and sane assortment",
+    "previewVideo": "",
+    "slug": "black-cat-party-pack-5-safe-sane",
+    "image": "/images/products/black-cat-party-pack-5-safe-sane.webp",
+    "imageWidths": [
+      320,
+      359,
+      359
+    ],
+    "featured": false,
+    "sortOrder": 180,
+    "storeCodes": [
+      {
+        "token": "EYHLYQPZXEA34ZHLVD4GS3EJ",
+        "sku": "715244100651",
+        "gtin": "",
+        "sourceRow": 666
+      }
+    ]
+  },
+  {
+    "id": "black-cat-party-pack-6",
+    "name": "Party Pack #6",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "black-cat-party-pack-6",
+    "image": "/images/products/black-cat-party-pack-6.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 181,
+    "storeCodes": [
+      {
+        "token": "Y4WMTYEVPETUZALRIL7GZSZ7",
+        "sku": "",
+        "gtin": "715244000456",
+        "sourceRow": 667
+      }
+    ]
+  },
+  {
+    "id": "party-poppers-6-pack",
+    "name": "Party Poppers",
+    "brand": "Black Cat",
+    "category": "Novelties",
+    "presentation": "6 party poppers",
+    "previewVideo": "",
+    "slug": "party-poppers-6-pack",
+    "image": "/images/products/party-poppers-6-pack.webp",
+    "imageWidths": [
+      320,
+      379,
+      379
+    ],
+    "featured": false,
+    "sortOrder": 182,
+    "storeCodes": [
+      {
+        "token": "RUDFKSIOWOO6EYLP2XIK2POM",
+        "sku": "715244034161",
+        "gtin": "",
+        "sourceRow": 668
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Novelties",
+      "sourceTokens": [
+        "RUDFKSIOWOO6EYLP2XIK2POM"
+      ]
+    }
+  },
+  {
+    "id": "doggie-doo-doo",
+    "name": "Doggie Doo Doo",
+    "brand": "",
+    "category": "Novelties",
+    "previewVideo": "",
+    "slug": "doggie-doo-doo",
+    "image": "/images/products/doggie-doo-doo.webp",
+    "imageWidths": [
+      320,
+      372,
+      372
+    ],
+    "featured": false,
+    "sortOrder": 183,
+    "description": "A dog-shaped novelty that produces a curling ash snake with crackling effects.",
+    "storeCodes": [
+      {
+        "token": "DJDD3CC7XZW5XMFZ5UOFKY3S",
+        "sku": "652009903457",
+        "gtin": "",
+        "sourceRow": 691
+      }
+    ]
+  },
+  {
+    "id": "pride-and-honor-6",
+    "name": "Pride and Honor #6",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "pride-and-honor-6",
+    "image": "/images/products/pride-and-honor-6.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 184,
+    "storeCodes": [
+      {
+        "token": "BNUXKTUCJZD4IZ3NBI22JUGD",
+        "sku": "715244800032",
+        "gtin": "",
+        "sourceRow": 700
+      }
+    ]
+  },
+  {
+    "id": "princess-power-sword",
+    "name": "Princess Power Sword",
+    "brand": "",
+    "category": "Fountains",
+    "presentation": "Pink sword fountain",
+    "previewVideo": "",
+    "slug": "princess-power-sword",
+    "image": "/images/products/princess-power-sword.webp",
+    "imageWidths": [
+      320,
+      395,
+      395
+    ],
+    "featured": false,
+    "sortOrder": 185,
+    "description": "A sword-shaped fountain with colorful sparks and a light crackle.",
+    "storeCodes": [
+      {
+        "token": "IJJCFG2L4D6373CWLT7PDNSV",
+        "sku": "201606802214",
+        "gtin": "",
+        "sourceRow": 704
+      }
+    ]
+  },
+  {
+    "id": "pyro-city-safe-sane",
+    "name": "Pyro City Safe and Sane",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "presentation": "Safe and sane assortment",
+    "previewVideo": "",
+    "slug": "pyro-city-safe-sane",
+    "image": "/images/products/pyro-city-safe-sane.webp",
+    "imageWidths": [
+      320,
+      357,
+      357
+    ],
+    "featured": false,
+    "sortOrder": 186,
+    "storeCodes": [
+      {
+        "token": "XVGJDTRZN6G72H74OTSIEYPV",
+        "sku": "652009101112",
+        "gtin": "",
+        "sourceRow": 720
+      }
+    ]
+  },
+  {
+    "id": "pyro-city-assortment",
+    "name": "Pyro City",
+    "brand": "",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "pyro-city-assortment",
+    "image": "/images/products/pyro-city-assortment.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 187,
+    "storeCodes": [
+      {
+        "token": "K3TMBZV5CNPFOAJ6D63VE66G",
+        "sku": "652009001115",
+        "gtin": "",
+        "sourceRow": 721
+      }
+    ]
+  },
+  {
+    "id": "pyro-pack",
+    "name": "Pyro Pack",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "pyro-pack",
+    "image": "/images/products/pyro-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 188,
+    "storeCodes": [
+      {
+        "token": "H6UVAEIGHB6OJOGWCNMV7HRI",
+        "sku": "952009001024",
+        "gtin": "",
+        "sourceRow": 722
+      }
+    ]
+  },
+  {
+    "id": "the-beast-black-cat",
+    "name": "The Beast",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "the-beast-black-cat",
+    "image": "/images/products/the-beast-black-cat.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 189,
+    "storeCodes": [
+      {
+        "token": "NJ6SAFHPATCWTVY7P6WUARZ6",
+        "sku": "765244000000",
+        "gtin": "",
+        "sourceRow": 889
+      }
+    ]
+  },
+  {
+    "id": "beast-candle",
+    "name": "Beast",
+    "brand": "Fox",
+    "category": "Roman Candles",
+    "presentation": "666 shots",
+    "previewVideo": "",
+    "slug": "beast-candle",
+    "image": "/images/products/beast-candle.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 190,
+    "storeCodes": [
+      {
+        "token": "75TIIYAM4OKN23TPTHZZN67G",
+        "sku": "514677005003",
+        "gtin": "",
+        "sourceRow": 890
+      }
+    ]
+  },
+  {
+    "id": "victory-sword",
+    "name": "Victory Sword",
+    "brand": "",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "victory-sword",
+    "image": "/images/products/victory-sword.webp",
+    "imageWidths": [
+      320,
+      387,
+      387
+    ],
+    "featured": false,
+    "sortOrder": 191,
+    "description": "Colorful sparks and a light crackle emerge from this sword-shaped fountain.",
+    "storeCodes": [
+      {
+        "token": "MPLY3UZKTRRPDCZXXFXRR433",
+        "sku": "131611802209",
+        "gtin": "",
+        "sourceRow": 943
+      }
+    ]
+  },
+  {
+    "id": "whacky-tobacky",
+    "name": "Whacky Tobacky",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "previewVideo": "",
+    "slug": "whacky-tobacky",
+    "image": "/images/products/whacky-tobacky.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 192,
+    "storeCodes": [
+      {
+        "token": "XTL5TLDJI3LTZYGCDMI4ODSC",
+        "sku": "687985250110",
+        "gtin": "",
+        "sourceRow": 948
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "walkin-dead",
+    "name": "Walkin' Dead",
+    "brand": "Black Cat",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 19 shots",
+    "previewVideo": "",
+    "slug": "walkin-dead",
+    "image": "/images/products/walkin-dead.webp",
+    "imageWidths": [
+      320,
+      374,
+      374
+    ],
+    "featured": false,
+    "sortOrder": 193,
+    "storeCodes": [
+      {
+        "token": "Z5AQ5L7DNIGG2FSAUAZOSQQ5",
+        "sku": "715244063178",
+        "gtin": "",
+        "sourceRow": 949
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "war-hero",
+    "name": "War Hero",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 30 shots",
+    "previewVideo": "",
+    "slug": "war-hero",
+    "image": "/images/products/war-hero.webp",
+    "imageWidths": [
+      320,
+      398,
+      398
+    ],
+    "featured": false,
+    "sortOrder": 194,
+    "storeCodes": [
+      {
+        "token": "YIKPT4VA36G77JLEBR336HWV",
+        "sku": "687985985111",
+        "gtin": "",
+        "sourceRow": 951
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "whistling-chaser-8-pack",
+    "name": "Whistling Chaser",
+    "brand": "",
+    "category": "Spinners",
+    "presentation": "8-pack",
+    "previewVideo": "",
+    "slug": "whistling-chaser-8-pack",
+    "image": "/images/products/whistling-chaser-8-pack.webp",
+    "imageWidths": [
+      320,
+      420,
+      420
+    ],
+    "featured": false,
+    "sortOrder": 195,
+    "description": "Whistles and releases bright sparks as it travels along the ground.",
+    "storeCodes": [
+      {
+        "token": "UGR7VX5AJCKWYKD5WLDPARD5",
+        "sku": "652009002549",
+        "gtin": "",
+        "sourceRow": 970
+      }
+    ]
+  },
+  {
+    "id": "black-cat-morning-glory-36-inch",
+    "name": "36-inch Morning Glory",
+    "brand": "Black Cat",
+    "category": "Sparklers",
+    "presentation": "36-inch sparklers · 6-pack",
+    "previewVideo": "",
+    "slug": "black-cat-morning-glory-36-inch",
+    "image": "/images/products/black-cat-morning-glory-36-inch.webp",
+    "imageWidths": [
+      320,
+      375,
+      375
+    ],
+    "featured": false,
+    "sortOrder": 196,
+    "storeCodes": [
+      {
+        "token": "RSAUYRX3JUNFGEO3PQIFPQVB",
+        "sku": "715244313242",
+        "gtin": "",
+        "sourceRow": 1034
+      }
+    ]
+  },
+  {
+    "id": "excellent-bag",
+    "name": "Excellent Bag",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "excellent-bag",
+    "image": "/images/products/excellent-bag.webp",
+    "imageWidths": [
+      299,
+      299,
+      299
+    ],
+    "featured": false,
+    "sortOrder": 197,
+    "storeCodes": [
+      {
+        "token": "P4QS4KKFFSLNRX55JFVFNNWS",
+        "sku": "715244300327",
+        "gtin": "",
+        "sourceRow": 1053
+      }
+    ]
+  },
+  {
+    "id": "call-the-cops",
+    "name": "Call the Cops",
+    "brand": "Black Cat",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 87 shots",
+    "previewVideo": "",
+    "slug": "call-the-cops",
+    "image": "/images/products/call-the-cops.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 198,
+    "storeCodes": [
+      {
+        "token": "YBTSQXW5MJG6UTYHOSOYIBRG",
+        "sku": "715244165100",
+        "gtin": "",
+        "sourceRow": 248
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "cowboy-rockets-9-pack",
+    "name": "Cowboy Rocket",
+    "brand": "Black Cat",
+    "category": "Rockets",
+    "presentation": "9 rockets",
+    "previewVideo": "",
+    "slug": "cowboy-rockets-9-pack",
+    "image": "/images/products/cowboy-rockets-9-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 199,
+    "storeCodes": [
+      {
+        "token": "YOI6577F23QO7PGR4CUPKEPI",
+        "sku": "715244004867",
+        "gtin": "",
+        "sourceRow": 290
+      }
+    ]
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "brand": "Fox",
+    "category": "Spinners",
+    "presentation": "Spinning aerial novelty",
+    "previewVideo": "https://www.youtube.com/watch?v=Q7CVhPLCopc",
+    "slug": "drone",
+    "image": "/images/products/drone.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 200,
+    "storeCodes": [
+      {
+        "token": "UV4AAU7AWTUYZJHIN2BGVUDU",
+        "sku": "514677009001",
+        "gtin": "",
+        "sourceRow": 334
+      }
+    ]
+  },
+  {
+    "id": "festival-fountain",
+    "name": "Festival Fountain",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "festival-fountain",
+    "image": "/images/products/festival-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      572
+    ],
+    "featured": false,
+    "sortOrder": 201,
+    "storeCodes": [
+      {
+        "token": "UHU3VWJJGHU7PL66542PKXTI",
+        "sku": "",
+        "gtin": "715244022472",
+        "sourceRow": 361
+      }
+    ]
+  },
+  {
+    "id": "forever-loyal",
+    "name": "Forever Loyal",
+    "brand": "Pyro Shine",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 25 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=meX3dU3eNm4",
+    "slug": "forever-loyal",
+    "image": "/images/products/forever-loyal.webp",
+    "imageWidths": [
+      320,
+      391,
+      391
+    ],
+    "featured": false,
+    "sortOrder": 202,
+    "storeCodes": [
+      {
+        "token": "ERZ4KRTZQCD4FRIINSYC7KN6",
+        "sku": "",
+        "gtin": "702367266043",
+        "sourceRow": 378
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "fuego-loco",
+    "name": "Fuego Loco",
+    "brand": "Black Cat",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 20 shots",
+    "previewVideo": "",
+    "slug": "fuego-loco",
+    "image": "/images/products/fuego-loco.webp",
+    "imageWidths": [
+      320,
+      480,
+      553
+    ],
+    "featured": false,
+    "sortOrder": 203,
+    "storeCodes": [
+      {
+        "token": "7EQHCPTRPGKCHMZ72HTQHAWQ",
+        "sku": "715244065370",
+        "gtin": "",
+        "sourceRow": 389
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "holiday-lights",
+    "name": "Holiday Lights",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "holiday-lights",
+    "image": "/images/products/holiday-lights.webp",
+    "imageWidths": [
+      320,
+      480,
+      503
+    ],
+    "featured": false,
+    "sortOrder": 204,
+    "storeCodes": [
+      {
+        "token": "HJTMDSKH3C53TJXF64R6QW53",
+        "sku": "",
+        "gtin": "715244022489",
+        "sourceRow": 453
+      }
+    ]
+  },
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "brand": "Black Cat",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 45 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=S1dUXLCc8fw",
+    "slug": "mass-confusion",
+    "image": "/images/products/mass-confusion.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 205,
+    "storeCodes": [
+      {
+        "token": "5JPUFA6DW2VVHUQEXK7JAJC3",
+        "sku": "715244065356",
+        "gtin": "",
+        "sourceRow": 581
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "sky-ink",
+    "name": "Sky Ink",
+    "brand": "Black Cat",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 16 shots",
+    "previewVideo": "",
+    "slug": "sky-ink",
+    "image": "/images/products/sky-ink.webp",
+    "imageWidths": [
+      320,
+      480,
+      614
+    ],
+    "featured": false,
+    "sortOrder": 206,
+    "storeCodes": [
+      {
+        "token": "WTLUAOGLASBOLXA3LAEELXAQ",
+        "sku": "715244065301",
+        "gtin": "",
+        "sourceRow": 809
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "stealth-bomber-2-pack",
+    "name": "Stealth Bomber",
+    "brand": "Black Cat",
+    "category": "Spinners",
+    "presentation": "2-pack",
+    "previewVideo": "",
+    "slug": "stealth-bomber-2-pack",
+    "image": "/images/products/stealth-bomber-2-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 207,
+    "storeCodes": [
+      {
+        "token": "5O3KCZV7HWLL2CDEY4VOSTEL",
+        "sku": "715244009312",
+        "gtin": "",
+        "sourceRow": 858
+      }
+    ]
+  },
+  {
+    "id": "sugar-pop",
+    "name": "Sugar Pop",
+    "brand": "Fox",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "sugar-pop",
+    "image": "/images/products/sugar-pop.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 208,
+    "storeCodes": [
+      {
+        "token": "MCJREXVVQE3QRAECUUUZUCYQ",
+        "sku": "514677002323",
+        "gtin": "",
+        "sourceRow": 867
+      }
+    ]
+  },
+  {
+    "id": "worlds-largest-fountain",
+    "name": "World's Largest Fountain",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "worlds-largest-fountain",
+    "image": "/images/products/worlds-largest-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 209,
+    "storeCodes": [
+      {
+        "token": "RNWQE56DSFMVHJ64MOFUYAR4",
+        "sku": "",
+        "gtin": "715244022465",
+        "sourceRow": 982
+      }
+    ]
+  },
+  {
+    "id": "aggression",
+    "name": "Aggression",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22007",
+    "previewVideo": "https://www.youtube.com/watch?v=fLGTxYPM494",
+    "slug": "aggression",
+    "image": "/images/products/aggression.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 210,
+    "storeCodes": [
+      {
+        "token": "SRP2KXXSRJ5ZLRYNRYPEYTA3",
+        "sku": "757201220071",
+        "gtin": "",
+        "sourceRow": 119
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "4-inch shells · 16 shells",
+    "manufacturerCode": "RA11601",
+    "previewVideo": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
+    "slug": "arms-depot-16-pack",
+    "image": "/images/products/arms-depot-16-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 211,
+    "storeCodes": [
+      {
+        "token": "Y4SXCZVSAVHO2GCBJYKJPQZO",
+        "sku": "757201116015",
+        "gtin": "",
+        "sourceRow": 146
+      }
+    ]
+  },
+  {
+    "id": "bang-bros",
+    "name": "Bang Bros",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 44 shots",
+    "manufacturerCode": "RA53078",
+    "previewVideo": "https://www.youtube.com/watch?v=ifr85jVKpT8",
+    "slug": "bang-bros",
+    "image": "/images/products/bang-bros.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 212,
+    "storeCodes": [
+      {
+        "token": "C2C7EL6NNRTZWJT3IFXTDJMD",
+        "sku": "757201530781",
+        "gtin": "",
+        "sourceRow": 174
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "battle-cry",
+    "name": "Battle Cry",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57203",
+    "previewVideo": "",
+    "slug": "battle-cry",
+    "image": "/images/products/battle-cry.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 213,
+    "storeCodes": [
+      {
+        "token": "TCFS7DODQT6FOX5OZPYXNCX3",
+        "sku": "757201572033",
+        "gtin": "",
+        "sourceRow": 175
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "6-inch shells · 6 shells",
+    "manufacturerCode": "RA60601",
+    "previewVideo": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+    "slug": "break-the-rules-6-pack",
+    "image": "/images/products/break-the-rules-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 214,
+    "storeCodes": [
+      {
+        "token": "LC3DT2FV6CELZXJO3R6PA5GY",
+        "sku": "757201606011",
+        "gtin": "",
+        "sourceRow": 238
+      }
+    ]
+  },
+  {
+    "id": "color-rage",
+    "name": "Color Rage",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 30 shots",
+    "manufacturerCode": "RA53072",
+    "previewVideo": "https://www.youtube.com/watch?v=NvDuDojoKT4",
+    "slug": "color-rage",
+    "image": "/images/products/color-rage.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 215,
+    "storeCodes": [
+      {
+        "token": "VLK3AKYITHQA2VRQ2QD7MWRS",
+        "sku": "757201530729",
+        "gtin": "",
+        "sourceRow": 280
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells · 24 shells",
+    "manufacturerCode": "RA32409",
+    "previewVideo": "https://www.youtube.com/watch?v=YEuMKW3NufM",
+    "slug": "flawless-24-pack",
+    "image": "/images/products/flawless-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 216,
+    "storeCodes": [
+      {
+        "token": "NKVGAJ4J2IE4Q36QIMNWDHPG",
+        "sku": "757201324090",
+        "gtin": "",
+        "sourceRow": 371
+      }
+    ]
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "name": "Ghostacular",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells · 24 shells",
+    "manufacturerCode": "RA32406",
+    "previewVideo": "",
+    "slug": "ghostacular-24-pack",
+    "image": "/images/products/ghostacular-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 217,
+    "storeCodes": [
+      {
+        "token": "RAXEGL5PWHZOIT73XXXQK362",
+        "sku": "757201324069",
+        "gtin": "",
+        "sourceRow": 415
+      }
+    ]
+  },
+  {
+    "id": "home-of-the-brave",
+    "name": "Home of the Brave",
+    "brand": "Monkey Mania",
+    "category": "Reloadables",
+    "presentation": "48 shells · 72 breaks",
+    "manufacturerCode": "MM40003",
+    "previewVideo": "https://www.youtube.com/watch?v=CW7K1Ln8Dnw",
+    "slug": "home-of-the-brave",
+    "image": "/images/products/home-of-the-brave.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 218,
+    "storeCodes": [
+      {
+        "token": "PF7MSTRWM3LEPHVVTJHTUGRH",
+        "sku": "757201400039",
+        "gtin": "",
+        "sourceRow": 456
+      }
+    ]
+  },
+  {
+    "id": "hot-as-hell",
+    "name": "Hot as Hell",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "9-shot rack",
+    "manufacturerCode": "RA57216",
+    "previewVideo": "https://www.youtube.com/watch?v=yFp0xaHG-qY",
+    "slug": "hot-as-hell",
+    "image": "/images/products/hot-as-hell.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 219,
+    "storeCodes": [
+      {
+        "token": "VO5VKMURGPFHWLH2WHVHDHTY",
+        "sku": "757201572163",
+        "gtin": "",
+        "sourceRow": 458
+      }
+    ],
+    "cakeClass": {
+      "status": "verified-external",
+      "grams": 500
+    }
+  },
+  {
+    "id": "joker-raccoon",
+    "name": "Joker",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 20 shots",
+    "manufacturerCode": "RA22517",
+    "previewVideo": "https://www.youtube.com/watch?v=5gunJrX6dQc",
+    "slug": "joker-raccoon",
+    "image": "/images/products/joker-raccoon.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 220,
+    "storeCodes": [
+      {
+        "token": "KIQSPT7TDOXOPH6FPCTYHWUM",
+        "sku": "757201225175",
+        "gtin": "",
+        "sourceRow": 495
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "name": "Let Freedom Ring",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells · 24 shells",
+    "manufacturerCode": "RA32405A/B/C/D",
+    "previewVideo": "https://www.youtube.com/watch?v=q6wcbHeNBqo",
+    "slug": "let-freedom-ring-24-pack",
+    "image": "/images/products/let-freedom-ring-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 221,
+    "storeCodes": [
+      {
+        "token": "XV7KE6QBZI7WEMU4JOBKEQJ2",
+        "sku": "757201324052",
+        "gtin": "",
+        "sourceRow": 538
+      }
+    ]
+  },
+  {
+    "id": "neon-celebration",
+    "name": "Neon Celebration",
+    "brand": "Raccoon",
+    "category": "500g Cakes",
+    "presentation": "500 gram · 60 shots",
+    "manufacturerCode": "RA52003",
+    "previewVideo": "https://www.youtube.com/watch?v=JKspqiO_2Ag",
+    "slug": "neon-celebration",
+    "image": "/images/products/neon-celebration.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 222,
+    "storeCodes": [
+      {
+        "token": "6SA6Q2XJKOHET5CW5VO67ZPO",
+        "sku": "757201520034",
+        "gtin": "",
+        "sourceRow": 625
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "monkey-mania-10-ball-candles-6-pack",
+    "name": "10 Ball Roman Candle",
+    "brand": "Monkey Mania",
+    "category": "Roman Candles",
+    "presentation": "6 candles · 10 shots per candle",
+    "manufacturerCode": "MM-T6515A/B/C",
+    "previewVideo": "",
+    "slug": "monkey-mania-10-ball-candles-6-pack",
+    "image": "/images/products/monkey-mania-10-ball-candles-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 223,
+    "storeCodes": [
+      {
+        "token": "CDDJKC5ST2S5CBCDNCNFXT5A",
+        "sku": "757201065153",
+        "gtin": "",
+        "sourceRow": 763
+      }
+    ]
+  },
+  {
+    "id": "sky-painter-fountain",
+    "name": "Sky Painter",
+    "brand": "Monkey Mania",
+    "category": "Fountains",
+    "manufacturerCode": "MM-F1802",
+    "previewVideo": "https://www.youtube.com/watch?v=Re0a-0BOEYg",
+    "slug": "sky-painter-fountain",
+    "image": "/images/products/sky-painter-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 224,
+    "storeCodes": [
+      {
+        "token": "C3Z2RS7D6ATU276R6GFDRQJY",
+        "sku": "757202118025",
+        "gtin": "",
+        "sourceRow": 812
+      }
+    ]
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "4-inch shells · 12 shells",
+    "manufacturerCode": "RA11201",
+    "previewVideo": "https://www.youtube.com/watch?v=66butJ3I7Tw",
+    "slug": "sniper-fire-12-pack",
+    "image": "/images/products/sniper-fire-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 225,
+    "storeCodes": [
+      {
+        "token": "KR3RZM5CYN7RTB47WMIVTE3H",
+        "sku": "757201112017",
+        "gtin": "",
+        "sourceRow": 839
+      }
+    ]
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "name": "Tiger Force",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "6-inch shells · 24 shells",
+    "manufacturerCode": "RA62402",
+    "previewVideo": "https://www.youtube.com/watch?v=EZrkTwF0GgQ",
+    "slug": "tiger-force-24-pack",
+    "image": "/images/products/tiger-force-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 226,
+    "storeCodes": [
+      {
+        "token": "WFOP4EFT7Q3WECR3URYJ6KNH",
+        "sku": "757201624022",
+        "gtin": "",
+        "sourceRow": 906
+      }
+    ]
+  },
+  {
+    "id": "8-oz-rockets-cutting-edge",
+    "name": "8 oz Rockets",
+    "brand": "Cutting Edge",
+    "category": "Rockets",
+    "presentation": "12 rockets",
+    "previewVideo": "",
+    "slug": "8-oz-rockets-cutting-edge",
+    "image": "/images/products/8-oz-rockets-cutting-edge.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 227,
+    "storeCodes": [
+      {
+        "token": "6AOFMZL7Z7QDPXT3DX7Y3D2M",
+        "sku": "8145270170700",
+        "gtin": "",
+        "sourceRow": 24
+      }
+    ]
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "name": "1-inch Mini Artillery Shells",
+    "brand": "Cutting Edge",
+    "category": "Artillery Shells",
+    "presentation": "1-inch shells · 12-pack",
+    "previewVideo": "",
+    "slug": "mini-artillery-12-pack",
+    "image": "/images/products/mini-artillery-12-pack.webp",
+    "imageWidths": [
+      320,
+      352,
+      352
+    ],
+    "featured": false,
+    "sortOrder": 228,
+    "storeCodes": [
+      {
+        "token": "WX7GBZIXZKXMZNUV7AGQX36N",
+        "sku": "8145270161111",
+        "gtin": "",
+        "sourceRow": 28
+      }
+    ]
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "brand": "TNT",
+    "category": "Cakes - Size Unconfirmed",
+    "previewVideo": "https://www.youtube.com/watch?v=Mz9Fq2UKTfU",
+    "slug": "2-minutes-extravaganza",
+    "image": "/images/products/2-minutes-extravaganza.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 229,
+    "storeCodes": [
+      {
+        "token": "T3AVLYCRGWAKT6BREUWYYAAL",
+        "sku": "887946004213",
+        "gtin": "",
+        "sourceRow": 58
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "black-cat-2000-roll",
+    "name": "Black Cat 2000 Roll",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "2000-count roll",
+    "previewVideo": "",
+    "slug": "black-cat-2000-roll",
+    "image": "/images/products/black-cat-2000-roll.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 230,
+    "storeCodes": [
+      {
+        "token": "PHBTZYIQ3GDXQH5VRHBKTPWF",
+        "sku": "715244120000",
+        "gtin": "",
+        "sourceRow": 65
+      }
+    ]
+  },
+  {
+    "id": "world-class-2000-roll",
+    "name": "World Class 2000 Roll",
+    "brand": "World-Class",
+    "category": "Firecrackers",
+    "presentation": "2000-count roll",
+    "previewVideo": "https://www.youtube.com/watch?v=kUfk3TABS3A",
+    "slug": "world-class-2000-roll",
+    "image": "/images/products/world-class-2000-roll.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 231,
+    "storeCodes": [
+      {
+        "token": "KLGDXTOQZJLOLLWXZYP77NBO",
+        "sku": "8052530057117",
+        "gtin": "",
+        "sourceRow": 66
+      }
+    ]
+  },
+  {
+    "id": "world-class-saturn-25",
+    "name": "25 Shot Saturn Missile",
+    "brand": "World-Class",
+    "category": "Missiles",
+    "presentation": "25 shots · Plastic base",
+    "previewVideo": "",
+    "slug": "world-class-saturn-25",
+    "image": "/images/products/world-class-saturn-25.webp",
+    "imageWidths": [
+      320,
+      480,
+      510
+    ],
+    "featured": false,
+    "sortOrder": 232,
+    "storeCodes": [
+      {
+        "token": "QEODFH2T6BC2CTTMDFAN3ILS",
+        "sku": "805253354814",
+        "gtin": "",
+        "sourceRow": 69
+      }
+    ]
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "name": "Whistling Buster",
+    "brand": "T-Sky",
+    "category": "Artillery Shells",
+    "presentation": "6 shells · 1 tube",
+    "previewVideo": "",
+    "slug": "whistling-buster-6-pack",
+    "image": "/images/products/whistling-buster-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      599
+    ],
+    "featured": false,
+    "sortOrder": 233,
+    "storeCodes": [
+      {
+        "token": "ZX3TJ5FTJU4TSBNYYZ25OE5P",
+        "sku": "841527101258",
+        "gtin": "",
+        "sourceRow": 96
+      }
+    ]
+  },
+  {
+    "id": "america-enduring",
+    "name": "America Enduring",
+    "brand": "Sky Bacon",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=AuuWxMWy1kQ",
+    "slug": "america-enduring",
+    "image": "/images/products/america-enduring.webp",
+    "imageWidths": [
+      320,
+      480,
+      624
+    ],
+    "featured": false,
+    "sortOrder": 234,
+    "storeCodes": [
+      {
+        "token": "P4V5UWFOA4QKR7HDTQ2Y7NTA",
+        "sku": "192537122338",
+        "gtin": "",
+        "sourceRow": 127
+      }
+    ]
+  },
+  {
+    "id": "american-pride-fountain",
+    "name": "American Pride",
+    "brand": "World-Class",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=M8g-kGHj9bA",
+    "slug": "american-pride-fountain",
+    "image": "/images/products/american-pride-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 235,
+    "storeCodes": [
+      {
+        "token": "EJ67OI6GG3MOJJGKU6K6YPHX",
+        "sku": "805253311817",
+        "gtin": "",
+        "sourceRow": 133
+      }
+    ]
+  },
+  {
+    "id": "american-wildcard",
+    "name": "American Wildcard",
+    "brand": "Brothers",
+    "category": "200g Cakes",
+    "presentation": "49 shots · 200 gram",
+    "previewVideo": "https://www.youtube.com/watch?v=QMXEm96HtVE",
+    "slug": "american-wildcard",
+    "image": "/images/products/american-wildcard.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 236,
+    "storeCodes": [
+      {
+        "token": "QF4SJO5A26QPFJ3INJVAWKZB",
+        "sku": "687985961214",
+        "gtin": "",
+        "sourceRow": 135
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "americas-best-snappers",
+    "name": "America's Best Snappers",
+    "brand": "Sky Bacon",
+    "category": "Novelties",
+    "presentation": "Red, white and blue snappers",
+    "previewVideo": "https://www.youtube.com/watch?v=NqCWt5awbrI",
+    "slug": "americas-best-snappers",
+    "image": "/images/products/americas-best-snappers.webp",
+    "imageWidths": [
+      320,
+      480,
+      614
+    ],
+    "featured": false,
+    "sortOrder": 237,
+    "storeCodes": [
+      {
+        "token": "CP7RE6RLLTS5YYWJJ5KWFDGD",
+        "sku": "816597941578",
+        "gtin": "",
+        "sourceRow": 137
+      }
+    ]
+  },
+  {
+    "id": "armadillo-fountain",
+    "name": "Armadillo",
+    "brand": "Cutting Edge",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=DPgiUt7FJCY",
+    "slug": "armadillo-fountain",
+    "image": "/images/products/armadillo-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 238,
+    "storeCodes": [
+      {
+        "token": "MYCY5YAXU47YAWMJR6OTMGPJ",
+        "sku": "8145270114612",
+        "gtin": "",
+        "sourceRow": 139
+      }
+    ]
+  },
+  {
+    "id": "black-cat-50-pack",
+    "name": "Black Cat Firecrackers 50 Pack",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "50-count pack",
+    "previewVideo": "",
+    "slug": "black-cat-50-pack",
+    "image": "/images/products/black-cat-50-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 240,
+    "storeCodes": [
+      {
+        "token": "QQYB6NNR36NTVUWQKAVKSFLH",
+        "sku": "715244101504",
+        "gtin": "",
+        "sourceRow": 202
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Firecrackers",
+      "sourceTokens": [
+        "QQYB6NNR36NTVUWQKAVKSFLH"
+      ]
+    }
+  },
+  {
+    "id": "black-cat-200-pack",
+    "name": "Black Cat Firecrackers 200 Pack",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "200-count pack",
+    "previewVideo": "",
+    "slug": "black-cat-200-pack",
+    "image": "/images/products/black-cat-200-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 241,
+    "storeCodes": [
+      {
+        "token": "IMSHHADLXVKXXU4KWSCGVL7P",
+        "sku": "715244102006",
+        "gtin": "",
+        "sourceRow": 207
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Firecrackers",
+      "sourceTokens": [
+        "IMSHHADLXVKXXU4KWSCGVL7P"
+      ]
+    }
+  },
+  {
+    "id": "citrus-fountain",
+    "name": "Citrus",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=iziTm6Kz5EY",
+    "slug": "citrus-fountain",
+    "image": "/images/products/citrus-fountain.webp",
+    "imageWidths": [
+      320,
+      442,
+      442
+    ],
+    "featured": false,
+    "sortOrder": 242,
+    "storeCodes": [
+      {
+        "token": "BDRHRJ7HW3ZEOVHORHON5YRU",
+        "sku": "715244022236",
+        "gtin": "",
+        "sourceRow": 267
+      }
+    ]
+  },
+  {
+    "id": "cutting-edge-1000-roll",
+    "name": "Cutting Edge 1000 Roll",
+    "brand": "Cutting Edge",
+    "category": "Firecrackers",
+    "presentation": "1000-count roll",
+    "previewVideo": "",
+    "slug": "cutting-edge-1000-roll",
+    "image": "/images/products/cutting-edge-1000-roll.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 243,
+    "storeCodes": [
+      {
+        "token": "UCX3BSP3MEKX5BYC5OVIKUFY",
+        "sku": "8145270101216",
+        "gtin": "",
+        "sourceRow": 306
+      }
+    ]
+  },
+  {
+    "id": "daytime-reveal-pink",
+    "name": "Daytime Reveal Pink",
+    "brand": "Sky Bacon",
+    "category": "200g Cakes",
+    "presentation": "16 shots · Pink smoke",
+    "previewVideo": "https://www.youtube.com/watch?v=vfHbwYme_jE",
+    "slug": "daytime-reveal-pink",
+    "image": "/images/products/daytime-reveal-pink.webp",
+    "imageWidths": [
+      320,
+      480,
+      563
+    ],
+    "featured": false,
+    "sortOrder": 244,
+    "storeCodes": [
+      {
+        "token": "GOIVSX5DISLUFTWXVSAEYSUG",
+        "sku": "705108146932",
+        "gtin": "",
+        "sourceRow": 313
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "excalibur-24-pack",
+    "name": "Excalibur",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "4-inch shells · 24-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=JMnZhWxQXsQ",
+    "slug": "excalibur-24-pack",
+    "image": "/images/products/excalibur-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 245,
+    "storeCodes": [
+      {
+        "token": "KLAC5WRPOD32YE2RHQYR5D5T",
+        "sku": "8052530140116",
+        "gtin": "",
+        "sourceRow": 344
+      }
+    ]
+  },
+  {
+    "id": "flag-missile-200",
+    "name": "Flag Missile Battery",
+    "brand": "Firehawk",
+    "category": "Missiles",
+    "presentation": "200 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=IILa-qOFHj4",
+    "slug": "flag-missile-200",
+    "image": "/images/products/flag-missile-200.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 246,
+    "storeCodes": [
+      {
+        "token": "7ESPDX7VV2UTIDYELFY6DLBY",
+        "sku": "100000208717",
+        "gtin": "",
+        "sourceRow": 367
+      }
+    ]
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "brand": "World-Class",
+    "category": "200g Cakes",
+    "presentation": "16 shots · 200 gram",
+    "previewVideo": "",
+    "slug": "hot-dog",
+    "image": "/images/products/hot-dog.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 247,
+    "storeCodes": [
+      {
+        "token": "XJZEMQJXB5U2J6MBX7XQ6PCY",
+        "sku": "8052531342212",
+        "gtin": "",
+        "sourceRow": 459
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "howler-fountain",
+    "name": "Howler",
+    "brand": "Cutting Edge",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=H3wzaUcduE0",
+    "slug": "howler-fountain",
+    "image": "/images/products/howler-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 248,
+    "storeCodes": [
+      {
+        "token": "MKMB5MPSXF6UVGVQ3RMXR4EH",
+        "sku": "8145270114711",
+        "gtin": "",
+        "sourceRow": 464
+      }
+    ]
+  },
+  {
+    "id": "junior-pyro-pack-sky-bacon",
+    "name": "Junior Pyro Pack",
+    "brand": "Sky Bacon",
+    "category": "Assortments",
+    "presentation": "Blue backpack · Safe & Sane assortment",
+    "previewVideo": "",
+    "slug": "junior-pyro-pack-sky-bacon",
+    "image": "/images/products/junior-pyro-pack-sky-bacon.webp",
+    "imageWidths": [
+      320,
+      480,
+      480
+    ],
+    "featured": false,
+    "sortOrder": 250,
+    "storeCodes": [
+      {
+        "token": "CLEPS4WYDO4XJDMUPA2CKO23",
+        "sku": "193936959969",
+        "gtin": "",
+        "sourceRow": 517
+      }
+    ]
+  },
+  {
+    "id": "killer-bees-4-pack",
+    "name": "Killer Bees",
+    "brand": "Sky Bacon",
+    "category": "Fountains",
+    "presentation": "4-pack",
+    "previewVideo": "",
+    "slug": "killer-bees-4-pack",
+    "image": "/images/products/killer-bees-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 251,
+    "storeCodes": [
+      {
+        "token": "BZP7WM6U5DGAMNC6KELDK7KF",
+        "sku": "816597940465",
+        "gtin": "",
+        "sourceRow": 521
+      }
+    ]
+  },
+  {
+    "id": "m-200-salute-12-pack",
+    "name": "M-200 Salute",
+    "brand": "Sky Bacon",
+    "category": "Firecrackers",
+    "presentation": "12-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=64_aVUWVDpc",
+    "slug": "m-200-salute-12-pack",
+    "image": "/images/products/m-200-salute-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 252,
+    "storeCodes": [
+      {
+        "token": "33DEEREZKI62DJXZO7UKLFFK",
+        "sku": "816597923727",
+        "gtin": "",
+        "sourceRow": 554
+      }
+    ]
+  },
+  {
+    "id": "m-5000-world-class-12-pack",
+    "name": "M-5000 Salute Crackers",
+    "brand": "World-Class",
+    "category": "Firecrackers",
+    "presentation": "12-pack",
+    "previewVideo": "",
+    "slug": "m-5000-world-class-12-pack",
+    "image": "/images/products/m-5000-world-class-12-pack.webp",
+    "imageWidths": [
+      320,
+      358,
+      358
+    ],
+    "featured": false,
+    "sortOrder": 253,
+    "storeCodes": [
+      {
+        "token": "WXWPSN4ND2Z3WGEC2GAJCWE6",
+        "sku": "8052530020319",
+        "gtin": "",
+        "sourceRow": 556
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Firecrackers",
+      "sourceTokens": [
+        "WXWPSN4ND2Z3WGEC2GAJCWE6"
+      ]
+    }
+  },
+  {
+    "id": "m-5000-cutting-edge-12-pack",
+    "name": "M-5000 Salute Crackers",
+    "brand": "Cutting Edge",
+    "category": "Firecrackers",
+    "presentation": "12-pack",
+    "previewVideo": "",
+    "slug": "m-5000-cutting-edge-12-pack",
+    "image": "/images/products/m-5000-cutting-edge-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 254,
+    "storeCodes": [
+      {
+        "token": "3NQOHAQKGQEEURIQHZHJ4DRU",
+        "sku": "8145270103616",
+        "gtin": "",
+        "sourceRow": 557
+      }
+    ]
+  },
+  {
+    "id": "major-mojo",
+    "name": "Major Mojo",
+    "brand": "World-Class",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "major-mojo",
+    "image": "/images/products/major-mojo.webp",
+    "imageWidths": [
+      320,
+      432,
+      432
+    ],
+    "featured": false,
+    "sortOrder": 255,
+    "storeCodes": [
+      {
+        "token": "QHR2H5KR63JK43L2NX2HHNCI",
+        "sku": "",
+        "gtin": "805253396814",
+        "sourceRow": 576
+      }
+    ]
+  },
+  {
+    "id": "mexican-jumping-beans",
+    "name": "Mexican Jumping Beans",
+    "brand": "Red Rhino",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=YwVN6LjTX6M",
+    "slug": "mexican-jumping-beans",
+    "image": "/images/products/mexican-jumping-beans.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 256,
+    "storeCodes": [
+      {
+        "token": "TCGFJ3MNAOY5DEHCFZ2BL2R5",
+        "sku": "8143270144011",
+        "gtin": "",
+        "sourceRow": 592
+      }
+    ]
+  },
+  {
+    "id": "morning-glory-144-cutting-edge",
+    "name": "14-inch Morning Glory",
+    "brand": "Cutting Edge",
+    "category": "Sparklers",
+    "presentation": "14-inch sparklers · 144-count box",
+    "previewVideo": "",
+    "slug": "morning-glory-144-cutting-edge",
+    "image": "/images/products/morning-glory-144-cutting-edge.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 257,
+    "storeCodes": [
+      {
+        "token": "AV5JMGED5UC4OG7NH7O7O47E",
+        "sku": "8145270180211",
+        "gtin": "",
+        "sourceRow": 607
+      }
+    ]
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells · 6-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=K8poHnGn55w",
+    "slug": "nishiki-blast-6-pack",
+    "image": "/images/products/nishiki-blast-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 258,
+    "storeCodes": [
+      {
+        "token": "A5QPAZSLHSGWWLVXOQIFPISG",
+        "sku": "757201306034",
+        "gtin": "",
+        "sourceRow": 644
+      }
+    ]
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "name": "One Bad Mother-In-Law",
+    "brand": "World-Class",
+    "category": "500g Cakes",
+    "presentation": "16 shots · 500 gram",
+    "previewVideo": "https://www.youtube.com/watch?v=RCZOKivGERU",
+    "slug": "one-bad-mother-in-law",
+    "image": "/images/products/one-bad-mother-in-law.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 259,
+    "storeCodes": [
+      {
+        "token": "D2NK6VMC6V5Q6F7UV5RP7HCA",
+        "sku": "8052531503712",
+        "gtin": "",
+        "sourceRow": 653
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "pizza-platter",
+    "name": "Pizza Platter",
+    "brand": "Winda",
+    "category": "Cake Packs",
+    "presentation": "6 cakes · 15 shots per cake",
+    "previewVideo": "https://www.youtube.com/watch?v=dKCirafSi6s",
+    "slug": "pizza-platter",
+    "image": "/images/products/pizza-platter.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 260,
+    "storeCodes": [
+      {
+        "token": "RG25535S4I3QWL6XUOT4SJVP",
+        "sku": "705108955640",
+        "gtin": "",
+        "sourceRow": 688
+      }
+    ],
+    "saleUnit": "pack",
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "poopy-puppy",
+    "name": "Poopy Puppy",
+    "brand": "Boomer",
+    "category": "Novelties",
+    "previewVideo": "",
+    "slug": "poopy-puppy",
+    "image": "/images/products/poopy-puppy.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 261,
+    "storeCodes": [
+      {
+        "token": "UGWD5ORMIP3Z4SNOJNKZLSXD",
+        "sku": "8052530222713",
+        "gtin": "",
+        "sourceRow": 692
+      }
+    ]
+  },
+  {
+    "id": "pyro-princess-pack",
+    "name": "Pyro Princess Pack",
+    "brand": "Sky Bacon",
+    "category": "Assortments",
+    "presentation": "Pink backpack · Safe & Sane assortment",
+    "previewVideo": "",
+    "slug": "pyro-princess-pack",
+    "image": "/images/products/pyro-princess-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      480
+    ],
+    "featured": false,
+    "sortOrder": 262,
+    "storeCodes": [
+      {
+        "token": "D54L65LWKBKYAUHHVM6QNA6L",
+        "sku": "193936959976",
+        "gtin": "",
+        "sourceRow": 733
+      }
+    ]
+  },
+  {
+    "id": "jumbo-crackling-balls-3-pack",
+    "name": "Jumbo Crackling Balls",
+    "brand": "Sky Bacon",
+    "category": "Novelties",
+    "presentation": "3-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=OVKxVJw9H5o",
+    "slug": "jumbo-crackling-balls-3-pack",
+    "image": "/images/products/jumbo-crackling-balls-3-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 263,
+    "storeCodes": [
+      {
+        "token": "MKPXTJVO2ZN76CBI5QC3BF66",
+        "sku": "800000151227",
+        "gtin": "",
+        "sourceRow": 740
+      }
+    ]
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "name": "Raccoon 5-inch Canister Shells",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells · 24-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=VNKj9MZJL5k",
+    "slug": "raccoon-5-inch-24-pack",
+    "image": "/images/products/raccoon-5-inch-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      563
+    ],
+    "featured": false,
+    "sortOrder": 264,
+    "storeCodes": [
+      {
+        "token": "EFZMXOBWHIVMSUS6YEKZLHZW",
+        "sku": "757201324014",
+        "gtin": "",
+        "sourceRow": 741
+      }
+    ]
+  },
+  {
+    "id": "american-saturn-missile-300",
+    "name": "American Saturn Missile Battery",
+    "brand": "World-Class",
+    "category": "Missiles",
+    "presentation": "300 shots",
+    "previewVideo": "",
+    "slug": "american-saturn-missile-300",
+    "image": "/images/products/american-saturn-missile-300.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 265,
+    "storeCodes": [
+      {
+        "token": "ADK4WL4CCEYTQAWKHGAW2QDM",
+        "sku": "8052531311515",
+        "gtin": "",
+        "sourceRow": 789
+      }
+    ]
+  },
+  {
+    "id": "stars-and-stripes-assortment",
+    "name": "Stars and Stripes",
+    "brand": "World-Class",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "stars-and-stripes-assortment",
+    "image": "/images/products/stars-and-stripes-assortment.webp",
+    "imageWidths": [
+      320,
+      429,
+      429
+    ],
+    "featured": false,
+    "sortOrder": 266,
+    "storeCodes": [
+      {
+        "token": "BD7G6JJ3PMQ6UGFJDF64A2XL",
+        "sku": "8052530040416",
+        "gtin": "",
+        "sourceRow": 856
+      }
+    ]
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "name": "Super Cakes",
+    "brand": "Happy Family",
+    "category": "Cake Packs",
+    "presentation": "4 cakes",
+    "previewVideo": "https://www.youtube.com/watch?v=Pd_OvuU93nQ",
+    "slug": "super-cakes-4-pack",
+    "image": "/images/products/super-cakes-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 267,
+    "manufacturerCode": "JLAS500-1",
+    "storeCodes": [
+      {
+        "token": "FZ4UOHXN2PATZIU7FO7IYHQR",
+        "sku": "202112120298",
+        "gtin": "",
+        "sourceRow": 872
+      }
+    ],
+    "saleUnit": "pack",
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "12 shells",
+    "previewVideo": "",
+    "slug": "super-magnum-12-pack",
+    "image": "/images/products/super-magnum-12-pack.webp",
+    "imageWidths": [
+      320,
+      408,
+      408
+    ],
+    "featured": false,
+    "sortOrder": 268,
+    "storeCodes": [
+      {
+        "token": "TAESPIMBJC3BD7QYPG2HVSW4",
+        "sku": "8052530140819",
+        "gtin": "",
+        "sourceRow": 874
+      }
+    ]
+  },
+  {
+    "id": "the-king-assortment",
+    "name": "The King",
+    "brand": "World-Class",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "the-king-assortment",
+    "image": "/images/products/the-king-assortment.webp",
+    "imageWidths": [
+      320,
+      407,
+      407
+    ],
+    "featured": false,
+    "sortOrder": 269,
+    "storeCodes": [
+      {
+        "token": "YY2252GSY24VXZARC2U6X6BL",
+        "sku": "8052530040119",
+        "gtin": "",
+        "sourceRow": 895
+      }
+    ]
+  },
+  {
+    "id": "tomahawk-missile",
+    "name": "Tomahawk Missile",
+    "brand": "World-Class",
+    "category": "Missiles",
+    "presentation": "12-inch missile",
+    "previewVideo": "https://www.youtube.com/watch?v=BRkcysNW5HA",
+    "slug": "tomahawk-missile",
+    "image": "/images/products/tomahawk-missile.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 270,
+    "storeCodes": [
+      {
+        "token": "MPDVJ42G6H7A2ORWCX3DJGXI",
+        "sku": "8052530152218",
+        "gtin": "",
+        "sourceRow": 911
+      }
+    ]
+  },
+  {
+    "id": "torpedo-snappers",
+    "name": "Torpedo Snappers",
+    "brand": "Black Cat",
+    "category": "Novelties",
+    "presentation": "20-count box",
+    "previewVideo": "",
+    "slug": "torpedo-snappers",
+    "image": "/images/products/torpedo-snappers.webp",
+    "imageWidths": [
+      320,
+      480,
+      538
+    ],
+    "featured": false,
+    "sortOrder": 271,
+    "storeCodes": [
+      {
+        "token": "RINS3N3B7E4VFFP6N7JHNLEC",
+        "sku": "652009003454",
+        "gtin": "",
+        "sourceRow": 913
+      }
+    ]
+  },
+  {
+    "id": "unicorn-chaser-2-pack",
+    "name": "Unicorn Chaser",
+    "brand": "Sky Bacon",
+    "category": "Novelties",
+    "presentation": "2-pack",
+    "previewVideo": "",
+    "slug": "unicorn-chaser-2-pack",
+    "image": "/images/products/unicorn-chaser-2-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 272,
+    "storeCodes": [
+      {
+        "token": "DXLAVO75BIV7EE5NVWMNZOG7",
+        "sku": "680149048431",
+        "gtin": "",
+        "sourceRow": 935
+      }
+    ],
+    "bogo": {
+      "eligibilityStatus": "pending",
+      "evidenceStatus": "source-marked",
+      "promotionId": "bogo-store",
+      "group": "Novelties",
+      "sourceTokens": [
+        "DXLAVO75BIV7EE5NVWMNZOG7"
+      ]
+    }
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "name": "United We Stand",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "48 shells · 84 breaks",
+    "previewVideo": "https://www.youtube.com/watch?v=FpmloMND3wY",
+    "slug": "united-we-stand-48-pack",
+    "image": "/images/products/united-we-stand-48-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 273,
+    "storeCodes": [
+      {
+        "token": "LLYFGENB2BOJMKH4BIIMI7O7",
+        "sku": "8052530142714",
+        "gtin": "",
+        "sourceRow": 937
+      }
+    ]
+  },
+  {
+    "id": "vertical-limit",
+    "name": "Vertical Limit",
+    "brand": "Cutting Edge",
+    "category": "200g Cakes",
+    "presentation": "16 shots · 200 gram",
+    "previewVideo": "https://www.youtube.com/watch?v=vbqaM8cz2ZE",
+    "slug": "vertical-limit",
+    "image": "/images/products/vertical-limit.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 274,
+    "storeCodes": [
+      {
+        "token": "53PY236TSO7UAIDCPQL23F4D",
+        "sku": "8145270145913",
+        "gtin": "",
+        "sourceRow": 942
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "viva-mexico",
+    "name": "Viva Mexico",
+    "brand": "Sky Bacon",
+    "category": "500g Cakes",
+    "presentation": "19 shots · 500 gram",
+    "previewVideo": "https://www.youtube.com/watch?v=4DyNqNq3Rtk",
+    "slug": "viva-mexico",
+    "image": "/images/products/viva-mexico.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 275,
+    "storeCodes": [
+      {
+        "token": "GRLCY6BUJIQP24563LEUEXK4",
+        "sku": "800000323105",
+        "gtin": "",
+        "sourceRow": 947
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "watermelon-ninja",
+    "name": "Watermelon Ninja",
+    "brand": "Sky Bacon",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=W-DZEcV-t9A",
+    "slug": "watermelon-ninja",
+    "image": "/images/products/watermelon-ninja.webp",
+    "imageWidths": [
+      320,
+      480,
+      631
+    ],
+    "featured": false,
+    "sortOrder": 276,
+    "storeCodes": [
+      {
+        "token": "Y67YAJM4MTK2Q3WK6TKIAQSU",
+        "sku": "705108915040",
+        "gtin": "",
+        "sourceRow": 958
+      }
+    ]
+  },
+  {
+    "id": "what-boys-are-made-of",
+    "name": "What Boys Are Made Of",
+    "brand": "World-Class",
+    "category": "Assortments",
+    "presentation": "Backpack assortment",
+    "previewVideo": "",
+    "slug": "what-boys-are-made-of",
+    "image": "/images/products/what-boys-are-made-of.webp",
+    "imageWidths": [
+      320,
+      480,
+      504
+    ],
+    "featured": false,
+    "sortOrder": 277,
+    "storeCodes": [
+      {
+        "token": "MM3BLPBIRXKHJ5V4YE4XWPAQ",
+        "sku": "8052530044216",
+        "gtin": "",
+        "sourceRow": 966
+      }
+    ]
+  },
+  {
+    "id": "whats-that",
+    "name": "What's That!?!",
+    "brand": "Sky Bacon",
+    "category": "500g Cakes",
+    "presentation": "Cake and girandola",
+    "previewVideo": "https://www.youtube.com/watch?v=L2WsPuS3AI8",
+    "slug": "whats-that",
+    "image": "/images/products/whats-that.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 278,
+    "storeCodes": [
+      {
+        "token": "FLN6Q2HNLPI5J536VFRX5FV3",
+        "sku": "674662504420",
+        "gtin": "",
+        "sourceRow": 967
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "frog-princess",
+    "name": "Frog Princess",
+    "brand": "World-Class",
+    "category": "Fountains",
+    "presentation": "Pink frog fountain",
+    "previewVideo": "",
+    "slug": "frog-princess",
+    "image": "/images/products/frog-princess.webp",
+    "imageWidths": [
+      320,
+      480,
+      624
+    ],
+    "featured": false,
+    "sortOrder": 279,
+    "storeCodes": [
+      {
+        "token": "DXJSL22TCSMUGGQINAP24X5T",
+        "sku": "8052531144915",
+        "gtin": "",
+        "sourceRow": 1011
+      }
+    ]
+  },
+  {
+    "id": "frog-prince",
+    "name": "Frog Prince",
+    "brand": "World-Class",
+    "category": "Fountains",
+    "presentation": "Green frog fountain",
+    "previewVideo": "https://www.youtube.com/watch?v=X0bY7OMXY8c",
+    "slug": "frog-prince",
+    "image": "/images/products/frog-prince.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 280,
+    "storeCodes": [
+      {
+        "token": "C5IJRH4ATYMQXYAVEYHQW35A",
+        "sku": "8052531137719",
+        "gtin": "",
+        "sourceRow": 1012
+      }
+    ]
+  },
+  {
+    "id": "goliath-36-shells",
+    "name": "Goliath",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "36 shells",
+    "previewVideo": "",
+    "slug": "goliath-36-shells",
+    "image": "/images/products/goliath-36-shells.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 281,
+    "storeCodes": [
+      {
+        "token": "4RIXDLTM62EP3YANE6EI3ISQ",
+        "sku": "805253026520",
+        "gtin": "",
+        "sourceRow": 1015
+      }
+    ]
+  },
+  {
+    "id": "hoot-hoot-hooray",
+    "name": "Hoot Hoot Hooray!",
+    "brand": "Winda",
+    "category": "Fountains",
+    "previewVideo": "https://www.youtube.com/watch?v=sXjHknnfVe8",
+    "slug": "hoot-hoot-hooray",
+    "image": "/images/products/hoot-hoot-hooray.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 282,
+    "storeCodes": [
+      {
+        "token": "4OVKMNYNTWXUH5ITGCIUIWW5",
+        "sku": "705108321902",
+        "gtin": "",
+        "sourceRow": 1020
+      }
+    ]
+  },
+  {
+    "id": "smoke-crayon-8-pack",
+    "name": "Smoke Crayon",
+    "brand": "Sky Bacon",
+    "category": "Smoke",
+    "presentation": "8-pack · Assorted colors",
+    "previewVideo": "https://www.youtube.com/watch?v=-fB_WRXNjRo",
+    "slug": "smoke-crayon-8-pack",
+    "image": "/images/products/smoke-crayon-8-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 283,
+    "storeCodes": [
+      {
+        "token": "JHSEIAM24BK6XQH6KT7HOR6W",
+        "sku": "674662505397",
+        "gtin": "",
+        "sourceRow": 1049
+      }
+    ]
+  },
+  {
+    "id": "openfire",
+    "name": "Openfire",
+    "brand": "Brothers",
+    "category": "500g Cakes",
+    "presentation": "33 shots · 500 gram",
+    "manufacturerCode": "BP2086",
+    "previewVideo": "https://www.youtube.com/watch?v=_0OpXDqUtwE",
+    "slug": "openfire",
+    "image": "/images/products/openfire.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 284,
+    "storeCodes": [
+      {
+        "token": "4QSJROFXXZ4LS3FKPOCQLOWI",
+        "sku": "687985208616",
+        "gtin": "",
+        "sourceRow": 655
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 500
+    }
+  },
+  {
+    "id": "pure-fantasy",
+    "name": "Pure Fantasy",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "manufacturerCode": "BP4264",
+    "previewVideo": "https://www.youtube.com/watch?v=9adEvQcSx94",
+    "slug": "pure-fantasy",
+    "image": "/images/products/pure-fantasy.webp",
+    "imageWidths": [
+      320,
+      480,
+      589
+    ],
+    "featured": false,
+    "sortOrder": 285,
+    "storeCodes": [
+      {
+        "token": "K3CPITE3BIQOUTBNOLKATW72",
+        "sku": "687985426416",
+        "gtin": "",
+        "sourceRow": 709
+      }
+    ]
+  },
+  {
+    "id": "secret-vault",
+    "name": "Secret Vault",
+    "brand": "Brothers",
+    "category": "Assortments",
+    "manufacturerCode": "BP-A122",
+    "previewVideo": "https://www.youtube.com/watch?v=a7MKz9ew5zI",
+    "slug": "secret-vault",
+    "image": "/images/products/secret-vault.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 286,
+    "storeCodes": [
+      {
+        "token": "IDRRN7PXEHU5ESAIDFWNUFCC",
+        "sku": "687985912209",
+        "gtin": "",
+        "sourceRow": 796
+      }
+    ]
+  },
+  {
+    "id": "skybolt-rockets-5-pack",
+    "name": "Skybolt",
+    "brand": "Brothers",
+    "category": "Rockets",
+    "presentation": "5 rockets",
+    "manufacturerCode": "BP1217",
+    "previewVideo": "https://www.youtube.com/watch?v=UOJQVjB-d4w",
+    "slug": "skybolt-rockets-5-pack",
+    "image": "/images/products/skybolt-rockets-5-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 287,
+    "storeCodes": [
+      {
+        "token": "LCUKICYEVG6O6GGZEFQMVWYJ",
+        "sku": "687985121717",
+        "gtin": "",
+        "sourceRow": 814
+      }
+    ]
+  },
+  {
+    "id": "super-sword",
+    "name": "Super Sword",
+    "brand": "Brothers",
+    "category": "Fountains",
+    "presentation": "Handheld fountain",
+    "manufacturerCode": "BP4340",
+    "previewVideo": "https://www.youtube.com/watch?v=O5VoX2zvR6Y",
+    "slug": "super-sword",
+    "image": "/images/products/super-sword.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 288,
+    "storeCodes": [
+      {
+        "token": "AHKZ7C7WXML7I5RH7EVVP3NV",
+        "sku": "687985434015",
+        "gtin": "",
+        "sourceRow": 876
+      }
+    ]
+  },
+  {
+    "id": "gatlin-pack",
+    "name": "Gatlin Pack",
+    "brand": "Black Cat",
+    "category": "Roman Candles",
+    "presentation": "8 candles · 5 shots per candle · Includes launch tube",
+    "previewVideo": "https://www.youtube.com/watch?v=a-6idzB4GjU",
+    "slug": "gatlin-pack",
+    "image": "/images/products/gatlin-pack.webp",
+    "imageWidths": [
+      320,
+      322,
+      322
+    ],
+    "featured": false,
+    "sortOrder": 289,
+    "storeCodes": [
+      {
+        "token": "S27B6LDFK4CFX5ZLTUT7BE3Z",
+        "sku": "715244005055",
+        "gtin": "",
+        "sourceRow": 404
+      }
+    ]
+  },
+  {
+    "id": "goal-fountain",
+    "name": "Goal",
+    "brand": "Fox",
+    "category": "Fountains",
+    "presentation": "Soccer ball fountain",
+    "previewVideo": "",
+    "slug": "goal-fountain",
+    "image": "/images/products/goal-fountain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 290,
+    "storeCodes": [
+      {
+        "token": "4L7HAUXUJ733VND4WOHYQ5NN",
+        "sku": "514677002200",
+        "gtin": "",
+        "sourceRow": 417
+      }
+    ]
+  },
+  {
+    "id": "patriotic-fury",
+    "name": "Patriotic Fury",
+    "brand": "Fox",
+    "category": "Roman Candles",
+    "presentation": "250 shots",
+    "previewVideo": "",
+    "slug": "patriotic-fury",
+    "image": "/images/products/patriotic-fury.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 291,
+    "storeCodes": [
+      {
+        "token": "6Q5EU5MTXGXJTDIOWHLDA6L2",
+        "sku": "",
+        "gtin": "514677005027",
+        "sourceRow": 675
+      }
+    ]
+  },
+  {
+    "id": "silent-treatment",
+    "name": "Silent Treatment",
+    "brand": "Fox",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "silent-treatment",
+    "image": "/images/products/silent-treatment.webp",
+    "imageWidths": [
+      320,
+      480,
+      594
+    ],
+    "featured": false,
+    "sortOrder": 292,
+    "description": "Red flames lead into silver sprays, colorful fish effects and chrysanthemums with red, green and yellow stars.",
+    "storeCodes": [
+      {
+        "token": "44TDILAVET7KFW3RUYZOHEBZ",
+        "sku": "514677002255",
+        "gtin": "",
+        "sourceRow": 805
+      }
+    ]
+  },
+  {
+    "id": "black-cat-missile-base-100",
+    "name": "100 Shot Missile Base",
+    "brand": "Black Cat",
+    "category": "Missiles",
+    "presentation": "100 shots",
+    "previewVideo": "",
+    "slug": "black-cat-missile-base-100",
+    "image": "/images/products/black-cat-missile-base-100.webp",
+    "imageWidths": [
+      291,
+      291,
+      291
+    ],
+    "featured": false,
+    "sortOrder": 293,
+    "storeCodes": [
+      {
+        "token": "U3PPF3HY5PVYEJ3EA2TQTIWV",
+        "sku": "715244006809",
+        "gtin": "",
+        "sourceRow": 165
+      }
+    ]
+  },
+  {
+    "id": "black-cat-night-display",
+    "name": "Night Display",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "black-cat-night-display",
+    "image": "/images/products/black-cat-night-display.webp",
+    "imageWidths": [
+      320,
+      480,
+      633
+    ],
+    "featured": false,
+    "sortOrder": 294,
+    "storeCodes": [
+      {
+        "token": "TT2SFUZFZHFHXAQHVH2RAWZM",
+        "sku": "715244000012",
+        "gtin": "",
+        "sourceRow": 218
+      }
+    ]
+  },
+  {
+    "id": "black-cat-party-pack-4",
+    "name": "Party Pack 4",
+    "brand": "Black Cat",
+    "category": "Assortments",
+    "previewVideo": "",
+    "slug": "black-cat-party-pack-4",
+    "image": "/images/products/black-cat-party-pack-4.webp",
+    "imageWidths": [
+      305,
+      305,
+      305
+    ],
+    "featured": false,
+    "sortOrder": 295,
+    "storeCodes": [
+      {
+        "token": "EROQU5GO4XDUEGIESZCKSHZE",
+        "sku": "l",
+        "gtin": "715244001002",
+        "sourceRow": 219
+      }
+    ]
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "name": "Black Cat Combo Cakes",
+    "brand": "Black Cat",
+    "category": "Cake Packs",
+    "presentation": "4 cakes · 15 shots per cake",
+    "previewVideo": "",
+    "slug": "black-cat-combo-cakes",
+    "image": "/images/products/black-cat-combo-cakes.webp",
+    "imageWidths": [
+      320,
+      367,
+      367
+    ],
+    "featured": false,
+    "sortOrder": 296,
+    "storeCodes": [
+      {
+        "token": "C7MGH6L5OBMU2I7P6XRLCCYG",
+        "sku": "715244963935",
+        "gtin": "",
+        "sourceRow": 221
+      }
+    ],
+    "saleUnit": "pack",
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "dragon-fire-black-cat",
+    "name": "Dragon Fire",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "presentation": "Dragon-shaped novelty fountain",
+    "previewVideo": "",
+    "slug": "dragon-fire-black-cat",
+    "image": "/images/products/dragon-fire-black-cat.webp",
+    "imageWidths": [
+      320,
+      407,
+      407
+    ],
+    "featured": false,
+    "sortOrder": 297,
+    "storeCodes": [
+      {
+        "token": "CVUYVGDATU552XE7223KCXM7",
+        "sku": "811451015150",
+        "gtin": "",
+        "sourceRow": 332
+      }
+    ]
+  },
+  {
+    "id": "hot-sauce",
+    "name": "Hot Sauce",
+    "brand": "Black Cat",
+    "category": "Fountains",
+    "previewVideo": "",
+    "slug": "hot-sauce",
+    "image": "/images/products/hot-sauce.webp",
+    "imageWidths": [
+      320,
+      335,
+      335
+    ],
+    "featured": false,
+    "sortOrder": 298,
+    "storeCodes": [
+      {
+        "token": "FXE5QLUXVHWMCQYDRZA6DWMA",
+        "sku": "715244021970",
+        "gtin": "",
+        "sourceRow": 462
+      }
+    ]
+  },
+  {
+    "id": "black-cat-assorted-snakes",
+    "name": "Assorted Snakes",
+    "brand": "Black Cat",
+    "category": "Novelties",
+    "presentation": "6 boxes · Black snakes, colored snakes and glow worms",
+    "previewVideo": "",
+    "slug": "black-cat-assorted-snakes",
+    "image": "/images/products/black-cat-assorted-snakes.webp",
+    "imageWidths": [
+      320,
+      335,
+      335
+    ],
+    "featured": false,
+    "sortOrder": 299,
+    "storeCodes": [
+      {
+        "token": "CLCR26IVZCUSZQQ54T4PIWIO",
+        "sku": "715244003440",
+        "gtin": "",
+        "sourceRow": 834
+      }
+    ]
+  },
+  {
+    "id": "black-cat-1000-roll",
+    "name": "Black Cat 1000 Roll",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "1000-count roll",
+    "previewVideo": "",
+    "slug": "black-cat-1000-roll",
+    "image": "/images/products/black-cat-1000-roll.webp",
+    "imageWidths": [
+      320,
+      480,
+      514
+    ],
+    "featured": false,
+    "sortOrder": 300,
+    "storeCodes": [
+      {
+        "token": "63W6GHULIGTKDUDEOJI2ATNP",
+        "sku": "715244111107",
+        "gtin": "",
+        "sourceRow": 186
+      }
+    ]
+  },
+  {
+    "id": "dreams-from-heaven",
+    "name": "Dreams from Heaven",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 25 shots",
+    "manufacturerCode": "RA22010",
+    "previewVideo": "",
+    "slug": "dreams-from-heaven",
+    "image": "/images/products/dreams-from-heaven.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 301,
+    "storeCodes": [
+      {
+        "token": "PQP2GSG52X57UH5U4X4ATBUH",
+        "sku": "757201220101",
+        "gtin": "",
+        "sourceRow": 333
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "pirate-captain",
+    "name": "Pirate Captain",
+    "brand": "Raccoon",
+    "category": "200g Cakes",
+    "presentation": "200 gram · 21 shots",
+    "manufacturerCode": "RA22518",
+    "previewVideo": "",
+    "slug": "pirate-captain",
+    "image": "/images/products/pirate-captain.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 302,
+    "storeCodes": [
+      {
+        "token": "7NIKJPUYYNEFFUPR4OAZ5TLP",
+        "sku": "757201225182",
+        "gtin": "",
+        "sourceRow": 685
+      }
+    ],
+    "cakeClass": {
+      "status": "confirmed",
+      "grams": 200
+    }
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "name": "Ring of Honor",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells · 6-pack",
+    "manufacturerCode": "RA30605",
+    "previewVideo": "",
+    "slug": "ring-of-honor-6-pack",
+    "image": "/images/products/ring-of-honor-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 303,
+    "storeCodes": [
+      {
+        "token": "DVZ5SA2JXOMIZGASFEHJGIR3",
+        "sku": "757201306058",
+        "gtin": "",
+        "sourceRow": 757
+      }
+    ]
+  },
+  {
+    "id": "party-sparklers-4-pack",
+    "name": "Party Sparklers",
+    "brand": "Winda",
+    "category": "Sparklers",
+    "presentation": "4-pack",
+    "manufacturerCode": "P9012",
+    "previewVideo": null,
+    "slug": "party-sparklers-4-pack",
+    "image": "/images/products/party-sparklers-4-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      500
+    ],
+    "featured": false,
+    "sortOrder": 304,
+    "storeCodes": [
+      {
+        "token": "ANW2NNK77LR3WPA2LXT3TGB4",
+        "sku": "705108901203",
+        "gtin": "",
+        "sourceRow": 1042
+      }
+    ]
   }
 ]

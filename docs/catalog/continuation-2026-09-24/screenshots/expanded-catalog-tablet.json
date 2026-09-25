@@ -1,0 +1,39 @@
+{
+  "loadStates": [
+    "301 products · Showing 24",
+    "301 products · Showing 36",
+    "301 products · Showing 48",
+    "301 products · Showing 60",
+    "301 products · Showing 72",
+    "301 products · Showing 84",
+    "301 products · Showing 96",
+    "301 products · Showing 108",
+    "301 products · Showing 120",
+    "301 products · Showing 132",
+    "301 products · Showing 144",
+    "301 products · Showing 156",
+    "301 products · Showing 168",
+    "301 products · Showing 180",
+    "301 products · Showing 192",
+    "301 products · Showing 204",
+    "301 products · Showing 216",
+    "301 products · Showing 228",
+    "301 products · Showing 240",
+    "301 products · Showing 252",
+    "301 products · Showing 264",
+    "301 products · Showing 276",
+    "301 products · Showing 288",
+    "301 products · Showing 300",
+    "301 products · Showing 301"
+  ],
+  "cardSizes": [
+    "230x464"
+  ],
+  "cards": 301,
+  "loadedImages": 301,
+  "overflow": false,
+  "viewport": {
+    "height": 1180,
+    "width": 820
+  }
+}

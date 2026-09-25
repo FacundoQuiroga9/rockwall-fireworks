@@ -1,0 +1,34 @@
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { addProduct, addPromotion, assessList, emptyList, setBogoPartner, startBogo } from '../../src/shared/myList.js';
+import { createListPdf } from '../../src/shared/listPdf.js';
+const read = (p) => JSON.parse(readFileSync(p, 'utf8'));
+const products = read('src/data/products.json');
+const promotions = read('src/data/promotions.json');
+const thumbnails = read('src/data/pdfThumbnails.json');
+const get = (id) => products.find((p) => p.id === id);
+const generatedAt = new Date().toISOString();
+const out = resolve('output/pdf'); mkdirSync(out, {recursive: true});
+let list = addProduct(emptyList(), get('black-cat-200-pack'));
+list = startBogo(list, list.groups[0].id, products, promotions[0]);
+list = setBogoPartner(list, list.groups[0].id, get('m-5000-world-class-12-pack'), products, promotions[0]);
+for (const p of products.slice(0, 19)) list = addProduct(list, p, p.featured ? 2 : 1);
+for (const id of ['silent-treatment', 'black-cat-combo-cakes', 'party-sparklers-4-pack']) list = addProduct(list, get(id));
+const assessment = assessList(list, products, promotions);
+writeFileSync(resolve(out, 'my-list-with-photos.pdf'), createListPdf(assessment, {generatedAt, thumbnails}));
+writeFileSync(resolve(out, 'my-list-no-photos.pdf'), createListPdf(assessment, {generatedAt}));
+// A conspicuously labelled layout fixture tests confirmed allocations without
+// turning any unverified real Rockwall promotion into an active campaign.
+const fake = { ...promotions[0], id: 'test-only-bogo', name: 'TEST ONLY BOGO', status: 'confirmed', revision: 'test', validityConfirmed: true, validFrom: null, validThrough: null, priceRule: 'customer-choice', limitsConfirmed: true, stackingConfirmed: true, conditions: ['TEST ONLY. Synthetic layout fixture; not a Rockwall offer.'] };
+const fixtures = [get('black-cat-200-pack'), get('m-5000-world-class-12-pack'), ...products.slice(17, 41)].map((p, i) => ({ ...p, name: `TEST ONLY ${i === 0 ? 'A very long package name with multiple presentation details and identifiers for print wrapping - ' : ''}${p.name}`, bogo: { eligibilityStatus: 'verified', evidenceStatus: 'source-marked', promotionId: fake.id, group: p.category, sourceTokens: ['test'] } }));
+const choice = { ...fake, id: 'test-only-choice', name: 'TEST ONLY Choose Three', kind: 'choice', requiredQuantity: 3, eligibleIds: fixtures.slice(2, 5).map((p) => p.id) };
+const fixed = { ...choice, id: 'test-only-fixed', name: 'TEST ONLY fixed package', kind: 'fixed', components: fixtures.slice(2, 5).map((p) => ({ productId: p.id, quantity: 1 })) };
+let testList = addProduct(emptyList(), fixtures[0]);
+testList = startBogo(testList, testList.groups[0].id, fixtures, fake);
+testList = setBogoPartner(testList, testList.groups[0].id, fixtures[1], fixtures, fake);
+testList = addPromotion(testList, choice, fixtures, choice.eligibleIds.map((productId) => ({productId, quantity: 1})));
+testList = addPromotion(testList, fixed, fixtures, []);
+for (const p of fixtures.slice(5)) testList = addProduct(testList, p);
+writeFileSync(resolve(out, 'promotion-layout-test.pdf'), createListPdf(assessList(testList, fixtures, [fake, choice, fixed]), { generatedAt, thumbnails, title: 'TEST ONLY - Layout review' }));
+writeFileSync('docs/catalog/my-list-2026-09/pdf-fixtures.json', JSON.stringify({generatedAt, actual: list, syntheticTestOnly: testList}, null, 2) + '\n');
+console.log('Created 3 PDFs. The promotion-layout file contains synthetic test rules only.');

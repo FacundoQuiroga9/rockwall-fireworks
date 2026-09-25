@@ -1,0 +1,1593 @@
+{
+  "source": "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+  "date": "2026-09-24",
+  "status": "Exact code candidates, not publication approval.",
+  "matches": [
+    {
+      "square_token": "HPCVXOYT2OFAXABHQZESYK6X",
+      "square_sku": "715244102884",
+      "gtin": "",
+      "original_name": "#3 Solar Flare (BC)",
+      "csv_row": "12",
+      "brand": "Unknown",
+      "square_category": "CONES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L307@P27: Fountains CNBC288 #3 Cone Solar Flare (715244102884)"
+      ]
+    },
+    {
+      "square_token": "2ZRYMSNE7SUXC3BUQPGZSS6L",
+      "square_sku": "715244002894",
+      "gtin": "",
+      "original_name": "#4 Cone",
+      "csv_row": "15",
+      "brand": "Unknown",
+      "square_category": "CONES",
+      "original_variation": "#4 Turbo Flash (Black Cat)",
+      "wincoLines": [
+        "L308@P27: Fountains CNBC289 #4 Cone Turbo Flash (715244002894)"
+      ]
+    },
+    {
+      "square_token": "OIJ7TSC5JP2IUVH2VMHIEGIM",
+      "square_sku": "715244002900",
+      "gtin": "",
+      "original_name": "#8 Pharaoh's Treasure (BC)",
+      "csv_row": "23",
+      "brand": "Unknown",
+      "square_category": "CONES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L309@P27: Fountains CNBC290 #8 Cone Pharaohs Treasure (715244002900)"
+      ]
+    },
+    {
+      "square_token": "3SUE26Q6F6HMGVWFT4GG4SSM",
+      "square_sku": "715244964017",
+      "gtin": "",
+      "original_name": "1000 gram display",
+      "csv_row": "38",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L89@P8: 500 Gram Zipper Cakes MEBC6401 1000 Gram Display (715244964017)"
+      ]
+    },
+    {
+      "square_token": "45N4PAZ53P7YTNQENWTOP3XJ",
+      "square_sku": "652009905109",
+      "gtin": "",
+      "original_name": "120 Shot Camp Pk",
+      "csv_row": "49",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L489@P42: Roman Candles RCJP-510 120'S Camo Pack (652009905109)"
+      ]
+    },
+    {
+      "square_token": "PHBTZYIQ3GDXQH5VRHBKTPWF",
+      "square_sku": "715244120000",
+      "gtin": "",
+      "original_name": "2000 Blk Cat Fire Crk Roll",
+      "csv_row": "65",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L297@P26: Firecrackers FCBCR2000 Black Cat Roll Firecrackers (715244120000)"
+      ]
+    },
+    {
+      "square_token": "5O66QKT6BJQUWDBZEA64YIJ4",
+      "square_sku": "705108309702",
+      "gtin": "",
+      "original_name": "4 Pk Mini Snow Cones",
+      "csv_row": "85",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L362@P32: Fountains FNP3097 Snow Cone Jr. (705108309702)"
+      ]
+    },
+    {
+      "square_token": "DJGH4MOSEAF477EDNI4PRQ4O",
+      "square_sku": "",
+      "gtin": "652009200020",
+      "original_name": "Above The Law Family Pack BC",
+      "csv_row": "114",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L252@P22: Assortments ATLAW Above The Law (652009200020)"
+      ]
+    },
+    {
+      "square_token": "A3TTFCDNXBESWGPAC4RVRVLA",
+      "square_sku": "652009906540",
+      "gtin": "",
+      "original_name": "Absolute Pyro",
+      "csv_row": "115",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L91@P8: 500 Gram Zipper Cakes MEJP-654 Absolute Pyro (652009906540)"
+      ]
+    },
+    {
+      "square_token": "5FGW7K44ZLKLWCCNLF46GVBU",
+      "square_sku": "687985901319",
+      "gtin": "",
+      "original_name": "Atom Bomb",
+      "csv_row": "159",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L109@P9: 500 Grams Multiple Effects MEBP-A013 Atom Bomb (687985901319)"
+      ]
+    },
+    {
+      "square_token": "6CSS3ISX42RRXQQ2MENLSZC6",
+      "square_sku": "715244101085",
+      "gtin": "",
+      "original_name": "BC 8000 Firecracker",
+      "csv_row": "163",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L299@P26: Firecrackers FCBCR8000 Black Cat Roll Firecrackers (715244101085)"
+      ]
+    },
+    {
+      "square_token": "U3PPF3HY5PVYEJ3EA2TQTIWV",
+      "square_sku": "715244006809",
+      "gtin": "",
+      "original_name": "BC Missile Base 100 Shot",
+      "csv_row": "165",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L80@P7: 200 Grams Multiple Effects-SMB MEBC680 BC 100'S Saturn Missile Base (715244006809)"
+      ]
+    },
+    {
+      "square_token": "AREZ7BUJBZVK2OEMOVNEZLRN",
+      "square_sku": "687985245512",
+      "gtin": "",
+      "original_name": "Bamboozle 500 Gram",
+      "csv_row": "171",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L113@P10: 500 Grams Multiple Effects MEBP2455 Bamboozle (687985245512)"
+      ]
+    },
+    {
+      "square_token": "4UDECG7T6TXR37II5JLGEPWG",
+      "square_sku": "652009001092",
+      "gtin": "",
+      "original_name": "Big City Display Family Pack",
+      "csv_row": "178",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L253@P22: Assortments ATBCITY Big City Assortment (652009001092)"
+      ]
+    },
+    {
+      "square_token": "4TH237NF56TPMUBWACH7JUXN",
+      "square_sku": "715244004768",
+      "gtin": "",
+      "original_name": "Big N Bad (6 sticks)",
+      "csv_row": "181",
+      "brand": "Unknown",
+      "square_category": "Stick Rockets",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L461@P40: Rockets ARBC476 Big And Bad Rocket (715244004768)"
+      ]
+    },
+    {
+      "square_token": "63W6GHULIGTKDUDEOJI2ATNP",
+      "square_sku": "715244111107",
+      "gtin": "",
+      "original_name": "Black Cat 1000ct Firecracker",
+      "csv_row": "186",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L296@P26: Firecrackers FCBCR1000 Black Cat Roll Firecrackers (715244111107)"
+      ]
+    },
+    {
+      "square_token": "HPRUK354SRZV3EBF6JC7ZQ3N",
+      "square_sku": "715244101009",
+      "gtin": "",
+      "original_name": "Black Cat 100ct BOGO",
+      "csv_row": "187",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L291@P25: Firecrackers FCBC00100B Black Cat Firecrackers (715244101009)"
+      ]
+    },
+    {
+      "square_token": "XVLRJSMAMPAD5I2SPFLPZBDH",
+      "square_sku": "715244111008",
+      "gtin": "",
+      "original_name": "Black Cat 100ct BOGO",
+      "csv_row": "188",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Brick",
+      "wincoLines": [
+        "L290@P25: Firecrackers FCBC00100 Black Cat Firecrackers (715244111008)"
+      ]
+    },
+    {
+      "square_token": "FGFX64NVIPVVGVKKJOLPICWS",
+      "square_sku": "715244103010",
+      "gtin": "",
+      "original_name": "Black Cat 300 Count BOGO",
+      "csv_row": "190",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L293@P25-26: Firecrackers FCBC00300 Black Cat Firecrackers (715244103010)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "PJKIMAXNIM5ZCOSCTTQD3UFL",
+      "square_sku": "715244154005",
+      "gtin": "",
+      "original_name": "Black Cat 400 count firecracker",
+      "csv_row": "192",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L294@P26: Firecrackers FCBC00400 Black Cat Firecrackers (715244154005)"
+      ]
+    },
+    {
+      "square_token": "YSCA5EM7QBGQ26342HWEVWIJ",
+      "square_sku": "715244140008",
+      "gtin": "",
+      "original_name": "Black Cat 4000",
+      "csv_row": "193",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L298@P26: Firecrackers FCBCR4000 Black Cat Roll Firecrackers (715244140008)"
+      ]
+    },
+    {
+      "square_token": "WE4BJSDDQ2RUISDGUILR7WWQ",
+      "square_sku": "715244020454",
+      "gtin": "",
+      "original_name": "Black Cat 4ct Fountain",
+      "csv_row": "194",
+      "brand": "Black Cat",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L329@P29: Fountains FNBC2045 Four Assorted 9\" (715244020454)"
+      ]
+    },
+    {
+      "square_token": "SZ5GTVLHSQZHQZF36S76IXVT",
+      "square_sku": "715244200115",
+      "gtin": "",
+      "original_name": "Black Cat 4ct Fountain",
+      "csv_row": "199",
+      "brand": "Black Cat",
+      "square_category": "Fountains",
+      "original_variation": "Black Cat 6 In Fountain",
+      "wincoLines": [
+        "L327@P29: Fountains FNBC2001-17 Four Assorted 6\" (715244200115)"
+      ]
+    },
+    {
+      "square_token": "OLNNUWLN4NHN3YLZG3GE2IL2",
+      "square_sku": "715244064403",
+      "gtin": "",
+      "original_name": "Black Cat 5\" Artillery Shells 24 pack",
+      "csv_row": "200",
+      "brand": "Black Cat",
+      "square_category": "24 Pack Canister Artillery Shells 5 INCH",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L221@P19: Artillery MEBC6440 Black Cat 5\" Shells (715244064403)"
+      ]
+    },
+    {
+      "square_token": "OHKV5B66T3AXTW7D5M5EMGGO",
+      "square_sku": "715244105007",
+      "gtin": "",
+      "original_name": "Black Cat 500ct Firecracker",
+      "csv_row": "201",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L295@P26: Firecrackers FCBCR00500 Black Cat Roll Firecrackers (715244105007)"
+      ]
+    },
+    {
+      "square_token": "HMO2P2U3P7TTHFJPMZIWTUIM",
+      "square_sku": "715244313068",
+      "gtin": "",
+      "original_name": "Black Cat 72 ct morning glory hole",
+      "csv_row": "203",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L530@P46: Sparklers SKBC313-06 Morning Glory (18 pack) (715244313068)"
+      ]
+    },
+    {
+      "square_token": "ZJCPCWGRIODBVZMR7O2VBAP7",
+      "square_sku": "715244084203",
+      "gtin": "",
+      "original_name": "Black Cat Cat Eyes- Spinners",
+      "csv_row": "204",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L539@P47: Spinners SPBC842 Cat Eyes (715244084203)"
+      ]
+    },
+    {
+      "square_token": "UXME6WAPLY5YYCNEMRWPYOG2",
+      "square_sku": "715244800025",
+      "gtin": "",
+      "original_name": "Black Cat Celebrate America",
+      "csv_row": "205",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L257@P22: Assortments ATGKCEL Celebrate America (715244800025)"
+      ]
+    },
+    {
+      "square_token": "OQJ3UJAOXFEFEAN2NRWD3BCT",
+      "square_sku": "715244064496",
+      "gtin": "",
+      "original_name": "Black Cat Firework Fiesta-96 Shots",
+      "csv_row": "208",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L28@P2: 200 Grams Multiple Effects MEBC6449 Fireworks Fiesta 96'S Zipper Cake (715244064496)"
+      ]
+    },
+    {
+      "square_token": "2CAQEPKBJEJ3RLNNXOSPI2WJ",
+      "square_sku": "715244021741",
+      "gtin": "",
+      "original_name": "Black Cat Fountain",
+      "csv_row": "209",
+      "brand": "Black Cat",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L326@P28-29: Fountains FNBC2174 Fountastic (715244021741)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "Z42WT7QYMWVQSGSLZELGXT3L",
+      "square_sku": "715244201921",
+      "gtin": "",
+      "original_name": "Black Cat Fountain Assortment",
+      "csv_row": "210",
+      "brand": "Black Cat",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L328@P29: Fountains FNBC2019-22 Four Assorted 7\" (715244201921)"
+      ]
+    },
+    {
+      "square_token": "N6QN4FBEXWHAXX7QJIWZPTS3",
+      "square_sku": "",
+      "gtin": "514675400015",
+      "original_name": "Black Cat Gold EditionFamily Pack",
+      "csv_row": "211",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L247@P22: series (514675400015)"
+      ]
+    },
+    {
+      "square_token": "JIYCGITHI56QQJBAUNYZA4EJ",
+      "square_sku": "715244800018",
+      "gtin": "",
+      "original_name": "Black Cat Heritage",
+      "csv_row": "212",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L255@P22: Assortments ATEHER Black Cat Heritage #4 (715244800018)"
+      ]
+    },
+    {
+      "square_token": "FKOTG65DY2KEAIG72E6ZQNZX",
+      "square_sku": "715244001057",
+      "gtin": "",
+      "original_name": "Black Cat Little Dynamite 100ct BOGO",
+      "csv_row": "213",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L303@P26: Firecrackers FCBC105 Little Dynamite (715244001057)"
+      ]
+    },
+    {
+      "square_token": "2KTUHO3OXXDII2FN5JZYRHC5",
+      "square_sku": "715244064458",
+      "gtin": "",
+      "original_name": "Black Cat Neon Diablo 5\" Artillery Shells 6 Pack",
+      "csv_row": "215",
+      "brand": "Black Cat",
+      "square_category": "6 Pack Artillery Shells 5\"\\, 6\"",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L234@P20-21: Artillery MEBC6445 Neon Diablo 5\" Canister Shells (715244064458)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "HJGHH3DSBQ3WC6ZCQID7J7VX",
+      "square_sku": "715244313136",
+      "gtin": "",
+      "original_name": "Black Cat Neon Sparkler Special 5 Ct",
+      "csv_row": "216",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L533@P46: Sparklers SKBC313-15* Neon Sparkler 17\": Special Effect (715244313136)"
+      ]
+    },
+    {
+      "square_token": "TT2SFUZFZHFHXAQHVH2RAWZM",
+      "square_sku": "715244000012",
+      "gtin": "",
+      "original_name": "Black Cat Night Display",
+      "csv_row": "218",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L261@P23: Assortments ATBCNGT-2 Night Display (715244000012)"
+      ]
+    },
+    {
+      "square_token": "EROQU5GO4XDUEGIESZCKSHZE",
+      "square_sku": "l",
+      "gtin": "715244001002",
+      "original_name": "Black Cat Party Pack 4 Family Pack",
+      "csv_row": "219",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L265@P23: Assortments ATEPP4 Party Pack #4 (715244001002)"
+      ]
+    },
+    {
+      "square_token": "C7MGH6L5OBMU2I7P6XRLCCYG",
+      "square_sku": "715244963935",
+      "gtin": "",
+      "original_name": "Black Cat combo Cakes",
+      "csv_row": "221",
+      "brand": "Black Cat",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L119@P10: Cakes (715244963935)"
+      ]
+    },
+    {
+      "square_token": "EKGYPF5RGKPY6227FPL5HPLT",
+      "square_sku": "715244022243",
+      "gtin": "",
+      "original_name": "Blackcat 3 For 1",
+      "csv_row": "225",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L312@P27: Fountains FNBC2224 3 For 1! 8\" Fountains (715244022243)"
+      ]
+    },
+    {
+      "square_token": "XLO7UDEHBHTQYPEROBAO3RV4",
+      "square_sku": "687985909032",
+      "gtin": "",
+      "original_name": "Blood Money",
+      "csv_row": "226",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L166@P14-15: 500 Grams Multiple Effects MEBP-A090-1 Mob Madness: Blood Money (687985909032)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "YQ5XSAV4O7JC4DVQKJAPRWIR",
+      "square_sku": "652009001757",
+      "gtin": "",
+      "original_name": "Camo Smoke",
+      "csv_row": "251",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L509@P44: Smoke Items SMM100 Camo Smoke (652009001757)"
+      ]
+    },
+    {
+      "square_token": "MGK6SZ2H563SI4HJP3OBSS5U",
+      "square_sku": "687985901340",
+      "gtin": "",
+      "original_name": "Cobalt Bomb",
+      "csv_row": "272",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L131@P11: 500 Grams Multiple Effects MEBP-A013 Cobalt Bomb (687985901340)"
+      ]
+    },
+    {
+      "square_token": "X55AAZNJ5H4A3WYATQWHUJC6",
+      "square_sku": "705108260256",
+      "gtin": "",
+      "original_name": "Color Smoke Grenade",
+      "csv_row": "283",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L511@P44: Smoke Items SMBS2602 Color Smoke Grenade (Pull String) (705108260256)"
+      ]
+    },
+    {
+      "square_token": "HEQRXJPC54BDZL3AERGXQY7Y",
+      "square_sku": "715244007028",
+      "gtin": "",
+      "original_name": "Color Smokeballs",
+      "csv_row": "284",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L507@P44: Smoke Items SMBC702 BC Color Smoke Balls (715244007028)"
+      ]
+    },
+    {
+      "square_token": "ZYEQGHWQMW24XASSI2XV3ECG",
+      "square_sku": "777319994121",
+      "gtin": "",
+      "original_name": "Confetti Blaster",
+      "csv_row": "288",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L427@P37: Novelty Items NV1741 Confetti Blasters (777319994121)"
+      ]
+    },
+    {
+      "square_token": "ODY4X5F35PDVTDU6QVKBRWBZ",
+      "square_sku": "715244003402",
+      "gtin": "",
+      "original_name": "Cracker Balls",
+      "csv_row": "292",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L428@P37: Novelty Items NVBC340 Cracker Balls (715244003402)"
+      ]
+    },
+    {
+      "square_token": "LKBNUIDOVUHJUQVVRHSX2VM3",
+      "square_sku": "715244001187",
+      "gtin": "",
+      "original_name": "Cracker Bomb",
+      "csv_row": "293",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L302@P26: Firecrackers FCBC118 Cracker Bomb (715244001187)"
+      ]
+    },
+    {
+      "square_token": "GFUHBZGQTVWBTZPNL5L4BB4L",
+      "square_sku": "687985909018",
+      "gtin": "",
+      "original_name": "Crime Scene",
+      "csv_row": "300",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L167@P15: 500 Grams Multiple Effects MEBP-A090-2 Mob Madness: Crime Scene (687985909018)"
+      ]
+    },
+    {
+      "square_token": "CVUYVGDATU552XE7223KCXM7",
+      "square_sku": "811451015150",
+      "gtin": "",
+      "original_name": "Dragon Fire Fountain",
+      "csv_row": "332",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L432@P37: Novelty Items NVLPN7047 Dragon Fire (811451015150)"
+      ]
+    },
+    {
+      "square_token": "Y6HDHYHSC4SVETG4GORA6KKQ",
+      "square_sku": "514677060231",
+      "gtin": "",
+      "original_name": "Fallout 24 Shot",
+      "csv_row": "353",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L142@P12: 500 Grams Multiple Effects MEF6023 Fallout (514677060231)"
+      ]
+    },
+    {
+      "square_token": "UDPVVR2V6NSN2WD4JZAKTJSO",
+      "square_sku": "378001200027",
+      "gtin": "",
+      "original_name": "Fireworks Surprise Family Pack",
+      "csv_row": "366",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L275@P24: Assortments S&S ATFS-21 Fireworks Surprise (378001200027)"
+      ]
+    },
+    {
+      "square_token": "QKJNWGQUAGSPJBWAPTAQN4PG",
+      "square_sku": "715244160594",
+      "gtin": "",
+      "original_name": "Garden In Spring Fountain",
+      "csv_row": "402",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L33@P2-3: 200 Grams Multiple Effects MEBC6059 Garden In Spring (715244160594)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "S27B6LDFK4CFX5ZLTUT7BE3Z",
+      "square_sku": "715244005055",
+      "gtin": "",
+      "original_name": "Gatlin pack 8pc roman candle",
+      "csv_row": "404",
+      "brand": "Unknown",
+      "square_category": "Roman Candles",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L499@P43: Roman Candles RCBC505 Gatlin Pack (715244005055)"
+      ]
+    },
+    {
+      "square_token": "7A3AOYPUE3CUC6B24G6BPSIH",
+      "square_sku": "652009119001",
+      "gtin": "",
+      "original_name": "Green Fuse",
+      "csv_row": "429",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L242@P21: Artillery MEF6003 T-800 5\" Canister Shells (652009119001)"
+      ]
+    },
+    {
+      "square_token": "AKI3KKIBYKNIRZHLPMG6HPDE",
+      "square_sku": "687985901326",
+      "gtin": "",
+      "original_name": "Hydrogen Bomb",
+      "csv_row": "468",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L154@P13: 500 Grams Multiple Effects MEBP-A013 Hydrogen Bomb (687985901326)"
+      ]
+    },
+    {
+      "square_token": "PB4BRS3FE2O4BB5DDXL53LT6",
+      "square_sku": "687985909025",
+      "gtin": "",
+      "original_name": "Inside Job",
+      "csv_row": "483",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L168@P15: 500 Grams Multiple Effects MEBP-A090-3 Mob Madness: Inside Job (687985909025)"
+      ]
+    },
+    {
+      "square_token": "JUSF3HFQOT35RZT5ID4CJ5CF",
+      "square_sku": "715244021840",
+      "gtin": "",
+      "original_name": "Joker",
+      "csv_row": "493",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L366@P32: Fountains FNBC2184 The Joker (715244021840)"
+      ]
+    },
+    {
+      "square_token": "VFDWZ7GPUOWDTWBKHLSGJRVM",
+      "square_sku": "715244000890",
+      "gtin": "",
+      "original_name": "Jr. Pyro Backpack",
+      "csv_row": "497",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L276@P24: Assortments S&S ATBC089-12 Jr Pyro Backpack (715244000890)"
+      ]
+    },
+    {
+      "square_token": "U4RZFA74W7UMWQXRGYKXPVE6",
+      "square_sku": "111218312882",
+      "gtin": "",
+      "original_name": "Jumbo 8 ball roman candle",
+      "csv_row": "500",
+      "brand": "Unknown",
+      "square_category": "Roman Candles",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L500@P43: Roman Candles RCLR3128A Jumbo Assorted Candles (111218312882)"
+      ]
+    },
+    {
+      "square_token": "RR5AKZQ5WYTXF32B4QNILETM",
+      "square_sku": "715244037230",
+      "gtin": "",
+      "original_name": "Jumbo Neon Smoke Balls",
+      "csv_row": "503",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Jumbo Smoke Bombs",
+      "wincoLines": [
+        "L512@P44: Smoke Items SMBC723 Jumbo Smoke Bomb: Blue (715244037230)"
+      ]
+    },
+    {
+      "square_token": "A7MJHPJKX7PZSWVUZS63N7EX",
+      "square_sku": "715244057238",
+      "gtin": "",
+      "original_name": "Jumbo Smoke Bomb",
+      "csv_row": "504",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L515@P45: Smoke Items SMBC723 Jumbo Smoke Bomb: Pink (715244057238)"
+      ]
+    },
+    {
+      "square_token": "B6525IJMRT4TZHPC7KLWUVNP",
+      "square_sku": "715244047239",
+      "gtin": "",
+      "original_name": "Jumbo Smoke Bomb",
+      "csv_row": "505",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L514@P44-45: Smoke Items SMBC723 Jumbo Smoke Bomb: Orange (715244047239)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "YKNOZA5YQVLENZX6KF62UIZ6",
+      "square_sku": "715244017232",
+      "gtin": "",
+      "original_name": "Jumbo Smoke Bomb",
+      "csv_row": "506",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L513@P44: Smoke Items SMBC723 Jumbo Smoke Bomb: Green (715244017232)"
+      ]
+    },
+    {
+      "square_token": "MOXRWPWWMQ5SUT4WOH6OQJLB",
+      "square_sku": "715244004843",
+      "gtin": "",
+      "original_name": "Jumbo Texas Rocket (6 sticks)",
+      "csv_row": "508",
+      "brand": "Unknown",
+      "square_category": "Stick Rockets",
+      "original_variation": "Texas Bandit Rocket",
+      "wincoLines": [
+        "L474@P41: Rockets ARBC484 Texas Bandit Rocket (715244004843)"
+      ]
+    },
+    {
+      "square_token": "PCD2Q6Z2XMIGC4HW3QMTTN4K",
+      "square_sku": "952009001017",
+      "gtin": "",
+      "original_name": "Junior Pyro Pack",
+      "csv_row": "514",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L259@P22-23: Assortments ATJP-12 Junior Pyro (952009001017)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "QKRK7IYAFXKSB4YNKICGHL7J",
+      "square_sku": "715244001705",
+      "gtin": "",
+      "original_name": "Kids Pack Family Pack",
+      "csv_row": "520",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L279@P24: Assortments S&S ATKP-1 Kid's Pack Safe & Sane (715244001705)"
+      ]
+    },
+    {
+      "square_token": "UNM6M7P645DLCLTNLXP5OQJ4",
+      "square_sku": "687985503520",
+      "gtin": "",
+      "original_name": "Lady Bugs-3 Pk",
+      "csv_row": "530",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Lady Bug 2",
+      "wincoLines": [
+        "L548@P48: Wings WGBP5035 Ladybugs (687985503520)"
+      ]
+    },
+    {
+      "square_token": "GP4VTTYIGJ6FXPLM52AVKSEX",
+      "square_sku": "687985245314",
+      "gtin": "",
+      "original_name": "Light Bergade",
+      "csv_row": "541",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L157@P14: 500 Grams Multiple Effects MEBP2453 Light Brigade (687985245314)"
+      ]
+    },
+    {
+      "square_token": "X7P67M6U25SNAVKSLJSSR6XU",
+      "square_sku": "715244001170",
+      "gtin": "",
+      "original_name": "M-150BlackCat 12 ct.   BOGO $6.00 TOTAL",
+      "csv_row": "553",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L305@P27: Firecrackers FCBC117 M-150 Red Bagged (715244001170)"
+      ]
+    },
+    {
+      "square_token": "MYGOS6NQDT54NB7PCTWKCZ3Z",
+      "square_sku": "715244001149",
+      "gtin": "",
+      "original_name": "M150",
+      "csv_row": "561",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L304@P26-27: Firecrackers FCBC114 M-150 Assorted Red/Silver Boxed (715244001149)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "DNK6Z7PLBHKQRMCA3SSJLZ3T",
+      "square_sku": "687985502820",
+      "gtin": "",
+      "original_name": "Magic Crystal",
+      "csv_row": "568",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L550@P48: Wings WGBP5028 Magic Crystal (687985502820)"
+      ]
+    },
+    {
+      "square_token": "ELISRVGSZLOV7VVRCNLZLY5O",
+      "square_sku": "715244064120",
+      "gtin": "",
+      "original_name": "Magical Garage 100 shot",
+      "csv_row": "573",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L46@P4: 200 Grams Multiple Effects MEBC6412 Magic Barrage (715244064120)"
+      ]
+    },
+    {
+      "square_token": "E3UXSYRN2VAH4HHUW5HI4IHN",
+      "square_sku": "687985234615",
+      "gtin": "",
+      "original_name": "Midnight 500 Gram",
+      "csv_row": "594",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L99@P8-9: 500 Gram Zipper Cakes MEBP2346 Midnight (687985234615)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "XU4GLMW4LWFIZRWQQPIAXQLF",
+      "square_sku": "705108549405",
+      "gtin": "",
+      "original_name": "Mother Of The Bombs",
+      "csv_row": "615",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L86@P7: 500 Gram Racks MEP5494 Mother of All Bombs (705108549405)"
+      ]
+    },
+    {
+      "square_token": "65SPR36TT4PVNGW7PZMKA67K",
+      "square_sku": "715244007257",
+      "gtin": "",
+      "original_name": "Neon Camo Smoke",
+      "csv_row": "624",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L518@P45: Smoke Items SMBC725 Neon Camo Smoke (Poly Bag) (715244007257)"
+      ]
+    },
+    {
+      "square_token": "73ZKYLH5IUS5MUMFLKHERCSJ",
+      "square_sku": "687985901333",
+      "gtin": "",
+      "original_name": "Neutron Bomb",
+      "csv_row": "639",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L173@P15: 500 Grams Multiple Effects MEBP-A013 Neutron Bomb (687985901333)"
+      ]
+    },
+    {
+      "square_token": "RJI3L3ZOH6A34DOCTHDC2W66",
+      "square_sku": "514677060194",
+      "gtin": "",
+      "original_name": "Outlaw Justice",
+      "csv_row": "658",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L176@P15: 500 Grams Multiple Effects MEF6019 Outlaw Justice (514677060194)"
+      ]
+    },
+    {
+      "square_token": "35NAPEUSRBXWA6VJOXXS2P2K",
+      "square_sku": "715244021994",
+      "gtin": "",
+      "original_name": "Pakin` Purple Fountain",
+      "csv_row": "659",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L354@P31: Fountains FNBC2199 Packin' Purple (715244021994)"
+      ]
+    },
+    {
+      "square_token": "URCSCIXNNU3JXYOPRXZQDCWP",
+      "square_sku": "705108548408",
+      "gtin": "",
+      "original_name": "Pandamonium",
+      "csv_row": "660",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L101@P9: 500 Gram Zipper Cakes MEP5484 Pandamonium (705108548408)"
+      ]
+    },
+    {
+      "square_token": "OYYJWZFHABFVJ2I5GEN3BXNW",
+      "square_sku": "",
+      "gtin": "715244001200",
+      "original_name": "Party Animal Black Cat Assortment",
+      "csv_row": "662",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L263@P23: Assortments ATBCPA Party Animal (715244001200)"
+      ]
+    },
+    {
+      "square_token": "SPHGB45PXXV5JJAYNVSAHQZH",
+      "square_sku": "161273215246",
+      "gtin": "",
+      "original_name": "Party Pack",
+      "csv_row": "664",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L264@P23: Assortments ATLG3BOX Party Pack #3 (161273215246)"
+      ]
+    },
+    {
+      "square_token": "LVDV62MTB2UNJZMKZAAKZHU4",
+      "square_sku": "",
+      "gtin": "715244000654",
+      "original_name": "Party Pack 5 Black Cat",
+      "csv_row": "665",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L266@P23: Assortments ATGKPP5 Party Pack #5 (715244000654)"
+      ]
+    },
+    {
+      "square_token": "EYHLYQPZXEA34ZHLVD4GS3EJ",
+      "square_sku": "715244100651",
+      "gtin": "",
+      "original_name": "Party Pack 5 S And S",
+      "csv_row": "666",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L282@P24-25: Assortments S&S ATGKPP5S Party Pack #5 Safe & Sane (715244100651)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "Y4WMTYEVPETUZALRIL7GZSZ7",
+      "square_sku": "",
+      "gtin": "715244000456",
+      "original_name": "Party Pack 6 Black Cat",
+      "csv_row": "667",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L267@P23: Assortments ATBBPP6 Party Pack #6 (715244000456)"
+      ]
+    },
+    {
+      "square_token": "RUDFKSIOWOO6EYLP2XIK2POM",
+      "square_sku": "715244034161",
+      "gtin": "",
+      "original_name": "Party Popper BOGO",
+      "csv_row": "668",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L437@P38: Novelty Items NVBC341A Party Popper (715244034161)"
+      ]
+    },
+    {
+      "square_token": "LEGXEN3H3USZHEQPWD6DHKW7",
+      "square_sku": "705108602308",
+      "gtin": "",
+      "original_name": "Poop",
+      "csv_row": "690",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L439@P38: Novelty Items NVP6023A Poop! (Plastic) (705108602308)"
+      ]
+    },
+    {
+      "square_token": "DJDD3CC7XZW5XMFZ5UOFKY3S",
+      "square_sku": "652009903457",
+      "gtin": "",
+      "original_name": "Pooping Dog",
+      "csv_row": "691",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L431@P37: Novelty Items NVJP-345 Doggie Doo-Doo (652009903457)"
+      ]
+    },
+    {
+      "square_token": "BNUXKTUCJZD4IZ3NBI22JUGD",
+      "square_sku": "715244800032",
+      "gtin": "",
+      "original_name": "Pride And Honor",
+      "csv_row": "700",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L268@P23: Assortments ATBBPRI Pride & Honor #6 (715244800032)"
+      ]
+    },
+    {
+      "square_token": "IJJCFG2L4D6373CWLT7PDNSV",
+      "square_sku": "201606802214",
+      "gtin": "",
+      "original_name": "Princess Power Sword Fountain- Pink",
+      "csv_row": "704",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L357@P31: Fountains FNTPF8022 Princess Power Sword (201606802214)"
+      ]
+    },
+    {
+      "square_token": "XVGJDTRZN6G72H74OTSIEYPV",
+      "square_sku": "652009101112",
+      "gtin": "",
+      "original_name": "Pyro City",
+      "csv_row": "720",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L285@P25: Assortments S&S ATPCS-2 Pyro City Safe & Sane (652009101112)"
+      ]
+    },
+    {
+      "square_token": "K3TMBZV5CNPFOAJ6D63VE66G",
+      "square_sku": "652009001115",
+      "gtin": "",
+      "original_name": "Pyro City 2",
+      "csv_row": "721",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L269@P23: Assortments ATPC-2 Pyro City (652009001115)"
+      ]
+    },
+    {
+      "square_token": "H6UVAEIGHB6OJOGWCNMV7HRI",
+      "square_sku": "952009001024",
+      "gtin": "",
+      "original_name": "Pyro Pack",
+      "csv_row": "722",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L270@P23-24: Assortments ATPP-12 Pyro Pack (952009001024)Category Item Number Name UPC"
+      ]
+    },
+    {
+      "square_token": "7TS7HQ3JDS5V5H6BDNGX3J66",
+      "square_sku": "687985905300",
+      "gtin": "",
+      "original_name": "Quest 4\" Artillery Shells 24 Pack",
+      "csv_row": "736",
+      "brand": "Unknown",
+      "square_category": "24 Pack Artillery Shells 4\"",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L235@P21: Artillery MEBP-A053-2/24 Quest (687985905300)"
+      ]
+    },
+    {
+      "square_token": "TOS4U7TKFD4RCZOIO6JPZLND",
+      "square_sku": "514677007007",
+      "gtin": "",
+      "original_name": "Reaper Smoke",
+      "csv_row": "745",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L519@P45: Smoke Items SMF700 Reaper Smoke (514677007007)"
+      ]
+    },
+    {
+      "square_token": "3J24Z2O2DPZZX6CSO4IN6FF7",
+      "square_sku": "652009001801",
+      "gtin": "",
+      "original_name": "Roman Candle Assortment (4 pk/10 Shot)",
+      "csv_row": "769",
+      "brand": "Unknown",
+      "square_category": "Roman Candles",
+      "original_variation": "Starlight Roman Candle",
+      "wincoLines": [
+        "L478@P42: Roman Candles RC0529 10 Ball W/Report (652009001801)"
+      ]
+    },
+    {
+      "square_token": "TE2L56XEDWRPQVTX4WF7ZYPE",
+      "square_sku": "652001110037",
+      "gtin": "",
+      "original_name": "Sky Laterns",
+      "csv_row": "810",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L454@P39: Parachutes-Daytime XXLANTERN-AF Sky Lantern American Flag (652001110037)"
+      ]
+    },
+    {
+      "square_token": "CLCR26IVZCUSZQQ54T4PIWIO",
+      "square_sku": "715244003440",
+      "gtin": "",
+      "original_name": "Snake Package",
+      "csv_row": "834",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Assorted Snakes",
+      "wincoLines": [
+        "L423@P37: Novelty Items NVBC344 BC Assorted Snakes (715244003440)"
+      ]
+    },
+    {
+      "square_token": "CBRHNYWVQY2LISAFKAJPV4ZZ",
+      "square_sku": "705108308804",
+      "gtin": "",
+      "original_name": "Snow Cone Big",
+      "csv_row": "840",
+      "brand": "Unknown",
+      "square_category": "Fountains",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L361@P32: Fountains FNP3088 Snow Cone (705108308804)"
+      ]
+    },
+    {
+      "square_token": "ZXRSIXTYSH6M7CLJQKS7SNB5",
+      "square_sku": "705108202706",
+      "gtin": "",
+      "original_name": "Space Falcon (5 sticks)",
+      "csv_row": "849",
+      "brand": "Unknown",
+      "square_category": "Stick Rockets",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L473@P41: Rockets ARP2027 Space Falcon (705108202706)"
+      ]
+    },
+    {
+      "square_token": "YSJXWKAANWCTCMQCEY3JQUXK",
+      "square_sku": "715244003365",
+      "gtin": "",
+      "original_name": "Super Snap Bogo",
+      "csv_row": "875",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L426@P37: Novelty Items NVBC336B BC Super Snaps - Small (715244003365)"
+      ]
+    },
+    {
+      "square_token": "CFPGEC7FM3M3FLAT3WK62WEY",
+      "square_sku": "705108600335",
+      "gtin": "",
+      "original_name": "THAAD 226 Shot Zipper Cake",
+      "csv_row": "880",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L103@P9: 500 Gram Zipper Cakes MEWPP-6003 T.H.A.A.D. (705108600335)"
+      ]
+    },
+    {
+      "square_token": "NJ6SAFHPATCWTVY7P6WUARZ6",
+      "square_sku": "765244000000",
+      "gtin": "",
+      "original_name": "The Beast Black Cat",
+      "csv_row": "889",
+      "brand": "Black Cat",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L271@P24: Assortments ATBCBST The Beast (765244000000)"
+      ]
+    },
+    {
+      "square_token": "75TIIYAM4OKN23TPTHZZN67G",
+      "square_sku": "514677005003",
+      "gtin": "",
+      "original_name": "The Beast Roman Candle",
+      "csv_row": "890",
+      "brand": "Unknown",
+      "square_category": "Roman Candles",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L495@P43: Roman Candles RCF500 Beast Candle (514677005003)"
+      ]
+    },
+    {
+      "square_token": "KOTKW2PJDLTQA7NWSJVETPLO",
+      "square_sku": "652009001085",
+      "gtin": "",
+      "original_name": "The Godfather",
+      "csv_row": "891",
+      "brand": "Unknown",
+      "square_category": "Family Pack Assortments",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L272@P24: Assortments ATGOD The Godfather (652009001085)"
+      ]
+    },
+    {
+      "square_token": "4XNAMHJPDAR3ZZXVWJRVFCN7",
+      "square_sku": "687985909049",
+      "gtin": "",
+      "original_name": "Turf War",
+      "csv_row": "924",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L169@P15: 500 Grams Multiple Effects MEBP-A090-4 Mob Madness: Turf War (687985909049)"
+      ]
+    },
+    {
+      "square_token": "BJRI3SFNDFVOQR6YLSYVEQ4X",
+      "square_sku": "514677002163",
+      "gtin": "",
+      "original_name": "Unicorn",
+      "csv_row": "934",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L371@P33: Fountains FNF216 Unicorn (514677002163)"
+      ]
+    },
+    {
+      "square_token": "MPLY3UZKTRRPDCZXXFXRR433",
+      "square_sku": "131611802209",
+      "gtin": "",
+      "original_name": "Victory Sword",
+      "csv_row": "943",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L372@P33: Fountains FNPK8022 Victory Sword (131611802209)"
+      ]
+    },
+    {
+      "square_token": "XTL5TLDJI3LTZYGCDMI4ODSC",
+      "square_sku": "687985250110",
+      "gtin": "",
+      "original_name": "Wacky Tobocey",
+      "csv_row": "948",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L87@P7: 500 Gram Racks MEBP2501 Whacky Tobacky (687985250110)"
+      ]
+    },
+    {
+      "square_token": "Z5AQ5L7DNIGG2FSAUAZOSQQ5",
+      "square_sku": "715244063178",
+      "gtin": "",
+      "original_name": "Walking Dead 19 Shots",
+      "csv_row": "949",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L72@P6: 200 Grams Multiple Effects MEBC6317 Walkin' Dead (715244063178)"
+      ]
+    },
+    {
+      "square_token": "YIKPT4VA36G77JLEBR336HWV",
+      "square_sku": "687985985111",
+      "gtin": "",
+      "original_name": "War Hero 500 Gram",
+      "csv_row": "951",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L214@P19: 500 Grams Multiple Effects MEWB007 War Hero (687985985111)"
+      ]
+    },
+    {
+      "square_token": "VNEIHGVRRDBQAJWZMKFV4C3O",
+      "square_sku": "652009906533",
+      "gtin": "",
+      "original_name": "War Machine 156 shots",
+      "csv_row": "953",
+      "brand": "Unknown",
+      "square_category": "500 GRAM FINALE > 500 GRAM FINALE ZIPPER CAKES",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L104@P9: 500 Gram Zipper Cakes MEJP-653 War Games (652009906533)"
+      ]
+    },
+    {
+      "square_token": "UGR7VX5AJCKWYKD5WLDPARD5",
+      "square_sku": "652009002549",
+      "gtin": "",
+      "original_name": "Whistling Chaser 8 Pk",
+      "csv_row": "970",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L545@P47: Spinners SP0238A Whistling Chaser (652009002549)"
+      ]
+    },
+    {
+      "square_token": "K4U6AWT3ZSCB7UMQSFTHNS2T",
+      "square_sku": "69400360",
+      "gtin": "",
+      "original_name": "Zing. BOGO",
+      "csv_row": "988",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L555@P48: Wings NVGP401 Zing!!! (69400360)"
+      ]
+    },
+    {
+      "square_token": "ZMSLCMXFLVZU2T7HTZ32QRD5",
+      "square_sku": "214345008014",
+      "gtin": "",
+      "original_name": "alien chaser",
+      "csv_row": "992",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L535@P46: Spinners SPWPP-801 Alien Chaser (214345008014)"
+      ]
+    },
+    {
+      "square_token": "7W4TMQGPSRAQMBAUNBIOH3OH",
+      "square_sku": "687985297511",
+      "gtin": "",
+      "original_name": "blond joke",
+      "csv_row": "997",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L125@P11: 500 Grams Multiple Effects MEBP2975 Blonde Joke (687985297511)"
+      ]
+    },
+    {
+      "square_token": "RMHJFIXZYBQN2KUAIQCXEAJN",
+      "square_sku": "",
+      "gtin": "705108501106",
+      "original_name": "bump bear",
+      "csv_row": "998",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L18@P1: 200 Grams Multiple Effects MEP5011 Bump Bear (705108501106)"
+      ]
+    },
+    {
+      "square_token": "JHH35X7EGHAJV5SLSC7BDZSK",
+      "square_sku": "687985901395",
+      "gtin": "",
+      "original_name": "da big box o' bombs",
+      "csv_row": "1003",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L134@P12: 500 Grams Multiple Effects MEBP-A013 Da Big Box O' Bombs (687985901395)"
+      ]
+    },
+    {
+      "square_token": "ZQ5P53VXBJ5IS573IJDOWKNB",
+      "square_sku": "687985909094",
+      "gtin": "",
+      "original_name": "mob madness",
+      "csv_row": "1032",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L165@P14: 500 Grams Multiple Effects MEBP-A090 Mob Madness: 4 Assorted Cakes (687985909094)"
+      ]
+    },
+    {
+      "square_token": "RSAUYRX3JUNFGEO3PQIFPQVB",
+      "square_sku": "715244313242",
+      "gtin": "",
+      "original_name": "morning Glory's 36\" sparklers",
+      "csv_row": "1034",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L529@P46: Sparklers SKBC313-24 BC 36\" Morning Glory (715244313242)"
+      ]
+    },
+    {
+      "square_token": "WD4UKVVQLK62VDXAMJEYHTDB",
+      "square_sku": "715244001200",
+      "gtin": "",
+      "original_name": "party animal assortment pack",
+      "csv_row": "1040",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L263@P23: Assortments ATBCPA Party Animal (715244001200)"
+      ]
+    },
+    {
+      "square_token": "P4QS4KKFFSLNRX55JFVFNNWS",
+      "square_sku": "715244300327",
+      "gtin": "",
+      "original_name": "the excellent bag assortment",
+      "csv_row": "1053",
+      "brand": "Unknown",
+      "square_category": "Unknown",
+      "original_variation": "Regular",
+      "wincoLines": [
+        "L258@P22: Assortments ATBC032 Excellent Bag (715244300327)"
+      ]
+    }
+  ]
+}

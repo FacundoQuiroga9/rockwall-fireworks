@@ -1,0 +1,33 @@
+[
+  {
+    "platform": "ios",
+    "export_succeeded": true,
+    "bundled_catalog_images_verified_by_sha256": 301,
+    "missing": [],
+    "bundle_paths": [
+      "artifacts/catalog-continuation/ios-export/_expo/static/js/ios/entry-84dc0b8147e67175f1f581dda5aca8d1.hbc"
+    ],
+    "native_execution_tested": false
+  },
+  {
+    "platform": "android",
+    "export_succeeded": true,
+    "bundled_catalog_images_verified_by_sha256": 301,
+    "missing": [],
+    "bundle_paths": [
+      "artifacts/catalog-continuation/android-export/_expo/static/js/android/entry-55c76eda8b195e3e3ddd29bbbeefc718.hbc"
+    ],
+    "native_execution_tested": false
+  },
+  {
+    "platform": "web",
+    "export_succeeded": true,
+    "bundled_catalog_images_verified_by_sha256": 301,
+    "missing": [],
+    "bundle_paths": [
+      "artifacts/catalog-continuation/web-export/_expo/.routes.json",
+      "artifacts/catalog-continuation/web-export/_expo/static/js/web/entry-a92407dc76d74a61e40735a804783451.js"
+    ],
+    "native_execution_tested": false
+  }
+]

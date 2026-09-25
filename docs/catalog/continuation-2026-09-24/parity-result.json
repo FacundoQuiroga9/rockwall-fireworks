@@ -1,0 +1,17 @@
+{
+  "products": 301,
+  "imageIdentities": 301,
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "brand",
+    "presentation",
+    "description",
+    "features",
+    "manufacturerCode",
+    "featured",
+    "sortOrder"
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bright-star",
+    "original": "public/images/brands/Bright Star logo.png",
+    "originalSha256": "c0a1833aecffad6444afaf7ba9b84d6fad2d462cb82554e85a8c0750f5498414",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/bright-star.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "BrightStar"
+  },
+  {
+    "id": "fox",
+    "original": "public/images/brands/fox logo.png",
+    "originalSha256": "670d6e978f5aaa251f5b7505e79886baef13fc81c3b5a7c004be27484e4690e9",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/fox.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "Fox"
+  },
+  {
+    "id": "pyro-shine",
+    "original": "public/images/brands/pyro shine logo.webp",
+    "originalSha256": "9604d85e8d567f2b5b3522f5f1bf2b8b86ceac7aadc6f595a3799a86a71bd9a3",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/pyro-shine.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "PyroShine"
+  },
+  {
+    "id": "tnt",
+    "original": "public/images/brands/tnt loogo.png",
+    "originalSha256": "9b68e49a9bd80d0c11e3b579be3e9de918f1532a2ba9220c42f8c87eb759ac1a",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/tnt.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "TNT"
+  },
+  {
+    "id": "sky-bacon",
+    "original": "public/images/brands/sky bacon logo.avif",
+    "originalSha256": "5e0248a3733850dc40ad418ce52fcd94490af14b3d939ced497c0b6fb82ff715",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/sky-bacon.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "SkyBacon"
+  },
+  {
+    "id": "red-rhino",
+    "original": "public/images/brands/red rhino logo.webp",
+    "originalSha256": "976aa10fc610972a465791ca5b5c0463aa08ba6dd1756b19882fc03bfad34910",
+    "transparentPng": "docs/catalog/presentation-2026-09/logo-derivatives/red-rhino.png",
+    "method": "Trim transparent margins and downsample only. Fox: edge-connected near-black background flood fill, enclosed black/white artwork retained. TNT red is artwork and remains.",
+    "alias": "RedRhino"
+  }
+]

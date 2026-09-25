@@ -1,0 +1,11 @@
+.bogo-ticket { display: inline-flex; align-items: center; gap: .45rem; color: #ffca9f; border: 1px solid #df976d; border-radius: 7px 2px 7px 2px; padding: .35rem .5rem .35rem .4rem; line-height: 1; background: linear-gradient(115deg, #ff9d6721, transparent 64%); box-shadow: 2px 2px 0 #e9946433; flex: 0 0 auto; }
+.bogo-ticket-mark { display: flex; align-items: center; gap: 1px; font-family: var(--font-display); font-size: 1.15rem; padding-right: .4rem; border-right: 1px dashed #d99c73a0; align-self: stretch; }
+.bogo-ticket-mark > span { font-family: var(--font-body); font-size: .65rem; }
+.bogo-ticket-copy { display: grid; gap: .22rem; }
+.bogo-ticket-copy strong { font-family: var(--font-display); font-weight: 400; font-size: 1.03rem; letter-spacing: .09em; }
+.bogo-ticket-copy small { font-size: .61rem; font-weight: 700; line-height: 1.15; color: #ffdcc3; white-space: nowrap; }
+.bogo-ticket-active { background: #ffb38b; color: #071329; }
+.bogo-ticket-active .bogo-ticket-copy small { color: #071329; }
+.bogo-ticket-active .bogo-ticket-mark { border-color: #07132988; }
+.detail-bogo .bogo-ticket { margin-bottom: .75rem; }
+@media (max-width: 700px) { .bogo-ticket { gap: .35rem; padding: .35rem; } .bogo-ticket-mark { font-size: 1rem; padding-right: .3rem; } .bogo-ticket-copy strong { font-size: .95rem; } }

@@ -1,0 +1,7936 @@
+[
+  {
+    "id": "the-reaper",
+    "status": "approved reference preserved",
+    "path": "public/images/products/the-reaper.webp"
+  },
+  {
+    "id": "alien-attack",
+    "status": "approved reference preserved",
+    "path": "public/images/products/alien-attack.webp"
+  },
+  {
+    "id": "festival-balls-reloadable",
+    "status": "approved reference preserved",
+    "path": "public/images/products/festival-balls-reloadable.webp"
+  },
+  {
+    "id": "neon-beef",
+    "status": "approved reference preserved",
+    "path": "public/images/products/neon-beef.webp"
+  },
+  {
+    "id": "diablo",
+    "status": "approved reference preserved",
+    "path": "public/images/products/diablo.webp"
+  },
+  {
+    "id": "night-rider",
+    "status": "approved reference preserved",
+    "path": "public/images/products/night-rider.webp"
+  },
+  {
+    "id": "futurama-artillery",
+    "status": "approved reference preserved",
+    "path": "public/images/products/futurama-artillery.webp"
+  },
+  {
+    "id": "festival-balls-artillery",
+    "status": "approved reference preserved",
+    "path": "public/images/products/festival-balls-artillery.webp"
+  },
+  {
+    "id": "star-light",
+    "status": "approved reference preserved",
+    "path": "public/images/products/star-light.webp"
+  },
+  {
+    "id": "action-zone",
+    "status": "approved reference preserved",
+    "path": "public/images/products/action-zone.webp"
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mother-of-all-fireworks.webp",
+    "sourceSha256": "12f8d0f4ea33f8f17b3d483a41d9c25dbc3ed6babdcf01b99c610bf123895223",
+    "objectBounds": [
+      122,
+      91,
+      519,
+      544
+    ],
+    "shadowBounds": [
+      120,
+      89,
+      521,
+      546
+    ],
+    "viewport": [
+      18,
+      16,
+      604,
+      604
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 604,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-skies",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-skies.webp",
+    "sourceSha256": "d6cfa505499d2d8d6ba2cb08993d7fb198fb1dccd826edbd7052194a6d2e1d18",
+    "objectBounds": [
+      134,
+      96,
+      510,
+      537
+    ],
+    "shadowBounds": [
+      132,
+      94,
+      512,
+      539
+    ],
+    "viewport": [
+      28,
+      22,
+      588,
+      588
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 588,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sucker-punch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sucker-punch.webp",
+    "sourceSha256": "6c53657aa2a2f826b279fc1baf0e6aeb7b73baa6c4de0e521ed20a26ada69257",
+    "objectBounds": [
+      75,
+      248,
+      590,
+      392
+    ],
+    "shadowBounds": [
+      73,
+      245,
+      592,
+      394
+    ],
+    "viewport": [
+      -26,
+      -38,
+      716,
+      716
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "invincible",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/invincible.webp",
+    "sourceSha256": "864b166a3b2864730cdd664ab58176948e4f03f589f5ecf59f8d37d267055d85",
+    "objectBounds": [
+      83,
+      248,
+      560,
+      413
+    ],
+    "shadowBounds": [
+      81,
+      245,
+      562,
+      415
+    ],
+    "viewport": [
+      -10,
+      -1,
+      663,
+      663
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "purely-american",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/purely-american.webp",
+    "sourceSha256": "340099b0df43772b846806576fc98646d61c553ede0f82d9693516a1d93df4b9",
+    "objectBounds": [
+      71,
+      190,
+      581,
+      450
+    ],
+    "shadowBounds": [
+      69,
+      188,
+      583,
+      452
+    ],
+    "viewport": [
+      -28,
+      -34,
+      709,
+      709
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-fish",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-fish.webp",
+    "sourceSha256": "5c72e30a8c3160941d0b1b20b22ff019d581ecdea782389930680351093d08c3",
+    "objectBounds": [
+      152,
+      204,
+      490,
+      427
+    ],
+    "shadowBounds": [
+      150,
+      202,
+      492,
+      429
+    ],
+    "viewport": [
+      86,
+      80,
+      470,
+      470
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 470,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "lets-celebrate",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/lets-celebrate.webp",
+    "sourceSha256": "da0baa7e1eece06f6bdb59ad084402d7ee6f63024f952d8a2e59f6096ae901f9",
+    "objectBounds": [
+      210,
+      93,
+      433,
+      526
+    ],
+    "shadowBounds": [
+      208,
+      91,
+      435,
+      528
+    ],
+    "viewport": [
+      50,
+      38,
+      542,
+      542
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 542,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "high-falutin",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/high-falutin.webp",
+    "sourceSha256": "44a2a7836135c13ed588fae8337cea6c4711fd1c41999d3ec6bf92243e311b5c",
+    "objectBounds": [
+      94,
+      172,
+      550,
+      463
+    ],
+    "shadowBounds": [
+      93,
+      171,
+      552,
+      465
+    ],
+    "viewport": [
+      5,
+      0,
+      634,
+      634
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 634,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hit-the-road-jack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hit-the-road-jack.webp",
+    "sourceSha256": "b6642f6bd151c97a689b9d0186ceda72e4fd3c8d723b0444a58551b9d88bb486",
+    "objectBounds": [
+      92,
+      148,
+      547,
+      476
+    ],
+    "shadowBounds": [
+      90,
+      146,
+      549,
+      478
+    ],
+    "viewport": [
+      4,
+      -4,
+      632,
+      632
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 632,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "saturday-night-special",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/saturday-night-special.webp",
+    "sourceSha256": "7d91ee1fc7b2e7fef3505036740678634d89fa8cbc0a723a72b362b049870f6e",
+    "objectBounds": [
+      104,
+      146,
+      542,
+      528
+    ],
+    "shadowBounds": [
+      102,
+      144,
+      544,
+      530
+    ],
+    "viewport": [
+      18,
+      32,
+      609,
+      609
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 609,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "smiling-faces-ear-to-ear",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/smiling-faces-ear-to-ear.webp",
+    "sourceSha256": "8e546f2c6736546ae8f9fd12c3c84619d3cac59f55ace86d4a7752c359446bbc",
+    "objectBounds": [
+      189,
+      103,
+      491,
+      508
+    ],
+    "shadowBounds": [
+      187,
+      101,
+      493,
+      510
+    ],
+    "viewport": [
+      74,
+      39,
+      533,
+      533
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 533,
+    "actualOccupancy": 0.76,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sky-pattern",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sky-pattern.webp",
+    "sourceSha256": "d1c2def48c7293b824513d1dfce048448e8e63a55e65eb13b730aeb242561005",
+    "objectBounds": [
+      147,
+      139,
+      515,
+      509
+    ],
+    "shadowBounds": [
+      145,
+      136,
+      517,
+      511
+    ],
+    "viewport": [
+      88,
+      80,
+      487,
+      487
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 487,
+    "actualOccupancy": 0.76,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "rush-hour",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/rush-hour.webp",
+    "sourceSha256": "15eba4a74200cfa43d623a838e309d6c39980d74964502e5d42bf94b0ee1fbc7",
+    "objectBounds": [
+      110,
+      202,
+      545,
+      433
+    ],
+    "shadowBounds": [
+      108,
+      199,
+      547,
+      435
+    ],
+    "viewport": [
+      25,
+      15,
+      605,
+      605
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 605,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-diablo-24-pack.webp",
+    "sourceSha256": "32973a85ac43e4e2c4bd44f20705dd784f6facdcf2eb0871086c67a5061ff33b",
+    "objectBounds": [
+      215,
+      95,
+      416,
+      535
+    ],
+    "shadowBounds": [
+      213,
+      93,
+      419,
+      537
+    ],
+    "viewport": [
+      22,
+      22,
+      587,
+      587
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 587,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "galaxy-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/galaxy-pack.webp",
+    "sourceSha256": "4a8ff12ad8a23daf353a159eb5909c633c927b66a9843769d533150fba56f80c",
+    "objectBounds": [
+      138,
+      121,
+      505,
+      517
+    ],
+    "shadowBounds": [
+      137,
+      119,
+      506,
+      518
+    ],
+    "viewport": [
+      60,
+      58,
+      522,
+      522
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 522,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/the-patriot-24-pack.webp",
+    "sourceSha256": "16bf092da2f5ef7a665842db18617765308b6aafa65a31b86081dc08ebe85946",
+    "objectBounds": [
+      216,
+      108,
+      424,
+      516
+    ],
+    "shadowBounds": [
+      213,
+      106,
+      426,
+      523
+    ],
+    "viewport": [
+      48,
+      40,
+      544,
+      544
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 544,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "avalanche",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/avalanche.webp",
+    "sourceSha256": "e2abdfc1350cfb36680d09fbec83df8a32c8540cd8ba9d33bdb4900f681aaa03",
+    "objectBounds": [
+      92,
+      80,
+      305,
+      328
+    ],
+    "shadowBounds": [
+      92,
+      80,
+      305,
+      328
+    ],
+    "viewport": [
+      26,
+      32,
+      345,
+      345
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 345,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/good-thinkin-lincoln.webp",
+    "sourceSha256": "80bfdb12e5608660ec52918446006b0389a178eb27bff733b7f6edb335c1b3a6",
+    "objectBounds": [
+      77,
+      83,
+      325,
+      318
+    ],
+    "shadowBounds": [
+      77,
+      83,
+      325,
+      318
+    ],
+    "viewport": [
+      28,
+      28,
+      345,
+      345
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 345,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ipa-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ipa-4-pack.webp",
+    "sourceSha256": "3e9b805855138aaf4978574877ec5f8b28384af4d6adae6f93996e667ac531ff",
+    "objectBounds": [
+      43,
+      136,
+      354,
+      269
+    ],
+    "shadowBounds": [
+      43,
+      136,
+      355,
+      269
+    ],
+    "viewport": [
+      -18,
+      -14,
+      432,
+      432
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 432,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "make-america-great-again",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/make-america-great-again.webp",
+    "sourceSha256": "b2b8c40986250f2ae1f987307d85e4c775a12cdb2ff253f13b78751c260e7330",
+    "objectBounds": [
+      59,
+      88,
+      339,
+      306
+    ],
+    "shadowBounds": [
+      59,
+      88,
+      339,
+      306
+    ],
+    "viewport": [
+      4,
+      2,
+      389,
+      389
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 389,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "man-cave",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/man-cave.webp",
+    "sourceSha256": "cb818c0f651426624648b638d78b6638d4332328ed6b6229e8825ee424cdd091",
+    "objectBounds": [
+      64,
+      82,
+      330,
+      307
+    ],
+    "shadowBounds": [
+      64,
+      82,
+      330,
+      307
+    ],
+    "viewport": [
+      12,
+      10,
+      370,
+      370
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 370,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "nation-ovation",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/nation-ovation.webp",
+    "sourceSha256": "4b0f4dad988e3528f16cef8a035d89d35de14f5f76fa73c1745a67f187a4a86f",
+    "objectBounds": [
+      94,
+      81,
+      303,
+      321
+    ],
+    "shadowBounds": [
+      94,
+      81,
+      303,
+      321
+    ],
+    "viewport": [
+      32,
+      34,
+      334,
+      334
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 334,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pyro-pilot",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pyro-pilot.webp",
+    "sourceSha256": "18c51f4f0bddbdb3946d8f68b703e4b9f746cce58c0ca2502cf4fa7f4f20f9c8",
+    "objectBounds": [
+      78,
+      76,
+      321,
+      323
+    ],
+    "shadowBounds": [
+      78,
+      76,
+      321,
+      323
+    ],
+    "viewport": [
+      28,
+      28,
+      344,
+      344
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 344,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "us-66",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/us-66.webp",
+    "sourceSha256": "4e365cc895a5d3d4e2edee6a94c87a54f7f81a8e1123056d59d859cebb7566b7",
+    "objectBounds": [
+      68,
+      130,
+      338,
+      270
+    ],
+    "shadowBounds": [
+      68,
+      130,
+      338,
+      270
+    ],
+    "viewport": [
+      16,
+      12,
+      375,
+      375
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 375,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "bad-cactus",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/bad-cactus.webp",
+    "sourceSha256": "4f443053f4b529d91f7f15114f0e8092da55eb1afa0bcedcc470df5ab9e9cd15",
+    "objectBounds": [
+      85,
+      65,
+      304,
+      332
+    ],
+    "shadowBounds": [
+      85,
+      64,
+      304,
+      332
+    ],
+    "viewport": [
+      9,
+      13,
+      371,
+      371
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 371,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "bump-bear",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/bump-bear.webp",
+    "sourceSha256": "28d928d5489621bcdb70328aab19d48ed4b2f8adee336ddd456e0df25e926bb8",
+    "objectBounds": [
+      101,
+      79,
+      290,
+      322
+    ],
+    "shadowBounds": [
+      101,
+      79,
+      290,
+      322
+    ],
+    "viewport": [
+      26,
+      32,
+      338,
+      338
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 338,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "fun-fuel",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/fun-fuel.webp",
+    "sourceSha256": "51bf229c33bf95a7cc80b8ec67eca5ba97a476140ac27a01d94404bf5edf0c8f",
+    "objectBounds": [
+      61,
+      84,
+      334,
+      303
+    ],
+    "shadowBounds": [
+      61,
+      84,
+      334,
+      303
+    ],
+    "viewport": [
+      8,
+      4,
+      380,
+      380
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 380,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "military-parachute-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/military-parachute-2-pack.webp",
+    "sourceSha256": "f0512c0dbfc017148986c51f9b944a09f7ec07b57fb57a751f608283dddf9902",
+    "objectBounds": [
+      130,
+      64,
+      268,
+      327
+    ],
+    "shadowBounds": [
+      130,
+      64,
+      268,
+      328
+    ],
+    "viewport": [
+      16,
+      12,
+      366,
+      366
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 366,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "princess-parachute-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/princess-parachute-2-pack.webp",
+    "sourceSha256": "53c2cee9a7b0a29ccf589a1c6cf9752d0351dacacbce56b3be5c9d644888b545",
+    "objectBounds": [
+      127,
+      65,
+      275,
+      327
+    ],
+    "shadowBounds": [
+      127,
+      65,
+      275,
+      327
+    ],
+    "viewport": [
+      19,
+      14,
+      364,
+      364
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 364,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/double-dragon-6-pack.webp",
+    "sourceSha256": "3610399603bd10651de46d3fa768a19556444fa74f0ae2254669996a74a23218",
+    "objectBounds": [
+      118,
+      67,
+      274,
+      331
+    ],
+    "shadowBounds": [
+      118,
+      67,
+      274,
+      331
+    ],
+    "viewport": [
+      20,
+      23,
+      352,
+      352
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 352,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "diwali-dazzler",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/diwali-dazzler.webp",
+    "sourceSha256": "6a4f0f6a07a97df69b22ab682f4e90cab00d616ce6974ea3db0bcd5cca799e27",
+    "objectBounds": [
+      188,
+      91,
+      457,
+      544
+    ],
+    "shadowBounds": [
+      186,
+      88,
+      459,
+      546
+    ],
+    "viewport": [
+      39,
+      34,
+      567,
+      567
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 567,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "snow-cone",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/snow-cone.webp",
+    "sourceSha256": "63645c219fa09423d4631656542a2014705f4cf2ef45c8bdd54e6ed6d4cbf847",
+    "objectBounds": [
+      217,
+      103,
+      408,
+      530
+    ],
+    "shadowBounds": [
+      215,
+      101,
+      410,
+      533
+    ],
+    "viewport": [
+      16,
+      20,
+      594,
+      594
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 594,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "eagle-pride",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/eagle-pride.webp",
+    "sourceSha256": "0919708737c0e64c6f72024a3450c90351099b017c4f594ef43079e88e026109",
+    "objectBounds": [
+      106,
+      123,
+      537,
+      501
+    ],
+    "shadowBounds": [
+      103,
+      121,
+      539,
+      503
+    ],
+    "viewport": [
+      22,
+      12,
+      599,
+      599
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 599,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "america-first",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/america-first.webp",
+    "sourceSha256": "18d3b99cad53ab8837578915eacbcdeca2b67f651db2c292e262d164132400a6",
+    "objectBounds": [
+      87,
+      92,
+      555,
+      518
+    ],
+    "shadowBounds": [
+      85,
+      90,
+      557,
+      520
+    ],
+    "viewport": [
+      -4,
+      -20,
+      650,
+      650
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "us-power",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/us-power.webp",
+    "sourceSha256": "f39e557898f67e65b07c4bd120ee841f6a20e61bf420ff90429fc1c790c5ba5d",
+    "objectBounds": [
+      133,
+      110,
+      508,
+      527
+    ],
+    "shadowBounds": [
+      131,
+      108,
+      510,
+      529
+    ],
+    "viewport": [
+      30,
+      28,
+      580,
+      580
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 580,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "3-min",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/3-min.webp",
+    "sourceSha256": "f413fbdfa92568f86fe69b7f240dcb39aaff45eda61dd7a97cc990684ef9be76",
+    "objectBounds": [
+      163,
+      145,
+      466,
+      479
+    ],
+    "shadowBounds": [
+      160,
+      143,
+      468,
+      481
+    ],
+    "viewport": [
+      82,
+      80,
+      464,
+      464
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 464,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ladybugs-3-pack.webp",
+    "sourceSha256": "bfa2b8eb2b191ea1588ac8db56d14a73ab7d9bd4b1de5e92a0a047806669df54",
+    "objectBounds": [
+      117,
+      201,
+      534,
+      431
+    ],
+    "shadowBounds": [
+      115,
+      199,
+      536,
+      433
+    ],
+    "viewport": [
+      10,
+      0,
+      632,
+      632
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 632,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "blond-joke",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/blond-joke.webp",
+    "sourceSha256": "10482e080e2c814e19ee05bb57f8bbb7d0d0b298984d8b530aa9b1795b829297",
+    "objectBounds": [
+      114,
+      129,
+      544,
+      512
+    ],
+    "shadowBounds": [
+      112,
+      126,
+      547,
+      514
+    ],
+    "viewport": [
+      30,
+      22,
+      598,
+      598
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 598,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "land-of-the-free",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/land-of-the-free.webp",
+    "sourceSha256": "251ea25ba9ceaed2ab8243b9d26026e176ab84dd7060726ad6f6bacb3cc9210b",
+    "objectBounds": [
+      183,
+      86,
+      456,
+      523
+    ],
+    "shadowBounds": [
+      181,
+      84,
+      458,
+      525
+    ],
+    "viewport": [
+      28,
+      13,
+      583,
+      583
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 583,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/usa-saturn-missile-battery.webp",
+    "sourceSha256": "0b451eb7ac1c24e14cba9eff9e62616f7971af6d14a91eca88c31bbc5197d0fc",
+    "objectBounds": [
+      84,
+      188,
+      545,
+      453
+    ],
+    "shadowBounds": [
+      81,
+      186,
+      547,
+      455
+    ],
+    "viewport": [
+      -6,
+      0,
+      641,
+      641
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "2-minute-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/2-minute-bomb.webp",
+    "sourceSha256": "3a956b1c696b2d27c8b67067ddc2d16c093257069fb7b67367907d04ff806239",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      416
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      416
+    ],
+    "viewport": [
+      -124,
+      -236,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "250-paratroopers",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/250-paratroopers.webp",
+    "sourceSha256": "a3167c31b60da31faf77286d270e70a8ef65ee941b72fe187a53f3f0c97ac69a",
+    "objectBounds": [
+      2,
+      31,
+      498,
+      469
+    ],
+    "shadowBounds": [
+      0,
+      29,
+      500,
+      471
+    ],
+    "viewport": [
+      -94,
+      -94,
+      689,
+      689
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "american-anthem",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/american-anthem.webp",
+    "sourceSha256": "095a6c591f0c5ae17410bd8cb7551f54245b90adf327e662073d3f86b879f1f6",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      608
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      608
+    ],
+    "viewport": [
+      -124,
+      -140,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ant-chant",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ant-chant.webp",
+    "sourceSha256": "52a871223753afac78ebd0efb29f2794cfa5b47044720fdd17daface93100592",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      277
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      277
+    ],
+    "viewport": [
+      -124,
+      -306,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "band-of-brothers",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/band-of-brothers.webp",
+    "sourceSha256": "bd48b3127311cf8e7d6a80cb61e7992f0aeeef3bed3b17869fe9536a9974a3f4",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      577
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      577
+    ],
+    "viewport": [
+      -124,
+      -156,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "born-leaders",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/born-leaders.webp",
+    "sourceSha256": "b8086ef391c2b6a28fafc2ddc16ef91691802b37e1c493bef3843609be06b578",
+    "objectBounds": [
+      17,
+      73,
+      486,
+      432
+    ],
+    "shadowBounds": [
+      15,
+      71,
+      488,
+      434
+    ],
+    "viewport": [
+      -74,
+      -74,
+      652,
+      652
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ceo-of-assortments",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ceo-of-assortments.webp",
+    "sourceSha256": "5e533d2fc5f71e78dcef11b341d9697ebce2aa225c186abcca28c2409d934e9c",
+    "objectBounds": [
+      96,
+      20,
+      411,
+      483
+    ],
+    "shadowBounds": [
+      94,
+      18,
+      413,
+      485
+    ],
+    "viewport": [
+      -36,
+      -38,
+      579,
+      579
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 579,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/chameleon-shells-24-pack.webp",
+    "sourceSha256": "87f6bb2835121f6aef9536ad8dda156e774ee23e782e40edbb0542b9a36f18e9",
+    "objectBounds": [
+      9,
+      42,
+      498,
+      470
+    ],
+    "shadowBounds": [
+      7,
+      40,
+      500,
+      472
+    ],
+    "viewport": [
+      -72,
+      -70,
+      652,
+      652
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.748,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cluster-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cluster-bomb.webp",
+    "sourceSha256": "aab5f7c55385df979296f13fdbda39dfbc125954b61271329396f0a656dcb2a9",
+    "objectBounds": [
+      0,
+      0,
+      589,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      590,
+      640
+    ],
+    "viewport": [
+      -150,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "colorful-skies",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/colorful-skies.webp",
+    "sourceSha256": "a005c0493f067075d7f2f2c7247b1c2f859f5d270835568064e03a876476c61c",
+    "objectBounds": [
+      0,
+      0,
+      556,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      556,
+      640
+    ],
+    "viewport": [
+      -166,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "dance-in-the-rain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/dance-in-the-rain.webp",
+    "sourceSha256": "a0719df57e430d097f166bc2061357bd98d2a29df2f44c7faa05f42d11749ba5",
+    "objectBounds": [
+      18,
+      0,
+      611,
+      517
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      525
+    ],
+    "viewport": [
+      -98,
+      -154,
+      824,
+      824
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "flying-pig-rockets",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/flying-pig-rockets.webp",
+    "sourceSha256": "941aefb99ae99359cf2edf8ab0435767b6358625093d825c861fc8bc6e01f6be",
+    "objectBounds": [
+      1,
+      0,
+      289,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      289,
+      640
+    ],
+    "viewport": [
+      -276,
+      -102,
+      843,
+      843
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "freedoms-wings",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/freedoms-wings.webp",
+    "sourceSha256": "643d30e0bd80e740ab801460368b8d7bfbdb8a5e2edd6645455adf41f0f7fd01",
+    "objectBounds": [
+      17,
+      60,
+      494,
+      441
+    ],
+    "shadowBounds": [
+      15,
+      58,
+      496,
+      443
+    ],
+    "viewport": [
+      -76,
+      -81,
+      663,
+      663
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "g-force-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/g-force-24-pack.webp",
+    "sourceSha256": "a50e21b3aaf2c2b4680dc4f7b926cf162a4336f09552d7e758ac658c12dd1d4f",
+    "objectBounds": [
+      101,
+      22,
+      390,
+      490
+    ],
+    "shadowBounds": [
+      99,
+      20,
+      404,
+      492
+    ],
+    "viewport": [
+      -66,
+      -56,
+      624,
+      624
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 624,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "galactic-empire",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/galactic-empire.webp",
+    "sourceSha256": "e9a0c8c3c5ee83f681a1bd8c2ddd5c1beb673a5aaa0076910edaaa85e9899cf7",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      470
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      470
+    ],
+    "viewport": [
+      -124,
+      -210,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ghost-dragon",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ghost-dragon.webp",
+    "sourceSha256": "fc604b0320467c46633994220b22778f1574de19223738a00c7fc0df57690b4f",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      568
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      568
+    ],
+    "viewport": [
+      -124,
+      -160,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ghost-killer",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ghost-killer.webp",
+    "sourceSha256": "01fb945c171e3a8d652ce415141ed9221a49eac0fe351113f89bec88daf15784",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      605
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      605
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ghost-rings",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ghost-rings.webp",
+    "sourceSha256": "8e07c9653fca61575eb058ba8bd6b51dc9e6e3649e06d32be2d2481bee94523a",
+    "objectBounds": [
+      6,
+      18,
+      494,
+      484
+    ],
+    "shadowBounds": [
+      4,
+      16,
+      496,
+      486
+    ],
+    "viewport": [
+      -89,
+      -88,
+      678,
+      678
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "grand-cannon",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/grand-cannon.webp",
+    "sourceSha256": "de12a9166eb4cf150be89fbcfc632a27f190a944a8ae65c4a7978249f21ce9ce",
+    "objectBounds": [
+      7,
+      113,
+      465,
+      410
+    ],
+    "shadowBounds": [
+      5,
+      111,
+      467,
+      412
+    ],
+    "viewport": [
+      -82,
+      -57,
+      637,
+      637
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 637,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "howling-commandos",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/howling-commandos.webp",
+    "sourceSha256": "4c69c834c5098e5f58e84a96293191e15509c77577d5ca61c4a1081eb567bf91",
+    "objectBounds": [
+      182,
+      4,
+      323,
+      493
+    ],
+    "shadowBounds": [
+      180,
+      2,
+      324,
+      496
+    ],
+    "viewport": [
+      -70,
+      -74,
+      644,
+      644
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jawbreaker",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jawbreaker.webp",
+    "sourceSha256": "6f8452c7106f19510d9ac7ad58fceac5acc535c4049774266d7e77b51f3fbf64",
+    "objectBounds": [
+      0,
+      0,
+      619,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      619,
+      640
+    ],
+    "viewport": [
+      -135,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/king-dragon-24-pack.webp",
+    "sourceSha256": "b6787adf1f6164644b25bfc88672b66b00141224fabd42d76e3c7779e9cce137",
+    "objectBounds": [
+      0,
+      0,
+      527,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      527,
+      640
+    ],
+    "viewport": [
+      -164,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "lucky-streak",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/lucky-streak.webp",
+    "sourceSha256": "532412fc82f79cbd4ab79a4cf31a25d3d567ea3430c230366e3a82ace90b2938",
+    "objectBounds": [
+      2,
+      62,
+      498,
+      432
+    ],
+    "shadowBounds": [
+      0,
+      60,
+      500,
+      439
+    ],
+    "viewport": [
+      -94,
+      -98,
+      689,
+      689
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "magnum-tremors",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/magnum-tremors.webp",
+    "sourceSha256": "e2327c4f770ae30ba736e34feae92cfc2675590da50da35cbb3ef705be9d00b1",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "migraine",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/migraine.webp",
+    "sourceSha256": "5612b172ec4cc7a31a2ea87a7b4474d98d52964e90778aa5b67a5c670b136d04",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "monkey-business",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/monkey-business.webp",
+    "sourceSha256": "c31698fe3ee1b8fcf348f2a9ae87e97afa88365b8ba92d3fb1fa40691a391c4c",
+    "objectBounds": [
+      0,
+      0,
+      572,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      572,
+      640
+    ],
+    "viewport": [
+      -158,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-boom",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-boom.webp",
+    "sourceSha256": "de555ab352364be11c8c8a6bc04389fb7a17c53cf1c946efe11babd8da779a0c",
+    "objectBounds": [
+      0,
+      0,
+      618,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      618,
+      640
+    ],
+    "viewport": [
+      -136,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "occupy-mars",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/occupy-mars.webp",
+    "sourceSha256": "ac00e5205f190c7e1f919de35d667ff20cfc6ba9d4f16e3fdd47d01519893a35",
+    "objectBounds": [
+      2,
+      40,
+      498,
+      459
+    ],
+    "shadowBounds": [
+      0,
+      38,
+      500,
+      461
+    ],
+    "viewport": [
+      -94,
+      -95,
+      689,
+      689
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "party-like-its-1776",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/party-like-its-1776.webp",
+    "sourceSha256": "765edb8a86130bca2e0de42ef391af0a61278ee2a3e4f7cd94bbff5af9f2cde2",
+    "objectBounds": [
+      23,
+      69,
+      454,
+      440
+    ],
+    "shadowBounds": [
+      21,
+      67,
+      457,
+      442
+    ],
+    "viewport": [
+      -61,
+      -45,
+      599,
+      599
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 599,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/peacock-spider-24-pack.webp",
+    "sourceSha256": "530e9a9b32e89070a821ef70a9526b6fed8a5a075391dfa8735fefe0e10e1bb6",
+    "objectBounds": [
+      59,
+      0,
+      640,
+      484
+    ],
+    "shadowBounds": [
+      9,
+      0,
+      640,
+      535
+    ],
+    "viewport": [
+      -38,
+      -146,
+      775,
+      775
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "battle-of-princeton",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/battle-of-princeton.webp",
+    "sourceSha256": "fafaf8da28f7fbfa595a6e17b634e8034396ea47c74ecc3c46e76e124ac2ce34",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      510
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      510
+    ],
+    "viewport": [
+      -124,
+      -190,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "raging-willow",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/raging-willow.webp",
+    "sourceSha256": "9ea3146a0bbf88d6d89b5a36f68de368579d51ce8a4b2c816f6bd3fe8507a448",
+    "objectBounds": [
+      0,
+      0,
+      503,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      503,
+      640
+    ],
+    "viewport": [
+      -193,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "rainbow-ghost",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/rainbow-ghost.webp",
+    "sourceSha256": "743c1cbdcf099d6db560772149bb6bac8c0e83a38d6a558ac508a56aa1daaab7",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      272
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      272
+    ],
+    "viewport": [
+      -124,
+      -308,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "revolution-now",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/revolution-now.webp",
+    "sourceSha256": "1097f5a7c8a496f32966e7fde7ac3f9613e0a53a148211c54a7d75189dfed1f5",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      540
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      540
+    ],
+    "viewport": [
+      -124,
+      -174,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "road-rage-bright-star",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/road-rage-bright-star.webp",
+    "sourceSha256": "bd71e9e2c74ec30051e2e25fa8f13f240e68d9c74ad7b8eab1c9abe39c2026b1",
+    "objectBounds": [
+      11,
+      124,
+      491,
+      383
+    ],
+    "shadowBounds": [
+      9,
+      122,
+      493,
+      385
+    ],
+    "viewport": [
+      -82,
+      -80,
+      667,
+      667
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "assorted-roman-candles-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/assorted-roman-candles-4-pack.webp",
+    "sourceSha256": "b6a85f000131df70009e756181b96b75cafd6e42c389dc748c17226f78b8b250",
+    "objectBounds": [
+      0,
+      0,
+      96,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      96,
+      640
+    ],
+    "viewport": [
+      -374,
+      -102,
+      843,
+      843
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "strato-launcher",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/strato-launcher.webp",
+    "sourceSha256": "5dd0f299e19f24c10464a5612550b741f0510bd126d02864f0289a8d01a4916d",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      534
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      534
+    ],
+    "viewport": [
+      -124,
+      -178,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "strobing-willow",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/strobing-willow.webp",
+    "sourceSha256": "11f9854f978be136981d8e607be2cf3b4a27d19537933e6f0af65677b360994a",
+    "objectBounds": [
+      0,
+      0,
+      611,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      611,
+      640
+    ],
+    "viewport": [
+      -139,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "take-me-to-your-leader",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/take-me-to-your-leader.webp",
+    "sourceSha256": "f840f5fd6e22d976a5517d412f126abd1e60c829fa48bd6959e017e65c794fd6",
+    "objectBounds": [
+      35,
+      121,
+      483,
+      379
+    ],
+    "shadowBounds": [
+      34,
+      118,
+      485,
+      381
+    ],
+    "viewport": [
+      -80,
+      -90,
+      679,
+      679
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.661,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "whisky-business",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/whisky-business.webp",
+    "sourceSha256": "49aaa88a797640078cd94f58e5fb1ec09cc45ed79ff329ca5c8affa3d1a0a4bd",
+    "objectBounds": [
+      28,
+      62,
+      467,
+      432
+    ],
+    "shadowBounds": [
+      26,
+      60,
+      469,
+      433
+    ],
+    "viewport": [
+      -58,
+      -58,
+      610,
+      610
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 610,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "wild-horses",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/wild-horses.webp",
+    "sourceSha256": "e021e1723ad8964df15e2ef30682fd2059c12e4315b8ab43472a25b99a628485",
+    "objectBounds": [
+      0,
+      0,
+      556,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      556,
+      640
+    ],
+    "viewport": [
+      -166,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "willow-explosion",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/willow-explosion.webp",
+    "sourceSha256": "752071cbbf3a48fefc3d1deab14e07b81e6c8c3430834c3abcb07df063ee867b",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      612
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      612
+    ],
+    "viewport": [
+      -124,
+      -138,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-jellyfish",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-jellyfish.webp",
+    "sourceSha256": "3869fc4aee4761786abd5e5731b8852341ad00f718a428247f82a8eccaedd9b0",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "party-sparklers-display",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/party-sparklers-display.webp",
+    "sourceSha256": "64761c5bf401d356322780b22d8a4cdec68e26f9fd4a197e92cd7e3cd56b56a1",
+    "objectBounds": [
+      19,
+      23,
+      491,
+      461
+    ],
+    "shadowBounds": [
+      18,
+      21,
+      494,
+      463
+    ],
+    "viewport": [
+      -73,
+      -86,
+      656,
+      656
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.722,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/raise-the-dead-24-pack.webp",
+    "sourceSha256": "69bf23c79a883933c21e56cab3efe38d9d7e2db87891202bcce23552d67be883",
+    "objectBounds": [
+      7,
+      14,
+      497,
+      481
+    ],
+    "shadowBounds": [
+      5,
+      12,
+      499,
+      483
+    ],
+    "viewport": [
+      -75,
+      -80,
+      654,
+      654
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.748,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "trooper-turret",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/trooper-turret.webp",
+    "sourceSha256": "0375710e077ff97a75684d424b04965daacd4ae7d5971e608ec86142a689ff92",
+    "objectBounds": [
+      39,
+      31,
+      463,
+      476
+    ],
+    "shadowBounds": [
+      37,
+      29,
+      465,
+      478
+    ],
+    "viewport": [
+      -42,
+      -40,
+      586,
+      586
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 586,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "wings-of-wrath",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/wings-of-wrath.webp",
+    "sourceSha256": "4a302b9c74dcd1207a81ad4b70e4cf18e7b820fb520e2e7fa7b1a106193aedf2",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      507
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      507
+    ],
+    "viewport": [
+      -124,
+      -191,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/no-3-cone-fountain-2-pack.webp",
+    "sourceSha256": "584cefb57f7cf763482c4293a72c86fdb9b8d98282d0ea2dfe02ea3fff693fc9",
+    "objectBounds": [
+      209,
+      86,
+      427,
+      528
+    ],
+    "shadowBounds": [
+      207,
+      84,
+      429,
+      530
+    ],
+    "viewport": [
+      11,
+      0,
+      614,
+      614
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 614,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "atom-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/atom-bomb.webp",
+    "sourceSha256": "cb611ddf17dfa88b5ca8f038b8e3db295772245a4a754548f2886dbe9ac6e763",
+    "objectBounds": [
+      73,
+      122,
+      569,
+      502
+    ],
+    "shadowBounds": [
+      71,
+      120,
+      571,
+      504
+    ],
+    "viewport": [
+      -24,
+      -32,
+      689,
+      689
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "bamboozle",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/bamboozle.webp",
+    "sourceSha256": "7ce14dc4e02a3c7030847fbd1a4d0feba9f8233fd9baca5a2a4d62230aae7ce8",
+    "objectBounds": [
+      67,
+      179,
+      537,
+      461
+    ],
+    "shadowBounds": [
+      64,
+      176,
+      539,
+      464
+    ],
+    "viewport": [
+      -24,
+      -6,
+      653,
+      653
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "big-top",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/big-top.webp",
+    "sourceSha256": "976551b51d5b792bd87041052efc0433ad6dafa56babca5b6112559f261430af",
+    "objectBounds": [
+      52,
+      144,
+      577,
+      474
+    ],
+    "shadowBounds": [
+      50,
+      142,
+      579,
+      476
+    ],
+    "viewport": [
+      -50,
+      -56,
+      730,
+      730
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "blood-money",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/blood-money.webp",
+    "sourceSha256": "da922cbeddc178fa57421c36a24d0c0360c6e688a2aedf96563a5940fb42a9c9",
+    "objectBounds": [
+      48,
+      140,
+      595,
+      461
+    ],
+    "shadowBounds": [
+      46,
+      138,
+      597,
+      463
+    ],
+    "viewport": [
+      -58,
+      -80,
+      760,
+      760
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "canopus",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/canopus.webp",
+    "sourceSha256": "7f20f30067d0602b51f00e6195d10512a3311906154cae95103da38bcc0bc3dc",
+    "objectBounds": [
+      59,
+      137,
+      583,
+      502
+    ],
+    "shadowBounds": [
+      57,
+      135,
+      585,
+      504
+    ],
+    "viewport": [
+      -43,
+      -44,
+      728,
+      728
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "capella",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/capella.webp",
+    "sourceSha256": "306109af7191121ff41d29f7dd1e5399ab2b62e80e6b150513eb17adb43a4691",
+    "objectBounds": [
+      59,
+      137,
+      583,
+      502
+    ],
+    "shadowBounds": [
+      57,
+      135,
+      585,
+      504
+    ],
+    "viewport": [
+      -43,
+      -44,
+      728,
+      728
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "captain-sam",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/captain-sam.webp",
+    "sourceSha256": "f16a437883767674d38d302e442c44aa310fc42f6d08ed6c57f13c1663afeef9",
+    "objectBounds": [
+      76,
+      128,
+      550,
+      512
+    ],
+    "shadowBounds": [
+      74,
+      126,
+      552,
+      514
+    ],
+    "viewport": [
+      -16,
+      -10,
+      659,
+      659
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "centauri",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/centauri.webp",
+    "sourceSha256": "8e31104ec4eee9a8526d11b0c85722a7e74e0ead50ad4aead7dfabb30a23181c",
+    "objectBounds": [
+      59,
+      137,
+      583,
+      502
+    ],
+    "shadowBounds": [
+      57,
+      135,
+      585,
+      504
+    ],
+    "viewport": [
+      -43,
+      -44,
+      728,
+      728
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cobalt-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cobalt-bomb.webp",
+    "sourceSha256": "0a8a60eaab1b8bad5f7dfa12c6e87e4cb20c957c36b2020be88835a0f24cef4c",
+    "objectBounds": [
+      66,
+      105,
+      563,
+      490
+    ],
+    "shadowBounds": [
+      64,
+      102,
+      566,
+      492
+    ],
+    "viewport": [
+      -31,
+      -48,
+      691,
+      691
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "crime-scene",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/crime-scene.webp",
+    "sourceSha256": "d2f04bec09bfdba2b164c80f3672cce29aee74bfde08dd9130dd2346c597e390",
+    "objectBounds": [
+      48,
+      140,
+      595,
+      461
+    ],
+    "shadowBounds": [
+      46,
+      138,
+      597,
+      463
+    ],
+    "viewport": [
+      -58,
+      -80,
+      760,
+      760
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "daffodil",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/daffodil.webp",
+    "sourceSha256": "ea5ec9b1194157884b6fc318cd5921d303f40c603860b6be726622e10bd2c941",
+    "objectBounds": [
+      158,
+      131,
+      489,
+      533
+    ],
+    "shadowBounds": [
+      156,
+      128,
+      491,
+      535
+    ],
+    "viewport": [
+      44,
+      52,
+      559,
+      559
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 559,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "the-deadly-dozen",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/the-deadly-dozen.webp",
+    "sourceSha256": "a3538c9a153b57456c20c663b604f6287c4ad52d160e224faaae457ea816c612",
+    "objectBounds": [
+      63,
+      163,
+      570,
+      450
+    ],
+    "shadowBounds": [
+      61,
+      161,
+      572,
+      452
+    ],
+    "viewport": [
+      0,
+      -10,
+      634,
+      634
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 634,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "fairies-in-a-jar",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/fairies-in-a-jar.webp",
+    "sourceSha256": "f618b2d49c705445df6fc468e4f9c4115822fe6f1ac845c30aadb80d2c7c6d32",
+    "objectBounds": [
+      198,
+      89,
+      461,
+      545
+    ],
+    "shadowBounds": [
+      195,
+      87,
+      463,
+      547
+    ],
+    "viewport": [
+      12,
+      0,
+      634,
+      634
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 634,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "flash-flood-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/flash-flood-assortment.webp",
+    "sourceSha256": "9ca81b0f93efff2294bf76a6fe8de85db4aa07cff153ddeab0d7c9645a812255",
+    "objectBounds": [
+      191,
+      28,
+      435,
+      612
+    ],
+    "shadowBounds": [
+      189,
+      25,
+      437,
+      615
+    ],
+    "viewport": [
+      -52,
+      -45,
+      730,
+      730
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "full-speed-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/full-speed-24-pack.webp",
+    "sourceSha256": "bb88867b48d472b43f7103b82ed056108b6a5722bf4d893869c9971ae1383dc7",
+    "objectBounds": [
+      132,
+      43,
+      506,
+      576
+    ],
+    "shadowBounds": [
+      129,
+      41,
+      508,
+      579
+    ],
+    "viewport": [
+      -36,
+      -46,
+      711,
+      711
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "golden-peacock",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/golden-peacock.webp",
+    "sourceSha256": "7db4df93b2bbd91ef906e7393a01f670974a7aa3c79bbce50542ad575f185b99",
+    "objectBounds": [
+      132,
+      120,
+      491,
+      536
+    ],
+    "shadowBounds": [
+      129,
+      118,
+      493,
+      539
+    ],
+    "viewport": [
+      22,
+      39,
+      578,
+      578
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 578,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hydrogen-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hydrogen-bomb.webp",
+    "sourceSha256": "0bd54b75197784813f10aa4c1a0642761f294f4b8de72c41ff012a404d3021d3",
+    "objectBounds": [
+      66,
+      110,
+      563,
+      490
+    ],
+    "shadowBounds": [
+      64,
+      108,
+      566,
+      492
+    ],
+    "viewport": [
+      -31,
+      -46,
+      691,
+      691
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "inside-job",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/inside-job.webp",
+    "sourceSha256": "a3086b60ad37ea6cdc71c793a11e600b898186c507ed68797834c888ec8a8172",
+    "objectBounds": [
+      48,
+      140,
+      595,
+      461
+    ],
+    "shadowBounds": [
+      46,
+      138,
+      597,
+      463
+    ],
+    "viewport": [
+      -58,
+      -80,
+      760,
+      760
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jaws-brothers",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jaws-brothers.webp",
+    "sourceSha256": "f50a7d63a9ccf44c98c8eeeac531e2cb2fa8a16a3daa150af58aa8f9af9d77c4",
+    "objectBounds": [
+      119,
+      118,
+      527,
+      529
+    ],
+    "shadowBounds": [
+      117,
+      116,
+      529,
+      532
+    ],
+    "viewport": [
+      38,
+      38,
+      571,
+      571
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 571,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jumboshell-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jumboshell-fountain.webp",
+    "sourceSha256": "1f27df4591af0b7edd3d4808660826883befb6236bec32572c9ab32d1e172d10",
+    "objectBounds": [
+      104,
+      105,
+      511,
+      569
+    ],
+    "shadowBounds": [
+      102,
+      103,
+      514,
+      571
+    ],
+    "viewport": [
+      -15,
+      14,
+      645,
+      645
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m1-abrams-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m1-abrams-2-pack.webp",
+    "sourceSha256": "215c040f604b5fea93d9e85492d37951bec6670686048ad8fc2b225d29446ff5",
+    "objectBounds": [
+      49,
+      138,
+      580,
+      538
+    ],
+    "shadowBounds": [
+      46,
+      135,
+      583,
+      541
+    ],
+    "viewport": [
+      -88,
+      -64,
+      805,
+      805
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.661,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/maelstrom-24-pack.webp",
+    "sourceSha256": "7f2bf1dc0e4d8c9f603dff235b94f6e167e4e924bafe0eefac10a03c2b345e60",
+    "objectBounds": [
+      24,
+      59,
+      616,
+      598
+    ],
+    "shadowBounds": [
+      22,
+      57,
+      618,
+      600
+    ],
+    "viewport": [
+      -75,
+      -66,
+      790,
+      790
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "magic-crystal-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/magic-crystal-4-pack.webp",
+    "sourceSha256": "9d44c16bb6df32433169b30efd867a0766beb350dbf018c50a16858119fe8c2e",
+    "objectBounds": [
+      84,
+      126,
+      546,
+      574
+    ],
+    "shadowBounds": [
+      82,
+      123,
+      548,
+      576
+    ],
+    "viewport": [
+      -35,
+      0,
+      700,
+      700
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.661,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "maximum-altitude-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/maximum-altitude-4-pack.webp",
+    "sourceSha256": "97b739fdbca85dc4d3c421e5e477b1a4e968ec31650e4f96114666895925d227",
+    "objectBounds": [
+      77,
+      52,
+      543,
+      566
+    ],
+    "shadowBounds": [
+      74,
+      50,
+      545,
+      569
+    ],
+    "viewport": [
+      -28,
+      -30,
+      677,
+      677
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "mechanical-bug",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mechanical-bug.webp",
+    "sourceSha256": "f335420d3040e88380e4ef546729585e670442623977749c75fc51e2575438a7",
+    "objectBounds": [
+      86,
+      198,
+      545,
+      442
+    ],
+    "shadowBounds": [
+      84,
+      196,
+      548,
+      444
+    ],
+    "viewport": [
+      -4,
+      1,
+      638,
+      638
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 638,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "megawatt",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/megawatt.webp",
+    "sourceSha256": "e2982e455e2e7709d78e8bead406e6ca05c187eba3ac60ab021ccc32e0d12002",
+    "objectBounds": [
+      18,
+      225,
+      618,
+      381
+    ],
+    "shadowBounds": [
+      16,
+      223,
+      620,
+      383
+    ],
+    "viewport": [
+      -99,
+      -114,
+      834,
+      834
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "midnight",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/midnight.webp",
+    "sourceSha256": "94748ffcca904d2d53924424ae24d6daa9142a78ee94bbc5816a2bbabfe43c3d",
+    "objectBounds": [
+      31,
+      213,
+      594,
+      362
+    ],
+    "shadowBounds": [
+      29,
+      211,
+      597,
+      364
+    ],
+    "viewport": [
+      -78,
+      -104,
+      782,
+      782
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "movie-time",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/movie-time.webp",
+    "sourceSha256": "2b35a0c6681c50a46e7840f17f0fa49652d4051afeb23386fdf23094f81ef550",
+    "objectBounds": [
+      113,
+      81,
+      528,
+      566
+    ],
+    "shadowBounds": [
+      111,
+      79,
+      530,
+      568
+    ],
+    "viewport": [
+      -16,
+      -14,
+      674,
+      674
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neutron-bomb",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neutron-bomb.webp",
+    "sourceSha256": "33445895fd67830e93ba4f22cb96263684eb360a38adf54339eefd1465634fd4",
+    "objectBounds": [
+      66,
+      110,
+      563,
+      490
+    ],
+    "shadowBounds": [
+      64,
+      108,
+      566,
+      492
+    ],
+    "viewport": [
+      -31,
+      -46,
+      691,
+      691
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "old-ironsides",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/old-ironsides.webp",
+    "sourceSha256": "517b8ad04431135c85ea8626cdf9f30574edeb28f0a42d4cb02b1b3b3f53c77d",
+    "objectBounds": [
+      83,
+      161,
+      555,
+      476
+    ],
+    "shadowBounds": [
+      81,
+      159,
+      557,
+      478
+    ],
+    "viewport": [
+      -9,
+      -10,
+      656,
+      656
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "quest-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/quest-24-pack.webp",
+    "sourceSha256": "961010c0c5b02d406fc57831af020ad5cf0f1341d263488e0bda6da3ddfc86bc",
+    "objectBounds": [
+      145,
+      50,
+      477,
+      601
+    ],
+    "shadowBounds": [
+      143,
+      48,
+      479,
+      603
+    ],
+    "viewport": [
+      -56,
+      -42,
+      735,
+      735
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ruckus-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ruckus-12-pack.webp",
+    "sourceSha256": "6743779ed57c59c648a700930be3462e69377060200387e90fd11d787cceef16",
+    "objectBounds": [
+      196,
+      40,
+      438,
+      600
+    ],
+    "shadowBounds": [
+      194,
+      38,
+      440,
+      602
+    ],
+    "viewport": [
+      -56,
+      -54,
+      747,
+      747
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.748,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "serious-equipment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/serious-equipment.webp",
+    "sourceSha256": "edbe5337f2fd55096eba92804f81160ff3fc3a402465c4c65938d3311736627c",
+    "objectBounds": [
+      192,
+      49,
+      439,
+      575
+    ],
+    "shadowBounds": [
+      190,
+      47,
+      441,
+      577
+    ],
+    "viewport": [
+      -36,
+      -39,
+      702,
+      702
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "smash-hit",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/smash-hit.webp",
+    "sourceSha256": "6edf3fcecfdc7bdbfb7de29193bcc2fe746c0b4592eea39bab4c7f9668493739",
+    "objectBounds": [
+      89,
+      85,
+      530,
+      559
+    ],
+    "shadowBounds": [
+      87,
+      83,
+      533,
+      561
+    ],
+    "viewport": [
+      -20,
+      -8,
+      659,
+      659
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sons-of-liberty",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sons-of-liberty.webp",
+    "sourceSha256": "75c4ce550741658e131d806d466e4faa93999db2b28b25b4617bc8a8acf73710",
+    "objectBounds": [
+      42,
+      163,
+      584,
+      460
+    ],
+    "shadowBounds": [
+      40,
+      161,
+      586,
+      462
+    ],
+    "viewport": [
+      -64,
+      -65,
+      753,
+      753
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/the-red-white-and-blue-salute.webp",
+    "sourceSha256": "f6558405f69bc158ed46ff892ede87cebf25f3c049856fd35b622b1fb0819138",
+    "objectBounds": [
+      120,
+      177,
+      499,
+      463
+    ],
+    "shadowBounds": [
+      118,
+      175,
+      502,
+      465
+    ],
+    "viewport": [
+      46,
+      56,
+      527,
+      527
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 527,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "turf-war",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/turf-war.webp",
+    "sourceSha256": "b9ca97ed525826c78da1fa56556755d425e3512ce6ec148a77c13e072e45be7b",
+    "objectBounds": [
+      48,
+      140,
+      595,
+      461
+    ],
+    "shadowBounds": [
+      46,
+      138,
+      597,
+      463
+    ],
+    "viewport": [
+      -58,
+      -80,
+      760,
+      760
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "vega",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/vega.webp",
+    "sourceSha256": "f4e2fa088bd7329c943c1848126dcf5a825f2ba7b4da57b4ad0b768e3f0b0b69",
+    "objectBounds": [
+      59,
+      137,
+      583,
+      502
+    ],
+    "shadowBounds": [
+      57,
+      135,
+      585,
+      504
+    ],
+    "viewport": [
+      -43,
+      -44,
+      728,
+      728
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "wild-west",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/wild-west.webp",
+    "sourceSha256": "613ada7b3f375b3f1bd783da9c95771489200de46e92436b92784f5de3d6b5b8",
+    "objectBounds": [
+      157,
+      119,
+      512,
+      535
+    ],
+    "shadowBounds": [
+      155,
+      116,
+      514,
+      537
+    ],
+    "viewport": [
+      46,
+      38,
+      578,
+      578
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 578,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "wildcard",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/wildcard.webp",
+    "sourceSha256": "cfe02c5335489526afa75b25e855d44c85b88286efdaad0936e649412338ab1b",
+    "objectBounds": [
+      84,
+      176,
+      540,
+      478
+    ],
+    "shadowBounds": [
+      82,
+      174,
+      542,
+      480
+    ],
+    "viewport": [
+      -5,
+      10,
+      634,
+      634
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 634,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "da-big-box-o-bombs",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/da-big-box-o-bombs.webp",
+    "sourceSha256": "9ec77a6895e3b9da445ec86e9a7e8c5d20e09f1932d63e0f26e3862292709fa2",
+    "objectBounds": [
+      84,
+      103,
+      560,
+      526
+    ],
+    "shadowBounds": [
+      81,
+      101,
+      562,
+      529
+    ],
+    "viewport": [
+      24,
+      17,
+      595,
+      595
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 595,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "flying-colors",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/flying-colors.webp",
+    "sourceSha256": "a7dea1c2913fd3a6694cd0bd62592dae929c450697dc74e876f7fcd147b657bc",
+    "objectBounds": [
+      108,
+      168,
+      521,
+      473
+    ],
+    "shadowBounds": [
+      106,
+      165,
+      524,
+      475
+    ],
+    "viewport": [
+      28,
+      34,
+      574,
+      574
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 574,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "mob-madness",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mob-madness.webp",
+    "sourceSha256": "815a1a15dcf26bfaa74ca9c5628b55e9cf8cb0745302f29786c409b4ce1f62bf",
+    "objectBounds": [
+      63,
+      149,
+      568,
+      491
+    ],
+    "shadowBounds": [
+      61,
+      147,
+      570,
+      493
+    ],
+    "viewport": [
+      0,
+      4,
+      632,
+      632
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 632,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "super-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/super-fountain.webp",
+    "sourceSha256": "b889e112317fc0237612cc69f106c0a2b33590a11d131a3e6b3db2e0f295840e",
+    "objectBounds": [
+      68,
+      156,
+      558,
+      489
+    ],
+    "shadowBounds": [
+      66,
+      154,
+      561,
+      491
+    ],
+    "viewport": [
+      -28,
+      -18,
+      681,
+      681
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "brothers-container-load",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/brothers-container-load.webp",
+    "sourceSha256": "e58aff199b347dc3063e14ff10bb6641086525e2af3e8393c32c040d38f77e61",
+    "objectBounds": [
+      157,
+      14,
+      479,
+      623
+    ],
+    "shadowBounds": [
+      151,
+      12,
+      482,
+      625
+    ],
+    "viewport": [
+      -63,
+      -62,
+      762,
+      762
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.798,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "solar-flare-no-3",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/solar-flare-no-3.webp",
+    "sourceSha256": "4cb760828c6d0104aeb9ce0b9070af1a4a0d8eef5839c4f2d082643f14a0f190",
+    "objectBounds": [
+      95,
+      2,
+      199,
+      295
+    ],
+    "shadowBounds": [
+      95,
+      2,
+      199,
+      295
+    ],
+    "viewport": [
+      -56,
+      -55,
+      407,
+      407
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 407,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "turbo-flash-no-4",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/turbo-flash-no-4.webp",
+    "sourceSha256": "feb9cc42e0ff7795c71f8825a8d57b57f0ca6fa20aa6e4816b7ceddb8fd71ded",
+    "objectBounds": [
+      104,
+      4,
+      196,
+      296
+    ],
+    "shadowBounds": [
+      104,
+      4,
+      196,
+      296
+    ],
+    "viewport": [
+      -53,
+      -53,
+      406,
+      406
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 406,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pharaohs-treasure-no-8",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pharaohs-treasure-no-8.webp",
+    "sourceSha256": "b8c0be20fb1d765c36008748d8d670582031537e69ed4e2a89a57fb247c907a8",
+    "objectBounds": [
+      105,
+      6,
+      195,
+      296
+    ],
+    "shadowBounds": [
+      104,
+      6,
+      195,
+      296
+    ],
+    "viewport": [
+      -52,
+      -50,
+      403,
+      403
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 403,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "120-shot-camo-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/120-shot-camo-pack.webp",
+    "sourceSha256": "629630b628f863dae50375cce03107320eeb91c2ffe112fa2c16f6f3caf01e98",
+    "objectBounds": [
+      83,
+      9,
+      227,
+      290
+    ],
+    "shadowBounds": [
+      83,
+      9,
+      227,
+      290
+    ],
+    "viewport": [
+      -30,
+      -36,
+      370,
+      370
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 370,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "snow-cone-jr-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/snow-cone-jr-4-pack.webp",
+    "sourceSha256": "5b1a32cb31dce3c6fd94280c7da9fe31d817980e044f263b2ca14fd84319fa27",
+    "objectBounds": [
+      4,
+      57,
+      295,
+      237
+    ],
+    "shadowBounds": [
+      4,
+      57,
+      295,
+      237
+    ],
+    "viewport": [
+      -53,
+      -56,
+      405,
+      405
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 405,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "above-the-law-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/above-the-law-assortment.webp",
+    "sourceSha256": "b712283724c1cc0f4021a6ea7a94f0ea881392cb16f51334c3f85c4268c18c31",
+    "objectBounds": [
+      91,
+      10,
+      228,
+      290
+    ],
+    "shadowBounds": [
+      91,
+      10,
+      228,
+      290
+    ],
+    "viewport": [
+      -16,
+      -25,
+      350,
+      350
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 350,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "absolute-pyro",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/absolute-pyro.webp",
+    "sourceSha256": "d2e93ece711220f0993a79c947110e12fd819bc296dcf01a6b37e0d681e55e60",
+    "objectBounds": [
+      5,
+      72,
+      294,
+      228
+    ],
+    "shadowBounds": [
+      5,
+      72,
+      294,
+      228
+    ],
+    "viewport": [
+      -52,
+      -51,
+      402,
+      402
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 402,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "big-city-display",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/big-city-display.webp",
+    "sourceSha256": "f9dffd23755e560a763d4a809b868cd4924a9aa90c17eda0592067d16c4496db",
+    "objectBounds": [
+      187,
+      22,
+      451,
+      634
+    ],
+    "shadowBounds": [
+      185,
+      20,
+      454,
+      636
+    ],
+    "viewport": [
+      -64,
+      -54,
+      765,
+      765
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "big-and-bad-rockets",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/big-and-bad-rockets.webp",
+    "sourceSha256": "d08365df497ef634cfc274e3506b16b7cea9e41722c554ecae1628df53c2f554",
+    "objectBounds": [
+      17,
+      16,
+      280,
+      285
+    ],
+    "shadowBounds": [
+      16,
+      15,
+      282,
+      286
+    ],
+    "viewport": [
+      -28,
+      -26,
+      354,
+      354
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 354,
+    "actualOccupancy": 0.76,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-four-assorted-9-inch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-four-assorted-9-inch.webp",
+    "sourceSha256": "4b9e2de509ee5af2cc02ff465c9a0f2e54d652b26f91b6972e5b79034fe96d3e",
+    "objectBounds": [
+      27,
+      60,
+      275,
+      243
+    ],
+    "shadowBounds": [
+      27,
+      60,
+      275,
+      243
+    ],
+    "viewport": [
+      -22,
+      -21,
+      345,
+      345
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 345,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-four-assorted-6-inch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-four-assorted-6-inch.webp",
+    "sourceSha256": "7741ad73457c352ff31e3465a2783f7fd070a7979948cec5752185e6ce19e76b",
+    "objectBounds": [
+      26,
+      59,
+      276,
+      243
+    ],
+    "shadowBounds": [
+      25,
+      59,
+      276,
+      244
+    ],
+    "viewport": [
+      -23,
+      -23,
+      348,
+      348
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 348,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cat-eyes-3-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cat-eyes-3-pack.webp",
+    "sourceSha256": "7f4f3446bf496bcebd510bdc1deb41be82769e1df3edc0351e30ddc674fe1801",
+    "objectBounds": [
+      4,
+      58,
+      296,
+      228
+    ],
+    "shadowBounds": [
+      4,
+      58,
+      296,
+      228
+    ],
+    "viewport": [
+      -72,
+      -78,
+      443,
+      443
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 443,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "fountastic",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/fountastic.webp",
+    "sourceSha256": "d654966625991512d5ace561ab3963dfafb24c5ec0466376dc5f80de84f1f662",
+    "objectBounds": [
+      66,
+      18,
+      183,
+      232
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -24,
+      -24,
+      298,
+      298
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 298,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-four-assorted-7-inch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-four-assorted-7-inch.webp",
+    "sourceSha256": "c376c3c5c4df83b6bce576fe7a7b4210a6806b335e592579047a2b6f14da0441",
+    "objectBounds": [
+      15,
+      47,
+      285,
+      251
+    ],
+    "shadowBounds": [
+      15,
+      47,
+      285,
+      251
+    ],
+    "viewport": [
+      -38,
+      -38,
+      375,
+      375
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 375,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "little-dynamite-100",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/little-dynamite-100.webp",
+    "sourceSha256": "f41185f28a7ab88a7088d7917aeb21d2a0556a6fff6fe210b6f7e4906dd641fc",
+    "objectBounds": [
+      8,
+      7,
+      243,
+      223
+    ],
+    "shadowBounds": [
+      1,
+      1,
+      250,
+      229
+    ],
+    "viewport": [
+      -48,
+      -58,
+      346,
+      346
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 346,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "3-for-1-fountains",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/3-for-1-fountains.webp",
+    "sourceSha256": "f65bb28e87d50e02aba4f9113187aacc34b72418ab751c186f0c0e77cb108f2b",
+    "objectBounds": [
+      26,
+      61,
+      224,
+      197
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -12,
+      -8,
+      275,
+      275
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 275,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "camo-smoke",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/camo-smoke.webp",
+    "sourceSha256": "3b93d2af858a230258081a79fd6c6f55c6aafd3aaa7a45bf0528f510995b1e69",
+    "objectBounds": [
+      9,
+      114,
+      287,
+      178
+    ],
+    "shadowBounds": [
+      9,
+      114,
+      288,
+      179
+    ],
+    "viewport": [
+      -46,
+      -48,
+      387,
+      387
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 387,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "confetti-blaster-24-inch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/confetti-blaster-24-inch.webp",
+    "sourceSha256": "30779e687a2c2e9abba61b5d08791b201ddc90bd580af75386381bfffe2453e9",
+    "objectBounds": [
+      42,
+      154,
+      588,
+      469
+    ],
+    "shadowBounds": [
+      40,
+      151,
+      590,
+      472
+    ],
+    "viewport": [
+      -99,
+      -102,
+      828,
+      828
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cracker-balls-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cracker-balls-6-pack.webp",
+    "sourceSha256": "8ed389a8ca3d41f3bfa8206eed54d46886d755ba5e56ea29c7f99ad27921fdc5",
+    "objectBounds": [
+      42,
+      34,
+      210,
+      218
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -14,
+      -14,
+      279,
+      279
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 279,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cracker-bomb-3-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cracker-bomb-3-pack.webp",
+    "sourceSha256": "fb11436798ddf463e29759f89f03b6f18180f7177dcc2f3731de87022839c5c0",
+    "objectBounds": [
+      79,
+      5,
+      221,
+      295
+    ],
+    "shadowBounds": [
+      78,
+      5,
+      221,
+      296
+    ],
+    "viewport": [
+      -64,
+      -64,
+      427,
+      427
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 427,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "fallout",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/fallout.webp",
+    "sourceSha256": "6bc2041c3838b3fbdad6b7a37ff2924697ecf96f20091b2e6162b8ba7b4a94eb",
+    "objectBounds": [
+      19,
+      86,
+      581,
+      514
+    ],
+    "shadowBounds": [
+      19,
+      86,
+      581,
+      514
+    ],
+    "viewport": [
+      -90,
+      -90,
+      781,
+      781
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "joker-black-cat-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/joker-black-cat-fountain.webp",
+    "sourceSha256": "c93f7586c86c3d491273d98c0f497371d777ba335de40575f4ad79c77dddde41",
+    "objectBounds": [
+      50,
+      9,
+      238,
+      254
+    ],
+    "shadowBounds": [
+      0,
+      1,
+      242,
+      262
+    ],
+    "viewport": [
+      -26,
+      -39,
+      341,
+      341
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 341,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jr-pyro-backpack-black-cat",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jr-pyro-backpack-black-cat.webp",
+    "sourceSha256": "1e04771ec6df2bfe8be64c1bf963e8bf8192a066ae30f741d59320d780671d98",
+    "objectBounds": [
+      11,
+      45,
+      245,
+      207
+    ],
+    "shadowBounds": [
+      11,
+      45,
+      245,
+      212
+    ],
+    "viewport": [
+      -18,
+      -20,
+      293,
+      293
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 293,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jumbo-assorted-candles-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jumbo-assorted-candles-4-pack.webp",
+    "sourceSha256": "c4ac54d8afdddb5c6e79c933a12fe50178341861832e33ae35bf439bcd0260bb",
+    "objectBounds": [
+      6,
+      22,
+      293,
+      280
+    ],
+    "shadowBounds": [
+      6,
+      22,
+      293,
+      280
+    ],
+    "viewport": [
+      -40,
+      -38,
+      378,
+      378
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 378,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "texas-bandit-rockets",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/texas-bandit-rockets.webp",
+    "sourceSha256": "c90969bd65fab5420b63358716a6cb6a74a4afb6c24c1694d78b323e8a198db5",
+    "objectBounds": [
+      57,
+      59,
+      243,
+      255
+    ],
+    "shadowBounds": [
+      56,
+      59,
+      243,
+      256
+    ],
+    "viewport": [
+      21,
+      28,
+      258,
+      258
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 258,
+    "actualOccupancy": 0.76,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "junior-pyro-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/junior-pyro-assortment.webp",
+    "sourceSha256": "ef7e9c1a469c6d770e1fe0ba50c25c82b5c2c63cb7d775e44a6002d1de7286e1",
+    "objectBounds": [
+      200,
+      8,
+      401,
+      593
+    ],
+    "shadowBounds": [
+      200,
+      8,
+      401,
+      593
+    ],
+    "viewport": [
+      -66,
+      -66,
+      732,
+      732
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "kids-pack-black-cat",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/kids-pack-black-cat.webp",
+    "sourceSha256": "dbb54a02bbc6fe6382e273fdd8b96b7e4d8a38735b317c4baaa89267424a0c9f",
+    "objectBounds": [
+      26,
+      16,
+      272,
+      284
+    ],
+    "shadowBounds": [
+      26,
+      16,
+      272,
+      284
+    ],
+    "viewport": [
+      -18,
+      -18,
+      335,
+      335
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 335,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "light-brigade",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/light-brigade.webp",
+    "sourceSha256": "2f74d4b71a2ec99f49d6d5e2fb820bb9867b439049d304bd29106bdbee29df11",
+    "objectBounds": [
+      11,
+      56,
+      289,
+      243
+    ],
+    "shadowBounds": [
+      11,
+      56,
+      289,
+      243
+    ],
+    "viewport": [
+      -44,
+      -44,
+      387,
+      387
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 387,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m150-red-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m150-red-12-pack.webp",
+    "sourceSha256": "050fc1f1d2c5265ffe319a84fae1efbc12844dbdb991f18bbd26bb6582b3d0fc",
+    "objectBounds": [
+      71,
+      61,
+      231,
+      228
+    ],
+    "shadowBounds": [
+      71,
+      61,
+      231,
+      228
+    ],
+    "viewport": [
+      28,
+      22,
+      246,
+      246
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 246,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m150-red-silver-36-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m150-red-silver-36-pack.webp",
+    "sourceSha256": "18c901f91c62a4c441d310ce5a206c7f52f0889f88faa7edf52a88fe52e36be4",
+    "objectBounds": [
+      77,
+      26,
+      224,
+      274
+    ],
+    "shadowBounds": [
+      77,
+      26,
+      224,
+      274
+    ],
+    "viewport": [
+      -32,
+      -32,
+      365,
+      365
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 365,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "magical-barrage-100",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/magical-barrage-100.webp",
+    "sourceSha256": "b0e206519ae71d2729d30ed3e7c9b1ce0e0722c5f16e2f845dbecf02b83607c9",
+    "objectBounds": [
+      78,
+      8,
+      222,
+      290
+    ],
+    "shadowBounds": [
+      78,
+      8,
+      222,
+      290
+    ],
+    "viewport": [
+      -46,
+      -47,
+      392,
+      392
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 392,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-camo-smoke-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-camo-smoke-4-pack.webp",
+    "sourceSha256": "09aeb17fe27f66ea23937657bba8409728204f2a1d272dd9705a63b5d7027b97",
+    "objectBounds": [
+      60,
+      17,
+      190,
+      233
+    ],
+    "shadowBounds": [
+      60,
+      17,
+      190,
+      233
+    ],
+    "viewport": [
+      -25,
+      -25,
+      300,
+      300
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 300,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "outlaw-justice",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/outlaw-justice.webp",
+    "sourceSha256": "68c4fb687398ed5dc8c15583ba9c415fa534b0504599c4e19363ad46fb47c862",
+    "objectBounds": [
+      25,
+      104,
+      575,
+      468
+    ],
+    "shadowBounds": [
+      25,
+      104,
+      575,
+      468
+    ],
+    "viewport": [
+      -82,
+      -96,
+      764,
+      764
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.722,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "packin-purple",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/packin-purple.webp",
+    "sourceSha256": "e6ff6253ecea0ef8e38ebf5cc43b58b25b0b6cd1cede6e41273071b9ccc61d96",
+    "objectBounds": [
+      50,
+      32,
+      206,
+      225
+    ],
+    "shadowBounds": [
+      48,
+      31,
+      208,
+      225
+    ],
+    "viewport": [
+      -6,
+      -6,
+      269,
+      269
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 269,
+    "actualOccupancy": 0.717,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "party-animal-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/party-animal-assortment.webp",
+    "sourceSha256": "bc588baf94b0ed5619d5937ceb33508b8d3b16f10f8ddf44dfdf14ca561e4c49",
+    "objectBounds": [
+      72,
+      7,
+      171,
+      239
+    ],
+    "shadowBounds": [
+      71,
+      7,
+      171,
+      240
+    ],
+    "viewport": [
+      -24,
+      -22,
+      290,
+      290
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 290,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-party-pack-5",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-party-pack-5.webp",
+    "sourceSha256": "4948c14244ab267bdbe7e47d22914a5711d13265f18924fc84eef353ad4a94d9",
+    "objectBounds": [
+      160,
+      8,
+      452,
+      594
+    ],
+    "shadowBounds": [
+      160,
+      8,
+      452,
+      594
+    ],
+    "viewport": [
+      -60,
+      -66,
+      733,
+      733
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.802,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-party-pack-5-safe-sane",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-party-pack-5-safe-sane.webp",
+    "sourceSha256": "40da63d7f88af4a6c9ea4fa5d4d8caa45f6957050ba2fcf1c4d8e88d06111fdf",
+    "objectBounds": [
+      80,
+      6,
+      218,
+      293
+    ],
+    "shadowBounds": [
+      80,
+      6,
+      219,
+      293
+    ],
+    "viewport": [
+      -30,
+      -30,
+      359,
+      359
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 359,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-party-pack-6",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-party-pack-6.webp",
+    "sourceSha256": "6aa3db8cdc5d8eb900acc7beb005b17818816a960bc89af4a2d5f94e106e9327",
+    "objectBounds": [
+      157,
+      8,
+      443,
+      588
+    ],
+    "shadowBounds": [
+      157,
+      8,
+      443,
+      588
+    ],
+    "viewport": [
+      -62,
+      -64,
+      725,
+      725
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.802,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "party-poppers-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/party-poppers-6-pack.webp",
+    "sourceSha256": "65c3999f6400aa1eb52bcc8b207c1b30a5053ae932809022704d48ec7bdc131a",
+    "objectBounds": [
+      74,
+      27,
+      229,
+      277
+    ],
+    "shadowBounds": [
+      72,
+      27,
+      230,
+      278
+    ],
+    "viewport": [
+      -38,
+      -38,
+      379,
+      379
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 379,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "doggie-doo-doo",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/doggie-doo-doo.webp",
+    "sourceSha256": "9ced8866f7b3a2691b7606b2de329e06fcfb19776830298049d359e31baf1882",
+    "objectBounds": [
+      34,
+      70,
+      279,
+      219
+    ],
+    "shadowBounds": [
+      34,
+      70,
+      279,
+      220
+    ],
+    "viewport": [
+      -30,
+      -42,
+      372,
+      372
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 372,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pride-and-honor-6",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pride-and-honor-6.webp",
+    "sourceSha256": "68a008ada130f8d3dc49805e9cf75c156a31514ab367bfbe10dd9a96e7b0b1ff",
+    "objectBounds": [
+      168,
+      15,
+      433,
+      585
+    ],
+    "shadowBounds": [
+      168,
+      15,
+      433,
+      585
+    ],
+    "viewport": [
+      -56,
+      -56,
+      713,
+      713
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.802,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "princess-power-sword",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/princess-power-sword.webp",
+    "sourceSha256": "c9c3f739247167931fa70c3b625ebe425b1306410740985aed4ad01c47906dd7",
+    "objectBounds": [
+      8,
+      42,
+      292,
+      263
+    ],
+    "shadowBounds": [
+      8,
+      42,
+      292,
+      263
+    ],
+    "viewport": [
+      -48,
+      -45,
+      395,
+      395
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 395,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pyro-city-safe-sane",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pyro-city-safe-sane.webp",
+    "sourceSha256": "afa2a2841fc035d3baadb2d376da2d7d06e28674bc449bd1f3fdbac5b450151e",
+    "objectBounds": [
+      62,
+      9,
+      236,
+      294
+    ],
+    "shadowBounds": [
+      62,
+      9,
+      236,
+      294
+    ],
+    "viewport": [
+      -30,
+      -27,
+      357,
+      357
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 357,
+    "actualOccupancy": 0.798,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pyro-city-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pyro-city-assortment.webp",
+    "sourceSha256": "b69175388f97cec921248aa731c7129cdaa5b45ce11a371740cdcc516fd76097",
+    "objectBounds": [
+      121,
+      16,
+      468,
+      583
+    ],
+    "shadowBounds": [
+      121,
+      16,
+      468,
+      583
+    ],
+    "viewport": [
+      -60,
+      -55,
+      709,
+      709
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pyro-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pyro-pack.webp",
+    "sourceSha256": "9a559bd3dd61989356aa05654b990c7d90b7dcfdff2e693b6d6adb20cde80029",
+    "objectBounds": [
+      202,
+      9,
+      397,
+      593
+    ],
+    "shadowBounds": [
+      202,
+      9,
+      397,
+      593
+    ],
+    "viewport": [
+      -66,
+      -64,
+      730,
+      730
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "the-beast-black-cat",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/the-beast-black-cat.webp",
+    "sourceSha256": "9533b7828faf96fd79a2624533bdb6414386054b7aad864b503730de39b8795f",
+    "objectBounds": [
+      116,
+      12,
+      475,
+      587
+    ],
+    "shadowBounds": [
+      116,
+      12,
+      475,
+      587
+    ],
+    "viewport": [
+      -64,
+      -60,
+      719,
+      719
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "beast-candle",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/beast-candle.webp",
+    "sourceSha256": "0719e67385d26b59318e3455f957fa54080542582e4df498c07756a7a6481a91",
+    "objectBounds": [
+      5,
+      16,
+      582,
+      590
+    ],
+    "shadowBounds": [
+      5,
+      16,
+      582,
+      591
+    ],
+    "viewport": [
+      -86,
+      -77,
+      760,
+      760
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "victory-sword",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/victory-sword.webp",
+    "sourceSha256": "7d01d47326c5b5ff6235a5f009f177eeab820eebf65afecd2e78295ed019eca9",
+    "objectBounds": [
+      115,
+      10,
+      180,
+      288
+    ],
+    "shadowBounds": [
+      115,
+      9,
+      180,
+      289
+    ],
+    "viewport": [
+      -46,
+      -44,
+      387,
+      387
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 387,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "whacky-tobacky",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/whacky-tobacky.webp",
+    "sourceSha256": "5b1c6652a9b86f6f046e4881f55004c919f74e2ade000874c2ed01145f3eecce",
+    "objectBounds": [
+      25,
+      25,
+      576,
+      576
+    ],
+    "shadowBounds": [
+      25,
+      25,
+      576,
+      576
+    ],
+    "viewport": [
+      -82,
+      -82,
+      766,
+      766
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "walkin-dead",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/walkin-dead.webp",
+    "sourceSha256": "e85301fdf8fe8dfc488a4b17ed1931fcd539249b8791278b8c806993feac9f42",
+    "objectBounds": [
+      32,
+      18,
+      268,
+      287
+    ],
+    "shadowBounds": [
+      32,
+      18,
+      268,
+      287
+    ],
+    "viewport": [
+      -37,
+      -34,
+      374,
+      374
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 374,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "war-hero",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/war-hero.webp",
+    "sourceSha256": "43b994743dac1a85077e24d36992a0dacb20ebfdf09f653a9578debf40c8cf40",
+    "objectBounds": [
+      8,
+      28,
+      294,
+      267
+    ],
+    "shadowBounds": [
+      7,
+      28,
+      295,
+      267
+    ],
+    "viewport": [
+      -48,
+      -52,
+      398,
+      398
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 398,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "whistling-chaser-8-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/whistling-chaser-8-pack.webp",
+    "sourceSha256": "95fb4a33cc859bec87b99cb60e3e3d85eea43c391e3e2405b00c9db4561f35cd",
+    "objectBounds": [
+      41,
+      13,
+      250,
+      290
+    ],
+    "shadowBounds": [
+      40,
+      13,
+      251,
+      290
+    ],
+    "viewport": [
+      -64,
+      -58,
+      420,
+      420
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 420,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-morning-glory-36-inch",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-morning-glory-36-inch.webp",
+    "sourceSha256": "784a09d980ceea33c679e9c1cde33cf7e6615e556e18a4f0dc1da0b2e4f14236",
+    "objectBounds": [
+      121,
+      16,
+      168,
+      286
+    ],
+    "shadowBounds": [
+      120,
+      16,
+      169,
+      286
+    ],
+    "viewport": [
+      -43,
+      -36,
+      375,
+      375
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 375,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "excellent-bag",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/excellent-bag.webp",
+    "sourceSha256": "bad3fd79a3afbe9b986ec7e3a0dd78b3861c39815971636af7a68b3738df277c",
+    "objectBounds": [
+      52,
+      7,
+      202,
+      246
+    ],
+    "shadowBounds": [
+      52,
+      7,
+      202,
+      246
+    ],
+    "viewport": [
+      -22,
+      -23,
+      299,
+      299
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 299,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "call-the-cops",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/call-the-cops.webp",
+    "sourceSha256": "59951a0d10db9a06e4cbdbb30f32c24c11c1b81594e7d07d2a769e8e655a28e1",
+    "objectBounds": [
+      56,
+      126,
+      545,
+      475
+    ],
+    "shadowBounds": [
+      56,
+      126,
+      545,
+      475
+    ],
+    "viewport": [
+      -40,
+      -40,
+      680,
+      680
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cowboy-rockets-9-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cowboy-rockets-9-pack.webp",
+    "sourceSha256": "41b8373284b6c7e9fd32c1a6d2947b3fcd24420c9141744a79f5aa5219cecd81",
+    "objectBounds": [
+      114,
+      11,
+      518,
+      592
+    ],
+    "shadowBounds": [
+      114,
+      11,
+      518,
+      592
+    ],
+    "viewport": [
+      -66,
+      -81,
+      765,
+      765
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "drone",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/drone.webp",
+    "sourceSha256": "491dd588a45e4dc4df1718813d4f92a554852802c360723834f54ee49edf3d63",
+    "objectBounds": [
+      4,
+      175,
+      594,
+      421
+    ],
+    "shadowBounds": [
+      4,
+      175,
+      594,
+      421
+    ],
+    "viewport": [
+      -148,
+      -149,
+      894,
+      894
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "festival-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/festival-fountain.webp",
+    "sourceSha256": "95bcf156d8ae35cb268e43af1363c98a9376b0752fe3e23580ecceb9f2aa9a82",
+    "objectBounds": [
+      146,
+      111,
+      519,
+      483
+    ],
+    "shadowBounds": [
+      64,
+      111,
+      548,
+      509
+    ],
+    "viewport": [
+      46,
+      11,
+      572,
+      572
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 572,
+    "actualOccupancy": 0.652,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "forever-loyal",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/forever-loyal.webp",
+    "sourceSha256": "39cf00bf7ad90cdc59de2460bfdafb6da34dfad7b65336f80377fcdcdf2cd28b",
+    "objectBounds": [
+      161,
+      183,
+      442,
+      444
+    ],
+    "shadowBounds": [
+      161,
+      183,
+      442,
+      445
+    ],
+    "viewport": [
+      106,
+      118,
+      391,
+      391
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 391,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "fuego-loco",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/fuego-loco.webp",
+    "sourceSha256": "9058364366ad130015ad1a9578d238a3e642ffacc30d8c5a2b34a59797b9c9d5",
+    "objectBounds": [
+      101,
+      101,
+      499,
+      499
+    ],
+    "shadowBounds": [
+      101,
+      101,
+      499,
+      499
+    ],
+    "viewport": [
+      24,
+      24,
+      553,
+      553
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 553,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "holiday-lights",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/holiday-lights.webp",
+    "sourceSha256": "2f65b6aa2d2935fcfe0462500e02c3dac7ff6c9e65efd9323f9a594ec256e11b",
+    "objectBounds": [
+      170,
+      131,
+      430,
+      493
+    ],
+    "shadowBounds": [
+      170,
+      131,
+      430,
+      493
+    ],
+    "viewport": [
+      48,
+      60,
+      503,
+      503
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 503,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "mass-confusion",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mass-confusion.webp",
+    "sourceSha256": "9c8432696e3fdbbdfd9148295c1c071fe9a416e2b61eaa506ce65bc3ae93c81a",
+    "objectBounds": [
+      8,
+      126,
+      593,
+      452
+    ],
+    "shadowBounds": [
+      8,
+      126,
+      593,
+      452
+    ],
+    "viewport": [
+      -106,
+      -118,
+      813,
+      813
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.722,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sky-ink",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sky-ink.webp",
+    "sourceSha256": "369f47d884534ac89382a485d25dd8c822f1dfce8235791ae69b5ce7b137b645",
+    "objectBounds": [
+      80,
+      101,
+      522,
+      524
+    ],
+    "shadowBounds": [
+      80,
+      101,
+      522,
+      524
+    ],
+    "viewport": [
+      -6,
+      6,
+      614,
+      614
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 614,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "stealth-bomber-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/stealth-bomber-2-pack.webp",
+    "sourceSha256": "8d7d25c0ce3b251b50e8abf883e4154acc5ddd94eee9bc11a5db6e27c2034e54",
+    "objectBounds": [
+      14,
+      93,
+      587,
+      518
+    ],
+    "shadowBounds": [
+      14,
+      93,
+      587,
+      518
+    ],
+    "viewport": [
+      -134,
+      -129,
+      869,
+      869
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sugar-pop",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sugar-pop.webp",
+    "sourceSha256": "a9a7152cebe2c15d79b5582b6d189787a0188e71b374a12cd09b4eeba060a032",
+    "objectBounds": [
+      122,
+      26,
+      517,
+      570
+    ],
+    "shadowBounds": [
+      122,
+      26,
+      517,
+      570
+    ],
+    "viewport": [
+      -58,
+      -80,
+      756,
+      756
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "worlds-largest-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/worlds-largest-fountain.webp",
+    "sourceSha256": "9f2df4877af7fb162555beed44ff9134cb636c7c3c882d129ef791201c811956",
+    "objectBounds": [
+      14,
+      147,
+      586,
+      455
+    ],
+    "shadowBounds": [
+      14,
+      147,
+      586,
+      455
+    ],
+    "viewport": [
+      -98,
+      -96,
+      795,
+      795
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "aggression",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/aggression.webp",
+    "sourceSha256": "d7f1ccf72fc158b8f31c6733588e9fb7c7e4f6b264acdeaf0fab3d33de235ed0",
+    "objectBounds": [
+      0,
+      0,
+      570,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      570,
+      640
+    ],
+    "viewport": [
+      -160,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/arms-depot-16-pack.webp",
+    "sourceSha256": "f68de950b84e7966d49c8c1a5d798e71d0abf99d0cba937554f8318e49c1e122",
+    "objectBounds": [
+      0,
+      0,
+      462,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      462,
+      640
+    ],
+    "viewport": [
+      -196,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "bang-bros",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/bang-bros.webp",
+    "sourceSha256": "556f930264aad71829657df7e0b796a0cf0aaa6ffcd714c4e7416bd7f753f7fc",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      501
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      501
+    ],
+    "viewport": [
+      -124,
+      -194,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "battle-cry",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/battle-cry.webp",
+    "sourceSha256": "0b1c1613d5c22790913f0a1119f12114c3673872a385c448818f6515f4f67895",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      604
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/break-the-rules-6-pack.webp",
+    "sourceSha256": "d59da51a11f86458fd5e936213eb4b29c9a3d5fd235cb05239a8f6fa47b5928a",
+    "objectBounds": [
+      0,
+      0,
+      602,
+      568
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      609
+    ],
+    "viewport": [
+      -100,
+      -118,
+      803,
+      803
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "color-rage",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/color-rage.webp",
+    "sourceSha256": "a53ad5a0147cd359ba104f12adc73537c4de0c264894a406982b5b9ff8bddbbf",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      557
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      557
+    ],
+    "viewport": [
+      -124,
+      -166,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "flawless-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/flawless-24-pack.webp",
+    "sourceSha256": "d899639d5fc49accdb4c81055d3572f354a210578d2f051f8f12c81168605909",
+    "objectBounds": [
+      0,
+      0,
+      578,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      578,
+      640
+    ],
+    "viewport": [
+      -138,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ghostacular-24-pack.webp",
+    "sourceSha256": "10821ab7b62782cb16ab3c52b950082703c259d8504fb8d02421a31fcec2ed22",
+    "objectBounds": [
+      0,
+      0,
+      583,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      583,
+      640
+    ],
+    "viewport": [
+      -136,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "home-of-the-brave",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/home-of-the-brave.webp",
+    "sourceSha256": "a93d313442dfe96c036ad93bc6cce3b9d437ed60a40b0333032cf91e729010d1",
+    "objectBounds": [
+      0,
+      0,
+      487,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      487,
+      640
+    ],
+    "viewport": [
+      -184,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hot-as-hell",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hot-as-hell.webp",
+    "sourceSha256": "4ca08447374cbcf2e964326a63970de5346fc552a3b4a88f6d94088ed530b4ca",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      605
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      605
+    ],
+    "viewport": [
+      -124,
+      -142,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "joker-raccoon",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/joker-raccoon.webp",
+    "sourceSha256": "9373dc70fc12fa2ccfb2066742db60ca8934821ed75a9ff8960f300bba8d2abf",
+    "objectBounds": [
+      0,
+      0,
+      592,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      592,
+      640
+    ],
+    "viewport": [
+      -148,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/let-freedom-ring-24-pack.webp",
+    "sourceSha256": "bbe743db2168126bb75c70dbaac30ac7b89a15fe8f0877f51c2f8fdcb1573c50",
+    "objectBounds": [
+      0,
+      0,
+      561,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      561,
+      640
+    ],
+    "viewport": [
+      -146,
+      -107,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "neon-celebration",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/neon-celebration.webp",
+    "sourceSha256": "7075afbd2b24e4b96afbf4626edff64f254c5f37bfc3bc3de24e408675025a5f",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      409
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      409
+    ],
+    "viewport": [
+      -124,
+      -240,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "monkey-mania-10-ball-candles-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/monkey-mania-10-ball-candles-6-pack.webp",
+    "sourceSha256": "aaf587bbb08e1bd0f9a1738090a5adf3c68f4ea847cf13cd22dff2e8a2bec777",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      133
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      133
+    ],
+    "viewport": [
+      -102,
+      -355,
+      843,
+      843
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sky-painter-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sky-painter-fountain.webp",
+    "sourceSha256": "d3e0e499dd7b2339d361c1df2e21bfc231ffb9cf62447788886fe9d6ea3f7783",
+    "objectBounds": [
+      0,
+      0,
+      329,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      329,
+      640
+    ],
+    "viewport": [
+      -280,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/sniper-fire-12-pack.webp",
+    "sourceSha256": "2c6e13d12640d45284cdf05dcc84d26a3c190691201ef44c316e9336d2fe5f9f",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      599
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      599
+    ],
+    "viewport": [
+      -107,
+      -128,
+      854,
+      854
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/tiger-force-24-pack.webp",
+    "sourceSha256": "d3abe763e76b2d54f2d2f4e3d0adf7a0b608e3d4db596ad6fbe91c391aa448a1",
+    "objectBounds": [
+      61,
+      0,
+      640,
+      466
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      515
+    ],
+    "viewport": [
+      -36,
+      -153,
+      772,
+      772
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.748,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "8-oz-rockets-cutting-edge",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/8-oz-rockets-cutting-edge.webp",
+    "sourceSha256": "3bd69c5278bc49cd3fbe2b9571894c4d4048ad81837aa4e8848fde572127d693",
+    "objectBounds": [
+      0,
+      0,
+      256,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      256,
+      640
+    ],
+    "viewport": [
+      -294,
+      -102,
+      843,
+      843
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mini-artillery-12-pack.webp",
+    "sourceSha256": "48c791b0e28a4f348542857dd781362cea5e7673e0e0ae91a72dc36187b79e40",
+    "objectBounds": [
+      84,
+      62,
+      316,
+      326
+    ],
+    "shadowBounds": [
+      83,
+      62,
+      316,
+      326
+    ],
+    "viewport": [
+      24,
+      18,
+      352,
+      352
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 352,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/2-minutes-extravaganza.webp",
+    "sourceSha256": "2c522ec9dde01aeb2c746fb5d5a91595501038e3c6a458ea678d429e5d82f0eb",
+    "objectBounds": [
+      13,
+      144,
+      584,
+      460
+    ],
+    "shadowBounds": [
+      13,
+      144,
+      585,
+      460
+    ],
+    "viewport": [
+      -98,
+      -95,
+      794,
+      794
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-2000-roll",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-2000-roll.webp",
+    "sourceSha256": "1fa01264de9cacaf91393ad6965f9ce9bb0cc22a802c0c1b688f069843a23688",
+    "objectBounds": [
+      11,
+      19,
+      590,
+      582
+    ],
+    "shadowBounds": [
+      11,
+      18,
+      591,
+      582
+    ],
+    "viewport": [
+      -126,
+      -126,
+      852,
+      852
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.68,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "world-class-2000-roll",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/world-class-2000-roll.webp",
+    "sourceSha256": "3290cf886aea4cda2a00f1b95c9a5ec21cd23a5f5a9ef07bbbb51268c1ee8085",
+    "objectBounds": [
+      106,
+      41,
+      316,
+      563
+    ],
+    "shadowBounds": [
+      106,
+      41,
+      316,
+      563
+    ],
+    "viewport": [
+      -173,
+      -82,
+      768,
+      768
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.678,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "world-class-saturn-25",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/world-class-saturn-25.webp",
+    "sourceSha256": "346e2b9e5c712c66caa2bee3e8a029ebcce3fd2f09faba17c4090c46fefb771b",
+    "objectBounds": [
+      153,
+      168,
+      479,
+      535
+    ],
+    "shadowBounds": [
+      151,
+      165,
+      481,
+      537
+    ],
+    "viewport": [
+      61,
+      96,
+      510,
+      510
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 510,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/whistling-buster-6-pack.webp",
+    "sourceSha256": "8396301c113114605af9356fad1edcc9a4ba4ebc61dc57b26d32b2f2b3af99bd",
+    "objectBounds": [
+      52,
+      71,
+      352,
+      520
+    ],
+    "shadowBounds": [
+      51,
+      71,
+      353,
+      521
+    ],
+    "viewport": [
+      -98,
+      -4,
+      599,
+      599
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 599,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "america-enduring",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/america-enduring.webp",
+    "sourceSha256": "9f0a6505af626ef742a5f5551d60d44a8e73d9936bb876bd0dbe0e3ffb973f61",
+    "objectBounds": [
+      68,
+      32,
+      432,
+      481
+    ],
+    "shadowBounds": [
+      68,
+      32,
+      432,
+      481
+    ],
+    "viewport": [
+      -62,
+      -56,
+      624,
+      624
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 624,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "american-pride-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/american-pride-fountain.webp",
+    "sourceSha256": "32149f753b104d015a572a1fd88294209b01d83810ae005e29174e424a2007bc",
+    "objectBounds": [
+      26,
+      18,
+      254,
+      625
+    ],
+    "shadowBounds": [
+      24,
+      16,
+      256,
+      627
+    ],
+    "viewport": [
+      -282,
+      -100,
+      844,
+      844
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "american-wildcard",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/american-wildcard.webp",
+    "sourceSha256": "2c6f8b4cdae5d82358d4bd87e9af8db70c843ae2ef37978e280f19f69db18d9f",
+    "objectBounds": [
+      0,
+      75,
+      600,
+      526
+    ],
+    "shadowBounds": [
+      0,
+      75,
+      600,
+      526
+    ],
+    "viewport": [
+      -117,
+      -116,
+      834,
+      834
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "americas-best-snappers",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/americas-best-snappers.webp",
+    "sourceSha256": "2d926db38200bbebd5d3327efd73129a707373c89fa8b2288ac7a3d0125241f6",
+    "objectBounds": [
+      37,
+      89,
+      442,
+      424
+    ],
+    "shadowBounds": [
+      37,
+      89,
+      442,
+      424
+    ],
+    "viewport": [
+      -68,
+      -50,
+      614,
+      614
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 614,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "armadillo-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/armadillo-fountain.webp",
+    "sourceSha256": "618f3cad1cbf2d04d39cbd03acb7757cd4f8eff0ebad47337a25f4f2a9a901ea",
+    "objectBounds": [
+      0,
+      0,
+      310,
+      550
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      310,
+      550
+    ],
+    "viewport": [
+      -227,
+      -107,
+      764,
+      764
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.722,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-50-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-50-pack.webp",
+    "sourceSha256": "93227273bb1a0aa7c7e50f87598b64d6b6041f85b364210951a6a69a61c52128",
+    "objectBounds": [
+      95,
+      44,
+      334,
+      520
+    ],
+    "shadowBounds": [
+      94,
+      44,
+      334,
+      520
+    ],
+    "viewport": [
+      -136,
+      -68,
+      700,
+      700
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.678,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-200-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-200-pack.webp",
+    "sourceSha256": "0d1316521e4212135162cff1583c6bdfaafe3a9b4bdb97ab18c6a9e5a69ecff0",
+    "objectBounds": [
+      151,
+      25,
+      291,
+      512
+    ],
+    "shadowBounds": [
+      151,
+      24,
+      291,
+      513
+    ],
+    "viewport": [
+      -138,
+      -90,
+      717,
+      717
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.681,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "citrus-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/citrus-fountain.webp",
+    "sourceSha256": "9093a04f3bddaaef2a38210f7a8057a51eb68dc1d3048f34f29421d75ccf8d30",
+    "objectBounds": [
+      33,
+      52,
+      268,
+      370
+    ],
+    "shadowBounds": [
+      33,
+      52,
+      268,
+      370
+    ],
+    "viewport": [
+      -70,
+      -10,
+      442,
+      442
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 442,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "cutting-edge-1000-roll",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/cutting-edge-1000-roll.webp",
+    "sourceSha256": "ccbc7dd209ecbf68a13541fb5327b6725bd1ab1cea195d21e301450d49d8436a",
+    "objectBounds": [
+      10,
+      5,
+      477,
+      451
+    ],
+    "shadowBounds": [
+      9,
+      5,
+      478,
+      452
+    ],
+    "viewport": [
+      -100,
+      -116,
+      687,
+      687
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.68,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "daytime-reveal-pink",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/daytime-reveal-pink.webp",
+    "sourceSha256": "7428cbaffb5f514413254b5d8ebb328ed7077548235c7285177ca41a52310814",
+    "objectBounds": [
+      54,
+      89,
+      373,
+      494
+    ],
+    "shadowBounds": [
+      54,
+      89,
+      373,
+      495
+    ],
+    "viewport": [
+      -68,
+      10,
+      563,
+      563
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 563,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "excalibur-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/excalibur-24-pack.webp",
+    "sourceSha256": "ad54e99d8f65caca97295998160c345a3768eae11dabd9216b7be23fbff52a24",
+    "objectBounds": [
+      166,
+      2,
+      330,
+      497
+    ],
+    "shadowBounds": [
+      166,
+      2,
+      330,
+      497
+    ],
+    "viewport": [
+      -82,
+      -80,
+      660,
+      660
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.752,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "flag-missile-200",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/flag-missile-200.webp",
+    "sourceSha256": "706fff2c84278f87c83de1e839cbe19581809331a87aac552d1634720876e7b9",
+    "objectBounds": [
+      10,
+      120,
+      491,
+      417
+    ],
+    "shadowBounds": [
+      10,
+      120,
+      491,
+      417
+    ],
+    "viewport": [
+      -84,
+      -66,
+      669,
+      669
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hot-dog",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hot-dog.webp",
+    "sourceSha256": "524f7578781a8d92491f9328a6a691f685174b77d3e80037840cd6a094e20c05",
+    "objectBounds": [
+      10,
+      10,
+      513,
+      631
+    ],
+    "shadowBounds": [
+      8,
+      8,
+      515,
+      633
+    ],
+    "viewport": [
+      -170,
+      -111,
+      863,
+      863
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "howler-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/howler-fountain.webp",
+    "sourceSha256": "18088fe9e7393f6b209b8e6e3f1a881453222e173be6d9a4a8b4bacbc220a949",
+    "objectBounds": [
+      0,
+      0,
+      289,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      289,
+      640
+    ],
+    "viewport": [
+      -300,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "junior-pyro-pack-sky-bacon",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/junior-pyro-pack-sky-bacon.webp",
+    "sourceSha256": "9e34ff52aa88a3ea666de1be95679b46e61f36db2da5317de5fd3a603df9020c",
+    "objectBounds": [
+      62,
+      58,
+      437,
+      442
+    ],
+    "shadowBounds": [
+      62,
+      58,
+      437,
+      442
+    ],
+    "viewport": [
+      10,
+      10,
+      480,
+      480
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 480,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "killer-bees-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/killer-bees-4-pack.webp",
+    "sourceSha256": "37c294d700ffc17c08875541b8705f6ea9b84ffc71c42d94ab3c7a8c85bb51b8",
+    "objectBounds": [
+      11,
+      143,
+      489,
+      357
+    ],
+    "shadowBounds": [
+      11,
+      143,
+      489,
+      357
+    ],
+    "viewport": [
+      -82,
+      -82,
+      664,
+      664
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m-200-salute-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m-200-salute-12-pack.webp",
+    "sourceSha256": "612c0ccdd72108b0adf25c9bb2deab58dc9b49dd6dae86cafc48057c62d275a9",
+    "objectBounds": [
+      40,
+      2,
+      460,
+      498
+    ],
+    "shadowBounds": [
+      40,
+      2,
+      460,
+      498
+    ],
+    "viewport": [
+      -115,
+      -115,
+      730,
+      730
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.681,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m-5000-world-class-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m-5000-world-class-12-pack.webp",
+    "sourceSha256": "30c66439c412c7119706669e2d2556c2a63209054defe90ac59fabd652aabc23",
+    "objectBounds": [
+      1,
+      1,
+      244,
+      239
+    ],
+    "shadowBounds": [
+      1,
+      1,
+      244,
+      239
+    ],
+    "viewport": [
+      -56,
+      -59,
+      358,
+      358
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 358,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "m-5000-cutting-edge-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/m-5000-cutting-edge-12-pack.webp",
+    "sourceSha256": "eb7eae698a5269145b75d3d2869a53d9c63e2f0372d542d7a1eb2e1d09d16997",
+    "objectBounds": [
+      73,
+      63,
+      526,
+      538
+    ],
+    "shadowBounds": [
+      73,
+      63,
+      526,
+      538
+    ],
+    "viewport": [
+      -50,
+      -49,
+      699,
+      699
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 640,
+    "actualOccupancy": 0.681,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "major-mojo",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/major-mojo.webp",
+    "sourceSha256": "a83463f21a95300423a8be49c3b98617f66dd5614d45bfeb4a8fe20ab7a5934c",
+    "objectBounds": [
+      5,
+      12,
+      177,
+      357
+    ],
+    "shadowBounds": [
+      5,
+      12,
+      178,
+      357
+    ],
+    "viewport": [
+      -125,
+      -32,
+      432,
+      432
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 432,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "mexican-jumping-beans",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/mexican-jumping-beans.webp",
+    "sourceSha256": "9233d52baf18184753b058b4ba088358eb4c6990d731033380767858d01d0ca0",
+    "objectBounds": [
+      25,
+      29,
+      282,
+      629
+    ],
+    "shadowBounds": [
+      23,
+      27,
+      284,
+      631
+    ],
+    "viewport": [
+      -264,
+      -88,
+      834,
+      834
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "morning-glory-144-cutting-edge",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/morning-glory-144-cutting-edge.webp",
+    "sourceSha256": "d8ee2e99855ccb85cd45451b564b3003bab39b12bd48d49fac85099552ccfe21",
+    "objectBounds": [
+      0,
+      0,
+      640,
+      512
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      512
+    ],
+    "viewport": [
+      -124,
+      -188,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/nishiki-blast-6-pack.webp",
+    "sourceSha256": "5d2832c351f1c2214ec31c1a84c3a0f5f58f074acec6b4016b4bf6b2dd2749d9",
+    "objectBounds": [
+      0,
+      0,
+      422,
+      500
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      422,
+      500
+    ],
+    "viewport": [
+      -122,
+      -84,
+      667,
+      667
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.752,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/one-bad-mother-in-law.webp",
+    "sourceSha256": "5706aaa6980bcc1a0b730e45a5bb1b1acf23b70fdf9a710339f7bba701b8b874",
+    "objectBounds": [
+      0,
+      0,
+      602,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      602,
+      640
+    ],
+    "viewport": [
+      -144,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pizza-platter",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pizza-platter.webp",
+    "sourceSha256": "ee288f16a664261d6a21fe2941e270e6561f85390a09562280b7c5b1923f7321",
+    "objectBounds": [
+      0,
+      0,
+      500,
+      499
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      500,
+      499
+    ],
+    "viewport": [
+      -98,
+      -98,
+      695,
+      695
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "poopy-puppy",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/poopy-puppy.webp",
+    "sourceSha256": "cd1a7f5bb8fa8af82fc212ef91ffb0a91e72a109b61533358be2f088772e875d",
+    "objectBounds": [
+      90,
+      40,
+      600,
+      392
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      425
+    ],
+    "viewport": [
+      -42,
+      -170,
+      773,
+      773
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.661,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pyro-princess-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pyro-princess-pack.webp",
+    "sourceSha256": "017aa332949665b6c1d7775c1ce8ca942f74ac532ec8fd9b0ab2a59348888593",
+    "objectBounds": [
+      62,
+      58,
+      437,
+      442
+    ],
+    "shadowBounds": [
+      62,
+      58,
+      437,
+      442
+    ],
+    "viewport": [
+      10,
+      10,
+      480,
+      480
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 480,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "jumbo-crackling-balls-3-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/jumbo-crackling-balls-3-pack.webp",
+    "sourceSha256": "3aedabf0b7dd80f0bda079a91f5fc8a07e4e21edb9222fe61c3fbfdb5afab852",
+    "objectBounds": [
+      0,
+      25,
+      500,
+      430
+    ],
+    "shadowBounds": [
+      0,
+      24,
+      500,
+      430
+    ],
+    "viewport": [
+      -129,
+      -152,
+      758,
+      758
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.659,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/raccoon-5-inch-24-pack.webp",
+    "sourceSha256": "331f47da9dfb2cae46696a85e27bace2ff3f22a9e1d05c363344985d09484545",
+    "objectBounds": [
+      38,
+      52,
+      460,
+      457
+    ],
+    "shadowBounds": [
+      38,
+      51,
+      460,
+      457
+    ],
+    "viewport": [
+      -32,
+      -27,
+      563,
+      563
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 563,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "american-saturn-missile-300",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/american-saturn-missile-300.webp",
+    "sourceSha256": "7a0f43b12f2b60c0403efbc8b8764c0a20db3097ff0df5f4055f3d9d8decb648",
+    "objectBounds": [
+      0,
+      3,
+      640,
+      367
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      367
+    ],
+    "viewport": [
+      -124,
+      -260,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "stars-and-stripes-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/stars-and-stripes-assortment.webp",
+    "sourceSha256": "0b0c12796e97294411bd9770c849e4c2399607a891d1d54081795920cc51f27f",
+    "objectBounds": [
+      136,
+      27,
+      261,
+      370
+    ],
+    "shadowBounds": [
+      136,
+      27,
+      261,
+      370
+    ],
+    "viewport": [
+      -16,
+      -16,
+      429,
+      429
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 429,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/super-cakes-4-pack.webp",
+    "sourceSha256": "499eae4462067c2f901e801599c3133559c0b0098ee1e53f780b2785d16b9f8b",
+    "objectBounds": [
+      25,
+      32,
+      616,
+      360
+    ],
+    "shadowBounds": [
+      23,
+      29,
+      618,
+      362
+    ],
+    "viewport": [
+      -90,
+      -214,
+      821,
+      821
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/super-magnum-12-pack.webp",
+    "sourceSha256": "db3f41ac30e1a4209008fd06d1e3c96d20ccd2bf09832a6852555cd7a91a6509",
+    "objectBounds": [
+      130,
+      52,
+      267,
+      358
+    ],
+    "shadowBounds": [
+      130,
+      51,
+      267,
+      358
+    ],
+    "viewport": [
+      -6,
+      1,
+      408,
+      408
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 408,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "the-king-assortment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/the-king-assortment.webp",
+    "sourceSha256": "46fb3616a642e870ddad88d95a1db5b3869ff19a34ebacecb329536a841a1d78",
+    "objectBounds": [
+      116,
+      39,
+      282,
+      364
+    ],
+    "shadowBounds": [
+      116,
+      39,
+      282,
+      365
+    ],
+    "viewport": [
+      -4,
+      -2,
+      407,
+      407
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 407,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "tomahawk-missile",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/tomahawk-missile.webp",
+    "sourceSha256": "a8d7dc5d0b8bf18cdf083c894937f8a140a79de8a22ca6cd526cc77364d70d27",
+    "objectBounds": [
+      135,
+      18,
+      288,
+      512
+    ],
+    "shadowBounds": [
+      135,
+      18,
+      288,
+      512
+    ],
+    "viewport": [
+      -132,
+      -78,
+      687,
+      687
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.717,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "torpedo-snappers",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/torpedo-snappers.webp",
+    "sourceSha256": "58dad2f20a575a127be2fd2e11b0372127fdb642de0f6ec116d3a9bce2571c3e",
+    "objectBounds": [
+      72,
+      14,
+      427,
+      344
+    ],
+    "shadowBounds": [
+      72,
+      14,
+      428,
+      344
+    ],
+    "viewport": [
+      -20,
+      -90,
+      538,
+      538
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 538,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "unicorn-chaser-2-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/unicorn-chaser-2-pack.webp",
+    "sourceSha256": "c017f766e1e147bb8afd8b15506de22a9bbabf175164fdac6d391e07fb82cd5d",
+    "objectBounds": [
+      79,
+      12,
+      419,
+      487
+    ],
+    "shadowBounds": [
+      79,
+      12,
+      419,
+      487
+    ],
+    "viewport": [
+      -111,
+      -110,
+      720,
+      720
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 640,
+    "actualOccupancy": 0.661,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/united-we-stand-48-pack.webp",
+    "sourceSha256": "2bab2184e36a3425a45ac497c5ed7571bdd5470704575a7f365d7ed98d8bf916",
+    "objectBounds": [
+      13,
+      22,
+      372,
+      618
+    ],
+    "shadowBounds": [
+      11,
+      20,
+      375,
+      620
+    ],
+    "viewport": [
+      -205,
+      -78,
+      795,
+      795
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "vertical-limit",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/vertical-limit.webp",
+    "sourceSha256": "8bd2be10ed3be989afc02e2a83b382de0028205cb0853084079e418979152d56",
+    "objectBounds": [
+      0,
+      0,
+      546,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      546,
+      640
+    ],
+    "viewport": [
+      -172,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "viva-mexico",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/viva-mexico.webp",
+    "sourceSha256": "60f00d295a92937caf920cff3486b8b5c27faaeaf0bf0324bd1dc44ca9c89b7f",
+    "objectBounds": [
+      17,
+      27,
+      482,
+      472
+    ],
+    "shadowBounds": [
+      17,
+      27,
+      483,
+      472
+    ],
+    "viewport": [
+      -74,
+      -74,
+      646,
+      646
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "watermelon-ninja",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/watermelon-ninja.webp",
+    "sourceSha256": "92b5a92c6cb8944d3b14924aa2967b71fc36c772e859051d1a96b7c52ef252f7",
+    "objectBounds": [
+      25,
+      136,
+      479,
+      387
+    ],
+    "shadowBounds": [
+      24,
+      136,
+      479,
+      387
+    ],
+    "viewport": [
+      -64,
+      -54,
+      631,
+      631
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 631,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "what-boys-are-made-of",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/what-boys-are-made-of.webp",
+    "sourceSha256": "6509a5d1e33baacd7c40cbb8584db87f0fe94b972d0e3344ccbacfe82151b457",
+    "objectBounds": [
+      28,
+      38,
+      407,
+      441
+    ],
+    "shadowBounds": [
+      28,
+      38,
+      407,
+      442
+    ],
+    "viewport": [
+      -34,
+      -12,
+      504,
+      504
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 504,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "whats-that",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/whats-that.webp",
+    "sourceSha256": "57758a7203d41e1c2cca4e6a9deae43b2e67823d3ed15b5a79b32ca56b520e4a",
+    "objectBounds": [
+      0,
+      58,
+      500,
+      423
+    ],
+    "shadowBounds": [
+      0,
+      58,
+      500,
+      423
+    ],
+    "viewport": [
+      -98,
+      -107,
+      695,
+      695
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "frog-princess",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/frog-princess.webp",
+    "sourceSha256": "4677bc87a120604017d63c15619eaebabeb854b46681a7258fc0206ef1946adf",
+    "objectBounds": [
+      18,
+      27,
+      467,
+      472
+    ],
+    "shadowBounds": [
+      18,
+      27,
+      468,
+      472
+    ],
+    "viewport": [
+      -70,
+      -62,
+      624,
+      624
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 624,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "frog-prince",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/frog-prince.webp",
+    "sourceSha256": "ddbfd0b1bc22bab7e9380ecab7be0656d10501bd2078581852a749862e0d353b",
+    "objectBounds": [
+      0,
+      0,
+      604,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      604,
+      640
+    ],
+    "viewport": [
+      -142,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "goliath-36-shells",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/goliath-36-shells.webp",
+    "sourceSha256": "8c0ff413da4b23e554e40efa0646236b197ff57f0075c4ec6844f65358a9bc73",
+    "objectBounds": [
+      205,
+      48,
+      436,
+      589
+    ],
+    "shadowBounds": [
+      202,
+      45,
+      438,
+      591
+    ],
+    "viewport": [
+      -40,
+      -42,
+      722,
+      722
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.752,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hoot-hoot-hooray",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hoot-hoot-hooray.webp",
+    "sourceSha256": "a3f174248def0c36c156dc39cca8511e6844b42fa479edb6f370415bf5e492b0",
+    "objectBounds": [
+      20,
+      92,
+      484,
+      432
+    ],
+    "shadowBounds": [
+      20,
+      92,
+      484,
+      432
+    ],
+    "viewport": [
+      -70,
+      -60,
+      645,
+      645
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "smoke-crayon-8-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/smoke-crayon-8-pack.webp",
+    "sourceSha256": "1ca8d7908df5805c66b30448535dd80b0e66ebe881ebaa8027528811bafa2d3d",
+    "objectBounds": [
+      14,
+      70,
+      490,
+      428
+    ],
+    "shadowBounds": [
+      14,
+      70,
+      490,
+      428
+    ],
+    "viewport": [
+      -79,
+      -82,
+      662,
+      662
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "openfire",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/openfire.webp",
+    "sourceSha256": "ca756059db9ab9f5f531bb92976d9e76b112bb611c1d6a72f140fec38591dfaf",
+    "objectBounds": [
+      64,
+      130,
+      573,
+      478
+    ],
+    "shadowBounds": [
+      62,
+      128,
+      575,
+      481
+    ],
+    "viewport": [
+      -35,
+      -50,
+      707,
+      707
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.722,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pure-fantasy",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pure-fantasy.webp",
+    "sourceSha256": "2acd22b01948d64043c02ca0f51e23f013c91370b95828cd2e1b214b3aa49c7f",
+    "objectBounds": [
+      206,
+      106,
+      436,
+      530
+    ],
+    "shadowBounds": [
+      204,
+      104,
+      438,
+      533
+    ],
+    "viewport": [
+      26,
+      24,
+      589,
+      589
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 589,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "secret-vault",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/secret-vault.webp",
+    "sourceSha256": "434c6ba534a0fd7d048448f0635520a09a92f90b43606d67fd2d3182a6689284",
+    "objectBounds": [
+      111,
+      51,
+      529,
+      590
+    ],
+    "shadowBounds": [
+      109,
+      49,
+      531,
+      592
+    ],
+    "viewport": [
+      -17,
+      -16,
+      674,
+      674
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 640,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "skybolt-rockets-5-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/skybolt-rockets-5-pack.webp",
+    "sourceSha256": "23a3a137b8282076f56e2697c3004087558b375fa04defe1ae13d0d08f2de900",
+    "objectBounds": [
+      73,
+      65,
+      565,
+      557
+    ],
+    "shadowBounds": [
+      71,
+      62,
+      568,
+      559
+    ],
+    "viewport": [
+      -5,
+      -13,
+      648,
+      648
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.759,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "super-sword",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/super-sword.webp",
+    "sourceSha256": "437f9e327eda2d994b0e1ec5561298040e9348a4b6d2676f5fbf3bb19878d3d2",
+    "objectBounds": [
+      89,
+      89,
+      553,
+      553
+    ],
+    "shadowBounds": [
+      87,
+      87,
+      555,
+      555
+    ],
+    "viewport": [
+      -2,
+      -2,
+      645,
+      645
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "gatlin-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/gatlin-pack.webp",
+    "sourceSha256": "d9677ee3e6247f7068c65614ffe23b277d0deb4701cce993816f1c773ce80260",
+    "objectBounds": [
+      11,
+      11,
+      241,
+      255
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      249,
+      264
+    ],
+    "viewport": [
+      -35,
+      -28,
+      322,
+      322
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 322,
+    "actualOccupancy": 0.758,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "goal-fountain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/goal-fountain.webp",
+    "sourceSha256": "2aaaf7a6907ffc0added3f074f44605f6d9f9ceb10af538da36600e06a3b85e1",
+    "objectBounds": [
+      29,
+      32,
+      571,
+      568
+    ],
+    "shadowBounds": [
+      29,
+      32,
+      571,
+      568
+    ],
+    "viewport": [
+      -76,
+      -76,
+      753,
+      753
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "patriotic-fury",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/patriotic-fury.webp",
+    "sourceSha256": "aeece1baa11f61848d62483074d63c6c54b12b77c4ffd708bc4db8508b6722af",
+    "objectBounds": [
+      9,
+      84,
+      592,
+      509
+    ],
+    "shadowBounds": [
+      9,
+      84,
+      592,
+      509
+    ],
+    "viewport": [
+      -84,
+      -88,
+      768,
+      768
+    ],
+    "targetOccupancy": 0.76,
+    "outputWidth": 640,
+    "actualOccupancy": 0.761,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "silent-treatment",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/silent-treatment.webp",
+    "sourceSha256": "c7fa7b5f281b57e9692016d643a010b6e2ae1fb2917a543a9985e627693bb130",
+    "objectBounds": [
+      143,
+      99,
+      457,
+      526
+    ],
+    "shadowBounds": [
+      143,
+      99,
+      457,
+      526
+    ],
+    "viewport": [
+      3,
+      16,
+      594,
+      594
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 594,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-missile-base-100",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-missile-base-100.webp",
+    "sourceSha256": "d0718df9af6e60049401dc3a28f917d05d91edb6862e2712cda1ab08824d561b",
+    "objectBounds": [
+      21,
+      44,
+      230,
+      209
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -20,
+      -19,
+      291,
+      291
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 291,
+    "actualOccupancy": 0.718,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-night-display",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-night-display.webp",
+    "sourceSha256": "6f11f8e90b9511dbdb789d34c1d9428003b8f9212e931bec4f627d7227048263",
+    "objectBounds": [
+      152,
+      47,
+      448,
+      553
+    ],
+    "shadowBounds": [
+      152,
+      46,
+      448,
+      554
+    ],
+    "viewport": [
+      -16,
+      -16,
+      633,
+      633
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 633,
+    "actualOccupancy": 0.799,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-party-pack-4",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-party-pack-4.webp",
+    "sourceSha256": "bef6f2967110f71f7ece19af5a78d9e5d88631cbe12296231166bbdac6571a8b",
+    "objectBounds": [
+      78,
+      4,
+      170,
+      248
+    ],
+    "shadowBounds": [
+      78,
+      4,
+      170,
+      248
+    ],
+    "viewport": [
+      -28,
+      -26,
+      305,
+      305
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 305,
+    "actualOccupancy": 0.8,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-combo-cakes.webp",
+    "sourceSha256": "db3e6f4520fa1e83054ef67d9a77d787e55dfa1611546cc6278afef5ef56ae0f",
+    "objectBounds": [
+      18,
+      31,
+      282,
+      273
+    ],
+    "shadowBounds": [
+      18,
+      30,
+      282,
+      273
+    ],
+    "viewport": [
+      -34,
+      -32,
+      367,
+      367
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 367,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "dragon-fire-black-cat",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/dragon-fire-black-cat.webp",
+    "sourceSha256": "df0987510474158b4dbe5991592d38b2d547e5128c191197faaad7eeb74c076a",
+    "objectBounds": [
+      5,
+      18,
+      298,
+      284
+    ],
+    "shadowBounds": [
+      5,
+      17,
+      298,
+      284
+    ],
+    "viewport": [
+      -52,
+      -52,
+      407,
+      407
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 407,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "hot-sauce",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/hot-sauce.webp",
+    "sourceSha256": "c45416661d5340a0f97962d6b1c6f0912c6f25296f54f489b6f75a7412e237ee",
+    "objectBounds": [
+      49,
+      4,
+      197,
+      245
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -44,
+      -43,
+      335,
+      335
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 335,
+    "actualOccupancy": 0.719,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-assorted-snakes",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-assorted-snakes.webp",
+    "sourceSha256": "76ce7c82fa6ad8627acf856d1350aa32e72f9e5e2a8d1682d1d51b0e52c09765",
+    "objectBounds": [
+      48,
+      16,
+      204,
+      237
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      250,
+      250
+    ],
+    "viewport": [
+      -42,
+      -41,
+      335,
+      335
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 335,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "black-cat-1000-roll",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/black-cat-1000-roll.webp",
+    "sourceSha256": "a5307ec5e903a861d4662cca7a64ab65be88840b48b4d46c45785ac75c76e1de",
+    "objectBounds": [
+      8,
+      16,
+      348,
+      365
+    ],
+    "shadowBounds": [
+      8,
+      16,
+      348,
+      365
+    ],
+    "viewport": [
+      -79,
+      -66,
+      514,
+      514
+    ],
+    "targetOccupancy": 0.68,
+    "outputWidth": 514,
+    "actualOccupancy": 0.679,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "dreams-from-heaven",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/dreams-from-heaven.webp",
+    "sourceSha256": "d2869db50b16b37ef8eab681d89b0de8857b72bca432930e484338e681de73b2",
+    "objectBounds": [
+      0,
+      0,
+      619,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      619,
+      640
+    ],
+    "viewport": [
+      -135,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "pirate-captain",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/pirate-captain.webp",
+    "sourceSha256": "ccc1e2d3a19fb2572a8c641aa0545f160afad43494e58e0c8bf116914cb22d60",
+    "objectBounds": [
+      0,
+      0,
+      632,
+      640
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      632,
+      640
+    ],
+    "viewport": [
+      -128,
+      -124,
+      889,
+      889
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 640,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/ring-of-honor-6-pack.webp",
+    "sourceSha256": "9e10e7e92d02b00b534d238408fde3be79bbebff5f8269e518546e05d876628a",
+    "objectBounds": [
+      0,
+      0,
+      601,
+      588
+    ],
+    "shadowBounds": [
+      0,
+      0,
+      640,
+      628
+    ],
+    "viewport": [
+      -100,
+      -107,
+      802,
+      802
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 640,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "party-sparklers-4-pack",
+    "source": "docs/catalog/presentation-2026-09/framing-originals/party-sparklers-4-pack.webp",
+    "sourceSha256": "03c33a2a2ba411abf6ca1f4b88f231eb5502988d035ddde9bec5a0a004d4914c",
+    "objectBounds": [
+      9,
+      11,
+      124,
+      371
+    ],
+    "shadowBounds": [
+      8,
+      8,
+      126,
+      373
+    ],
+    "viewport": [
+      -184,
+      -59,
+      500,
+      500
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 500,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  }
+]

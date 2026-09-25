@@ -1,0 +1,58 @@
+[
+  {
+    "id": "alien-attack",
+    "expectedBrand": "Happy Family",
+    "brand": "Happy Family · Cakes",
+    "heading": "Alien Attack",
+    "image": "/images/products/alien-attack.webp",
+    "overflow": false
+  },
+  {
+    "id": "festival-balls-artillery",
+    "expectedBrand": "Black Cat",
+    "brand": "Black Cat · Artillery Shells",
+    "heading": "Festival Balls",
+    "image": "/images/products/festival-balls-artillery.webp",
+    "overflow": false
+  },
+  {
+    "id": "futurama-artillery",
+    "expectedBrand": "Raccoon",
+    "brand": "Raccoon · Artillery Shells",
+    "heading": "Futurama Artillery",
+    "image": "/images/products/futurama-artillery.webp",
+    "overflow": false
+  },
+  {
+    "id": "neon-beef",
+    "expectedBrand": "Winda",
+    "brand": "Winda · Artillery Shells",
+    "heading": "Neon Beef",
+    "image": "/images/products/neon-beef.webp",
+    "overflow": false
+  },
+  {
+    "id": "night-rider",
+    "expectedBrand": "Monkey Mania",
+    "brand": "Monkey Mania · Cakes",
+    "heading": "Night Rider",
+    "image": "/images/products/night-rider.webp",
+    "overflow": false
+  },
+  {
+    "id": "star-light",
+    "expectedBrand": "Winda",
+    "brand": "Winda · Assortments",
+    "heading": "Star Light",
+    "image": "/images/products/star-light.webp",
+    "overflow": false
+  },
+  {
+    "id": "the-reaper",
+    "expectedBrand": "Raccoon",
+    "brand": "Raccoon · Cakes",
+    "heading": "The Reaper",
+    "image": "/images/products/the-reaper.webp",
+    "overflow": false
+  }
+]

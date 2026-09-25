@@ -1,0 +1,11 @@
+[
+  {
+    "product": "Snow Cone Jr. P3097, four-piece tray",
+    "input": "artifacts/catalog-continuation/snow-cone-jr-original.jpg",
+    "tool": "built-in imagegen",
+    "output": "/Users/facundoquiroga/.codex/generated_images/01a0acdb-74e2-76c3-9eeb-e72a072eeb37/exec-25632459-2b40-4c8b-a8ed-2d067adbe144.png",
+    "decision": "REJECTED",
+    "reason": "Warning text changed to EATS SNOWCONE ONLY; Winda logo and small lettering altered. Not a faithful product photograph. Never integrated.",
+    "prompt": "Background extraction only, preserve all four cones and complete tray, original labels, brand, colors and perspective, real alpha."
+  }
+]

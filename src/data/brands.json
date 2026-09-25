@@ -68,5 +68,56 @@
     "image": "/images/brands/happy-family.webp",
     "width": 320,
     "height": 267
+  },
+  {
+    "id": "firehawk",
+    "name": "Firehawk Fireworks",
+    "image": "/images/brands/firehawk.webp",
+    "width": 320,
+    "height": 332
+  },
+  {
+    "id": "bright-star",
+    "name": "Bright Star Fireworks",
+    "image": "/images/brands/bright-star.webp",
+    "width": 320,
+    "height": 177
+  },
+  {
+    "id": "fox",
+    "name": "Fox Fireworks",
+    "image": "/images/brands/fox.webp",
+    "width": 320,
+    "height": 217,
+    "surface": "night"
+  },
+  {
+    "id": "pyro-shine",
+    "name": "Pyro Shine Fireworks",
+    "image": "/images/brands/pyro-shine.webp",
+    "width": 184,
+    "height": 113,
+    "surface": "night"
+  },
+  {
+    "id": "tnt",
+    "name": "TNT Fireworks",
+    "image": "/images/brands/tnt.webp",
+    "width": 320,
+    "height": 223
+  },
+  {
+    "id": "sky-bacon",
+    "name": "Sky Bacon Fireworks",
+    "image": "/images/brands/sky-bacon.webp",
+    "width": 320,
+    "height": 312
+  },
+  {
+    "id": "red-rhino",
+    "name": "Red Rhino Fireworks",
+    "image": "/images/brands/red-rhino.webp",
+    "width": 125,
+    "height": 137
   }
 ]

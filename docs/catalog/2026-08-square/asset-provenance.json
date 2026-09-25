@@ -1,0 +1,927 @@
+[
+  {
+    "id": "mother-of-all-fireworks",
+    "source_image": "/products/mother-of-all-fireworks.png",
+    "source_sha256": "f316b419bae903d3db3902e95024abd26cd5c3aa91e59cc5da58dc4d26c028ba",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=Ovx4aht3c4k&pp=ygUfbW90aGVyIG9mIGFsbCBmaXJld29ya3MgcmFjY29vbg%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/mother-of-all-fireworks-320.webp",
+        "sha256": "09f30d2c12cdf5ca670a06ff94590b777d797fb472748a7396442384bee96b64",
+        "bytes": 22408,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/mother-of-all-fireworks-480.webp",
+        "sha256": "926e26c01f03f7c07a99888676bdd147b25992f2708dbc614fe55f19391dc86a",
+        "bytes": 40956,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/mother-of-all-fireworks.webp",
+        "sha256": "12f8d0f4ea33f8f17b3d483a41d9c25dbc3ed6babdcf01b99c610bf123895223",
+        "bytes": 63384,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/mother-of-all-fireworks.png",
+      "sha256": "284dfab623907029404164fbdeb5df7d4badca7299f33614a6c2d1a803d30180",
+      "bytes": 262261
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "neon-skies",
+    "source_image": "/products/neon-skies.png",
+    "source_sha256": "5e979b07c311569c15aa13a09dbc3021529a85ce5276de15a59f3d7cee4de2b3",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=lkwuy6Fg5AM&pp=ygURbmVvbiBza2llc3JhY2Nvb24%3D",
+    "web": [
+      {
+        "path": "public/images/products/neon-skies-320.webp",
+        "sha256": "dbc94d256445dc3f5edcf78c6dce7ca8446e9c1c4edcccb4bc2d27a03d514e14",
+        "bytes": 19420,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/neon-skies-480.webp",
+        "sha256": "cce4275100835dea46b4d865f3e2626078e29fd3156c1252a06cf621890c4427",
+        "bytes": 35486,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/neon-skies.webp",
+        "sha256": "d6cfa505499d2d8d6ba2cb08993d7fb198fb1dccd826edbd7052194a6d2e1d18",
+        "bytes": 54726,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/neon-skies.png",
+      "sha256": "3821943a242af5af47267d2759911b2d0133add2b9ca81e97eb61ce58f495aec",
+      "bytes": 225479
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "sucker-punch",
+    "source_image": "/products/sucker-punch.png",
+    "source_sha256": "009baafa9ee30655078255175076d0ef426b79106ee4c22f8d148bb406481279",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=gp2KDp1AwK0&pp=ygUUc3Vja2VyIHB1bmNoIHJhY2Nvb24%3D",
+    "web": [
+      {
+        "path": "public/images/products/sucker-punch-320.webp",
+        "sha256": "9d0671d5e9c344587255f1521bc665d17c427df938ad934a994e4fdc2ae7f1e7",
+        "bytes": 10020,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/sucker-punch-480.webp",
+        "sha256": "5c53029d048ea029a25f01311504c1340d8fe11dce8596b94d6090caff74dbdf",
+        "bytes": 18100,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/sucker-punch.webp",
+        "sha256": "6c53657aa2a2f826b279fc1baf0e6aeb7b73baa6c4de0e521ed20a26ada69257",
+        "bytes": 27674,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/sucker-punch.png",
+      "sha256": "1989eb2e48e8ba1fda3d0183644b674a74fa715cdbda0e079e944703dcce74c2",
+      "bytes": 119943
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "invincible",
+    "source_image": "/products/invincible.png",
+    "source_sha256": "82c8b7bb8c1565d880e7c5818b04100460595a4f8b268223a448c29eb241f969",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=HAI30K7Efvs&pp=ygUcaW52aW5jaWJsZSByYWNjb29uIGZpcmV3b3Jrcw%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/invincible-320.webp",
+        "sha256": "dbf43569382aa7e4bb70a382bfa73026187d660d6380e6728b8eacaf46c57379",
+        "bytes": 10840,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/invincible-480.webp",
+        "sha256": "e4f15754f2886c4becf7bcedd3bb7105ca2bbb9ffacb2d87264db3adbb0c598c",
+        "bytes": 20756,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/invincible.webp",
+        "sha256": "864b166a3b2864730cdd664ab58176948e4f03f589f5ecf59f8d37d267055d85",
+        "bytes": 32912,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/invincible.png",
+      "sha256": "1d5f49e3afa03bc04dfd392f1abb53a852cad852ac55556ddd9a537d8db2dbfb",
+      "bytes": 171836
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "purely-american",
+    "source_image": "/products/purely-american.png",
+    "source_sha256": "0b3a048d6dc294c0d8781733759978162fe5b1673764a431c237da8833286fa6",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=aGbdVTJ_H34&pp=ygUhcHVyZWx5IGFtZXJpY2FuIHJhY2Nvb24gZmlyZXdvcmtz",
+    "web": [
+      {
+        "path": "public/images/products/purely-american-320.webp",
+        "sha256": "eb766a7a88454eee916e916ecd485d6fb3390812486f901caf20a28add60ef45",
+        "bytes": 14790,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/purely-american-480.webp",
+        "sha256": "9168f47cc0954eac85eaf2f15ff4029b87a46cf955f2dfcb9d1df6000c2a81b9",
+        "bytes": 29846,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/purely-american.webp",
+        "sha256": "340099b0df43772b846806576fc98646d61c553ede0f82d9693516a1d93df4b9",
+        "bytes": 49706,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/purely-american.png",
+      "sha256": "be5c1ed4dce0d7bc8fc142a54f4fc2220e2cf7088a61d71f57f102e5d798ff45",
+      "bytes": 255551
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "neon-fish",
+    "source_image": "/products/neon-fish.png",
+    "source_sha256": "56ca4e77d873f2bcddbcb7bf4647e5374238fa987966647d67ed3f17c6c3058f",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=185BWnn2fBw&pp=ygUVbmVvbiBmaXNobW9ua2V5IG1hbmlh",
+    "web": [
+      {
+        "path": "public/images/products/neon-fish-320.webp",
+        "sha256": "a538a7fe26b2778283434b2393ef3f616f58661e966c62f366a60e99974d60a2",
+        "bytes": 9526,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/neon-fish-480.webp",
+        "sha256": "db73e60a422c24a05d36c490185f876612d563e26ae34f81001ee4a58f4f57ac",
+        "bytes": 17178,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/neon-fish.webp",
+        "sha256": "5c72e30a8c3160941d0b1b20b22ff019d581ecdea782389930680351093d08c3",
+        "bytes": 24810,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/neon-fish.png",
+      "sha256": "a0b25a723e01f00e7237991493f95041ebe41e14e6d53f19e72618adf21d0828",
+      "bytes": 96700
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "lets-celebrate",
+    "source_image": "/products/let's-celebrate.png",
+    "source_sha256": "8fd9950ca9ad15c05453bff68b46da3040bf986afbe0a0c7db3ed1c37b03dd0b",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": null,
+    "web": [
+      {
+        "path": "public/images/products/lets-celebrate-320.webp",
+        "sha256": "31271aa4efdf89dadce61e8eb35ece32fa6f3988149dcd0b9cd1faf82864073c",
+        "bytes": 15072,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/lets-celebrate-480.webp",
+        "sha256": "cb6ab0df4718568fb8105cf4bf0b557ad9dd994dec58be8765913c8b7f492bd5",
+        "bytes": 30032,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/lets-celebrate.webp",
+        "sha256": "da0baa7e1eece06f6bdb59ad084402d7ee6f63024f952d8a2e59f6096ae901f9",
+        "bytes": 49466,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/lets-celebrate.png",
+      "sha256": "d7205a35475a0f45cf7fdb517f83a4dbae8fe23591fa745028420edb0591ee25",
+      "bytes": 257501
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "high-falutin",
+    "source_image": "products/high-falutin'.png",
+    "source_sha256": "8b49ead3e4d51e855d8e3bfb1dda99c8ed8f34815ac9167f49b8d790fa96d529",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=-T7GDnGOadw&pp=ygUfZ2lnaCBmYWx1dGluJ2Jyb3RoZXJzIGZpcmV3b3Jrcw%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/high-falutin-320.webp",
+        "sha256": "86028d119ce6aa8400d78096a8289da929ca5c56c30a015c40967162db8f7710",
+        "bytes": 16078,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/high-falutin-480.webp",
+        "sha256": "05775a52adb881ee2ad0e41b941923ea5d738756af79faff0db480b8e7ec5c3d",
+        "bytes": 28924,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/high-falutin.webp",
+        "sha256": "44a2a7836135c13ed588fae8337cea6c4711fd1c41999d3ec6bf92243e311b5c",
+        "bytes": 42500,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/high-falutin.png",
+      "sha256": "971959e91f3827131b0818b6bc4568eb94d516eead970419ef9a651b1715a35a",
+      "bytes": 259354
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "hit-the-road-jack",
+    "source_image": "products/hit-the-road-jack.png",
+    "source_sha256": "66e7f67fe3f9bf8c5eec6ef673e84f71f0e7ef9387f9a7abbe4e8d1123959140",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=0GOAHnEJ5pQ&pp=ygUkaGl0IHRoZSByb2FkIGphY2sgYnJvdGhlcnMgZmlyZXdvcmtz",
+    "web": [
+      {
+        "path": "public/images/products/hit-the-road-jack-320.webp",
+        "sha256": "a5d1d999e52ec055505821c7eb82552763d1eb477dc9ea5b749b072d4d434a7c",
+        "bytes": 19618,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/hit-the-road-jack-480.webp",
+        "sha256": "dbd0083c43a35bf9a41ef42ffa63369fd3b171de899afa6655ad5383233b16bb",
+        "bytes": 35082,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/hit-the-road-jack.webp",
+        "sha256": "b6642f6bd151c97a689b9d0186ceda72e4fd3c8d723b0444a58551b9d88bb486",
+        "bytes": 52798,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/hit-the-road-jack.png",
+      "sha256": "fa4a54a6512e5b60294d6b538e1b04488eb68157334ad3436edc4283d93a20be",
+      "bytes": 311330
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "saturday-night-special",
+    "source_image": "products/saturday-night-special.png",
+    "source_sha256": "0faa728b3568b8ccedc60e2c7e53e61433508eb7daf8a3e9e2d18a63c23b8d23",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=MLzX_n7uqaQ&pp=ygUoc2F0dWRheSBuaWdodCBzcGVjaWFsIGJyb3RoZXJzIGZpcmV3b3Jrcw%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/saturday-night-special-320.webp",
+        "sha256": "bc553d830f4c1a30672efa1baf0595ba75aef97c6530daa4355b5fc486f0c356",
+        "bytes": 19380,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/saturday-night-special-480.webp",
+        "sha256": "4fced51aa3874bffe5f71d17619d373cdbfbd1ca006f767907c04707cb2a591b",
+        "bytes": 35904,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/saturday-night-special.webp",
+        "sha256": "7d91ee1fc7b2e7fef3505036740678634d89fa8cbc0a723a72b362b049870f6e",
+        "bytes": 55812,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/saturday-night-special.png",
+      "sha256": "c462fd716957ad7ce10f517f86ba4bc81c663ee4918b5f4f3c009363393d2f9a",
+      "bytes": 322800
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "smiling-faces-ear-to-ear",
+    "source_image": "/products/smiling-face.png",
+    "source_sha256": "7f693518c90597290432f6a97c983609174f5eab614e7ca8cae34786e8ce5ad8",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=7ktTfEy-v_A&pp=ygUfc21pbGluZyBmYWNlIGZpcmVoYXdrIGZpcmV3b3Jrcw%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/smiling-faces-ear-to-ear-320.webp",
+        "sha256": "31a562a1e873fc79f983c36660b266dc6c1e470dbfeb3d3ea57c628846c2232d",
+        "bytes": 8836,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/smiling-faces-ear-to-ear-480.webp",
+        "sha256": "7549f1aa9e48a336e9dbe9d540dac2a2695cfa048a17e4f46ea68e7c64934791",
+        "bytes": 15302,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/smiling-faces-ear-to-ear.webp",
+        "sha256": "8e546f2c6736546ae8f9fd12c3c84619d3cac59f55ace86d4a7752c359446bbc",
+        "bytes": 23418,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/smiling-faces-ear-to-ear.png",
+      "sha256": "f598975c80c13fd79587fd3517b82fafbefec3fa64dce09642951bf7eff9d426",
+      "bytes": 112359
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "sky-pattern",
+    "source_image": "/products/sky-pattern.png",
+    "source_sha256": "b4a6bb1604e3b5487e36382819d3f6e250cc3b4f3e75847c7714f6bae8c8e63d",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=BTFkoz1aAA8&pp=ygUec2t5IHBhdHRlcm4gZmlyZWhhd2sgZmlyZXdvcmtz",
+    "web": [
+      {
+        "path": "public/images/products/sky-pattern-320.webp",
+        "sha256": "7583ae906624e70b27cf88be2262a15bcba00b1b701456090a6030fc72db984d",
+        "bytes": 9014,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/sky-pattern-480.webp",
+        "sha256": "3fb71715f2718c6014ca0e43fed1ea35ffe3e81173dd6b5776e15c1fcb983c23",
+        "bytes": 16650,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/sky-pattern.webp",
+        "sha256": "d1c2def48c7293b824513d1dfce048448e8e63a55e65eb13b730aeb242561005",
+        "bytes": 25664,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/sky-pattern.png",
+      "sha256": "50c847a834940d3cf4c86da068b7e21e1eb1f7a13feeb65f57fcaca146fb7cf3",
+      "bytes": 117557
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "rush-hour",
+    "source_image": "/products/rush-hour.png",
+    "source_sha256": "57de0bde30d34ba0ff782b44e40481236edad53e77f88c28084a2f140f8cf58a",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=lvFlycGGXpc&pp=ygUPcnVzaCBob3VyIHdpbmRh",
+    "web": [
+      {
+        "path": "public/images/products/rush-hour-320.webp",
+        "sha256": "56c52bd23e00f320c66fcb534f4a0f623f7e6468405e4ca65b71aaf0566705a7",
+        "bytes": 15222,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/rush-hour-480.webp",
+        "sha256": "6afee86aab92bdc76731be1e73af1b8e9aa2b45db53fecec4384f1f53571e053",
+        "bytes": 29270,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/rush-hour.webp",
+        "sha256": "15eba4a74200cfa43d623a838e309d6c39980d74964502e5d42bf94b0ee1fbc7",
+        "bytes": 46264,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/rush-hour.png",
+      "sha256": "8052199fabbe8e2b97fe88a92d43515fa5d0c3b3caddae7b6a32bd9196798389",
+      "bytes": 210205
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "source_image": "/products/neon-diablo-24.png",
+    "source_sha256": "2a03149b8286eadd82f995494b413c372daf81eaf85e3bacedd6dd363e8fdbe3",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=SCmgR_VrQEA&pp=ygUYbmVvbiBkaWFibG8gMjQgYmFsY2sgY2F0",
+    "web": [
+      {
+        "path": "public/images/products/neon-diablo-24-pack-320.webp",
+        "sha256": "69f6b0d716a4b9e5cfed65f89de95f5d8fb7da584a5e81f2d5c249b0f76ee0c5",
+        "bytes": 14154,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/neon-diablo-24-pack-480.webp",
+        "sha256": "96d74237e60bf8c9f9428704afed5934e36fe59a9488e311bfb7144aa7374021",
+        "bytes": 26732,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/neon-diablo-24-pack.webp",
+        "sha256": "32973a85ac43e4e2c4bd44f20705dd784f6facdcf2eb0871086c67a5061ff33b",
+        "bytes": 42158,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/neon-diablo-24-pack.png",
+      "sha256": "d459bdf692b6b43adb29819e8a3c00373e88955c8df65c806719b5d8b75a1d4b",
+      "bytes": 184375
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "galaxy-pack",
+    "source_image": "/products/galaxy-pack.png",
+    "source_sha256": "dd9b1189900bc0df381eef11dc286344bf3e761e7f11d4c9d5be0330d0318d5e",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=uUbF7UWuhX0&pp=ygUWZ2FsYXh5IHBhY2sgIGJsYWNrIGNhdA%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/galaxy-pack-320.webp",
+        "sha256": "c7255ac4681d858981626f5e90fb8bb63ada676b181d051c322664b238de1eed",
+        "bytes": 12698,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/galaxy-pack-480.webp",
+        "sha256": "b5cbb5689c2321082e4593b85b0cee25e483240a6e856eab6cfdaf08839d32e4",
+        "bytes": 23294,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/galaxy-pack.webp",
+        "sha256": "4a8ff12ad8a23daf353a159eb5909c633c927b66a9843769d533150fba56f80c",
+        "bytes": 36132,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/galaxy-pack.png",
+      "sha256": "42a37ffda8639f9c00b1395e9eb58003c248dd75d10b1775fb73d147d90a6343",
+      "bytes": 171770
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "source_image": "/products/the-patriot.png",
+    "source_sha256": "399b00830995abc0ecec373364dceb04e6637a07daef8b1b126f822688b8bc4c",
+    "source_width": 1668,
+    "source_height": 1667,
+    "source_video": "https://www.youtube.com/watch?v=wZaWki1pnuQ&pp=ygUVdGhlIHBhdHJpb3QgYmxhY2sgY2F0",
+    "web": [
+      {
+        "path": "public/images/products/the-patriot-24-pack-320.webp",
+        "sha256": "db5eadee0cad7b1072528dcd597b8aaab1da7941bfef116e92dc7bbf975cfb29",
+        "bytes": 12656,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/the-patriot-24-pack-480.webp",
+        "sha256": "653224f577223996a3045051bb12255cf8f459f6cb2d7772e4b1079e0d8aed7a",
+        "bytes": 24056,
+        "width": 480,
+        "height": 480
+      },
+      {
+        "path": "public/images/products/the-patriot-24-pack.webp",
+        "sha256": "16bf092da2f5ef7a665842db18617765308b6aafa65a31b86081dc08ebe85946",
+        "bytes": 38646,
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/the-patriot-24-pack.png",
+      "sha256": "bec16f2df2821cc01dc55462328d5231b63264200ebc8a026ec943ca187c1327",
+      "bytes": 216802
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "avalanche",
+    "source_image": "/products/avalanche.png",
+    "source_sha256": "ed6c1f3d4eb81dd572b7ccd6d2b56e4fa5458fd12817aad23c1f4b171d9ec0a0",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=rwmnn5bXmIk&pp=ygUPYXZhbGFuY2hlIHdpbmRh",
+    "web": [
+      {
+        "path": "public/images/products/avalanche-320.webp",
+        "sha256": "57d92e2e8ca4da00e74377f20a4cff9dd2f6994708ef5f8d9beca8fb3fed05e9",
+        "bytes": 21056,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/avalanche-480.webp",
+        "sha256": "e2abdfc1350cfb36680d09fbec83df8a32c8540cd8ba9d33bdb4900f681aaa03",
+        "bytes": 27044,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/avalanche.webp",
+        "sha256": "e2abdfc1350cfb36680d09fbec83df8a32c8540cd8ba9d33bdb4900f681aaa03",
+        "bytes": 27044,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/avalanche.png",
+      "sha256": "5d4705a11a64711f2abc464b744fa33592be80ddc15dd974d83db17feac64c4c",
+      "bytes": 118174
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "source_image": "/products/good-thinkin-lincoln.png",
+    "source_sha256": "87d65688c464c7fae55679e98095a93c118154b87d09c5cb2b7e16e578dd93f2",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=zsVhk-XwLq0&pp=ygUaZ29vZCB0aGlua2luIGxpbmNvbG4gd2luZGE%3D",
+    "web": [
+      {
+        "path": "public/images/products/good-thinkin-lincoln-320.webp",
+        "sha256": "f94443637969ab5bfdf03c91a6c6ba38146836d8040bd8dfe3aa62d5d4bd0c3d",
+        "bytes": 17658,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/good-thinkin-lincoln-480.webp",
+        "sha256": "80bfdb12e5608660ec52918446006b0389a178eb27bff733b7f6edb335c1b3a6",
+        "bytes": 21860,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/good-thinkin-lincoln.webp",
+        "sha256": "80bfdb12e5608660ec52918446006b0389a178eb27bff733b7f6edb335c1b3a6",
+        "bytes": 21860,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/good-thinkin-lincoln.png",
+      "sha256": "12d55f907462138cbe9e4021191fcba04901b63d141e35beeb8b90e681924a11",
+      "bytes": 83172
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "ipa-4-pack",
+    "source_image": "/products/ipa-4-pack.png",
+    "source_sha256": "5689501c0743bad8dd11100c71039529b8324e8be05630aa7f06fb0a99b8fef5",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=V61aoJuZnJM&pp=ygUQaXBhIDQgcGFjayB3aW5kYQ%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/ipa-4-pack-320.webp",
+        "sha256": "59c98cc97eb1dc8589d16856c2f1e1f4f7318ab28fe3a0e307deda124da1e881",
+        "bytes": 15230,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/ipa-4-pack-480.webp",
+        "sha256": "3e9b805855138aaf4978574877ec5f8b28384af4d6adae6f93996e667ac531ff",
+        "bytes": 19226,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/ipa-4-pack.webp",
+        "sha256": "3e9b805855138aaf4978574877ec5f8b28384af4d6adae6f93996e667ac531ff",
+        "bytes": 19226,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/ipa-4-pack.png",
+      "sha256": "720ee29d047af27115e8e57461bdb07761b26ee14be2391b0b24df54c84dc22a",
+      "bytes": 75033
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "make-america-great-again",
+    "source_image": "/products/make-america-great-again.png",
+    "source_sha256": "bf632df2b017ab0c7879e5000f90c2ab7799f4752b04877a0dfa3d578acecd09",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=2lO-5kvcg8E&pp=ygUebWFrZSBhbWVyaWNhIGdyZWF0IGFnYWluIHdpbmRh",
+    "web": [
+      {
+        "path": "public/images/products/make-america-great-again-320.webp",
+        "sha256": "aec244f608948979fc99c978b5f0b6d02f6a927894ea1c90e8944a8b1c63d50d",
+        "bytes": 19470,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/make-america-great-again-480.webp",
+        "sha256": "b2b8c40986250f2ae1f987307d85e4c775a12cdb2ff253f13b78751c260e7330",
+        "bytes": 23772,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/make-america-great-again.webp",
+        "sha256": "b2b8c40986250f2ae1f987307d85e4c775a12cdb2ff253f13b78751c260e7330",
+        "bytes": 23772,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/make-america-great-again.png",
+      "sha256": "3dfad2af4d372b92a48c49c0b93da1d0183bcbdcbf6919882f88e6a02a555d82",
+      "bytes": 105421
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "man-cave",
+    "source_image": "/products/man-cave.png",
+    "source_sha256": "678032d1a5df11b747f60665579e6f8a6dda93682e4889668aebd3c47f4f88b2",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=QFNhivmo4EE&pp=ygUObWFuIGNhdmUgd2luZGE%3D",
+    "web": [
+      {
+        "path": "public/images/products/man-cave-320.webp",
+        "sha256": "cfcaef570711c7383b43179fad2aeaa5f005e14ba385cb8a3bacb63bb76bfa08",
+        "bytes": 20158,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/man-cave-480.webp",
+        "sha256": "cb818c0f651426624648b638d78b6638d4332328ed6b6229e8825ee424cdd091",
+        "bytes": 25982,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/man-cave.webp",
+        "sha256": "cb818c0f651426624648b638d78b6638d4332328ed6b6229e8825ee424cdd091",
+        "bytes": 25982,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/man-cave.png",
+      "sha256": "9c5088024b5a7b6f4c8cd594e2c6d48227542d71b41b7f036b285a3ef5df4a62",
+      "bytes": 118919
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "nation-ovation",
+    "source_image": "/products/nation-ovation.png",
+    "source_sha256": "71c3f5a1cc0bb72a7bb2ff3994958157c278dd39438418df72119d521310dac1",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=EeZPscToUz0&pp=ygUUbmF0aW9uIG92YXRpb24gd2luZGE%3D",
+    "web": [
+      {
+        "path": "public/images/products/nation-ovation-320.webp",
+        "sha256": "25fdd710cf959565f41522af47c998865d3d671aa5a2b44183fda1e228ed3865",
+        "bytes": 20466,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/nation-ovation-480.webp",
+        "sha256": "4b0f4dad988e3528f16cef8a035d89d35de14f5f76fa73c1745a67f187a4a86f",
+        "bytes": 25730,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/nation-ovation.webp",
+        "sha256": "4b0f4dad988e3528f16cef8a035d89d35de14f5f76fa73c1745a67f187a4a86f",
+        "bytes": 25730,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/nation-ovation.png",
+      "sha256": "4a6e8238577de8bee2955bb2c856d8965b2447032fbdbe2ef56f9273a2ad7997",
+      "bytes": 101339
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "pyro-pilot",
+    "source_image": "/products/pyro-pilot.png",
+    "source_sha256": "4aa531aa768f6bdfa83d60a2907d3724d9a09cbdf852788fe84f5f72648f2972",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=zQST3i4YhlY&pp=ygUQcHlybyBwaWxvdCB3aW5kYQ%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/pyro-pilot-320.webp",
+        "sha256": "6dbaa117cb9214bc4215eae79e9fe27a936d21283d240de929037db9f2016703",
+        "bytes": 21234,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/pyro-pilot-480.webp",
+        "sha256": "18c51f4f0bddbdb3946d8f68b703e4b9f746cce58c0ca2502cf4fa7f4f20f9c8",
+        "bytes": 27580,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/pyro-pilot.webp",
+        "sha256": "18c51f4f0bddbdb3946d8f68b703e4b9f746cce58c0ca2502cf4fa7f4f20f9c8",
+        "bytes": 27580,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/pyro-pilot.png",
+      "sha256": "c37e64a2c0118edb2c481f9c5281297eba4709e5fbed1c509442a59d302f3daa",
+      "bytes": 98920
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "us-66",
+    "source_image": "/products/us-66.png",
+    "source_sha256": "00040a51cb87e9e93f47259c297adff1ebd10b8cbc605b00b80c441b66d32728",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=Y5SX7BheKYc&pp=ygULdXMgNjYgd2luZGE%3D",
+    "web": [
+      {
+        "path": "public/images/products/us-66-320.webp",
+        "sha256": "087bd313c8cd2bb12c888a979e09014a344ef1bcd2c86e12157e4948f88eae14",
+        "bytes": 13272,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/us-66-480.webp",
+        "sha256": "4e365cc895a5d3d4e2edee6a94c87a54f7f81a8e1123056d59d859cebb7566b7",
+        "bytes": 16776,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/us-66.webp",
+        "sha256": "4e365cc895a5d3d4e2edee6a94c87a54f7f81a8e1123056d59d859cebb7566b7",
+        "bytes": 16776,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/us-66.png",
+      "sha256": "b6a447cf49f27f51503ee4c952f9303e5c5f7bd46b70a6e5aed6059a9385a8d4",
+      "bytes": 77967
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  },
+  {
+    "id": "bad-cactus",
+    "source_image": "/products/bad-cactus.png",
+    "source_sha256": "49b4d56c03996161c2e501002111349d99563b61d98f43366e38f18b255e871e",
+    "source_width": 401,
+    "source_height": 401,
+    "source_video": "https://www.youtube.com/watch?v=AKJYyBBGgbE&pp=ygUQYmFkIGNhY3R1cyB3aW5kYQ%3D%3D",
+    "web": [
+      {
+        "path": "public/images/products/bad-cactus-320.webp",
+        "sha256": "59da4ef9ed1a16fd8e0463bb18cf86ffaa4963d51a65272a25f74e33ac42582a",
+        "bytes": 16916,
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "public/images/products/bad-cactus-480.webp",
+        "sha256": "4f443053f4b529d91f7f15114f0e8092da55eb1afa0bcedcc470df5ab9e9cd15",
+        "bytes": 20274,
+        "width": 401,
+        "height": 401
+      },
+      {
+        "path": "public/images/products/bad-cactus.webp",
+        "sha256": "4f443053f4b529d91f7f15114f0e8092da55eb1afa0bcedcc470df5ab9e9cd15",
+        "bytes": 20274,
+        "width": 401,
+        "height": 401
+      }
+    ],
+    "mobile": {
+      "path": "assets/products/bad-cactus.png",
+      "sha256": "71b06e800441b61a7c7c77fc5ec383338dc0d1be9751bbb1e472199e52e8bf6d",
+      "bytes": 67768
+    },
+    "review": "Packaging and photo reviewed visually; no Dynamite watermark. Resize/encoding only, no generated content or upscaling."
+  }
+]

@@ -1,61 +1,54 @@
+import MotionTitle from '../common/MotionTitle';
+import { useState } from 'react';
 import './Hero.css';
-import { siteConfig } from '../../config/siteConfig';
+import { Link } from 'react-router-dom';
+import NightSky from './NightSky';
+
+// React 18 forwards newer native HTML attributes through their lowercase names.
+const skylinePriority = { fetchpriority: 'high' };
 
 const Hero = () => {
-  return (
-    <section id="top" className="hero-container">
-      <picture className="hero-background" aria-hidden="true">
-        <source
-          type="image/webp"
-          srcSet="/images/hero/fireworks-bg-768.webp 768w, /images/hero/fireworks-bg-1440.webp 1440w, /images/hero/fireworks-bg-1920.webp 1920w"
-          sizes="100vw"
-        />
-        <img
-          src="/images/hero/fireworks-bg-1440.webp"
-          alt=""
-          width="1440"
-          height="1440"
-          decoding="async"
-        />
-      </picture>
-      <div className="hero-content">
-        <div className="hero-left">
-          <img
-            src="/images/hero/product-showcase-800.webp"
-            srcSet="/images/hero/product-showcase-480.webp 480w, /images/hero/product-showcase-640.webp 640w, /images/hero/product-showcase-800.webp 800w"
-            sizes="(max-width: 36rem) calc(100vw - 3rem), (max-width: 62rem) 300px, 400px"
-            alt="A selection of Rockwall Fireworks products"
-            className="product-img"
-            width="800"
-            height="735"
-            decoding="async"
-          />
-        </div>
-        <div className="hero-right">
-          <h1 className="hero-title">
-            <span className="sr-only">Celebrating 50 years of Rockwall Fireworks</span>
-            <img
-              src="/images/hero/50-years-phrase.png"
-              alt=""
-              className="phrase-img"
-              width="581"
-              height="264"
-              decoding="async"
-            />
-          </h1>
-          <p className="hero-description">Proudly serving North Texas since 1975 with family-friendly service, low prices, and 100% tariff free fireworks guaranteed!</p>
-          <a
-            className="btn btn-rockwall"
-            href={siteConfig.promotion.offersUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SEE SPECIAL OFFERS
-          </a>
+  const [skyPaused, setSkyPaused] = useState(false);
+  const [skyAnimated, setSkyAnimated] = useState(false);
+
+  return <section id="top" className="hero-container" aria-labelledby="hero-title">
+    <NightSky paused={skyPaused} onModeChange={setSkyAnimated} />
+    <div className="hero-city" aria-hidden="true">
+      <img
+        src="/images/hero/dallas-skyline-1440.webp"
+        srcSet="/images/hero/dallas-skyline-800.webp 800w, /images/hero/dallas-skyline-1440.webp 1440w, /images/hero/dallas-skyline-2160.webp 2160w"
+        sizes="(max-width: 700px) 760px, (max-width: 1000px) 125vw, 100vw"
+        width="2160"
+        height="723"
+        alt=""
+        decoding="async"
+        {...skylinePriority}
+      />
+    </div>
+    <div className="hero-content shell">
+      <div className="hero-copy" data-reveal>
+        <p className="eyebrow" data-motion="copy">Rockwall, Texas. Big celebrations.</p>
+        <MotionTitle as="h1" id="hero-title" className="hero-title" lines={['LIGHT UP', <>THE <em>NIGHT.</em></>]} />
+        <p className="hero-description" data-motion="copy">Your celebration starts at Rockwall Fireworks. Family-owned, proudly serving Rockwall, Texas since 1975.</p>
+        <div className="hero-actions" data-motion="copy">
+          <Link className="button" to="/products">Explore the fireworks</Link>
+          <a className="text-link" href="#contact">Find our store</a>
         </div>
       </div>
-    </section>
-  );
-}
+      <div className="hero-seal">
+        <span>FAMILY OWNED</span>
+        <strong>EST. 1975</strong>
+        <span className="hero-seal-location">SERVING<br />ROCKWALL</span>
+      </div>
+    </div>
+    <div className="hero-bottom shell">
+      <p><span className="orange-dot" /> Serving Rockwall since 1975</p>
+      {skyAnimated && <button className="sky-control" type="button" aria-pressed={skyPaused} aria-label={skyPaused ? 'Resume sky animation' : 'Pause sky animation'} onClick={() => setSkyPaused(value => !value)}>
+        <span aria-hidden="true">{skyPaused ? '▷' : 'Ⅱ'}</span>
+        {skyPaused ? 'Resume sky' : 'Pause sky'}
+      </button>}
+    </div>
+  </section>;
+};
 
 export default Hero;

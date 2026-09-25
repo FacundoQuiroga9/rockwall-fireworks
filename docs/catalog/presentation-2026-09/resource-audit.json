@@ -1,0 +1,7250 @@
+[
+  {
+    "id": "the-reaper",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      100,
+      110,
+      540,
+      529
+    ],
+    "occupancy": 0.688,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42502
+  },
+  {
+    "id": "alien-attack",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      57,
+      162,
+      586,
+      489
+    ],
+    "occupancy": 0.827,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57258
+  },
+  {
+    "id": "festival-balls-reloadable",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      137,
+      92,
+      507,
+      559
+    ],
+    "occupancy": 0.73,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 39506
+  },
+  {
+    "id": "neon-beef",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      215,
+      82,
+      424,
+      569
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28552
+  },
+  {
+    "id": "diablo",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      220,
+      105,
+      420,
+      545
+    ],
+    "occupancy": 0.688,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 34270
+  },
+  {
+    "id": "night-rider",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      88,
+      176,
+      548,
+      464
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 36204
+  },
+  {
+    "id": "futurama-artillery",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      143,
+      109,
+      497,
+      522
+    ],
+    "occupancy": 0.645,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40188
+  },
+  {
+    "id": "festival-balls-artillery",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      221,
+      105,
+      419,
+      531
+    ],
+    "occupancy": 0.666,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 31976
+  },
+  {
+    "id": "star-light",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      130,
+      40,
+      524,
+      590
+    ],
+    "occupancy": 0.859,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 81076
+  },
+  {
+    "id": "action-zone",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      149,
+      46,
+      501,
+      591
+    ],
+    "occupancy": 0.852,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 66450
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "category": "Artillery Shells",
+    "width": 604,
+    "height": 604,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      104,
+      75,
+      501,
+      528
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 66054
+  },
+  {
+    "id": "neon-skies",
+    "category": "Artillery Shells",
+    "width": 588,
+    "height": 588,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      106,
+      74,
+      482,
+      515
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56816
+  },
+  {
+    "id": "sucker-punch",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      255,
+      551,
+      385
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24466
+  },
+  {
+    "id": "invincible",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      240,
+      550,
+      400
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 32690
+  },
+  {
+    "id": "purely-american",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      202,
+      550,
+      437
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42878
+  },
+  {
+    "id": "neon-fish",
+    "category": "Fountains",
+    "width": 470,
+    "height": 470,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      66,
+      124,
+      404,
+      347
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25166
+  },
+  {
+    "id": "lets-celebrate",
+    "category": "Assortments",
+    "width": 542,
+    "height": 542,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      160,
+      55,
+      383,
+      488
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 51810
+  },
+  {
+    "id": "high-falutin",
+    "category": "Cakes",
+    "width": 634,
+    "height": 634,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      172,
+      545,
+      463
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 45032
+  },
+  {
+    "id": "hit-the-road-jack",
+    "category": "Cakes",
+    "width": 632,
+    "height": 632,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      88,
+      152,
+      543,
+      480
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 53462
+  },
+  {
+    "id": "saturday-night-special",
+    "category": "Cakes",
+    "width": 609,
+    "height": 609,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      86,
+      114,
+      524,
+      496
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58472
+  },
+  {
+    "id": "smiling-faces-ear-to-ear",
+    "category": "Rockets",
+    "width": 533,
+    "height": 533,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      115,
+      64,
+      417,
+      469
+    ],
+    "occupancy": 0.76,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24102
+  },
+  {
+    "id": "sky-pattern",
+    "category": "Rockets",
+    "width": 487,
+    "height": 487,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      59,
+      59,
+      427,
+      429
+    ],
+    "occupancy": 0.76,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26156
+  },
+  {
+    "id": "rush-hour",
+    "category": "Cakes",
+    "width": 605,
+    "height": 605,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      85,
+      187,
+      520,
+      418
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47460
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "category": "Artillery Shells",
+    "width": 587,
+    "height": 587,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      193,
+      73,
+      394,
+      513
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43270
+  },
+  {
+    "id": "galaxy-pack",
+    "category": "Rockets",
+    "width": 522,
+    "height": 522,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      78,
+      63,
+      445,
+      459
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37540
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "category": "Artillery Shells",
+    "width": 544,
+    "height": 544,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      168,
+      68,
+      376,
+      476
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 38292
+  },
+  {
+    "id": "avalanche",
+    "category": "Cakes",
+    "width": 345,
+    "height": 345,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      66,
+      48,
+      279,
+      296
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28016
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "category": "Cakes",
+    "width": 345,
+    "height": 345,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      49,
+      55,
+      297,
+      290
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 21958
+  },
+  {
+    "id": "ipa-4-pack",
+    "category": "Cakes",
+    "width": 432,
+    "height": 432,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      61,
+      150,
+      372,
+      283
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20038
+  },
+  {
+    "id": "make-america-great-again",
+    "category": "Cakes",
+    "width": 389,
+    "height": 389,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      55,
+      86,
+      335,
+      304
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24834
+  },
+  {
+    "id": "man-cave",
+    "category": "Cakes",
+    "width": 370,
+    "height": 370,
+    "alpha": [
+      0,
+      254
+    ],
+    "objectBounds": [
+      52,
+      72,
+      318,
+      297
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26882
+  },
+  {
+    "id": "nation-ovation",
+    "category": "Cakes",
+    "width": 334,
+    "height": 334,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      62,
+      47,
+      271,
+      287
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26660
+  },
+  {
+    "id": "pyro-pilot",
+    "category": "Cakes",
+    "width": 344,
+    "height": 344,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      50,
+      48,
+      293,
+      295
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 27388
+  },
+  {
+    "id": "us-66",
+    "category": "Cakes",
+    "width": 375,
+    "height": 375,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      52,
+      118,
+      322,
+      258
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 16970
+  },
+  {
+    "id": "bad-cactus",
+    "category": "Fountains",
+    "width": 371,
+    "height": 371,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      76,
+      52,
+      295,
+      319
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20776
+  },
+  {
+    "id": "bump-bear",
+    "category": "Cakes",
+    "width": 338,
+    "height": 338,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      75,
+      47,
+      264,
+      290
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24584
+  },
+  {
+    "id": "fun-fuel",
+    "category": "Cakes",
+    "width": 380,
+    "height": 380,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      53,
+      80,
+      326,
+      299
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28380
+  },
+  {
+    "id": "military-parachute-2-pack",
+    "category": "Parachutes",
+    "width": 366,
+    "height": 366,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      114,
+      52,
+      252,
+      315
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17376
+  },
+  {
+    "id": "princess-parachute-2-pack",
+    "category": "Parachutes",
+    "width": 364,
+    "height": 364,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      108,
+      51,
+      256,
+      313
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 16004
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "category": "Artillery Shells",
+    "width": 352,
+    "height": 352,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      98,
+      44,
+      254,
+      308
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20020
+  },
+  {
+    "id": "diwali-dazzler",
+    "category": "Assortments",
+    "width": 567,
+    "height": 567,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      149,
+      57,
+      418,
+      510
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58096
+  },
+  {
+    "id": "snow-cone",
+    "category": "Fountains",
+    "width": 594,
+    "height": 594,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      201,
+      83,
+      392,
+      510
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33630
+  },
+  {
+    "id": "eagle-pride",
+    "category": "Cakes",
+    "width": 599,
+    "height": 599,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      84,
+      111,
+      515,
+      489
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62318
+  },
+  {
+    "id": "america-first",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      110,
+      550,
+      530
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65770
+  },
+  {
+    "id": "us-power",
+    "category": "Cakes",
+    "width": 580,
+    "height": 580,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      103,
+      82,
+      478,
+      499
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58080
+  },
+  {
+    "id": "3-min",
+    "category": "Fountains",
+    "width": 464,
+    "height": 464,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      81,
+      65,
+      384,
+      399
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 27996
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "category": "Spinners",
+    "width": 632,
+    "height": 632,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      107,
+      201,
+      524,
+      431
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 31260
+  },
+  {
+    "id": "blond-joke",
+    "category": "Cakes",
+    "width": 598,
+    "height": 598,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      84,
+      107,
+      514,
+      490
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 60490
+  },
+  {
+    "id": "land-of-the-free",
+    "category": "Artillery Shells",
+    "width": 583,
+    "height": 583,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      155,
+      73,
+      428,
+      510
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43502
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "category": "Missiles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      188,
+      550,
+      453
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 46702
+  },
+  {
+    "id": "2-minute-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      170,
+      550,
+      469
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47366
+  },
+  {
+    "id": "250-paratroopers",
+    "category": "Parachutes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      116,
+      550,
+      523
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 88710
+  },
+  {
+    "id": "american-anthem",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      100,
+      550,
+      539
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 95310
+  },
+  {
+    "id": "ant-chant",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      220,
+      550,
+      420
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43090
+  },
+  {
+    "id": "band-of-brothers",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      112,
+      550,
+      528
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57830
+  },
+  {
+    "id": "born-leaders",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      144,
+      550,
+      497
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 82906
+  },
+  {
+    "id": "ceo-of-assortments",
+    "category": "Assortments",
+    "width": 579,
+    "height": 579,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      132,
+      58,
+      447,
+      521
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54976
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      80,
+      110,
+      559,
+      530
+    ],
+    "occupancy": 0.748,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 63508
+  },
+  {
+    "id": "cluster-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      108,
+      89,
+      532,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 46584
+  },
+  {
+    "id": "colorful-skies",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      119,
+      89,
+      520,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 77848
+  },
+  {
+    "id": "dance-in-the-rain",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      119,
+      551,
+      521
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 63184
+  },
+  {
+    "id": "flying-pig-rockets",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      210,
+      78,
+      429,
+      564
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 31438
+  },
+  {
+    "id": "freedoms-wings",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      136,
+      550,
+      504
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56506
+  },
+  {
+    "id": "g-force-24-pack",
+    "category": "Artillery Shells",
+    "width": 624,
+    "height": 624,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      167,
+      78,
+      456,
+      546
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50736
+  },
+  {
+    "id": "galactic-empire",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      151,
+      550,
+      490
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65164
+  },
+  {
+    "id": "ghost-dragon",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      115,
+      550,
+      524
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65868
+  },
+  {
+    "id": "ghost-killer",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      538
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 76040
+  },
+  {
+    "id": "ghost-rings",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      100,
+      550,
+      540
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57418
+  },
+  {
+    "id": "grand-cannon",
+    "category": "Fountains",
+    "width": 637,
+    "height": 637,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      170,
+      547,
+      467
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42684
+  },
+  {
+    "id": "howling-commandos",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      250,
+      77,
+      391,
+      564
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 31530
+  },
+  {
+    "id": "jawbreaker",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      97,
+      89,
+      543,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 79516
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      122,
+      80,
+      518,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 51054
+  },
+  {
+    "id": "lucky-streak",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      149,
+      550,
+      492
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54446
+  },
+  {
+    "id": "magnum-tremors",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      537
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57848
+  },
+  {
+    "id": "migraine",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      537
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58152
+  },
+  {
+    "id": "monkey-business",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      113,
+      89,
+      526,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62136
+  },
+  {
+    "id": "neon-boom",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      97,
+      89,
+      543,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 55362
+  },
+  {
+    "id": "occupy-mars",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      125,
+      550,
+      515
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 61292
+  },
+  {
+    "id": "party-like-its-1776",
+    "category": "Cakes",
+    "width": 599,
+    "height": 599,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      84,
+      114,
+      515,
+      485
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56614
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      80,
+      120,
+      560,
+      521
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 73858
+  },
+  {
+    "id": "battle-of-princeton",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      137,
+      550,
+      504
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59834
+  },
+  {
+    "id": "raging-willow",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      138,
+      89,
+      502,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58896
+  },
+  {
+    "id": "rainbow-ghost",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      221,
+      550,
+      418
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25372
+  },
+  {
+    "id": "revolution-now",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      125,
+      550,
+      514
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 67702
+  },
+  {
+    "id": "road-rage-bright-star",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      196,
+      550,
+      444
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40734
+  },
+  {
+    "id": "assorted-roman-candles-4-pack",
+    "category": "Roman Candles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      283,
+      77,
+      357,
+      564
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24818
+  },
+  {
+    "id": "strato-launcher",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      128,
+      550,
+      513
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 60006
+  },
+  {
+    "id": "strobing-willow",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      100,
+      89,
+      540,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65286
+  },
+  {
+    "id": "take-me-to-your-leader",
+    "category": "Spinners",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      108,
+      199,
+      531,
+      442
+    ],
+    "occupancy": 0.661,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40516
+  },
+  {
+    "id": "whisky-business",
+    "category": "Cakes",
+    "width": 610,
+    "height": 610,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      86,
+      120,
+      525,
+      490
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 73452
+  },
+  {
+    "id": "wild-horses",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      119,
+      89,
+      520,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 70444
+  },
+  {
+    "id": "willow-explosion",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      99,
+      550,
+      540
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 75624
+  },
+  {
+    "id": "neon-jellyfish",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      537
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 72442
+  },
+  {
+    "id": "party-sparklers-display",
+    "category": "Sparklers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      106,
+      551,
+      534
+    ],
+    "occupancy": 0.722,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47404
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      81,
+      92,
+      560,
+      549
+    ],
+    "occupancy": 0.748,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 72376
+  },
+  {
+    "id": "trooper-turret",
+    "category": "Roman Candles",
+    "width": 586,
+    "height": 586,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      81,
+      71,
+      505,
+      516
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 21060
+  },
+  {
+    "id": "wings-of-wrath",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      138,
+      550,
+      503
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 44038
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "category": "Fountains",
+    "width": 614,
+    "height": 614,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      198,
+      86,
+      416,
+      528
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33766
+  },
+  {
+    "id": "atom-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      143,
+      551,
+      496
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57954
+  },
+  {
+    "id": "bamboozle",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      181,
+      550,
+      458
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 36496
+  },
+  {
+    "id": "big-top",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      176,
+      550,
+      465
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40666
+  },
+  {
+    "id": "blood-money",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      185,
+      550,
+      456
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 52628
+  },
+  {
+    "id": "canopus",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      159,
+      550,
+      480
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43598
+  },
+  {
+    "id": "capella",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      159,
+      550,
+      480
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42160
+  },
+  {
+    "id": "captain-sam",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      134,
+      550,
+      507
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 55080
+  },
+  {
+    "id": "centauri",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      159,
+      550,
+      480
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42450
+  },
+  {
+    "id": "cobalt-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      141,
+      550,
+      498
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56538
+  },
+  {
+    "id": "crime-scene",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      185,
+      550,
+      456
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47810
+  },
+  {
+    "id": "daffodil",
+    "category": "Cakes",
+    "width": 559,
+    "height": 559,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      114,
+      79,
+      445,
+      481
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 44050
+  },
+  {
+    "id": "the-deadly-dozen",
+    "category": "Assortments",
+    "width": 634,
+    "height": 634,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      63,
+      173,
+      570,
+      460
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 46388
+  },
+  {
+    "id": "fairies-in-a-jar",
+    "category": "Fountains",
+    "width": 634,
+    "height": 634,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      186,
+      89,
+      449,
+      545
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 41576
+  },
+  {
+    "id": "flash-flood-assortment",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      213,
+      64,
+      427,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 61240
+  },
+  {
+    "id": "full-speed-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      151,
+      80,
+      488,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 53584
+  },
+  {
+    "id": "golden-peacock",
+    "category": "Cakes",
+    "width": 578,
+    "height": 578,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      110,
+      81,
+      469,
+      497
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59722
+  },
+  {
+    "id": "hydrogen-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      145,
+      550,
+      497
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 55186
+  },
+  {
+    "id": "inside-job",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      185,
+      550,
+      456
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 41326
+  },
+  {
+    "id": "jaws-brothers",
+    "category": "Cakes",
+    "width": 571,
+    "height": 571,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      81,
+      80,
+      489,
+      491
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47042
+  },
+  {
+    "id": "jumboshell-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      118,
+      91,
+      522,
+      551
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54048
+  },
+  {
+    "id": "m1-abrams-2-pack",
+    "category": "Novelties",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      108,
+      160,
+      531,
+      479
+    ],
+    "occupancy": 0.661,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40730
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      80,
+      101,
+      560,
+      538
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65074
+  },
+  {
+    "id": "magic-crystal-4-pack",
+    "category": "Spinners",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      115,
+      532,
+      524
+    ],
+    "occupancy": 0.661,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 53674
+  },
+  {
+    "id": "maximum-altitude-4-pack",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      99,
+      77,
+      540,
+      564
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40062
+  },
+  {
+    "id": "mechanical-bug",
+    "category": "Cakes",
+    "width": 638,
+    "height": 638,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      197,
+      549,
+      441
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 32656
+  },
+  {
+    "id": "megawatt",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      260,
+      551,
+      380
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25146
+  },
+  {
+    "id": "midnight",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      259,
+      550,
+      382
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 27792
+  },
+  {
+    "id": "movie-time",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      122,
+      90,
+      516,
+      551
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62588
+  },
+  {
+    "id": "neutron-bomb",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      145,
+      550,
+      497
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54268
+  },
+  {
+    "id": "old-ironsides",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      167,
+      550,
+      474
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50792
+  },
+  {
+    "id": "quest-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      175,
+      80,
+      464,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62230
+  },
+  {
+    "id": "ruckus-12-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      216,
+      81,
+      423,
+      560
+    ],
+    "occupancy": 0.748,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43608
+  },
+  {
+    "id": "serious-equipment",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      207,
+      80,
+      433,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 52260
+  },
+  {
+    "id": "smash-hit",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      106,
+      90,
+      535,
+      550
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 36448
+  },
+  {
+    "id": "sons-of-liberty",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      194,
+      551,
+      447
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42114
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "category": "Cakes",
+    "width": 527,
+    "height": 527,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      74,
+      121,
+      453,
+      407
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37640
+  },
+  {
+    "id": "turf-war",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      185,
+      550,
+      456
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 34444
+  },
+  {
+    "id": "vega",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      159,
+      550,
+      480
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40632
+  },
+  {
+    "id": "wild-west",
+    "category": "Cakes",
+    "width": 578,
+    "height": 578,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      111,
+      81,
+      466,
+      497
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 49570
+  },
+  {
+    "id": "wildcard",
+    "category": "Cakes",
+    "width": 634,
+    "height": 634,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      166,
+      545,
+      468
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 41912
+  },
+  {
+    "id": "da-big-box-o-bombs",
+    "category": "Assortments",
+    "width": 595,
+    "height": 595,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      60,
+      86,
+      536,
+      509
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59746
+  },
+  {
+    "id": "flying-colors",
+    "category": "Cakes",
+    "width": 574,
+    "height": 574,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      80,
+      134,
+      493,
+      439
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37056
+  },
+  {
+    "id": "mob-madness",
+    "category": "Assortments",
+    "width": 632,
+    "height": 632,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      63,
+      145,
+      568,
+      487
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 58914
+  },
+  {
+    "id": "super-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      163,
+      551,
+      476
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50370
+  },
+  {
+    "id": "brothers-container-load",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      185,
+      64,
+      456,
+      575
+    ],
+    "occupancy": 0.798,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56364
+  },
+  {
+    "id": "solar-flare-no-3",
+    "category": "Fountains",
+    "width": 407,
+    "height": 407,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      151,
+      57,
+      255,
+      350
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 9390
+  },
+  {
+    "id": "turbo-flash-no-4",
+    "category": "Fountains",
+    "width": 406,
+    "height": 406,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      157,
+      57,
+      249,
+      349
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 11068
+  },
+  {
+    "id": "pharaohs-treasure-no-8",
+    "category": "Fountains",
+    "width": 403,
+    "height": 403,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      157,
+      56,
+      247,
+      346
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 12322
+  },
+  {
+    "id": "120-shot-camo-pack",
+    "category": "Roman Candles",
+    "width": 370,
+    "height": 370,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      113,
+      45,
+      257,
+      326
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 19282
+  },
+  {
+    "id": "snow-cone-jr-4-pack",
+    "category": "Fountains",
+    "width": 405,
+    "height": 405,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      57,
+      113,
+      348,
+      293
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 21636
+  },
+  {
+    "id": "above-the-law-assortment",
+    "category": "Assortments",
+    "width": 350,
+    "height": 350,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      107,
+      35,
+      244,
+      315
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 18920
+  },
+  {
+    "id": "absolute-pyro",
+    "category": "Cakes",
+    "width": 402,
+    "height": 402,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      57,
+      123,
+      346,
+      279
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 18860
+  },
+  {
+    "id": "big-city-display",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      210,
+      64,
+      431,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62138
+  },
+  {
+    "id": "big-and-bad-rockets",
+    "category": "Rockets",
+    "width": 354,
+    "height": 354,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      45,
+      42,
+      308,
+      311
+    ],
+    "occupancy": 0.76,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 14822
+  },
+  {
+    "id": "black-cat-four-assorted-9-inch",
+    "category": "Fountains",
+    "width": 345,
+    "height": 345,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      49,
+      81,
+      297,
+      264
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 23420
+  },
+  {
+    "id": "black-cat-four-assorted-6-inch",
+    "category": "Fountains",
+    "width": 348,
+    "height": 348,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      49,
+      82,
+      299,
+      266
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25340
+  },
+  {
+    "id": "cat-eyes-3-pack",
+    "category": "Spinners",
+    "width": 443,
+    "height": 443,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      76,
+      136,
+      368,
+      306
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 15868
+  },
+  {
+    "id": "fountastic",
+    "category": "Fountains",
+    "width": 298,
+    "height": 298,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      42,
+      207,
+      256
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 14248
+  },
+  {
+    "id": "black-cat-four-assorted-7-inch",
+    "category": "Fountains",
+    "width": 375,
+    "height": 375,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      53,
+      85,
+      323,
+      289
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26876
+  },
+  {
+    "id": "little-dynamite-100",
+    "category": "Firecrackers",
+    "width": 346,
+    "height": 346,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      56,
+      65,
+      291,
+      281
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25224
+  },
+  {
+    "id": "3-for-1-fountains",
+    "category": "Fountains",
+    "width": 275,
+    "height": 275,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      38,
+      69,
+      236,
+      205
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 14966
+  },
+  {
+    "id": "camo-smoke",
+    "category": "Smoke",
+    "width": 387,
+    "height": 387,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      55,
+      162,
+      333,
+      226
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 9040
+  },
+  {
+    "id": "confetti-blaster-24-inch",
+    "category": "Novelties",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      197,
+      531,
+      442
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26074
+  },
+  {
+    "id": "cracker-balls-6-pack",
+    "category": "Novelties",
+    "width": 279,
+    "height": 279,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      56,
+      48,
+      224,
+      232
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17192
+  },
+  {
+    "id": "cracker-bomb-3-pack",
+    "category": "Firecrackers",
+    "width": 427,
+    "height": 427,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      143,
+      69,
+      285,
+      359
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20700
+  },
+  {
+    "id": "fallout",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      144,
+      550,
+      495
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62436
+  },
+  {
+    "id": "joker-black-cat-fountain",
+    "category": "Fountains",
+    "width": 341,
+    "height": 341,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      76,
+      48,
+      264,
+      293
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 16488
+  },
+  {
+    "id": "jr-pyro-backpack-black-cat",
+    "category": "Assortments",
+    "width": 293,
+    "height": 293,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      29,
+      65,
+      263,
+      227
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17182
+  },
+  {
+    "id": "jumbo-assorted-candles-4-pack",
+    "category": "Roman Candles",
+    "width": 378,
+    "height": 378,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      46,
+      60,
+      333,
+      318
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 15590
+  },
+  {
+    "id": "texas-bandit-rockets",
+    "category": "Rockets",
+    "width": 258,
+    "height": 258,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      36,
+      31,
+      222,
+      227
+    ],
+    "occupancy": 0.76,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 18246
+  },
+  {
+    "id": "junior-pyro-assortment",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      233,
+      64,
+      408,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47940
+  },
+  {
+    "id": "kids-pack-black-cat",
+    "category": "Assortments",
+    "width": 335,
+    "height": 335,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      44,
+      34,
+      290,
+      302
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 22224
+  },
+  {
+    "id": "light-brigade",
+    "category": "Cakes",
+    "width": 387,
+    "height": 387,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      55,
+      100,
+      333,
+      287
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 27486
+  },
+  {
+    "id": "m150-red-12-pack",
+    "category": "Firecrackers",
+    "width": 246,
+    "height": 246,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      43,
+      39,
+      203,
+      206
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 11590
+  },
+  {
+    "id": "m150-red-silver-36-pack",
+    "category": "Firecrackers",
+    "width": 365,
+    "height": 365,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      58,
+      256,
+      306
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 15540
+  },
+  {
+    "id": "magical-barrage-100",
+    "category": "Cakes",
+    "width": 392,
+    "height": 392,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      124,
+      55,
+      268,
+      337
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 8876
+  },
+  {
+    "id": "neon-camo-smoke-4-pack",
+    "category": "Smoke",
+    "width": 300,
+    "height": 300,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      85,
+      42,
+      215,
+      258
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 11914
+  },
+  {
+    "id": "outlaw-justice",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      167,
+      551,
+      473
+    ],
+    "occupancy": 0.722,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 74574
+  },
+  {
+    "id": "packin-purple",
+    "category": "Fountains",
+    "width": 269,
+    "height": 269,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      56,
+      38,
+      212,
+      231
+    ],
+    "occupancy": 0.717,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 12970
+  },
+  {
+    "id": "party-animal-assortment",
+    "category": "Assortments",
+    "width": 290,
+    "height": 290,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      96,
+      29,
+      195,
+      261
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 13700
+  },
+  {
+    "id": "black-cat-party-pack-5",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      192,
+      64,
+      447,
+      577
+    ],
+    "occupancy": 0.802,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 60624
+  },
+  {
+    "id": "black-cat-party-pack-5-safe-sane",
+    "category": "Assortments",
+    "width": 359,
+    "height": 359,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      110,
+      36,
+      248,
+      323
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 22596
+  },
+  {
+    "id": "black-cat-party-pack-6",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      193,
+      63,
+      446,
+      576
+    ],
+    "occupancy": 0.802,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56618
+  },
+  {
+    "id": "party-poppers-6-pack",
+    "category": "Novelties",
+    "width": 379,
+    "height": 379,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      112,
+      65,
+      267,
+      315
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 18458
+  },
+  {
+    "id": "doggie-doo-doo",
+    "category": "Novelties",
+    "width": 372,
+    "height": 372,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      64,
+      112,
+      309,
+      261
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 11248
+  },
+  {
+    "id": "pride-and-honor-6",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      201,
+      63,
+      439,
+      576
+    ],
+    "occupancy": 0.802,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 64874
+  },
+  {
+    "id": "princess-power-sword",
+    "category": "Fountains",
+    "width": 395,
+    "height": 395,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      56,
+      87,
+      340,
+      308
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 8990
+  },
+  {
+    "id": "pyro-city-safe-sane",
+    "category": "Assortments",
+    "width": 357,
+    "height": 357,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      92,
+      36,
+      266,
+      321
+    ],
+    "occupancy": 0.798,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28474
+  },
+  {
+    "id": "pyro-city-assortment",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      163,
+      64,
+      477,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 80254
+  },
+  {
+    "id": "pyro-pack",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      235,
+      64,
+      406,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43416
+  },
+  {
+    "id": "the-beast-black-cat",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      160,
+      64,
+      480,
+      576
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 72814
+  },
+  {
+    "id": "beast-candle",
+    "category": "Roman Candles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      76,
+      78,
+      563,
+      562
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25426
+  },
+  {
+    "id": "victory-sword",
+    "category": "Fountains",
+    "width": 387,
+    "height": 387,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      161,
+      54,
+      226,
+      332
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 5306
+  },
+  {
+    "id": "whacky-tobacky",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      89,
+      550,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 69970
+  },
+  {
+    "id": "walkin-dead",
+    "category": "Cakes",
+    "width": 374,
+    "height": 374,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      69,
+      52,
+      305,
+      321
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 26542
+  },
+  {
+    "id": "war-hero",
+    "category": "Cakes",
+    "width": 398,
+    "height": 398,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      56,
+      80,
+      342,
+      319
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 25474
+  },
+  {
+    "id": "whistling-chaser-8-pack",
+    "category": "Spinners",
+    "width": 420,
+    "height": 420,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      105,
+      71,
+      314,
+      348
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 22294
+  },
+  {
+    "id": "black-cat-morning-glory-36-inch",
+    "category": "Sparklers",
+    "width": 375,
+    "height": 375,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      164,
+      52,
+      211,
+      322
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 6652
+  },
+  {
+    "id": "excellent-bag",
+    "category": "Assortments",
+    "width": 299,
+    "height": 299,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      74,
+      30,
+      224,
+      269
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17270
+  },
+  {
+    "id": "call-the-cops",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      156,
+      551,
+      485
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 71372
+  },
+  {
+    "id": "cowboy-rockets-9-pack",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      150,
+      77,
+      489,
+      563
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33432
+  },
+  {
+    "id": "drone",
+    "category": "Spinners",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      232,
+      531,
+      408
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24480
+  },
+  {
+    "id": "festival-fountain",
+    "category": "Fountains",
+    "width": 572,
+    "height": 572,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      100,
+      100,
+      473,
+      472
+    ],
+    "occupancy": 0.652,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 70676
+  },
+  {
+    "id": "forever-loyal",
+    "category": "Cakes",
+    "width": 391,
+    "height": 391,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      55,
+      65,
+      336,
+      326
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 31340
+  },
+  {
+    "id": "fuego-loco",
+    "category": "Cakes",
+    "width": 553,
+    "height": 553,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      77,
+      77,
+      475,
+      475
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59030
+  },
+  {
+    "id": "holiday-lights",
+    "category": "Fountains",
+    "width": 503,
+    "height": 503,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      122,
+      71,
+      382,
+      433
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33452
+  },
+  {
+    "id": "mass-confusion",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      192,
+      551,
+      449
+    ],
+    "occupancy": 0.722,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 53072
+  },
+  {
+    "id": "sky-ink",
+    "category": "Cakes",
+    "width": 614,
+    "height": 614,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      86,
+      95,
+      528,
+      518
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 74726
+  },
+  {
+    "id": "stealth-bomber-2-pack",
+    "category": "Spinners",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      163,
+      531,
+      477
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 29810
+  },
+  {
+    "id": "sugar-pop",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      152,
+      90,
+      487,
+      551
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 29066
+  },
+  {
+    "id": "worlds-largest-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      195,
+      551,
+      444
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 51726
+  },
+  {
+    "id": "aggression",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      115,
+      89,
+      526,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 68516
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      146,
+      80,
+      494,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 57138
+  },
+  {
+    "id": "bang-bros",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      139,
+      550,
+      501
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 61670
+  },
+  {
+    "id": "battle-cry",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      537
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 68294
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      79,
+      94,
+      559,
+      546
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 76222
+  },
+  {
+    "id": "color-rage",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      119,
+      550,
+      521
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 73792
+  },
+  {
+    "id": "flawless-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      103,
+      80,
+      537,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59704
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      101,
+      80,
+      539,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62688
+  },
+  {
+    "id": "home-of-the-brave",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      137,
+      80,
+      503,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 65874
+  },
+  {
+    "id": "hot-as-hell",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      102,
+      550,
+      538
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 75442
+  },
+  {
+    "id": "joker-raccoon",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      106,
+      89,
+      533,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 60564
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      80,
+      530,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59570
+  },
+  {
+    "id": "neon-celebration",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      172,
+      550,
+      468
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 46808
+  },
+  {
+    "id": "monkey-mania-10-ball-candles-6-pack",
+    "category": "Roman Candles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      77,
+      269,
+      564,
+      371
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 30298
+  },
+  {
+    "id": "sky-painter-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      201,
+      89,
+      439,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 38228
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      80,
+      95,
+      560,
+      545
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 68084
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "category": "Reloadables",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      81,
+      126,
+      560,
+      513
+    ],
+    "occupancy": 0.748,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 67596
+  },
+  {
+    "id": "8-oz-rockets-cutting-edge",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      223,
+      77,
+      418,
+      564
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 30522
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "category": "Artillery Shells",
+    "width": 352,
+    "height": 352,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      60,
+      44,
+      292,
+      308
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 22870
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      193,
+      550,
+      447
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 30664
+  },
+  {
+    "id": "black-cat-2000-roll",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      103,
+      109,
+      538,
+      532
+    ],
+    "occupancy": 0.68,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 41220
+  },
+  {
+    "id": "world-class-2000-roll",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      233,
+      103,
+      407,
+      537
+    ],
+    "occupancy": 0.678,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28268
+  },
+  {
+    "id": "world-class-saturn-25",
+    "category": "Missiles",
+    "width": 510,
+    "height": 510,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      92,
+      72,
+      418,
+      439
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50898
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "category": "Artillery Shells",
+    "width": 599,
+    "height": 599,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      150,
+      75,
+      450,
+      524
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 41906
+  },
+  {
+    "id": "america-enduring",
+    "category": "Fountains",
+    "width": 624,
+    "height": 624,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      130,
+      88,
+      494,
+      537
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 63242
+  },
+  {
+    "id": "american-pride-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      233,
+      89,
+      407,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33396
+  },
+  {
+    "id": "american-wildcard",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      146,
+      550,
+      493
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54074
+  },
+  {
+    "id": "americas-best-snappers",
+    "category": "Novelties",
+    "width": 614,
+    "height": 614,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      105,
+      139,
+      510,
+      474
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 39406
+  },
+  {
+    "id": "armadillo-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      190,
+      89,
+      450,
+      551
+    ],
+    "occupancy": 0.722,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 49300
+  },
+  {
+    "id": "black-cat-50-pack",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      211,
+      103,
+      430,
+      537
+    ],
+    "occupancy": 0.678,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 33196
+  },
+  {
+    "id": "black-cat-200-pack",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      258,
+      102,
+      383,
+      538
+    ],
+    "occupancy": 0.681,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17608
+  },
+  {
+    "id": "citrus-fountain",
+    "category": "Fountains",
+    "width": 442,
+    "height": 442,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      103,
+      62,
+      338,
+      380
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 22618
+  },
+  {
+    "id": "cutting-edge-1000-roll",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      102,
+      113,
+      537,
+      528
+    ],
+    "occupancy": 0.68,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 45126
+  },
+  {
+    "id": "daytime-reveal-pink",
+    "category": "Cakes",
+    "width": 563,
+    "height": 563,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      122,
+      79,
+      441,
+      484
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37438
+  },
+  {
+    "id": "excalibur-24-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      240,
+      79,
+      400,
+      560
+    ],
+    "occupancy": 0.752,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 27892
+  },
+  {
+    "id": "flag-missile-200",
+    "category": "Missiles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      178,
+      550,
+      462
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42664
+  },
+  {
+    "id": "hot-dog",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      133,
+      89,
+      507,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 73432
+  },
+  {
+    "id": "howler-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      216,
+      89,
+      424,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37752
+  },
+  {
+    "id": "junior-pyro-pack-sky-bacon",
+    "category": "Assortments",
+    "width": 480,
+    "height": 480,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      52,
+      48,
+      427,
+      432
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 55782
+  },
+  {
+    "id": "killer-bees-4-pack",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      217,
+      551,
+      423
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43144
+  },
+  {
+    "id": "m-200-salute-12-pack",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      136,
+      102,
+      504,
+      538
+    ],
+    "occupancy": 0.681,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 75134
+  },
+  {
+    "id": "m-5000-world-class-12-pack",
+    "category": "Firecrackers",
+    "width": 358,
+    "height": 358,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      57,
+      60,
+      300,
+      298
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 30102
+  },
+  {
+    "id": "m-5000-cutting-edge-12-pack",
+    "category": "Firecrackers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      112,
+      102,
+      528,
+      538
+    ],
+    "occupancy": 0.681,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 52348
+  },
+  {
+    "id": "major-mojo",
+    "category": "Assortments",
+    "width": 432,
+    "height": 432,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      130,
+      44,
+      302,
+      389
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24526
+  },
+  {
+    "id": "mexican-jumping-beans",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      222,
+      89,
+      419,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37096
+  },
+  {
+    "id": "morning-glory-144-cutting-edge",
+    "category": "Sparklers",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      135,
+      550,
+      504
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50026
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      117,
+      80,
+      522,
+      561
+    ],
+    "occupancy": 0.752,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 73606
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      103,
+      89,
+      538,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 82386
+  },
+  {
+    "id": "pizza-platter",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      90,
+      551,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 34574
+  },
+  {
+    "id": "poopy-puppy",
+    "category": "Novelties",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      174,
+      532,
+      466
+    ],
+    "occupancy": 0.661,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 54468
+  },
+  {
+    "id": "pyro-princess-pack",
+    "category": "Assortments",
+    "width": 480,
+    "height": 480,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      52,
+      48,
+      427,
+      432
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62196
+  },
+  {
+    "id": "jumbo-crackling-balls-3-pack",
+    "category": "Novelties",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      109,
+      149,
+      531,
+      491
+    ],
+    "occupancy": 0.659,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 50648
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "category": "Artillery Shells",
+    "width": 563,
+    "height": 563,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      70,
+      79,
+      492,
+      484
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 47904
+  },
+  {
+    "id": "american-saturn-missile-300",
+    "category": "Missiles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      189,
+      550,
+      452
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 36910
+  },
+  {
+    "id": "stars-and-stripes-assortment",
+    "category": "Assortments",
+    "width": 429,
+    "height": 429,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      152,
+      43,
+      277,
+      386
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 21582
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      191,
+      550,
+      447
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 48980
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "category": "Artillery Shells",
+    "width": 408,
+    "height": 408,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      136,
+      51,
+      273,
+      357
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20824
+  },
+  {
+    "id": "the-king-assortment",
+    "category": "Assortments",
+    "width": 407,
+    "height": 407,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      120,
+      41,
+      286,
+      366
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24872
+  },
+  {
+    "id": "tomahawk-missile",
+    "category": "Missiles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      249,
+      90,
+      391,
+      549
+    ],
+    "occupancy": 0.717,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 13752
+  },
+  {
+    "id": "torpedo-snappers",
+    "category": "Novelties",
+    "width": 538,
+    "height": 538,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      92,
+      104,
+      447,
+      434
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 37220
+  },
+  {
+    "id": "unicorn-chaser-2-pack",
+    "category": "Novelties",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      168,
+      108,
+      471,
+      531
+    ],
+    "occupancy": 0.661,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 38950
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      175,
+      80,
+      465,
+      560
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 61060
+  },
+  {
+    "id": "vertical-limit",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      124,
+      89,
+      517,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 52426
+  },
+  {
+    "id": "viva-mexico",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      100,
+      551,
+      541
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 59086
+  },
+  {
+    "id": "watermelon-ninja",
+    "category": "Fountains",
+    "width": 631,
+    "height": 631,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      190,
+      543,
+      441
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 30682
+  },
+  {
+    "id": "what-boys-are-made-of",
+    "category": "Assortments",
+    "width": 504,
+    "height": 504,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      62,
+      50,
+      441,
+      453
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 42706
+  },
+  {
+    "id": "whats-that",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      152,
+      551,
+      488
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62030
+  },
+  {
+    "id": "frog-princess",
+    "category": "Fountains",
+    "width": 624,
+    "height": 624,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      88,
+      89,
+      537,
+      534
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 56878
+  },
+  {
+    "id": "frog-prince",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      102,
+      89,
+      537,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 43530
+  },
+  {
+    "id": "goliath-36-shells",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      217,
+      79,
+      422,
+      560
+    ],
+    "occupancy": 0.752,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 38874
+  },
+  {
+    "id": "hoot-hoot-hooray",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      151,
+      550,
+      488
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 34810
+  },
+  {
+    "id": "smoke-crayon-8-pack",
+    "category": "Smoke",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      147,
+      550,
+      493
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 40012
+  },
+  {
+    "id": "openfire",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      163,
+      551,
+      478
+    ],
+    "occupancy": 0.722,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 55910
+  },
+  {
+    "id": "pure-fantasy",
+    "category": "Fountains",
+    "width": 589,
+    "height": 589,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      180,
+      82,
+      410,
+      506
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 44640
+  },
+  {
+    "id": "secret-vault",
+    "category": "Assortments",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      122,
+      63,
+      518,
+      575
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 85612
+  },
+  {
+    "id": "skybolt-rockets-5-pack",
+    "category": "Rockets",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      77,
+      77,
+      563,
+      563
+    ],
+    "occupancy": 0.759,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 28416
+  },
+  {
+    "id": "super-sword",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      90,
+      550,
+      550
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20602
+  },
+  {
+    "id": "gatlin-pack",
+    "category": "Roman Candles",
+    "width": 322,
+    "height": 322,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      46,
+      39,
+      276,
+      283
+    ],
+    "occupancy": 0.758,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 17716
+  },
+  {
+    "id": "goal-fountain",
+    "category": "Fountains",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      89,
+      92,
+      550,
+      548
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 35432
+  },
+  {
+    "id": "patriotic-fury",
+    "category": "Roman Candles",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      77,
+      143,
+      564,
+      498
+    ],
+    "occupancy": 0.761,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 46608
+  },
+  {
+    "id": "silent-treatment",
+    "category": "Fountains",
+    "width": 594,
+    "height": 594,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      140,
+      83,
+      454,
+      510
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 48564
+  },
+  {
+    "id": "black-cat-missile-base-100",
+    "category": "Missiles",
+    "width": 291,
+    "height": 291,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      41,
+      63,
+      250,
+      228
+    ],
+    "occupancy": 0.718,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 18608
+  },
+  {
+    "id": "black-cat-night-display",
+    "category": "Assortments",
+    "width": 633,
+    "height": 633,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      168,
+      63,
+      464,
+      569
+    ],
+    "occupancy": 0.799,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 63622
+  },
+  {
+    "id": "black-cat-party-pack-4",
+    "category": "Assortments",
+    "width": 305,
+    "height": 305,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      106,
+      30,
+      198,
+      274
+    ],
+    "occupancy": 0.8,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 12544
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "category": "Cakes",
+    "width": 367,
+    "height": 367,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      52,
+      63,
+      316,
+      305
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 24970
+  },
+  {
+    "id": "dragon-fire-black-cat",
+    "category": "Fountains",
+    "width": 407,
+    "height": 407,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      57,
+      70,
+      350,
+      336
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 19154
+  },
+  {
+    "id": "hot-sauce",
+    "category": "Fountains",
+    "width": 335,
+    "height": 335,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      93,
+      47,
+      241,
+      288
+    ],
+    "occupancy": 0.719,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 21828
+  },
+  {
+    "id": "black-cat-assorted-snakes",
+    "category": "Novelties",
+    "width": 335,
+    "height": 335,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      90,
+      57,
+      246,
+      278
+    ],
+    "occupancy": 0.66,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 20918
+  },
+  {
+    "id": "black-cat-1000-roll",
+    "category": "Firecrackers",
+    "width": 514,
+    "height": 514,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      87,
+      82,
+      427,
+      431
+    ],
+    "occupancy": 0.679,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 29872
+  },
+  {
+    "id": "dreams-from-heaven",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      97,
+      89,
+      543,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 62882
+  },
+  {
+    "id": "pirate-captain",
+    "category": "Cakes",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      92,
+      89,
+      547,
+      550
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 79264
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "category": "Artillery Shells",
+    "width": 640,
+    "height": 640,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      79,
+      85,
+      559,
+      555
+    ],
+    "occupancy": 0.75,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 69790
+  },
+  {
+    "id": "party-sparklers-4-pack",
+    "category": "Sparklers",
+    "width": 500,
+    "height": 500,
+    "alpha": [
+      0,
+      255
+    ],
+    "objectBounds": [
+      193,
+      70,
+      308,
+      430
+    ],
+    "occupancy": 0.72,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bytes": 14278
+  }
+]

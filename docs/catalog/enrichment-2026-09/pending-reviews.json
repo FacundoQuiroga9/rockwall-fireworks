@@ -1,0 +1,209 @@
+[
+  {
+    "csv_row": "85",
+    "status": "identified_missing_image",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3097",
+    "reason": "Exact Square code 705108309702 matches Snow Cone Jr. Retail presentation is four cones (case 18/4). Existing local Snow Cone photo is full-size P3088; handheld display is another product.",
+    "sources": [
+      "https://www.getwinda.com/product-page/snow-cone-jr"
+    ],
+    "required_next_step": "Obtain authorized authentic photograph of P3097 four-piece retail presentation. Winda image downloads were denied; no workaround attempted.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "437",
+    "status": "identified_missing_image",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "reason": "Official Hand Held Snow Cone lists corresponding color UPCs. Local photo shows a 24-unit counter display, not the single-unit Square variant. Existing local AKJYyBBGgbE video belongs to Bad Cactus, so it is rejected.",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone"
+    ],
+    "required_next_step": "Obtain exact single-color/unit photo and verify color to UPC. Do not use the mixed 24-unit display or unrelated video.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "438",
+    "status": "identified_missing_image",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "reason": "Official Hand Held Snow Cone lists corresponding color UPCs. Local photo shows a 24-unit counter display, not the single-unit Square variant. Existing local AKJYyBBGgbE video belongs to Bad Cactus, so it is rejected.",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone"
+    ],
+    "required_next_step": "Obtain exact single-color/unit photo and verify color to UPC. Do not use the mixed 24-unit display or unrelated video.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "439",
+    "status": "identified_missing_image",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "reason": "Official Hand Held Snow Cone lists corresponding color UPCs. Local photo shows a 24-unit counter display, not the single-unit Square variant. Existing local AKJYyBBGgbE video belongs to Bad Cactus, so it is rejected.",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone"
+    ],
+    "required_next_step": "Obtain exact single-color/unit photo and verify color to UPC. Do not use the mixed 24-unit display or unrelated video.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "440",
+    "status": "identified_missing_image",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P3213",
+    "reason": "Official Hand Held Snow Cone lists corresponding color UPCs. Local photo shows a 24-unit counter display, not the single-unit Square variant. Existing local AKJYyBBGgbE video belongs to Bad Cactus, so it is rejected.",
+    "sources": [
+      "https://www.getwinda.com/product-page/hand-held-snow-cone"
+    ],
+    "required_next_step": "Obtain exact single-color/unit photo and verify color to UPC. Do not use the mixed 24-unit display or unrelated video.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "1003",
+    "status": "identified_missing_image",
+    "verified_brand": "Brothers",
+    "manufacturer_code": "BP-A013",
+    "reason": "Exact Winco UPC 687985901395 identifies the four-cake assortment. Local photo has baked white background. Background-only ImageGen attempt changed printed model codes to BP-A025-* and warning text; rejected. Keep original photo in audit, not publish generated packaging.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1159",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "required_next_step": "Obtain faithful transparent photo or a pixel-preserving manual background isolation. Individual Atom/Hydrogen/Neutron/Cobalt Square rows are different retail products.",
+    "verified_video": "https://www.youtube.com/watch?v=gK4SO7LKMJM"
+  },
+  {
+    "csv_row": "738",
+    "status": "data_conflict",
+    "verified_brand": "Raccoon",
+    "manufacturer_code": "RA64501",
+    "reason": "Exact GTIN identifies RDXplosion, but Square describes 6-inch artillery shells/12 pack while manufacturer describes preloaded 5-inch-tall tubes. Do not silently replace size or reloadability.",
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/rdxplosion"
+    ],
+    "required_next_step": "Rockwall confirmation/photo of exact retail package and tube/shell dimensions.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "182",
+    "status": "data_conflict",
+    "verified_brand": "Brothers",
+    "manufacturer_code": "BP2035",
+    "reason": "UPC maps to Big Top. Current manufacturer listing says 145 shots, while local packaging and retail listings indicate 42 shots; cannot assume the same production variant.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/CoverDetail/41?page=18"
+    ],
+    "required_next_step": "Verify Rockwall package/photo and correct shot count before publishing.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "429",
+    "status": "data_conflict",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "reason": "Square Green Fuse code 652009119001 resolves in the historical Winco UPC reference to T80 5-inch canister shells. Product name and code disagree.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "required_next_step": "Rockwall barcode/photo or corrected identifier. Never map fuse to shell kit.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "758",
+    "status": "data_conflict",
+    "verified_brand": "Bright Star",
+    "manufacturer_code": "BS8047",
+    "reason": "Square code matches official Road Rage BS8047, but local Dynamite Road Rage photograph and its model/shot presentation need reconciliation with the official record; a same-name photo is insufficient.",
+    "sources": [
+      "https://www.getwinda.com/product-page/road-rage"
+    ],
+    "required_next_step": "Exact Rockwall package/model photo and variant verification before using the local cake image.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "138",
+    "status": "identified_missing_image",
+    "verified_brand": "Raccoon",
+    "manufacturer_code": "RA530167",
+    "reason": "Exact UPC 757205301677, Ant Chant, RA530167 and 180 shots agree with the manufacturer. The local low-resolution image includes an opaque rectangular background unsuitable for the hover/photo treatment.",
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/ant-chant"
+    ],
+    "required_next_step": "Acquire a high-quality exact-package photo with faithful transparency.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "743",
+    "status": "identified_missing_image",
+    "verified_brand": "Raccoon",
+    "manufacturer_code": "RA530118",
+    "reason": "Exact UPC 757205301189 identifies Rainbow Ghost. Local package image is too blurred for readable marketing detail.",
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/rainbow-ghost"
+    ],
+    "required_next_step": "Acquire a readable exact-package photograph and recheck all printed quantity labels.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "324",
+    "status": "package_review",
+    "verified_brand": "Monkey Mania",
+    "manufacturer_code": "MM30016",
+    "reason": "Exact UPC 757202300161 identifies Dino Eggsplosion. Local photo shows three egg color variants plus unpacked contents. It does not establish that all three eggs are sold together.",
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/dino-eggsplosion"
+    ],
+    "required_next_step": "Verify one-egg retail contents and obtain a photo that does not imply a three-egg assortment.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "601",
+    "status": "identity_review",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "reason": "Generic Military Parachute has no corroborating code. Row 602 is confirmed as Winda P5083 two pack, but that does not identify this separate generic record.",
+    "sources": [
+      "https://www.getwinda.com/product-page/military-parachute"
+    ],
+    "required_next_step": "Rockwall manufacturer/model/barcode and retail package photo; do not merge on name.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "325",
+    "status": "identity_review",
+    "verified_brand": "Unknown",
+    "manufacturer_code": "Unknown",
+    "reason": "This Diwali Dazzler uses 705108097807, unlike verified Winda P0038 unit UPC 705108003808 on row 326. No silent merge.",
+    "sources": [
+      "https://www.getwinda.com/product-page/diwali-dazzler"
+    ],
+    "required_next_step": "Identify alternate UPC/presentation with package evidence.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "814",
+    "status": "data_conflict",
+    "verified_brand": "Brothers",
+    "manufacturer_code": "BP1217",
+    "reason": "Square code 687985121717 identifies Brothers BP1217, a five-pack of stick rockets, independently verified against the manufacturer and American Wholesale. The local Dynamite Skybolt photo is a Firehawk freestanding missile with fins: different brand, form and presentation. Reject that photo and video.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/Cover",
+      "https://americanwholesalefireworks.com/skybolt-rocket/"
+    ],
+    "required_next_step": "Acquire and visually verify a genuine Brothers BP1217 five-rocket retail photo; do not reuse Firehawk Skybolt.",
+    "verified_video": ""
+  },
+  {
+    "csv_row": "502",
+    "status": "package_review",
+    "verified_brand": "Winda",
+    "manufacturer_code": "P6014",
+    "reason": "Manufacturer identifies Jumbo Neon Smoke Ball P6014 as individually packed 72/1 with six possible colors. Local photo groups six separate retail cards; Square does not identify a color or six-piece pack. Publishing that photo as a six-pack would misrepresent the presentation.",
+    "sources": [
+      "https://501pyro.com/Jumbo-Neon-Smoke-Balls/",
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "required_next_step": "Confirm whether this Square row means one assorted-color unit; obtain a single-unit reference or explicitly documented selection photo. Do not infer a six-pack.",
+    "verified_video": ""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ipa-4-pack",
+    "category": "Cake Packs",
+    "componentClassGrams": 500,
+    "evidence": "P5549: 4 distinct 36-shot cakes; official 500g section, not 2000g cake. Storm Chaser, Wet My Whistle, Willow Torpedo, Big Bang Beery.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "reviewedAt": "2026-09-25",
+    "bogoGrouping": "excluded; no eligibility or permission to split the retail pack is established"
+  },
+  {
+    "id": "born-leaders",
+    "category": "Cake Packs",
+    "componentClassGrams": 500,
+    "evidence": "P5599: 3-piece finale, 720+25+12 shots. Official 500g cakes section. Do not total the package or split into invented catalog products.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "reviewedAt": "2026-09-25",
+    "bogoGrouping": "excluded; no eligibility or permission to split the retail pack is established"
+  },
+  {
+    "id": "pizza-platter",
+    "category": "Cake Packs",
+    "componentClassGrams": 500,
+    "evidence": "P5564: six individual 15-shot slices, official 500g cakes section. Six named effect variants, no per-slice catalog IDs invented.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "reviewedAt": "2026-09-25",
+    "bogoGrouping": "excluded; no eligibility or permission to split the retail pack is established"
+  },
+  {
+    "id": "super-cakes-4-pack",
+    "category": "Cake Packs",
+    "componentClassGrams": 500,
+    "evidence": "JLAS500-1: four 500g cakes, 81 shots per approved presentation. Fixed retail set retained.",
+    "sources": [
+      "https://americanwholesalefireworks.com/super-cakes-case-of-4/"
+    ],
+    "reviewedAt": "2026-09-25",
+    "bogoGrouping": "excluded; no eligibility or permission to split the retail pack is established"
+  },
+  {
+    "id": "black-cat-combo-cakes",
+    "category": "Cake Packs",
+    "componentClassGrams": 500,
+    "evidence": "MEBC6393/UPC715244963935: four 500g cakes. Winco separately identifies Electric Avenue, Frat Party, Fright Night and The Freak.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "reviewedAt": "2026-09-25",
+    "bogoGrouping": "excluded; no eligibility or permission to split the retail pack is established"
+  }
+]

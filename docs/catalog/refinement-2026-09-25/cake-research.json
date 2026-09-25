@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "atom-bomb",
+    "name": "Atom Bomb",
+    "image": "/images/products/atom-bomb.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A013-1",
+    "storeCodes": [
+      {
+        "token": "5FGW7K44ZLKLWCCNLF46GVBU",
+        "sku": "687985901319",
+        "gtin": "",
+        "sourceRow": 159
+      }
+    ],
+    "presentation": "36 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1397",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "cobalt-bomb",
+    "name": "Cobalt Bomb",
+    "image": "/images/products/cobalt-bomb.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A013-4",
+    "storeCodes": [
+      {
+        "token": "MGK6SZ2H563SI4HJP3OBSS5U",
+        "sku": "687985901340",
+        "gtin": "",
+        "sourceRow": 272
+      }
+    ],
+    "presentation": "36 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1400",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "hydrogen-bomb",
+    "name": "Hydrogen Bomb",
+    "image": "/images/products/hydrogen-bomb.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A013-2",
+    "storeCodes": [
+      {
+        "token": "AKI3KKIBYKNIRZHLPMG6HPDE",
+        "sku": "687985901326",
+        "gtin": "",
+        "sourceRow": 468
+      }
+    ],
+    "presentation": "36 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1398",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "neutron-bomb",
+    "name": "Neutron Bomb",
+    "image": "/images/products/neutron-bomb.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A013-3",
+    "storeCodes": [
+      {
+        "token": "73ZKYLH5IUS5MUMFLKHERCSJ",
+        "sku": "687985901333",
+        "gtin": "",
+        "sourceRow": 639
+      }
+    ],
+    "presentation": "36 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1399",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "blood-money",
+    "name": "Blood Money",
+    "image": "/images/products/blood-money.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A090-3",
+    "storeCodes": [
+      {
+        "token": "XLO7UDEHBHTQYPEROBAO3RV4",
+        "sku": "687985909032",
+        "gtin": "",
+        "sourceRow": 226
+      }
+    ],
+    "presentation": "49 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/909",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.youtube.com/watch?v=CG05DMsgT1s"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "crime-scene",
+    "name": "Crime Scene",
+    "image": "/images/products/crime-scene.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A090-1",
+    "storeCodes": [
+      {
+        "token": "GFUHBZGQTVWBTZPNL5L4BB4L",
+        "sku": "687985909018",
+        "gtin": "",
+        "sourceRow": 300
+      }
+    ],
+    "presentation": "49 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/907",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.youtube.com/watch?v=XLFL_7QO1bA"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "inside-job",
+    "name": "Inside Job",
+    "image": "/images/products/inside-job.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A090-2",
+    "storeCodes": [
+      {
+        "token": "PB4BRS3FE2O4BB5DDXL53LT6",
+        "sku": "687985909025",
+        "gtin": "",
+        "sourceRow": 483
+      }
+    ],
+    "presentation": "49 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/908",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.youtube.com/watch?v=ZeYCnVqun4g"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "turf-war",
+    "name": "Turf War",
+    "image": "/images/products/turf-war.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A090-4",
+    "storeCodes": [
+      {
+        "token": "4XNAMHJPDAR3ZZXVWJRVFCN7",
+        "sku": "687985909049",
+        "gtin": "",
+        "sourceRow": 924
+      }
+    ],
+    "presentation": "49 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/910",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.youtube.com/watch?v=Qrs8rEAhXRE"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "whacky-tobacky",
+    "name": "Whacky Tobacky",
+    "image": "/images/products/whacky-tobacky.webp",
+    "brand": "Brothers",
+    "manufacturerCode": null,
+    "storeCodes": [
+      {
+        "token": "XTL5TLDJI3LTZYGCDMI4ODSC",
+        "sku": "687985250110",
+        "gtin": "",
+        "sourceRow": 948
+      }
+    ],
+    "presentation": "9-shot rack",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.wincofireworks.com/product/whacky-tobacky/",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "magical-barrage-100",
+    "name": "Magical Barrage",
+    "image": "/images/products/magical-barrage-100.webp",
+    "brand": "Black Cat",
+    "manufacturerCode": null,
+    "storeCodes": [
+      {
+        "token": "ELISRVGSZLOV7VVRCNLZLY5O",
+        "sku": "715244064120",
+        "gtin": "",
+        "sourceRow": 573
+      }
+    ],
+    "presentation": "100 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Winco classification matched by exact UPC. Mob Madness supplier suffixes differ from manufacturer suffixes; match by UPC and name, retaining the approved manufacturer code.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "identitySources": [
+      "https://www.wincofireworks.com/product/magical-barrage/",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "canopus",
+    "name": "Canopus",
+    "image": "/images/products/canopus.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A084-1",
+    "storeCodes": [
+      {
+        "token": "BZM75VLS7V57JD3765BT6ND4",
+        "sku": "687985908417",
+        "gtin": "",
+        "sourceRow": 252
+      }
+    ],
+    "presentation": "48 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Manufacturer identifies this 48-shot BP-A084 component; distributor lists the four named individual 48-shot cakes as 500g cakes. Not an aggregate packing weight.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/fCategory/Heavy%20Weights?pageindex=18",
+      "https://springfieldfireworks.com/product/brothers-stars-case-1-4/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/990",
+      "https://georgiasbestfireworks.com/product/canopus/"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "centauri",
+    "name": "Centauri",
+    "image": "/images/products/centauri.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A084-2",
+    "storeCodes": [
+      {
+        "token": "5SOYZ27LJ73CYTCXGVI6XIJN",
+        "sku": "687985908424",
+        "gtin": "",
+        "sourceRow": 257
+      }
+    ],
+    "presentation": "48 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Manufacturer identifies this 48-shot BP-A084 component; distributor lists the four named individual 48-shot cakes as 500g cakes. Not an aggregate packing weight.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/fCategory/Heavy%20Weights?pageindex=18",
+      "https://springfieldfireworks.com/product/brothers-stars-case-1-4/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/993",
+      "https://georgiasbestfireworks.com/product/centauri/"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "image": "/images/products/vega.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A084-3",
+    "storeCodes": [
+      {
+        "token": "6QWKN4NYSMH5FE4SPP4TXZEZ",
+        "sku": "687985908431",
+        "gtin": "",
+        "sourceRow": 939
+      }
+    ],
+    "presentation": "48 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Manufacturer identifies this 48-shot BP-A084 component; distributor lists the four named individual 48-shot cakes as 500g cakes. Not an aggregate packing weight.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/fCategory/Heavy%20Weights?pageindex=18",
+      "https://springfieldfireworks.com/product/brothers-stars-case-1-4/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/994",
+      "https://www.youtube.com/watch?v=H3oBKOX2QnM"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "image": "/images/products/capella.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A084-4",
+    "storeCodes": [
+      {
+        "token": "RGD7OXT4MUNLMZKZWWNOE6YH",
+        "sku": "687985908448",
+        "gtin": "",
+        "sourceRow": 253
+      }
+    ],
+    "presentation": "48 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Manufacturer identifies this 48-shot BP-A084 component; distributor lists the four named individual 48-shot cakes as 500g cakes. Not an aggregate packing weight.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/fCategory/Heavy%20Weights?pageindex=18",
+      "https://springfieldfireworks.com/product/brothers-stars-case-1-4/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/995",
+      "https://georgiasbestfireworks.com/product/capellastars48shot/"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "good-thinkin-lincoln",
+    "name": "Good Thinkin\u2019 Lincoln",
+    "image": "/images/products/good-thinkin-lincoln.webp",
+    "brand": "Winda",
+    "manufacturerCode": null,
+    "storeCodes": [
+      {
+        "token": "6HCFSGQXLROGN5BNWPU2MJVA",
+        "sku": "",
+        "gtin": "705108558209",
+        "sourceRow": 423
+      }
+    ],
+    "presentation": "134 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Official Winda 2026 catalog p34: P5582, 134 shots, 500g section.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "identitySources": [],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "lucky-streak",
+    "name": "Lucky Streak",
+    "image": "/images/products/lucky-streak.webp",
+    "brand": "Bright Star",
+    "manufacturerCode": "BS6020",
+    "storeCodes": [
+      {
+        "token": "DM4RMWLVBBUGLXYFTBGIJX3N",
+        "sku": "705108602063",
+        "gtin": "705108602063",
+        "sourceRow": 550
+      }
+    ],
+    "presentation": "66 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Official Winda 2026 catalog p105: BS6020, 66 shots, 200g section.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "identitySources": [
+      "https://www.getwinda.com/product-page/lucky-streak",
+      "https://www.youtube.com/watch?v=Yf7BARQKKck"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "whisky-business",
+    "name": "Whisky Business",
+    "image": "/images/products/whisky-business.webp",
+    "brand": "Bright Star",
+    "manufacturerCode": "BS8039",
+    "storeCodes": [
+      {
+        "token": "6DOXRDGFLEMBC4IEFOHUXQ33",
+        "sku": "",
+        "gtin": "705108803965",
+        "sourceRow": 968
+      }
+    ],
+    "presentation": "20 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Official Bright Star/Winda 2026 catalog: BS8039, 20 shots, 500g section.",
+    "sources": [
+      "https://www.getwinda.com/_files/ugd/ecdf0c_061e189188b74685bd3c26fae70b964e.pdf"
+    ],
+    "identitySources": [
+      "https://www.getwinda.com/product-page/whisky-business-20-s",
+      "https://skylinefireworksllc.com/MX184-Whisky-Business-R-PC/",
+      "https://bangersonlyfireworks.com/MX184-Whisky-Business-R-PC/",
+      "https://www.youtube.com/watch?v=SxzplhvlmUk"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "alien-attack",
+    "name": "Alien Attack",
+    "image": "/images/products/alien-attack.webp",
+    "brand": "Happy Family",
+    "manufacturerCode": null,
+    "storeCodes": [],
+    "presentation": null,
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Approved package visibly prints 500 GRAM, Happy Family and 25 shots. Distributor confirms JL523019 with same name, brand and shot count. Model is a research match, not a newly assigned store SKU.",
+    "sources": [
+      "https://americanwholesalefireworks.com/alien-attack/"
+    ],
+    "identitySources": [],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "night-rider",
+    "name": "Night Rider",
+    "image": "/images/products/night-rider.webp",
+    "brand": "Monkey Mania",
+    "manufacturerCode": null,
+    "storeCodes": [],
+    "presentation": null,
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Approved package visibly prints 200 GRAM, Monkey Mania and 96 shots. Distributor confirms MM-M961 as 200g. Model is a research match, not a newly assigned store SKU.",
+    "sources": [
+      "https://www.hotrocketfireworks.com/night-rider-by-monkey-mania-fireworks/"
+    ],
+    "identitySources": [],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "neon-jellyfish",
+    "name": "Neon Jellyfish",
+    "image": "/images/products/neon-jellyfish.webp",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA57212",
+    "storeCodes": [
+      {
+        "token": "TMC3YHZW3USJLNP2YNAQF35V",
+        "sku": "757201572125",
+        "gtin": "",
+        "sourceRow": 1036
+      }
+    ],
+    "presentation": "9-shot rack",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "RA57212, UPC757201572125; exact Raccoon 9-shot rack listed in 500g cakes, crosschecked with official manufacturer identity.",
+    "sources": [
+      "https://americanwholesalefireworks.com/neon-jellyfish/"
+    ],
+    "identitySources": [
+      "https://www.raccoonfireworksusa.com/product-page/neon-jellyfish",
+      "https://americanwholesalefireworks.com/neon-jellyfish/",
+      "https://dynamitefireworkswarehouse.com/products/Neon-Jellyfish-9S-p604650813",
+      "https://fireworks-superstore.myshopify.com/products/neon-jellyfish-3-rack-raccoon"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "hot-as-hell",
+    "name": "Hot as Hell",
+    "image": "/images/products/hot-as-hell.webp",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA57216",
+    "storeCodes": [
+      {
+        "token": "VO5VKMURGPFHWLH2WHVHDHTY",
+        "sku": "757201572163",
+        "gtin": "",
+        "sourceRow": 458
+      }
+    ],
+    "presentation": "9-shot rack",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "RA57216, UPC757201572163; exact Raccoon 9-shot rack listed in 500g cakes, crosschecked with official manufacturer identity.",
+    "sources": [
+      "https://americanwholesalefireworks.com/hot-as-hell/"
+    ],
+    "identitySources": [
+      "https://raccoonfireworksusa.com/product/hot-as-hell/",
+      "https://fireworks-superstore.myshopify.com/products/hot-as-hell-3-rack-raccoon",
+      "https://americanwholesalefireworks.com/hot-as-hell/",
+      "https://www.youtube.com/watch?v=yFp0xaHG-qY"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "big-top",
+    "name": "Big Top",
+    "image": "/images/products/big-top.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2035",
+    "storeCodes": [
+      {
+        "token": "BNWVUD62G4H3RHAG6WM5WJ7D",
+        "sku": "687985203512",
+        "gtin": "",
+        "sourceRow": 182
+      }
+    ],
+    "presentation": "42 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "BP2035, 42-shot Brothers cake; manufacturer Heavy Weights identity and distributor 500g classification.",
+    "sources": [
+      "https://www.pyromart.com/ground-spinners-and-winged-items/big-top/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1067",
+      "https://bigdaddyksfireworksoutlet.com/product/big-top/"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "jaws-brothers",
+    "name": "Jaws",
+    "image": "/images/products/jaws-brothers.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2377",
+    "storeCodes": [
+      {
+        "token": "UZCBBHPKUEH64KANXEM37JVQ",
+        "sku": "687985237715",
+        "gtin": "",
+        "sourceRow": 492
+      }
+    ],
+    "presentation": "16 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "BP2377 Brothers 16-shot 200g, also listed by Palmer Wholesale in 200g. Not Cutting Edge Jaws 9-shot rack.",
+    "sources": [
+      "https://elevatedfireworks.com/products/jaws-16-shot-standard-aerial-cake"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1081",
+      "https://georgiasbestfireworks.com/product/jaws16shot/"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "mechanical-bug",
+    "name": "Mechanical Bug",
+    "image": "/images/products/mechanical-bug.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2838",
+    "storeCodes": [
+      {
+        "token": "MD45INUFCC64T2JKSK5NHQNX",
+        "sku": "687985283811",
+        "gtin": "",
+        "sourceRow": 585
+      }
+    ],
+    "presentation": "100 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "BP2838-EA, 100 shots, 200g. Official Brothers Cake entry confirms BP2838 and presentation.",
+    "sources": [
+      "https://pahrump.area51fireworks.com/product/mechanical-bug-100-shots-each/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/991",
+      "https://www.lastchancefireworks.com/shop/Multishot-Cakes/p/Mechanical-Bug-100-shot.htm"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "megawatt",
+    "name": "MegaWatt",
+    "image": "/images/products/megawatt.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2608",
+    "storeCodes": [
+      {
+        "token": "JZSYHXE4DQ7QGMED4JK76XXM",
+        "sku": "687985260812",
+        "gtin": "",
+        "sourceRow": 591
+      }
+    ],
+    "presentation": "295 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "BP2608, 295 shots, 500g. Manufacturer identity matches the approved product.",
+    "sources": [
+      "https://www.fireworkscity.com/product/megawatt/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1141",
+      "https://bigdaddyksfireworksoutlet.com/product/megawatt/"
+    ],
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "the-red-white-and-blue-salute",
+    "name": "The Red, White and Blue Salute",
+    "image": "/images/products/the-red-white-and-blue-salute.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2905",
+    "storeCodes": [
+      {
+        "token": "JVJVJDEHKQTOTIG75XHAVP7R",
+        "sku": "687985290512",
+        "gtin": "",
+        "sourceRow": 900
+      }
+    ],
+    "presentation": "24 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Brothers BP2905, 24 shots; distributor arrival table classifies as 200g. Official Brothers Cake entry confirms identity.",
+    "sources": [
+      "https://americanwholesalefireworks.com/arrival-notices-and-important-information/arrival-notice-from-brothers-pyrotechnics/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/632",
+      "https://georgiasbestfireworks.com/product/0af7b240-ab8c-11e8-eddc-e476a2fcc4f2/",
+      "https://ocfireworks.com/the-red-white-blue-salute/",
+      "https://reiglefamilyfireworks.com/MS188-The-Red-White-and-Blue-Salute-R-PC/",
+      "https://lowcountryfireworks.com/MS188-The-Red-White-and-Blue-Salute-R-PC/",
+      "https://americanwholesalefireworks.com/the-red-white-and-blue-salute//",
+      "https://americanwholesalefireworks.com/the-red-white-and-blue-salute/",
+      "https://blackkatpyro.com/MS188-The-Red-White-and-Blue-Salute-R-PC/",
+      "https://www.youtube.com/watch?v=c0yqJUHTdkQ"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "wild-west",
+    "name": "Wild West",
+    "image": "/images/products/wild-west.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2924",
+    "storeCodes": [
+      {
+        "token": "VDUDV2IJWJQDR3OXDDXGSYVX",
+        "sku": "687985292417",
+        "gtin": "",
+        "sourceRow": 975
+      }
+    ],
+    "presentation": "25 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "BP2924 25 shots; official Brothers identity, exact distributor 200g product classification.",
+    "sources": [
+      "https://americanwholesalefireworks.com/wild-west/"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/980",
+      "https://georgiasbestfireworks.com/product/0af7b240-ab8c-11e8-eddc-e476b1e08cd0/"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "flying-colors",
+    "name": "Flying Colors",
+    "image": "/images/products/flying-colors.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2856",
+    "storeCodes": [
+      {
+        "token": "JOZNARA424EEK6F2KF7HBTKU",
+        "sku": "687985285617",
+        "gtin": "",
+        "sourceRow": 1010
+      }
+    ],
+    "presentation": "41 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Official Brothers Pyrotechnics video description identifies BP2856, 41 shots, as a 200g cake.",
+    "sources": [
+      "https://www.youtube.com/watch?v=wzrbWj7K7SI"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/631",
+      "https://georgiasbestfireworks.com/product/flying-colors-41-shots/"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "verified-external",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "old-ironsides",
+    "name": "Old Ironsides",
+    "image": "/images/products/old-ironsides.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2452",
+    "storeCodes": [
+      {
+        "token": "TJCEVYQKEURJTZKRXDKTT7TF",
+        "sku": "687985245215",
+        "gtin": "",
+        "sourceRow": 652
+      }
+    ],
+    "presentation": "30 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "unresolved",
+    "evidence": "Conflicting commercial classifications: exact BP2452/UPC687985245215 listed as 200g by American Wholesale, while Superior (manufacturer collaboration) and other distributors call Old Ironsides 350g. Manufacturer/package says Heavy Weights, not grams. Do not force into 200/500; need maker confirmation of the stocked version.",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/CoverDetail/41?page=20",
+      "https://americanwholesalefireworks.com/old-ironsides/",
+      "https://www.superiorfireworks.com/blog/2020/05/all-about-350-gram-repeaters/",
+      "https://elitefireworks.us/Old-Ironsides-p548891776"
+    ],
+    "identitySources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1109",
+      "https://georgiasbestfireworks.com/product/oldironsides/",
+      "https://usa-fireworks.com/products/aerial-all-cakes/aerial-500-gram-cakes/old-ironsides/",
+      "https://bigdaddyksfireworksoutlet.com/product/old-ironsides/",
+      "https://dosgringosfireworks.com/MX120-Old-Ironsides-R-PC/",
+      "https://americanwholesalefireworks.com/old-ironsides/",
+      "https://www.youtube.com/watch?v=3d8P_pGNLc4"
+    ],
+    "fields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "possibleGrams": [
+      200,
+      350
+    ]
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "image": "/images/products/light-brigade.webp",
+    "brand": "Brothers",
+    "manufacturerCode": null,
+    "storeCodes": [
+      {
+        "token": "GP4VTTYIGJ6FXPLM52AVKSEX",
+        "sku": "687985245314",
+        "gtin": "",
+        "sourceRow": 541
+      }
+    ],
+    "presentation": "42 shots",
+    "reviewedAt": "2026-09-25",
+    "status": "unresolved",
+    "evidence": "Exact UPC687985245314/MEBP2453 is in Winco 500g classification; Elevated puts Brothers Light Brigade in its 350g collection. Official BP2453/42-shot package and page only say Heavy Weights. Keep unresolved rather than choosing a broad distributor bucket over a conflicting classification.",
+    "sources": [
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.brotherspyrotechnics.com/detail/5244",
+      "https://elevatedfireworks.com/collections/brothers-350-gram-cakes"
+    ],
+    "identitySources": [
+      "https://www.wincofireworks.com/product/light-brigade/",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf",
+      "https://www.youtube.com/watch?v=eKDVVEhl6ss"
+    ],
+    "fields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "possibleGrams": [
+      350,
+      500
+    ]
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "image": "/images/products/2-minutes-extravaganza.webp",
+    "brand": "TNT",
+    "manufacturerCode": null,
+    "storeCodes": [
+      {
+        "token": "T3AVLYCRGWAKT6BREUWYYAAL",
+        "sku": "887946004213",
+        "gtin": "",
+        "sourceRow": 58
+      }
+    ],
+    "presentation": null,
+    "reviewedAt": "2026-09-25",
+    "status": "unresolved",
+    "evidence": "TNT official page matches UPC887946004213 and Big Thunder family but gives only Multi Aerials, no grams. Approved package says BT?863/63 shots. Top Gun TGA863 500g results are a different brand/code and cannot prove this variant. Packaging/shipping weight and the similar name are not accepted.",
+    "sources": [
+      "https://www.tntfireworks.com/fireworks/cat/multi-aerials/4100-2-minutes-extravaganza",
+      "https://www.tntfireworks.com/fireworks/cat/big-thunder"
+    ],
+    "identitySources": [
+      "https://www.tntfireworks.com/fireworks/cat/multi-aerials/4100-2-minutes-extravaganza",
+      "https://www.youtube.com/watch?v=Mz9Fq2UKTfU"
+    ],
+    "fields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "possibleGrams": []
+  }
+]

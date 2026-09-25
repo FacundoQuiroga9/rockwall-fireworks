@@ -1,0 +1,98 @@
+[
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T18:59:15.048Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:06:36.612Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:08:10.742Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:05.468Z",
+    "url": "http://127.0.0.1:5175/products/alien-attack"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:06.242Z",
+    "url": "http://127.0.0.1:5175/products/festival-balls-artillery"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:06.856Z",
+    "url": "http://127.0.0.1:5175/products/futurama-artillery"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:07.510Z",
+    "url": "http://127.0.0.1:5175/products/neon-beef"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:08.160Z",
+    "url": "http://127.0.0.1:5175/products/night-rider"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:08.791Z",
+    "url": "http://127.0.0.1:5175/products/star-light"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:09.401Z",
+    "url": "http://127.0.0.1:5175/products/the-reaper"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:19.508Z",
+    "url": "http://127.0.0.1:5175/products/the-reaper"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:09:20.724Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:13:25.755Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:17:42.477Z",
+    "url": "http://127.0.0.1:5175/products/ring-of-honor-6-pack"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:17:43.850Z",
+    "url": "http://127.0.0.1:5175/#top"
+  },
+  {
+    "level": "error",
+    "message": "Error: IO error: .../159376.ldb: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)",
+    "timestamp": "2026-09-24T19:20:20.429Z",
+    "url": "http://127.0.0.1:5175/products?brand=Firehawk"
+  }
+]

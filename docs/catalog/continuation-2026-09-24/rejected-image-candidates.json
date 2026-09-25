@@ -1,0 +1,59 @@
+[
+  {
+    "id": "black-cat-1000-roll",
+    "squareRows": [
+      186
+    ],
+    "identityCode": "715244111107",
+    "name": "Black Cat 1000 Roll",
+    "brand": "Black Cat",
+    "category": "Firecrackers",
+    "presentation": "1000-count roll",
+    "description": "Black Cat 1000 Roll by Black Cat. 1000-count roll.",
+    "features": [
+      "1000-count roll"
+    ],
+    "previewVideo": "",
+    "referenceImage": "docs/catalog/enrichment-2026-09/references/black-cat-1000-roll-original.png",
+    "sourceImageSha256": "67671b466939f84ed6ce6c25552181a73095660e2e76dd828b27f91d9d498458",
+    "sourceImageUrl": "https://elevatedfireworks.com/cdn/shop/files/image_3b7014b9-5ff8-4adc-8e7a-b3f531dfbba7.png?v=1779850494&width=1920",
+    "sources": [
+      "https://elevatedfireworks.com/products/firelab%E2%84%A2-copy-copy-copy-copy-copy",
+      "https://www.wincofireworks.com/product/black-cat-1000-roll/"
+    ],
+    "evidence": "Square row 186, code 715244111107, original name 'Black Cat 1000ct Firecracker' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "imageReview": "REJECTED: group photograph of multiple roll sizes, not the exact individual 1000-count retail product.",
+    "videoReview": "Product/model and simpler name/brand YouTube queries checked; no exact, sufficiently supported demonstration was approved. Optional field intentionally empty.",
+    "batch": "2026-09-24-reviewed-5",
+    "resolution": "Resolved in supplier-6 using separately verified individual package photograph; see reviewed-products.json. This rejected source was not integrated."
+  },
+  {
+    "id": "world-class-morning-glory-36",
+    "squareRows": [
+      499
+    ],
+    "identityCode": "805253191013",
+    "name": "36-inch Jumbo Morning Glory",
+    "brand": "World-Class",
+    "category": "Sparklers",
+    "presentation": "36-inch sparklers \u00b7 6-pack",
+    "description": "36-inch Jumbo Morning Glory by World-Class. 36-inch sparklers, 6-pack.",
+    "features": [
+      "36-inch sparklers",
+      "6-pack"
+    ],
+    "previewVideo": "",
+    "referenceImage": "docs/catalog/enrichment-2026-09/references/world-class-morning-glory-36-original.png",
+    "sourceImageSha256": "c2fa0fec6245c822e0034f06550ce0260329b6c3493dc8bdbd879b25c4e3ae4d",
+    "sourceImageUrl": "https://usa-fireworks.com/wp-content/uploads/2026/09/original-490.png",
+    "sources": [
+      "https://usa-fireworks.com/products/sparklers/36-morning-glory/",
+      "https://beta2024.usa-fireworks.com/products/sparklers/36-morning-glory-wc-2/"
+    ],
+    "evidence": "Square row 499, code 805253191013, original name 'Jumbo' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "imageReview": "REJECTED: photograph contains three packs and crops the product at its bottom; does not show the complete approved retail presentation.",
+    "videoReview": "Product/model and simpler name/brand YouTube queries checked; no exact, sufficiently supported demonstration was approved. Optional field intentionally empty.",
+    "batch": "2026-09-24-reviewed-5",
+    "resolution": "Still pending an exact full product photograph. Not imported."
+  }
+]

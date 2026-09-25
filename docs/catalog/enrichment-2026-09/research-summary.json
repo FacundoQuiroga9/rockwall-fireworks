@@ -1,0 +1,17 @@
+{
+  "original_pending_variant_rows": 1028,
+  "researched_search_rows": 906,
+  "winco_comparison_rows": 122,
+  "statuses": {
+    "no_verified_identity": 278,
+    "candidate_requires_package_review": 103,
+    "identity_confirmation_needed": 307,
+    "incorporated": 267,
+    "data_conflict": 31,
+    "duplicate": 4,
+    "excluded": 1,
+    "identified_missing_image": 16,
+    "package_review": 21
+  },
+  "published_new_products": 267
+}

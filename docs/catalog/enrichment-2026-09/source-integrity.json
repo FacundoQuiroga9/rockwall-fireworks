@@ -1,0 +1,22 @@
+{
+  "/Volumes/FACUNDO/Rockwall fireworks/MLTX6DPJDFYX7_catalog-2026-08-16-1724.csv": {
+    "expected_sha256": "c2389fe41ddf041bc746534ca11d6e9739c64014b0e0b93024f657cf3b044a0d",
+    "earlier_check_in_this_session": "PASS",
+    "final_read": "Unavailable: external volume is no longer mounted"
+  },
+  "/Volumes/FACUNDO/Rockwall fireworks/rockwall fireworks items.xlsx": {
+    "expected_sha256": "604592fc8641ec62918431f06ca60c06785dec6eaf7bcf4e7d0a8b8cceb895d2",
+    "earlier_check_in_this_session": "PASS",
+    "final_read": "Unavailable: external volume is no longer mounted"
+  },
+  "/Users/facundoquiroga/code/FacundoQuiroga9/dynamite-fireworks/public/products.json": {
+    "expected_sha256": "95d0cfbf3ea7c37a26467156a0ae99e106e589004132ca8f2a048ca01c3b6488",
+    "earlier_check_in_this_session": "PASS",
+    "final_read": "PASS"
+  },
+  "/Users/facundoquiroga/code/FacundoQuiroga9/dynamite-fireworks/public/gender-reveal.json": {
+    "expected_sha256": "c19f202f6d2f9bebe85ab41e3903e6664443fd03bbf4150a4d70c22d7cc30451",
+    "earlier_check_in_this_session": "PASS",
+    "final_read": "PASS"
+  }
+}

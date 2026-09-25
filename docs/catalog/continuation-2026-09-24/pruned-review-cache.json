@@ -1,0 +1,1478 @@
+[
+  {
+    "file": "candidate-443.image",
+    "bytes": 301447,
+    "sha256": "be11e29a294a7b89dd37f7a98e3db3380438b574a33b96ab8fa9c736691d1ca8",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-393.image",
+    "bytes": 188729,
+    "sha256": "7f9ee0c7c80b00db94a79bc1e15af6078f966151120b56568376fd073a699c6f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-627.image",
+    "bytes": 163502,
+    "sha256": "bbcddf34633a3797fed22e9044be4e42d85bec298c3d6b0f2e9b85ec653999a8",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-316.image",
+    "bytes": 214878,
+    "sha256": "a768e5da456a519da35ee1155358e6ea755dc4409e382117cf6fe2482857290b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-603.image",
+    "bytes": 191745,
+    "sha256": "1d9b1bc06301d2013e8419d7a08fa8022f7994c5f907545bcf5666e103102126",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-646.image",
+    "bytes": 609137,
+    "sha256": "77ada5dac35c872a2b766160a9b53c43a310c2bc924493cfe708cf2cef9d868e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-196.image",
+    "bytes": 202237,
+    "sha256": "03fa4b7ab508df4693ef15429cac23b86cbab33cb66093a922db914f81b790be",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-525.image",
+    "bytes": 731443,
+    "sha256": "c9f69102d94dfa1a0e4f34d4bf8963bc195be499ffe1579e0fe6b374dabed2c6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-42.image",
+    "bytes": 181583,
+    "sha256": "890eff43726e647efe9cd904c5c8a1a311108a9c2974e1d21006d50541269d1a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-422.image",
+    "bytes": 302486,
+    "sha256": "b801c471657eadadc6aed44628cbf8f383b203c8f8038894dc098caa0fe1546c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-257.image",
+    "bytes": 871276,
+    "sha256": "29f9eccd7649c18520cf97c1cf3ddc9cab867a5b59d993af3fd304d600f21d03",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-113.image",
+    "bytes": 17900,
+    "sha256": "58a4d4ffc7f75d614827fd06645fc81aa9b7c53a5cd89f49e113f998877b661d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-915.image",
+    "bytes": 176153,
+    "sha256": "3e9520f8986f5f8cd2c1437b49bdf3ea31eb59b1a344e8f429de3f8e7a4021f5",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-585.image",
+    "bytes": 18748,
+    "sha256": "5864850d5152877ee1f389e4e4f9b311fbb36a76bdba9a994f80920a63f9f6ad",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-255.image",
+    "bytes": 365264,
+    "sha256": "68978c4551a376c35e5933aa761f0559ec9ae53b1655a55ec2a037f18dcc50cb",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-684.image",
+    "bytes": 45624,
+    "sha256": "6aca12a135f0f923e5495fd471c40be9ee1c2c9053d3a1e57362a0c791b8b86c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-706.image",
+    "bytes": 827060,
+    "sha256": "07170d75f3ab8a0ba71d6fd129eefa1fde78e660bf1cac72a22dc91efde19fcb",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-295.image",
+    "bytes": 19443,
+    "sha256": "79c1d0e623a3088799c43375b2dba3ce7e5f1428988ba7a977ae74949c2453ae",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-169.image",
+    "bytes": 157914,
+    "sha256": "b01d9c4213ae65e333ef7f701432ff86248e367f5afc23ee287c036131723a99",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-237.image",
+    "bytes": 54126,
+    "sha256": "4d2ae97758ef40b08f89a86683d12e3c6eb31313f25314cb2b4199f174b4afa9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-891-3512.image",
+    "bytes": 340289,
+    "sha256": "3431061ce1ec2a4fe68479912953e817741c4fa5a26a840d435f55b0891f1fa4",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-80.image",
+    "bytes": 71543,
+    "sha256": "4075e83c25551f3926baef4390464c173e30ea359594fa35e01c3facfcccbe1f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-458.image",
+    "bytes": 522014,
+    "sha256": "e50a0617fb231c586f4ea2bb3ab87a7552ce14e18dc7b7252cc95fdf2744f553",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1031.image",
+    "bytes": 23157,
+    "sha256": "351932e62489b43f4f245b4bfd51a3bce5460278426d95e283e6fac6533d29fa",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-625.image",
+    "bytes": 138070,
+    "sha256": "879a8d4f9de1e7ad421ed13d12f9891a2fe5f5990823d12ed07490752e603689",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-314.image",
+    "bytes": 110590,
+    "sha256": "cebce54fe6e1f29970ecc43264806fbe6c2e45865562900bfd8b1c9f5c22100d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-439.image",
+    "bytes": 256406,
+    "sha256": "23d1ae18cc6b328dd8254e60fc0535333bf9b6b8327eb9e2f4e747662b6efe06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-738.image",
+    "bytes": 272337,
+    "sha256": "102747caa1df50d6fd424b1fe778692ba4d25b210b5acc9122f0a2865a7938ba",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-64.image",
+    "bytes": 284638,
+    "sha256": "9ea807e341126be59f50fb29b80b927972eedf48b34337e3a94f6f4dda1c01db",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-441.image",
+    "bytes": 281327,
+    "sha256": "30f8cfbb27372ff15deb2c765912b6998ec74327824bad8671e072d7e2a3c725",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-200-4911.image",
+    "bytes": 27477,
+    "sha256": "421c581e67150069679b850acde1958e38b2179e1ced7ce791a5065d354c1c50",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-519.image",
+    "bytes": 88443,
+    "sha256": "c9a9e4807721041fd3da140c231045705d86d6284057bd24c90f83dbde9cbd6a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-976.image",
+    "bytes": 265611,
+    "sha256": "35f2fa4288ba888ad5220019d3fc180a03fe0f36cf34082ab6a17f40c5430991",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-170.image",
+    "bytes": 77229,
+    "sha256": "67d452259b9d519ee196869c0e8ef31f438e344460ca0da59d7c89aec0e8bb27",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-376.image",
+    "bytes": 78866,
+    "sha256": "8aa99962504b0b0561c6eb89c79b4cb49d5530e0b88756c5bc142d53c1fd6520",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-699.image",
+    "bytes": 36632,
+    "sha256": "e9afaa8575ec7fa55753dab39e2ec24b934b04af05be220ddb4ea62c3a5895ac",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-248.image",
+    "bytes": 381435,
+    "sha256": "6d27b1ae5f1dec3bf4543284a1560dd6259a7cb2e93c705c7aed90acfcb8057c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-565.image",
+    "bytes": 155535,
+    "sha256": "730c1a918244e557c839aed91c1bff95cde0f6a7ce06d5ae9d4c7946a450a79f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1035.image",
+    "bytes": 128730,
+    "sha256": "b9b2af45cd2e8d545c8a89fbe0b92ed9861887ab2b20ae0389b9fa5f63886a2c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-174.image",
+    "bytes": 191866,
+    "sha256": "90fc2febc1f73e1396730775674d427580031093d1ef55b11ed1319b79125ed9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-189.image",
+    "bytes": 16545,
+    "sha256": "b93c1ee1eadbd7a2910a51c0069b110e80e360684acb1391676fb0765a2dcbbc",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-643.image",
+    "bytes": 3121544,
+    "sha256": "9e66ab66a79ecf9d6126eea2b365b762950a993965adf8bcd5cdfed9f3ce3dc3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-395.image",
+    "bytes": 325411,
+    "sha256": "db2400225cea1110d3d1d62b5c01042210eabc0fa3538608e4a3ff413fb6cbbc",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-461.image",
+    "bytes": 120174,
+    "sha256": "091bb70d6b0c1199069bfb6bd0267a6a5674da3e287204c998c3da548b0e382f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-309.image",
+    "bytes": 151973,
+    "sha256": "587bdf580c5859bc8d759419026cd857000b3b737d9ee71c22eb1117382eae89",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-79.image",
+    "bytes": 1224112,
+    "sha256": "a1ea793c0752d9cfb0fbdcfdc7f252a47d93ad8bce27b12ef8a4f22a68b546c2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-371.image",
+    "bytes": 215601,
+    "sha256": "9e07a300ca0bc8b07e819d45137b2fa25f5b8108828f3ce96b834323e8439494",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-876.image",
+    "bytes": 64318,
+    "sha256": "3a8359a93a9df8df78d38d230ea2239f6874258f6f58053e1dd1cd0344e3f800",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-605.image",
+    "bytes": 509475,
+    "sha256": "8220a57cd0a90dd009ecd29cb574b141ab1df39fff9d4e63ca61e099878181e6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1054.image",
+    "bytes": 477771,
+    "sha256": "e7704c923d51ab4079a7eaff64e34e1b25ca5e232b98be87271973bb2930b139",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-849-5599.image",
+    "bytes": 28664,
+    "sha256": "32e7585579728a9dc5bcc91a1873014d80edf8c9bf157bf44015411d9ef1c9f9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-86.image",
+    "bytes": 106484,
+    "sha256": "9abf92ea37a8c32b4a40dcc936926c5069ce1571d1ee1e43b5752587f0f12e8a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1056.image",
+    "bytes": 1486345,
+    "sha256": "bf1e7543563944f4578a90ddd811fc0d6cf0468a8f92ee8fc8e6b88b944e9471",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-253.image",
+    "bytes": 524847,
+    "sha256": "7e6d14d19cadfb650b8c91fb01c3d7b524480aee20698fc6eb5f64c3c2d51c33",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-682.image",
+    "bytes": 400528,
+    "sha256": "7eec4381eb9aedc61203ccc5d83930022f4a21a05bc077d649335e3c1bbb129d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-762.image",
+    "bytes": 138212,
+    "sha256": "2e8b061f1d0ccbd976e05c41dd6b0d6ecc93a2871688597d02c5148e55a88023",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-283-4868.image",
+    "bytes": 41615,
+    "sha256": "7b2c28751af063ab954711eaebfa0a30163f49d135b4bb7c72e1091b739d9308",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-250.image",
+    "bytes": 710166,
+    "sha256": "c1b2e55ad2d6741736d23692b216d4a7ef3e5eaa0dcf2319bb5f87b0ab3509ad",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-166-14614.image",
+    "bytes": 349260,
+    "sha256": "e53565feecd1803509eb4c828c302316960d4f412ad12adeda61a6bcfa73333c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-908.image",
+    "bytes": 135263,
+    "sha256": "497f721d00f6c19efbd353173449f69f8d937b855b3b5e20b3c59ad9fc183e74",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1037.image",
+    "bytes": 22411,
+    "sha256": "6b976a6fe25379c180bfaa112b6539ef734100ec8bedb37fdfb6432b5555c761",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-567.image",
+    "bytes": 284140,
+    "sha256": "b4d97b9daac34a752e3959623046e52260b9bcde46c411ee8c9969dd9e9e357c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-193-4157.image",
+    "bytes": 19171,
+    "sha256": "d7b91d76ffe7a4ebb90883a2bd4da47b735cfc5e3ba8c7f0cb0acf9b4801a516",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-836.image",
+    "bytes": 218061,
+    "sha256": "18a263d005f94a60631c18944a070829d7719e000560f5d9246b7ed627d65959",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-39.image",
+    "bytes": 164403,
+    "sha256": "d97eede33881e9f5797342f11c477750e8646a5f90a120241a92c08daad720c5",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-584.image",
+    "bytes": 153535,
+    "sha256": "2c3e9093d547473f06dc77996df3ec94e0afbdafed98310e5e6d8fbcdccc62a5",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-880-4410.image",
+    "bytes": 29671,
+    "sha256": "53d5bafcac4a073e483ee0e8db66f53bc8e8f55ab610b8d8ec9fd7c5dff71dfc",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-254.image",
+    "bytes": 66788,
+    "sha256": "b8b4aa83701d6e42d1c8d20e47aed9f554fbf05720589b0bab00b5fa90ce7c30",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-421.image",
+    "bytes": 34210,
+    "sha256": "c0386cacdebbdde786f911e0804f65ddc3b778b9c16ee57d9168c69f8f8ed95d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-235.image",
+    "bytes": 618685,
+    "sha256": "26873ded96bdc389b99b46337bb447d0167ee96d75f17595c3c1d0b34be3034e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-953-4411.image",
+    "bytes": 87347,
+    "sha256": "5b229a4e6700a8c69d81cfddb49351930c5917a7581e3211947b83f983d11f86",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-390.image",
+    "bytes": 253228,
+    "sha256": "6cf3c4888294a0d379f67e1bf15bc3588a26aa9abf88be5a2ce3932cf98b9455",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-98.image",
+    "bytes": 1798340,
+    "sha256": "b014ceb163111401f48e4a9c4910057b94ef8fd41ef0cc481ae9e76e58b0df71",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-440.image",
+    "bytes": 256406,
+    "sha256": "23d1ae18cc6b328dd8254e60fc0535333bf9b6b8327eb9e2f4e747662b6efe06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-438.image",
+    "bytes": 256406,
+    "sha256": "23d1ae18cc6b328dd8254e60fc0535333bf9b6b8327eb9e2f4e747662b6efe06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-812.image",
+    "bytes": 247251,
+    "sha256": "56180a7c75c586728f0fb1e82945eee6decd298d692e3bd099e204cd5645140f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-975.image",
+    "bytes": 591246,
+    "sha256": "558c69adb2b662f977dad7e0519e6ff0518c7cd9f01a4426e9782c764547eedb",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-237.image",
+    "bytes": 54126,
+    "sha256": "4d2ae97758ef40b08f89a86683d12e3c6eb31313f25314cb2b4199f174b4afa9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-601.image",
+    "bytes": 64266,
+    "sha256": "adcc718faf5bd9d34def5f1e00a5f5fc07a8a6f439b34464983043f39795d123",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-738.image",
+    "bytes": 804486,
+    "sha256": "d315f53d69e6ddb4ae0dc173a1da7d497e735f4583c5014100793d49677d9cbf",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-586.image",
+    "bytes": 343616,
+    "sha256": "3cbfc57b27dbc5a81983e15c9ac0a2faa8a9f52fade513b9df95e528c452bde4",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-112.image",
+    "bytes": 32096,
+    "sha256": "bece94df0f14eba8db5c86a80af0245c5ae69dd30b0b105da3f615d1af48b462",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-466.image",
+    "bytes": 223281,
+    "sha256": "c732951d90ce6fa0f1a39604f45f040ca692538e6df3f52637074410af41061b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-376.image",
+    "bytes": 78866,
+    "sha256": "8aa99962504b0b0561c6eb89c79b4cb49d5530e0b88756c5bc142d53c1fd6520",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-170.image",
+    "bytes": 77229,
+    "sha256": "67d452259b9d519ee196869c0e8ef31f438e344460ca0da59d7c89aec0e8bb27",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-519.image",
+    "bytes": 88443,
+    "sha256": "c9a9e4807721041fd3da140c231045705d86d6284057bd24c90f83dbde9cbd6a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-934-5572.image",
+    "bytes": 52471,
+    "sha256": "4cc6412b874bf17e0a70954a61bba2541f834e8da65366c2368fb8c1dc909e7d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-197.image",
+    "bytes": 62803,
+    "sha256": "43b80f32b8256abeddc911a89ad8309ef2cba6eff268313a54cda137c1670773",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-427.image",
+    "bytes": 184071,
+    "sha256": "cd0a1b133dfb720d5ca84d4958e56260bcac1e3b082b721e3d02e2bf71b9cb1a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-848.image",
+    "bytes": 31976,
+    "sha256": "f73789ca92297eee000180037c29d319defe627bfe9826fc8dcaf4db174f24a9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-763.image",
+    "bytes": 208520,
+    "sha256": "3f67ac267ba2891a0a01af49f3bcc6c58830537f88d7f5e9f6e0fa37907202dc",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-252.image",
+    "bytes": 772880,
+    "sha256": "b00c6cbc5d8ff1fe28bc29b95fcb8293256d8c374daaf97e36e03a019e0ef5d3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-217.image",
+    "bytes": 21650,
+    "sha256": "a0cee79ad296462bc42b6be1c61adf31dfce450d6cc2c2f69da68580dfe394a3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-690-5597.image",
+    "bytes": 31622,
+    "sha256": "1f2a920a724593ba5a66378f28eacd3c49f71f60265053c9476047961e43c646",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-624-3986.image",
+    "bytes": 28697,
+    "sha256": "c73cc7e75bfeb3805fc7f1e010422da691000dd4e1571ad9854e75a7a02eb245",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-643.image",
+    "bytes": 180972,
+    "sha256": "d94d31afb6630ee1f27e7f3636198a680c8bef6fbd6b4090b6d4d8588cd5b78e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-337.image",
+    "bytes": 203694,
+    "sha256": "375dcd5a06d7b3dae60bac9b3d4aa07e888f627f8980318d9d3ae1b642fee9ea",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-341-10436.image",
+    "bytes": 118510,
+    "sha256": "7858a32ba100d1a6da64f229dcc9d217c31c7f31b570c14d955e98989ed107ef",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-424.image",
+    "bytes": 449959,
+    "sha256": "a1d10b0eccb05c37671db9e72fca2c4c32e28bcb56ef5a4ab91422ed20b6843d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-615-8816.image",
+    "bytes": 98249,
+    "sha256": "f01fbf38a90b826470a127181924392eeab1d8952497a9a1c3e82e6773d2be99",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-356.image",
+    "bytes": 368270,
+    "sha256": "39c0f88c813c62b5e4e034035847be97a5503834d70910c8a24bfc2a152bb77b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-814.image",
+    "bytes": 244265,
+    "sha256": "9b6e95efc85db47637c5ed5da59f7171d28067d862bcacac4007582b58ad0b18",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-1040-3507.image",
+    "bytes": 18963,
+    "sha256": "9f1c0437da5cb9032c507153a3febfa61411ded42103f5fb75fc8819048fc7ff",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-810-8797.image",
+    "bytes": 120864,
+    "sha256": "df86980e3e958ba3ccdf736ea25cc75d6a01beae3fa96360d22a2c43a8377b87",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-276.image",
+    "bytes": 55561,
+    "sha256": "211bf4feb8669b7e4360017e9ee770f51bc626d9bc2efd05c56c45101f4f528b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "brothers-da-big-box.image",
+    "bytes": 216504,
+    "sha256": "d1bd46f94928e02c0c2ad524565145751816a3fecbada441508b53cf99fadf5a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-89.image",
+    "bytes": 89880,
+    "sha256": "02a7b920407f3728c640ab9e86c1c324d2dd92396dc4ace0bc54778d9350bb51",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-893.image",
+    "bytes": 201519,
+    "sha256": "49b00379b2fd5c7105b46d39477503dbf3204ef789820532af19eb8bc3b7c8e9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-700.image",
+    "bytes": 375783,
+    "sha256": "beb44cf30454c6f8abee5a9cebd89861789da099991c940234723483697c8625",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-394.image",
+    "bytes": 511414,
+    "sha256": "f7b9988fa503a2987e37f3dfae8fba26ef3d9cce449bc8cca91606a5bc31f89e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-175.image",
+    "bytes": 1017466,
+    "sha256": "d3adc7d456994f58f0abb051fe8f2800331bd2c40d5511b0a7ea52c07fd646c2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1009.image",
+    "bytes": 42460,
+    "sha256": "3766ffa59b6951fdb628c453b8eb3fd0e5e560fff352cf1d73cfc5dafe917e40",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-289.image",
+    "bytes": 127124,
+    "sha256": "f4df20399f90aee72665714e57f6b68a8ab832596efffac6a028f4252728937b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-564.image",
+    "bytes": 124633,
+    "sha256": "0404d7fd2cf2e92dd62705ceaf51238cda0588ce35037d5ca36707a70484915f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-778.image",
+    "bytes": 295905,
+    "sha256": "aa6e696ac9bcc76ed1921084bb9cffd87ed3ce8e225670a3792bdfd474fafe87",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-129.image",
+    "bytes": 196339,
+    "sha256": "8896266a32627b8d129faa611a3af6e082dde35b273cd10daee8a4ba25b61970",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1010.image",
+    "bytes": 110500,
+    "sha256": "5980e696c73ca1dfcf1ea5c3d7c2872ad73a76c537976955f021b8e0dfddc640",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-429-4890.image",
+    "bytes": 47523,
+    "sha256": "6816738d5edfb8e67d562ee2cb6ce9eaf0862ee8ff2c206677157a970341e648",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-335.image",
+    "bytes": 189690,
+    "sha256": "f39b0e0cd33d98c478f0882de9e1f68d375d6373da91c268e049efa734d984a4",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-85.image",
+    "bytes": 85602,
+    "sha256": "2856c8b91f9341df6c5d2593b074b22daf5d5d689f193ba0b024210c9f37fcc1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-538.image",
+    "bytes": 216136,
+    "sha256": "775730b43c381c828d1d48c285a50d9342a9bcac6be283f6c1df67ada168ba8d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-250.image",
+    "bytes": 121511,
+    "sha256": "c2f801b29d92d777805d71bbfaaea8db77a06b9af21a7335375d59a346047f59",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-846.image",
+    "bytes": 235031,
+    "sha256": "9ed1f8021c2b847bd0f95398fda82830216e42c6439f46d84a5981354f4db954",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-660-8951.image",
+    "bytes": 116460,
+    "sha256": "35f766cda4bebac59fb16cfd5b274df1330ad9f2d61860e7bbe3fff36ac018b6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-160.image",
+    "bytes": 191590,
+    "sha256": "da4922d88f8d14d5c91fd881c19ea86f5e40cba346778140f156ba8e67da27c3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-339.image",
+    "bytes": 349030,
+    "sha256": "8132a7f79edbd100c5fd46bc2b4557af4fe55404e915bf1ccd8d2e3759bb68af",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-414.image",
+    "bytes": 128741,
+    "sha256": "03b2762666888323acd50817c2a26c588d7391b9e960eafa9ac3d6a512efb220",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-89.image",
+    "bytes": 89880,
+    "sha256": "02a7b920407f3728c640ab9e86c1c324d2dd92396dc4ace0bc54778d9350bb51",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-381.image",
+    "bytes": 2793111,
+    "sha256": "513855a5f75202d9bd1525c21df0a8b6ef65a565daad8fd120a94bfe99d3532e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-245.image",
+    "bytes": 245088,
+    "sha256": "4fb59bcd9aa0dad10be1cc166c779fdc7cc16c36f965b26132be1a7cc85b0c3f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-101.image",
+    "bytes": 232658,
+    "sha256": "5f2fb01a8b4bd6e48f2b0abb6831baf546420e1df26d795dbb6999d1a39514d9",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-475.image",
+    "bytes": 13077,
+    "sha256": "4351c5634482dc106d73edd75eca91aa2e174904c5f4c6898d6ef1dfca41ea1c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-358.image",
+    "bytes": 113819,
+    "sha256": "f8247643301fba99240539c38e751eee6e889223449013c5f5f785be2c02a1c0",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-654.image",
+    "bytes": 838076,
+    "sha256": "ed17acfc37384e30ef40bab59a6a683c2c74852271ffc9e4c62cefee8b10dd85",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-188-4139.image",
+    "bytes": 22432,
+    "sha256": "5b924e5e51417f7dd6c935080981f61e57f3c39ef7ec7ba4450e1338092be3a2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-510.image",
+    "bytes": 31120,
+    "sha256": "7ceb4fb55c59b0cfc563e865e48315e3a0fae58e379d824473cfcb3889529e05",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-555.image",
+    "bytes": 28887,
+    "sha256": "7097faa54058b55969a376bbc65720bf86556599a247f21e936c1fa84403901b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-825.image",
+    "bytes": 20686,
+    "sha256": "65a3d640ae9e340cdef94886b825e25548e843fa9d302a7942280af2a7fdf3b5",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-860.image",
+    "bytes": 17014,
+    "sha256": "9eff529abf79fac26fd3a00f67a28785f7e05b2eeccbf31588b0529fe44f2c5d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-980.image",
+    "bytes": 250491,
+    "sha256": "54fba2951707aed509cf622acc8ac8b0e13445741b60a288696edc7d694fe2e5",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-85.image",
+    "bytes": 85602,
+    "sha256": "2856c8b91f9341df6c5d2593b074b22daf5d5d689f193ba0b024210c9f37fcc1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-597.image",
+    "bytes": 150776,
+    "sha256": "db2ca530d2a7915afe60284303e58b8ee3afe085b2639cf67634cf28cd8b1a06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-146.image",
+    "bytes": 274570,
+    "sha256": "4a03d7ef1ae03474450c57fab3a55397efa7cf2b33013f75c3e6b152e41d2288",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-52.image",
+    "bytes": 202664,
+    "sha256": "4e84b4c8790536676f467f84d362c65dd4652a3e4dc0c19039e9d3cba6308c74",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-776.image",
+    "bytes": 39429,
+    "sha256": "5e66140e2f94f9f93636d1c08a55c33b4338ab6fbac23c7e3e91c1dcc1e991c7",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-33.image",
+    "bytes": 157882,
+    "sha256": "e62ddd8c506eb7ca4f3b43f33df845d6dadb48f9d32402557269b46176197e8a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-201-4154.image",
+    "bytes": 19171,
+    "sha256": "d7b91d76ffe7a4ebb90883a2bd4da47b735cfc5e3ba8c7f0cb0acf9b4801a516",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-912-5601.image",
+    "bytes": 67419,
+    "sha256": "1954c4ded79b4320d8876df105faa22a4e250535fc78bcea44dcce4e2870a6f4",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-844.image",
+    "bytes": 277457,
+    "sha256": "0d024334d20715388ae52fc8495b165bb0e50319151939fab165aaa6266315d8",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-838.image",
+    "bytes": 40196,
+    "sha256": "ed764afc08a437a612ad348884642f8afd424da1e79fe94cc0e4aaa8cade6501",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-325.image",
+    "bytes": 107606,
+    "sha256": "34cc62371d1c5137b584cc9421b633a6b5a81429dcdc445f7bdf611bbc3bd248",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-166.image",
+    "bytes": 348578,
+    "sha256": "543957c019a80e2afe5c393359f4c722923968ad77274b5dc3e51e9e645239c6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-240.image",
+    "bytes": 351626,
+    "sha256": "af187154206e1cdc3256c86cb5486eb60c97ba82d0c14a1c1920cd4983f1d233",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-497.image",
+    "bytes": 72904,
+    "sha256": "1700b8ba29ceb29bb89bccc0396e748b9297f13381107fb16736def09c9be0c3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-796.image",
+    "bytes": 366542,
+    "sha256": "1a1d726e5f8cf88a52981b55ace7eb45da5562d051f15965fe6889e7c5a9092e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1003.image",
+    "bytes": 117708,
+    "sha256": "a2f61a9327735067a4fa56d22968479471da33273e1a0fae2e70a9d0b902d123",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-652.image",
+    "bytes": 275191,
+    "sha256": "e8f6576f4982bd1935a59e02f3f1dacd38752e66140dc601659abcb237093d41",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-384.image",
+    "bytes": 902395,
+    "sha256": "69e3cf54c8cbf7573babde13b9a0950c36940cc56f81ebad5c92e50f5a9c5d4b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-984.image",
+    "bytes": 190674,
+    "sha256": "70562f6145371fe48cae71240e5149bde73babb75f0f0c99192523f8dd8d9481",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-182.image",
+    "bytes": 311682,
+    "sha256": "1ddc89a8fdba42a6e414eaa399046757bad5a2efe6ee719717a77ee8677530e1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-215-4915.image",
+    "bytes": 37836,
+    "sha256": "661bf926ac7e8c2a6a29d2167179baf42a949f47715edb85a00ac6ffff795c45",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-208-4918.image",
+    "bytes": 39752,
+    "sha256": "e96dcd20f11b8d0f8159f1a0ba136a70d9f063ef178d2e26e2806499d5d32d03",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-737.image",
+    "bytes": 363506,
+    "sha256": "ed082279b980721dcaf0f84cd6e7f7eae7ede2f55d904bf1e2c17bcdd18c5a5a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-56.image",
+    "bytes": 172533,
+    "sha256": "d0cd7c4cb43016cc4cc0ac55ef36e7c90a6f629e60b411b461187f1e71fc3aa7",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-436.image",
+    "bytes": 13094,
+    "sha256": "75c0c539bd82b1b0403a2d433332d26bc10c4659de93f88a1682e42f445a9d26",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-163-4158.image",
+    "bytes": 19171,
+    "sha256": "d7b91d76ffe7a4ebb90883a2bd4da47b735cfc5e3ba8c7f0cb0acf9b4801a516",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-593.image",
+    "bytes": 177176,
+    "sha256": "a0ae4fd9111bc44831c65f2d462909a98f33e2e50032200608263f52c6d6332b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-946.image",
+    "bytes": 279484,
+    "sha256": "9692c4ebc5fa27cbf8094a9ab84bc926cc915a0ef26f2cbc862063f949b3ef96",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-591.image",
+    "bytes": 322426,
+    "sha256": "4f149001b99e73fd9bc707279c42de25eea7e68702ffde1a6590675314ea0f9e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-903.image",
+    "bytes": 200914,
+    "sha256": "63f8b4d384f73327f1628740a79d2941aa42060eb0f9a603f887569357bc672b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-804.image",
+    "bytes": 76362,
+    "sha256": "8deb154e78234cd80186a5a7a30ee84090f142353c5572ddccabac7422f4a29d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-529.image",
+    "bytes": 180717,
+    "sha256": "02dd22154854c32e193fcbe4bb6778d4cde890ded2db1600eeaf17b97da6bac1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1001.image",
+    "bytes": 338419,
+    "sha256": "1e935a5514ff6567de0a1fbbca534bce8e659661207a9dc6dfb155476cab06bd",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-361.image",
+    "bytes": 210976,
+    "sha256": "b5a7db11e6ad96a233ad1410427993bf030dd69e457eedb1a5fa82d2e709769b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-437.image",
+    "bytes": 256406,
+    "sha256": "23d1ae18cc6b328dd8254e60fc0535333bf9b6b8327eb9e2f4e747662b6efe06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-345.image",
+    "bytes": 198718,
+    "sha256": "01225853ac5f1975698d17fe8bfa9202357f8a17e57fdaea45afdd3982879c77",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-794.image",
+    "bytes": 348601,
+    "sha256": "f4488e19d71d5420955951ada6d6b9c0a01e94d00f0f80cf49b022cc0f55c985",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-495.image",
+    "bytes": 35290,
+    "sha256": "115e5879670fcbb26101228b78ae52e2aedca180809d775cd4f6ef7c59b76e15",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-284-4593.image",
+    "bytes": 23599,
+    "sha256": "a5609eb8c8d4782be0fbf6e3d54f0aabf687dd1753b0dfaefb192c8437cb7ad3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-548.image",
+    "bytes": 459657,
+    "sha256": "8c734c2a06883e46a0c5d0777cab8dd81a26d887e50cf7cdb5685a544537891f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "snow-cone-rkm.image",
+    "bytes": 164279,
+    "sha256": "3db9202e86210413e72a194e3778aaa0ec029aefa34aad93ffd90a3e47cb4c17",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-121.image",
+    "bytes": 126244,
+    "sha256": "1330d4f1300988da9ab8de8facd3c148a4e98ab955f20fb750825a8e98337ff3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-904.image",
+    "bytes": 393000,
+    "sha256": "99733b396d340d8569688e7aeb793adae67b26543d3f09aa341109785dda9c6b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-339-10436.image",
+    "bytes": 118510,
+    "sha256": "7858a32ba100d1a6da64f229dcc9d217c31c7f31b570c14d955e98989ed107ef",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-246.image",
+    "bytes": 312535,
+    "sha256": "432722b50f995e90b88bd21e985679f2a43677676b842587512f4be13c57a252",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-697.image",
+    "bytes": 750195,
+    "sha256": "c39b81399869a4fbf02c8789bbff1f0dba451ce6bf6059f08be57ff16726daca",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-187.image",
+    "bytes": 94251,
+    "sha256": "4ddce5fa735706bcb318a30385060bcf8312942ab1e1056c91db5228d0cd06d3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-414.image",
+    "bytes": 128741,
+    "sha256": "03b2762666888323acd50817c2a26c588d7391b9e960eafa9ac3d6a512efb220",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-793.image",
+    "bytes": 79416,
+    "sha256": "bad6c4615815c24b27ac08db4a0bbe1e452a4f37022590e1011dc8fddc626abe",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-492.image",
+    "bytes": 868887,
+    "sha256": "ae1769299434e3b62e0deb259f0c709dfbaa5e30000742017a322a26f285120b",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-745-8965.image",
+    "bytes": 46594,
+    "sha256": "a493c6308a13b6663a1b353337004f8f36790e2e34c063f98e0edb067e2ff35e",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-878.image",
+    "bytes": 54330,
+    "sha256": "14ab470fadfdc280a8ded05068abcd08692606393c88e36abe822fb85440d5e1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-65-4156.image",
+    "bytes": 19171,
+    "sha256": "d7b91d76ffe7a4ebb90883a2bd4da47b735cfc5e3ba8c7f0cb0acf9b4801a516",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-992-8966.image",
+    "bytes": 52946,
+    "sha256": "412cae19e0d7cc78432774e63eac4092a407bb8143decba893713fe43bff9029",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-415.image",
+    "bytes": 407420,
+    "sha256": "4f6b5cc4734a396d5dcb0163de2e73919fcb4ed56ed294404c084ce69aeb4d2c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-450.image",
+    "bytes": 249507,
+    "sha256": "db2671274e358670513a5d776c7f74a347ea332250a55a874e85cff8b4b356e2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-88.image",
+    "bytes": 153862,
+    "sha256": "abb683918634660a24b12db52a34a263662591af5c8a41ea3887a5c23b7004ff",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-186-4155.image",
+    "bytes": 19171,
+    "sha256": "d7b91d76ffe7a4ebb90883a2bd4da47b735cfc5e3ba8c7f0cb0acf9b4801a516",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-340-10436.image",
+    "bytes": 118510,
+    "sha256": "7858a32ba100d1a6da64f229dcc9d217c31c7f31b570c14d955e98989ed107ef",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-119.image",
+    "bytes": 27186,
+    "sha256": "833213072a3964f4f1d52318cf14c45d84630f0123838af9707b9b7546a98a91",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-769-4570.image",
+    "bytes": 12879,
+    "sha256": "c16263a4518705bfb55c299e5cd6dd6b9156638c56c0b73e578c827b9704d184",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-791.image",
+    "bytes": 81137,
+    "sha256": "cfda13252d8b09a17ec3722f28c7070224093e47034037165a7ec831788b9dbe",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-146.image",
+    "bytes": 789099,
+    "sha256": "6d30e7b23ef1228391e0f4936287da23297165c6f75f6f62be02c55e0cfefd54",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-428.image",
+    "bytes": 22141,
+    "sha256": "d7a0dba1fa0ead29f473aa4a09268cc68a9906e35202bd5f29096d0bee18f14c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-655.image",
+    "bytes": 339431,
+    "sha256": "f2fa8811861c9d63cb02f833414d991a16691b63f4264912c550acb8a596691f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-4.image",
+    "bytes": 31293,
+    "sha256": "a61f39c36e711fa6ba322b97a63e0c80fb55c6c7c9067a46f68006631728a18d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-1004.image",
+    "bytes": 59506,
+    "sha256": "e8573aca85c6e452b4c9992ff16a346adf937dc790217afe55e67ecb30a42afb",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-664-4104.image",
+    "bytes": 32096,
+    "sha256": "cfe1f90290dd13b693a30afd1bf9a387bd1cd5abbfde5fdadc5d061524012aa6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-474.image",
+    "bytes": 150000,
+    "sha256": "ae2cdb7bfd85d5a96eebb145bee21a2a6de449fa42e9738918ba68f731fe0f3f",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-788.image",
+    "bytes": 42578,
+    "sha256": "008cab23f9eb497113bbc13029736e052abb73857effcf41f06cb8a8d90dbd6d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-569.image",
+    "bytes": 165557,
+    "sha256": "6224d8006a515d4dec64f0385187621eb121bde62ec5c537ba96a9cde32c9683",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-244.image",
+    "bytes": 249674,
+    "sha256": "0fd8a98fdd68eb99aed45ca64d9596c4c159a0d29f6c6934efc6a8f912362615",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-192-4153.image",
+    "bytes": 22432,
+    "sha256": "5b924e5e51417f7dd6c935080981f61e57f3c39ef7ec7ba4450e1338092be3a2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-906.image",
+    "bytes": 289528,
+    "sha256": "4e427d52d467443d7dec1b3380ff9b4563cb80ce6470f59d9738ccb034a021a6",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-95.image",
+    "bytes": 222368,
+    "sha256": "b1391f3fee827f54ebbd9f283a575141e08e3216ae3c1c86322331bcea62eb67",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-709.image",
+    "bytes": 600694,
+    "sha256": "590c2542fd502472faf86bcacd9614a6609e0d56fd6b863180bfbfe8eaf76d37",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-822.image",
+    "bytes": 45128,
+    "sha256": "d91a8f44cb910a5be184e8e823b400b8538aaa73c63d30340628e6ca78c920f2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-987.image",
+    "bytes": 553791,
+    "sha256": "2695448bbc1a11fcb568e6b4cc5dd5a483146f43f8f8997aebc58bd1537fd098",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-875-4479.image",
+    "bytes": 16472,
+    "sha256": "44cd667636df636795a99178173b0ef565577b573a6864743aa8942c3c333275",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-238.image",
+    "bytes": 393780,
+    "sha256": "a622a176a49a7556ff7c6d77415e65a66343ff9f5272aab7edd9ae72e1f5e2da",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-280.image",
+    "bytes": 282710,
+    "sha256": "befe836370d9283a51b1185b6cb2ab4a55247559320a49b66e00db5acbf4480d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-629.image",
+    "bytes": 347439,
+    "sha256": "0137571aecaae60631a886ffdda0e53e796cab300a4e88c3cc99c74b8c81d647",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-590.image",
+    "bytes": 297364,
+    "sha256": "d6bdd7cf8ae4a1779be56eee46d9a461b242dc9a18c4a5edacdb8d89ea02b23c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-902.image",
+    "bytes": 19461,
+    "sha256": "d35c2e63db40cbd13bf050a0d735bafd8856241848d24a70ec80bd735f40af27",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-528.image",
+    "bytes": 140517,
+    "sha256": "edd280c125afd9acf49dd9915db212d50cb56a15e25b9ee3c73f3f9ecbe41800",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-240.image",
+    "bytes": 351626,
+    "sha256": "af187154206e1cdc3256c86cb5486eb60c97ba82d0c14a1c1920cd4983f1d233",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-203-3993.image",
+    "bytes": 28890,
+    "sha256": "2f6374e0bc6120f3fa6dab0fbe3cfca6900f17a20d0bd6fa00e4517d8d65a565",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-38-4297.image",
+    "bytes": 21442,
+    "sha256": "baeef8e8179db036efe6dbdf0868a2907ad1eb5e978e4c56da57fce1d9a7af04",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-926.image",
+    "bytes": 70727,
+    "sha256": "1d1e3a7a2227d30e165e3505477eaddb8dbb1d536417c7899e9f343720cb2950",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-963.image",
+    "bytes": 18884,
+    "sha256": "3a99a6ebe3f196739257c55d483230d845cc398defa0a447fab3a9d7bd07c1e1",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-120.image",
+    "bytes": 19246,
+    "sha256": "09897f50ccd816aebc0767cd6e6a1f48ae1f35ee7c689716926b2ac87022fc4d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-648.image",
+    "bytes": 22948,
+    "sha256": "4b7a71d016dbf9fcba6c61787c3d8196c3e68ebcdab250f49fbae0142f5e1fd8",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-384.image",
+    "bytes": 42162,
+    "sha256": "8e6e225d6d99f90e13302425d89f9c45e8cc77b022f243527c95b38513535a2d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-806.image",
+    "bytes": 209743,
+    "sha256": "0192a29fe6a1e7451aaf174dc7cf028d8d8963faae69dcc15dbf409619ac6a0a",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-158.image",
+    "bytes": 359788,
+    "sha256": "dba7f87c9ff31210199c831b24cc8f3dcef8e4cd622840f9461bd787ad45a7f8",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-259.image",
+    "bytes": 32170,
+    "sha256": "0ea3543b07389b687fb8028d714455401ee42a64fd8bdd7d78a1351f3a5c3485",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-804.image",
+    "bytes": 76362,
+    "sha256": "8deb154e78234cd80186a5a7a30ee84090f142353c5572ddccabac7422f4a29d",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-205-5000.image",
+    "bytes": 78353,
+    "sha256": "d8d157cb86f7432712056625376f2b04cd030e5fa270bb6e8df1a659f455acd2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-677.image",
+    "bytes": 23054,
+    "sha256": "b4a6a4bec667bddbe00f2398ba1bf016b9944bb849c8acd0f37355aaa8b124a2",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "official-324.image",
+    "bytes": 541255,
+    "sha256": "0440371ad1740e743d29aa6129567d884448abd6b27bab6e772b5bd453995c36",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-456.image",
+    "bytes": 153873,
+    "sha256": "ac26b8931cbc9988a0e9342e01a434fbd8864ff74e0f2d79fa62f24de7d63ca7",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-839.image",
+    "bytes": 368734,
+    "sha256": "47cf8e93436cd91b8c6ef941c6a74a07c3e7bc697e573b4afa67c73d632e1622",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-402-3695.image",
+    "bytes": 26961,
+    "sha256": "9f2c8e0d7dec696119e8d2b1044fe608e4e16d37735f5292946bf61a70e367f3",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-900.image",
+    "bytes": 670793,
+    "sha256": "433fd0a066930837c166daee70590b0223316acb778cb2fa3f2978bcdfddde5c",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "candidate-437.image",
+    "bytes": 256406,
+    "sha256": "23d1ae18cc6b328dd8254e60fc0535333bf9b6b8327eb9e2f4e747662b6efe06",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  },
+  {
+    "file": "winco-photo-366-8705.image",
+    "bytes": 70611,
+    "sha256": "e031db6320a37bd277c5cad365778af656af89b34572cf7a4078e984a515c5ff",
+    "reason": "Disposable downloaded review cache; URL and visual review sheets retained. Not an approved product resource."
+  }
+]

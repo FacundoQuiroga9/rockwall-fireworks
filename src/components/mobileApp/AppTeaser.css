@@ -1,0 +1,126 @@
+.app-teaser {
+  background: var(--color-surface-elevated);
+  color: white;
+  overflow: hidden;
+}
+
+.app-teaser-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(2rem, 7vw, 7rem);
+}
+
+.app-teaser-visual {
+  position: relative;
+  min-width: 0;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+}
+
+.app-teaser-visual::before {
+  content: '';
+  position: absolute;
+  border: 1px solid #ffffff25;
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1;
+  z-index: -1;
+}
+
+.app-teaser-word {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 10vw, 10rem);
+  line-height: .94;
+  color: #233881;
+  z-index: -1;
+}
+
+.app-teaser-visual img {
+  width: 370px;
+  max-height: 94%;
+  object-fit: contain;
+  transform: rotate(7deg);
+}
+
+.app-teaser-tag {
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  font-size: .6rem;
+  letter-spacing: .18em;
+  padding: .65rem 1rem;
+  border: 1px solid #ffffff35;
+  background: #071453;
+  transform: rotate(-5deg);
+}
+
+.app-teaser-copy {
+  padding-block: 4rem;
+}
+
+.app-teaser-copy .eyebrow {
+  color: #ffb497;
+  margin-bottom: 1.5rem;
+}
+
+.app-teaser-copy h2 {
+  color: white;
+}
+
+.app-teaser-copy > p:not(.eyebrow) {
+  margin-block: 1.6rem 1.1rem;
+  max-width: 30rem;
+  line-height: 1.75;
+  color: #d2d9ef;
+}
+
+.app-teaser-copy .text-link {
+  color: #ffad8d;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .app-teaser-grid {
+    gap: 2rem;
+  }
+  .app-teaser-visual {
+    height: 560px;
+  }
+  .app-teaser-copy .display-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .app-teaser-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .app-teaser-copy {
+    grid-row: 1;
+    padding-block: 3.5rem 0;
+  }
+  .app-teaser-visual {
+    height: 450px;
+  }
+  .app-teaser-visual img {
+    width: 290px;
+  }
+  .app-teaser-word {
+    font-size: 7.5rem;
+    top: 15%;
+  }
+  .app-teaser-visual::before {
+    width: 85%;
+  }
+  .app-teaser-tag {
+    bottom: 1.7rem;
+  }
+}

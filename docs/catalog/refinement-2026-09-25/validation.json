@@ -1,0 +1,48 @@
+{
+  "reviewedAt": "2026-09-25",
+  "individualCakesInvestigated": 31,
+  "resolved": 28,
+  "pending": [
+    "old-ironsides",
+    "light-brigade",
+    "2-minutes-extravaganza"
+  ],
+  "categories": {
+    "500g Cakes": 72,
+    "200g Cakes": 37,
+    "Cake Packs": 5,
+    "Cakes - Size Unconfirmed": 3
+  },
+  "bogoSourceMarked": 8,
+  "bogoActiveVerified": 0,
+  "webTests": 81,
+  "appTests": 33,
+  "webBuild": true,
+  "appTypecheck": true,
+  "appLint": true,
+  "appExport": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "nativeRuntime": false,
+  "reducedMotionVisualEmulation": false,
+  "pdfPages": [
+    4,
+    4,
+    5
+  ],
+  "browserConsoleErrors": 0,
+  "browserConsoleWarnings": 0,
+  "responsiveWidths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "horizontalOverflowDetected": false,
+  "webPdfDownloads": [
+    "with-thumbnails",
+    "without-thumbnails"
+  ]
+}

@@ -1,0 +1,39 @@
+.countdown-debug { margin-bottom: 1.5rem; border: 1px dashed #7390b9; background: #101e38; color: #e5ecfa; font: 500 .8rem/1.5 var(--font-body); color-scheme: dark; }
+.countdown-debug summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; min-height: 48px; padding: .65rem 1rem; cursor: pointer; list-style: none; }
+.countdown-debug summary::-webkit-details-marker { display: none; }
+.countdown-debug summary > span { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; font-weight: 700; }
+.countdown-debug summary > span::before { content: '+'; font-size: 1.3rem; width: 1rem; }
+.countdown-debug[open] summary > span::before { content: '−'; }
+.countdown-debug summary small { font-weight: 500; color: #b6c6e1; }
+.countdown-debug summary strong { font-size: .68rem; letter-spacing: .07em; color: #b6e4d2; }
+.countdown-debug summary .debug-is-frozen { color: #ffb38f; }
+.countdown-debug-body { padding: 0 1rem 1rem; }
+.debug-clock-status { padding-block: .65rem; border-top: 1px solid #7390b950; }
+.debug-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-block: .5rem; }
+.debug-fields > *, .debug-fields form { min-width: 0; }
+.debug-fields label { display: block; font-weight: 700; margin-bottom: .4rem; }
+.debug-fields input, .debug-fields select { display: block; width: 100%; max-width: 100%; min-width: 0; min-height: 44px; padding: .5rem; border: 1px solid #8ba1c2; border-radius: 2px; background: #071329; font: inherit; }
+.debug-fields p { font-size: .73rem; color: #bac9e0; margin-top: .4rem; }
+.debug-preset-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.debug-preset-heading label:last-child { display: flex; align-items: center; gap: .4rem; }
+.debug-preset-heading input { width: 5.5rem; }
+.debug-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: .7rem; }
+.debug-actions button { min-height: 44px; padding: .5rem .8rem; border: 1px solid #8ba1c2; font-weight: 700; }
+.debug-actions button:first-child { background: #ffad8d; color: #071329; border-color: #ffad8d; }
+.debug-actions button:hover:not(:disabled) { border-color: #fff; }
+.debug-actions button:disabled { opacity: .4; cursor: default; }
+.debug-fields .debug-toggle { margin: 0; font-weight: 500; display: flex; align-items: center; gap: .6rem; min-height: 44px; width: fit-content; cursor: pointer; }
+.debug-fields .debug-toggle input { display: inline-block; flex-shrink: 0; min-height: 20px; padding: 0; width: 20px; height: 20px; accent-color: #ff814f; }
+.debug-state { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-block: .4rem .8rem; padding-top: .8rem; border-top: 1px solid #7390b950; }
+.debug-state dt { font-size: .68rem; color: #b6c6e1; }
+.debug-state dd { margin: .3rem 0 0; font-weight: 700; overflow-wrap: anywhere; }
+.debug-state dd span { display: block; color: #b6c6e1; font-weight: 500; }
+.debug-note { color: #bac9e0; font-size: .72rem; }
+.debug-fields #debug-date-error { color: #ffbda5; }
+.debug-fields .debug-repeated-hour { margin-top: .6rem; color: #ffbda5; }
+@media (max-width: 700px) {
+  .debug-fields { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .debug-state { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .countdown-debug summary small { display: block; }
+  .debug-preset-heading { flex-wrap: wrap; }
+}

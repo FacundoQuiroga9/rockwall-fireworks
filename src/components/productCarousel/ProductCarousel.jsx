@@ -1,13 +1,19 @@
+import MotionTitle from '../common/MotionTitle';
 import { useEffect, useRef, useState } from 'react';
 import products from '../../data/products.json';
-import { getFeaturedProducts } from '../../utils/productData';
+import { getFeaturedProducts, getProductCategories } from '../../utils/productData';
 import ProductCard from './ProductCard';
+import ProductShowcase from '../hero/ProductShowcase';
+import { Link } from 'react-router-dom';
+import './FullCatalog.css';
 import './ProductCarousel.css';
 
 const featuredProducts = getFeaturedProducts(products);
 
 const ProductCarousel = () => {
   const carouselRef = useRef(null);
+  const [category, setCategory] = useState('All fireworks');
+  const visibleProducts = category === 'All fireworks' ? featuredProducts : featuredProducts.filter((product) => product.category === category);
   const [scrollState, setScrollState] = useState({
     canScrollBackward: false,
     canScrollForward: featuredProducts.length > 1,
@@ -25,6 +31,9 @@ const ProductCarousel = () => {
       });
     };
 
+    // Reset after React has committed the filtered cards; resetting in the click
+    // handler lets scroll snapping retain a card from the previous category.
+    carousel.scrollTo({ left: 0, behavior: 'instant' });
     updateScrollState();
     carousel.addEventListener('scroll', updateScrollState, { passive: true });
     window.addEventListener('resize', updateScrollState);
@@ -33,7 +42,7 @@ const ProductCarousel = () => {
       carousel.removeEventListener('scroll', updateScrollState);
       window.removeEventListener('resize', updateScrollState);
     };
-  }, []);
+  }, [category]);
 
   const scrollProducts = (direction) => {
     const carousel = carouselRef.current;
@@ -53,12 +62,22 @@ const ProductCarousel = () => {
       className="carousel-container"
       aria-labelledby="featured-products-title"
     >
-      <div className="carousel-heading">
-        <h2 id="featured-products-title" className="carousel-title">
-          Featured Products
-        </h2>
+      <div className="shell">
+      <div className="carousel-heading" data-reveal>
+        <div><p className="eyebrow">The good stuff</p><MotionTitle id="featured-products-title" className="carousel-title" lines={['PICK YOUR', <em key="accent">WOW FACTOR.</em>]} /><p className="section-intro">Find your next crowd-pleaser. Explore our featured fireworks and see them light up the sky.</p><Link className="catalog-jump" to="/products">Explore all {products.length} products</Link></div>
+        <ProductShowcase />
+      </div>
+
+      <div className="catalog-trail" data-reveal aria-hidden="true"><span data-motion="trail" /></div>
+      <div className="catalog-label"><h3>Featured lineup</h3><span>{String(featuredProducts.length).padStart(2, '0')} ways to light up the night</span></div>
+      <div className="product-toolbar">
+        <div className="product-filter" role="group" aria-label="Filter featured products">
+          {['All fireworks', ...getProductCategories(featuredProducts)].map((item) => (
+            <button type="button" key={item} aria-pressed={category === item} onClick={() => setCategory(item)}>{item}</button>
+          ))}
+        </div>
         {featuredProducts.length > 1 ? (
-          <div className="carousel-controls" aria-label="Product carousel controls">
+          <div className="carousel-controls" role="group" aria-label="Product carousel controls">
             <button
               type="button"
               className="carousel-control"
@@ -81,6 +100,7 @@ const ProductCarousel = () => {
         ) : null}
       </div>
 
+      <p className="sr-only" aria-live="polite">{visibleProducts.length} featured products: {category}</p>
       {featuredProducts.length ? (
         <div
           ref={carouselRef}
@@ -89,7 +109,7 @@ const ProductCarousel = () => {
           aria-label="Featured fireworks"
           tabIndex="0"
         >
-          {featuredProducts.map((product) => (
+          {visibleProducts.map((product) => (
             <ProductCard product={product} key={product.id} />
           ))}
         </div>
@@ -98,6 +118,8 @@ const ProductCarousel = () => {
           Featured products will be available soon.
         </p>
       )}
+      <p className="carousel-footnote"><span>Good nights start with great fireworks.</span><span>Swipe or use the arrows to explore.</span></p>
+      </div>
     </section>
   );
 };

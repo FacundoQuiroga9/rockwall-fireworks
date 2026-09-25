@@ -1,0 +1,76 @@
+[
+  {
+    "id": "bogo-store",
+    "revision": "2026-09-24-review-1",
+    "name": "Buy One, Get One",
+    "kind": "bogo",
+    "status": "pending",
+    "validFrom": null,
+    "validThrough": null,
+    "sameCategory": true,
+    "sameBrand": false,
+    "paidQuantity": 1,
+    "freeQuantity": 1,
+    "priceRule": null,
+    "maxGroupsPerList": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "conditions": [
+      "Both products must be marked BOGO and belong to the same category. Brands may differ.",
+      "Current dates, price differences, free-item assignment, transaction limits and coupon compatibility need store confirmation."
+    ],
+    "source": "User-confirmed category/mix rule; exact Square markers recorded in docs/catalog/my-list-2026-09/bogo-evidence.json"
+  },
+  {
+    "id": "anniversary-2025-500g",
+    "revision": "original-2025",
+    "name": "2025 flyer: 500g Cakes",
+    "kind": "choice",
+    "status": "expired",
+    "validThrough": "2025-07-04",
+    "requiredQuantity": 1,
+    "category": "500g Cakes",
+    "eligibleIds": [],
+    "historicalPriceCents": 5000,
+    "conditions": ["While supplies last.", "Exact eligible products were not specified. Expired July 4, 2025."],
+    "source": "public/rf coupons.pdf, page 2, left coupon"
+  },
+  {
+    "id": "anniversary-2025-200g",
+    "revision": "original-2025",
+    "name": "2025 flyer: Three 200g Cakes",
+    "kind": "choice",
+    "status": "expired",
+    "validThrough": "2025-07-04",
+    "requiredQuantity": 3,
+    "category": "200g Cakes",
+    "eligibleIds": [],
+    "historicalPriceCents": 7500,
+    "conditions": ["While supplies last.", "Exact eligible products were not specified. Expired July 4, 2025."],
+    "source": "public/rf coupons.pdf, page 2, center coupon"
+  },
+  {
+    "id": "anniversary-2025-shells",
+    "revision": "original-2025",
+    "name": "2025 flyer: 24-count 60g Artillery Shells",
+    "kind": "choice",
+    "status": "expired",
+    "validThrough": "2025-07-04",
+    "requiredQuantity": 1,
+    "eligibleIds": [],
+    "historicalPriceCents": 7500,
+    "conditions": ["One retail pack of 24 shells.", "While supplies last. Exact eligible products were not specified. Expired July 4, 2025."],
+    "source": "public/rf coupons.pdf, page 2, right coupon"
+  },
+  {
+    "id": "anniversary-2025-free-novelty",
+    "revision": "original-2025",
+    "name": "2025 flyer: Free novelty with card",
+    "kind": "choice",
+    "status": "archived",
+    "requiredQuantity": 1,
+    "eligibleIds": [],
+    "conditions": ["Bring the original card to choose one novelty.", "Part of the June 2025 mailing. Current validity and exact eligible variants are unverified."],
+    "source": "public/rf coupons.pdf, page 1"
+  }
+]

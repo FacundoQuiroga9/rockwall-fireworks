@@ -1,0 +1,22 @@
+{
+  "source": "User supplied local logo",
+  "original": "public/images/brands/firehawk logo.png",
+  "sha256": "425d150bb985e03e7cbf9bae3d3fb604df9a46c44416aee22d3f376c1a93c44b",
+  "operation": "Resize and WebP encoding only; original preserved",
+  "outputs": [
+    {
+      "path": "public/images/brands/firehawk-160.webp",
+      "width": 160,
+      "height": 166,
+      "bytes": 11990,
+      "sha256": "a275dc4e63deabbb15f7cdd6ce70f503b810d9ba28aa0067fa5e9278f72d5bfa"
+    },
+    {
+      "path": "public/images/brands/firehawk.webp",
+      "width": 320,
+      "height": 332,
+      "bytes": 27910,
+      "sha256": "1e1b5778220b26b662b6cdc1f1c88f0bf7740fb562355a52c6f7573a42a6c197"
+    }
+  ]
+}

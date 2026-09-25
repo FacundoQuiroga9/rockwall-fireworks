@@ -24,11 +24,11 @@ const getOrCreateCanonical = () => {
   return canonical;
 };
 
-export const usePageMetadata = ({ description, path, title }) => {
+export const usePageMetadata = ({ description, path, title, image, noindex = false }) => {
   useEffect(() => {
     const canonicalUrl = new URL(path, siteConfig.url).href;
     const socialImageUrl = new URL(
-      siteConfig.seo.socialImage,
+      image || siteConfig.seo.socialImage,
       siteConfig.url,
     ).href;
 
@@ -37,15 +37,22 @@ export const usePageMetadata = ({ description, path, title }) => {
 
     [
       ['name', 'description', description],
+      ['name', 'robots', noindex ? 'noindex, follow' : 'index, follow'],
       ['property', 'og:title', title],
       ['property', 'og:description', description],
       ['property', 'og:url', canonicalUrl],
       ['property', 'og:image', socialImageUrl],
+      ['property', 'og:image:alt', image ? title : 'Rockwall Fireworks'],
       ['name', 'twitter:title', title],
       ['name', 'twitter:description', description],
       ['name', 'twitter:image', socialImageUrl],
+      ['name', 'twitter:image:alt', image ? title : 'Rockwall Fireworks'],
     ].forEach(([attribute, name, content]) => {
       getOrCreateMeta(attribute, name).content = content;
     });
-  }, [description, path, title]);
+    // Product photographs have different source dimensions from the home social card.
+    for (const key of ['og:image:width', 'og:image:height']) {
+      document.head.querySelector(`meta[property="${key}"]`)?.remove();
+    }
+  }, [description, path, title, image, noindex]);
 };
