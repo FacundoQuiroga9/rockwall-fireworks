@@ -22,7 +22,9 @@ def main():
   a=next(a for a in assets if a['id']==p['id']);current=ROOT/a['webPath']
   if p['featured']:
    audit.append(dict(id=p['id'],status='approved reference preserved',path=a['webPath']));continue
-  original=DOC/'framing-originals'/current.name;original.parent.mkdir(exist_ok=True)
+  # Later audited upgrades can point to the existing high-resolution original.
+  # Keep that choice on subsequent runs instead of repeatedly recompressing a derivative.
+  original=ROOT/a['framingSource'] if a.get('framingSource') else DOC/'framing-originals'/current.name;original.parent.mkdir(exist_ok=True)
   if not original.exists():os.link(current,original)
   im=Image.open(original).convert('RGBA');alpha=im.getchannel('A');obj=alpha.point(lambda v:255 if v>threshold else 0).getbbox();shadow=alpha.getbbox()
   if not obj:raise ValueError(p['id']+' empty alpha')
@@ -30,12 +32,12 @@ def main():
   cx=(obj[0]+obj[2])/2;cy=(obj[1]+obj[3])/2;span=max(obj[2]-obj[0],obj[3]-obj[1])
   # Include every nonzero-alpha pixel, including useful faint shadows, with at least 3% margin.
   side=math.ceil(max(span/occupancy,2*max(cx-shadow[0],shadow[2]-cx,cy-shadow[1],shadow[3]-cy)/(1-2*margin)))
-  x=round(cx-side/2);y=round(cy-side/2);render_width=min(640,side)
+  x=round(cx-side/2);y=round(cy-side/2);render_width=min(a.get('derivativeMaxWidth',640),side)
   # Archive original mobile and responsive derivatives; originals never overwritten.
   for r,path in [(MOBILE,a['mobilePath']),*[(ROOT,r['path']) for r in a['responsive']]]:
    src=r/path;dest=DOC/'framing-originals'/('mobile-'+src.name if r==MOBILE else src.name)
    if not dest.exists():os.link(src,dest)
-  outputs=[(ROOT/a['webPath'],render_width),(MOBILE/a['mobilePath'],render_width),*[(ROOT/r['path'],min(w,side)) for r,w in zip(a['responsive'],[320,480])]]
+  outputs=[(ROOT/a['webPath'],render_width),(MOBILE/a['mobilePath'],min(640,side)),*[(ROOT/r['path'],min(w,side)) for r,w in zip(a['responsive'],[320,480])]]
   for target,width in outputs:
    tmp=target.with_name(target.stem+'.framing-tmp'+target.suffix)
    subprocess.run(['magick',str(original),'-background','none','-virtual-pixel','transparent','-define',f'distort:viewport={side}x{side}{x:+d}{y:+d}','-filter','point','-distort','SRT','0','+repage','-filter','Lanczos','-resize',f'{width}x{width}','-quality','88',str(tmp)],check=True,stdout=subprocess.DEVNULL)

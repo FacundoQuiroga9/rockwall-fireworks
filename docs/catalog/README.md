@@ -1,5 +1,11 @@
 # Mantener alineados los catálogos
 
+> Playground actual: [panorama, selección de cuatro, siete perfiles y fuente terrestre](playground-evolution-2026-09/README.md).
+
+> Nueva revisión local: [My List simplificada y Playground con cuatro perfiles](playground-2026-09/README.md). No cambia condiciones comerciales ni publica la app.
+
+> Estado vigente: [iteración de BOGO, flyer 2026, videos y PDF compacto](iteration-2026-09-25/README.md). BOGO only ahora devuelve los ocho marcados; este informe anterior conserva su contexto histórico.
+
 > Actualización 2026-09-25: la [revisión de categorías e interfaz](refinement-2026-09-25/README.md) resuelve 28 de las 31 cakes pendientes e incorpora home, filtro BOGO y guía My List. Este informe anterior conserva la evidencia histórica; consultar la revisión nueva para los totales vigentes.
 
 
@@ -58,3 +64,6 @@ Tras cambiar una fotografía aprobada, regenerar sólo los derivados de impresi�
 Rutas web: `/products` y `/products/:slug`. `/#catalog` redirige al catálogo; `/#featured-products` continúa en la home. `.htaccess` conserva archivos reales y reescribe rutas SPA a `index.html` sin redirección; recursos inexistentes devuelven 404. El build incluye `dist/.htaccess`. Los HTML de `catalog-pages/` siguen generándose, pero ya no son el destino de estas reglas. React mantiene títulos/canonical; los previews sin JavaScript requieren validación/estrategia de metadatos de servidor. Ver las limitaciones en el informe actual. No se desplegó nada.
 
 Para reencuadrar recursos desde originales preservados: `npm run catalog:frame -- --ids id-del-producto` y luego sync/check. La política central está en `presentation-2026-09/framing-policy.json`. Las correcciones editoriales persistentes están en `presentation-2026-09/commercial-copy-review.json`; sync las aplica antes de generar la app y check detecta su pérdida.
+
+
+Continuación actual del Playground: [continuidad, bases reales y 13 perfiles](playground-continuity-2026-09/README.md). La fuente de copy sigue en el overlay de evolution; `video-updates.json` de continuity se aplica después de video-research para preservar la referencia completa de Fairies.

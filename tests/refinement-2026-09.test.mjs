@@ -10,6 +10,7 @@ const products = read('../src/data/products.json');
 const promotions = read('../src/data/promotions.json');
 const research = read('../docs/catalog/refinement-2026-09-25/cake-research.json');
 const baseline = read('../docs/catalog/refinement-2026-09-25/baseline.json');
+const latestCakes = read('../docs/catalog/iteration-2026-09-25/cake-corrections.json');
 const today = '2026-09-25';
 // Synthetic data is test-local and never exported to the live catalog.
 const offer = { id: 'test-bogo', revision: '1', kind: 'bogo', name: 'TEST ONLY', status: 'confirmed', validityConfirmed: true, validFrom: '2026-09-01', validThrough: '2026-09-30', priceRule: 'customer-choice', limitsConfirmed: true, stackingConfirmed: true, conditions: [] };
@@ -27,7 +28,7 @@ test('all 31 unresolved cakes have individual evidence; 28 resolve, 3 conflicts 
   assert.equal(products.find(p => p.id === 'night-rider').category, '200g Cakes');
   assert.equal(products.find(p => p.id === 'lucky-streak').category, '200g Cakes');
   assert.equal(products.filter(p => p.category === 'Cake Packs').length, 5);
-  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(products, read('../docs/catalog/my-list-2026-09/commercial-review.json')), research), products);
+  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(products, read('../docs/catalog/my-list-2026-09/commercial-review.json')), research), latestCakes), products);
   assert.throws(() => applyCommercialCorrections(products, [{...research[0], name: 'Another variant'}]), /identity changed/);
 });
 test('source marker, current eligibility and active campaign are independent gates', () => {
@@ -39,12 +40,12 @@ test('source marker, current eligibility and active campaign are independent gat
   assert.equal(getBogoState(p, [{...offer,priceRule:'lower-price-free'}], today).active, false);
   assert.equal(products.filter(p => getBogoState(p, promotions, today).marked).length, 8);
   assert.equal(products.filter(p => getBogoState(p, promotions, today).active).length, 0);
-  assert.deepEqual(filterCatalog(products, {bogoOnly:true,offers:promotions,today}), []);
+  assert.equal(filterCatalog(products, {bogoOnly:true,offers:promotions,today}).length, 8);
 });
 test('BOGO only intersects brand, category, text and favorites; turning it off restores results', () => {
   const entries = [fixture('alpha'), fixture('bravo', '500g Cakes'), fixture('charlie','200g Cakes','Winda'), {...fixture('delta'),bogo:undefined}, {...fixture('echo'),bogo:{...fixture('echo').bogo,eligibilityStatus:'pending'}}];
   const opts = {query:'test cake', category:'200g Cakes',brand:'Fox', favorites:['alpha','delta','echo'],bogoOnly:true,offers:[offer],today};
-  assert.deepEqual(filterCatalog(entries,opts).map(p=>p.id),['alpha']);
+  assert.deepEqual(filterCatalog(entries,opts).map(p=>p.id),['alpha','echo']);
   assert.deepEqual(filterCatalog(entries,{...opts,bogoOnly:false}).map(p=>p.id),['alpha','delta','echo']);
   assert.equal(filterCatalog(entries).length,5);
 });

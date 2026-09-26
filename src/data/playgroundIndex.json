@@ -1,0 +1,54 @@
+[
+  {
+    "productId": "bump-bear",
+    "kind": "cake"
+  },
+  {
+    "productId": "band-of-brothers",
+    "kind": "cake"
+  },
+  {
+    "productId": "ghostacular-24-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "maelstrom-24-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "daffodil",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "ghost-dragon",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "fairies-in-a-jar",
+    "kind": "fountain"
+  },
+  {
+    "productId": "flawless-24-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "ruckus-12-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "jaws-brothers",
+    "kind": "cake"
+  },
+  {
+    "productId": "american-anthem",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "jumboshell-fountain",
+    "kind": "fountain-sample"
+  },
+  {
+    "productId": "super-fountain",
+    "kind": "fountain-sample"
+  }
+]

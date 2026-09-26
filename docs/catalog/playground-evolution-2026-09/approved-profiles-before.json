@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "releaseStatus": "local-preview-not-published",
+  "profiles": [
+    {
+      "productId": "bump-bear",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Bump Bear",
+      "brand": "Winda",
+      "category": "200g Cakes",
+      "kind": "cake",
+      "sampleLabel": "Full cake sequence",
+      "duration": 24.3,
+      "observedShots": 16,
+      "effects": [
+        "Colored palms",
+        "Silver glitter trails"
+      ],
+      "summary": "Sixteen alternating colored palms, with a steady, closely spaced rhythm.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=is8CCkWA4yI",
+        "manufacturerCode": "P5011",
+        "segmentStart": 4.4,
+        "segmentEnd": 28.7,
+        "reviewedOn": "2026-09-25",
+        "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+        "notes": [
+          "Official Winda demonstration. Intro identifies P5011, 16 shots.",
+          "One centered cake sequence; no visible fan or separate rapid finale. No obvious speed change or performance cut observed.",
+          "Alternating red, green, gold and silver palms. Final persistence estimated where recording ends.",
+          "Video height annotations are not used as calibrated measurements."
+        ]
+      },
+      "verified": [
+        "Product identity and manufacturer packaging",
+        "Visible effect families and principal colors",
+        "Observed burst count within the selected segment"
+      ],
+      "estimated": [
+        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
+        "Launch timing where the lift is faint or outside the frame"
+      ],
+      "events": [
+        {
+          "id": "bump-bear-1",
+          "launch": 0,
+          "burst": 1.0,
+          "shape": "palm",
+          "colors": [
+            "#ff465c"
+          ],
+          "life": 2.0,
+          "seed": 1103,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-2",
+          "launch": 1.4,
+          "burst": 2.4,
+          "shape": "palm",
+          "colors": [
+            "#5df383"
+          ],
+          "life": 2.0,
+          "seed": 1276,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-3",
+          "launch": 3.1,
+          "burst": 4.1,
+          "shape": "palm",
+          "colors": [
+            "#ffc965"
+          ],
+          "life": 2.0,
+          "seed": 1449,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-4",
+          "launch": 4.4,
+          "burst": 5.4,
+          "shape": "palm",
+          "colors": [
+            "#e7efff"
+          ],
+          "life": 2.0,
+          "seed": 1622,
+          "x": 0.03,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-5",
+          "launch": 5.9,
+          "burst": 6.9,
+          "shape": "palm",
+          "colors": [
+            "#ff465c"
+          ],
+          "life": 2.0,
+          "seed": 1795,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-6",
+          "launch": 7.4,
+          "burst": 8.4,
+          "shape": "palm",
+          "colors": [
+            "#5df383"
+          ],
+          "life": 2.0,
+          "seed": 1968,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-7",
+          "launch": 8.9,
+          "burst": 9.9,
+          "shape": "palm",
+          "colors": [
+            "#ffc965"
+          ],
+          "life": 2.0,
+          "seed": 2141,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-8",
+          "launch": 10.1,
+          "burst": 11.1,
+          "shape": "palm",
+          "colors": [
+            "#e7efff"
+          ],
+          "life": 2.0,
+          "seed": 2314,
+          "x": 0.03,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-9",
+          "launch": 11.6,
+          "burst": 12.6,
+          "shape": "palm",
+          "colors": [
+            "#ff465c"
+          ],
+          "life": 2.0,
+          "seed": 2487,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-10",
+          "launch": 12.6,
+          "burst": 13.6,
+          "shape": "palm",
+          "colors": [
+            "#5df383"
+          ],
+          "life": 2.0,
+          "seed": 2660,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-11",
+          "launch": 14.1,
+          "burst": 15.1,
+          "shape": "palm",
+          "colors": [
+            "#ffc965"
+          ],
+          "life": 2.0,
+          "seed": 2833,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-12",
+          "launch": 15.6,
+          "burst": 16.6,
+          "shape": "palm",
+          "colors": [
+            "#e7efff"
+          ],
+          "life": 2.0,
+          "seed": 3006,
+          "x": 0.03,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-13",
+          "launch": 17.1,
+          "burst": 18.1,
+          "shape": "palm",
+          "colors": [
+            "#ff465c"
+          ],
+          "life": 2.0,
+          "seed": 3179,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-14",
+          "launch": 18.0,
+          "burst": 19.0,
+          "shape": "palm",
+          "colors": [
+            "#5df383"
+          ],
+          "life": 2.0,
+          "seed": 3352,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-15",
+          "launch": 19.6,
+          "burst": 20.6,
+          "shape": "palm",
+          "colors": [
+            "#ffc965"
+          ],
+          "life": 2.0,
+          "seed": 3525,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "bump-bear-16",
+          "launch": 21.2,
+          "burst": 22.2,
+          "shape": "palm",
+          "colors": [
+            "#e7efff"
+          ],
+          "life": 2.0,
+          "seed": 3698,
+          "x": 0.03,
+          "launchVisible": true
+        }
+      ]
+    },
+    {
+      "productId": "band-of-brothers",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Band of Brothers",
+      "brand": "Raccoon",
+      "category": "500g Cakes",
+      "kind": "cake",
+      "sampleLabel": "Full cake sequence",
+      "duration": 33.8,
+      "observedShots": 12,
+      "effects": [
+        "Multicolor peonies",
+        "White glitter",
+        "Three-burst finale"
+      ],
+      "summary": "Spaced multicolor bursts settle into white glitter, ending with three closely spaced bursts.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=Ndro9los2fk",
+        "manufacturerCode": "RA53653",
+        "segmentStart": 3.5,
+        "segmentEnd": 37.3,
+        "reviewedOn": "2026-09-25",
+        "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+        "notes": [
+          "Official Raccoon demonstration of RA53653, 12 shots.",
+          "Single centered firing sequence; no obvious cut or slow motion in the chosen segment.",
+          "Nine separated bursts and three closely spaced final bursts. Final burst separation checked using 0.2-second frame samples.",
+          "Fine white points persist after the colored stars. Launches are faint; lift timing is approximate."
+        ]
+      },
+      "verified": [
+        "Product identity and manufacturer packaging",
+        "Visible effect families and principal colors",
+        "Observed burst count within the selected segment"
+      ],
+      "estimated": [
+        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
+        "Launch timing where the lift is faint or outside the frame"
+      ],
+      "events": [
+        {
+          "id": "band-of-brothers-1",
+          "launch": 0.2,
+          "burst": 1.2,
+          "shape": "peony",
+          "colors": [
+            "#ff405b",
+            "#709cff"
+          ],
+          "life": 2.8,
+          "seed": 1103,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-2",
+          "launch": 3.3,
+          "burst": 4.3,
+          "shape": "peony",
+          "colors": [
+            "#60ee8c",
+            "#fa81e8"
+          ],
+          "life": 2.8,
+          "seed": 1276,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-3",
+          "launch": 6.6,
+          "burst": 7.6,
+          "shape": "peony",
+          "colors": [
+            "#64efa0",
+            "#749dff"
+          ],
+          "life": 2.8,
+          "seed": 1449,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-4",
+          "launch": 10.0,
+          "burst": 11.0,
+          "shape": "peony",
+          "colors": [
+            "#ff405b",
+            "#709cff"
+          ],
+          "life": 2.8,
+          "seed": 1622,
+          "x": 0.03,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-5",
+          "launch": 13.3,
+          "burst": 14.3,
+          "shape": "peony",
+          "colors": [
+            "#60ee8c",
+            "#fa81e8"
+          ],
+          "life": 2.8,
+          "seed": 1795,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-6",
+          "launch": 16.5,
+          "burst": 17.5,
+          "shape": "peony",
+          "colors": [
+            "#64efa0",
+            "#749dff"
+          ],
+          "life": 2.8,
+          "seed": 1968,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-7",
+          "launch": 19.9,
+          "burst": 20.9,
+          "shape": "peony",
+          "colors": [
+            "#ff405b",
+            "#709cff"
+          ],
+          "life": 2.8,
+          "seed": 2141,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-8",
+          "launch": 23.2,
+          "burst": 24.2,
+          "shape": "peony",
+          "colors": [
+            "#60ee8c",
+            "#fa81e8"
+          ],
+          "life": 2.8,
+          "seed": 2314,
+          "x": 0.03,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-9",
+          "launch": 26.5,
+          "burst": 27.5,
+          "shape": "peony",
+          "colors": [
+            "#64efa0",
+            "#749dff"
+          ],
+          "life": 2.8,
+          "seed": 2487,
+          "x": -0.025,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-10",
+          "launch": 29.28,
+          "burst": 30.28,
+          "shape": "peony",
+          "colors": [
+            "#ff405b",
+            "#709cff"
+          ],
+          "life": 2.8,
+          "seed": 2660,
+          "x": 0.018,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-11",
+          "launch": 29.66,
+          "burst": 30.66,
+          "shape": "peony",
+          "colors": [
+            "#60ee8c",
+            "#fa81e8"
+          ],
+          "life": 2.8,
+          "seed": 2833,
+          "x": 0,
+          "launchVisible": true
+        },
+        {
+          "id": "band-of-brothers-12",
+          "launch": 29.84,
+          "burst": 30.84,
+          "shape": "peony",
+          "colors": [
+            "#64efa0",
+            "#749dff"
+          ],
+          "life": 2.8,
+          "seed": 3006,
+          "x": 0.03,
+          "launchVisible": true
+        }
+      ]
+    },
+    {
+      "productId": "ghostacular-24-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Ghostacular",
+      "brand": "Raccoon",
+      "category": "Reloadables",
+      "kind": "shell-sample",
+      "sampleLabel": "First demonstrated shell only",
+      "duration": 3.6,
+      "observedShots": 1,
+      "effects": [
+        "Red concentric rings",
+        "Fading silver points"
+      ],
+      "summary": "A single red ring sample from the 24-shell assortment. Other shells have different effects.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+        "manufacturerCode": "RA32406",
+        "segmentStart": 3.2,
+        "segmentEnd": 6.8,
+        "reviewedOn": "2026-09-25",
+        "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+        "notes": [
+          "Official Raccoon demonstration identifies RA32406, 5-inch, 24 shells.",
+          "Only the first shell is represented. The individual shell number/name is not readable; no claim that this represents all 24.",
+          "Outer red circle expands, with a later inner group of red points and pale fading edges.",
+          "The launch is not visible; no bright launch trail is drawn. No cut observed within this burst."
+        ]
+      },
+      "verified": [
+        "Product identity and manufacturer packaging",
+        "Visible effect families and principal colors",
+        "Observed burst count within the selected segment"
+      ],
+      "estimated": [
+        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
+        "Launch timing where the lift is faint or outside the frame"
+      ],
+      "events": [
+        {
+          "id": "ghostacular-24-pack-1",
+          "launch": 0,
+          "burst": 0.6,
+          "shape": "ring",
+          "colors": [
+            "#ff4861"
+          ],
+          "life": 2.9,
+          "seed": 1103,
+          "x": -0.025,
+          "launchVisible": false
+        }
+      ]
+    },
+    {
+      "productId": "maelstrom-24-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Maelstrom",
+      "brand": "Brothers",
+      "category": "Reloadables",
+      "kind": "shell-sample",
+      "sampleLabel": "First demonstrated shell only",
+      "duration": 4.8,
+      "observedShots": 1,
+      "effects": [
+        "Red-tipped palm",
+        "Gold trails",
+        "White glitter"
+      ],
+      "summary": "One red-tipped palm with glitter from the 24-shell assortment, shown as an individual sample.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=stLkljKHBCc",
+        "manufacturerCode": "BP-A109",
+        "segmentStart": 5.5,
+        "segmentEnd": 10.3,
+        "reviewedOn": "2026-09-25",
+        "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+        "notes": [
+          "Official Brothers demonstration identifies BP-A109, 6-inch, 24-shell assortment.",
+          "Only the first demonstrated shell; individual shell number is not identified. Other demonstrated shells are not scheduled as a cake.",
+          "A faint lift precedes roughly eight red-tipped palm arms with gold trails and a surrounding cloud of white glitter.",
+          "No cut observed within the selected burst; pauses between later demonstrations are excluded."
+        ]
+      },
+      "verified": [
+        "Product identity and manufacturer packaging",
+        "Visible effect families and principal colors",
+        "Observed burst count within the selected segment"
+      ],
+      "estimated": [
+        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
+        "Launch timing where the lift is faint or outside the frame"
+      ],
+      "events": [
+        {
+          "id": "maelstrom-24-pack-1",
+          "launch": 0.5,
+          "burst": 1.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ff4b58"
+          ],
+          "life": 3.2,
+          "seed": 1103,
+          "x": -0.025,
+          "launchVisible": true,
+          "arms": 8
+        }
+      ]
+    }
+  ]
+}

@@ -115,5 +115,15 @@
     "brand": "Fox",
     "source": "User confirmed in My List iteration, 2026-09-24",
     "reason": "Exact existing ID and approved image. Preserve variant and favorites."
+  },
+  {
+    "id": "poopy-puppy",
+    "name": "Poopy Puppy",
+    "image": "/images/products/poopy-puppy.webp",
+    "brandId": null,
+    "brand": "",
+    "publicBrandSuppressed": true,
+    "source": "User requested removal of Boomer from all public brand surfaces, 2026-09-25",
+    "reason": "One association found, contrary to the initial premise. Preserve this product and the historical Boomer attribution in the research ledger; suppress its public brand without inventing a replacement. Boom Wow is unrelated."
   }
 ]

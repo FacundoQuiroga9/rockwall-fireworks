@@ -32,7 +32,10 @@
     "category": "500g Cakes",
     "eligibleIds": [],
     "historicalPriceCents": 5000,
-    "conditions": ["While supplies last.", "Exact eligible products were not specified. Expired July 4, 2025."],
+    "conditions": [
+      "While supplies last.",
+      "Exact eligible products were not specified. Expired July 4, 2025."
+    ],
     "source": "public/rf coupons.pdf, page 2, left coupon"
   },
   {
@@ -46,7 +49,10 @@
     "category": "200g Cakes",
     "eligibleIds": [],
     "historicalPriceCents": 7500,
-    "conditions": ["While supplies last.", "Exact eligible products were not specified. Expired July 4, 2025."],
+    "conditions": [
+      "While supplies last.",
+      "Exact eligible products were not specified. Expired July 4, 2025."
+    ],
     "source": "public/rf coupons.pdf, page 2, center coupon"
   },
   {
@@ -59,7 +65,10 @@
     "requiredQuantity": 1,
     "eligibleIds": [],
     "historicalPriceCents": 7500,
-    "conditions": ["One retail pack of 24 shells.", "While supplies last. Exact eligible products were not specified. Expired July 4, 2025."],
+    "conditions": [
+      "One retail pack of 24 shells.",
+      "While supplies last. Exact eligible products were not specified. Expired July 4, 2025."
+    ],
     "source": "public/rf coupons.pdf, page 2, right coupon"
   },
   {
@@ -70,7 +79,308 @@
     "status": "archived",
     "requiredQuantity": 1,
     "eligibleIds": [],
-    "conditions": ["Bring the original card to choose one novelty.", "Part of the June 2025 mailing. Current validity and exact eligible variants are unverified."],
+    "conditions": [
+      "Bring the original card to choose one novelty.",
+      "Part of the June 2025 mailing. Current validity and exact eligible variants are unverified."
+    ],
     "source": "public/rf coupons.pdf, page 1"
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "$50-$125, depending on selection; individual prices are not specified.",
+      "Offers good through July 4, 2026. While supplies last."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 2
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "The flyer says many selections, not an exhaustive eligible ID list.",
+      "Resolve the illustrated product/category discrepancies and individual prices."
+    ],
+    "id": "independence-2026-500g",
+    "name": "2026: 500g Cakes",
+    "kind": "choice",
+    "status": "expired",
+    "validityConfirmed": true,
+    "source": "rf coupons.pdf (2026), page 2, left offer",
+    "validThrough": "2026-07-04",
+    "requiredQuantity": 1,
+    "saleUnit": "cake",
+    "category": "500g Cakes",
+    "historicalPriceRangeCents": [
+      5000,
+      12500
+    ],
+    "illustratedIds": [
+      "mass-confusion",
+      "250-paratroopers"
+    ],
+    "illustratedCandidates": [
+      {
+        "id": "call-the-cops",
+        "reason": "Flyer panel is 500g; published exact product is 200g / 87 shots. Do not reclassify or enroll it without variant confirmation."
+      },
+      {
+        "id": "mass-confusion",
+        "reason": "Same Black Cat 45-shot package; flyer package says 200g while Square and Winco merchandising put the exact UPC in up-to-500g. Classification requires clarification."
+      }
+    ],
+    "illustrationNotes": [
+      "The panel mixes product illustrations: Call the Cops visibly says 200g / 87 shots; Mass Confusion visibly says 200g / 45 shots; 250 Paratroopers is a daytime parachute product. Headline alone cannot establish individual classification or current eligibility."
+    ],
+    "unmatchedIllustrations": [
+      "Legacy of Liberty \u2014 250 shots (500g printed on package)",
+      "100% USA \u2014 36 shots",
+      "Red White & Blue Bombs Bursting \u2014 250 shots, 9M251",
+      "Freedom Rains \u2014 56 shots, CHI0005",
+      "Coyote Sam \u2014 24 shots, Cutting Edge"
+    ]
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "Choose three eligible 200g cakes for $75.",
+      "Offers good through July 4, 2026. While supplies last."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 2
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "Exact eligible list is incomplete; illustrations are examples, not category-wide eligibility."
+    ],
+    "id": "independence-2026-200g",
+    "name": "2026: Three 200g Cakes",
+    "kind": "choice",
+    "status": "expired",
+    "validityConfirmed": true,
+    "source": "rf coupons.pdf (2026), page 2, center offer",
+    "validThrough": "2026-07-04",
+    "requiredQuantity": 3,
+    "saleUnit": "cake",
+    "category": "200g Cakes",
+    "historicalPriceCents": 7500,
+    "illustratedIds": [
+      "american-wildcard",
+      "fuego-loco",
+      "sky-ink"
+    ],
+    "illustratedCandidates": [
+      {
+        "id": "america-enduring",
+        "reason": "Exact Sky Bacon package is a fountain despite being pictured in the 200g cake panel. Do not classify it as a cake or enroll it from panel heading alone."
+      }
+    ],
+    "unmatchedIllustrations": [
+      "America Forever \u2014 Sky Bacon fountain-shaped package with a fountain caution; not present in published catalog"
+    ],
+    "illustrationNotes": [
+      "Enlarged flyer image matches American Wildcard (white letters, flag suits, 49 shots, BP2624 artwork), not the separate plain Wildcard retail record. Images of America Enduring and America Forever do not establish cake eligibility."
+    ]
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "$75 each for one eligible retail pack of 24 shells, 60g.",
+      "Offers good through July 4, 2026. While supplies last."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 2
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "Several to choose from is not an exact eligible ID list; only Let Freedom Ring is pictured."
+    ],
+    "id": "independence-2026-shells",
+    "name": "2026: 24-count 60g Artillery Shells",
+    "kind": "choice",
+    "status": "expired",
+    "validityConfirmed": true,
+    "source": "rf coupons.pdf (2026), page 2, right offer",
+    "validThrough": "2026-07-04",
+    "requiredQuantity": 1,
+    "saleUnit": "24-shell retail pack",
+    "category": "Artillery Shells / Reloadables",
+    "historicalPriceCents": 7500,
+    "illustratedIds": [
+      "let-freedom-ring-24-pack"
+    ]
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "Advertised special $500-$750; regular $900.",
+      "The panel does not specify unit quantity, price per product, exact composition or an expiry date."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 1
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "No complete eligible list or unit/composition can be established.",
+      "Born Leaders is a three-cake retail set; do not convert packaging total into a single 500g cake."
+    ],
+    "id": "independence-2026-finales",
+    "name": "2026: Super 500 Gram Finales",
+    "kind": "choice",
+    "status": "archived",
+    "validityConfirmed": false,
+    "source": "rf coupons.pdf (2026), page 1, bottom right",
+    "historicalPriceRangeCents": [
+      50000,
+      75000
+    ],
+    "historicalRegularPriceCents": 90000,
+    "saleUnit": null,
+    "illustratedIds": [
+      "born-leaders"
+    ],
+    "unmatchedIllustrations": [
+      "Truckload of Fire",
+      "Aviation Nation",
+      "Wings of the Brave",
+      "Shield of Liberty",
+      "Always Remember 300 shots"
+    ]
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "Buy One, Get One free on many items.",
+      "The flyer does not identify exact eligible variants or a separate BOGO expiry date.",
+      "User rule: both products eligible, same commercial category; brands may differ."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 1
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "Printed photos do not resolve exact eligible variants. Use the independently reconciled inventory marker.",
+      "Free-item assignment and different-price combinations are not specified."
+    ],
+    "id": "independence-2026-bogo",
+    "name": "2026 flyer: Buy One, Get One",
+    "kind": "bogo",
+    "status": "archived",
+    "validityConfirmed": false,
+    "source": "rf coupons.pdf (2026), page 1, bottom left and page 2 top right",
+    "paidQuantity": 1,
+    "freeQuantity": 1,
+    "sameCategory": true,
+    "sameBrand": false,
+    "priceRule": null
+  },
+  {
+    "revision": "2026-flyer-review-1",
+    "campaign": "independence-day-2026",
+    "validFrom": null,
+    "limitsConfirmed": false,
+    "stackingConfirmed": false,
+    "eligibilityConfirmed": false,
+    "eligibleIds": [],
+    "conditions": [
+      "Original Independence Day 2026 campaign. No extension has been confirmed.",
+      "Bring the original mail card to claim a prize.",
+      "The number under the scratch-off must match the card PIN. The store must validate the specific prize.",
+      "No current validity or exact eligible selection is established; a digital list is not a winning card."
+    ],
+    "sourceDocument": {
+      "path": "rf coupons.pdf",
+      "sha256": "9a9f6aa9fba48d1ee415388d5bacadc582fa1caa7b547c4b3a6aa5937b409b3e",
+      "page": 2
+    },
+    "selectionBlockers": [
+      "Current valid dates are not confirmed.",
+      "Transaction limits and compatibility with other benefits are not specified.",
+      "Original winning card and awarded prize require in-store validation.",
+      "Godfather is not present in the published catalog; no substitute selected."
+    ],
+    "id": "independence-2026-scratch-card",
+    "name": "2026: Scratch-off mail card prizes",
+    "kind": "prize",
+    "status": "archived",
+    "validityConfirmed": false,
+    "source": "rf coupons.pdf (2026), page 2, bottom left",
+    "requiresOriginalCard": true,
+    "requiresStoreValidation": true,
+    "prizes": [
+      {
+        "name": "Godfather assortment",
+        "advertisedValueCents": 150000,
+        "catalogProductId": null
+      },
+      {
+        "name": "75% off purchase",
+        "percentOff": 75
+      },
+      {
+        "name": "50% off purchase",
+        "percentOff": 50
+      },
+      {
+        "name": "25% off purchase",
+        "percentOff": 25
+      },
+      {
+        "name": "Free fireworks",
+        "valueCents": 25000
+      },
+      {
+        "name": "One free firework",
+        "maximumValueCents": 1200
+      }
+    ]
   }
 ]

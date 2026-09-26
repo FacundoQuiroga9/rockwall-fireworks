@@ -133,7 +133,7 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-@media (max-width: 53.75rem) {
+@media (max-width: 68.75rem) {
   .main-nav {
     min-height: 74px;
   }

@@ -54,9 +54,10 @@ export function createListPdf(assessment, { generatedAt = new Date().toISOString
   function heading(group, continued = false) {
     const label = group.kind === 'individual' ? 'INDIVIDUAL PRODUCTS' : `${group.kind === 'bogo' ? 'BOGO' : 'PROMOTION'} / ${group.promotion?.name || 'Unavailable promotion'}`;
     const lines = wrap(label + (continued ? ' (continued)' : ''), 370, 10);
-    lines.forEach((s) => { text(s, 36, y, 10, true); y += 13; });
-    text('PAID', 425, y, 8, true); text('FREE', 473, y, 8, true); text('TOTAL', 525, y, 8, true);
-    y += 10; line(y); y += 15;
+    const headingTop = y;
+    lines.forEach((s) => { text(s, 36, y, 10, true); y += 12; });
+    text('PAID', 425, headingTop, 8, true); text('FREE', 473, headingTop, 8, true); text('TOTAL', 525, headingTop, 8, true);
+    line(y - 4); y += 10;
   }
   newPage();
   // Consecutive individual selections share a table heading for compact printing.
@@ -70,34 +71,38 @@ export function createListPdf(assessment, { generatedAt = new Date().toISOString
     const rows = group.items.map((item) => {
       const product = item.snapshot; // Preserve the exact saved variant when review is pending.
       const hasImage = Boolean(images[item.productId]) && !item.changed && !item.missing;
-      const x = hasImage ? 102 : 36;
+      const x = hasImage ? 82 : 36;
+      // A short retail-unit qualifier distinguishes same-name variants without
+      // restoring descriptions, stock codes or a separate presentation paragraph.
+      const display = product.presentation?.match(/Display\s*[·/]?\s*(\d+) packs/i);
+      const unit = display ? `Display of ${display[1]} packs` : product.presentation?.match(/(?:\d+[- ](?:pack|count)|\d+ (?:shells|candles|cones|fountains|pieces|tanks|firecrackers|party poppers))/i)?.[0];
+      const countInName = unit && new RegExp(`\\b${unit.match(/\d+/)?.[0]}[- ](?:pack|count)\\b`, 'i').test(product.name);
+      const name = unit && !countInName && !product.name.toLowerCase().includes(unit.toLowerCase()) ? `${product.name} (${unit.trim()})` : product.name;
       const body = [
-        ...wrap(product.name, 400 - x, 11).map((s) => [s, 11, true]),
+        ...wrap(name, 402 - x, 11).map((s) => [s, 11, true]),
         ...wrap(`${product.category} / ${product.brand || 'Brand not specified'}`, 400 - x, 9).map((s) => [s, 9, false]),
-        ...(product.presentation ? wrap(product.presentation, 400 - x, 9).map((s) => [s, 9, false]) : []),
-        ...wrap((product.storeCodes || []).map((c) => c.sku ? `SKU ${c.sku}` : c.gtin ? `GTIN ${c.gtin}` : '').filter(Boolean).join(' / ') || (product.manufacturerCode ? `Model ${product.manufacturerCode}` : 'Store code not verified'), 400 - x, 8).map((s) => [s, 8, false]),
       ];
-      return { item, body, x, hasImage, height: Math.max(hasImage ? 66 : 44, body.reduce((sum, s) => sum + s[1] + 4, 0) + 12) };
+      return { item, body, x, hasImage, height: Math.max(hasImage ? 44 : 34, body.reduce((sum, s) => sum + s[1] + 2, 0) + 10) };
     });
     const notes = [...group.issues, ...(group.promotion?.conditions || [])];
     const noteLines = notes.flatMap((s) => wrap(s, 530, 8));
-    const height = rows.reduce((sum, r) => sum + r.height, 0) + noteLines.length * 11 + 58;
+    const height = rows.reduce((sum, r) => sum + r.height, 0) + noteLines.length * 10 + 38;
     // Keep short promotion groups together. Long tables start in the available
     // space with at least two rows instead of wasting most of the current page.
-    const startHeight = height > 540 ? rows.slice(0, 2).reduce((sum, row) => sum + row.height, 58) : height;
+    const startHeight = height > 540 ? rows.slice(0, 2).reduce((sum, row) => sum + row.height, 38) : height;
     ensure(startHeight); heading(group);
     for (const row of rows) {
       if (y + row.height > 682) { newPage(); heading(group, true); }
       const top = y;
-      if (row.hasImage) commands.push(`q 56 0 0 56 36 ${792 - top - 46} cm /${images[row.item.productId].name} Do Q`);
-      for (const [s, size, bold] of row.body) { text(s, row.x, y, size, bold); y += size + 4; }
+      if (row.hasImage) commands.push(`q 36 0 0 36 36 ${792 - top - 26} cm /${images[row.item.productId].name} Do Q`);
+      for (const [s, size, bold] of row.body) { text(s, row.x, y, size, bold); y += size + 2; }
       text(row.item.paid == null ? '-' : row.item.paid, 437, top, 11, true);
       text(row.item.free == null ? '-' : row.item.free, 485, top, 11, true);
       text(row.item.quantity, 540, top, 11, true);
-      y = top + row.height; line(y - 14);
+      y = top + row.height; line(y - 12);
     }
-    for (const note of noteLines) { if (y > 680) { newPage(); heading(group, true); } text(note, 36, y, 8); y += 11; }
-    y += 18;
+    for (const note of noteLines) { if (y > 680) { newPage(); heading(group, true); } text(note, 36, y, 8); y += 10; }
+    y += 10;
   }
   if (!assessment.groups.length) text('Your list is empty. Add products from the catalog.', 36, y, 11);
   pages.push(commands.join('\n'));

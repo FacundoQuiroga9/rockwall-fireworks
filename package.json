@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "catalog:sync": "node scripts/catalog/sync.mjs",
     "catalog:check": "node scripts/catalog/sync.mjs --check",
-    "catalog:frame": "python3 scripts/catalog/frame_products.py"
+    "catalog:frame": "python3 scripts/catalog/frame_products.py",
+    "playground:fixtures": "node scripts/playground/review-fixtures.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

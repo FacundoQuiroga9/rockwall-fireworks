@@ -9,6 +9,7 @@ import MyListProvider from './components/myList/MyListProvider';
 
 const ProductsPage = lazy(() => import('./pages/ProductsPage'));
 const ProductPage = lazy(() => import('./pages/ProductPage'));
+const PlaygroundPage = lazy(() => import('./pages/PlaygroundPage'));
 const MyListPage = lazy(() => import('./pages/MyListPage'));
 const TermsPage = lazy(() => import('./pages/TermsPage'));
 const AppPrivacyPage = lazy(() => import('./pages/AppPrivacyPage'));
@@ -42,6 +43,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/products/:slug" element={<ProductPage />} />
+          <Route path="/playground" element={<PlaygroundPage />} />
           <Route path="/my-list" element={<MyListPage />} />
           <Route path="/terms-and-conditions" element={<TermsPage />} />
           <Route path="/app-privacy" element={<AppPrivacyPage />} />

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "phone-portrait",
+    "canvases": 0,
+    "frames": 0,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "phone-landscape",
+    "canvases": 0,
+    "frames": 0,
+    "scrollWidth": 844,
+    "width": 844
+  },
+  {
+    "name": "tablet-portrait",
+    "canvases": 0,
+    "frames": 0,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "name": "tablet-landscape",
+    "canvases": 0,
+    "frames": 0,
+    "scrollWidth": 1024,
+    "width": 1024
+  }
+]

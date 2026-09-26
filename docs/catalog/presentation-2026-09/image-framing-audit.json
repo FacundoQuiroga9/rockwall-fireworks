@@ -860,276 +860,6 @@
     "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
   },
   {
-    "id": "diwali-dazzler",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/diwali-dazzler.webp",
-    "sourceSha256": "6a4f0f6a07a97df69b22ab682f4e90cab00d616ce6974ea3db0bcd5cca799e27",
-    "objectBounds": [
-      188,
-      91,
-      457,
-      544
-    ],
-    "shadowBounds": [
-      186,
-      88,
-      459,
-      546
-    ],
-    "viewport": [
-      39,
-      34,
-      567,
-      567
-    ],
-    "targetOccupancy": 0.8,
-    "outputWidth": 567,
-    "actualOccupancy": 0.799,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "snow-cone",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/snow-cone.webp",
-    "sourceSha256": "63645c219fa09423d4631656542a2014705f4cf2ef45c8bdd54e6ed6d4cbf847",
-    "objectBounds": [
-      217,
-      103,
-      408,
-      530
-    ],
-    "shadowBounds": [
-      215,
-      101,
-      410,
-      533
-    ],
-    "viewport": [
-      16,
-      20,
-      594,
-      594
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 594,
-    "actualOccupancy": 0.719,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "eagle-pride",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/eagle-pride.webp",
-    "sourceSha256": "0919708737c0e64c6f72024a3450c90351099b017c4f594ef43079e88e026109",
-    "objectBounds": [
-      106,
-      123,
-      537,
-      501
-    ],
-    "shadowBounds": [
-      103,
-      121,
-      539,
-      503
-    ],
-    "viewport": [
-      22,
-      12,
-      599,
-      599
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 599,
-    "actualOccupancy": 0.72,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "america-first",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/america-first.webp",
-    "sourceSha256": "18d3b99cad53ab8837578915eacbcdeca2b67f651db2c292e262d164132400a6",
-    "objectBounds": [
-      87,
-      92,
-      555,
-      518
-    ],
-    "shadowBounds": [
-      85,
-      90,
-      557,
-      520
-    ],
-    "viewport": [
-      -4,
-      -20,
-      650,
-      650
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 640,
-    "actualOccupancy": 0.719,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "us-power",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/us-power.webp",
-    "sourceSha256": "f39e557898f67e65b07c4bd120ee841f6a20e61bf420ff90429fc1c790c5ba5d",
-    "objectBounds": [
-      133,
-      110,
-      508,
-      527
-    ],
-    "shadowBounds": [
-      131,
-      108,
-      510,
-      529
-    ],
-    "viewport": [
-      30,
-      28,
-      580,
-      580
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 580,
-    "actualOccupancy": 0.719,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "3-min",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/3-min.webp",
-    "sourceSha256": "f413fbdfa92568f86fe69b7f240dcb39aaff45eda61dd7a97cc990684ef9be76",
-    "objectBounds": [
-      163,
-      145,
-      466,
-      479
-    ],
-    "shadowBounds": [
-      160,
-      143,
-      468,
-      481
-    ],
-    "viewport": [
-      82,
-      80,
-      464,
-      464
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 464,
-    "actualOccupancy": 0.72,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "ladybugs-3-pack",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/ladybugs-3-pack.webp",
-    "sourceSha256": "bfa2b8eb2b191ea1588ac8db56d14a73ab7d9bd4b1de5e92a0a047806669df54",
-    "objectBounds": [
-      117,
-      201,
-      534,
-      431
-    ],
-    "shadowBounds": [
-      115,
-      199,
-      536,
-      433
-    ],
-    "viewport": [
-      10,
-      0,
-      632,
-      632
-    ],
-    "targetOccupancy": 0.66,
-    "outputWidth": 632,
-    "actualOccupancy": 0.66,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "blond-joke",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/blond-joke.webp",
-    "sourceSha256": "10482e080e2c814e19ee05bb57f8bbb7d0d0b298984d8b530aa9b1795b829297",
-    "objectBounds": [
-      114,
-      129,
-      544,
-      512
-    ],
-    "shadowBounds": [
-      112,
-      126,
-      547,
-      514
-    ],
-    "viewport": [
-      30,
-      22,
-      598,
-      598
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 598,
-    "actualOccupancy": 0.719,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "land-of-the-free",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/land-of-the-free.webp",
-    "sourceSha256": "251ea25ba9ceaed2ab8243b9d26026e176ab84dd7060726ad6f6bacb3cc9210b",
-    "objectBounds": [
-      183,
-      86,
-      456,
-      523
-    ],
-    "shadowBounds": [
-      181,
-      84,
-      458,
-      525
-    ],
-    "viewport": [
-      28,
-      13,
-      583,
-      583
-    ],
-    "targetOccupancy": 0.75,
-    "outputWidth": 583,
-    "actualOccupancy": 0.75,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "usa-saturn-missile-battery",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/usa-saturn-missile-battery.webp",
-    "sourceSha256": "0b451eb7ac1c24e14cba9eff9e62616f7971af6d14a91eca88c31bbc5197d0fc",
-    "objectBounds": [
-      84,
-      188,
-      545,
-      453
-    ],
-    "shadowBounds": [
-      81,
-      186,
-      547,
-      455
-    ],
-    "viewport": [
-      -6,
-      0,
-      641,
-      641
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 640,
-    "actualOccupancy": 0.719,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
     "id": "2-minute-bomb",
     "source": "docs/catalog/presentation-2026-09/framing-originals/2-minute-bomb.webp",
     "sourceSha256": "3a956b1c696b2d27c8b67067ddc2d16c093257069fb7b67367907d04ff806239",
@@ -2395,33 +2125,6 @@
     ],
     "targetOccupancy": 0.72,
     "outputWidth": 640,
-    "actualOccupancy": 0.72,
-    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
-  },
-  {
-    "id": "no-3-cone-fountain-2-pack",
-    "source": "docs/catalog/presentation-2026-09/framing-originals/no-3-cone-fountain-2-pack.webp",
-    "sourceSha256": "584cefb57f7cf763482c4293a72c86fdb9b8d98282d0ea2dfe02ea3fff693fc9",
-    "objectBounds": [
-      209,
-      86,
-      427,
-      528
-    ],
-    "shadowBounds": [
-      207,
-      84,
-      429,
-      530
-    ],
-    "viewport": [
-      11,
-      0,
-      614,
-      614
-    ],
-    "targetOccupancy": 0.72,
-    "outputWidth": 614,
     "actualOccupancy": 0.72,
     "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
   },
@@ -7930,6 +7633,303 @@
     ],
     "targetOccupancy": 0.72,
     "outputWidth": 500,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "diwali-dazzler",
+    "source": "docs/catalog/enrichment-2026-09/references/diwali-dazzler-original.png",
+    "sourceSha256": "2780d8c1adbc81b2ce8cecf98e663706b7d43536b1c87c44d1129f617552201e",
+    "objectBounds": [
+      491,
+      237,
+      1190,
+      1416
+    ],
+    "shadowBounds": [
+      491,
+      237,
+      1190,
+      1416
+    ],
+    "viewport": [
+      104,
+      90,
+      1474,
+      1474
+    ],
+    "targetOccupancy": 0.8,
+    "outputWidth": 960,
+    "actualOccupancy": 0.801,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "snow-cone",
+    "source": "docs/catalog/enrichment-2026-09/references/snow-cone-original.png",
+    "sourceSha256": "b21604b12ee17e41dde55df7bc4d369017bba57185fe4eeec44c7f411db3ab26",
+    "objectBounds": [
+      567,
+      269,
+      1063,
+      1381
+    ],
+    "shadowBounds": [
+      567,
+      269,
+      1063,
+      1381
+    ],
+    "viewport": [
+      42,
+      52,
+      1545,
+      1545
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "eagle-pride",
+    "source": "docs/catalog/enrichment-2026-09/references/eagle-pride-original.png",
+    "sourceSha256": "0c86a0b2a014de73d029a2cfa718484cf3141b419c00b405b17aca9d77aadffa",
+    "objectBounds": [
+      276,
+      321,
+      1399,
+      1304
+    ],
+    "shadowBounds": [
+      276,
+      321,
+      1399,
+      1304
+    ],
+    "viewport": [
+      58,
+      32,
+      1560,
+      1560
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.72,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "america-first",
+    "source": "docs/catalog/enrichment-2026-09/references/america-first-original.png",
+    "sourceSha256": "8539bb123f3d6f0d08f22f9d91d86ba1f70643c4b994ffe0f1b22da72e3a8856",
+    "objectBounds": [
+      229,
+      240,
+      1445,
+      1348
+    ],
+    "shadowBounds": [
+      229,
+      240,
+      1445,
+      1348
+    ],
+    "viewport": [
+      -8,
+      -50,
+      1689,
+      1689
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.721,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "us-power",
+    "source": "docs/catalog/enrichment-2026-09/references/us-power-original.png",
+    "sourceSha256": "8d6996550d29e1418a889924029c897dc5fd3a8731bcdac74df93fa7162675aa",
+    "objectBounds": [
+      347,
+      288,
+      1322,
+      1371
+    ],
+    "shadowBounds": [
+      347,
+      288,
+      1322,
+      1371
+    ],
+    "viewport": [
+      82,
+      77,
+      1505,
+      1505
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.721,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "3-min",
+    "source": "docs/catalog/enrichment-2026-09/references/3-min-original.png",
+    "sourceSha256": "0164f337500cfac9f31adbfc53c758048f9322738381516288c83b21ffb964a8",
+    "objectBounds": [
+      425,
+      379,
+      1214,
+      1247
+    ],
+    "shadowBounds": [
+      425,
+      379,
+      1214,
+      1247
+    ],
+    "viewport": [
+      216,
+      210,
+      1206,
+      1206
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.721,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "source": "docs/catalog/enrichment-2026-09/references/ladybugs-3-pack-original.png",
+    "sourceSha256": "83f34bf932f33eccdffabf70714fceb86725c460266d7c92f59770256dbed5b9",
+    "objectBounds": [
+      306,
+      525,
+      1391,
+      1122
+    ],
+    "shadowBounds": [
+      306,
+      525,
+      1391,
+      1122
+    ],
+    "viewport": [
+      26,
+      2,
+      1644,
+      1644
+    ],
+    "targetOccupancy": 0.66,
+    "outputWidth": 960,
+    "actualOccupancy": 0.66,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "blond-joke",
+    "source": "docs/catalog/enrichment-2026-09/references/blond-joke-original.png",
+    "sourceSha256": "fbb9e4ea7b3ed563073969e72fe424a4ef0aab4698c640aad435cc97cccf53ef",
+    "objectBounds": [
+      299,
+      336,
+      1418,
+      1332
+    ],
+    "shadowBounds": [
+      299,
+      336,
+      1418,
+      1332
+    ],
+    "viewport": [
+      81,
+      56,
+      1555,
+      1555
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.721,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "land-of-the-free",
+    "source": "docs/catalog/enrichment-2026-09/references/land-of-the-free-original.png",
+    "sourceSha256": "3732bffc83cff40393195e14024039a8f61fb3d2527c22f60d21610ef4f8c0bf",
+    "objectBounds": [
+      478,
+      224,
+      1188,
+      1362
+    ],
+    "shadowBounds": [
+      478,
+      224,
+      1188,
+      1362
+    ],
+    "viewport": [
+      74,
+      34,
+      1518,
+      1518
+    ],
+    "targetOccupancy": 0.75,
+    "outputWidth": 960,
+    "actualOccupancy": 0.75,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "source": "docs/catalog/enrichment-2026-09/references/usa-saturn-missile-battery-original.png",
+    "sourceSha256": "bdb7d605f76e5d0087d32193fa1dfc16056e3d9d17ff91bde7e7764668144e51",
+    "objectBounds": [
+      219,
+      492,
+      1420,
+      1180
+    ],
+    "shadowBounds": [
+      219,
+      492,
+      1420,
+      1180
+    ],
+    "viewport": [
+      -15,
+      2,
+      1669,
+      1669
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
+    "actualOccupancy": 0.721,
+    "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "source": "docs/catalog/enrichment-2026-09/references/no-3-cone-fountain-2-pack-original.png",
+    "sourceSha256": "ee1fe3c2a40b01892f40e86bd87bb88852e645c4eac52e4677f68b3a1e851f97",
+    "objectBounds": [
+      545,
+      225,
+      1111,
+      1375
+    ],
+    "shadowBounds": [
+      545,
+      225,
+      1111,
+      1375
+    ],
+    "viewport": [
+      29,
+      1,
+      1598,
+      1598
+    ],
+    "targetOccupancy": 0.72,
+    "outputWidth": 960,
     "actualOccupancy": 0.72,
     "method": "Transparent canvas reframing and downsampling only; no pixel synthesis; full alpha bounds retained."
   }

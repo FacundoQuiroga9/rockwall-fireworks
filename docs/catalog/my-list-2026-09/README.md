@@ -1,5 +1,7 @@
 # Iteración My List y catálogo — revisión local
 
+> Estado vigente: [iteración de BOGO, flyer 2026, videos y PDF compacto](../iteration-2026-09-25/README.md). BOGO only ahora devuelve los ocho marcados; este informe anterior conserva su contexto histórico.
+
 > Actualización 2026-09-25: la [revisión de categorías e interfaz](../refinement-2026-09-25/README.md) resuelve 28 de las 31 cakes pendientes e incorpora home, filtro BOGO y guía My List. Este informe anterior conserva la evidencia histórica; consultar la revisión nueva para los totales vigentes.
 
 

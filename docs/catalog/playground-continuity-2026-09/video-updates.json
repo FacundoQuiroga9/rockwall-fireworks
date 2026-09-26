@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fairies-in-a-jar",
+    "name": "Fairies in a Jar",
+    "image": "/images/products/fairies-in-a-jar.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP4315",
+    "status": "approved",
+    "previewVideo": "https://www.youtube.com/watch?v=btb6yA59VGU",
+    "previousPreviewVideo": "https://www.youtube.com/watch?v=0XffbmTG7DA",
+    "sourceType": "retailer",
+    "channel": "Spirit of ’76 Fireworks",
+    "reviewedOn": "2026-09-26",
+    "evidence": "evidence/fairies-long-samples.json; matched BP4315 jar package; continuous ignition, stages and natural exhaustion through last embers at 76 seconds."
+  }
+]

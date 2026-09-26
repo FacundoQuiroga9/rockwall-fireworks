@@ -66,3 +66,23 @@
 .counter-view .list-product-copy h3 { font-size: 1.3rem; }
 @media (max-width: 1000px) { .list-layout { grid-template-columns: minmax(0,1fr) 270px; gap: 1rem; } .list-product { grid-template-columns: 64px minmax(0,1fr); } .list-product > img { width: 64px; height: 64px; } .list-unit-summary { grid-column: 2; justify-content: flex-start; } .list-group { padding: 1rem; } }
 @media (max-width: 740px) { .list-heading { align-items: start; flex-direction: column; } .list-layout { grid-template-columns: 1fr; } .list-summary { position: static; } .list-group > header { align-items: start; } .list-product { gap: .7rem; } .list-heading .detail-back { margin: 0; } }
+
+.list-offer-archive { margin-block: 1rem; }
+.list-offer-archive summary { cursor: pointer; padding-block: .7rem; color: #ffd1b5; }
+.list-offer-archive article { border-top: 1px solid #546580; padding-block: .6rem; }
+.list-offer-archive h3 { font-size: 1rem; margin: .4rem 0; }
+.list-offer-archive ul { padding-left: 1.25rem; }
+.list-promotion-progress { color: #ffd1b5; margin: .75rem 0; }
+
+/* Compact screen rows; promotion quantities and review actions remain explicit. */
+.list-group { padding: 1rem; }
+.list-group > header { margin-bottom: .4rem; }
+.list-product { grid-template-columns: 64px minmax(0,1fr) auto; gap: .75rem; padding-block: .4rem; }
+.list-product > img, .list-photo-pending { width: 64px; height: 64px; }
+.list-photo-pending { display: grid; place-items: center; color: #ffc5a6; border: 1px dashed #6e8bad; border-radius: 4px; }
+.list-product > .list-quantity { grid-column: 3; gap: .5rem; flex-direction: column; align-items: end; }
+.list-product-copy h3 { margin-block: .2rem; font-size: 1.05rem; }
+.list-counter-quantity { color: #ccd9eb; font-size: .8rem; white-space: nowrap; }
+.list-counter-quantity strong { font-size: 1.4rem; color: #ffc5a6; margin-left: .4rem; }
+.list-product > .list-pair-builder { grid-column: 2 / -1; }
+@media (max-width: 580px) { .list-product { grid-template-columns: 52px minmax(0,1fr) auto; gap: .55rem; } .list-product > img, .list-photo-pending { width: 52px; height: 60px; } .list-product-copy h3 { font-size: .95rem; } .list-product > .list-unit-summary { grid-column: 2 / -1; } .list-quantity input { width: 3.5rem; } }

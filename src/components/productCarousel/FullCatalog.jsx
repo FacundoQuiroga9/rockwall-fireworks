@@ -20,10 +20,20 @@ export default function FullCatalog() {
   useEffect(() => { pendingParams.current = params; }, [params]);
   const query = params.get('q') || '';
   const category = params.get('category') || '';
-  const brand = params.get('brand') || '';
+  const requestedBrand = params.get('brand') || '';
+  const brand = brands.includes(requestedBrand) ? requestedBrand : '';
+  // Retired brand links remain useful without trapping visitors in an empty filter.
+  useEffect(() => {
+    if (requestedBrand && !brands.includes(requestedBrand)) {
+      const next = new URLSearchParams(params);
+      next.delete('brand');
+      pendingParams.current = next;
+      setParams(next, { replace: true, preventScrollReset: true });
+    }
+  }, [requestedBrand, params, setParams]);
   const favoritesOnly = params.get('saved') === '1';
   const bogoOnly = params.get('bogo') === '1';
-  const hasActiveBogo = products.some((p) => getBogoState(p, promotions).active);
+  const hasMarkedBogo = products.some((p) => getBogoState(p, promotions).marked);
   const { ids } = useCatalogFavorites();
   const brandRow = useRef(null);
   const rail = useBrandRail(brandRow);
@@ -76,15 +86,15 @@ export default function FullCatalog() {
         <div className="catalog-toggle-group"><button className="catalog-bogo-toggle" type="button" aria-pressed={bogoOnly} aria-describedby="bogo-filter-note" onClick={() => update('bogo', bogoOnly ? '' : '1')}><span aria-hidden="true">{bogoOnly ? '✓' : '+'}</span> BOGO only</button>
         <button className="catalog-saved-toggle" type="button" aria-pressed={favoritesOnly} onClick={() => update('saved', favoritesOnly ? '' : '1')}>Saved favorites ({ids.length})</button></div>
       </div>
-      <p id="bogo-filter-note" className="catalog-local-note">{hasActiveBogo ? 'BOGO only shows verified, active Buy One, Get One offers.' : 'No active BOGO offer is confirmed yet. “Check in store” labels identify source-marked products, not an applied offer.'}</p>
+      <p id="bogo-filter-note" className="catalog-local-note">{hasMarkedBogo ? 'BOGO only shows products identified as Buy One, Get One in our inventory. Offer dates and conditions are confirmed in store.' : 'No products are currently identified as BOGO in this catalog.'}</p>
       {favoritesOnly && <p className="catalog-local-note">Saved in this browser. Favorites in the app stay on your device.</p>}
       <div className="catalog-grid">
         {filtered.slice(0, limit).map((product) => <ProductCard key={product.id} product={product} detailed />)}
       </div>
       {!filtered.length && (
         <div className="catalog-empty">
-          <h2>{bogoOnly && !hasActiveBogo ? 'No confirmed BOGO offers right now.' : favoritesOnly && !ids.length ? 'Your favorites start here.' : 'No matches for these filters.'}</h2>
-          <p>{bogoOnly && !hasActiveBogo ? 'BOGO means Buy One, Get One. Current terms and eligibility still need store confirmation.' : favoritesOnly && !ids.length ? 'Save a product with the heart button to find it here again.' : 'Try a different brand, category or name, or clear your filters.'}</p>
+          <h2>{bogoOnly && !hasMarkedBogo ? 'No BOGO products identified.' : favoritesOnly && !ids.length ? 'Your favorites start here.' : 'No matches for these filters.'}</h2>
+          <p>{bogoOnly && !hasMarkedBogo ? 'Turn off BOGO only to explore the rest of the catalog.' : favoritesOnly && !ids.length ? 'Save a product with the heart button to find it here again.' : 'Try a different brand, category or name, or clear your filters.'}</p>
           {bogoOnly && <button type="button" onClick={() => update('bogo', '')}>Turn off BOGO only</button>}
           <button type="button" onClick={clear}>Explore all products</button>
         </div>

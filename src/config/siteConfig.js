@@ -40,6 +40,7 @@ export const siteConfig = {
   navigation: [
     { label: 'Home', sectionId: 'top' },
     { label: 'Products', path: '/products' },
+    { label: 'Playground', path: '/playground' },
     { label: 'About', sectionId: 'about' },
     { label: 'Contact', sectionId: 'contact' },
   ],

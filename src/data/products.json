@@ -894,6 +894,21 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Sixteen colorful palms rise in a steady rhythm, trailing glittering silver sparks.",
+      "effects": [
+        "Colored palms",
+        "Silver glitter trails"
+      ],
+      "durationSeconds": 24.3,
+      "scope": "Full cake sequence",
+      "observedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=is8CCkWA4yI",
+      "segmentStart": 4.4,
+      "segmentEnd": 28.7,
+      "note": "Observed in this demonstration. Timing, colors and persistence are approximate; not a manufacturer runtime or a physical scale.",
+      "confirmedShots": 16
     }
   },
   {
@@ -1021,7 +1036,7 @@
     "imageWidths": [
       320,
       480,
-      567
+      960
     ],
     "featured": false,
     "sortOrder": 41,
@@ -1047,7 +1062,7 @@
     "imageWidths": [
       320,
       480,
-      594
+      960
     ],
     "featured": false,
     "sortOrder": 42,
@@ -1074,7 +1089,7 @@
     "imageWidths": [
       320,
       480,
-      599
+      960
     ],
     "featured": false,
     "sortOrder": 43,
@@ -1105,7 +1120,7 @@
     "imageWidths": [
       320,
       480,
-      640
+      960
     ],
     "featured": false,
     "sortOrder": 44,
@@ -1135,7 +1150,7 @@
     "imageWidths": [
       320,
       480,
-      580
+      960
     ],
     "featured": false,
     "sortOrder": 45,
@@ -1164,8 +1179,8 @@
     "image": "/images/products/3-min.webp",
     "imageWidths": [
       320,
-      464,
-      464
+      480,
+      960
     ],
     "featured": false,
     "sortOrder": 46,
@@ -1192,7 +1207,7 @@
     "imageWidths": [
       320,
       480,
-      632
+      960
     ],
     "featured": false,
     "sortOrder": 47,
@@ -1219,7 +1234,7 @@
     "imageWidths": [
       320,
       480,
-      598
+      960
     ],
     "featured": false,
     "sortOrder": 48,
@@ -1253,7 +1268,7 @@
     "imageWidths": [
       320,
       480,
-      583
+      960
     ],
     "featured": false,
     "sortOrder": 49,
@@ -1280,7 +1295,7 @@
     "imageWidths": [
       320,
       480,
-      640
+      960
     ],
     "featured": false,
     "sortOrder": 50,
@@ -1336,7 +1351,7 @@
     "category": "Parachutes",
     "presentation": "250 parachutes",
     "manufacturerCode": "P5614",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=2GWGuduAWJE",
     "slug": "250-paratroopers",
     "image": "/images/products/250-paratroopers.webp",
     "imageWidths": [
@@ -1383,6 +1398,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Red, white and blue points sweep across rounded bursts in changing bands of color, leaving brief pale trails.",
+      "effects": [
+        "Red white and blue sectors",
+        "Rounded breaks",
+        "Brief pale trails"
+      ],
+      "durationSeconds": 29,
+      "scope": "Demo excerpt",
+      "observedShots": 8,
+      "confirmedShots": 9,
+      "sourceUrl": "https://www.youtube.com/watch?v=XlKS1F6et98",
+      "segmentStart": 8,
+      "segmentEnd": 37,
+      "note": "Official RA57218, 9-shot rack visible on overlay; single centered rack, no obvious cut inside the selected performance. Eight distinct openings resolved at approximately 8.7, 12.6, 16.5, 19.6, 24.3, 28.3, 31.5 and 34.9 seconds. Ninth advertised shot unresolved; keep as excerpt. One-second sampling, no invented shots or repeated sequence. Source ends shortly after the last visible break; tail is kept within the selected window."
     }
   },
   {
@@ -1443,6 +1474,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Multicolor bursts settle into white glitter, building to three closely spaced bursts.",
+      "effects": [
+        "Multicolor peonies",
+        "White glitter",
+        "Three-burst finale"
+      ],
+      "durationSeconds": 33.8,
+      "scope": "Full cake sequence",
+      "observedShots": 12,
+      "sourceUrl": "https://www.youtube.com/watch?v=Ndro9los2fk",
+      "segmentStart": 3.5,
+      "segmentEnd": 37.3,
+      "note": "Observed in this demonstration. Timing, colors and persistence are approximate; not a manufacturer runtime or a physical scale.",
+      "confirmedShots": 12
     }
   },
   {
@@ -1452,7 +1499,7 @@
     "category": "Cake Packs",
     "presentation": "3-cake set · 757 shots",
     "manufacturerCode": "P5599",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=U-pB9XiQA2o",
     "slug": "born-leaders",
     "image": "/images/products/born-leaders.webp",
     "imageWidths": [
@@ -1648,7 +1695,7 @@
     "brand": "Winda",
     "category": "Fountains",
     "manufacturerCode": "P6036",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=jpel_6q7KyI",
     "slug": "freedoms-wings",
     "image": "/images/products/freedoms-wings.webp",
     "imageWidths": [
@@ -1761,6 +1808,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Long silver spokes carry red and cool white points that change across the burst, with slowly falling tails.",
+      "effects": [
+        "Silver spokes",
+        "Red and white ghost sectors",
+        "Slow falling tails"
+      ],
+      "durationSeconds": 34.8,
+      "scope": "Demo excerpt",
+      "observedShots": 8,
+      "sourceUrl": "https://www.youtube.com/watch?v=6zFLJt1m7q8",
+      "segmentStart": 7.5,
+      "segmentEnd": 42.3,
+      "note": "Observed in this demonstration. Timing, colors and persistence are approximate; not a manufacturer runtime or a physical scale.",
+      "confirmedShots": 9
     }
   },
   {
@@ -1800,7 +1863,7 @@
     "category": "500g Cakes",
     "presentation": "9-shot rack",
     "manufacturerCode": "P5498",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=bmPKTKRDG4c",
     "slug": "ghost-rings",
     "image": "/images/products/ghost-rings.webp",
     "imageWidths": [
@@ -1829,7 +1892,7 @@
     "brand": "Winda",
     "category": "Fountains",
     "manufacturerCode": "P3215",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=dnOONzRAaTU",
     "slug": "grand-cannon",
     "image": "/images/products/grand-cannon.webp",
     "imageWidths": [
@@ -2293,7 +2356,7 @@
     "category": "500g Cakes",
     "presentation": "500 gram cake",
     "manufacturerCode": "BS8047",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=4wmvzEOnf2s",
     "slug": "road-rage-bright-star",
     "image": "/images/products/road-rage-bright-star.webp",
     "imageWidths": [
@@ -2555,7 +2618,7 @@
     "category": "Sparklers",
     "presentation": "Display · 20 packs of 4",
     "manufacturerCode": "P9012",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=I0ZusraZI2g",
     "slug": "party-sparklers-display",
     "image": "/images/products/party-sparklers-display.webp",
     "imageWidths": [
@@ -2581,7 +2644,7 @@
     "category": "Artillery Shells",
     "presentation": "7-inch shells · 24 pack",
     "manufacturerCode": "P8057",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=LwxUtHYn5zc",
     "slug": "raise-the-dead-24-pack",
     "image": "/images/products/raise-the-dead-24-pack.webp",
     "imageWidths": [
@@ -2669,7 +2732,7 @@
     "imageWidths": [
       320,
       480,
-      614
+      960
     ],
     "featured": false,
     "sortOrder": 98,
@@ -2689,7 +2752,7 @@
     "category": "500g Cakes",
     "presentation": "36 shots",
     "manufacturerCode": "BP-A013-1",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=qhaZ6rztaWg",
     "slug": "atom-bomb",
     "image": "/images/products/atom-bomb.webp",
     "imageWidths": [
@@ -2719,7 +2782,7 @@
     "category": "500g Cakes",
     "presentation": "42 shots",
     "manufacturerCode": "BP2455",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=K18Wj4yngNs",
     "slug": "bamboozle",
     "image": "/images/products/bamboozle.webp",
     "imageWidths": [
@@ -2749,7 +2812,7 @@
     "category": "500g Cakes",
     "presentation": "42 shots",
     "manufacturerCode": "BP2035",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=LA32zI0iw5M",
     "slug": "big-top",
     "image": "/images/products/big-top.webp",
     "imageWidths": [
@@ -2809,7 +2872,7 @@
     "category": "500g Cakes",
     "presentation": "48 shots",
     "manufacturerCode": "BP-A084-1",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=9aRHa155mRQ",
     "slug": "canopus",
     "image": "/images/products/canopus.webp",
     "imageWidths": [
@@ -2839,7 +2902,7 @@
     "category": "500g Cakes",
     "presentation": "48 shots",
     "manufacturerCode": "BP-A084-4",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=fBjBlqBQF-I",
     "slug": "capella",
     "image": "/images/products/capella.webp",
     "imageWidths": [
@@ -2866,10 +2929,10 @@
     "id": "captain-sam",
     "name": "Captain Sam",
     "brand": "Brothers",
-    "category": "500g Cakes",
+    "category": "200g Cakes",
     "presentation": "30 shots · Daytime parachutes",
     "manufacturerCode": "BP2228",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=uuczVlBEGB4",
     "slug": "captain-sam",
     "image": "/images/products/captain-sam.webp",
     "imageWidths": [
@@ -2889,7 +2952,7 @@
     ],
     "cakeClass": {
       "status": "confirmed",
-      "grams": 500
+      "grams": 200
     }
   },
   {
@@ -2899,7 +2962,7 @@
     "category": "500g Cakes",
     "presentation": "48 shots",
     "manufacturerCode": "BP-A084-2",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ijMD-z7JBns",
     "slug": "centauri",
     "image": "/images/products/centauri.webp",
     "imageWidths": [
@@ -2929,7 +2992,7 @@
     "category": "500g Cakes",
     "presentation": "36 shots",
     "manufacturerCode": "BP-A013-4",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=R3bPGBd6Tag",
     "slug": "cobalt-bomb",
     "image": "/images/products/cobalt-bomb.webp",
     "imageWidths": [
@@ -3010,6 +3073,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "White comets open into compact red and green bursts with short golden sparks.",
+      "effects": [
+        "White comet trails",
+        "Red and green breaks",
+        "Short golden sparks"
+      ],
+      "durationSeconds": 28.4,
+      "scope": "Demo excerpt",
+      "observedShots": 15,
+      "sourceUrl": "https://www.youtube.com/watch?v=_8IthnKIchA",
+      "segmentStart": 10.6,
+      "segmentEnd": 39,
+      "note": "Observed in this demonstration. Timing, colors and persistence are approximate; not a manufacturer runtime or a physical scale.",
+      "confirmedShots": 16
     }
   },
   {
@@ -3044,7 +3123,7 @@
     "brand": "Brothers",
     "category": "Fountains",
     "manufacturerCode": "BP4315",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=btb6yA59VGU",
     "slug": "fairies-in-a-jar",
     "image": "/images/products/fairies-in-a-jar.webp",
     "imageWidths": [
@@ -3061,7 +3140,23 @@
         "gtin": "687985431519",
         "sourceRow": 352
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "A white and gold spray carries red stars, opens into blue and white branching sparks, then returns to red and gold before settling into warm embers.",
+      "effects": [
+        "Continuous white/gold spray",
+        "Red points and blue accents",
+        "Branching spark clusters"
+      ],
+      "durationSeconds": 74.4,
+      "scope": "complete",
+      "observedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=btb6yA59VGU",
+      "segmentStart": 2.6,
+      "segmentEnd": 77,
+      "note": "Continuous demonstrated performance including natural exhaustion. Approximate timing, not a guaranteed unit burn time. Previous excerpt reference retained internally.",
+      "confirmedShots": null
+    }
   },
   {
     "id": "flash-flood-assortment",
@@ -3151,7 +3246,7 @@
     "category": "500g Cakes",
     "presentation": "36 shots",
     "manufacturerCode": "BP-A013-2",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=1h7h6Kq3kBs",
     "slug": "hydrogen-bomb",
     "image": "/images/products/hydrogen-bomb.webp",
     "imageWidths": [
@@ -3211,7 +3306,7 @@
     "category": "200g Cakes",
     "presentation": "16 shots",
     "manufacturerCode": "BP2377",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=OgutQQqqgfY",
     "slug": "jaws-brothers",
     "image": "/images/products/jaws-brothers.webp",
     "imageWidths": [
@@ -3232,6 +3327,23 @@
     "cakeClass": {
       "status": "verified-external",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Red comets open into delicate silver points that blossom into clusters of golden sparks. A steady sequence builds to three closely spaced bursts.",
+      "effects": [
+        "Red comets",
+        "Silver points",
+        "Golden flower clusters",
+        "Three-burst finish"
+      ],
+      "durationSeconds": 47,
+      "scope": "Full cake sequence",
+      "observedShots": 16,
+      "confirmedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=OgutQQqqgfY",
+      "segmentStart": 6,
+      "segmentEnd": 53,
+      "note": "Official Brothers BP2377, 200g, 16 shots visible on packaging and overlay. One unit; no obvious cut within performance. One-second decoded sampling throughout 6–53 seconds; final launches/apertures additionally sampled every 0.267 seconds. Thirteen spaced bursts followed by three close launches around 48.3–48.9 seconds and openings around 49.6–50.1. Final fade visible by 52–53 seconds before the logo outro. Golden branching follows the first pale points; no extra finale generated."
     }
   },
   {
@@ -3257,7 +3369,24 @@
         "gtin": "687985424719",
         "sourceRow": 509
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Green pearls rise through a golden spray, followed by fuller showers of gold, bright white points and branching sparks.",
+      "effects": [
+        "Green pearls",
+        "Gold spray",
+        "White stars",
+        "Branching sparks"
+      ],
+      "durationSeconds": 125.5,
+      "scope": "Fountain excerpt",
+      "observedShots": null,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=hOgReJdyXEs",
+      "segmentStart": 6,
+      "segmentEnd": 131.5,
+      "note": "Official Brothers BP4247 and matching round gold shell-shaped package; one stationary unit. Five-second sampling from intro through 130 seconds. No obvious cuts or simultaneous second product inside the performance; exposure and smoke vary. Early green stars over a narrow gold jet; broader fine gold by about 23s; bright white around 43s; alternating fine gold and larger flowers later. Still emitting at 130 seconds near the end of the 132-second recording. Closure is simulated, not an observed product finish."
+    }
   },
   {
     "id": "m1-abrams-2-pack",
@@ -3266,7 +3395,7 @@
     "category": "Novelties",
     "presentation": "2 tanks",
     "manufacturerCode": "BP7127",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=kncZ46i5De4",
     "slug": "m1-abrams-2-pack",
     "image": "/images/products/m1-abrams-2-pack.webp",
     "imageWidths": [
@@ -3292,7 +3421,7 @@
     "category": "Reloadables",
     "presentation": "6-inch shells · 24 shells",
     "manufacturerCode": "BP-A109",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=stLkljKHBCc",
     "slug": "maelstrom-24-pack",
     "image": "/images/products/maelstrom-24-pack.webp",
     "imageWidths": [
@@ -3309,7 +3438,23 @@
         "gtin": "",
         "sourceRow": 564
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "A red-tipped palm spreads golden trails through a cloud of white glitter.",
+      "effects": [
+        "Red-tipped palm",
+        "Gold trails",
+        "White glitter"
+      ],
+      "durationSeconds": 4.8,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=stLkljKHBCc",
+      "segmentStart": 5.5,
+      "segmentEnd": 10.3,
+      "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
+      "confirmedShots": null
+    }
   },
   {
     "id": "magic-crystal-4-pack",
@@ -3318,7 +3463,7 @@
     "category": "Spinners",
     "presentation": "4 pieces",
     "manufacturerCode": "BP5028",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=Kge4nm8SuNE",
     "slug": "magic-crystal-4-pack",
     "image": "/images/products/magic-crystal-4-pack.webp",
     "imageWidths": [
@@ -3370,7 +3515,7 @@
     "category": "200g Cakes",
     "presentation": "100 shots",
     "manufacturerCode": "BP2838",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=m30pnWTCVKg",
     "slug": "mechanical-bug",
     "image": "/images/products/mechanical-bug.webp",
     "imageWidths": [
@@ -3400,7 +3545,7 @@
     "category": "500g Cakes",
     "presentation": "295 shots",
     "manufacturerCode": "BP2608",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=En2v2rgq0xo",
     "slug": "megawatt",
     "image": "/images/products/megawatt.webp",
     "imageWidths": [
@@ -3430,7 +3575,7 @@
     "category": "500g Cakes",
     "presentation": "204 shots",
     "manufacturerCode": "BP2346",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=RpqCohMZK3k",
     "slug": "midnight",
     "image": "/images/products/midnight.webp",
     "imageWidths": [
@@ -3459,7 +3604,7 @@
     "brand": "Brothers",
     "category": "Fountains",
     "manufacturerCode": "BP4213",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=JNSp9V7rLGo",
     "slug": "movie-time",
     "image": "/images/products/movie-time.webp",
     "imageWidths": [
@@ -3485,7 +3630,7 @@
     "category": "500g Cakes",
     "presentation": "36 shots",
     "manufacturerCode": "BP-A013-3",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=9c-pT9O7n1o",
     "slug": "neutron-bomb",
     "image": "/images/products/neutron-bomb.webp",
     "imageWidths": [
@@ -3545,7 +3690,7 @@
     "category": "Reloadables",
     "presentation": "4-inch shells · 24 shells",
     "manufacturerCode": "BP-A053-2/24",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=I5sJSs1knvA",
     "slug": "quest-24-pack",
     "image": "/images/products/quest-24-pack.webp",
     "imageWidths": [
@@ -3571,7 +3716,7 @@
     "category": "Reloadables",
     "presentation": "12 ball shells",
     "manufacturerCode": "BP2690",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ELEFbRe_f-I",
     "slug": "ruckus-12-pack",
     "image": "/images/products/ruckus-12-pack.webp",
     "imageWidths": [
@@ -3588,7 +3733,23 @@
         "gtin": "",
         "sourceRow": 779
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Golden branches open into bright white points, leaving a short trail of fine glitter.",
+      "effects": [
+        "Gold branches",
+        "White tips",
+        "Fine glitter"
+      ],
+      "durationSeconds": 2.4,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ELEFbRe_f-I",
+      "segmentStart": 5.25,
+      "segmentEnd": 7.65,
+      "note": "Official BP2690, 12 ball shells, 1-3/4 inch on title/overlay. Packaging verified at 3.4 seconds. Intro graphic through 5 seconds excluded. First real burst begins approximately 5.45; open at 5.6 and 6.2, sparse by 6.8, dark by 7.4. One sample; no claim about other eleven shells. No cut inside this burst; edits between separate shell demonstrations are excluded."
+    }
   },
   {
     "id": "serious-equipment",
@@ -3597,7 +3758,7 @@
     "category": "Reloadables",
     "presentation": "48 shells · 82 breaks",
     "manufacturerCode": "BP-A011",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=xeLx9jBmFTc",
     "slug": "serious-equipment",
     "image": "/images/products/serious-equipment.webp",
     "imageWidths": [
@@ -3768,7 +3929,7 @@
     "category": "200g Cakes",
     "presentation": "25 shots",
     "manufacturerCode": "BP2924",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=RbwodLEP4lw",
     "slug": "wild-west",
     "image": "/images/products/wild-west.webp",
     "imageWidths": [
@@ -3828,7 +3989,7 @@
     "category": "Assortments",
     "presentation": "4 cakes · 144 shots total",
     "manufacturerCode": "BP-A013",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=avkWTMn8TOY",
     "slug": "da-big-box-o-bombs",
     "image": "/images/products/da-big-box-o-bombs.webp",
     "imageWidths": [
@@ -3854,7 +4015,7 @@
     "category": "200g Cakes",
     "presentation": "41 shots",
     "manufacturerCode": "BP2856",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=wzrbWj7K7SI",
     "slug": "flying-colors",
     "image": "/images/products/flying-colors.webp",
     "imageWidths": [
@@ -3909,7 +4070,7 @@
     "brand": "Brothers",
     "category": "Fountains",
     "manufacturerCode": "BP4252",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=T8JH5_0zwBc",
     "slug": "super-fountain",
     "image": "/images/products/super-fountain.webp",
     "imageWidths": [
@@ -3926,7 +4087,24 @@
         "gtin": "",
         "sourceRow": 1052
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Angled sprays spread into a broad fan of silver and gold, with red and green pearls and branching clusters of sparks. The fan narrows into a brighter central spray.",
+      "effects": [
+        "Angled fan sprays",
+        "Silver and gold",
+        "Red and green pearls",
+        "Branching clusters"
+      ],
+      "durationSeconds": 99,
+      "scope": "Fountain excerpt",
+      "observedShots": null,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=T8JH5_0zwBc",
+      "segmentStart": 8,
+      "segmentEnd": 107,
+      "note": "Official Brothers BP4252 and fan-shaped blue package. Multiple angled jets belong to one unit, not multiple products. Five-second sampling of the actual video from 5–105 seconds. Camera framing changes but no obvious sequence cut in the selected performance. Right-hand ignition, then three angled sprays by approximately 13s. Broad intermittent flowers and colored pearls; lower fan by about 88s, brighter central activity near 103–105s. Recording ends during the late central activity. No full runtime or final product shutdown claimed."
+    }
   },
   {
     "id": "brothers-container-load",
@@ -3983,7 +4161,7 @@
     "name": "Turbo Flash #4",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=Cb8NLYc9sJk",
     "slug": "turbo-flash-no-4",
     "image": "/images/products/turbo-flash-no-4.webp",
     "imageWidths": [
@@ -4007,7 +4185,7 @@
     "name": "Pharaoh's Treasure #8",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=lNKvREZBzVY",
     "slug": "pharaohs-treasure-no-8",
     "image": "/images/products/pharaohs-treasure-no-8.webp",
     "imageWidths": [
@@ -4058,7 +4236,7 @@
     "brand": "Winda",
     "category": "Fountains",
     "presentation": "4 fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=jyaanXTnHI4",
     "slug": "snow-cone-jr-4-pack",
     "image": "/images/products/snow-cone-jr-4-pack.webp",
     "imageWidths": [
@@ -4107,7 +4285,7 @@
     "brand": "",
     "category": "500g Cakes",
     "presentation": "156 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=W130ZNmvexE",
     "slug": "absolute-pyro",
     "image": "/images/products/absolute-pyro.webp",
     "imageWidths": [
@@ -4259,7 +4437,7 @@
     "name": "Fountastic",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=16xNuW-U4t4",
     "slug": "fountastic",
     "image": "/images/products/fountastic.webp",
     "imageWidths": [
@@ -4284,7 +4462,7 @@
     "brand": "Black Cat",
     "category": "Fountains",
     "presentation": "7-inch fountains · 4-pack",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=00HJLCdoTjo",
     "slug": "black-cat-four-assorted-7-inch",
     "image": "/images/products/black-cat-four-assorted-7-inch.webp",
     "imageWidths": [
@@ -4498,7 +4676,7 @@
     "name": "Joker",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=BNn1R400mFE",
     "slug": "joker-black-cat-fountain",
     "image": "/images/products/joker-black-cat-fountain.webp",
     "imageWidths": [
@@ -4735,7 +4913,7 @@
     "brand": "Black Cat",
     "category": "200g Cakes",
     "presentation": "100 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=eQWyLLmgfKY",
     "slug": "magical-barrage-100",
     "image": "/images/products/magical-barrage-100.webp",
     "imageWidths": [
@@ -4789,7 +4967,7 @@
     "brand": "Fox",
     "category": "500g Cakes",
     "presentation": "500 gram · 36 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=BQxeA7o5Y6g",
     "slug": "outlaw-justice",
     "image": "/images/products/outlaw-justice.webp",
     "imageWidths": [
@@ -5151,7 +5329,7 @@
     "brand": "Fox",
     "category": "Roman Candles",
     "presentation": "666 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=kJQU_vljg54",
     "slug": "beast-candle",
     "image": "/images/products/beast-candle.webp",
     "imageWidths": [
@@ -5201,7 +5379,7 @@
     "brand": "Brothers",
     "category": "500g Cakes",
     "presentation": "9-shot rack",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=kfKXaQZ-2rk",
     "slug": "whacky-tobacky",
     "image": "/images/products/whacky-tobacky.webp",
     "imageWidths": [
@@ -5230,7 +5408,7 @@
     "brand": "Black Cat",
     "category": "200g Cakes",
     "presentation": "200 gram · 19 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=egB6g9q3aXk",
     "slug": "walkin-dead",
     "image": "/images/products/walkin-dead.webp",
     "imageWidths": [
@@ -5259,7 +5437,7 @@
     "brand": "Brothers",
     "category": "500g Cakes",
     "presentation": "500 gram · 30 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=x1vaORd54Eo",
     "slug": "war-hero",
     "image": "/images/products/war-hero.webp",
     "imageWidths": [
@@ -5363,7 +5541,7 @@
     "brand": "Black Cat",
     "category": "200g Cakes",
     "presentation": "200 gram · 87 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=MFaJo3F_8R4",
     "slug": "call-the-cops",
     "image": "/images/products/call-the-cops.webp",
     "imageWidths": [
@@ -5441,7 +5619,7 @@
     "name": "Festival Fountain",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=F1hj6kN7Iwk",
     "slug": "festival-fountain",
     "image": "/images/products/festival-fountain.webp",
     "imageWidths": [
@@ -5495,7 +5673,7 @@
     "brand": "Black Cat",
     "category": "200g Cakes",
     "presentation": "200 gram · 20 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ua-qvzDNDPg",
     "slug": "fuego-loco",
     "image": "/images/products/fuego-loco.webp",
     "imageWidths": [
@@ -5523,7 +5701,7 @@
     "name": "Holiday Lights",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ox2F3dfBPls",
     "slug": "holiday-lights",
     "image": "/images/products/holiday-lights.webp",
     "imageWidths": [
@@ -5546,8 +5724,8 @@
     "id": "mass-confusion",
     "name": "Mass Confusion",
     "brand": "Black Cat",
-    "category": "500g Cakes",
-    "presentation": "500 gram · 45 shots",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "45 shots",
     "previewVideo": "https://www.youtube.com/watch?v=S1dUXLCc8fw",
     "slug": "mass-confusion",
     "image": "/images/products/mass-confusion.webp",
@@ -5567,8 +5745,8 @@
       }
     ],
     "cakeClass": {
-      "status": "confirmed",
-      "grams": 500
+      "status": "unconfirmed",
+      "grams": null
     }
   },
   {
@@ -5577,7 +5755,7 @@
     "brand": "Black Cat",
     "category": "200g Cakes",
     "presentation": "200 gram · 16 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=mFICypgeVm8",
     "slug": "sky-ink",
     "image": "/images/products/sky-ink.webp",
     "imageWidths": [
@@ -5630,7 +5808,7 @@
     "name": "Sugar Pop",
     "brand": "Fox",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=qVUDKdf7R5g",
     "slug": "sugar-pop",
     "image": "/images/products/sugar-pop.webp",
     "imageWidths": [
@@ -5654,7 +5832,7 @@
     "name": "World's Largest Fountain",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=s55FMICmXdo",
     "slug": "worlds-largest-fountain",
     "image": "/images/products/worlds-largest-fountain.webp",
     "imageWidths": [
@@ -5766,7 +5944,7 @@
     "category": "500g Cakes",
     "presentation": "9-shot rack",
     "manufacturerCode": "RA57203",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=TKlNeHeOap4",
     "slug": "battle-cry",
     "image": "/images/products/battle-cry.webp",
     "imageWidths": [
@@ -5869,7 +6047,23 @@
         "gtin": "",
         "sourceRow": 371
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Fine golden spokes spread into a broad, softly falling burst with warm amber tips.",
+      "effects": [
+        "Fine gold trails",
+        "Amber points",
+        "Falling starburst"
+      ],
+      "durationSeconds": 3.8,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=YEuMKW3NufM",
+      "segmentStart": 3.7,
+      "segmentEnd": 7.5,
+      "note": "Official RA32409, 5-inch 24-shell assortment. First shell only, not all package effects. Packaging and first burst inspected at 3.8, 4.4, 5.0 and 7.4 seconds. Burst between 4.4 and 5.0; approximately 4.65. No simultaneous unit or edit visible inside this individual burst; later shells excluded. Launch faint, not represented as a bright comet."
+    }
   },
   {
     "id": "ghostacular-24-pack",
@@ -5878,7 +6072,7 @@
     "category": "Reloadables",
     "presentation": "5-inch shells · 24 shells",
     "manufacturerCode": "RA32406",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
     "slug": "ghostacular-24-pack",
     "image": "/images/products/ghostacular-24-pack.webp",
     "imageWidths": [
@@ -5895,7 +6089,22 @@
         "gtin": "",
         "sourceRow": 415
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "A red ring expands around a second circle of red points, fading to pale silver.",
+      "effects": [
+        "Red concentric rings",
+        "Fading silver points"
+      ],
+      "durationSeconds": 3.6,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+      "segmentStart": 3.2,
+      "segmentEnd": 6.8,
+      "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
+      "confirmedShots": null
+    }
   },
   {
     "id": "home-of-the-brave",
@@ -6046,7 +6255,7 @@
     "category": "Roman Candles",
     "presentation": "6 candles · 10 shots per candle",
     "manufacturerCode": "MM-T6515A/B/C",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=KeWM56ssE1Q",
     "slug": "monkey-mania-10-ball-candles-6-pack",
     "image": "/images/products/monkey-mania-10-ball-candles-6-pack.webp",
     "imageWidths": [
@@ -6648,7 +6857,7 @@
     "brand": "World-Class",
     "category": "200g Cakes",
     "presentation": "16 shots · 200 gram",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=TcKkLNEQ-hE",
     "slug": "hot-dog",
     "image": "/images/products/hot-dog.webp",
     "imageWidths": [
@@ -6989,7 +7198,7 @@
   {
     "id": "poopy-puppy",
     "name": "Poopy Puppy",
-    "brand": "Boomer",
+    "brand": "",
     "category": "Novelties",
     "previewVideo": "",
     "slug": "poopy-puppy",
@@ -7171,7 +7380,7 @@
     "brand": "World-Class",
     "category": "Artillery Shells",
     "presentation": "12 shells",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=PTpKiwHiKUE",
     "slug": "super-magnum-12-pack",
     "image": "/images/products/super-magnum-12-pack.webp",
     "imageWidths": [
@@ -7515,7 +7724,7 @@
     "brand": "World-Class",
     "category": "Artillery Shells",
     "presentation": "36 shells",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=CogXasWVe_o",
     "slug": "goliath-36-shells",
     "image": "/images/products/goliath-36-shells.webp",
     "imageWidths": [
@@ -7746,7 +7955,7 @@
     "brand": "Fox",
     "category": "Fountains",
     "presentation": "Soccer ball fountain",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=cQsqb_xLJFQ",
     "slug": "goal-fountain",
     "image": "/images/products/goal-fountain.webp",
     "imageWidths": [
@@ -7771,7 +7980,7 @@
     "brand": "Fox",
     "category": "Roman Candles",
     "presentation": "250 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=orb4t2rJUwk",
     "slug": "patriotic-fury",
     "image": "/images/products/patriotic-fury.webp",
     "imageWidths": [
@@ -7795,7 +8004,7 @@
     "name": "Silent Treatment",
     "brand": "Fox",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ciS1thBdyeI",
     "slug": "silent-treatment",
     "image": "/images/products/silent-treatment.webp",
     "imageWidths": [
@@ -7821,7 +8030,7 @@
     "brand": "Black Cat",
     "category": "Missiles",
     "presentation": "100 shots",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=rSpHQz9Tusg",
     "slug": "black-cat-missile-base-100",
     "image": "/images/products/black-cat-missile-base-100.webp",
     "imageWidths": [
@@ -7948,7 +8157,7 @@
     "name": "Hot Sauce",
     "brand": "Black Cat",
     "category": "Fountains",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=BqfC6CGzjOU",
     "slug": "hot-sauce",
     "image": "/images/products/hot-sauce.webp",
     "imageWidths": [
@@ -8024,7 +8233,7 @@
     "category": "200g Cakes",
     "presentation": "200 gram · 25 shots",
     "manufacturerCode": "RA22010",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=ro7nIqMhvx0",
     "slug": "dreams-from-heaven",
     "image": "/images/products/dreams-from-heaven.webp",
     "imageWidths": [
@@ -8054,7 +8263,7 @@
     "category": "200g Cakes",
     "presentation": "200 gram · 21 shots",
     "manufacturerCode": "RA22518",
-    "previewVideo": "",
+    "previewVideo": "https://www.youtube.com/watch?v=SRH8mSodlK8",
     "slug": "pirate-captain",
     "image": "/images/products/pirate-captain.webp",
     "imageWidths": [
@@ -8110,7 +8319,7 @@
     "category": "Sparklers",
     "presentation": "4-pack",
     "manufacturerCode": "P9012",
-    "previewVideo": null,
+    "previewVideo": "https://www.youtube.com/watch?v=I0ZusraZI2g",
     "slug": "party-sparklers-4-pack",
     "image": "/images/products/party-sparklers-4-pack.webp",
     "imageWidths": [

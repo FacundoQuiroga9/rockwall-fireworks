@@ -28,7 +28,7 @@ const Navbar = () => {
   }, [location.pathname, location.hash]);
 
   useEffect(() => {
-    const desktopMedia = window.matchMedia('(min-width: 53.76rem)');
+    const desktopMedia = window.matchMedia('(min-width: 68.76rem)');
     const closeAtDesktop = ({ matches }) => {
       if (matches) setMenuOpen(false);
     };
@@ -117,7 +117,7 @@ const Navbar = () => {
           <img
             src="/images/hero/rockwall-fireworks-logo.webp"
             srcSet="/images/hero/rockwall-fireworks-logo-360.webp 360w, /images/hero/rockwall-fireworks-logo.webp 720w"
-            sizes="(max-width: 53.75rem) 48vw, 17.5rem"
+            sizes="(max-width: 68.75rem) 48vw, 17.5rem"
             alt="Rockwall Fireworks"
             className="navbar-logo"
             width="720"

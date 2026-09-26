@@ -1,0 +1,64 @@
+{
+  "fairies-in-a-jar": {
+    "type": "photo",
+    "src": "/images/products/fairies-in-a-jar-320.webp",
+    "crop": [
+      91,
+      43,
+      138,
+      234
+    ],
+    "aspect": 0.5897435897435898,
+    "nozzle": [
+      0.5,
+      0.055
+    ],
+    "scale": 1
+  },
+  "jumboshell-fountain": {
+    "type": "photo",
+    "src": "/images/products/jumboshell-fountain-320.webp",
+    "crop": [
+      57,
+      43,
+      206,
+      235
+    ],
+    "aspect": 0.8765957446808511,
+    "nozzle": [
+      0.5,
+      0.06
+    ],
+    "scale": 0.94
+  },
+  "super-fountain": {
+    "type": "photo",
+    "src": "/images/products/super-fountain-320.webp",
+    "crop": [
+      43,
+      79,
+      235,
+      161
+    ],
+    "aspect": 1.4596273291925466,
+    "nozzle": [
+      0.5,
+      0.06
+    ],
+    "scale": 0.94,
+    "nozzles": [
+      [
+        0.23,
+        0.23
+      ],
+      [
+        0.5,
+        0.055
+      ],
+      [
+        0.77,
+        0.23
+      ]
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "src/data/products.json": "1e8c22686e95c08ea01dc33b287e4c358aa1e4f8fcad7f0c201c62e73a48c3c7",
+  "src/data/promotions.json": "2e9884d96412f2cfcbcd5d61808184c2d09b97f256af9e089bac06d74773d7ad",
+  "src/shared/myList.js": "796cea1b97d085964712972c05376b50ccfe3137f6796a8938c20ed44a5d3197",
+  "src/shared/listPdf.js": "85864c8688c3588e9976093970aada1a57722807da01e95b650e1fec904213ef",
+  "src/components/hero/Hero.jsx": "b839e373516843984832fb11a50208cf44534e138d65a2fe17f558758a8db89f",
+  "src/components/hero/createNightSky.js": "178f11824c2076b527a64362baef5d26ac4b8ee6476a5c22479bfaac1e9f151b",
+  "public/images/hero/products-studio-1200.webp": "b0b2de694b5add52d93594aafcfdc6031528be7f39f46dc94fa48955ccf9486f",
+  "public/.htaccess": "50162274ece28bcc343513a40f4320167eaf83a88a6a550554fc7439ec595152"
+}

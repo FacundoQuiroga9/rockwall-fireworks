@@ -1,0 +1,16 @@
+{
+  "mode": "record",
+  "compact": false,
+  "quality": "high",
+  "frames": 1621,
+  "elapsedSeconds": 27,
+  "fps": 60,
+  "meanDrawMs": 0.824,
+  "p95DrawMs": 1.5,
+  "maxDrawMs": 6.9000000059604645,
+  "maxParticles": 465,
+  "canvas": "1280 × 640 CSS px",
+  "dpr": 2,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+  "concurrency": 8
+}

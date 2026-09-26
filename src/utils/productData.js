@@ -45,7 +45,7 @@ const normalizeSearch = (value) => value.normalize('NFKD').replace(/\p{M}/gu, ''
 export const filterCatalog = (products, { query = '', category = '', brand = '', favorites = null, bogoOnly = false, offers = [], today } = {}) => {
   const terms = normalizeSearch(query).split(/\s+/).filter(Boolean);
   return products.filter((product) => {
-    if (bogoOnly && !getBogoState(product, offers, today).active) return false;
+    if (bogoOnly && !getBogoState(product, offers, today).marked) return false;
     if (category && product.category !== category) return false;
     if (brand && (product.brand || 'Unspecified') !== brand) return false;
     if (favorites && !favorites.includes(product.id)) return false;

@@ -1,5 +1,7 @@
 # Rockwall Fireworks — refinamientos locales, 25 de septiembre de 2026
 
+> Estado vigente: [iteración de BOGO, flyer 2026, videos y PDF compacto](../iteration-2026-09-25/README.md). BOGO only ahora devuelve los ocho marcados; este informe anterior conserva su contexto histórico.
+
 Esta revisión continúa `my-list-2026-09/README.md`. No se hizo push, despliegue ni publicación. Se respetó el trabajo previo de ambas ramas `main`, que ya tenían cambios y archivos sin seguimiento. No se encontraron instrucciones `AGENTS.md` en los proyectos ni en los ancestros revisados.
 
 ## Interfaz

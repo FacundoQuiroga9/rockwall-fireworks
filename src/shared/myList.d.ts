@@ -1,5 +1,5 @@
 export type CatalogProduct = { id: string; name: string; category: string; brand?: string; presentation?: string; manufacturerCode?: string; priceCents?: number; storeCodes?: readonly { token: string; sku: string; gtin: string; sourceRow?: number }[]; bogo?: { eligibilityStatus?: string; evidenceStatus: string; promotionId: string; group: string; sourceTokens: readonly string[] } };
-export type Promotion = { id: string; revision: string; name: string; kind: string; status: string; validFrom?: string | null; validThrough?: string | null; validityConfirmed?: boolean; priceRule?: string | null; limitsConfirmed?: boolean; stackingConfirmed?: boolean; maxGroupsPerList?: number | null; requiredQuantity?: number; eligibleIds?: string[]; components?: Selection[]; conditions: string[]; category?: string; source: string };
+export type Promotion = { id: string; revision: string; name: string; kind: string; status: string; validFrom?: string | null; validThrough?: string | null; validityConfirmed?: boolean; eligibilityConfirmed?: boolean; priceRule?: string | null; limitsConfirmed?: boolean; stackingConfirmed?: boolean; maxGroupsPerList?: number | null; requiredQuantity?: number; eligibleIds?: string[]; components?: Selection[]; conditions: string[]; category?: string; source: string };
 export type Selection = { productId: string; quantity: number };
 export type ListItem = Selection & { snapshot: CatalogProduct };
 export type ListGroup = { id: string; kind: 'individual' | 'bogo' | 'promotion'; items: ListItem[]; promotionId?: string; promotionRevision?: string };
@@ -17,6 +17,7 @@ export function addProduct(list: MyList, product: CatalogProduct, count?: number
 export function setQuantity(list: MyList, groupId: string, index: number, count: number): MyList;
 export function removeGroup(list: MyList, groupId: string): MyList;
 export function isBogoCandidate(product: CatalogProduct | undefined, promotion: Promotion | undefined): boolean;
+export function isBogoIdentified(product: CatalogProduct | undefined): boolean;
 export function canPair(first: CatalogProduct | undefined, second: CatalogProduct | undefined, promotion: Promotion | undefined): boolean;
 export function startBogo(list: MyList, groupId: string, catalog: readonly CatalogProduct[], promotion: Promotion): MyList;
 export function setBogoPartner(list: MyList, groupId: string, partner: CatalogProduct, catalog: readonly CatalogProduct[], promotion: Promotion): MyList;
@@ -24,6 +25,8 @@ export function setPairCount(list: MyList, groupId: string, count: number): MyLi
 export function dissolveGroup(list: MyList, groupId: string): MyList;
 export function reviewGroup(list: MyList, groupId: string, catalog: readonly CatalogProduct[], promotions: readonly Promotion[]): MyList;
 export function promotionIsCurrent(promotion: Promotion | undefined, today?: string): boolean;
+export function promotionIsSelectable(promotion: Promotion | undefined, today?: string): boolean;
+export function promotionProgress(promotion: Promotion, items: readonly Selection[]): { selected: number; remaining: number; excess: number };
 export function addPromotion(list: MyList, promotion: Promotion, catalog: readonly CatalogProduct[], selections: Selection[], today?: string): MyList;
 export function setPromotionItem(list: MyList, groupId: string, index: number, product: CatalogProduct | undefined, count: number, promotion: Promotion, today?: string): MyList;
 export function assessList(list: MyList, catalog: readonly CatalogProduct[], promotions: readonly Promotion[], today?: string): ListAssessment;

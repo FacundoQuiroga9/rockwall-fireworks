@@ -1,0 +1,94 @@
+{
+  "productId": "fairies-in-a-jar",
+  "revision": 2,
+  "status": "reviewed",
+  "name": "Fairies in a Jar",
+  "brand": "Brothers",
+  "category": "Fountains",
+  "kind": "fountain-sample",
+  "sampleLabel": "Fountain excerpt",
+  "duration": 45.0,
+  "observedShots": null,
+  "effects": [
+    "Continuous white/gold spray",
+    "Red points and blue accents",
+    "Branching spark clusters"
+  ],
+  "summary": "A flowing white and gold spray develops red points, blue accents and branching clusters of sparks.",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=0XffbmTG7DA",
+    "manufacturerCode": "BP4315",
+    "segmentStart": 5.6,
+    "segmentEnd": 50.6,
+    "reviewedOn": "2026-09-25",
+    "method": "Actual muted video inspected with paused frames and contact sheets; no redistributed audio.",
+    "evidenceDirectory": "docs/catalog/playground-evolution-2026-09/evidence",
+    "notes": [
+      "Official Brothers BP4315 video; one stationary fountain.",
+      "Camera/exposure changes make later activity appear larger. Apparent heights are illustrative.",
+      "First ~14 seconds show a narrow white/gold jet with intermittent red stars; later stages have broader branching clusters and blue points.",
+      "Recording ends during activity. No full duration or end-of-product finale is claimed.",
+      "Crackle-like branching is visible; source audio was muted and is not claimed as acoustically verified."
+    ]
+  },
+  "verified": [
+    "Identity and manufacturer code in the reference",
+    "Visible effect structure and colors in the selected segment"
+  ],
+  "estimated": [
+    "Stage transitions approximately ±2 seconds; particle paths, density and apparent height are illustrative",
+    "No physical size, height or sound calibration"
+  ],
+  "events": [],
+  "stages": [
+    {
+      "start": 0,
+      "end": 13.5,
+      "colors": [
+        "#ffe0a4",
+        "#f4f0dc",
+        "#f65e68"
+      ],
+      "height": 0.62,
+      "spread": 0.34,
+      "intensity": 0.7,
+      "clusters": false,
+      "transitionSeconds": 0
+    },
+    {
+      "start": 13.5,
+      "end": 28,
+      "colors": [
+        "#eed3a7",
+        "#f65c6b",
+        "#759cfa"
+      ],
+      "height": 0.8,
+      "spread": 0.52,
+      "intensity": 1,
+      "clusters": true,
+      "transitionSeconds": 0.9
+    },
+    {
+      "start": 28,
+      "end": 45,
+      "colors": [
+        "#e6edff",
+        "#efcf94"
+      ],
+      "height": 0.69,
+      "spread": 0.57,
+      "intensity": 0.75,
+      "clusters": true,
+      "transitionSeconds": 0.65
+    }
+  ],
+  "ending": {
+    "kind": "simulation",
+    "fadeStart": 45,
+    "emissionEnd": 47,
+    "tailSeconds": 2.2,
+    "note": "Preview closure only: source ends during activity; not an observed product ending or total duration."
+  },
+  "playbackDuration": 49.2
+}

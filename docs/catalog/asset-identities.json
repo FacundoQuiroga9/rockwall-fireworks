@@ -824,210 +824,220 @@
     "identity": "Winda P0038 / 705108003808",
     "sourceSha256": "2780d8c1adbc81b2ce8cecf98e663706b7d43536b1c87c44d1129f617552201e",
     "webPath": "public/images/products/diwali-dazzler.webp",
-    "webSha256": "a158dff2b71062f5a23251f9b3686aba85f0575d026d56c88009c5c43dbecb70",
+    "webSha256": "cd5509ac1d29497e56edfdeb5f7f49f35384d93e9c5c66ce0da0128192821419",
     "mobilePath": "assets/products/diwali-dazzler.png",
-    "mobileSha256": "3512e743e1f8582742b332b37760497bd7693c7b5c917ea078316def2ec8757c",
+    "mobileSha256": "37859fce234300394f3fbf59e99d898ed88bc676edf8d60d1cb28a1b0ef459df",
     "responsive": [
       {
         "path": "public/images/products/diwali-dazzler-320.webp",
-        "sha256": "7060507fa20bd5ef4d0bde86cad0821b9b1e1ebc0da71148ddaac33606d509ec"
+        "sha256": "4ba63f9c286007d84dc22dbe9cabd1896e6110dca5ab14eb39d2f204d3fba8db"
       },
       {
         "path": "public/images/products/diwali-dazzler-480.webp",
-        "sha256": "363dc958cf79a55815776c2617970bb448477ff0fe2671be1b466439ee15bd0e"
+        "sha256": "fc4e0793c239a63640ab0f525c3bf5d1499c9557742c50f3eb573dc3885ae2b4"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/diwali-dazzler.webp",
-    "framingSourceSha256": "6a4f0f6a07a97df69b22ab682f4e90cab00d616ce6974ea3db0bcd5cca799e27"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/diwali-dazzler-original.png",
+    "framingSourceSha256": "2780d8c1adbc81b2ce8cecf98e663706b7d43536b1c87c44d1129f617552201e",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "snow-cone",
     "identity": "Winda P3088 / 705108308804",
     "sourceSha256": "b21604b12ee17e41dde55df7bc4d369017bba57185fe4eeec44c7f411db3ab26",
     "webPath": "public/images/products/snow-cone.webp",
-    "webSha256": "25f0af18de56397863fd8b00108d47e824df4bbfda8586fc6fa7393fce29a190",
+    "webSha256": "a82eb77654915350a35e58a6db0de913d580b589ecd97835816e32e1c488fc4a",
     "mobilePath": "assets/products/snow-cone.png",
-    "mobileSha256": "48e9707c4dbfe3d73c119f7bf7aa8c3deda1436f8f54603de0889469310956a9",
+    "mobileSha256": "1f2603ce8a8d45f68595abb46489f2090f9b687b780f037c18163931363b952e",
     "responsive": [
       {
         "path": "public/images/products/snow-cone-320.webp",
-        "sha256": "fae2a9e7d42081c9dd7d290caa7b87cba92ada52412921cfe06c5a578c3faf2c"
+        "sha256": "3f99a9739f39671773053349562ae1aee2e4d41155291fa8d050e2caa859e57e"
       },
       {
         "path": "public/images/products/snow-cone-480.webp",
-        "sha256": "5e6ceefeb90118d14e18d2501369468a83666da007d7d634ae52b808be08bdae"
+        "sha256": "946e33dfecc506a2deaeebb78417e731f9b1997f6bb0e46a3cf52c68968f96d1"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/snow-cone.webp",
-    "framingSourceSha256": "63645c219fa09423d4631656542a2014705f4cf2ef45c8bdd54e6ed6d4cbf847"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/snow-cone-original.png",
+    "framingSourceSha256": "b21604b12ee17e41dde55df7bc4d369017bba57185fe4eeec44c7f411db3ab26",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "eagle-pride",
     "identity": "Raccoon RA530120 / 757205301202",
     "sourceSha256": "0c86a0b2a014de73d029a2cfa718484cf3141b419c00b405b17aca9d77aadffa",
     "webPath": "public/images/products/eagle-pride.webp",
-    "webSha256": "fa74c4662f90439d5e667103f7340e117bda732f176600c5315ad2da0f5f690f",
+    "webSha256": "732cf0024b412ebc566ce5b99142bdbd926c04a710099af8a9d0a833b916f74d",
     "mobilePath": "assets/products/eagle-pride.png",
-    "mobileSha256": "501e7ff197251c96b7fccf2340a2a836784ea1ca0a165ae6b8c11cbc1d60d6ee",
+    "mobileSha256": "34508526b614604ee723af306ef588c6de5510fbd7ed344b4b66893cf7d6fba1",
     "responsive": [
       {
         "path": "public/images/products/eagle-pride-320.webp",
-        "sha256": "0e16bc5ae14cc18f8c0416ac9c6c3d0eba8d20d75d29053662a6a97aee66a646"
+        "sha256": "99ed393625da303808290798bf88c5fea64d1d47389f10f746747b872f01aac2"
       },
       {
         "path": "public/images/products/eagle-pride-480.webp",
-        "sha256": "03335289b8539d444fc7d825b459511ad3bafa828770f501917ed6abb90663a3"
+        "sha256": "c23f4cfbcdce1af6f390b414c90d4397b0c58393f3e2eb70e518b4c4e90ee9fb"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/eagle-pride.webp",
-    "framingSourceSha256": "0919708737c0e64c6f72024a3450c90351099b017c4f594ef43079e88e026109"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/eagle-pride-original.png",
+    "framingSourceSha256": "0c86a0b2a014de73d029a2cfa718484cf3141b419c00b405b17aca9d77aadffa",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "america-first",
     "identity": "Raccoon RA53064 / 757201530644",
     "sourceSha256": "8539bb123f3d6f0d08f22f9d91d86ba1f70643c4b994ffe0f1b22da72e3a8856",
     "webPath": "public/images/products/america-first.webp",
-    "webSha256": "f582bd1e8bb497a220727c889fd130950d7ffb45ffeb8e84db6ed40335ed59b4",
+    "webSha256": "8a615c4a2350f01541d49b8e4782afbabbaf55b7a57bc4f947214441a1d60914",
     "mobilePath": "assets/products/america-first.png",
-    "mobileSha256": "7a679463ace9d5851410211d5ab909cddd32c0aab2456f83e954739efd719ba7",
+    "mobileSha256": "42c5c390b58c95dd12a23a42ceb88d897adaad5f5e1ce22ecaf0bdd1c8d056e8",
     "responsive": [
       {
         "path": "public/images/products/america-first-320.webp",
-        "sha256": "5fe37f7f4b5bde47b818f53c6fd4f4820a14b8616e0b004317ec17ca429af023"
+        "sha256": "ab7d45eeb2d627445e9042c79133382a413891cdf69c669e3a09258d9ff57e18"
       },
       {
         "path": "public/images/products/america-first-480.webp",
-        "sha256": "5fd8c341f34c7543d3031f52f46583bbe14d993f5a8f1003ee96d170cfda21f3"
+        "sha256": "578392ba42532f7c7851e79d15d3b2365984c5d172b150f5a7931454a77628c0"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/america-first.webp",
-    "framingSourceSha256": "18d3b99cad53ab8837578915eacbcdeca2b67f651db2c292e262d164132400a6"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/america-first-original.png",
+    "framingSourceSha256": "8539bb123f3d6f0d08f22f9d91d86ba1f70643c4b994ffe0f1b22da72e3a8856",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "us-power",
     "identity": "Raccoon RA22534 / 757201225342",
     "sourceSha256": "8d6996550d29e1418a889924029c897dc5fd3a8731bcdac74df93fa7162675aa",
     "webPath": "public/images/products/us-power.webp",
-    "webSha256": "7a20fdf5084ce141cf4d757dd147deb42fdba5bc8f1915c3f9a4b559c4266409",
+    "webSha256": "d4282d72e5ede184c3eeaf2930566d21ba09e53b4920c7cc3343a03af1958e1a",
     "mobilePath": "assets/products/us-power.png",
-    "mobileSha256": "d4e0b880b189c7a3b75daf2aeb667c70290f96b2687a62ec4b3f4b0ac21c4039",
+    "mobileSha256": "49074b43ad2a34e14d4c1512c3c81670dcdbe58f14c014e81f872e8cebc3ef72",
     "responsive": [
       {
         "path": "public/images/products/us-power-320.webp",
-        "sha256": "6d338d5e1d4d0ca77b7589f2ed71520e5446ea8faec36cc5531c2f4aecc21664"
+        "sha256": "3d5790c45bdc27324f14638574cf8b7bf997fb8b87ba53536c123b67a3649338"
       },
       {
         "path": "public/images/products/us-power-480.webp",
-        "sha256": "96b19c1c57ea6ff2571d29179b335a93b9a25fb35a99ed3e86cd5c714b51ed86"
+        "sha256": "caa818b2574d69a7afa7ee717dd82f2fff580dc497a2e56941e94a44eda36580"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/us-power.webp",
-    "framingSourceSha256": "f39e557898f67e65b07c4bd120ee841f6a20e61bf420ff90429fc1c790c5ba5d"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/us-power-original.png",
+    "framingSourceSha256": "8d6996550d29e1418a889924029c897dc5fd3a8731bcdac74df93fa7162675aa",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "3-min",
     "identity": "Monkey Mania MM-F1808 / 757202118087",
     "sourceSha256": "0164f337500cfac9f31adbfc53c758048f9322738381516288c83b21ffb964a8",
     "webPath": "public/images/products/3-min.webp",
-    "webSha256": "d46a5d61e83778f8f12d9cf6a70fda4d420c0c565b7f7c1722f3d9c07af38d3c",
+    "webSha256": "f3a382e6c233a9838e4a3c5112d62f85628197b1e51fe37abe502bae98f98076",
     "mobilePath": "assets/products/3-min.png",
-    "mobileSha256": "f477ec7358672e78f8e15a2a93503ab48cd745fd85f4c4a478016921684a0c89",
+    "mobileSha256": "86b3b4c34b5a4eb3fbc5f675739439495ff24d2389922d9222fe079d92cf2443",
     "responsive": [
       {
         "path": "public/images/products/3-min-320.webp",
-        "sha256": "b7df448f0678189ce8b3b4e83ed507435840269a461be28bb2824160d80486e8"
+        "sha256": "25248dfc5e9240ebd75e1c7d21a34f045cd3cef31e9024f84ab0df35848295a6"
       },
       {
         "path": "public/images/products/3-min-480.webp",
-        "sha256": "d46a5d61e83778f8f12d9cf6a70fda4d420c0c565b7f7c1722f3d9c07af38d3c"
+        "sha256": "b01b1228bc6fe1d87f6b6b3bd94fadce6ef81aa9d8d31bb74d8dfd3ced7d14c1"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/3-min.webp",
-    "framingSourceSha256": "f413fbdfa92568f86fe69b7f240dcb39aaff45eda61dd7a97cc990684ef9be76"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/3-min-original.png",
+    "framingSourceSha256": "0164f337500cfac9f31adbfc53c758048f9322738381516288c83b21ffb964a8",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "ladybugs-3-pack",
     "identity": "Brothers BP5035 / 687985503520",
     "sourceSha256": "83f34bf932f33eccdffabf70714fceb86725c460266d7c92f59770256dbed5b9",
     "webPath": "public/images/products/ladybugs-3-pack.webp",
-    "webSha256": "72871039519b5eca80a57f0aa5892dd5d6277c285b4ec4d4dd29a4fac10beabb",
+    "webSha256": "9679ca53587b514bbde90256c57039955758fc14c42982bb90a3766d4a126b5b",
     "mobilePath": "assets/products/ladybugs-3-pack.png",
-    "mobileSha256": "032d7cd248672a828230c733fe46cfc041ee5605c878ee503ee4f3e6a2454878",
+    "mobileSha256": "9de82752d2f7fa5b81a693d969cf1609c289ca57519b22cfc009e63cc1202fec",
     "responsive": [
       {
         "path": "public/images/products/ladybugs-3-pack-320.webp",
-        "sha256": "9a5041eed49f8cf9e6eaa75d6af218a70bbe7b313e0a7eb1a92690f82ef44bdb"
+        "sha256": "ff42c761a08fe98bc36431cf3e3c8b242770e956d66001ab3be89ad0d6bceff8"
       },
       {
         "path": "public/images/products/ladybugs-3-pack-480.webp",
-        "sha256": "ca4a2151d88ff3a240bf8941a0a065cd726d8b42e916f499ff3f30bcbeec717e"
+        "sha256": "b4cfcc33bdd3c9ada0209031ee27a4fa480dded1e0a8e063388a1f3d718a3748"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/ladybugs-3-pack.webp",
-    "framingSourceSha256": "bfa2b8eb2b191ea1588ac8db56d14a73ab7d9bd4b1de5e92a0a047806669df54"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/ladybugs-3-pack-original.png",
+    "framingSourceSha256": "83f34bf932f33eccdffabf70714fceb86725c460266d7c92f59770256dbed5b9",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "blond-joke",
     "identity": "Brothers BP2975 / 687985297511",
     "sourceSha256": "fbb9e4ea7b3ed563073969e72fe424a4ef0aab4698c640aad435cc97cccf53ef",
     "webPath": "public/images/products/blond-joke.webp",
-    "webSha256": "d459d3716c9895cc3a35232e912615f17592f283b611290cef4631f7b30fc592",
+    "webSha256": "a7f20053118508c0f35d83b49d3c95ccf691103b4c45a6e73989ade827dd45b2",
     "mobilePath": "assets/products/blond-joke.png",
-    "mobileSha256": "7dc0b0f246fd03fddc1958e8ba4d3b5a5eb32125e9228fe0a3babc5a3f6a9fae",
+    "mobileSha256": "9d59f5f2989986cd13933715df97b50bf2f1127a95031adf21840e1be71bde7e",
     "responsive": [
       {
         "path": "public/images/products/blond-joke-320.webp",
-        "sha256": "2309aef66aa60995109717cc47bdf0d5303dc3d68d3d468070bfe646d1d487b2"
+        "sha256": "e242a1e1414dba03c1d0262ed32ceda3556459f0efbd41b44cb7ec8f210556ed"
       },
       {
         "path": "public/images/products/blond-joke-480.webp",
-        "sha256": "5eb638bf74ba079208ddcab79e30f0372249488df9db57c00712577cd3be8c37"
+        "sha256": "b0a2d0db5b2acb09465840417dd6261d836e645c07ca35802d96b6e70207406f"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/blond-joke.webp",
-    "framingSourceSha256": "10482e080e2c814e19ee05bb57f8bbb7d0d0b298984d8b530aa9b1795b829297"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/blond-joke-original.png",
+    "framingSourceSha256": "fbb9e4ea7b3ed563073969e72fe424a4ef0aab4698c640aad435cc97cccf53ef",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "land-of-the-free",
     "identity": "Monkey Mania MM40002 / 757202400021",
     "sourceSha256": "3732bffc83cff40393195e14024039a8f61fb3d2527c22f60d21610ef4f8c0bf",
     "webPath": "public/images/products/land-of-the-free.webp",
-    "webSha256": "d46f0a55de668dba9685c98e7c7019be4d563b84b5bc51d75366c30ea920a079",
+    "webSha256": "42aca78958ba1bcb09c5413cd387129a7cf2336d2f9f756d2b2db440a27d548b",
     "mobilePath": "assets/products/land-of-the-free.png",
-    "mobileSha256": "9008ff47e748b5b6fe9be54ca67b4870d95871858505cbeaec4f9d9e5e17e842",
+    "mobileSha256": "89fa0ad6023adc0951bfaf816e591bb44bc953d55a51148cf5ba6715f5c82a1c",
     "responsive": [
       {
         "path": "public/images/products/land-of-the-free-320.webp",
-        "sha256": "43d3ce64fc1210d5894de0a2b2bfdb8bacaff95a8c1e64e248e00585b1f2c493"
+        "sha256": "a17fc6e1a246d70daa2f3187c34d840b5b7d1ccebc08b74fe37b063709ce8353"
       },
       {
         "path": "public/images/products/land-of-the-free-480.webp",
-        "sha256": "90896affdd55037e7543a4689abfb55866b8fd33931d3698627fa1ff3d6c2fa7"
+        "sha256": "42667473379faf07eddd1104cd266a203d941741fc1e7714c14d21947616aa98"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/land-of-the-free.webp",
-    "framingSourceSha256": "251ea25ba9ceaed2ab8243b9d26026e176ab84dd7060726ad6f6bacb3cc9210b"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/land-of-the-free-original.png",
+    "framingSourceSha256": "3732bffc83cff40393195e14024039a8f61fb3d2527c22f60d21610ef4f8c0bf",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "usa-saturn-missile-battery",
     "identity": "Brothers BP2324 / 687985232413",
     "sourceSha256": "bdb7d605f76e5d0087d32193fa1dfc16056e3d9d17ff91bde7e7764668144e51",
     "webPath": "public/images/products/usa-saturn-missile-battery.webp",
-    "webSha256": "d837eef0ff72617f43bb684ba2ff488975c830f69334da7a824eff2b0c354de8",
+    "webSha256": "87dc0d179977b7cf010a8461b90e09724ab4600839aa9378fd1b59411e8c1df8",
     "mobilePath": "assets/products/usa-saturn-missile-battery.png",
-    "mobileSha256": "10a01ae19680c385a508329640218321ee77b4223e8a7960a73412b11dbc1c2e",
+    "mobileSha256": "edad251cb68ddd1d2b307ef51b0920561b3e1be0a56edb28fad7aefba8539045",
     "responsive": [
       {
         "path": "public/images/products/usa-saturn-missile-battery-320.webp",
-        "sha256": "f2d476f556f182e99deebb4ef8a1eea407f22dedde1995cd25437b1d478f0e46"
+        "sha256": "73343c6103e12cd49dc60d7e57a7a3f913c077a05c0219aafad9ebcfbb45661f"
       },
       {
         "path": "public/images/products/usa-saturn-missile-battery-480.webp",
-        "sha256": "ce3f4f2e9f6820c853b97f1eadf4c5ff19715da03788e47e9295fffb0867e22b"
+        "sha256": "a7977525371d344f63439efb2693e3db9afeeb4c7f760a05b3b32ecc5d237eb1"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/usa-saturn-missile-battery.webp",
-    "framingSourceSha256": "0b451eb7ac1c24e14cba9eff9e62616f7971af6d14a91eca88c31bbc5197d0fc"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/usa-saturn-missile-battery-original.png",
+    "framingSourceSha256": "bdb7d605f76e5d0087d32193fa1dfc16056e3d9d17ff91bde7e7764668144e51",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "2-minute-bomb",
@@ -2021,21 +2031,22 @@
     "identity": "Monkey Mania MM-FC06A/B / 757201000062",
     "sourceSha256": "ee1fe3c2a40b01892f40e86bd87bb88852e645c4eac52e4677f68b3a1e851f97",
     "webPath": "public/images/products/no-3-cone-fountain-2-pack.webp",
-    "webSha256": "2a954c341d9185b630fd684498a5ecff9885349bd1e002edc5bbe24bb5ac5b45",
+    "webSha256": "4073eb2f2a362678407e7c5629293deaa19be3c15cbdde146a01bddb0bd6da5f",
     "mobilePath": "assets/products/no-3-cone-fountain-2-pack.webp",
-    "mobileSha256": "2a954c341d9185b630fd684498a5ecff9885349bd1e002edc5bbe24bb5ac5b45",
+    "mobileSha256": "a6462416cb7ab13421343f86ca0af778fd4c2f0fa0f97498cee3ae7396a9d7b3",
     "responsive": [
       {
         "path": "public/images/products/no-3-cone-fountain-2-pack-320.webp",
-        "sha256": "834b769cf729a46b6b08f0702f84a39e976537406ff1da64f3e07fd8902ccdc1"
+        "sha256": "a433822433fcfda118c4641d2b6c55b4bed771446f8675085b56474bf16e2fa0"
       },
       {
         "path": "public/images/products/no-3-cone-fountain-2-pack-480.webp",
-        "sha256": "e829bc4ddcda3f33bb7979ed0f3e1b7506c1f0cc70e1f2bf99869402b8b4e9fc"
+        "sha256": "f324bd915aefff29a62f7d435f6ac77fd7890b238fc6c93887cf9ea20f91d0b0"
       }
     ],
-    "framingSource": "docs/catalog/presentation-2026-09/framing-originals/no-3-cone-fountain-2-pack.webp",
-    "framingSourceSha256": "584cefb57f7cf763482c4293a72c86fdb9b8d98282d0ea2dfe02ea3fff693fc9"
+    "framingSource": "docs/catalog/enrichment-2026-09/references/no-3-cone-fountain-2-pack-original.png",
+    "framingSourceSha256": "ee1fe3c2a40b01892f40e86bd87bb88852e645c4eac52e4677f68b3a1e851f97",
+    "derivativeMaxWidth": 960
   },
   {
     "id": "atom-bomb",

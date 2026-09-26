@@ -1,0 +1,23 @@
+{
+  "environment": "Chrome on macOS 26.5.2, desktop automation; not a native device",
+  "products": [
+    "bump-bear",
+    "band-of-brothers",
+    "daffodil",
+    "ghost-dragon"
+  ],
+  "durationSeconds": 34.8,
+  "quality": "high",
+  "drawnFps": 58.4,
+  "meanDrawMs": 0.54,
+  "finalParticles": 0,
+  "note": "Four real cake profiles; includes the three-burst Band of Brothers finale. Canvas CPU time, not GPU/device performance.",
+  "repeatFinalBuild": {
+    "durationSeconds": 34.8,
+    "quality": "auto switched to low",
+    "drawnFps": 36.9,
+    "meanDrawMs": 0.63,
+    "finalParticles": 0,
+    "note": "Second complete pass with the final renderer. Conservative auto quality dropped to Low after a slow frame; measured average includes the switch to the 30 fps drawing target. No native benchmark."
+  }
+}

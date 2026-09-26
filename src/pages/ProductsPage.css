@@ -80,3 +80,6 @@
 .catalog-brands.is-dragging button { cursor: grabbing; }
 .catalog-brands img { pointer-events: none; }
 @media (max-width: 550px) { .catalog-brand-navigation span { display: none; } .product-page .detail-back { margin-bottom: .8rem; } }
+
+.product-video { scroll-margin-top: var(--header-offset); }
+.product-video-help { color: var(--color-text-muted, #b9c4d6); font-size: .9rem; }

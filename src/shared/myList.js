@@ -42,14 +42,19 @@ export function setQuantity(list, groupId, index, count) {
   return { ...list, groups: list.groups.map((g) => g.id !== groupId ? g : { ...g, items: g.items.map((item, i) => i === index ? { ...item, quantity: count } : item) }) };
 }
 export const removeGroup = (list, groupId) => ({ ...list, groups: list.groups.filter((g) => g.id !== groupId) });
+// Inventory identification is independent of whether a benefit can be applied today.
+// Exact source links, not product names or category membership, establish the marker.
+export function isBogoIdentified(product) {
+  return product?.bogo?.evidenceStatus === 'source-marked' && Boolean(product.bogo.sourceTokens?.length);
+}
 export function isBogoCandidate(product, promotion) {
-  return Boolean(product && promotion?.kind === 'bogo' && product.bogo?.evidenceStatus === 'source-marked' && product.bogo.promotionId === promotion.id && product.bogo.group === product.category && !['Cake Packs', 'Cakes - Size Unconfirmed', 'Cakes'].includes(product.category));
+  return Boolean(isBogoIdentified(product) && promotion?.kind === 'bogo' && product.bogo.promotionId === promotion.id && product.bogo.group === product.category && !['Cake Packs', 'Cakes - Size Unconfirmed', 'Cakes'].includes(product.category));
 }
 // A source marker is historical evidence, not approval of a current benefit.
 // All consumers (cards, filters and list assessment) use these same three states.
 export function getBogoState(product, promotions, today = storeDate()) {
   const promotion = promotions.find((p) => p.id === product?.bogo?.promotionId);
-  const marked = product?.bogo?.evidenceStatus === 'source-marked';
+  const marked = isBogoIdentified(product);
   const eligible = isBogoCandidate(product, promotion) && product.bogo.eligibilityStatus === 'verified';
   const rulesReady = ['customer-choice', 'equal-price', 'lower-price-free'].includes(promotion?.priceRule) && promotion?.limitsConfirmed && promotion?.stackingConfirmed;
   const priceReady = promotion?.priceRule === 'customer-choice' || (Number.isInteger(product?.priceCents) && product.priceCents >= 0);
@@ -94,15 +99,23 @@ export function promotionIsCurrent(promotion, today = storeDate()) {
   if (!promotion.validityConfirmed) return false;
   return (!promotion.validFrom || today >= promotion.validFrom) && (!promotion.validThrough || today <= promotion.validThrough);
 }
+export function promotionIsSelectable(promotion, today) {
+  if (!promotionIsCurrent(promotion, today) || !['choice', 'fixed'].includes(promotion.kind) || promotion.eligibilityConfirmed === false || !quantity(promotion.requiredQuantity) || !promotion.eligibleIds?.length) return false;
+  return promotion.kind !== 'fixed' || (Array.isArray(promotion.components) && promotion.components.every((i) => quantity(i.quantity) && promotion.eligibleIds.includes(i.productId)) && promotion.components.reduce((sum, i) => sum + i.quantity, 0) === promotion.requiredQuantity);
+}
+export function promotionProgress(promotion, items) {
+  const selected = items.reduce((sum, item) => sum + item.quantity, 0);
+  return { selected, remaining: Math.max(0, (promotion.requiredQuantity || 0) - selected), excess: Math.max(0, selected - (promotion.requiredQuantity || 0)) };
+}
 export function addPromotion(list, promotion, catalog, selections, today) {
-  if (!promotionIsCurrent(promotion, today) || !['choice', 'fixed'].includes(promotion.kind)) return list;
+  if (!promotionIsSelectable(promotion, today)) return list;
   const entries = promotion.kind === 'fixed' ? promotion.components : selections;
-  if (!Array.isArray(entries) || !entries.length || entries.some((i) => !quantity(i.quantity) || !catalog.some((p) => p.id === i.productId) || !promotion.eligibleIds?.includes(i.productId))) return list;
+  if (!Array.isArray(entries) || !entries.length || entries.some((i) => !quantity(i.quantity) || !catalog.some((p) => p.id === i.productId) || !promotion.eligibleIds?.includes(i.productId)) || promotionProgress(promotion, entries).excess) return list;
   return { ...list, groups: [...list.groups, { id: uid(), kind: 'promotion', promotionId: promotion.id, promotionRevision: promotion.revision, items: entries.map((i) => itemFor(catalog.find((p) => p.id === i.productId), i.quantity)) }] };
 }
 export function setPromotionItem(list, groupId, index, product, count, promotion, today) {
   const group = list.groups.find((g) => g.id === groupId);
-  if (group?.kind !== 'promotion' || group.promotionId !== promotion?.id || promotion.kind !== 'choice' || !promotionIsCurrent(promotion, today) || !Number.isInteger(index) || index < 0 || index > group.items.length || (count !== 0 && (!quantity(count) || !promotion.eligibleIds?.includes(product?.id)))) return list;
+  if (group?.kind !== 'promotion' || group.promotionId !== promotion?.id || promotion.kind !== 'choice' || !promotionIsSelectable(promotion, today) || !Number.isInteger(index) || index < 0 || index > group.items.length || (count !== 0 && (!quantity(count) || !promotion.eligibleIds?.includes(product?.id)))) return list;
   const items = [...group.items];
   if (count === 0) items.splice(index, 1);
   else items[index] = itemFor(product, count);
@@ -148,6 +161,7 @@ export function assessList(list, catalog, promotions, today = storeDate()) {
             state = 'complete';
           }
         } else {
+          if (promotion.eligibilityConfirmed === false) issues.push('The exact eligible selection requires store confirmation.');
           const copies = list.groups.filter((g) => g.promotionId === promotion.id).length;
           if (promotion.maxGroupsPerList != null && copies > promotion.maxGroupsPerList) issues.push('This selection exceeds the confirmed promotion limit.');
           if (items.some((i) => !promotion.eligibleIds?.includes(i.productId))) issues.push('This promotion contains an ineligible product.');

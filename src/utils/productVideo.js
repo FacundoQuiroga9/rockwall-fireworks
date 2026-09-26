@@ -6,3 +6,6 @@ export function youtubeVideoId(value) {
     return /^[\w-]{11}$/.test(id || '') ? id : null;
   } catch { return null; }
 }
+
+export const PRODUCT_VIDEO_ANCHOR = "product-video";
+export const productVideoPath = (product) => `/products/${product.slug}#${PRODUCT_VIDEO_ANCHOR}`;

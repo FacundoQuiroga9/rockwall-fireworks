@@ -1,0 +1,21 @@
+// Local review artifacts only. Never registered as public routes or promotions.
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildPlaygroundDocument } from '../../src/shared/playgroundDocument.js';
+import { addProduct, assessList, emptyList } from '../../src/shared/myList.js';
+import { createListPdf } from '../../src/shared/listPdf.js';
+const root = fileURLToPath(new URL('../../', import.meta.url));
+const read = (path) => JSON.parse(readFileSync(resolve(root, path), 'utf8'));
+const profiles = read('src/data/playgroundProfiles.json').profiles;
+const skyline = 'data:image/webp;base64,' + readFileSync(resolve(root, 'public/images/hero/dallas-skyline-800.webp')).toString('base64');
+const directory = resolve(root, 'docs/catalog/playground-2026-09');
+mkdirSync(directory, { recursive: true });
+writeFileSync(resolve(directory, 'native-engine-review.html'), buildPlaygroundDocument({ profiles: profiles.filter((p) => p.kind === 'shell-sample').slice(0, 2), skyline, compact: true, reducedMotion: true }).replace('<title>Controlled fireworks demonstration</title>', '<title>Development-only compact engine review - browser, not native</title>'));
+const products = read('src/data/products.json');
+let list = emptyList();
+for (const profile of profiles) list = addProduct(list, products.find((p) => p.id === profile.productId));
+const assessment = assessList(list, products, read('src/data/promotions.json'));
+const out = resolve(root, 'output/pdf/playground-2026-09'); mkdirSync(out, { recursive: true });
+for (const photos of [false, true]) writeFileSync(resolve(out, `my-list-${photos ? 'with' : 'without'}-photos.pdf`), createListPdf(assessment, { thumbnails: photos ? read('src/data/pdfThumbnails.json') : {}, generatedAt: new Date().toISOString() }));
+console.log('Generated two compact PDFs and a development-only HTML review of the compact engine.');

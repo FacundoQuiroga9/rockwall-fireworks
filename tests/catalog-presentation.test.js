@@ -53,5 +53,6 @@ test('four-pack and display tray retain distinct Square identities', () => {
   const reviews = read('../docs/catalog/enrichment-2026-09/reviewed-products.json');
   assert.equal(reviews.find((p) => p.id === 'party-sparklers-4-pack').identityCode, '705108901203');
   assert.equal(reviews.find((p) => p.id === 'party-sparklers-display').identityCode, '705108901210');
-  assert.equal(products.find((p) => p.id === 'party-sparklers-4-pack').previewVideo, null);
+  assert.equal(products.find((p) => p.id === 'party-sparklers-4-pack').previewVideo, 'https://www.youtube.com/watch?v=I0ZusraZI2g');
+  assert.notEqual(products.find((p) => p.id === 'party-sparklers-4-pack').presentation, products.find((p) => p.id === 'party-sparklers-display').presentation);
 });

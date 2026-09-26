@@ -1,0 +1,714 @@
+[
+  {
+    "token": "4EEEP37RJXP5AXHKDI7YX772",
+    "sourceRow": "2",
+    "name": "#10 Color Sparklers-8 Count",
+    "variation": "#10 Metal Color Sparklers 8 Pcs. BOGO",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"#10 Color Sparklers-8 Count\" / \"#10 Metal Color Sparklers 8 Pcs. BOGO\" (code 943100700084). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "M3SQAVSS5EO5RBMNDWIOKUA2",
+    "sourceRow": "22",
+    "name": "#8 Golden Sparkler 6 Pcs-BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"#8 Color Sparkler - 6 pieces per box | Phantom Fireworks\"), but no consulted product page establishes the Square code 8145270181119, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "T5SHAX3H2SLYWZ3VFB2WBPEK",
+    "sourceRow": "40",
+    "name": "12 Firecrackers Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"M-88 12's Firecrackers For Sale | Kellner's Fireworks | Harrisville, PA\"), but no consulted product page establishes the Square code 8052530052518, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "O6KNWSDF2BMIHQ37TUXZZLJJ",
+    "sourceRow": "57",
+    "name": "2 Color Spaceship BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"2 color space ship | Boom Town Fireworks, Your Indiana and Chicago Fireworks Superstore\"), but no consulted product page establishes the Square code [missing], brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "GPZVXC3S5TOL4YDFTGF2GZYP",
+    "sourceRow": "117",
+    "name": "Adult Snaps Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Bacon Snaps (Adult Snaps) - Simpson Fireworks\"), but no consulted product page establishes the Square code 849107002148, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "TTQLPUHZV4KBK3ZBZYTFFCOS",
+    "sourceRow": "149",
+    "name": "Artificial Satellites Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Artificial Satellites Bogo\" / \"Regular\" (code 705108204281). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "WEQRBF4GHTPAJWQGHPHFFC5J",
+    "sourceRow": "162",
+    "name": "BC 1000 Firecracker Roll RWB BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"BC 1000 Firecracker Roll RWB BOGO\" / \"Regular\" (code 715244211104). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "FOCSC6IBOIVACCWHZTLBLZQT",
+    "sourceRow": "164",
+    "name": "BC Little Dynamite RWB BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"BC Little Dynamite RWB BOGO\" / \"Regular\" (code 715244101054). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "HPRUK354SRZV3EBF6JC7ZQ3N",
+    "sourceRow": "187",
+    "name": "Black Cat 100ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 715244101009 occurs in the retrieved product/source \"100 BLACK CAT FIRECRACKERS\". Square records \"Black Cat 100ct BOGO\" / \"Regular\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://franposcontent.azureedge.net/images/18043824/3/small?v=5857501463 ([400, 400]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "XVLRJSMAMPAD5I2SPFLPZBDH",
+    "sourceRow": "188",
+    "name": "Black Cat 100ct BOGO",
+    "variation": "Brick",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "package_review",
+    "reason": "Square variation is Brick (100-count strips); supplier shows multiple brick sizes together. Confirm exact strip count and obtain the matching retail brick image."
+  },
+  {
+    "token": "FGFX64NVIPVVGVKKJOLPICWS",
+    "sourceRow": "190",
+    "name": "Black Cat 300 Count BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Black Cat 300 Count BOGO\" / \"Regular\" (code 715244103010). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "EZEGN4ZQNUKUAOTPHA7TRQOD",
+    "sourceRow": "191",
+    "name": "Black Cat 300 Count BOGO",
+    "variation": "300",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Black Cat 300 from Black Cat - Davey Fireworks\"), but no consulted product page establishes the Square code 715244103003, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "QQYB6NNR36NTVUWQKAVKSFLH",
+    "sourceRow": "202",
+    "name": "Black Cat 50ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "black-cat-50-pack"
+    ],
+    "sameCodeCandidates": [
+      "black-cat-50-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square row 202, code 715244101504, original name 'Black Cat 50ct BOGO' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted."
+  },
+  {
+    "token": "IMSHHADLXVKXXU4KWSCGVL7P",
+    "sourceRow": "207",
+    "name": "Black Cat Firecracker 200ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "black-cat-200-pack"
+    ],
+    "sameCodeCandidates": [
+      "black-cat-200-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square row 207, code 715244102006, original name 'Black Cat Firecracker 200ct BOGO' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted."
+  },
+  {
+    "token": "FKOTG65DY2KEAIG72E6ZQNZX",
+    "sourceRow": "213",
+    "name": "Black Cat Little Dynamite 100ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "little-dynamite-100"
+    ],
+    "sameCodeCandidates": [
+      "little-dynamite-100"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square code 715244001057 matches the current Winco supplier UPC after removing display hyphens. Original name 'Black Cat Little Dynamite 100ct BOGO', variant 'Regular', actual packaging and retail count were compared visually and against supplier packing; no retailer SKU equality alone is used."
+  },
+  {
+    "token": "6DL57LCVLHNNTMKWBBIYB6Z5",
+    "sourceRow": "224",
+    "name": "Black Snakes BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Assorted Snakes | Black Cat Fireworks\"), but no consulted product page establishes the Square code 8145270185919, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "YNSK72CWCAZMY3Q742YZ2IA7",
+    "sourceRow": "229",
+    "name": "Bomber BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Bomber BOGO\" / \"Regular\" (code 8052530220412). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "CKV2SHWIY7BXZPYD5Q3VLVYA",
+    "sourceRow": "260",
+    "name": "Chicken Balloon Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Chicken Balloon Bogo\" / \"Regular\" (code 887946050135). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "JV4RAMJ3YYQSBMJGOV3LQC7H",
+    "sourceRow": "268",
+    "name": "Class Crackers 50ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Class Crackers 50ct BOGO\" / \"Regular\" (code 8052530052310). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "AHWAKFTGBPF373W5QDDGRP75",
+    "sourceRow": "275",
+    "name": "Color Pearl Roman Candles BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Color Pearl Roman Candles BOGO\" / \"Regular\" (code 8145270121726). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "COXDJRGHTJG3HD2HXGP232WI",
+    "sourceRow": "276",
+    "name": "Color Pearl With Bang Boomer-10 Ball BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 8052530180426 occurs in the retrieved product/source \"10 Ball Bang Candle | Four Pack of 10 Shot Candles\". Square records \"Color Pearl With Bang Boomer-10 Ball BOGO\" / \"Regular\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://usa-fireworks.com/wp-content/uploads/2026/09/original-36.jpeg ([435, 636]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "47HJ4LUC2CLMGPTPX4I2RA2M",
+    "sourceRow": "277",
+    "name": "Color Pearl With Bang Boomer-10 Ball BOGO",
+    "variation": "Color Pearl Boomer With Bang-10 Ball",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Color Pearl With Bang Boomer-10 Ball BOGO\" / \"Color Pearl Boomer With Bang-10 Ball\" (code 8052530180419). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "CARIESHRS7Z7SZK7NJTLEP7M",
+    "sourceRow": "295",
+    "name": "Crackling Ball 6pc Bogo.",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 8145270182611 occurs in the retrieved product/source \"Crackling Balls | Pack of 6\". Square records \"Crackling Ball 6pc Bogo.\" / \"Regular\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://usa-fireworks.com/wp-content/uploads/2026/09/original-6.jpg ([300, 300]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "FJT7BZ4ZU7GAW6WHFWBJ3JBT",
+    "sourceRow": "302",
+    "name": "Cuckoo BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Cuckoo BOGO\" / \"Regular\" (code 887946041485). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "OG3TJTR7VFJSVHKTSYLMUMWX",
+    "sourceRow": "303",
+    "name": "Cuckoo BOGO",
+    "variation": "Cuckoo 6 Pack",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Cuckoo BOGO\" / \"Cuckoo 6 Pack\" (code 887946041423). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "LYTQRC7FSGFBEKFPO6JB4QR6",
+    "sourceRow": "308",
+    "name": "Cutting Edge Firecrackers 200ct BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Cutting Edge Firecrackers 200ct BOGO\" / \"Regular\" (code 8145270100813). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "EUGR467EG6YBC7IZANAOIYUQ",
+    "sourceRow": "340",
+    "name": "Electric Sparklers ",
+    "variation": "Electric Sparklers BOGO",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identified_missing_image",
+    "reason": "The Winco UPC record identifies separate green/blue/red 10-inch electric wire sparkler eight-packs. Search candidates show Shogun bamboo sparklers or mixed colors, which cannot replace these wire/color variants."
+  },
+  {
+    "token": "2OR3O44WVF5KVALIHJFA3LOR",
+    "sourceRow": "351",
+    "name": "Extra Small Missile BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Extra Small Missile BOGO\" / \"Regular\" (code 725272730737). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "3JVV4TVKAANYSUX3UJ6L745V",
+    "sourceRow": "369",
+    "name": "Flashing Strobe 6pc BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Flashing strobe lights - BEM Fireworks - www.bem.ca\"), but no consulted product page establishes the Square code 887946050043, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "LCIBT3AGJHZW4U3DKXCPZC7Q",
+    "sourceRow": "370",
+    "name": "Flashing Strobes Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Flashing Strobes - Pfannenberg USA\"), but no consulted product page establishes the Square code 910006681229, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "2CYKZ3ADBOY7HQ3VRW2OTG76",
+    "sourceRow": "385",
+    "name": "Freedom Wings BOGO Fountain",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "freedoms-wings"
+    ],
+    "sameCodeCandidates": [
+      "freedoms-wings"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square row 385, token 2CYKZ3ADBOY7HQ3VRW2OTG76, code 705108603602, name 'Freedom Wings BOGO Fountain'; manufacturer model P6036 and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval."
+  },
+  {
+    "token": "LLVKRTYFYMMNXUONBBVVBGGP",
+    "sourceRow": "447",
+    "name": "Hen Laying Egg BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Hen Laying Egg \u2013 Helm Fireworks\"), but no consulted product page establishes the Square code 943100700039, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "PCBVWGLH76TMB2THUXTY6OVG",
+    "sourceRow": "448",
+    "name": "Hen Laying Eggs. BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Hen Laying Egg \u2013 Helm Fireworks\"), but no consulted product page establishes the Square code 000701613295, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "63ABDUN5QZKYCRCKJWCMX43N",
+    "sourceRow": "513",
+    "name": "Jumping Jacks Single Pack BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Jumping Jacks Single Pack BOGO\" / \"Regular\" (code 725272730720). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "X7P67M6U25SNAVKSLJSSR6XU",
+    "sourceRow": "553",
+    "name": "M-150BlackCat 12 ct.   BOGO $6.00 TOTAL",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "m150-red-12-pack"
+    ],
+    "sameCodeCandidates": [
+      "m150-red-12-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square code 715244001170 matches the current Winco supplier UPC after removing display hyphens. Original name 'M-150BlackCat 12 ct.   BOGO $6.00 TOTAL', variant 'Regular', actual packaging and retail count were compared visually and against supplier packing; no retailer SKU equality alone is used."
+  },
+  {
+    "token": "WXWPSN4ND2Z3WGEC2GAJCWE6",
+    "sourceRow": "556",
+    "name": "M-5000 Salute Cracker 12 pcs BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "m-5000-world-class-12-pack"
+    ],
+    "sameCodeCandidates": [
+      "m-5000-world-class-12-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square row 556, code 8052530020319, original name 'M-5000 Salute Cracker 12 pcs BOGO' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The retailer heading says M-60 style, but the actual package is M-5000 and Square explicitly identifies the World-Class 12-pack. Do not reuse 36- or 72-pack photos."
+  },
+  {
+    "token": "RSRJ5PRTCUG52YISOMQOF4VO",
+    "sourceRow": "566",
+    "name": "Magic Bunny_BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Magic Bunny_BOGO\" / \"Regular\" (code 705108700714). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "NNYHMJELCPBMXZXPPDDZYQXP",
+    "sourceRow": "597",
+    "name": "Mighty Cracker 100pc BOGO",
+    "variation": "30",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 8052530054413 occurs in the retrieved product/source \"Mighty Crackers | 100 Count\". Square records \"Mighty Cracker 100pc BOGO\" / \"30\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://usa-fireworks.com/wp-content/uploads/2026/09/original-279.png ([514, 589]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "FAKGVMBHNQU7F7YPGIINCLPD",
+    "sourceRow": "598",
+    "name": "Mighty Cracker 100pc BOGO",
+    "variation": "Mighty Crackers",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Mighty Cracker 100pc BOGO\" / \"Mighty Crackers\" (code 821600001156). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "LC6EYG7KJQI7FT56KOSTYUHV",
+    "sourceRow": "613",
+    "name": "Morning Glory Sparklers 6pk Individual BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"36\" Morning Glory Sparkler | Sparklers | Flashing Fireworks\"), but no consulted product page establishes the Square code 943100700053, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "6BTYAYIO5UUJFVNMMQEP246T",
+    "sourceRow": "636",
+    "name": "Neon Sparklers BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Neon Sparklers\"), but no consulted product page establishes the Square code 705108900404, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "7RIYCJGG6FJG6T7TPECJK5LN",
+    "sourceRow": "657",
+    "name": "Outer Space Craft-BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Outer Space Craft-BOGO\" / \"Regular\" (code 043100700098). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "RUDFKSIOWOO6EYLP2XIK2POM",
+    "sourceRow": "668",
+    "name": "Party Popper BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "party-poppers-6-pack"
+    ],
+    "sameCodeCandidates": [
+      "party-poppers-6-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square code 715244034161 matches the current Winco supplier UPC after removing display hyphens. Original name 'Party Popper BOGO', variant 'Regular', actual packaging and retail count were compared visually and against supplier packing; no retailer SKU equality alone is used."
+  },
+  {
+    "token": "YDXTBSQMDNA3CAACFFFV3M7G",
+    "sourceRow": "669",
+    "name": "Party Popper BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Champagne Party Popper Fireworks, China Champagne Party Popper Fireworks Manufacturers, Suppliers, Factory - Liuyang Champion Fireworks Manufacture Co.,Ltd.\"), but no consulted product page establishes the Square code [missing], brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "BSTVNCI44CC3KJXN4HLCGHUS",
+    "sourceRow": "681",
+    "name": "Penguin Mama Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Penguin Mama Bogo\" / \"Regular\" (code 193936959730). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "DBKP4RU3O2KESZZFVHZI7XGX",
+    "sourceRow": "686",
+    "name": "Pixie Stick Sparklers Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pixie Stick Sparklers Bogo\" / \"Regular\" (code 725272730911). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "HEVVANDGFEVR76YPE7NPSCEM",
+    "sourceRow": "725",
+    "name": "Pyro Pops BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"Regular\" (code 649762148430). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "RBNKNZOCMLTGXG2TRQWWRYBN",
+    "sourceRow": "726",
+    "name": "Pyro Pops BOGO",
+    "variation": "pyro pops",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"pyro pops\" (code 649762148454). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "CFGCQ6R3T7XOKG2TA2GCQGM7",
+    "sourceRow": "727",
+    "name": "Pyro Pops BOGO",
+    "variation": "pyro pops",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"pyro pops\" (code 649762148447). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "NSKKJTQHV66B4EOJMDLAPZNP",
+    "sourceRow": "728",
+    "name": "Pyro Pops BOGO",
+    "variation": "pyro pops",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"pyro pops\" (code 649762148478). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "GQIO43RFQ7PK5X5KJBYXTQQ7",
+    "sourceRow": "729",
+    "name": "Pyro Pops BOGO",
+    "variation": "pyro pops",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"pyro pops\" (code 649762148423). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "BF3Z4FAZ36XGLL4UMBOLSW7S",
+    "sourceRow": "730",
+    "name": "Pyro Pops BOGO",
+    "variation": "pyro pops",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Pyro Pops BOGO\" / \"pyro pops\" (code 649762148461). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "NP7PKBMF4KLRVRQWCBMOS66A",
+    "sourceRow": "751",
+    "name": "Red White Blue Snapper Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Snappers-American Colored Snappers \u2013 Cindy's Fireworks\"), but no consulted product page establishes the Square code 847294039831, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "7DSXP5SAKK7GOJF6OJXJAXHC",
+    "sourceRow": "752",
+    "name": "Red White Blue Snapper Bogo",
+    "variation": "Box RWB SNAPS",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Red White Blue Snapper Bogo\" / \"Box RWB SNAPS\" (code 847294085982). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "H6MAG6RQ7MRYH3J75RJXMYTA",
+    "sourceRow": "760",
+    "name": "Roma Candle (8 ball/4Pack)  BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"8 ball roman candle Manufacturer & Supplier in China - Happy Fireworks\"), but no consulted product page establishes the Square code 680149022288, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "VI6MKFDJY44SCVZ2HFWQG53R",
+    "sourceRow": "831",
+    "name": "Smoke Grenade  2pc BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"SNOV2046 PULLING COLOR SMOKE GRENADE - Smoke & Snakes - USA Consumer Fireworks - Smoke & Snakes - USA Consumer Fireworks - SHOGUN | VULCAN fireworks manufacturer\"), but no consulted product page establishes the Square code 8145270186817, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "UBCURPSLOYG22MXQUSCEACJ2",
+    "sourceRow": "836",
+    "name": "Snappers BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identified_missing_image",
+    "reason": "Cutting Edge Snappers UPC 814527018621 / 340 / 40-count identity is known. The available candidate is a wholesale display rather than an isolated forty-count consumer package."
+  },
+  {
+    "token": "2AARIAYAE44WQKSSNH7V2PBO",
+    "sourceRow": "837",
+    "name": "Snaps BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"ST8500 SNAPPERS - Party Poppers & Snaps - USA Consumer Fireworks - Party Poppers & Snaps - USA Consumer Fireworks - SHOGUN | VULCAN fireworks manufacturer\"), but no consulted product page establishes the Square code 888000085001, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "EOQSDKHNYNKDGEYU7SYZDMGF",
+    "sourceRow": "848",
+    "name": "Space Cowboy Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 805253407923 occurs in the retrieved product/source \"Space Cowboy\". Square records \"Space Cowboy Bogo\" / \"Regular\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://beta2024.usa-fireworks.com/wp-content/uploads/2024/02/original-8.jpeg ([494, 239]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "TMJFW6QOYHZPIJO2AYYQES7X",
+    "sourceRow": "852",
+    "name": "Sparklers Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Asoksparklers|Sparklers Fireworks|Sparklers Wholesale Online\"), but no consulted product page establishes the Square code 6950165424101, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "CPOOOXF72UNGR6EWAXHK26JF",
+    "sourceRow": "853",
+    "name": "Sparklers Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "identity_confirmation_needed",
+    "reason": "Name/presentation research returned candidates (including \"Asoksparklers|Sparklers Fireworks|Sparklers Wholesale Online\"), but no consulted product page establishes the Square code 849107066041, brand and exact variant together. The Dynamite name candidates remain unconfirmed."
+  },
+  {
+    "token": "MUEHSXEB6KR5V6ISJ5TUEKHJ",
+    "sourceRow": "854",
+    "name": "Sparklers Bogo",
+    "variation": "Sparklers No.8 BOGO",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Sparklers Bogo\" / \"Sparklers No.8 BOGO\" (code 849107066041). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "YSJXWKAANWCTCMQCEY3JQUXK",
+    "sourceRow": "875",
+    "name": "Super Snap Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Super Snap Bogo\" / \"Regular\" (code 715244003365). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "4CDHEXAIGFVHBCKYZPZPMEUW",
+    "sourceRow": "926",
+    "name": "Two Color Spaceship Bogo",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "candidate_requires_package_review",
+    "reason": "Code 8145270182413 occurs in the retrieved product/source \"Two Color Spaceship | Single Aerial Spinner\". Square records \"Two Color Spaceship Bogo\" / \"Regular\"; this is a candidate, not a confirmed retail-package crosswalk. Inspected reference https://usa-fireworks.com/wp-content/uploads/2026/09/original-576.png ([325, 255]); its background is opaque and no faithful transparent exact-unit resource was approved."
+  },
+  {
+    "token": "DXLAVO75BIV7EE5NVWMNZOG7",
+    "sourceRow": "935",
+    "name": "Unicorn Chaser_BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [
+      "unicorn-chaser-2-pack"
+    ],
+    "sameCodeCandidates": [
+      "unicorn-chaser-2-pack"
+    ],
+    "reconciliationStatus": "incorporated",
+    "reason": "Square row 935, code 680149048431, original name 'Unicorn Chaser_BOGO' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted."
+  },
+  {
+    "token": "SCYFUPEUZPM64WQU4QBY6NKC",
+    "sourceRow": "986",
+    "name": "Zangers BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Zangers BOGO\" / \"Regular\" (code 887946030311). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "K4U6AWT3ZSCB7UMQSFTHNS2T",
+    "sourceRow": "988",
+    "name": "Zing. BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"Zing. BOGO\" / \"Regular\" (code 69400360). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  },
+  {
+    "token": "MCBS7WIPTOROQZQTI2VDVBOC",
+    "sourceRow": "1014",
+    "name": "glow pops BOGO",
+    "variation": "Regular",
+    "exactPublishedIds": [],
+    "sameCodeCandidates": [],
+    "reconciliationStatus": "no_verified_identity",
+    "reason": "Code and name/presentation searches did not establish an exact product for Square \"glow pops BOGO\" / \"Regular\" (code 688130233668). No verified manufacturer/package image or exact model was found; generic/store identifiers cannot determine identity."
+  }
+]

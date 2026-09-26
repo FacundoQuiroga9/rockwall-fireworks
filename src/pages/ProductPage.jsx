@@ -1,11 +1,14 @@
 import BogoBadge from '../components/productCarousel/BogoBadge';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import './PlaygroundPage.css';
+import playgroundIndex from '../data/playgroundIndex.json';
 import products from '../data/products.json';
 import { usePageMetadata } from '../hooks/usePageMetadata';
 import { useCatalogFavorites } from '../hooks/useCatalogFavorites';
-import { youtubeVideoId } from '../utils/productVideo';
+import { PRODUCT_VIDEO_ANCHOR, productVideoPath, youtubeVideoId } from '../utils/productVideo';
 import './ProductsPage.css';
+import { durationLabel } from '../shared/playgroundPresentation';
 import AddToList from '../components/myList/AddToList';
 import BrandMark from '../components/productCarousel/BrandMark';
 import '../components/productCarousel/ProductCard.css';
@@ -18,7 +21,7 @@ function ProductVideo({ product }) {
     if (playing) player.current?.focus();
   }, [playing]);
   return (
-    <section className="product-video" aria-labelledby="video-title">
+    <section id={PRODUCT_VIDEO_ANCHOR} className="product-video" aria-labelledby="video-title">
       <p className="eyebrow">See it in action</p>
       <h2 id="video-title">{product.name} demo</h2>
       {id && (
@@ -41,6 +44,7 @@ function ProductVideo({ product }) {
           )}
         </div>
       )}
+      <p className="product-video-help">If this video is unavailable here or embedding is disabled, you can watch it on YouTube.</p>
       <a href={product.previewVideo} target="_blank" rel="noopener noreferrer">
         Watch on YouTube<span className="sr-only"> (opens a new tab)</span>
       </a>
@@ -101,9 +105,11 @@ export default function ProductPage() {
                 {product.features.map((fact) => <li key={fact}>{fact}</li>)}
               </ul>
             )}
+            {product.demonstration && <section className="detail-demonstration" aria-label="Product effects"><h2>{product.demonstration.scope.includes('shell') ? 'Shell sample' : 'The effect'}</h2><p>{product.demonstration.summary}</p><p>{durationLabel(product.demonstration)}{product.demonstration.confirmedShots ? ` · ${product.demonstration.confirmedShots} shots` : ''}</p><Link to={productVideoPath(product)}>Watch the reference</Link></section>}
             <button className="detail-favorite" type="button" aria-pressed={favorite} onClick={() => toggle(product.id)}>
               {favorite ? 'Saved to favorites' : 'Save to favorites'}
             </button>
+            {playgroundIndex.some((profile) => profile.productId === product.id) && <p><Link className="detail-back" to={`/playground?product=${product.id}`}>Explore this effect in the Playground →</Link></p>}
             <div className="detail-list-action"><AddToList product={product} /><Link to="/my-list">Review My List →</Link></div>
             <p className="catalog-local-note">Saved in this browser. No account required.</p>
             {error && <p role="alert">Favorites could not be saved. Check your browser storage settings.</p>}

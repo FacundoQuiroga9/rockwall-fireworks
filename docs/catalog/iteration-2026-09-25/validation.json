@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-25",
+  "products": 302,
+  "bogoIdentified": 8,
+  "automaticBogoBenefits": 0,
+  "newVideos": 68,
+  "productsWithVideo": 226,
+  "missingVideos": 76,
+  "imageUpgrades": 11,
+  "cakeClassPending": 4,
+  "webTests": {
+    "passed": 90,
+    "failed": 0
+  },
+  "appTests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "catalogSync": "PASS",
+  "catalogParity": "PASS per ID/field/video/asset/shared module",
+  "webLint": "PASS",
+  "webBuild": "PASS",
+  "appTypecheck": "PASS",
+  "appLint": "PASS",
+  "expoExport": [
+    "android",
+    "ios",
+    "web"
+  ],
+  "nativeRuntime": "NOT VERIFIED: CoreSimulatorService denied connection",
+  "pdfRenderedPages": 11,
+  "browserViewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "browserConsole": "No site errors or warnings observed",
+  "reducedMotion": "Static CSS and existing tests; no runtime reduce emulation",
+  "htaccess": "Original bytes preserved in dist; no Hostinger deployment",
+  "limitations": [
+    "Fountastic official image download denied by browser permission control; no bypass. Generated edit rejected for altered lettering.",
+    "76 videos pending; per-row report distinguishes new research from historical review.",
+    "25 image resources below 350px retained; larger detail remains limited.",
+    "2026 offers expired/incomplete; none publicly selectable.",
+    "App share sheet and external-video open not verified on native device."
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "captain-sam",
+    "name": "Captain Sam",
+    "image": "/images/products/captain-sam.webp",
+    "reviewedAt": "2026-09-25",
+    "status": "confirmed",
+    "evidence": "Official Brothers video BP2228 Captain Sam 30 shots explicitly describes 200G Parachute Cake. Exact BP2228 model, 30 shots and daytime parachute presentation match the catalog and Square SKU 687985222810. Overrides the conflicting Square 500 Gram merchandising classification; not based on packaging weight or appearance.",
+    "sources": [
+      "https://www.youtube.com/watch?v=uuczVlBEGB4",
+      "https://www.brotherspyrotechnics.com/ProductDetails/625"
+    ],
+    "fields": {
+      "category": "200g Cakes",
+      "cakeClass": {
+        "status": "confirmed",
+        "grams": 200
+      }
+    }
+  },
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "image": "/images/products/mass-confusion.webp",
+    "reviewedAt": "2026-09-25",
+    "status": "unconfirmed",
+    "evidence": "Conflicting presentations: reconciled Square SKU 715244065356 calls this 500 Gram; Independence Day 2026 flyer p2 artwork says 200G on the 45-shot Black Cat package. Winco exact UPC 715244065356 / MEBC6535 / 45 shots is Multi-Shot Up to 500 Gram, a range rather than an exact 500g classification. Neither shipping weight nor the flyer panel heading resolves the specific stock variant. Store confirmation is required. Preserve 45-shot identity and do not force either class.",
+    "sources": [
+      "https://www.wincofireworks.com/product/mass-confusion/",
+      "../../../rf coupons.pdf#page=2",
+      "../2026-08-square/"
+    ],
+    "fields": {
+      "category": "Cakes - Size Unconfirmed",
+      "presentation": "45 shots",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    }
+  }
+]

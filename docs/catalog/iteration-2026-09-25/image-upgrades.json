@@ -1,0 +1,123 @@
+[
+  {
+    "id": "diwali-dazzler",
+    "name": "Diwali Dazzler",
+    "source": "docs/catalog/enrichment-2026-09/references/diwali-dazzler-original.png",
+    "sourceSha256": "2780d8c1adbc81b2ce8cecf98e663706b7d43536b1c87c44d1129f617552201e",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/diwali-dazzler.webp",
+    "previousSha256": "a158dff2b71062f5a23251f9b3686aba85f0575d026d56c88009c5c43dbecb70",
+    "previousWidth": 567,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "snow-cone",
+    "name": "Snow Cone",
+    "source": "docs/catalog/enrichment-2026-09/references/snow-cone-original.png",
+    "sourceSha256": "b21604b12ee17e41dde55df7bc4d369017bba57185fe4eeec44c7f411db3ab26",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/snow-cone.webp",
+    "previousSha256": "25f0af18de56397863fd8b00108d47e824df4bbfda8586fc6fa7393fce29a190",
+    "previousWidth": 594,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "eagle-pride",
+    "name": "Eagle Pride",
+    "source": "docs/catalog/enrichment-2026-09/references/eagle-pride-original.png",
+    "sourceSha256": "0c86a0b2a014de73d029a2cfa718484cf3141b419c00b405b17aca9d77aadffa",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/eagle-pride.webp",
+    "previousSha256": "fa74c4662f90439d5e667103f7340e117bda732f176600c5315ad2da0f5f690f",
+    "previousWidth": 599,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "america-first",
+    "name": "America First",
+    "source": "docs/catalog/enrichment-2026-09/references/america-first-original.png",
+    "sourceSha256": "8539bb123f3d6f0d08f22f9d91d86ba1f70643c4b994ffe0f1b22da72e3a8856",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/america-first.webp",
+    "previousSha256": "f582bd1e8bb497a220727c889fd130950d7ffb45ffeb8e84db6ed40335ed59b4",
+    "previousWidth": 640,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "us-power",
+    "name": "U.S. Power",
+    "source": "docs/catalog/enrichment-2026-09/references/us-power-original.png",
+    "sourceSha256": "8d6996550d29e1418a889924029c897dc5fd3a8731bcdac74df93fa7162675aa",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/us-power.webp",
+    "previousSha256": "7a20fdf5084ce141cf4d757dd147deb42fdba5bc8f1915c3f9a4b559c4266409",
+    "previousWidth": 580,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "3-min",
+    "name": "3 Min",
+    "source": "docs/catalog/enrichment-2026-09/references/3-min-original.png",
+    "sourceSha256": "0164f337500cfac9f31adbfc53c758048f9322738381516288c83b21ffb964a8",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/3-min.webp",
+    "previousSha256": "d46a5d61e83778f8f12d9cf6a70fda4d420c0c565b7f7c1722f3d9c07af38d3c",
+    "previousWidth": 464,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "ladybugs-3-pack",
+    "name": "Ladybugs",
+    "source": "docs/catalog/enrichment-2026-09/references/ladybugs-3-pack-original.png",
+    "sourceSha256": "83f34bf932f33eccdffabf70714fceb86725c460266d7c92f59770256dbed5b9",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/ladybugs-3-pack.webp",
+    "previousSha256": "72871039519b5eca80a57f0aa5892dd5d6277c285b4ec4d4dd29a4fac10beabb",
+    "previousWidth": 632,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "blond-joke",
+    "name": "Blond Joke",
+    "source": "docs/catalog/enrichment-2026-09/references/blond-joke-original.png",
+    "sourceSha256": "fbb9e4ea7b3ed563073969e72fe424a4ef0aab4698c640aad435cc97cccf53ef",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/blond-joke.webp",
+    "previousSha256": "d459d3716c9895cc3a35232e912615f17592f283b611290cef4631f7b30fc592",
+    "previousWidth": 598,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "source": "docs/catalog/enrichment-2026-09/references/land-of-the-free-original.png",
+    "sourceSha256": "3732bffc83cff40393195e14024039a8f61fb3d2527c22f60d21610ef4f8c0bf",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/land-of-the-free.webp",
+    "previousSha256": "d46f0a55de668dba9685c98e7c7019be4d563b84b5bc51d75366c30ea920a079",
+    "previousWidth": 583,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "usa-saturn-missile-battery",
+    "name": "USA Saturn Missile Battery",
+    "source": "docs/catalog/enrichment-2026-09/references/usa-saturn-missile-battery-original.png",
+    "sourceSha256": "bdb7d605f76e5d0087d32193fa1dfc16056e3d9d17ff91bde7e7764668144e51",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/usa-saturn-missile-battery.webp",
+    "previousSha256": "d837eef0ff72617f43bb684ba2ff488975c830f69334da7a824eff2b0c354de8",
+    "previousWidth": 640,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  },
+  {
+    "id": "no-3-cone-fountain-2-pack",
+    "name": "No. 3 Cone Fountain",
+    "source": "docs/catalog/enrichment-2026-09/references/no-3-cone-fountain-2-pack-original.png",
+    "sourceSha256": "ee1fe3c2a40b01892f40e86bd87bb88852e645c4eac52e4677f68b3a1e851f97",
+    "previous": "docs/catalog/iteration-2026-09-25/image-originals/no-3-cone-fountain-2-pack.webp",
+    "previousSha256": "2a954c341d9185b630fd684498a5ecff9885349bd1e002edc5bbe24bb5ac5b45",
+    "previousWidth": 614,
+    "method": "Higher-resolution derivative of the same approved manufacturer photograph; alpha-aware reframing only. No synthesis, invented faces or labels. Existing category occupancy preserved.",
+    "status": "approved"
+  }
+]

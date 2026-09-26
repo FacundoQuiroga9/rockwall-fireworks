@@ -1,0 +1,16 @@
+{
+  "mode": "dense",
+  "compact": false,
+  "quality": "high",
+  "frames": 601,
+  "elapsedSeconds": 10,
+  "fps": 60.1,
+  "meanDrawMs": 0.216,
+  "p95DrawMs": 0.7000000029802322,
+  "maxDrawMs": 1.7999999970197678,
+  "maxParticles": 1000,
+  "canvas": "1280 × 640 CSS px",
+  "dpr": 2,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+  "concurrency": 8
+}

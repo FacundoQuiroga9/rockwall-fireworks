@@ -1,0 +1,3 @@
+# Preserve PDF byte offsets and keep generated CSV reports consistent in Git.
+*.pdf binary
+*.csv text eol=lf

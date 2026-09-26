@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "os": "macOS 26.5.2",
+    "browser": "Chrome, desktop automation session",
+    "hardware": "Model unavailable: sysctl rejected by environment",
+    "physicalDevice": false
+  },
+  "measurements": [
+    {
+      "products": [
+        "bump-bear",
+        "band-of-brothers"
+      ],
+      "quality": "high",
+      "profileSeconds": 33.8,
+      "drawnFps": 59.9,
+      "meanCanvasDrawMs": 0.46,
+      "surface": "web desktop iframe",
+      "note": "Observed runtime Performance output after completion. Canvas CPU draw time, not compositor/GPU time or a mobile benchmark."
+    },
+    {
+      "products": [
+        "ghostacular-24-pack",
+        "maelstrom-24-pack"
+      ],
+      "quality": "balanced",
+      "profileSeconds": 4.8,
+      "drawnFps": 29.6,
+      "meanCanvasDrawMs": 0.34,
+      "surface": "compact HTML engine in desktop Chrome at 390x844",
+      "note": "Same offline document used by native WebView, viewed in a browser. This does not validate native WebView, touch, device audio or native performance."
+    }
+  ],
+  "nativeValidation": "Not executed: Metro cannot bind 127.0.0.1:8087 (EPERM). Simulator runtime and devices are installed but none was booted. Native fluidity and lifecycle remain pending."
+}

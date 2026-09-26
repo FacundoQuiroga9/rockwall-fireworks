@@ -1,0 +1,313 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Controlled fireworks demonstration</title><style>
+*{box-sizing:border-box}html,body{margin:0;background:#080f20;color:#f3f1ec;font:14px system-ui,sans-serif}body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidden}button,select,input{font:inherit}button,select{min-height:44px;padding:7px 14px;color:#f4f1eb;background:#18243b;border:1px solid #52617c;border-radius:8px;cursor:pointer}button:hover{border-color:#f8bf70}button:disabled{opacity:.45;cursor:default}button[aria-pressed=true],#play{border-color:#edb25e;color:#ffcb83;background:#332b28}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ffca7b;outline-offset:3px}.stage{position:relative;flex:1;min-height:150px;isolation:isolate;background:radial-gradient(ellipse at 50% 90%,#293d60 0,transparent 72%),linear-gradient(#050915,#101d35);overflow:hidden}.stars{position:absolute;inset:0;opacity:.4;background-image:radial-gradient(1px 1px at 12% 23%,#fff 90%,transparent),radial-gradient(1px 1px at 38% 11%,#d5e5ff 90%,transparent),radial-gradient(1px 1px at 71% 38%,#fff 90%,transparent),radial-gradient(1px 1px at 93% 14%,#fff 90%,transparent);background-size:217px 179px}.city{position:absolute;bottom:calc(-1 * min(12vw,160px));left:0;width:100%;height:auto;opacity:.7;pointer-events:none}.haze{position:absolute;inset:70% 0 0;background:linear-gradient(transparent,#0a1528d9);pointer-events:none}.ground{background:radial-gradient(ellipse at 50% 100%,#27302d,transparent 60%),#050b14}.ground .terrain{position:absolute;inset:84% 0 0;background:linear-gradient(#1e2625,#080e14);border-top:1px solid #64756a38}.ground .stars{opacity:.18}canvas{position:absolute;inset:0;width:100%;height:100%}.labels{position:absolute;inset:auto 0 8px;display:flex;pointer-events:none;justify-content:space-evenly;gap:6px;padding:0 12px}.pane-label{min-width:0;flex:1;text-align:center;max-width:28%;font-size:11px;line-height:1.35;text-shadow:0 1px 4px #000}.pane-label strong{display:block;color:#ffcd88}.pane-label span{color:#c2cbda}.empty{position:absolute;inset:25% 8% auto;text-align:center;color:#d8cfbd;font-size:18px}.controls{flex:none;padding:10px 16px;background:#0e182b;border-top:1px solid #344158}.row{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.row+.row{margin-top:8px}progress{width:100%;height:5px;accent-color:#f4bb6d;margin:9px 0}#time{font-variant-numeric:tabular-nums;color:#e7d0ae;white-space:nowrap}#state{margin-left:auto;color:#c2cce0;font-size:12px}label{display:flex;gap:6px;align-items:center;font-size:12px}input[type=range]{width:82px;accent-color:#ffc373;min-height:28px}#quality{font-size:12px;padding:5px;min-height:36px}.minor{color:#aebbce;font-size:11px;line-height:1.5;margin:6px 0 0}#motion-note{color:#ffcd88;margin:0 0 8px;font-size:12px}details{font-size:11px;color:#adbad0;margin-top:5px}summary{cursor:pointer;min-height:24px}@media(max-width:500px){.controls{padding:9px}.row{gap:5px}button{padding:6px 9px}#state{display:none}.pane-label{font-size:10px}.pane-label span{display:none}.minor{font-size:10px}}@media(min-width:650px) and (max-height:500px){.controls{padding:6px 10px}.controls .minor,.controls details{display:none}.controls .row{margin:0;display:inline-flex}.controls .audio-row{float:right}progress{display:block;margin:5px 0}#state{display:none}.city{bottom:-17vw}.pane-label span{display:none}}
+</style></head><body><div class="stage "><div class="stars" aria-hidden="true"></div><img class="city" src="/images/hero/dallas-skyline-1440.webp" alt=""/><div class="haze"></div><canvas id="sky" aria-label="Illustrative fireworks in a shared scene. Positions correspond to the product labels."></canvas><div class="labels"><div class="pane-label"><strong>1 · Bump Bear</strong><span>Full cake sequence · ≈ 24.3s</span></div><div class="pane-label"><strong>2 · Band of Brothers</strong><span>Full cake sequence · ≈ 33.8s</span></div><div class="pane-label"><strong>3 · Daffodil</strong><span>Demo excerpt · ≈ 28.4s</span></div><div class="pane-label"><strong>4 · Ghost Dragon</strong><span>Demo excerpt · ≈ 34.8s</span></div></div></div><section class="controls" aria-label="Playback controls"><p id="motion-note" hidden>Reduced motion: explore still moments or choose Play animation.</p><div class="row playback-row"><button id="play">Play selection</button><button id="restart">Restart</button><button id="moment">Still moment</button><output id="time" aria-live="off"></output><span id="state" role="status"></span></div><progress id="progress" aria-label="Demonstration progress"></progress><div class="row audio-row"><button id="sound" aria-pressed="false">Sound off</button><label>Volume<input id="volume" aria-label="Sound volume" type="range" min="0" max="1" step=".05" value=".35"/></label><label>Quality<select id="quality"><option value="auto">Auto</option><option value="balanced">Balanced</option><option value="low">Low</option></select></label></div><p class="minor" id="sound-note">Sound starts off. Enable it to hear synthesized cues.</p><details><summary>Performance</summary><output id="metrics" aria-live="off">Ready to measure during playback.</output></details></section><script>((config) => (function mountPlayground(config, makeTimeline, makeRenderer, makeAudio) {
+  const $ = (id) => document.getElementById(id);
+  const clock = makeTimeline(config.profiles);
+  const renderer = makeRenderer($('sky'), config.profiles, config.compact);
+  const audio = makeAudio();
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  let reduced = config.reducedMotion || motion.matches;
+  let animationChosen = false;
+  let lastKnownTime = performance.now();
+  let raf = 0, previousFrame = 0, previousReport = 0, sound = false, disposed = false;
+  let frames = 0, totalCost = 0, maxCost = 0, particles = 0, quality = config.compact ? 'balanced' : 'high';
+  let elapsedFrames = 0, firstFrame = 0, metrics = null;
+  const send = (payload) => {
+    const message = JSON.stringify({ type: 'rockwall-playground', ...payload });
+    if (globalThis.ReactNativeWebView) globalThis.ReactNativeWebView.postMessage(message);
+    else parent.postMessage(JSON.parse(message), '*');
+  };
+  const format = (n) => `${Math.floor(n / 60)}:${String(Math.floor(n % 60)).padStart(2, '0')}`;
+  function update() {
+    const state = clock.snapshot();
+    $('play').textContent = state.state === 'playing' ? 'Pause' : state.state === 'ended' ? 'Replay' : reduced && !animationChosen ? 'Play animation' : state.state === 'paused' ? 'Continue' : 'Play selection';
+    $('play').disabled = !state.selected.length; $('restart').disabled = !state.selected.length; $('moment').disabled = !state.selected.length;
+    $('progress').max = state.duration; $('progress').value = state.position;
+    $('time').textContent = `${format(state.position)} / ≈ ${format(state.duration)}`;
+    $('progress').setAttribute('aria-valuetext', `${state.position.toFixed(1)} of approximately ${state.duration.toFixed(1)} seconds`);
+    const label = state.state === 'ended' ? 'Demonstration complete' : state.state === 'playing' ? 'Playing' : state.state === 'paused' ? 'Paused' : 'Ready · press Play selection';
+    if ($('state').textContent !== label) $('state').textContent = label;
+    document.querySelectorAll('[data-mode]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.mode === (state.selected.length > 1 ? 'all' : String(state.selected[0])))));
+    document.querySelectorAll('.pane-label').forEach((label, i) => { label.style.opacity = state.selected.includes(i) ? '1' : '.4'; });
+    send({ state: state.state, position: state.position, duration: state.duration, metrics });
+  }
+  function stop(useLastFrame = false) {
+    // A native background command can arrive after the WebView was suspended.
+    // Freeze the last rendered time rather than counting time spent in background.
+    clock.pause(useLastFrame === true ? lastKnownTime : performance.now()); cancelAnimationFrame(raf); raf = 0; audio.suspend();
+    renderer.draw(clock.snapshot().position, clock.snapshot().selected); update();
+  }
+  function frame(now) {
+    if (disposed || clock.snapshot().state !== 'playing') return;
+    // A stalled frame cannot produce a catch-up audio barrage.
+    const gap = previousFrame ? now - previousFrame : 0;
+    lastKnownTime = now;
+    const state = clock.tick(now);
+    if (gap < 250) state.cues.forEach((cue) => { if (state.position - cue.time < .15) audio.cue(cue.type, cue.event); });
+    const interval = config.compact || quality === 'low' ? 1000 / 30 : 1000 / 60;
+    if (now - previousFrame >= interval - 1 || state.state === 'ended') {
+      previousFrame = now;
+      const before = performance.now(); particles = renderer.draw(state.position, state.selected);
+      const cost = performance.now() - before; frames++; totalCost += cost; maxCost = Math.max(maxCost, cost);
+      if (!firstFrame) firstFrame = now; else elapsedFrames++;
+      if ($('quality').value === 'auto' && cost > 15 && frames > 12) { quality = 'low'; renderer.setQuality(quality); }
+    }
+    if (now - previousReport > 300 || state.state === 'ended') {
+      previousReport = now;
+      metrics = { frames, fps: firstFrame && now > firstFrame ? +(elapsedFrames * 1000 / (now - firstFrame)).toFixed(1) : 0, meanDrawMs: frames ? +(totalCost / frames).toFixed(2) : 0, maxDrawMs: +maxCost.toFixed(2), particles, quality, simultaneousProducts: state.selected.length, width: Math.round($('sky').clientWidth), height: Math.round($('sky').clientHeight) };
+      $('metrics').textContent = `${metrics.fps} drawn fps · ${metrics.meanDrawMs} ms mean draw · ${quality} · ${particles} particles`;
+      update();
+    }
+    if (state.state === 'playing') raf = requestAnimationFrame(frame);
+    else { raf = 0; audio.stop(); }
+  }
+  $('play').onclick = async () => {
+    if (!clock.snapshot().selected.length || disposed) return;
+    if (clock.snapshot().state === 'playing') { stop(); return; }
+    if (reduced && !animationChosen) clock.restart();
+    animationChosen = true;
+    if (sound) await audio.resume();
+    if (disposed || document.hidden) return;
+    previousFrame = 0; previousReport = 0; firstFrame = 0; elapsedFrames = 0;
+    lastKnownTime = performance.now(); clock.play(lastKnownTime); update(); cancelAnimationFrame(raf); raf = requestAnimationFrame(frame);
+  };
+  $('restart').onclick = () => { stop(); clock.restart(); renderer.draw(0, clock.snapshot().selected); update(); };
+  $('sound').onclick = async () => {
+    sound = await audio.enable(!sound);
+    if (disposed) { audio.destroy(); return; }
+    $('sound').textContent = sound ? 'Sound on' : 'Sound off';
+    $('sound').setAttribute('aria-pressed', String(sound));
+    $('sound-note').textContent = sound ? 'Synthesized cues · not real loudness' : 'Sound starts off. Enable it to hear synthesized cues.';
+  };
+  $('volume').oninput = (event) => audio.setVolume(Number(event.target.value));
+  $('quality').onchange = (event) => { quality = event.target.value === 'auto' ? config.compact ? 'balanced' : 'high' : event.target.value; renderer.setQuality(quality); renderer.draw(clock.snapshot().position, clock.snapshot().selected); };
+  document.querySelectorAll('[data-mode]').forEach((button) => { button.onclick = () => {
+    stop(); clock.select(button.dataset.mode === 'all' ? config.profiles.map((_, i) => i) : [Number(button.dataset.mode)]); renderer.draw(0, clock.snapshot().selected); update();
+  }; });
+  const momentsForSelection = () => [...new Set(clock.snapshot().selected.flatMap((i) => { const p = config.profiles[i]; if (p.stages) return p.stages.map((s) => (s.start + s.end) / 2); return p.events.filter((_, i) => i === 0 || i === Math.floor(p.events.length / 2) || i === p.events.length - 1).map((e) => Math.min(p.duration, e.burst + .7)); }))].sort((a, b) => a - b);
+  $('moment').onclick = () => {
+    if (!config.profiles.length) return;
+    stop(); const moments = momentsForSelection(); const next = moments.find((t) => t > clock.snapshot().position + .05) ?? moments[0]; clock.seek(next); renderer.draw(next, clock.snapshot().selected); update();
+  };
+  const hidden = () => { if (document.hidden) stop(true); };
+  const message = (event) => { if (event.source === parent && event.data?.type === 'rockwall-pause') stop(true); };
+  const motionChange = () => { reduced = motion.matches; if (reduced) { stop(); animationChosen = false; } $('motion-note').hidden = !reduced; update(); };
+  const pageHidden = () => stop(true);
+  document.addEventListener('visibilitychange', hidden); globalThis.addEventListener('pagehide', pageHidden); globalThis.addEventListener('message', message); motion.addEventListener('change', motionChange);
+  function destroy() {
+    if (disposed) return; stop(); disposed = true; globalThis.removeEventListener('unload', destroy); audio.destroy(); renderer.destroy();
+    document.removeEventListener('visibilitychange', hidden); globalThis.removeEventListener('pagehide', pageHidden); globalThis.removeEventListener('message', message); motion.removeEventListener('change', motionChange);
+  }
+  globalThis.rockwallPlayback = { pause: () => stop(true), destroy };
+  globalThis.addEventListener('unload', destroy, { once: true });
+  $('motion-note').hidden = !reduced;
+  if (reduced && config.profiles.length) { const moment = momentsForSelection()[0]; clock.seek(moment); renderer.draw(moment, clock.snapshot().selected); }
+  update();
+})(config,function createTimeline(profiles) {
+  let selected = profiles.map((_, index) => index);
+  let position = 0;
+  let anchor = 0;
+  let cursor = -0.000001;
+  let state = 'idle';
+  const duration = () => Math.max(0, ...selected.map((i) => profiles[i].duration));
+  const snapshot = () => ({ state, position, duration: duration(), selected: [...selected] });
+  function tick(now) {
+    const cues = [];
+    if (state === 'playing') {
+      position = Math.min(duration(), Math.max(position, (now - anchor) / 1000));
+      selected.forEach((i) => profiles[i].events.forEach((event) => {
+        for (const type of ['launch', 'burst']) {
+          const time = event[type];
+          if (time > cursor && time <= position) cues.push({ profile: i, event, type, time });
+        }
+      }));
+      selected.forEach((i) => {
+        if (!profiles[i].stages) return;
+        for (let time = Math.max(0, Math.floor(cursor) + 1); time <= position && time < profiles[i].duration; time++) cues.push({ profile: i, type: 'fountain', time, event: { seed: i * 171 + time * 97, shape: 'fountain' } });
+      });
+      cursor = position;
+      if (position >= duration()) state = 'ended';
+    }
+    return { ...snapshot(), cues: cues.sort((a, b) => a.time - b.time) };
+  }
+  function restart() { position = 0; cursor = -0.000001; state = 'idle'; return snapshot(); }
+  return {
+    snapshot, tick, restart,
+    play(now) {
+      if (state === 'ended') restart();
+      if (duration() > 0 && state !== 'playing') { anchor = now - position * 1000; state = 'playing'; }
+      return snapshot();
+    },
+    pause(now) { tick(now); if (state === 'playing') state = 'paused'; return snapshot(); },
+    seek(time) { position = Math.max(0, Math.min(duration(), time)); cursor = position; state = 'paused'; return snapshot(); },
+    select(indices) {
+      if (indices.length > 4 || new Set(indices).size !== indices.length || indices.some((i) => !profiles[i])) throw new Error('Choose up to four valid profiles');
+      selected = [...indices]; return restart();
+    },
+  };
+},function createPlaygroundRenderer(canvas, profiles, compact) {
+  const context = canvas.getContext('2d', { alpha: true });
+  let width = 1, height = 1, quality = compact ? 'balanced' : 'high';
+  let profileLimit = 1000;
+  let lastTime = 0, active = profiles.map((_, i) => i), count = 0;
+  const noise = (seed) => { const n = Math.sin(seed * 12.9898) * 43758.5453; return n - Math.floor(n); };
+  const resize = () => {
+    const rect = canvas.getBoundingClientRect(); width = rect.width; height = rect.height;
+    const ratio = Math.min(globalThis.devicePixelRatio || 1, compact ? 1.25 : 1.5);
+    canvas.width = Math.round(width * ratio); canvas.height = Math.round(height * ratio);
+    context.setTransform(ratio, 0, 0, ratio, 0, 0); draw(lastTime, active);
+  };
+  function dot(x, y, radius, color, alpha) {
+    if (alpha <= 0 || count >= profileLimit) return;
+    count++; context.fillStyle = color;
+    if (radius > 1) { context.globalAlpha = Math.min(.18, alpha * .2); context.beginPath(); context.arc(x, y, radius * 2.8, 0, Math.PI * 2); context.fill(); }
+    context.globalAlpha = Math.min(0.95, alpha * 1.2);
+    context.beginPath(); context.arc(x, y, radius, 0, Math.PI * 2); context.fill();
+  }
+  function draw(time, selected) {
+    lastTime = time; active = selected; count = 0;
+    context.clearRect(0, 0, width, height);
+    const panes = profiles.length;
+    // Camera scale never depends on the selection count. One panoramic world.
+    const scale = Math.min(width / 1800, height / 850);
+    const budget = compact ? 420 : 1000;
+    const share = Math.floor(budget / Math.max(1, selected.length));
+    profiles.forEach((profile, pane) => {
+      if (!selected.includes(pane) || time >= profile.duration) return;
+      profileLimit = Math.min(budget, count + share);
+      context.save();
+      const cx = width * (panes === 1 ? .5 : .17 + pane * .66 / (panes - 1));
+      const cy = Math.max(45, height * .25);
+      const capacity = (quality === 'low' ? 0.42 : quality === 'balanced' ? 0.68 : 1) / Math.max(1, selected.length * .55);
+      if (profile.kind === 'fountain-sample') {
+        const stage = profile.stages.find((s) => time >= s.start && time < s.end);
+        const base = height * .87;
+        context.fillStyle = '#665647'; context.globalAlpha = .9; context.fillRect(cx - 7, base - 5, 14, 7);
+        if (stage && time > 0) {
+          const n = Math.max(22, Math.floor(190 * capacity));
+          const lift = height * .72 * stage.height;
+          // Narrow continuous spray connects the visible base to the spark cloud.
+          for (let jet = 0; jet < 7; jet++) {
+            const top = base - lift * (.22 + .025 * jet + .018 * Math.sin(time * 4 + jet));
+            context.globalAlpha = Math.min(1, time * 2) * .18; context.strokeStyle = jet % 2 ? '#ffe3ac' : '#f1f4ff'; context.lineWidth = 1;
+            context.beginPath(); context.moveTo(cx + (jet - 3) * .5, base - 5); context.lineTo(cx + (jet - 3) * 3, top); context.stroke();
+          }
+          for (let i = 0; i < n; i++) {
+            const phase = time * .72 + i / n; const age = phase % 1;
+            const seed = Math.floor(phase) * 317 + i * 43 + 714;
+            const spread = (noise(seed) - .5) * stage.spread * Math.min(width / Math.max(1, panes), height * .8);
+            const y = base - 4 * age * (1 - age) * lift * (.5 + noise(seed + 1) * .5);
+            const x = cx + spread * age;
+            const fade = Math.sin(age * Math.PI) * stage.intensity;
+            const color = i % 5 === 0 ? stage.colors[i % stage.colors.length] : i % 2 ? '#ffe1a7' : '#eef2ff';
+            context.globalAlpha = fade * .55; context.strokeStyle = color; context.lineWidth = compact ? .7 : 1;
+            context.beginPath(); context.moveTo(x, y); context.lineTo(x - spread * .018, y + (age < .5 ? 9 : -5)); context.stroke();
+            dot(x, y, compact ? 1.05 : 1.5, color, fade);
+            if (quality !== 'low') dot(x - spread * .025, y + 5, .7, '#f3d29c', fade * .3);
+            if (stage.clusters && i % 9 === 0 && age > .38 && age < .78) {
+              for (let arm = 0; arm < 5; arm++) {
+                const a = arm * Math.PI * 2 / 5; const r = Math.sin((age - .38) / .4 * Math.PI) * 13;
+                dot(x + Math.cos(a) * r, y + Math.sin(a) * r, .85, '#f7dfb0', fade * .75);
+              }
+            }
+          }
+        }
+        context.restore(); return;
+      }
+      for (const event of profile.events) {
+        const age = time - event.burst;
+        const ex = cx + event.x * 700 * scale;
+        if (time >= event.launch && age < 0 && event.launchVisible) {
+          const progress = (time - event.launch) / Math.max(0.05, event.burst - event.launch);
+          for (let t = 0; t < 6; t++) dot(ex, (height * .83) * (1 - progress) + cy * progress + t * 3 * scale, Math.max(.5, 1.3 * scale), '#efcf98', .48 * (1 - t / 6));
+        }
+        if (age < 0 || age > event.life) continue;
+        const ghost = event.shape === 'ghost';
+        const flower = event.shape === 'flower';
+        const palm = event.shape.startsWith('palm') || ghost;
+        const ring = event.shape === 'ring';
+        const n = palm ? (event.arms || 9) : Math.round((ring ? 58 : 115) * capacity);
+        const radius = flower ? 105 : ring ? 147 : palm ? 158 : 155;
+        const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
+        const fade = Math.pow(Math.max(0, 1 - age / event.life), .75);
+        for (let i = 0; i < n; i++) {
+          const seed = event.seed + i * 37;
+          const angle = i / n * Math.PI * 2 + (palm ? -.35 : noise(seed) * .12);
+          const radial = ring ? .94 + noise(seed + 1) * .06 : palm ? .77 + noise(seed + 1) * .23 : Math.sqrt(noise(seed + 1)) * .7 + .3;
+          const px = (t) => ex + Math.cos(angle) * radius * radial * grow(t) * scale;
+          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (ghost ? 7 : 20) * t * t) * scale;
+          const color = ghost ? (i / n < .5 ? event.colors[0] : event.colors[1]) : ring && age > 1.3 && noise(seed + 7) > .72 ? '#dddbda' : event.colors[i % event.colors.length];
+          if (palm) {
+            context.globalAlpha = fade * .7; context.strokeStyle = event.shape === 'palm-glitter' ? '#f8cd91' : '#dce5fc'; context.lineWidth = Math.max(.65, 1.25 * scale);
+            context.beginPath();
+            for (let j = 0; j <= 10; j++) { const t = Math.max(0, age - .34 + j * .034); if (!j) context.moveTo(px(t), py(t)); else context.lineTo(px(t), py(t)); }
+            context.stroke();
+            const tails = quality === 'low' ? 3 : 5;
+            for (let trail = tails; trail >= 1; trail--) {
+              const t = Math.max(0, age - trail * .035);
+              dot(px(t), py(t), Math.max(.6, (2 - trail / tails) * scale), event.shape === 'palm-glitter' ? '#f8cd91' : '#cedbf6', fade * .52 * (1 - trail / (tails + 2)));
+            }
+          }
+          const glitter = !palm && !ring && !flower && age > .72;
+          // Smooth, low-contrast shimmer, not a flash or full-frame white fill.
+          const intensity = glitter ? .5 + .22 * Math.sin(age * 7 + seed) : 1;
+          if (flower && age > .25 && i % 6 === 0) {
+            for (let j = 0; j < 3; j++) dot(px(age) + Math.cos(seed + j * 2.1) * age * 9 * scale, py(age) + Math.sin(seed + j * 2.1) * age * 9 * scale, Math.max(.5, scale), '#eecb91', fade * .45);
+          }
+          dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), glitter && age > 1.05 ? '#dae5ff' : color, fade * intensity);
+          if (ring && age > .48) {
+            const t = age - .48;
+            dot(ex + Math.cos(angle) * radius * .52 * grow(t) * scale, cy + (Math.sin(angle) * radius * .52 * grow(t) + 14 * t * t) * scale, Math.max(.6, 1.35 * scale), color, fade * .75);
+          }
+        }
+        if (palm && !ghost && age > .18) {
+          const glitterCount = Math.round((event.shape === 'palm-glitter' ? 105 : 42) * capacity);
+          for (let i = 0; i < glitterCount; i++) {
+            const seed = event.seed + i * 91;
+            const angle = noise(seed) * Math.PI * 2;
+            const radius2 = radius * (.25 + noise(seed + 3) * .7) * grow(age);
+            dot(ex + Math.cos(angle) * radius2 * scale, cy + (Math.sin(angle) * radius2 + 24 * age * age) * scale, Math.max(.5, .95 * scale), '#dae2f5', fade * (.24 + noise(seed + 5) * .35));
+          }
+        }
+      }
+      context.restore();
+    });
+    context.globalAlpha = 1;
+    return count;
+  }
+  const observer = new ResizeObserver(resize); observer.observe(canvas); resize();
+  return { draw, setQuality(value) { quality = value; }, destroy() { observer.disconnect(); context.clearRect(0, 0, width, height); } };
+},function createPlaygroundAudio() {
+  let context, master, compressor, enabled = false, volume = .35;
+  const voices = new Set();
+  const stop = () => { for (const source of voices) { try { source.stop(); } catch { /* already ended */ } } voices.clear(); };
+  async function enable(value) {
+    enabled = value;
+    if (!value) { stop(); if (context) await context.suspend(); return false; }
+    const AudioContext = globalThis.AudioContext || globalThis.webkitAudioContext;
+    if (!AudioContext) { enabled = false; return false; }
+    if (!context) {
+      context = new AudioContext(); master = context.createGain(); master.gain.value = volume * .16;
+      compressor = context.createDynamicsCompressor(); compressor.threshold.value = -18; compressor.knee.value = 12; compressor.ratio.value = 12; compressor.attack.value = .004; compressor.release.value = .2;
+      master.connect(compressor); compressor.connect(context.destination);
+    }
+    try { await context.resume(); } catch { enabled = false; }
+    return enabled && context.state === 'running';
+  }
+  function cue(type, event) {
+    if (!enabled || !context || context.state !== 'running' || voices.size >= 4) return;
+    const duration = type === 'fountain' ? .95 : type === 'launch' ? .22 : event.shape === 'ring' ? .5 : .7;
+    const buffer = context.createBuffer(1, Math.ceil(context.sampleRate * duration), context.sampleRate);
+    const samples = buffer.getChannelData(0);
+    let seed = event.seed;
+    for (let i = 0; i < samples.length; i++) { seed = (seed * 1664525 + 1013904223) >>> 0; samples[i] = (seed / 4294967296 * 2 - 1) * .65; }
+    const source = context.createBufferSource(); source.buffer = buffer;
+    const filter = context.createBiquadFilter(); filter.type = 'lowpass'; filter.frequency.value = type === 'fountain' ? 1600 : type === 'launch' ? 900 : 420;
+    const gain = context.createGain(); const now = context.currentTime;
+    gain.gain.setValueAtTime(0, now); gain.gain.linearRampToValueAtTime(type === 'fountain' ? .12 : type === 'launch' ? .18 : .65, now + .018); gain.gain.exponentialRampToValueAtTime(.001, now + duration);
+    source.connect(filter); filter.connect(gain); gain.connect(master); voices.add(source);
+    source.onended = () => { voices.delete(source); source.disconnect(); filter.disconnect(); gain.disconnect(); };
+    source.start(); source.stop(now + duration);
+  }
+  return { enable, cue, stop, setVolume(value) { volume = Math.max(0, Math.min(1, value)); if (master) master.gain.setTargetAtTime(volume * .16, context.currentTime, .04); }, suspend() { stop(); if (context) void context.suspend(); }, async resume() { if (enabled && context) await context.resume(); }, destroy() { enabled = false; stop(); if (context) void context.close(); } };
+}))({"profiles":[{"productId":"bump-bear","revision":1,"status":"reviewed","name":"Bump Bear","brand":"Winda","category":"200g Cakes","kind":"cake","sampleLabel":"Full cake sequence","duration":24.3,"observedShots":16,"effects":["Colored palms","Silver glitter trails"],"summary":"Sixteen alternating colored palms, with a steady, closely spaced rhythm.","source":{"url":"https://www.youtube.com/watch?v=is8CCkWA4yI","manufacturerCode":"P5011","segmentStart":4.4,"segmentEnd":28.7,"reviewedOn":"2026-09-25","method":"Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.","evidenceDirectory":"docs/catalog/playground-2026-09/evidence","notes":["Official Winda demonstration. Intro identifies P5011, 16 shots.","One centered cake sequence; no visible fan or separate rapid finale. No obvious speed change or performance cut observed.","Alternating red, green, gold and silver palms. Final persistence estimated where recording ends.","Video height annotations are not used as calibrated measurements."]},"verified":["Product identity and manufacturer packaging","Visible effect families and principal colors","Observed burst count within the selected segment"],"estimated":["Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second","Particle trajectories, persistence, camera scale and synthesized sound are illustrative","Launch timing where the lift is faint or outside the frame"],"events":[{"id":"bump-bear-1","launch":0,"burst":1,"shape":"palm","colors":["#ff465c"],"life":2,"seed":1103,"x":-0.025,"launchVisible":true},{"id":"bump-bear-2","launch":1.4,"burst":2.4,"shape":"palm","colors":["#5df383"],"life":2,"seed":1276,"x":0.018,"launchVisible":true},{"id":"bump-bear-3","launch":3.1,"burst":4.1,"shape":"palm","colors":["#ffc965"],"life":2,"seed":1449,"x":0,"launchVisible":true},{"id":"bump-bear-4","launch":4.4,"burst":5.4,"shape":"palm","colors":["#e7efff"],"life":2,"seed":1622,"x":0.03,"launchVisible":true},{"id":"bump-bear-5","launch":5.9,"burst":6.9,"shape":"palm","colors":["#ff465c"],"life":2,"seed":1795,"x":-0.025,"launchVisible":true},{"id":"bump-bear-6","launch":7.4,"burst":8.4,"shape":"palm","colors":["#5df383"],"life":2,"seed":1968,"x":0.018,"launchVisible":true},{"id":"bump-bear-7","launch":8.9,"burst":9.9,"shape":"palm","colors":["#ffc965"],"life":2,"seed":2141,"x":0,"launchVisible":true},{"id":"bump-bear-8","launch":10.1,"burst":11.1,"shape":"palm","colors":["#e7efff"],"life":2,"seed":2314,"x":0.03,"launchVisible":true},{"id":"bump-bear-9","launch":11.6,"burst":12.6,"shape":"palm","colors":["#ff465c"],"life":2,"seed":2487,"x":-0.025,"launchVisible":true},{"id":"bump-bear-10","launch":12.6,"burst":13.6,"shape":"palm","colors":["#5df383"],"life":2,"seed":2660,"x":0.018,"launchVisible":true},{"id":"bump-bear-11","launch":14.1,"burst":15.1,"shape":"palm","colors":["#ffc965"],"life":2,"seed":2833,"x":0,"launchVisible":true},{"id":"bump-bear-12","launch":15.6,"burst":16.6,"shape":"palm","colors":["#e7efff"],"life":2,"seed":3006,"x":0.03,"launchVisible":true},{"id":"bump-bear-13","launch":17.1,"burst":18.1,"shape":"palm","colors":["#ff465c"],"life":2,"seed":3179,"x":-0.025,"launchVisible":true},{"id":"bump-bear-14","launch":18,"burst":19,"shape":"palm","colors":["#5df383"],"life":2,"seed":3352,"x":0.018,"launchVisible":true},{"id":"bump-bear-15","launch":19.6,"burst":20.6,"shape":"palm","colors":["#ffc965"],"life":2,"seed":3525,"x":0,"launchVisible":true},{"id":"bump-bear-16","launch":21.2,"burst":22.2,"shape":"palm","colors":["#e7efff"],"life":2,"seed":3698,"x":0.03,"launchVisible":true}]},{"productId":"band-of-brothers","revision":1,"status":"reviewed","name":"Band of Brothers","brand":"Raccoon","category":"500g Cakes","kind":"cake","sampleLabel":"Full cake sequence","duration":33.8,"observedShots":12,"effects":["Multicolor peonies","White glitter","Three-burst finale"],"summary":"Spaced multicolor bursts settle into white glitter, ending with three closely spaced bursts.","source":{"url":"https://www.youtube.com/watch?v=Ndro9los2fk","manufacturerCode":"RA53653","segmentStart":3.5,"segmentEnd":37.3,"reviewedOn":"2026-09-25","method":"Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.","evidenceDirectory":"docs/catalog/playground-2026-09/evidence","notes":["Official Raccoon demonstration of RA53653, 12 shots.","Single centered firing sequence; no obvious cut or slow motion in the chosen segment.","Nine separated bursts and three closely spaced final bursts. Final burst separation checked using 0.2-second frame samples.","Fine white points persist after the colored stars. Launches are faint; lift timing is approximate."]},"verified":["Product identity and manufacturer packaging","Visible effect families and principal colors","Observed burst count within the selected segment"],"estimated":["Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second","Particle trajectories, persistence, camera scale and synthesized sound are illustrative","Launch timing where the lift is faint or outside the frame"],"events":[{"id":"band-of-brothers-1","launch":0.2,"burst":1.2,"shape":"peony","colors":["#ff405b","#709cff"],"life":2.8,"seed":1103,"x":-0.025,"launchVisible":true},{"id":"band-of-brothers-2","launch":3.3,"burst":4.3,"shape":"peony","colors":["#60ee8c","#fa81e8"],"life":2.8,"seed":1276,"x":0.018,"launchVisible":true},{"id":"band-of-brothers-3","launch":6.6,"burst":7.6,"shape":"peony","colors":["#64efa0","#749dff"],"life":2.8,"seed":1449,"x":0,"launchVisible":true},{"id":"band-of-brothers-4","launch":10,"burst":11,"shape":"peony","colors":["#ff405b","#709cff"],"life":2.8,"seed":1622,"x":0.03,"launchVisible":true},{"id":"band-of-brothers-5","launch":13.3,"burst":14.3,"shape":"peony","colors":["#60ee8c","#fa81e8"],"life":2.8,"seed":1795,"x":-0.025,"launchVisible":true},{"id":"band-of-brothers-6","launch":16.5,"burst":17.5,"shape":"peony","colors":["#64efa0","#749dff"],"life":2.8,"seed":1968,"x":0.018,"launchVisible":true},{"id":"band-of-brothers-7","launch":19.9,"burst":20.9,"shape":"peony","colors":["#ff405b","#709cff"],"life":2.8,"seed":2141,"x":0,"launchVisible":true},{"id":"band-of-brothers-8","launch":23.2,"burst":24.2,"shape":"peony","colors":["#60ee8c","#fa81e8"],"life":2.8,"seed":2314,"x":0.03,"launchVisible":true},{"id":"band-of-brothers-9","launch":26.5,"burst":27.5,"shape":"peony","colors":["#64efa0","#749dff"],"life":2.8,"seed":2487,"x":-0.025,"launchVisible":true},{"id":"band-of-brothers-10","launch":29.28,"burst":30.28,"shape":"peony","colors":["#ff405b","#709cff"],"life":2.8,"seed":2660,"x":0.018,"launchVisible":true},{"id":"band-of-brothers-11","launch":29.66,"burst":30.66,"shape":"peony","colors":["#60ee8c","#fa81e8"],"life":2.8,"seed":2833,"x":0,"launchVisible":true},{"id":"band-of-brothers-12","launch":29.84,"burst":30.84,"shape":"peony","colors":["#64efa0","#749dff"],"life":2.8,"seed":3006,"x":0.03,"launchVisible":true}]},{"productId":"daffodil","revision":1,"status":"reviewed","name":"Daffodil","brand":"Brothers","category":"200g Cakes","kind":"cake-sample","sampleLabel":"Demo excerpt","duration":28.4,"observedShots":15,"effects":["White comet trails","Red and green breaks","Short golden sparks"],"summary":"White rising comets open into compact red and green breaks with short golden sparks. This excerpt resolves 15 bursts; the product is listed as 16 shots.","source":{"url":"https://www.youtube.com/watch?v=_8IthnKIchA","manufacturerCode":"BP2115","segmentStart":10.6,"segmentEnd":39,"reviewedOn":"2026-09-25","method":"Actual muted video inspected with paused frames and contact sheets; no redistributed audio.","evidenceDirectory":"docs/catalog/playground-evolution-2026-09/evidence","notes":["BP2115 shown on packaging; American Wholesale Fireworks republishes a Brothers demonstration.","Single centered unit; no obvious cut or speed change inside the observed segment.","15 bursts resolved at 0.5-second sampling; the source labels the product 16 shots. The unresolved shot is not invented.","Steady individual rhythm; no invented multi-shot finale."]},"verified":["Identity and manufacturer code in the reference","Visible effect structure and colors in the selected segment"],"estimated":["Burst times approximately ±0.4 seconds; persistence and particle paths are illustrative","No physical size, height or sound calibration"],"events":[{"id":"daffodil-1","launch":0.6,"burst":1.8,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8011,"x":0,"launchVisible":true},{"id":"daffodil-2","launch":2,"burst":3.2,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8148,"x":0,"launchVisible":true},{"id":"daffodil-3","launch":4,"burst":5.2,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8285,"x":0,"launchVisible":true},{"id":"daffodil-4","launch":6,"burst":7.2,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8422,"x":0,"launchVisible":true},{"id":"daffodil-5","launch":8,"burst":9.2,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8559,"x":0,"launchVisible":true},{"id":"daffodil-6","launch":9.6,"burst":10.8,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8696,"x":0,"launchVisible":true},{"id":"daffodil-7","launch":11.6,"burst":12.8,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8833,"x":0,"launchVisible":true},{"id":"daffodil-8","launch":13.2,"burst":14.4,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":8970,"x":0,"launchVisible":true},{"id":"daffodil-9","launch":14.8,"burst":16,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9107,"x":0,"launchVisible":true},{"id":"daffodil-10","launch":16.6,"burst":17.8,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9244,"x":0,"launchVisible":true},{"id":"daffodil-11","launch":18.2,"burst":19.4,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9381,"x":0,"launchVisible":true},{"id":"daffodil-12","launch":20.1,"burst":21.3,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9518,"x":0,"launchVisible":true},{"id":"daffodil-13","launch":22,"burst":23.2,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9655,"x":0,"launchVisible":true},{"id":"daffodil-14","launch":23.7,"burst":24.9,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9792,"x":0,"launchVisible":true},{"id":"daffodil-15","launch":25.2,"burst":26.4,"shape":"flower","colors":["#f85468","#82cf78","#edc78a"],"life":1.65,"seed":9929,"x":0,"launchVisible":true}]},{"productId":"ghost-dragon","revision":1,"status":"reviewed","name":"Ghost Dragon","brand":"Raccoon","category":"500g Cakes","kind":"cake-sample","sampleLabel":"Demo excerpt","duration":34.8,"observedShots":8,"effects":["Silver spokes","Red and white ghost sectors","Slow falling tails"],"summary":"Sparse, long silver spokes carry red and cool white points in rotating sectors. This video excerpt resolves eight bursts from the nine-shot rack.","source":{"url":"https://www.youtube.com/watch?v=6zFLJt1m7q8","manufacturerCode":"RA57219","segmentStart":7.5,"segmentEnd":42.3,"reviewedOn":"2026-09-25","method":"Actual muted video inspected with paused frames and contact sheets; no redistributed audio.","evidenceDirectory":"docs/catalog/playground-evolution-2026-09/evidence","notes":["Official Raccoon video identifies RA57219 and the 9-shot rack.","One centered unit with no obvious performance cut; introduction excluded.","Eight resolved bursts; the ninth shot cannot be separated confidently in the sampled reference.","Sector motion is an approximation of the visible changing red/white points, not a physical measurement."]},"verified":["Identity and manufacturer code in the reference","Visible effect structure and colors in the selected segment"],"estimated":["Burst times approximately ±0.4 seconds; persistence and particle paths are illustrative","No physical size, height or sound calibration"],"events":[{"id":"ghost-dragon-1","launch":0.4,"burst":1.6,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8011,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-2","launch":4.8,"burst":6,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8148,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-3","launch":8.1,"burst":9.3,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8285,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-4","launch":12.5,"burst":13.7,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8422,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-5","launch":17,"burst":18.2,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8559,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-6","launch":20.7,"burst":21.9,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8696,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-7","launch":24.5,"burst":25.7,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8833,"x":0,"launchVisible":true,"arms":22},{"id":"ghost-dragon-8","launch":29.1,"burst":30.3,"shape":"ghost","colors":["#ff526d","#dae9ff"],"life":4.3,"seed":8970,"x":0,"launchVisible":true,"arms":22}]}],"compact":true,"reducedMotion":true,"scene":"aerial"});</script></body></html>

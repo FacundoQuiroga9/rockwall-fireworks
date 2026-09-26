@@ -28,5 +28,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   mkdirSync(output, { recursive: true });
   const pages = catalogPages(products);
   for (const p of pages) writeFileSync(resolve(output, `${p.slug}.html`), renderPageMetadata(base, p));
+  writeFileSync(resolve(webRoot, 'dist/playground.html'), renderPageMetadata(base, { path: '/playground', title: 'Fireworks Playground | Rockwall Fireworks', description: 'Choose reviewed fireworks demonstrations for an illustrative Dallas sky or fountain field.' }));
   console.log(`Generated metadata for ${pages.length} catalog routes.`);
 }
