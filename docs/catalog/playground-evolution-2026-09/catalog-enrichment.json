@@ -210,21 +210,21 @@
   {
     "id": "jumboshell-fountain",
     "demonstration": {
-      "summary": "Green pearls rise through a golden spray, followed by fuller showers of gold, bright white points and branching sparks.",
+      "summary": "Green stars rise through a golden spray, followed by bright white jets and broad branching spark clusters that taper into scattered embers.",
       "effects": [
-        "Green pearls",
-        "Gold spray",
-        "White stars",
-        "Branching sparks"
+        "Green stars",
+        "Golden spray",
+        "Bright white jets",
+        "Branching spark clusters"
       ],
-      "durationSeconds": 125.5,
-      "scope": "Fountain excerpt",
+      "durationSeconds": 150.1,
+      "scope": "complete",
       "observedShots": null,
       "confirmedShots": null,
-      "sourceUrl": "https://www.youtube.com/watch?v=hOgReJdyXEs",
-      "segmentStart": 6,
-      "segmentEnd": 131.5,
-      "note": "Official Brothers BP4247 and matching round gold shell-shaped package; one stationary unit. Five-second sampling from intro through 130 seconds. No obvious cuts or simultaneous second product inside the performance; exposure and smoke vary. Early green stars over a narrow gold jet; broader fine gold by about 23s; bright white around 43s; alternating fine gold and larger flowers later. Still emitting at 130 seconds near the end of the 132-second recording. Closure is simulated, not an observed product finish."
+      "sourceUrl": "https://www.youtube.com/watch?v=5KN5suDvKhg",
+      "segmentStart": 5.3,
+      "segmentEnd": 155.4,
+      "note": "Complete demonstrated performance including natural exhaustion. Boundaries approximate; not a guaranteed unit burn time. Previous excerpt retained internally."
     }
   },
   {
@@ -245,6 +245,121 @@
       "segmentStart": 8,
       "segmentEnd": 107,
       "note": "Official Brothers BP4252 and fan-shaped blue package. Multiple angled jets belong to one unit, not multiple products. Five-second sampling of the actual video from 5–105 seconds. Camera framing changes but no obvious sequence cut in the selected performance. Right-hand ignition, then three angled sprays by approximately 13s. Broad intermittent flowers and colored pearls; lower fan by about 88s, brighter central activity near 103–105s. Recording ends during the late central activity. No full runtime or final product shutdown claimed."
+    }
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "demonstration": {
+      "summary": "Pale silver-blue branches blossom into small red clusters, leaving a soft scattering of white sparks.",
+      "effects": [
+        "Silver-blue branches",
+        "Red spark clusters",
+        "White glitter"
+      ],
+      "durationSeconds": 3.6,
+      "scope": "Single shell sample",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
+      "segmentStart": 6.2,
+      "segmentEnd": 9.8,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. One visible launch, branching opening around 7.1 s, red secondary clusters around 7.7 s, fading by 9.8 s. No cut or simultaneous second launch visible within this sample.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "demonstration": {
+      "summary": "Copper and red trails spread around bright white sparks, thinning into a soft silver shimmer.",
+      "effects": [
+        "Copper-red trails",
+        "White points",
+        "Silver shimmer"
+      ],
+      "durationSeconds": 3.8,
+      "scope": "Single shell sample",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=66butJ3I7Tw",
+      "segmentStart": 6.2,
+      "segmentEnd": 10,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. First ascent around 6.6 s, opening around 7.05 s; thin copper/red trails remain around 8.8 s and are nearly dark by 9.6 s. No visible edit or second simultaneous unit in the selected sample.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "ghost-killer",
+    "demonstration": {
+      "summary": "Peach and pale green stars spread into rounded bursts, with cool blue points appearing as the brighter colors fade.",
+      "effects": [
+        "Peach stars",
+        "Pale green sectors",
+        "Blue ghost points"
+      ],
+      "durationSeconds": 41,
+      "scope": "Cake excerpt",
+      "observedShots": 8,
+      "sourceUrl": "https://www.youtube.com/watch?v=oqXARGKUAXk",
+      "segmentStart": 6,
+      "segmentEnd": 47,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. Colors shift by sectors; the peach/green stars dim before blue points dominate, rather than all stars being recolored at once.",
+      "confirmedShots": 9
+    }
+  },
+  {
+    "id": "us-power",
+    "demonstration": {
+      "summary": "Orange comets open into colored stars and short silver trails that turn and wander across the sky.",
+      "effects": [
+        "Orange comet tails",
+        "Colored stars",
+        "Wandering silver trails"
+      ],
+      "durationSeconds": 17.3,
+      "scope": "Cake excerpt",
+      "observedShots": 11,
+      "sourceUrl": "https://www.youtube.com/watch?v=b0xT23KjsGk",
+      "segmentStart": 6.1,
+      "segmentEnd": 23.4,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. Openings sampled every 0.33 s, with the overlapping finale inspected at 0.1 s. Wander paths are an illustrative approximation of the visibly turning short silver streaks.",
+      "confirmedShots": 16
+    }
+  },
+  {
+    "id": "golden-peacock",
+    "demonstration": {
+      "summary": "Green comets rise in a steady sequence, opening into small golden bouquets with bright, crackling sparkles.",
+      "effects": [
+        "Green comet tails",
+        "Golden bouquets",
+        "Crackling sparks"
+      ],
+      "durationSeconds": 40.8,
+      "scope": "Full cake sequence",
+      "observedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=0ZGF8eiJvcc",
+      "segmentStart": 3.7,
+      "segmentEnd": 44.5,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. Source sampled at one-second intervals from intro through the dark ending; timings are estimates (approximately ±0.5 s), not frame-accurate manufacturer timings. No additional finale pattern inferred.",
+      "confirmedShots": 16
+    }
+  },
+  {
+    "id": "movie-time",
+    "demonstration": {
+      "summary": "Golden sprays break into bright sparkling clusters, settle into a brief pause, then return with white sparks and fuller gold showers.",
+      "effects": [
+        "Gold spray",
+        "Branching sparks",
+        "Brief pause and restart",
+        "White and gold showers"
+      ],
+      "durationSeconds": 81,
+      "scope": "Fountain excerpt",
+      "observedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=JNSp9V7rLGo",
+      "segmentStart": 6,
+      "segmentEnd": 87,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. Five-second sampling of the entire video, refined one-second sampling around the intermission. Still emitting at 87 s near the end of the recording. The exit after the excerpt is a simulation closure, not a verified product ending or total runtime.",
+      "confirmedShots": null
     }
   }
 ]

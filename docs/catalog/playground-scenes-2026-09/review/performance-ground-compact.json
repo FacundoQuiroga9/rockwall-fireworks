@@ -1,0 +1,16 @@
+{
+  "mode": "ground",
+  "compact": true,
+  "quality": "balanced",
+  "frames": 300,
+  "elapsedSeconds": 10,
+  "fps": 30,
+  "meanDrawMs": 1.542,
+  "p95DrawMs": 2.0999999940395355,
+  "maxDrawMs": 2.300000011920929,
+  "maxParticles": 415,
+  "canvas": "1280 × 640 CSS px",
+  "dpr": 2,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+  "concurrency": 8
+}

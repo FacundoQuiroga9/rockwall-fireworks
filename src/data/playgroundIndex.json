@@ -45,10 +45,34 @@
   },
   {
     "productId": "jumboshell-fountain",
-    "kind": "fountain-sample"
+    "kind": "fountain"
   },
   {
     "productId": "super-fountain",
+    "kind": "fountain-sample"
+  },
+  {
+    "productId": "arms-depot-16-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "sniper-fire-12-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "ghost-killer",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "us-power",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "golden-peacock",
+    "kind": "cake"
+  },
+  {
+    "productId": "movie-time",
     "kind": "fountain-sample"
   }
 ]

@@ -10,6 +10,7 @@ import { createPlaygroundAudio } from '../src/shared/playgroundAudio.js';
 const read = (file) => readFileSync(new URL(file, import.meta.url), 'utf8');
 const profiles = JSON.parse(read('../src/data/playgroundProfiles.json')).profiles;
 const fountain = JSON.parse(read('../docs/catalog/playground-continuity-2026-09/fairies-excerpt-before.json')); // regression fixture for the original abrupt excerpt ending
+fountain.scene = 'ground';
 const currentFountains = profiles.filter((p) => p.kind.startsWith('fountain'));
 
 test('live particles retain birth properties across every stage and exhaust independently', () => {

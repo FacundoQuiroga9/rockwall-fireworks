@@ -9,7 +9,7 @@ const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url)));
 const data = read('../src/data/playgroundProfiles.json'); const all = data.profiles;
 const products = read('../src/data/products.json');
 test('approved profiles remain identical and new excerpts retain evidence and honest scope', () => {
-  assert.deepEqual(all.slice(0,4), read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles);
+  assert.deepEqual(all.slice(0,4).map((profile) => { const copy = { ...profile }; delete copy.scene; return copy; }), read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles);
   assert.deepEqual(validateProfiles(data, products), []);
   for (const p of all.slice(4,6)) { assert.match(p.sampleLabel, /excerpt/i); assert.ok(p.source.notes.length); assert.match(p.source.evidenceDirectory, /evolution/); }
   assert.equal(all.find((p) => p.productId === 'fairies-in-a-jar').observedShots, null);

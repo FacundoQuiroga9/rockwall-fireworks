@@ -11,6 +11,7 @@ const promotions = read('../src/data/promotions.json');
 const research = read('../docs/catalog/refinement-2026-09-25/cake-research.json');
 const baseline = read('../docs/catalog/refinement-2026-09-25/baseline.json');
 const latestCakes = read('../docs/catalog/iteration-2026-09-25/cake-corrections.json');
+const ownerCakes = read('../docs/catalog/playground-scenes-2026-09/owner-cake-corrections.json');
 const today = '2026-09-25';
 // Synthetic data is test-local and never exported to the live catalog.
 const offer = { id: 'test-bogo', revision: '1', kind: 'bogo', name: 'TEST ONLY', status: 'confirmed', validityConfirmed: true, validFrom: '2026-09-01', validThrough: '2026-09-30', priceRule: 'customer-choice', limitsConfirmed: true, stackingConfirmed: true, conditions: [] };
@@ -22,13 +23,13 @@ test('all 31 unresolved cakes have individual evidence; 28 resolve, 3 conflicts 
   assert.deepEqual(research.filter(r => r.status === 'unresolved').map(r => r.id).sort(), ['2-minutes-extravaganza', 'light-brigade', 'old-ironsides']);
   for (const r of research) {
     assert.ok(r.evidence && r.sources.every(s => s.startsWith('https://')));
-    assert.equal(products.find(p => p.id === r.id).category, r.fields.category);
+    assert.equal(products.find(p => p.id === r.id).category, (ownerCakes.find(c => c.id === r.id) || r).fields.category);
   }
   assert.equal(products.find(p => p.id === 'alien-attack').category, '500g Cakes');
   assert.equal(products.find(p => p.id === 'night-rider').category, '200g Cakes');
   assert.equal(products.find(p => p.id === 'lucky-streak').category, '200g Cakes');
   assert.equal(products.filter(p => p.category === 'Cake Packs').length, 5);
-  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(products, read('../docs/catalog/my-list-2026-09/commercial-review.json')), research), latestCakes), products);
+  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(products, read('../docs/catalog/my-list-2026-09/commercial-review.json')), research), latestCakes), ownerCakes), products);
   assert.throws(() => applyCommercialCorrections(products, [{...research[0], name: 'Another variant'}]), /identity changed/);
 });
 test('source marker, current eligibility and active campaign are independent gates', () => {
@@ -59,7 +60,7 @@ test('saved lists retain old categories and quantities until explicit review of 
     assert.equal(before.total,3); assert.equal(before.pending,3);
     const reviewed = reviewGroup(saved,saved.groups[0].id,products,promotions);
     assert.equal(assessList(reviewed,products,promotions,today).pending,0);
-    assert.equal(reviewed.groups[0].items[0].snapshot.category,r.fields.category);
+    assert.equal(reviewed.groups[0].items[0].snapshot.category,(ownerCakes.find(c => c.id === r.id) || r).fields.category);
     assert.equal(reviewed.groups[0].items[0].productId,r.id);
     assert.equal(reviewed.groups[0].items[0].quantity,3);
   }

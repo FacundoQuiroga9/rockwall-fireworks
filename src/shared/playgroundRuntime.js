@@ -17,13 +17,21 @@ export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, m
     if (globalThis.ReactNativeWebView) globalThis.ReactNativeWebView.postMessage(message);
     else parent.postMessage(JSON.parse(message), '*');
   };
+  const preferences = {
+    volume: Number.isFinite(config.preferences?.volume) ? Math.max(0, Math.min(1, config.preferences.volume)) : .35,
+    quality: ['auto', 'balanced', 'low'].includes(config.preferences?.quality) ? config.preferences.quality : 'auto',
+  };
+  $('volume').value = preferences.volume; audio.setVolume(preferences.volume);
+  $('quality').value = preferences.quality;
+  quality = preferences.quality === 'auto' ? config.compact ? 'balanced' : 'high' : preferences.quality;
+  renderer.setQuality(quality);
   const format = (n) => `${Math.floor(n / 60)}:${String(Math.floor(n % 60)).padStart(2, '0')}`;
   function update() {
     const state = clock.snapshot();
     $('play').textContent = state.state === 'playing' ? 'Pause' : state.state === 'ended' ? 'Replay' : reduced && !animationChosen ? 'Play animation' : state.state === 'paused' ? 'Continue' : 'Play selection';
     $('play').disabled = !state.selected.length; $('restart').disabled = !state.selected.length; $('moment').disabled = !state.selected.length;
     $('progress').max = state.duration; $('progress').value = state.position;
-    $('time').textContent = `${format(state.position)} / ≈ ${format(state.duration)}`;
+    $('time').textContent = `${format(state.position)} / ≈ ${format(Math.round(state.duration))}`;
     $('progress').setAttribute('aria-valuetext', `${Math.round(state.position)} of approximately ${Math.round(state.duration)} seconds`);
     const label = state.state === 'ended' ? 'Preview complete' : state.state === 'playing' ? 'Playing' : state.state === 'paused' ? 'Paused' : 'Ready · press Play selection';
     if ($('state').textContent !== label) $('state').textContent = label;
@@ -80,8 +88,8 @@ export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, m
     $('sound').setAttribute('aria-pressed', String(sound));
     $('sound-note').textContent = sound ? 'Synthesized cues · not real loudness' : 'Sound starts off. Enable it to hear synthesized cues.';
   };
-  $('volume').oninput = (event) => audio.setVolume(Number(event.target.value));
-  $('quality').onchange = (event) => { quality = event.target.value === 'auto' ? config.compact ? 'balanced' : 'high' : event.target.value; renderer.setQuality(quality); renderer.draw(clock.snapshot().position, clock.snapshot().selected); };
+  $('volume').oninput = (event) => { preferences.volume = Number(event.target.value); audio.setVolume(preferences.volume); send({ preferences }); };
+  $('quality').onchange = (event) => { preferences.quality = event.target.value; quality = preferences.quality === 'auto' ? config.compact ? 'balanced' : 'high' : preferences.quality; renderer.setQuality(quality); renderer.draw(clock.snapshot().position, clock.snapshot().selected); send({ preferences }); };
   document.querySelectorAll('[data-mode]').forEach((button) => { button.onclick = () => {
     stop(); clock.select(button.dataset.mode === 'all' ? config.profiles.map((_, i) => i) : [Number(button.dataset.mode)]); renderer.draw(0, clock.snapshot().selected); update();
   }; });
@@ -91,7 +99,7 @@ export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, m
     stop(); const moments = momentsForSelection(); const next = moments.find((t) => t > clock.snapshot().position + .05) ?? moments[0]; clock.seek(next); renderer.draw(next, clock.snapshot().selected); update();
   };
   const hidden = () => { if (document.hidden) stop(true); };
-  const message = (event) => { if (event.source === parent && event.data?.type === 'rockwall-pause') stop(true); };
+  const message = (event) => { if (event.source !== parent) return; if (event.data?.type === 'rockwall-pause') stop(true); if (event.data?.type === 'rockwall-destroy') destroy(); };
   const motionChange = () => { reduced = motion.matches; if (reduced) { stop(); animationChosen = false; } $('motion-note').hidden = !reduced; update(); };
   const pageHidden = () => stop(true);
   document.addEventListener('visibilitychange', hidden); globalThis.addEventListener('pagehide', pageHidden); globalThis.addEventListener('message', message); motion.addEventListener('change', motionChange);

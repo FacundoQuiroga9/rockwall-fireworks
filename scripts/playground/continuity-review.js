@@ -23,13 +23,13 @@ function step(now) {
   if(previous)elapsed+=(now-previous)/1000;previous=now;
   if (run.compact && now-lastDraw < 1000/30-1 && elapsed<run.duration) {raf=requestAnimationFrame(step);return;}
   lastDraw=now;
-  const time = run.mode==='record' ? elapsed < 8 ? 16+elapsed : 57+elapsed-8 : run.mode==='dense' ? elapsed : 15+elapsed;
+  const time = run.mode==='record' ? elapsed < 8 ? 16+elapsed : 57+elapsed-8 : ['dense','aerial'].includes(run.mode) ? elapsed : 15+elapsed;
   const before=performance.now(), count=renderer.draw(time,[0,1,2,3].slice(0,run.profiles.length)), cost=performance.now()-before;
   report.frames++;report.total+=cost;report.max=Math.max(report.max,cost);report.particles=Math.max(report.particles,count);report.costs.push(cost);
   ctx.fillStyle='#050b14';ctx.fillRect(0,0,1280,710);
   ctx.fillStyle='#1e2625';ctx.fillRect(0,70+640*.84,1280,640*.16);
   ctx.drawImage($('sky'),0,70,1280,640);
-  ctx.fillStyle='#ffcd88';ctx.font='22px system-ui';ctx.fillText(run.mode==='record'?'Fairies in a Jar · continuous emission + natural exhaustion':run.mode==='dense'?'Four dense aerial products · stress fixture':'Four fountains · stress fixture',24,30);
+  ctx.fillStyle='#ffcd88';ctx.font='22px system-ui';ctx.fillText(run.mode==='record'?'Fairies in a Jar · continuous emission + natural exhaustion':run.mode==='dense'?'Four dense aerial products · stress fixture':run.mode==='aerial'?'Four real aerial profiles':'Four real fountains',24,30);
   ctx.fillStyle='#c2cbda';ctx.font='17px system-ui';ctx.fillText(`${run.mode==='record'?(elapsed<8?'Segment 1 · stage transition':'Segment 2 · exhaustion, then last embers'):'Production renderer'} · Profile time ${time.toFixed(2)} s · ${count} drawn particles`,24,56);
   if(record?.state==='recording')stream.getVideoTracks()[0].requestFrame();
   $('state').textContent=`Playing · ${elapsed.toFixed(1)} s`;
@@ -40,9 +40,10 @@ async function start(mode,compact=false) {
   cancelAnimationFrame(raf);renderer?.destroy();elapsed=0;previous=0;lastDraw=0;paused=false;
   let profiles=[fairies];
   if(mode==='dense')profiles=Array.from({length:4},(_,i)=>({...data.profiles[1],productId:`stress-${i}`,events:data.profiles[1].events.map(e=>({...e,launch:0,burst:1}))}));
-  if(mode==='ground')profiles=[fairies,...data.profiles.filter(p=>p.kind==='fountain-sample'),{...fairies,productId:'fairies-copy'}];
+  if(mode==='aerial')profiles=data.profiles.filter(p=>['band-of-brothers','ghost-killer','us-power','golden-peacock'].includes(p.productId));
+  if(mode==='ground')profiles=data.profiles.filter(p=>p.scene==='ground').slice(0,4);
   renderer=createPlaygroundRenderer($('sky'),profiles,compact,createFountainModel,{...bases,'fairies-copy':bases[fairies.productId]});
-  run={mode,compact,profiles,duration:mode==='record'?27:10};report={frames:0,total:0,max:0,particles:0,costs:[]};
+  run={mode,compact,profiles,duration:mode==='record'?27:mode==='aerial'?42:10};report={frames:0,total:0,max:0,particles:0,costs:[]};
   await Promise.all(Object.values(bases).map(base=>new Promise(resolve=>{const image=new Image();image.onload=resolve;image.onerror=resolve;image.src=base.src;})));
   await new Promise(requestAnimationFrame);
   if(mode==='record'){
@@ -52,5 +53,6 @@ async function start(mode,compact=false) {
   }
   raf=requestAnimationFrame(step);
 }
+$('aerial').onclick=()=>start('aerial');
 $('record').onclick=()=>start('record');$('dense').onclick=()=>start('dense');$('ground').onclick=()=>start('ground');$('compact').onclick=()=>start('ground',true);
 $('pause').onclick=()=>{paused=!paused;};$('reset').onclick=()=>{finish();renderer?.destroy();};

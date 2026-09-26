@@ -112,47 +112,76 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         }
         if (age < 0 || age > event.life) continue;
         if (event.shape === 'bouquet') {
-          const clusters = Math.max(6, Math.round(24 * capacity));
+          const clusters = Math.max(6, Math.round((event.clusters ?? 24) * capacity));
           for (let i = 0; i < clusters; i++) {
             const salt = event.seed + i * 73, angle = noise(salt) * Math.PI * 2;
             const radial = (40 + noise(salt + 1) * 110) * (1 - Math.exp(-age * 1.9));
             const x = ex + Math.cos(angle) * radial * scale, y = cy + (Math.sin(angle) * radial + age * age * 14) * scale;
             const delay = (event.clusterDelay ?? .7) + noise(salt + 3) * .28;
-            dot(x, y, Math.max(.5, scale), '#e2eafb', Math.max(0, 1 - age / 1.1) * .65);
+            if (event.branchTrails && age < delay + .1) {
+              const before = Math.max(0, age - .18), r0 = (40 + noise(salt + 1) * 110) * (1 - Math.exp(-before * 1.9));
+              context.globalAlpha = Math.max(0, 1 - age / (delay + .1)) * .65;
+              context.strokeStyle = event.branchColor || '#e2eafb'; context.lineWidth = Math.max(.65, scale);
+              context.beginPath(); context.moveTo(ex + Math.cos(angle) * r0 * scale, cy + (Math.sin(angle) * r0 + before * before * 14) * scale); context.lineTo(x, y); context.stroke();
+            }
+            dot(x, y, Math.max(.5, scale), event.branchColor || '#e2eafb', Math.max(0, 1 - age / 1.1) * .65);
             const bloom = age - delay;
-            if (bloom >= 0 && bloom < 1.4) for (let arm = 0; arm < 10; arm++) {
-              const a = arm / 10 * Math.PI * 2, r = (1 - Math.exp(-bloom * 4)) * (9 + noise(salt + 7) * 12) * scale;
-              dot(x + Math.cos(a) * r, y + Math.sin(a) * r + bloom * bloom * 6 * scale, Math.max(.55, scale), '#edc185', Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / 1.4, .7));
+            const arms = event.clusterArms ?? 10, colors = event.clusterColors || ['#edc185'];
+            if (bloom >= 0 && bloom < 1.4) for (let arm = 0; arm < arms; arm++) {
+              const a = arm / arms * Math.PI * 2, r = (1 - Math.exp(-bloom * 4)) * (9 + noise(salt + 7) * 12) * scale;
+              dot(x + Math.cos(a) * r, y + Math.sin(a) * r + bloom * bloom * 6 * scale, Math.max(.55, scale * (event.clusterPointSize ?? 1)), colors[arm % colors.length], Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / 1.4, .7));
             }
           }
           continue;
         }
         const willow = event.shape === 'willow';
-        const colorPeony = event.shape === 'color-peony';
+        const ghostPeony = event.shape === 'ghost-peony';
+        const wander = event.shape === 'wander';
+        const colorPeony = event.shape === 'color-peony' || ghostPeony || wander;
         const ghost = event.shape === 'ghost';
         const flower = event.shape === 'flower';
         const palm = event.shape.startsWith('palm') || ghost || willow;
         const ring = event.shape === 'ring';
         const n = colorPeony ? Math.round((event.arms || 55) * capacity) : willow ? Math.round((event.arms || 60) * capacity) : palm ? (event.arms || 9) : Math.round((ring ? 58 : 115) * capacity);
-        const radius = flower ? 105 : ring ? 147 : palm ? 158 : 155;
+        const radius = event.radius ?? (flower ? 105 : ring ? 147 : palm ? 158 : 155);
         const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
         const fade = Math.pow(Math.max(0, 1 - age / event.life), .75);
         for (let i = 0; i < n; i++) {
           const seed = event.seed + i * 37;
           const angle = i / n * Math.PI * 2 + (palm ? -.35 : noise(seed) * .12);
-          const radial = ring ? .94 + noise(seed + 1) * .06 : palm ? .77 + noise(seed + 1) * .23 : Math.sqrt(noise(seed + 1)) * .7 + .3;
-          const px = (t) => ex + Math.cos(angle) * radius * radial * grow(t) * scale;
-          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (ghost ? 7 : willow ? 12 : 20) * t * t) * scale;
+          const radial = ring ? .94 + noise(seed + 1) * .06 : palm ? (event.radialMin ?? .77) + noise(seed + 1) * (1 - (event.radialMin ?? .77)) : Math.sqrt(noise(seed + 1)) * .7 + .3;
+          // Wandering stars change direction after opening. Deterministic curves keep
+          // pause/seek stable; they do not accumulate particles or create emitters.
+          const turn = (t) => wander ? Math.max(0, t - .3) * 16 * Math.sin(t * (5 + noise(seed + 2) * 3) + seed) : 0;
+          const px = (t) => ex + (Math.cos(angle) * radius * radial * grow(t) + turn(t)) * scale;
+          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (ghost ? 7 : willow ? 12 : 20) * t * t + turn(t) * .5) * scale;
           const color = colorPeony ? event.colors[Math.floor(i / n * event.colors.length)] : ghost ? ((i / n + age * .22) % 1 < .5 ? event.colors[0] : event.colors[1]) : ring && age > 1.3 && noise(seed + 7) > .72 ? '#dddbda' : event.colors[i % event.colors.length];
-          if (palm) {
-            context.globalAlpha = fade * .7; context.strokeStyle = event.shape === 'palm-glitter' || willow ? '#f8cd91' : '#dce5fc'; context.lineWidth = Math.max(.65, 1.25 * scale);
+          if (ghostPeony) {
+            // Separate fading stars by sector; never replace the whole burst's
+            // color in one frame or blend saturated colors into grey.
+            const phase = Math.max(0, Math.min(1, (age - .55 - i / n * .55) / .55));
+            const alpha = phase * phase * (3 - 2 * phase);
+            dot(px(age), py(age), Math.max(.7, 2 * scale), color, fade * (1 - alpha));
+            dot(px(age), py(age), Math.max(.65, 1.6 * scale), event.ghostColor || '#798fd5', fade * alpha);
+            continue;
+          }
+          if (wander && age > .3) {
+            context.globalAlpha = fade * .75; context.strokeStyle = '#e7eaf2'; context.lineWidth = Math.max(.65, scale);
             context.beginPath();
-            for (let j = 0; j <= 10; j++) { const t = Math.max(0, age - .34 + j * .034); if (!j) context.moveTo(px(t), py(t)); else context.lineTo(px(t), py(t)); }
+            for (let j = 0; j <= 4; j++) { const t = Math.max(.3, age - .13 + j * .0325); if (!j) context.moveTo(px(t), py(t)); else context.lineTo(px(t), py(t)); }
+            context.stroke();
+          }
+          if (palm) {
+            const trailColor = event.trailColor || (event.shape === 'palm-glitter' || willow ? '#f8cd91' : '#dce5fc');
+            const trailSeconds = event.trailSeconds ?? .34;
+            context.globalAlpha = fade * .7; context.strokeStyle = trailColor; context.lineWidth = Math.max(.65, 1.25 * scale);
+            context.beginPath();
+            for (let j = 0; j <= 10; j++) { const t = Math.max(0, age - trailSeconds + j * trailSeconds / 10); if (!j) context.moveTo(px(t), py(t)); else context.lineTo(px(t), py(t)); }
             context.stroke();
             const tails = quality === 'low' ? 3 : 5;
             for (let trail = tails; trail >= 1; trail--) {
               const t = Math.max(0, age - trail * .035);
-              dot(px(t), py(t), Math.max(.6, (2 - trail / tails) * scale), event.shape === 'palm-glitter' || willow ? '#f8cd91' : '#cedbf6', fade * .52 * (1 - trail / (tails + 2)));
+              dot(px(t), py(t), Math.max(.6, (2 - trail / tails) * scale), event.trailColor || (event.shape === 'palm-glitter' || willow ? '#f8cd91' : '#cedbf6'), fade * .52 * (1 - trail / (tails + 2)));
             }
           }
           const glitter = !palm && !ring && !flower && !colorPeony && age > .72;
@@ -161,14 +190,14 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
           if (flower && age > .25 && i % 6 === 0) {
             for (let j = 0; j < 3; j++) dot(px(age) + Math.cos(seed + j * 2.1) * age * 9 * scale, py(age) + Math.sin(seed + j * 2.1) * age * 9 * scale, Math.max(.5, scale), '#eecb91', fade * .45);
           }
-          dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), glitter && age > 1.05 ? '#dae5ff' : color, fade * intensity);
+          dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), wander && age > .7 ? '#e7eaf2' : glitter && age > 1.05 ? '#dae5ff' : color, fade * intensity);
           if (ring && age > .48) {
             const t = age - .48;
             dot(ex + Math.cos(angle) * radius * .52 * grow(t) * scale, cy + (Math.sin(angle) * radius * .52 * grow(t) + 14 * t * t) * scale, Math.max(.6, 1.35 * scale), color, fade * .75);
           }
         }
         if (palm && !ghost && !willow && age > .18) {
-          const glitterCount = Math.round((event.shape === 'palm-glitter' ? 105 : 42) * capacity);
+          const glitterCount = Math.round((event.glitterCount ?? (event.shape === 'palm-glitter' ? 105 : 42)) * capacity);
           for (let i = 0; i < glitterCount; i++) {
             const seed = event.seed + i * 91;
             const angle = noise(seed) * Math.PI * 2;

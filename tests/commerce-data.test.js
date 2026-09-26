@@ -20,7 +20,7 @@ test('exact BOGO markers are traceable to reconciled Excel/CSV rows, with curren
 test('cake classification and Silent Treatment correction survive sync; all approved product bytes persist', () => {
   const decisions = read('../docs/catalog/my-list-2026-09/commercial-review.json');
   const stale = structuredClone(products); stale.filter((p) => p.cakeClass).forEach((p) => { p.category = 'Cakes'; });
-  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(stale, decisions), read('../docs/catalog/refinement-2026-09-25/cake-research.json')), read('../docs/catalog/iteration-2026-09-25/cake-corrections.json')), products);
+  assert.deepEqual(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(stale, decisions), read('../docs/catalog/refinement-2026-09-25/cake-research.json')), read('../docs/catalog/iteration-2026-09-25/cake-corrections.json')), read('../docs/catalog/playground-scenes-2026-09/owner-cake-corrections.json')), products);
   assert.equal(products.find((p) => p.id === 'silent-treatment').brand, 'Fox');
   assert.equal(products.find((p) => p.id === 'the-reaper').category, '500g Cakes');
   assert.equal(products.find((p) => p.id === 'bump-bear').category, '200g Cakes');

@@ -1,5 +1,7 @@
 # Validación — 2026-09-26
 
+> Continuación vigente: [escenarios compatibles y ampliación](../playground-scenes-2026-09/README.md). Este informe conserva los resultados de la iteración anterior; Jumboshell ya tiene una referencia completa y existen 19 perfiles.
+
 Estado funcional y fuentes: [README](README.md). Esta revisión incluye el trabajo pendiente de catálogo, My List/PDF y Playground de las iteraciones anteriores. No se ejecutó un despliegue ni una publicación de la app.
 
 ## Comprobaciones automáticas

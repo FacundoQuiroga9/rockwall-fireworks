@@ -25,6 +25,9 @@ export function applyCommercialCorrections(products, corrections) {
   for (const correction of corrections) {
     const product = corrected.find((p) => p.id === correction.id);
     if (!product || product.name !== correction.name || product.image !== correction.image || seen.has(correction.id)) throw new Error(`Commercial identity changed: ${correction.id}`);
+    if (correction.brand !== undefined && product.brand !== correction.brand) throw new Error(`Commercial brand changed: ${correction.id}`);
+    if (Object.hasOwn(correction, 'expectedPresentation') && (product.presentation ?? null) !== correction.expectedPresentation) throw new Error(`Commercial presentation changed: ${correction.id}`);
+    if (correction.expectedSku && !product.storeCodes?.some((code) => code.sku === correction.expectedSku)) throw new Error(`Commercial SKU changed: ${correction.id}`);
     seen.add(correction.id);
     for (const [key, value] of Object.entries(correction.fields)) {
       if (!['category', 'presentation', 'storeCodes', 'cakeClass', 'saleUnit', 'bogo'].includes(key)) throw new Error(`Invalid commercial field: ${key}`);
@@ -109,7 +112,9 @@ export function run({ check = false } = {}) {
   const latestCakes = read(resolve(webRoot, 'docs/catalog/iteration-2026-09-25/cake-corrections.json'));
   const videos = read(resolve(webRoot, 'docs/catalog/iteration-2026-09-25/video-research.json'));
   const continuityVideos = read(resolve(webRoot, 'docs/catalog/playground-continuity-2026-09/video-updates.json'));
-  const products = applyVideoCorrections(applyVideoCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCopyCorrections(applyManualCorrections(master, corrections), copyCorrections), commerce), cakeResearch), latestCakes), videos), continuityVideos);
+  const ownerCakes = read(resolve(webRoot, 'docs/catalog/playground-scenes-2026-09/owner-cake-corrections.json'));
+  const sceneVideos = read(resolve(webRoot, 'docs/catalog/playground-scenes-2026-09/video-updates.json'));
+  const products = applyCommercialCorrections(applyVideoCorrections(applyVideoCorrections(applyVideoCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCopyCorrections(applyManualCorrections(master, corrections), copyCorrections), commerce), cakeResearch), latestCakes), videos), continuityVideos), sceneVideos), ownerCakes);
   for (const entry of read(resolve(webRoot, 'docs/catalog/playground-evolution-2026-09/catalog-enrichment.json'))) {
     const product = products.find((p) => p.id === entry.id);
     if (!product || product.previewVideo !== entry.demonstration.sourceUrl) throw new Error('Demonstration identity changed: ' + entry.id);

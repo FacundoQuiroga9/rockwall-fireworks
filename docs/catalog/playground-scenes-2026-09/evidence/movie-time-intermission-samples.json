@@ -1,0 +1,45 @@
+{
+  "url": "https://www.youtube.com/watch?v=JNSp9V7rLGo",
+  "samples": [
+    {
+      "file": "movie-time-intermission-0.png",
+      "time": 45.999999
+    },
+    {
+      "file": "movie-time-intermission-1.png",
+      "time": 46.999998
+    },
+    {
+      "file": "movie-time-intermission-2.png",
+      "time": 47.999997
+    },
+    {
+      "file": "movie-time-intermission-3.png",
+      "time": 48.999996
+    },
+    {
+      "file": "movie-time-intermission-4.png",
+      "time": 49.999995
+    },
+    {
+      "file": "movie-time-intermission-5.png",
+      "time": 50.999994
+    },
+    {
+      "file": "movie-time-intermission-6.png",
+      "time": 51.999988
+    },
+    {
+      "file": "movie-time-intermission-7.png",
+      "time": 52.999987
+    },
+    {
+      "file": "movie-time-intermission-8.png",
+      "time": 53.999986
+    },
+    {
+      "file": "movie-time-intermission-9.png",
+      "time": 54.999985
+    }
+  ]
+}

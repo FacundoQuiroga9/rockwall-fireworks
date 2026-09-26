@@ -1,6 +1,6 @@
 # Mantener alineados los catálogos
 
-> Playground actual: [panorama, selección de cuatro, siete perfiles y fuente terrestre](playground-evolution-2026-09/README.md).
+> Playground actual: [escenarios compatibles, 19 perfiles, seis incorporaciones y tres cakes confirmadas por el propietario](playground-scenes-2026-09/README.md). Jumboshell dispone de una secuencia completa; Old Ironsides conserva la incertidumbre documentada.
 
 > Nueva revisión local: [My List simplificada y Playground con cuatro perfiles](playground-2026-09/README.md). No cambia condiciones comerciales ni publica la app.
 

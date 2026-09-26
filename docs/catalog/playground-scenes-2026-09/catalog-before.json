@@ -1,0 +1,118 @@
+[
+  {
+    "id": "old-ironsides",
+    "name": "Old Ironsides",
+    "brand": "Brothers",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "30 shots",
+    "manufacturerCode": "BP2452",
+    "previewVideo": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
+    "slug": "old-ironsides",
+    "image": "/images/products/old-ironsides.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 128,
+    "storeCodes": [
+      {
+        "token": "TJCEVYQKEURJTZKRXDKTT7TF",
+        "sku": "687985245215",
+        "gtin": "",
+        "sourceRow": 652
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "brand": "Brothers",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "42 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=eKDVVEhl6ss",
+    "slug": "light-brigade",
+    "image": "/images/products/light-brigade.webp",
+    "imageWidths": [
+      320,
+      387,
+      387
+    ],
+    "featured": false,
+    "sortOrder": 171,
+    "storeCodes": [
+      {
+        "token": "GP4VTTYIGJ6FXPLM52AVKSEX",
+        "sku": "687985245314",
+        "gtin": "",
+        "sourceRow": 541
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "brand": "Black Cat",
+    "category": "Cakes - Size Unconfirmed",
+    "presentation": "45 shots",
+    "previewVideo": "https://www.youtube.com/watch?v=S1dUXLCc8fw",
+    "slug": "mass-confusion",
+    "image": "/images/products/mass-confusion.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 205,
+    "storeCodes": [
+      {
+        "token": "5JPUFA6DW2VVHUQEXK7JAJC3",
+        "sku": "715244065356",
+        "gtin": "",
+        "sourceRow": 581
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "brand": "TNT",
+    "category": "Cakes - Size Unconfirmed",
+    "previewVideo": "https://www.youtube.com/watch?v=Mz9Fq2UKTfU",
+    "slug": "2-minutes-extravaganza",
+    "image": "/images/products/2-minutes-extravaganza.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 229,
+    "storeCodes": [
+      {
+        "token": "T3AVLYCRGWAKT6BREUWYYAAL",
+        "sku": "887946004213",
+        "gtin": "",
+        "sourceRow": 58
+      }
+    ],
+    "cakeClass": {
+      "status": "unconfirmed",
+      "grams": null
+    }
+  }
+]

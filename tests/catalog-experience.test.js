@@ -78,7 +78,8 @@ test('reviewed enrichment retains Square lineage and required local resources',(
     assert.ok(existsSync(new URL(`../${r.referenceImage || `docs/catalog/enrichment-2026-09/references/${p.id}-original.png`}`,import.meta.url)));
     const latest = JSON.parse(readFileSync(new URL('../docs/catalog/iteration-2026-09-25/video-research.json',import.meta.url),'utf8')).find(v => v.id === p.id);
     const continuity = JSON.parse(readFileSync(new URL('../docs/catalog/playground-continuity-2026-09/video-updates.json',import.meta.url),'utf8')).find(v => v.id === p.id);
-    assert.equal(p.previewVideo,continuity?.previewVideo ?? latest?.previewVideo ?? r.previewVideo);
+    const scenes = JSON.parse(readFileSync(new URL('../docs/catalog/playground-scenes-2026-09/video-updates.json',import.meta.url),'utf8')).find(v => v.id === p.id);
+    assert.equal(p.previewVideo,scenes?.previewVideo ?? continuity?.previewVideo ?? latest?.previewVideo ?? r.previewVideo);
   }
 });
 test('every initial pending row has an outcome and approved photos retain their identity',()=>{

@@ -1,0 +1,134 @@
+{
+  "productId": "jumboshell-fountain",
+  "revision": 1,
+  "status": "reviewed",
+  "name": "Jumboshell Fountain",
+  "brand": "Brothers",
+  "category": "Fountains",
+  "kind": "fountain-sample",
+  "sampleLabel": "Fountain excerpt",
+  "duration": 125.5,
+  "observedShots": null,
+  "effects": [
+    "Green pearls",
+    "Gold spray",
+    "White stars",
+    "Branching sparks"
+  ],
+  "summary": "Green pearls rise through a golden spray, followed by fuller showers of gold, bright white points and branching sparks.",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=hOgReJdyXEs",
+    "manufacturerCode": "BP4247",
+    "segmentStart": 6,
+    "segmentEnd": 131.5,
+    "reviewedOn": "2026-09-26",
+    "method": "Muted source video inspected in Chrome, with decoded frames and timestamped contact sheets. No source audio redistributed.",
+    "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
+    "notes": [
+      "Official Brothers BP4247 and matching round gold shell-shaped package; one stationary unit.",
+      "Five-second sampling from intro through 130 seconds. No obvious cuts or simultaneous second product inside the performance; exposure and smoke vary.",
+      "Early green stars over a narrow gold jet; broader fine gold by about 23s; bright white around 43s; alternating fine gold and larger flowers later.",
+      "Still emitting at 130 seconds near the end of the 132-second recording. Closure is simulated, not an observed product finish."
+    ]
+  },
+  "verified": [
+    "Identity and variant from manufacturer title/overlay and packaging",
+    "Visible colors and effect development in the selected segment"
+  ],
+  "estimated": [
+    "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
+    "Particle paths, density, camera scale and synthesized audio are illustrative"
+  ],
+  "events": [],
+  "stages": [
+    {
+      "start": 0,
+      "end": 17,
+      "colors": [
+        "#b2ef85",
+        "#f2c67c"
+      ],
+      "height": 0.55,
+      "spread": 0.34,
+      "intensity": 0.65,
+      "clusters": false,
+      "transitionSeconds": 0.8
+    },
+    {
+      "start": 17,
+      "end": 37,
+      "colors": [
+        "#e7b169",
+        "#f7ddaa"
+      ],
+      "height": 0.82,
+      "spread": 0.46,
+      "intensity": 1,
+      "clusters": false,
+      "transitionSeconds": 0.8
+    },
+    {
+      "start": 37,
+      "end": 52,
+      "colors": [
+        "#f3f6ff",
+        "#eac48b"
+      ],
+      "height": 0.62,
+      "spread": 0.3,
+      "intensity": 0.75,
+      "clusters": false,
+      "transitionSeconds": 0.8
+    },
+    {
+      "start": 52,
+      "end": 85,
+      "colors": [
+        "#f8d88c",
+        "#c2eaa1",
+        "#f3f2dc"
+      ],
+      "height": 0.68,
+      "spread": 0.57,
+      "intensity": 0.85,
+      "clusters": true,
+      "transitionSeconds": 0.8
+    },
+    {
+      "start": 85,
+      "end": 105,
+      "colors": [
+        "#edb774",
+        "#f6d3a4"
+      ],
+      "height": 0.83,
+      "spread": 0.43,
+      "intensity": 1,
+      "clusters": false,
+      "transitionSeconds": 0.8
+    },
+    {
+      "start": 105,
+      "end": 125.5,
+      "colors": [
+        "#f3f3e1",
+        "#b3e78b",
+        "#edc27f"
+      ],
+      "height": 0.72,
+      "spread": 0.54,
+      "intensity": 0.85,
+      "clusters": true,
+      "transitionSeconds": 0.8
+    }
+  ],
+  "ending": {
+    "kind": "simulation",
+    "fadeStart": 125.5,
+    "emissionEnd": 127.5,
+    "tailSeconds": 2.2,
+    "note": "Visual closure of an excerpt, not verified product shutdown."
+  },
+  "playbackDuration": 129.7,
+  "scene": "ground"
+}

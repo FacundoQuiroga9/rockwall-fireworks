@@ -1,0 +1,16 @@
+{
+  "mode": "aerial",
+  "compact": false,
+  "quality": "high",
+  "frames": 2521,
+  "elapsedSeconds": 42,
+  "fps": 60,
+  "meanDrawMs": 0.365,
+  "p95DrawMs": 0.6000000089406967,
+  "maxDrawMs": 0.800000011920929,
+  "maxParticles": 336,
+  "canvas": "1280 × 640 CSS px",
+  "dpr": 2,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+  "concurrency": 8
+}

@@ -1,5 +1,7 @@
 # Playground: continuidad, bases reales y segundo lote — 2026-09-26
 
+> Continuación vigente: [escenarios compatibles y ampliación](../playground-scenes-2026-09/README.md). Este informe conserva los resultados de la iteración anterior; Jumboshell ya tiene una referencia completa y existen 19 perfiles.
+
 Continúa [evolution](../playground-evolution-2026-09/README.md). Este informe reemplaza su estado de siete perfiles, sus textos comerciales y la restricción histórica de no hacer commit/push. La autorización actual incluye versionar ambas iteraciones pendientes y esta revisión, sin despliegue ni publicación.
 
 Vista local: <http://localhost:5173/playground?product=fairies-in-a-jar>. Catálogo: 302 productos. Playground: **13 perfiles**, seis cakes, cuatro muestras individuales de shells y tres fountains. Cuatro secuencias completas, cinco extractos y cuatro muestras de shells. Los primeros cuatro perfiles conservan exactamente sus datos y eventos aprobados.

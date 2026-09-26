@@ -1,0 +1,17 @@
+[
+  {
+    "id": "jumboshell-fountain",
+    "name": "Jumboshell Fountain",
+    "image": "/images/products/jumboshell-fountain.webp",
+    "brand": "Brothers",
+    "manufacturerCode": "BP4247",
+    "status": "approved",
+    "previewVideo": "https://www.youtube.com/watch?v=5KN5suDvKhg",
+    "previousPreviewVideo": "https://www.youtube.com/watch?v=hOgReJdyXEs",
+    "sourceType": "retailer",
+    "channel": "Spirit of ’76 Fireworks",
+    "reviewedOn": "2026-09-26",
+    "evidence": "evidence/jumboshell-opening-samples.json; jumboshell-long-samples.json; jumboshell-shutdown-samples.json. Full performance, fixed base, last sparks at 153.4 s; dark at 154.4 s.",
+    "identitySource": "https://www.libertyfireworks.us/products/jumbo-shell"
+  }
+]

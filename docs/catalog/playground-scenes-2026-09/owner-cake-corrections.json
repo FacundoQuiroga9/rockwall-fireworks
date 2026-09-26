@@ -1,0 +1,89 @@
+[
+  {
+    "id": "mass-confusion",
+    "name": "Mass Confusion",
+    "image": "/images/products/mass-confusion.webp",
+    "brand": "Black Cat",
+    "expectedPresentation": "45 shots",
+    "expectedSku": "715244065356",
+    "reviewedAt": "2026-09-26",
+    "status": "confirmed",
+    "provenance": {
+      "kind": "owner-confirmation",
+      "source": "User instruction, 2026-09-26: Mass Confusion \u2192 500g",
+      "scope": "Exact stocked variant identified by catalog ID, brand, presentation and store SKU; supersedes unresolved distributor evidence. No promotion eligibility confirmed."
+    },
+    "previousFields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "confirmed",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "light-brigade",
+    "name": "Light Brigade",
+    "image": "/images/products/light-brigade.webp",
+    "brand": "Brothers",
+    "expectedPresentation": "42 shots",
+    "expectedSku": "687985245314",
+    "reviewedAt": "2026-09-26",
+    "status": "confirmed",
+    "provenance": {
+      "kind": "owner-confirmation",
+      "source": "User instruction, 2026-09-26: Light Brigade \u2192 500g",
+      "scope": "Exact stocked variant identified by catalog ID, brand, presentation and store SKU; supersedes unresolved distributor evidence. No promotion eligibility confirmed."
+    },
+    "previousFields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "confirmed",
+        "grams": 500
+      }
+    }
+  },
+  {
+    "id": "2-minutes-extravaganza",
+    "name": "2 Minutes Extravaganza",
+    "image": "/images/products/2-minutes-extravaganza.webp",
+    "brand": "TNT",
+    "expectedPresentation": null,
+    "expectedSku": "887946004213",
+    "reviewedAt": "2026-09-26",
+    "status": "confirmed",
+    "provenance": {
+      "kind": "owner-confirmation",
+      "source": "User instruction, 2026-09-26: 2 Minutes Extravaganza \u2192 500g",
+      "scope": "Exact stocked variant identified by catalog ID, brand, presentation and store SKU; supersedes unresolved distributor evidence. No promotion eligibility confirmed."
+    },
+    "previousFields": {
+      "category": "Cakes - Size Unconfirmed",
+      "cakeClass": {
+        "status": "unconfirmed",
+        "grams": null
+      }
+    },
+    "fields": {
+      "category": "500g Cakes",
+      "cakeClass": {
+        "status": "confirmed",
+        "grams": 500
+      }
+    }
+  }
+]

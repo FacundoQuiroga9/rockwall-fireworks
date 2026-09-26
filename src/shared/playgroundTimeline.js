@@ -1,5 +1,10 @@
 // Time is measured in seconds. Pure clock, shared by Canvas and the native WebView.
 export function createTimeline(profiles) {
+  // Guard every entry point, including native documents and restored selections.
+  // Keep this self-contained: it is serialized into the offline runtime.
+  if (profiles.length > 4 || new Set(profiles.map((p) => p.productId)).size !== profiles.length
+    || profiles.some((p) => !['aerial', 'ground'].includes(p.scene))
+    || new Set(profiles.map((p) => p.scene)).size > 1) throw new Error('Choose up to four unique profiles from one compatible scene');
   let selected = profiles.map((_, index) => index);
   let position = 0;
   let anchor = 0;
@@ -44,6 +49,7 @@ export function validateProfiles(data, catalog) {
   const ids = new Set();
   for (const profile of data.profiles) {
     const product = catalog.find((p) => p.id === profile.productId);
+    if (!['aerial', 'ground'].includes(profile.scene) || (profile.stages ? profile.scene !== 'ground' : profile.scene !== 'aerial')) errors.push(`${profile.productId}: invalid compatible scene`);
     if (!product || product.name !== profile.name || product.brand !== profile.brand || product.category !== profile.category) errors.push(`${profile.productId}: catalog identity changed`);
     if (ids.has(profile.productId)) errors.push('Duplicate profile');
     ids.add(profile.productId);
@@ -52,7 +58,7 @@ export function validateProfiles(data, catalog) {
     let previous = -1;
     const eventIds = new Set();
     for (const event of profile.events) {
-      if (eventIds.has(event.id) || !Number.isFinite(event.launch) || !Number.isFinite(event.burst) || event.launch < 0 || event.burst < event.launch || event.burst < previous || event.burst >= profile.duration || !(event.life > 0) || !['palm', 'peony', 'ring', 'palm-glitter', 'flower', 'ghost', 'willow', 'color-peony', 'bouquet'].includes(event.shape) || !event.colors.length || event.colors.some((color) => !/^#[a-f\d]{6}$/i.test(color))) errors.push(`${profile.productId}: invalid event ${event.id}`);
+      if (eventIds.has(event.id) || !Number.isFinite(event.launch) || !Number.isFinite(event.burst) || event.launch < 0 || event.burst < event.launch || event.burst < previous || event.burst >= profile.duration || !(event.life > 0) || !['palm', 'peony', 'ring', 'palm-glitter', 'flower', 'ghost', 'willow', 'color-peony', 'bouquet', 'ghost-peony', 'wander'].includes(event.shape) || !event.colors.length || event.colors.some((color) => !/^#[a-f\d]{6}$/i.test(color))) errors.push(`${profile.productId}: invalid event ${event.id}`);
       eventIds.add(event.id); previous = event.burst;
     }
     if (profile.kind.startsWith('fountain')) {

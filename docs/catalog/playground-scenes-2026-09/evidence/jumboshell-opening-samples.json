@@ -1,0 +1,33 @@
+{
+  "url": "https://www.youtube.com/watch?v=5KN5suDvKhg",
+  "samples": [
+    {
+      "file": "jumboshell-opening-0.png",
+      "time": 5
+    },
+    {
+      "file": "jumboshell-opening-1.png",
+      "time": 10
+    },
+    {
+      "file": "jumboshell-opening-2.png",
+      "time": 15
+    },
+    {
+      "file": "jumboshell-opening-3.png",
+      "time": 20
+    },
+    {
+      "file": "jumboshell-opening-4.png",
+      "time": 25
+    },
+    {
+      "file": "jumboshell-opening-5.png",
+      "time": 30
+    },
+    {
+      "file": "jumboshell-opening-6.png",
+      "time": 35
+    }
+  ]
+}

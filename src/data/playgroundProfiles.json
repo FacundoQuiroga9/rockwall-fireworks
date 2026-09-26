@@ -252,7 +252,8 @@
           "x": 0.03,
           "launchVisible": true
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "band-of-brothers",
@@ -465,7 +466,8 @@
           "x": 0.03,
           "launchVisible": true
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "ghostacular-24-pack",
@@ -522,7 +524,8 @@
           "x": -0.025,
           "launchVisible": false
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "maelstrom-24-pack",
@@ -581,7 +584,8 @@
           "launchVisible": true,
           "arms": 8
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "daffodil",
@@ -849,7 +853,8 @@
           "x": 0,
           "launchVisible": true
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "ghost-dragon",
@@ -1012,7 +1017,8 @@
           "launchVisible": true,
           "arms": 22
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "fairies-in-a-jar",
@@ -1123,7 +1129,8 @@
         "tailSeconds": 2.2,
         "note": "Approximate natural exhaustion from the continuous Spirit of ’76 demonstration; warm jet subsides and isolated embers finish their trajectories."
       },
-      "playbackDuration": 74.4
+      "playbackDuration": 74.4,
+      "scene": "ground"
     },
     {
       "productId": "flawless-24-pack",
@@ -1180,7 +1187,8 @@
           "launchVisible": false,
           "arms": 62
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "ruckus-12-pack",
@@ -1237,7 +1245,8 @@
           "launchVisible": false,
           "arms": 30
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "jaws-brothers",
@@ -1537,7 +1546,8 @@
           "launchColor": "#ef5971",
           "clusterDelay": 0.7
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "american-anthem",
@@ -1707,44 +1717,50 @@
           "launchVisible": false,
           "arms": 55
         }
-      ]
+      ],
+      "scene": "aerial"
     },
     {
       "productId": "jumboshell-fountain",
-      "revision": 1,
+      "revision": 2,
       "status": "reviewed",
       "name": "Jumboshell Fountain",
       "brand": "Brothers",
       "category": "Fountains",
-      "kind": "fountain-sample",
-      "sampleLabel": "Fountain excerpt",
-      "duration": 125.5,
+      "kind": "fountain",
+      "sampleLabel": "Full fountain sequence",
+      "duration": 150.1,
       "observedShots": null,
       "effects": [
-        "Green pearls",
-        "Gold spray",
-        "White stars",
-        "Branching sparks"
+        "Green stars",
+        "Golden spray",
+        "Bright white jets",
+        "Branching spark clusters"
       ],
-      "summary": "Green pearls rise through a golden spray, followed by fuller showers of gold, bright white points and branching sparks.",
+      "summary": "Green stars rise through a golden spray, followed by bright white jets and broad branching spark clusters that taper into scattered embers.",
       "source": {
-        "url": "https://www.youtube.com/watch?v=hOgReJdyXEs",
+        "url": "https://www.youtube.com/watch?v=5KN5suDvKhg",
         "manufacturerCode": "BP4247",
-        "segmentStart": 6,
-        "segmentEnd": 131.5,
+        "segmentStart": 5.3,
+        "segmentEnd": 155.4,
         "reviewedOn": "2026-09-26",
         "method": "Muted source video inspected in Chrome, with decoded frames and timestamped contact sheets. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
         "notes": [
-          "Official Brothers BP4247 and matching round gold shell-shaped package; one stationary unit.",
-          "Five-second sampling from intro through 130 seconds. No obvious cuts or simultaneous second product inside the performance; exposure and smoke vary.",
-          "Early green stars over a narrow gold jet; broader fine gold by about 23s; bright white around 43s; alternating fine gold and larger flowers later.",
-          "Still emitting at 130 seconds near the end of the 132-second recording. Closure is simulated, not an observed product finish."
+          "Spirit of ’76 FG114 Jumboshell Fountain: the round gold shell-shaped Brothers package matches the catalog BP4247. Liberty Fireworks cross-identifies BP4247 with FG114 and embeds this reference.",
+          "One stationary fountain. No obvious cut within the performance; the base and surrounding ground remain fixed. Early ignition refined at 6, 7 and 8 s; main video sampled about every five seconds; shutdown refined every second from 150.4 through 154.4 s.",
+          "Green points over warm spray at the start; larger white/gold branches by 20–40 s; narrower bright white jet and individual stars around 45–80 s; broad branching white sparks from about 80 s onward. Some highlights are overexposed; no additional saturated color specification is inferred.",
+          "Still a strong jet at 151.4–152.4 s, then only last falling sparks at 153.4 s and a dark stage at 154.4 s. The shutdown precedes the final black frames. Boundaries remain approximate (±1–2.5 s).",
+          "150.1 s describes this demonstrated full performance, not a guaranteed manufacturer runtime. The previous official excerpt remains archived; it was not looped or stretched."
+        ],
+        "previousReferences": [
+          "https://www.youtube.com/watch?v=hOgReJdyXEs"
         ]
       },
       "verified": [
         "Identity and variant from manufacturer title/overlay and packaging",
-        "Visible colors and effect development in the selected segment"
+        "Visible colors and effect development in the selected segment",
+        "Natural emission shutdown and last embers in the longer reference"
       ],
       "estimated": [
         "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
@@ -1754,93 +1770,105 @@
       "stages": [
         {
           "start": 0,
-          "end": 17,
-          "colors": [
-            "#b2ef85",
-            "#f2c67c"
-          ],
-          "height": 0.55,
+          "end": 6.7,
+          "height": 0.53,
           "spread": 0.34,
-          "intensity": 0.65,
+          "intensity": 0.7,
           "clusters": false,
-          "transitionSeconds": 0.8
+          "colors": [
+            "#b3df9b",
+            "#efc788"
+          ],
+          "transitionSeconds": 0
         },
         {
-          "start": 17,
-          "end": 37,
-          "colors": [
-            "#e7b169",
-            "#f7ddaa"
-          ],
-          "height": 0.82,
-          "spread": 0.46,
-          "intensity": 1,
-          "clusters": false,
-          "transitionSeconds": 0.8
-        },
-        {
-          "start": 37,
-          "end": 52,
-          "colors": [
-            "#f3f6ff",
-            "#eac48b"
-          ],
-          "height": 0.62,
+          "start": 6.7,
+          "end": 14.7,
+          "height": 0.48,
           "spread": 0.3,
-          "intensity": 0.75,
+          "intensity": 0.6,
           "clusters": false,
-          "transitionSeconds": 0.8
+          "colors": [
+            "#efc788",
+            "#f0e8d6"
+          ],
+          "transitionSeconds": 0.75
         },
         {
-          "start": 52,
-          "end": 85,
-          "colors": [
-            "#f8d88c",
-            "#c2eaa1",
-            "#f3f2dc"
-          ],
-          "height": 0.68,
-          "spread": 0.57,
-          "intensity": 0.85,
-          "clusters": true,
-          "transitionSeconds": 0.8
-        },
-        {
-          "start": 85,
-          "end": 105,
-          "colors": [
-            "#edb774",
-            "#f6d3a4"
-          ],
+          "start": 14.7,
+          "end": 37.7,
           "height": 0.83,
-          "spread": 0.43,
-          "intensity": 1,
-          "clusters": false,
-          "transitionSeconds": 0.8
+          "spread": 0.56,
+          "intensity": 0.95,
+          "clusters": true,
+          "colors": [
+            "#f1ead8",
+            "#efc990"
+          ],
+          "transitionSeconds": 0.75
         },
         {
-          "start": 105,
-          "end": 125.5,
+          "start": 37.7,
+          "end": 74.7,
+          "height": 0.66,
+          "spread": 0.35,
+          "intensity": 0.78,
+          "clusters": false,
           "colors": [
-            "#f3f3e1",
-            "#b3e78b",
-            "#edc27f"
+            "#eef2ff",
+            "#efd6a6"
           ],
-          "height": 0.72,
+          "transitionSeconds": 0.75
+        },
+        {
+          "start": 74.7,
+          "end": 89.7,
+          "height": 0.82,
           "spread": 0.54,
-          "intensity": 0.85,
+          "intensity": 0.95,
           "clusters": true,
-          "transitionSeconds": 0.8
+          "colors": [
+            "#f2eadb",
+            "#efcc94"
+          ],
+          "transitionSeconds": 0.75
+        },
+        {
+          "start": 89.7,
+          "end": 129.7,
+          "height": 0.85,
+          "spread": 0.57,
+          "intensity": 1,
+          "clusters": true,
+          "colors": [
+            "#eef2ff",
+            "#f4dcad"
+          ],
+          "transitionSeconds": 0.75
+        },
+        {
+          "start": 129.7,
+          "end": 150.1,
+          "height": 0.76,
+          "spread": 0.52,
+          "intensity": 0.92,
+          "clusters": true,
+          "colors": [
+            "#f2edde",
+            "#efc990"
+          ],
+          "transitionSeconds": 0.75
         }
       ],
       "ending": {
-        "kind": "simulation",
-        "fadeStart": 125.5,
-        "emissionEnd": 127.5,
+        "kind": "observed",
+        "fadeStart": 146.5,
+        "emissionEnd": 147.7,
         "tailSeconds": 2.2,
-        "note": "Visual closure of an excerpt, not verified product shutdown."
+        "note": "Approximate natural shutdown at source 151.8–153.0 seconds. Last sparks finish before the dark closing frames; no whole-scene opacity fade."
       },
-      "playbackDuration": 129.7
+      "playbackDuration": 150.1,
+      "scene": "ground"
     },
     {
       "productId": "super-fountain",
@@ -2041,7 +2069,1115 @@
         "tailSeconds": 2.2,
         "note": "Visual closure of an excerpt, not verified product shutdown."
       },
-      "playbackDuration": 103.2
+      "playbackDuration": 103.2,
+      "scene": "ground"
+    },
+    {
+      "productId": "arms-depot-16-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Arms Depot",
+      "brand": "Raccoon",
+      "category": "Reloadables",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "sampleLabel": "Single shell sample",
+      "duration": 3.6,
+      "observedShots": 1,
+      "effects": [
+        "Silver-blue branches",
+        "Red spark clusters",
+        "White glitter"
+      ],
+      "summary": "Pale silver-blue branches blossom into small red clusters, leaving a soft scattering of white sparks.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
+        "manufacturerCode": "RA11601",
+        "segmentStart": 6.2,
+        "segmentEnd": 9.8,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Official Raccoon RA11601, 4-inch 16-shell presentation. Only the first shell is represented; its effect is not attributed to all 16 shells.",
+          "One visible launch, branching opening around 7.1 s, red secondary clusters around 7.7 s, fading by 9.8 s. No cut or simultaneous second launch visible within this sample."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [
+        {
+          "id": "arms-depot-16-pack-1",
+          "launch": 0.15,
+          "burst": 0.9,
+          "x": 0,
+          "shape": "bouquet",
+          "colors": [
+            "#dce9ff"
+          ],
+          "life": 2.6,
+          "seed": 22948,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "clusterDelay": 0.48,
+          "clusterColors": [
+            "#ed7790",
+            "#ed7790",
+            "#ed7790",
+            "#e9eaf2"
+          ],
+          "clusters": 18,
+          "clusterArms": 7,
+          "branchTrails": true,
+          "branchColor": "#dce9ff",
+          "clusterPointSize": 2.2
+        }
+      ]
+    },
+    {
+      "productId": "sniper-fire-12-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Sniper Fire",
+      "brand": "Raccoon",
+      "category": "Reloadables",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "sampleLabel": "Single shell sample",
+      "duration": 3.8,
+      "observedShots": 1,
+      "effects": [
+        "Copper-red trails",
+        "White points",
+        "Silver shimmer"
+      ],
+      "summary": "Copper and red trails spread around bright white sparks, thinning into a soft silver shimmer.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=66butJ3I7Tw",
+        "manufacturerCode": "RA11201",
+        "segmentStart": 6.2,
+        "segmentEnd": 10,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Official Raccoon RA11201, 4-inch 12-shell presentation. One demonstrated shell only, not a package-wide effect or runtime.",
+          "First ascent around 6.6 s, opening around 7.05 s; thin copper/red trails remain around 8.8 s and are nearly dark by 9.6 s. No visible edit or second simultaneous unit in the selected sample."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [
+        {
+          "id": "sniper-fire-12-pack-1",
+          "launch": 0.35,
+          "burst": 0.85,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#d98166",
+            "#d98166",
+            "#efddd1"
+          ],
+          "life": 2.65,
+          "seed": 23895,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 42,
+          "trailColor": "#d98166",
+          "glitterCount": 65,
+          "trailSeconds": 0.38,
+          "radius": 146,
+          "radialMin": 0.35
+        }
+      ]
+    },
+    {
+      "productId": "ghost-killer",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Ghost Killer",
+      "brand": "Raccoon",
+      "category": "500g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "sampleLabel": "Cake excerpt",
+      "duration": 41,
+      "observedShots": 8,
+      "effects": [
+        "Peach stars",
+        "Pale green sectors",
+        "Blue ghost points"
+      ],
+      "summary": "Peach and pale green stars spread into rounded bursts, with cool blue points appearing as the brighter colors fade.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=oqXARGKUAXk",
+        "manufacturerCode": "RA57217",
+        "segmentStart": 6,
+        "segmentEnd": 47,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Official Raccoon RA57217 9-shot rack, 500g overlay. One centered unit; no obvious internal cut or simultaneous second product.",
+          "Eight distinct bursts resolved at about 8.5, 12.85, 17.8, 21.8, 26.9, 32.9, 38.85 and 43.8 s. Advertised total is nine; the unresolved ninth is not invented. Classified as excerpt despite a dark end to the recording.",
+          "Colors shift by sectors; the peach/green stars dim before blue points dominate, rather than all stars being recolored at once."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [
+        {
+          "id": "ghost-killer-1",
+          "launch": 1.7,
+          "burst": 2.5,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#b7e9a5",
+            "#ed879e"
+          ],
+          "life": 2.8,
+          "seed": 24842,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-2",
+          "launch": 6.05,
+          "burst": 6.85,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#ed879e",
+            "#b7e9a5"
+          ],
+          "life": 2.8,
+          "seed": 25113,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-3",
+          "launch": 11.0,
+          "burst": 11.8,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#b7e9a5",
+            "#ed879e"
+          ],
+          "life": 2.8,
+          "seed": 25384,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-4",
+          "launch": 15.0,
+          "burst": 15.8,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#ed879e",
+            "#b7e9a5"
+          ],
+          "life": 2.8,
+          "seed": 25655,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-5",
+          "launch": 20.1,
+          "burst": 20.9,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#ed879e",
+            "#b7e9a5"
+          ],
+          "life": 2.8,
+          "seed": 25926,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-6",
+          "launch": 26.1,
+          "burst": 26.9,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#ed879e",
+            "#b7e9a5"
+          ],
+          "life": 2.8,
+          "seed": 26197,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-7",
+          "launch": 32.05,
+          "burst": 32.85,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#b7e9a5",
+            "#ed879e"
+          ],
+          "life": 2.8,
+          "seed": 26468,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        },
+        {
+          "id": "ghost-killer-8",
+          "launch": 37.0,
+          "burst": 37.8,
+          "x": 0,
+          "shape": "ghost-peony",
+          "colors": [
+            "#ed879e",
+            "#b7e9a5"
+          ],
+          "life": 2.8,
+          "seed": 26739,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 48,
+          "ghostColor": "#798fd5",
+          "radius": 158
+        }
+      ]
+    },
+    {
+      "productId": "us-power",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "U.S. Power",
+      "brand": "Raccoon",
+      "category": "200g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "sampleLabel": "Cake excerpt",
+      "duration": 17.3,
+      "observedShots": 11,
+      "effects": [
+        "Orange comet tails",
+        "Colored stars",
+        "Wandering silver trails"
+      ],
+      "summary": "Orange comets open into colored stars and short silver trails that turn and wander across the sky.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=b0xT23KjsGk",
+        "manufacturerCode": "RA22534",
+        "segmentStart": 6.1,
+        "segmentEnd": 23.4,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Official Raccoon RA22534, 200g, 16 shots. A single visible firing position; decorative video border, no obvious internal cut in the selected portion.",
+          "Eleven separated openings resolved. Later closely overlapping finale launches and bursts cannot be counted reliably from the sampled footage; excerpt deliberately ends before that cluster. No fabricated shots to reach the advertised sixteen.",
+          "Openings sampled every 0.33 s, with the overlapping finale inspected at 0.1 s. Wander paths are an illustrative approximation of the visibly turning short silver streaks."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [
+        {
+          "id": "us-power-1",
+          "launch": 0.4,
+          "burst": 1.4,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.8,
+          "seed": 25789,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-2",
+          "launch": 2.15,
+          "burst": 3.15,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#e6b578",
+            "#c6e298"
+          ],
+          "life": 1.8,
+          "seed": 26060,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-3",
+          "launch": 3.73,
+          "burst": 4.73,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.8,
+          "seed": 26331,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-4",
+          "launch": 4.75,
+          "burst": 5.75,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#e6b578",
+            "#c6e298"
+          ],
+          "life": 1.8,
+          "seed": 26602,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-5",
+          "launch": 6.13,
+          "burst": 7.13,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.8,
+          "seed": 26873,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-6",
+          "launch": 7.05,
+          "burst": 8.05,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#e6b578",
+            "#c6e298"
+          ],
+          "life": 1.8,
+          "seed": 27144,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-7",
+          "launch": 8.55,
+          "burst": 9.55,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.8,
+          "seed": 27415,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-8",
+          "launch": 10.2,
+          "burst": 11.2,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#e6b578",
+            "#c6e298"
+          ],
+          "life": 1.8,
+          "seed": 27686,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-9",
+          "launch": 11.43,
+          "burst": 12.43,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.8,
+          "seed": 27957,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-10",
+          "launch": 13.45,
+          "burst": 14.45,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#e6b578",
+            "#c6e298"
+          ],
+          "life": 1.8,
+          "seed": 28228,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        },
+        {
+          "id": "us-power-11",
+          "launch": 14.8,
+          "burst": 15.8,
+          "x": 0,
+          "shape": "wander",
+          "colors": [
+            "#ecb46e",
+            "#c4acd6"
+          ],
+          "life": 1.45,
+          "seed": 28499,
+          "launchVisible": true,
+          "launchColor": "#eac77e",
+          "arms": 36,
+          "radius": 128
+        }
+      ]
+    },
+    {
+      "productId": "golden-peacock",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Golden Peacock",
+      "brand": "Brothers",
+      "category": "200g Cakes",
+      "kind": "cake",
+      "scene": "aerial",
+      "sampleLabel": "Full cake sequence",
+      "duration": 40.8,
+      "observedShots": 16,
+      "effects": [
+        "Green comet tails",
+        "Golden bouquets",
+        "Crackling sparks"
+      ],
+      "summary": "Green comets rise in a steady sequence, opening into small golden bouquets with bright, crackling sparkles.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=0ZGF8eiJvcc",
+        "manufacturerCode": "BP2112",
+        "segmentStart": 3.7,
+        "segmentEnd": 44.5,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Spirit of ’76 MS187 is a distributor code for Brothers Golden Peacock. Catalog model BP2112, matching named package and 16-shot 200g presentation; not a different product named Peacock.",
+          "Sixteen separate openings counted through a single continuous performance. No simultaneous second unit or obvious internal cut. The last sparks fade into the dark closing frames at 43–45 s.",
+          "Source sampled at one-second intervals from intro through the dark ending; timings are estimates (approximately ±0.5 s), not frame-accurate manufacturer timings. No additional finale pattern inferred."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [
+        {
+          "id": "golden-peacock-1",
+          "launch": 0.4,
+          "burst": 1.9,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 26736,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-2",
+          "launch": 2.8,
+          "burst": 4.3,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 27007,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 16,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 114,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-3",
+          "launch": 5.5,
+          "burst": 7.0,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 27278,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 18,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 120,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-4",
+          "launch": 7.5,
+          "burst": 9.0,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 27549,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-5",
+          "launch": 10.7,
+          "burst": 12.2,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 27820,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 16,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 114,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-6",
+          "launch": 13.5,
+          "burst": 15.0,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 28091,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 18,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 120,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-7",
+          "launch": 15.4,
+          "burst": 16.9,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 28362,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-8",
+          "launch": 17.6,
+          "burst": 19.1,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 28633,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 16,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 114,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-9",
+          "launch": 19.75,
+          "burst": 21.25,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 28904,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 18,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 120,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-10",
+          "launch": 21.8,
+          "burst": 23.3,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 29175,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-11",
+          "launch": 24.3,
+          "burst": 25.8,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 29446,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 16,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 114,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-12",
+          "launch": 27.0,
+          "burst": 28.5,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 29717,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 18,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 120,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-13",
+          "launch": 29.6,
+          "burst": 31.1,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 29988,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-14",
+          "launch": 31.7,
+          "burst": 33.2,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 30259,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 16,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 114,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-15",
+          "launch": 34.5,
+          "burst": 36.0,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 30530,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 18,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 120,
+          "radialMin": 0.3
+        },
+        {
+          "id": "golden-peacock-16",
+          "launch": 36.5,
+          "burst": 38.0,
+          "x": 0,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e9cf86",
+            "#bbdc85"
+          ],
+          "life": 2.2,
+          "seed": 30801,
+          "launchVisible": true,
+          "launchColor": "#bcdf87",
+          "arms": 14,
+          "trailColor": "#e9c388",
+          "glitterCount": 38,
+          "trailSeconds": 0.17,
+          "radius": 108,
+          "radialMin": 0.3
+        }
+      ]
+    },
+    {
+      "productId": "movie-time",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Movie Time",
+      "brand": "Brothers",
+      "category": "Fountains",
+      "kind": "fountain-sample",
+      "scene": "ground",
+      "sampleLabel": "Fountain excerpt",
+      "duration": 81,
+      "observedShots": null,
+      "effects": [
+        "Gold spray",
+        "Branching sparks",
+        "Brief pause and restart",
+        "White and gold showers"
+      ],
+      "summary": "Golden sprays break into bright sparkling clusters, settle into a brief pause, then return with white sparks and fuller gold showers.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=JNSp9V7rLGo",
+        "manufacturerCode": "BP4213",
+        "segmentStart": 6,
+        "segmentEnd": 87,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+        "notes": [
+          "Official Brothers BP4213 Movie Time fountain, matching popcorn-carton package. One stationary product, fixed framing; no obvious internal cut.",
+          "The source timer continues through a real intermission: strong emission at 46–48 s, last embers at 49 s, dark at 50 s, restart at 51–52 s. The simulation preserves this pause; old particles still complete their trajectories.",
+          "Five-second sampling of the entire video, refined one-second sampling around the intermission. Still emitting at 87 s near the end of the recording. The exit after the excerpt is a simulation closure, not a verified product ending or total runtime."
+        ]
+      },
+      "verified": [
+        "Catalog variant, code/presentation and matching video title or package",
+        "Visible effects and individually resolved events within the selected segment"
+      ],
+      "estimated": [
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
+        "Particle trajectories, camera scale, density and synthesized audio are illustrative"
+      ],
+      "events": [],
+      "stages": [
+        {
+          "start": 0,
+          "end": 8.5,
+          "height": 0.68,
+          "spread": 0.3,
+          "intensity": 0.8,
+          "density": 1,
+          "clusters": true,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0
+        },
+        {
+          "start": 8.5,
+          "end": 11.5,
+          "height": 0.18,
+          "spread": 0.25,
+          "intensity": 0.28,
+          "density": 0.14,
+          "clusters": false,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0.65
+        },
+        {
+          "start": 11.5,
+          "end": 32,
+          "height": 0.42,
+          "spread": 0.27,
+          "intensity": 0.75,
+          "density": 1,
+          "clusters": false,
+          "colors": [
+            "#edbd77",
+            "#f3e9d2"
+          ],
+          "transitionSeconds": 0.65
+        },
+        {
+          "start": 32,
+          "end": 36,
+          "height": 0.35,
+          "spread": 0.24,
+          "intensity": 0.55,
+          "density": 0.8,
+          "clusters": false,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0.65
+        },
+        {
+          "start": 36,
+          "end": 42.6,
+          "height": 0.72,
+          "spread": 0.5,
+          "intensity": 0.9,
+          "density": 1,
+          "clusters": true,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0.65
+        },
+        {
+          "start": 42.6,
+          "end": 45,
+          "height": 0.2,
+          "spread": 0.25,
+          "intensity": 0,
+          "density": 0,
+          "clusters": false,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0.15
+        },
+        {
+          "start": 45,
+          "end": 62,
+          "height": 0.45,
+          "spread": 0.3,
+          "intensity": 0.72,
+          "density": 1,
+          "clusters": true,
+          "colors": [
+            "#edbd77",
+            "#f3e9d2"
+          ],
+          "transitionSeconds": 0.25
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "height": 0.27,
+          "spread": 0.3,
+          "intensity": 0.55,
+          "density": 0.75,
+          "clusters": false,
+          "colors": [
+            "#edbd77",
+            "#f3e9d2"
+          ],
+          "transitionSeconds": 0.65
+        },
+        {
+          "start": 66,
+          "end": 81,
+          "height": 0.57,
+          "spread": 0.38,
+          "intensity": 0.85,
+          "density": 1,
+          "clusters": true,
+          "colors": [
+            "#e9ad5f",
+            "#f3d292"
+          ],
+          "transitionSeconds": 0.65
+        }
+      ],
+      "ending": {
+        "kind": "simulation",
+        "fadeStart": 81,
+        "emissionEnd": 83,
+        "tailSeconds": 1.6,
+        "note": "Soft visual closure of the excerpt. The source remains active near its end; no verified product shutdown or total duration is claimed."
+      },
+      "playbackDuration": 84.6
     }
   ]
 }
