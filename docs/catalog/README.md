@@ -1,3 +1,5 @@
+> Playground vigente: [23 perfiles, shells manuales, categorías y calidad](playground-controls-2026-09/README.md).
+
 # Mantener alineados los catálogos
 
 > Playground actual: [escenarios compatibles, 19 perfiles, seis incorporaciones y tres cakes confirmadas por el propietario](playground-scenes-2026-09/README.md). Jumboshell dispone de una secuencia completa; Old Ironsides conserva la incertidumbre documentada.

@@ -9,7 +9,7 @@ const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url)));
 const data = read('../src/data/playgroundProfiles.json'); const all = data.profiles;
 const products = read('../src/data/products.json');
 test('approved profiles remain identical and new excerpts retain evidence and honest scope', () => {
-  assert.deepEqual(all.slice(0,4).map((profile) => { const copy = { ...profile }; delete copy.scene; return copy; }), read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles);
+  assert.deepEqual(all.slice(0,4).map((profile) => { const copy = { ...profile }; delete copy.scene; delete copy.playback; delete copy.shellCount; if (copy.kind === 'shell-sample') copy.category = 'Reloadables'; return copy; }), read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles);
   assert.deepEqual(validateProfiles(data, products), []);
   for (const p of all.slice(4,6)) { assert.match(p.sampleLabel, /excerpt/i); assert.ok(p.source.notes.length); assert.match(p.source.evidenceDirectory, /evolution/); }
   assert.equal(all.find((p) => p.productId === 'fairies-in-a-jar').observedShots, null);
@@ -23,7 +23,7 @@ test('zero through four selections; fifth rejected, toggle and clear do not touc
 });
 test('type/search filters only available profiles, with selection retained across hidden types', () => {
   const ids=[all[0].productId,all[2].productId,all[6].productId];
-  assert.deepEqual([...new Set(all.map(profileGroup))],['Cakes','Artillery Shells','Fountains']);
+  assert.deepEqual([...new Set(all.map(profileGroup))],['Cakes','Artillery Shells','Fountains','Spinners','Roman Candles','Rockets']);
   assert.equal(filterPlaygroundProfiles(all,'Artillery Shells','ghost').length,1);
   assert.equal(filterPlaygroundProfiles(all,'Cakes','fairies').length,0);
   assert.equal(filterPlaygroundProfiles(all,'All').length,all.length);
@@ -33,7 +33,7 @@ test('type/search filters only available profiles, with selection retained acros
 test('four clocks finish at the longest duration without duplicated cues, empty clock is idle', () => {
   const clock=createTimeline(all.slice(0,4));clock.play(100);const seen=[];
   for(let t=100;t<35000;t+=151)seen.push(...clock.tick(t).cues.map((c)=>`${c.event.id}:${c.type}`));
-  assert.equal(seen.length,60);assert.equal(new Set(seen).size,60);assert.equal(clock.snapshot().state,'ended');assert.equal(clock.snapshot().duration,33.8);
+  assert.equal(seen.length,60);assert.equal(new Set(seen).size,60);assert.equal(clock.snapshot().state,'waiting');assert.equal(clock.snapshot().duration,33.8);
   assert.deepEqual(clock.tick(100000).cues,[]);clock.select([]);clock.play(100100);assert.equal(clock.snapshot().state,'idle');assert.equal(clock.snapshot().duration,0);
   clock.select([2]);assert.equal(clock.snapshot().position,0);assert.equal(clock.snapshot().duration,3.6);
 });
@@ -56,7 +56,7 @@ test('four dense products share a global budget and leave no final particles', (
   const canvas={getContext:()=>ctx,getBoundingClientRect:()=>({width:1296,height:640})};
   try {
     const dense=Array.from({length:4},(_,i)=>({...all[1],productId:`stress-${i}`,events:all[1].events.map((e)=>({...e,burst:1,launch:0}))}));
-    for(const compact of [true,false]) {const renderer=createPlaygroundRenderer(canvas,dense,compact);const count=renderer.draw(1.7,[0,1,2,3]);assert.ok(count<= (compact?420:1000));for(const fraction of [.17,.39,.61,.83])assert.ok(points.some(([x])=>Math.abs(x-1296*fraction)<100));assert.equal(renderer.draw(100,[0,1,2,3]),0);renderer.destroy();}
+    for(const compact of [true,false]) {const renderer=createPlaygroundRenderer(canvas,dense,compact);const count=renderer.draw(1.7,[0,1,2,3]);assert.ok(count<= (compact?700:3200));for(const fraction of [.17,.39,.61,.83])assert.ok(points.some(([x])=>Math.abs(x-1296*fraction)<100));assert.equal(renderer.draw(100,[0,1,2,3]),0);renderer.destroy();}
     const ground=createPlaygroundRenderer(canvas,[all[6]],true);assert.ok(ground.draw(22,[0])>0);assert.ok(ground.draw(45,[0])>0);assert.equal(ground.draw(all[6].playbackDuration,[0]),0);ground.destroy();
   } finally {globalThis.ResizeObserver=previous;}
 });

@@ -1,3 +1,4 @@
+import { normalizeCategory } from '../../shared/catalogCategory.js';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import products from '../../data/products.json';
@@ -19,7 +20,7 @@ export default function FullCatalog() {
   const pendingParams = useRef(params);
   useEffect(() => { pendingParams.current = params; }, [params]);
   const query = params.get('q') || '';
-  const category = params.get('category') || '';
+  const category = normalizeCategory(params.get('category') || '');
   const requestedBrand = params.get('brand') || '';
   const brand = brands.includes(requestedBrand) ? requestedBrand : '';
   // Retired brand links remain useful without trapping visitors in an empty filter.

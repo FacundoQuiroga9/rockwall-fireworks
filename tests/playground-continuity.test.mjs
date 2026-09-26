@@ -36,7 +36,7 @@ test('transition mixes new births without grey colors, extra emitters or unbound
   const palette = new Set(fountain.stages.flatMap((s) => s.colors));
   for (let t = 0; t < model.playbackEnd + 1; t += .09) {
     const particles = model.particles(t);
-    assert.ok(particles.length <= 330);
+    assert.ok(particles.length <= 660);
     assert.equal(new Set(particles.map((p) => p.id)).size, particles.length);
     assert.ok(particles.every((p) => palette.has(p.color) && p.alpha >= 0 && p.alpha <= 1));
   }
@@ -100,7 +100,7 @@ test('four fountains stay within shared draw budget and photo geometry never shi
       const renderer=createPlaygroundRenderer({getContext:()=>context,getBoundingClientRect:()=>({width:1296,height:640})},four,compact,createFountainModel,bases);
       for(const photo of photos) {photo.complete=true;photo.naturalWidth=320;photo.onload();}
       renderer.draw(0,[0,1,2,3]); const initial=structuredClone(rects); assert.equal(initial.length,4);
-      for(const t of [13.49,13.51,28,45,47,49.2]) {assert.ok(renderer.draw(t,[0,1,2,3]) <= (compact?420:1000));assert.deepEqual(rects,initial);}
+      for(const t of [13.49,13.51,28,45,47,49.2]) {assert.ok(renderer.draw(t,[0,1,2,3]) <= (compact?700:3200));assert.deepEqual(rects,initial);}
       assert.equal(renderer.draw(49.2,[0,1,2,3]),0);renderer.destroy();assert.ok(photos.every((p)=>p.onload===null));
     }
   } finally {globalThis.ResizeObserver=originalObserver;globalThis.Image=originalImage;}
@@ -134,7 +134,7 @@ test('new fountain profiles distinguish observed exhaustion from preview closure
     assert.equal(model.playbackEnd, profile.playbackDuration);
     assert.ok(model.emissionEnd < model.playbackEnd);
     assert.equal(profile.ending.kind, profile.kind === 'fountain' ? 'observed' : 'simulation');
-    for (let t = 0; t <= model.playbackEnd; t += .11) assert.ok(model.particles(t).length <= 330);
+    for (let t = 0; t <= model.playbackEnd; t += .11) assert.ok(model.particles(t).length <= 660);
     assert.deepEqual(model.particles(model.playbackEnd), []);
   }
   assert.equal(durationLabel(currentFountains[0]), 'Approx. 1 min 14 sec');

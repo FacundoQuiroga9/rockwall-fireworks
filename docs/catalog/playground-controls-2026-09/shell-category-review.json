@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "festival-balls-reloadable",
+    "name": "Festival Balls",
+    "brand": "Monkey Mania",
+    "image": "/images/products/festival-balls-reloadable.webp",
+    "expectedPresentation": "6-piece pack · yellow box",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "style": "Ball shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.liuyangkingdom.com/MM-0008-Festival-Balls-pd44436253.html",
+      "https://americanwholesalefireworks.com/festival-balls/"
+    ],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "neon-beef",
+    "name": "Neon Beef",
+    "brand": "Winda",
+    "image": "/images/products/neon-beef.webp",
+    "expectedPresentation": null,
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {}
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "brand": "Black Cat",
+    "image": "/images/products/diablo.webp",
+    "expectedPresentation": "5-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "futurama-artillery",
+    "name": "Futurama Artillery",
+    "brand": "Raccoon",
+    "image": "/images/products/futurama-artillery.webp",
+    "expectedPresentation": null,
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {}
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "festival-balls-artillery",
+    "name": "Festival Balls",
+    "brand": "Black Cat",
+    "image": "/images/products/festival-balls-artillery.webp",
+    "expectedPresentation": null,
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {}
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "name": "Mother of All Fireworks",
+    "brand": "Raccoon",
+    "image": "/images/products/mother-of-all-fireworks.webp",
+    "expectedPresentation": "4-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "neon-skies",
+    "name": "Neon Skies",
+    "brand": "Raccoon",
+    "image": "/images/products/neon-skies.webp",
+    "expectedPresentation": "4-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "name": "Neon Diablo",
+    "brand": "Black Cat",
+    "image": "/images/products/neon-diablo-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "name": "The Patriot",
+    "brand": "Black Cat",
+    "image": "/images/products/the-patriot-24-pack.webp",
+    "expectedPresentation": "6-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [],
+    "evidence": "Existing approved catalog identity and retail presentation; shell kit category reviewed. Unconfirmed attributes omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "brand": "Winda",
+    "image": "/images/products/double-dragon-6-pack.webp",
+    "expectedPresentation": "6-inch shells · 6-piece pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.getwinda.com/product-page/double-dragon"
+    ],
+    "evidence": "Exact Square SKU equals official Product ID. P8044, 6 PCS and 6 INCH DOUBLE BREAKS are visible on the matching black, red and gold dragon box. Official case packing 12/6 corroborates six per retail box.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "brand": "Monkey Mania",
+    "image": "/images/products/land-of-the-free.webp",
+    "expectedPresentation": "36 shells · 54 breaks",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 36,
+        "totalBreaks": 54
+      }
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/land-of-the-free/",
+      "https://www.raccoonfireworksusa.com/product-page/land-of-the-free",
+      "https://americanwholesalefireworks.com/land-of-the-free/"
+    ],
+    "evidence": "Square explicitly identifies Land Of Free Artillery Shells 36 Shells/54 Breaks. Manufacturer and retailer independently identify Monkey Mania MM40002 with this precise 36-shell/54-break composition. Local real photo shows Monkey Mania and MM40002 on the tubes and matching red/blue Statue of Liberty packaging. Current manufacturer photo arranges the contents differently within the same MM40002 package; no new design was generated. Square SKU retained for traceability, not treated as an independently verified UPC.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "brand": "Winda",
+    "image": "/images/products/chameleon-shells-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.getwinda.com/product-page/chameleon-shells-5-inch",
+      "https://501pyro.com/chameleon-shells/",
+      "https://www.youtube.com/watch?v=3M1DRGY7mYI"
+    ],
+    "evidence": "Square row 249, token 7KHVOFXS6SBVFD3SWNDZTBNE, code 705108805006, name 'Cameleon 5\" Artillery Shells 24 pack'; manufacturer model P8050 and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "brand": "Winda",
+    "image": "/images/products/g-force-24-pack.webp",
+    "expectedPresentation": "4-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.getwinda.com/product-page/g-force",
+      "https://americanwholesalefireworks.com/g-force/",
+      "https://www.youtube.com/watch?v=7pGhF7fvvN0"
+    ],
+    "evidence": "Square row 397, token N6OTOY4DNT3WRUBLSUR5YSC7, code 705108803101, name 'G Force 4\" Artillery Shells 24 Pack'; manufacturer model P8031 and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "name": "King Dragon",
+    "brand": "Raccoon",
+    "image": "/images/products/king-dragon-24-pack.webp",
+    "expectedPresentation": "6-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/6-king-dragon",
+      "https://americanwholesalefireworks.com/king-dragon/"
+    ],
+    "evidence": "Square row 525, token PWYZQFTHJFKS7DQI5MFQSDSU, code 757201624015, name 'King Dragon 6\" Artillery Shells 24 pack'; manufacturer model RA62401A/B/C/D and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "brand": "Raccoon",
+    "image": "/images/products/peacock-spider-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.raccoonfireworksusa.com/product-page/5-peacock-spider",
+      "https://americanwholesalefireworks.com/peacock-spider-compact/"
+    ],
+    "evidence": "Square row 679, token LV65VKZH67LIUO4NCR3MY7E3, code 757201324083, name 'Peacock Spider 5\" Artillery Shells 24 pack'; manufacturer model RA32408 and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "name": "Raise the Dead",
+    "brand": "Winda",
+    "image": "/images/products/raise-the-dead-24-pack.webp",
+    "expectedPresentation": "7-inch shells · 24 pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://www.getwinda.com/product-page/raise-the-dead-7-inch"
+    ],
+    "evidence": "Square row 1044, token 72YAFHVRGOCXMFTRMJYMR6L4, code 705108805709, name 'raise the dead 7\" 60G canister shells'; manufacturer model P8057 and exact retail presentation reviewed against the official page and authentic package photograph. No name-only or store-SKU-only approval.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "brand": "Brothers",
+    "image": "/images/products/full-speed-24-pack.webp",
+    "expectedPresentation": "7-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/801",
+      "https://leefamilyfirework.com/RL348-full-speed-7-inch-canister-shell-R-PC/",
+      "https://simpsonfireworks.com/RL348-full-speed-7-inch-canister-shell-R-PC/",
+      "https://lowcountryfireworks.com/RL348-full-speed-7-inch-canister-shell-R-PC/",
+      "https://killervfireworks.com/RL348-full-speed-7-inch-canister-shell-R-PC/",
+      "https://www.lastchancefireworks.com/shop/c/p/Full-Speed-7-24-shells-x63779181.htm",
+      "https://www.youtube.com/watch?v=CLfZr6AahYg"
+    ],
+    "evidence": "Square row 390: Full Speed Firework 7 Inch / Regular / code 687985911301. Exact commercial name, manufacturer model BP-A113, package and count compared with the official Brothers product page and its authentic photograph.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "brand": "Brothers",
+    "image": "/images/products/maelstrom-24-pack.webp",
+    "expectedPresentation": "6-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/827",
+      "https://georgiasbestfireworks.com/product/maelstrom6canistershells/"
+    ],
+    "evidence": "Square row 564: Maelstrom  24 Shell 6\" / Regular / code 687985910908. Exact commercial name, manufacturer model BP-A109, package and count compared with the official Brothers product page and its authentic photograph.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "brand": "Brothers",
+    "image": "/images/products/quest-24-pack.webp",
+    "expectedPresentation": "4-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1156",
+      "https://www.wincofireworks.com/wp-content/uploads/2022/03/UPC-Excel-List_3.25.2022_r2.pdf"
+    ],
+    "evidence": "Square row 736: Quest 4\" Artillery Shells 24 Pack / Regular / code 687985905300. Exact commercial name, manufacturer model BP-A053-2/24, package and count compared with the official Brothers product page and its authentic photograph. Official Winco UPC reference independently maps the Square code to this named product; current Brothers model suffix takes precedence over inconsistent historic assortment suffixes, without changing the Square code.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "brand": "Brothers",
+    "image": "/images/products/ruckus-12-pack.webp",
+    "expectedPresentation": "12 ball shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 12,
+        "style": "Ball shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/829"
+    ],
+    "evidence": "Square row 779: Ruckus (12 pcs) / Regular / code 687985269013. Exact commercial name, manufacturer model BP2690, package and count compared with the official Brothers product page and its authentic photograph.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "serious-equipment",
+    "name": "Serious Equipment",
+    "brand": "Brothers",
+    "image": "/images/products/serious-equipment.webp",
+    "expectedPresentation": "48 shells · 82 breaks",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 48,
+        "totalBreaks": 82
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1004"
+    ],
+    "evidence": "Square row 798: Serious Equipment 48 Shells / Regular / code 687985901104. Exact commercial name, manufacturer model BP-A011, package and count compared with the official Brothers product page and its authentic photograph.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "brand": "Raccoon",
+    "image": "/images/products/arms-depot-16-pack.webp",
+    "expectedPresentation": "4-inch shells · 16 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 16,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/4-arms-depot/",
+      "https://beta2024.usa-fireworks.com/products/artillery-shells/arms-depot/",
+      "https://www.youtube.com/watch?v=Lo4tueGSQgs"
+    ],
+    "evidence": "Square UPC 757201116015, name 'Arms Depot 4\" Artillery Shells 16 pack' and retail presentation match the code-bearing distributor reference and current manufacturer model RA11601. Official image visually inspected for name, brand, package form and count. Selected the separate legacy RA11601 page and tall 16-shell package, not RA11601C compact. Omit contradictory case-packing and tube-count fields.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "brand": "Raccoon",
+    "image": "/images/products/break-the-rules-6-pack.webp",
+    "expectedPresentation": "6-inch shells · 6 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/6-break-the-rules/",
+      "https://elevatedfireworks.com/collections/reloadable-shell-kits/products/break-the-rules-6-shot-6-in-canister-shells",
+      "https://www.youtube.com/watch?v=QiCjafNQrhI"
+    ],
+    "evidence": "Square UPC 757201606011, name 'Break The Rules 6\" Artillery Shells 6 Pack' and retail presentation match the code-bearing distributor reference and current manufacturer model RA60601. Official image visually inspected for name, brand, package form and count. Selected RA60601 legacy 6-shell photo; no compact variant substitution.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "brand": "Raccoon",
+    "image": "/images/products/flawless-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/5-flawless/",
+      "https://usa-fireworks.com/products/artillery-shells/flawless/",
+      "https://www.youtube.com/watch?v=YEuMKW3NufM"
+    ],
+    "evidence": "Square UPC 757201324090, name 'Flawless' and retail presentation match the code-bearing distributor reference and current manufacturer model RA32409. Official image visually inspected for name, brand, package form and count.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "name": "Ghostacular",
+    "brand": "Raccoon",
+    "image": "/images/products/ghostacular-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/5-ghostacular/",
+      "https://fireworks-superstore.myshopify.com/products/ghostacular-5-shells"
+    ],
+    "evidence": "Square UPC 757201324069, name 'Ghostacular 5\" Artillery Shells 24 pack' and retail presentation match the code-bearing distributor reference and current manufacturer model RA32406. Official image visually inspected for name, brand, package form and count.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "home-of-the-brave",
+    "name": "Home of the Brave",
+    "brand": "Monkey Mania",
+    "image": "/images/products/home-of-the-brave.webp",
+    "expectedPresentation": "48 shells · 72 breaks",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 48,
+        "totalBreaks": 72
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/home-of-the-brave/",
+      "https://americanwholesalefireworks.com/home-of-the-brave-case-of-2/",
+      "https://dosgringosfireworks.com/home-of-the-brave-48-pack/",
+      "https://www.youtube.com/watch?v=CW7K1Ln8Dnw"
+    ],
+    "evidence": "Square UPC 757201400039, name 'Home Of The Brave 48 Shells/72 Breaks' and retail presentation match the code-bearing distributor reference and current manufacturer model MM40003. Official image visually inspected for name, brand, package form and count. Manufacturer confirms Monkey Mania, correcting distributor parent-brand Raccoon labels for this new import.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "name": "Let Freedom Ring",
+    "brand": "Raccoon",
+    "image": "/images/products/let-freedom-ring-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/let-freedom-ring/",
+      "https://beta2024.usa-fireworks.com/products/artillery-shells/let-freedom-ring/",
+      "https://gbfireworks.com/products/let-freedom-ring-24-shells",
+      "https://americanwholesalefireworks.com/let-freedom-ring-pack-of-24/",
+      "https://www.youtube.com/watch?v=q6wcbHeNBqo"
+    ],
+    "evidence": "Square UPC 757201324052, name 'Let Freedom Ring 5\" Artillery Shells 24 pack' and retail presentation match the code-bearing distributor reference and current manufacturer model RA32405A/B/C/D. Official image visually inspected for name, brand, package form and count. Count is the complete 24-shell kit; omit inconsistent current shipping-case field 12/6.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "brand": "Raccoon",
+    "image": "/images/products/sniper-fire-12-pack.webp",
+    "expectedPresentation": "4-inch shells · 12 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 12,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/4-sniper-fire/",
+      "https://usa-fireworks.com/products/artillery-shells/sniper-fire/",
+      "https://www.youtube.com/watch?v=66butJ3I7Tw"
+    ],
+    "evidence": "Square UPC 757201112017, name 'Sniper Fire 12 Shot' and retail presentation match the code-bearing distributor reference and current manufacturer model RA11201. Official image visually inspected for name, brand, package form and count. Official description, visible package and Square agree on 12 shells; omit the inconsistent 6/16 shipping-case field.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "name": "Tiger Force",
+    "brand": "Raccoon",
+    "image": "/images/products/tiger-force-24-pack.webp",
+    "expectedPresentation": "6-inch shells · 24 shells",
+    "previousFields": {
+      "category": "Reloadables",
+      "categoryAliases": null,
+      "shellPackage": null,
+      "promotionCategory": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      },
+      "promotionCategory": "Reloadables"
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/6-tiger-force/",
+      "https://shop.wazupfireworks.com/tiger-force-6-shells/",
+      "https://www.youtube.com/watch?v=EZrkTwF0GgQ"
+    ],
+    "evidence": "Square UPC 757201624022, name 'Tiger Force 6\" Artillery Shells 24 Pack' and retail presentation match the code-bearing distributor reference and current manufacturer model RA62402. Official image visually inspected for name, brand, package form and count.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "name": "1-inch Mini Artillery Shells",
+    "brand": "Cutting Edge",
+    "image": "/images/products/mini-artillery-12-pack.webp",
+    "expectedPresentation": "1-inch shells · 12-pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 12
+      }
+    },
+    "sources": [
+      "https://thefireworkssuperstore.com/shop/1in-mini-artillery-shells-12-pack"
+    ],
+    "evidence": "Square row 28, code 8145270161111, original name '1\" Mini Artillery Shells 12 pcs' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "name": "Whistling Buster",
+    "brand": "T-Sky",
+    "image": "/images/products/whistling-buster-6-pack.webp",
+    "expectedPresentation": "6 shells · 1 tube",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "includedTubes": 1,
+        "contents": "Shell kit"
+      }
+    },
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/whistling-buster-6-shots/"
+    ],
+    "evidence": "Square row 96, code 841527101258, original name '6 pc Artillery Shells Assorted' and variant 'Whistling Buster' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The actual inspected box reads T-Sky, Whistling Buster and six shells. Generic Shogun results do not establish this UPC and are not used.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "excalibur-24-pack",
+    "name": "Excalibur",
+    "brand": "World-Class",
+    "image": "/images/products/excalibur-24-pack.webp",
+    "expectedPresentation": "4-inch shells · 24-pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://bigdaddyksfireworksoutlet.com/product/excalibur/",
+      "https://staging.usa-fireworks.com/products/artillery-shells/excalibur/",
+      "https://www.kandkfireworks.com/product-page/excalibur-24-canister-shells",
+      "https://dosgringosfireworks.com/excalibur-fireworks-artillery-shells-24-pack/",
+      "https://www.youtube.com/watch?v=JMnZhWxQXsQ"
+    ],
+    "evidence": "Square row 344, code 8052530140116, original name 'Excalibur 4\"Artillery Shells 24 Pack' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "brand": "Raccoon",
+    "image": "/images/products/nishiki-blast-6-pack.webp",
+    "expectedPresentation": "5-inch shells · 6-pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://whitenightsfireworks.com/product/nishiki-blast/",
+      "https://ocfireworks.com/nishiki-blast-5-canister-shell-6pk/",
+      "https://www.kandkfireworks.com/product-page/5-nishiki-blast",
+      "https://americanwholesalefireworks.com/nishiki-blast-5/",
+      "https://www.pyromart.com/mobscenefireworks/?category_id=282&cookies_accepted=Y&ec_wid=80&layout=short_list&page=1&sort_by=product&sort_order=asc",
+      "https://www.youtube.com/watch?v=K8poHnGn55w",
+      "https://www.raccoonfireworksusa.com/product-page/5-inch-nishiki-blast-6-shots"
+    ],
+    "evidence": "Official RA30603 matches UPC 757201306034. Six retail shells, case packing 12/6. Published 36-second demo duration is not a fixed package runtime.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded.",
+    "expectedSku": "757201306034"
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "name": "Raccoon 5-inch Canister Shells",
+    "brand": "Raccoon",
+    "image": "/images/products/raccoon-5-inch-24-pack.webp",
+    "expectedPresentation": "5-inch shells · 24-pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 24,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://beta2024.usa-fireworks.com/products/artillery-shells/raccoon-5-canister-shells/",
+      "https://americanwholesalefireworks.com/independence-day-24-pack/",
+      "https://www.youtube.com/watch?v=VNKj9MZJL5k"
+    ],
+    "evidence": "Square row 741, code 757201324014, original name 'Raccoon 5\" Artillery Shells 24 pack' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. Keep the original RA32401 24-pack and approved original photograph; do not silently rename it to the newer Independence Day branding.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "brand": "World-Class",
+    "image": "/images/products/super-magnum-12-pack.webp",
+    "expectedPresentation": "12 shells",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 12
+      }
+    },
+    "sources": [
+      "https://thefireworkssuperstore.com/shop/super-magnum-shells"
+    ],
+    "evidence": "Square row 874, code 8052530140819, original name 'Super Magnum (12 pcs)' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The inspected original Super Magnum package carries the Boomer logo and states 12 assorted shells.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "name": "United We Stand",
+    "brand": "World-Class",
+    "image": "/images/products/united-we-stand-48-pack.webp",
+    "expectedPresentation": "48 shells · 84 breaks",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 48,
+        "totalBreaks": 84
+      }
+    },
+    "sources": [
+      "https://beta2024.usa-fireworks.com/products/artillery-shells/united-we-stand/",
+      "https://staging.usa-fireworks.com/products/artillery-shells/united-we-stand/",
+      "https://usa-fireworks.com/products/artillery-shells/united-we-stand/",
+      "https://bigdaddyksfireworksoutlet.com/product/united-we-stand/",
+      "https://www.jakesfireworks.com/firework/united-we-stand/",
+      "https://www.youtube.com/watch?v=FpmloMND3wY"
+    ],
+    "evidence": "Square row 937, code 8052530142714, original name 'United We Stand Assortment' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "goliath-36-shells",
+    "name": "Goliath",
+    "brand": "World-Class",
+    "image": "/images/products/goliath-36-shells.webp",
+    "expectedPresentation": "36 shells",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 36
+      }
+    },
+    "sources": [
+      "https://bigdaddyksfireworksoutlet.com/product/goliath/"
+    ],
+    "evidence": "Square row 1015, code 805253026520, original name 'goliath' and variant 'Regular' were checked against the linked product-level code, retail presentation, actual package photograph and corroborating catalog sources. Internal retailer model equality alone was not used. The displayed quantity and brand were checked on the package and sources; unverified durations, effects and prices are omitted.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "name": "Ring of Honor",
+    "brand": "Raccoon",
+    "image": "/images/products/ring-of-honor-6-pack.webp",
+    "expectedPresentation": "5-inch shells · 6-pack",
+    "previousFields": {
+      "category": "Artillery Shells",
+      "categoryAliases": null,
+      "shellPackage": null
+    },
+    "fields": {
+      "category": "Artillery Shells",
+      "categoryAliases": [
+        "Reloadables"
+      ],
+      "shellPackage": {
+        "shellCount": 6,
+        "style": "Canister shells"
+      }
+    },
+    "sources": [
+      "https://raccoonfireworksusa.com/product/5-ring-of-honor/",
+      "https://www.elitefireworks.com/products/ring-of-honor"
+    ],
+    "evidence": "Square code 757201306058 is explicitly present in the exact retailer product page, corroborated by official Raccoon model RA30605, name, category and retail presentation. Official complete package photograph inspected. No guessed code-prefix match.",
+    "reviewedAt": "2026-09-26",
+    "decision": "Reloadable shell package; public navigation unified. No promotion eligibility change; shipping case counts and unconfirmed tube counts excluded."
+  }
+]

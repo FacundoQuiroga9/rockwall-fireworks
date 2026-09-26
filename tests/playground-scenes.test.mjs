@@ -13,7 +13,7 @@ test('selecting either family automatically switches, saves and restores each sc
   let state=restorePlaygroundSelection(profiles);
   state=toggle(state,aerial[0].productId).state;
   const switched=toggle(state,ground[0].productId); state=switched.state;
-  assert.equal(state.scene,'ground'); assert.match(switched.message,/aerial picks are saved/);
+  assert.equal(state.scene,'ground'); assert.match(switched.message,/other picks are saved/);
   assert.deepEqual(state.picks.aerial,[aerial[0].productId]);
   state=toggle(state,ground[1].productId).state;
   const returned=toggle(state,aerial[0].productId);state=returned.state;
@@ -74,11 +74,11 @@ test('restoration and playback reject incompatible families, unknown IDs, duplic
   assert.equal(timeline.snapshot().selected.length,4);
 });
 
-test('volume and quality survive scene changes without persisting sound or autoplay', () => {
-  savePlaygroundPreferences({volume:.64,quality:'low',sound:true});
+test('volume and quality survive scene changes with a saved mute choice and no autoplay', () => {
+  savePlaygroundPreferences({volume:.64,quality:'low',sound:false});
   toggle(undefined,ground[0].productId);
-  assert.deepEqual(getPlaygroundPreferences(),{volume:.64,quality:'low'});
-  savePlaygroundPreferences({volume:10,quality:'invalid'});assert.deepEqual(getPlaygroundPreferences(),{volume:1,quality:'low'});
+  assert.deepEqual(getPlaygroundPreferences(),{volume:.64,quality:'low',sound:false});
+  savePlaygroundPreferences({volume:10,quality:'invalid'});assert.deepEqual(getPlaygroundPreferences(),{volume:1,quality:'low',sound:false});
   savePlaygroundPreferences({volume:.35,quality:'auto'});
 });
 
@@ -105,15 +105,15 @@ test('switch while playing destroys outgoing particles/audio/RAF and restores ne
   const makeAudio=()=>({cue(){},fountains(){},stop(){audioLive=false;},suspend(){audioLive=false;},resume:async()=>{audioLive=true;},enable:async enabled=>{audioLive=enabled;return enabled;},destroy(){audioLive=false;audioDestroyed++;},setVolume(){}});
   const tick=time=>{now=time;const callbacks=[...frames.values()];frames.clear();callbacks.forEach(cb=>cb(time));};
   try{
-    mountPlayground({profiles:[aerial[0]],preferences:{volume:.62,quality:'low'}},createTimeline,createPlaygroundRenderer,makeAudio,createFountainModel);
-    await element('sound').onclick();await element('play').onclick();tick(1700);
+    mountPlayground({profiles:[aerial[0]],preferences:{volume:.62,quality:'low',sound:true}},createTimeline,createPlaygroundRenderer,makeAudio,createFountainModel);
+    await element('play').onclick();tick(1700);
     assert.ok(pixels>0);assert.equal(audioLive,true);assert.ok(frames.size>0);
     const message=listeners.get('message');message({source:{},data:{type:'rockwall-destroy'}});assert.equal(audioDestroyed,0);
     message({source:parent,data:{type:'rockwall-destroy'}});
     assert.equal(pixels,0);assert.equal(audioLive,false);assert.equal(audioDestroyed,1);assert.equal(observerDestroyed,1);assert.equal(frames.size,0);
     assert.equal(listeners.size,0);
     nodes.clear();
-    mountPlayground({profiles:[ground[0]],scene:'ground',preferences:{volume:.62,quality:'low'}},createTimeline,createPlaygroundRenderer,makeAudio,createFountainModel);
+    mountPlayground({profiles:[ground[0]],scene:'ground',preferences:{volume:.62,quality:'low',sound:false}},createTimeline,createPlaygroundRenderer,makeAudio,createFountainModel);
     assert.equal(element('progress').value,0);assert.equal(element('volume').value,.62);assert.equal(element('quality').value,'low');
     assert.equal(frames.size,0);assert.equal(audioLive,false);assert.equal(messages.at(-1).state,'idle');
     await element('play').onclick();tick(2700);assert.ok(pixels>0);assert.equal(audioLive,false);

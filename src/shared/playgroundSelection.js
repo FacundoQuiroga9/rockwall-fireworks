@@ -1,13 +1,16 @@
 // Ephemeral playground selection is independent of My List and its storage.
+export const PLAYGROUND_SCENES = ['aerial', 'ground', 'close'];
+export const sceneLabel = scene => ({ aerial: 'Dallas sky', ground: 'Fountain field', close: 'Close effects' })[scene] || 'Scene';
 export const MAX_PLAYGROUND_SELECTION = 4;
-export const profileScene = (profile) => ['aerial', 'ground'].includes(profile.scene) ? profile.scene : null;
-export const profileGroup = (profile) => profileScene(profile) === 'ground' ? 'Fountains' : profile.kind === 'shell-sample' ? 'Artillery Shells' : 'Cakes';
+export const profileScene = (profile) => PLAYGROUND_SCENES.includes(profile.scene) ? profile.scene : null;
+export const profileGroup = profile => ({ 'shell-sample': 'Artillery Shells', 'candle-sample': 'Roman Candles', 'spinner-sample': 'Spinners', 'rocket-sample': 'Rockets', fountain: 'Fountains', 'fountain-sample': 'Fountains' })[profile.kind] || 'Cakes';
 export function togglePlaygroundSelection(ids, id) {
   if (ids.includes(id)) return { ids: ids.filter((value) => value !== id), limited: false };
   return ids.length >= MAX_PLAYGROUND_SELECTION ? { ids, limited: true } : { ids: [...ids, id], limited: false };
 }
 export function filterPlaygroundProfiles(profiles, group = 'All', search = '') {
   const query = search.trim().toLowerCase();
+  if (group === 'Reloadables') group = 'Artillery Shells';
   return profiles.filter((p) => (group === 'All' || profileGroup(p) === group) && (!query || `${p.name} ${p.brand}`.toLowerCase().includes(query)));
 }
 export function sceneProfiles(profiles, ids, scene) {
@@ -16,23 +19,25 @@ export function sceneProfiles(profiles, ids, scene) {
 
 // In-memory session only. No My List/favorites storage or persisted commercial data.
 let session;
-let preferences = { volume: .35, quality: 'auto' };
+let preferences = { volume: .35, quality: 'auto', sound: null };
+let hydrated = false;
+const preferenceKey = 'rockwall:playground-preferences:v1';
 export function restorePlaygroundSelection(profiles, value) {
-  const scene = value?.scene === 'ground' ? 'ground' : 'aerial';
-  const picks = Object.fromEntries(['aerial', 'ground'].map((family) => [family,
+  const scene = PLAYGROUND_SCENES.includes(value?.scene) ? value.scene : 'aerial';
+  const picks = Object.fromEntries(PLAYGROUND_SCENES.map((family) => [family,
     sceneProfiles(profiles, Array.isArray(value?.picks?.[family]) ? value.picks[family] : [], family).map((p) => p.productId),
   ]));
   return { scene, picks };
 }
-export const sceneChangeMessage = (scene) => scene === 'ground'
-  ? 'Switched to the ground scene. Your aerial picks are saved.'
-  : 'Switched to the Dallas sky. Your ground picks are saved.';
+export const sceneChangeMessage = (scene) => scene === 'close' ? 'Switched to the close-effects field. Your other picks are saved.' : scene === 'ground'
+  ? 'Switched to the ground scene. Your other picks are saved.'
+  : 'Switched to the Dallas sky. Your other picks are saved.';
 export function updatePlaygroundSelection(profiles, value, action) {
   const state = restorePlaygroundSelection(profiles, value);
   const previous = state.scene;
   let limited = false;
   if (action.type === 'clear') state.picks[state.scene] = [];
-  else if (action.type === 'scene' && ['aerial', 'ground'].includes(action.scene)) {
+  else if (action.type === 'scene' && PLAYGROUND_SCENES.includes(action.scene)) {
     if (action.scene === previous) return { state, limited: false, message: 'This scene is already active. Your picks are unchanged.' };
     state.scene = action.scene;
   }
@@ -50,7 +55,7 @@ export function updatePlaygroundSelection(profiles, value, action) {
   }
   const message = [previous !== state.scene ? sceneChangeMessage(state.scene) : '',
     limited ? 'Four picks in this scene. Remove one before adding another.' : action.type === 'clear'
-      ? 'Active selection cleared. Your other scene is saved.' : 'Playback reset. Press Play when ready.',
+      ? 'Active selection cleared. Your other scenes are saved.' : 'Playback reset. Press Play when ready.',
   ].filter(Boolean).join(' ');
   return { state, limited, message };
 }
@@ -61,6 +66,11 @@ export function getPlaygroundSession(profiles, productId) {
 export function savePlaygroundSession(profiles, value) { session = restorePlaygroundSelection(profiles, value); }
 export function savePlaygroundPreferences(value) {
   if (Number.isFinite(value?.volume)) preferences.volume = Math.max(0, Math.min(1, value.volume));
-  if (['auto', 'balanced', 'low'].includes(value?.quality)) preferences.quality = value.quality;
+  if (['auto', 'high', 'balanced', 'low'].includes(value?.quality)) preferences.quality = value.quality;
+  if (typeof value?.sound === 'boolean') preferences.sound = value.sound;
+  try { globalThis.localStorage?.setItem(preferenceKey, JSON.stringify(preferences)); } catch { /* Private browsing can disable storage. */ }
 }
-export const getPlaygroundPreferences = () => ({ ...preferences });
+export function getPlaygroundPreferences() {
+  if (!hydrated) { hydrated = true; try { const saved = JSON.parse(globalThis.localStorage?.getItem(preferenceKey) || 'null'); if (saved) savePlaygroundPreferences(saved); } catch { /* Keep defaults on invalid/unavailable storage. */ } }
+  return { ...preferences };
+}

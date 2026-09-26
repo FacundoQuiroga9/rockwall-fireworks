@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "festival-balls-reloadable",
+    "name": "Festival Balls",
+    "category": "Reloadables",
+    "image": "/images/products/festival-balls-reloadable.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=38JSR3cUynU",
+    "sortOrder": 3,
+    "brand": "Monkey Mania",
+    "presentation": "6-piece pack \u00b7 yellow box",
+    "slug": "festival-balls-reloadable",
+    "storeCodes": [
+      {
+        "token": "BFEN6Q4PLHJEBALNWMHA4CCY",
+        "sku": "757201000086",
+        "gtin": "",
+        "sourceRow": 359
+      }
+    ]
+  },
+  {
+    "id": "neon-beef",
+    "name": "Neon Beef",
+    "category": "Artillery Shells",
+    "image": "/images/products/neon-beef.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=Qnw1EaEoHs4",
+    "sortOrder": 4,
+    "slug": "neon-beef",
+    "brand": "Winda",
+    "storeCodes": [
+      {
+        "token": "J52CWDQSQYWOKE7XZILPSEI5",
+        "sku": "705108804306",
+        "gtin": "",
+        "sourceRow": 621
+      }
+    ]
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "category": "Artillery Shells",
+    "image": "/images/products/diablo.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=oWgGZIkl8cA&t=6s",
+    "sortOrder": 5,
+    "brand": "Black Cat",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "slug": "diablo",
+    "storeCodes": [
+      {
+        "token": "OFSRHJBV5QEQRPP54T36Q6YH",
+        "sku": "715244063291",
+        "gtin": "",
+        "sourceRow": 206
+      }
+    ]
+  },
+  {
+    "id": "futurama-artillery",
+    "name": "Futurama Artillery",
+    "category": "Artillery Shells",
+    "image": "/images/products/futurama-artillery.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=dZRsu66-XiQ",
+    "sortOrder": 7,
+    "slug": "futurama-artillery",
+    "brand": "Raccoon",
+    "storeCodes": [
+      {
+        "token": "TNVALDFGTARHACENIREHIXAS",
+        "sku": "757201712019",
+        "gtin": "",
+        "sourceRow": 396
+      }
+    ]
+  },
+  {
+    "id": "festival-balls-artillery",
+    "name": "Festival Balls",
+    "category": "Artillery Shells",
+    "image": "/images/products/festival-balls-artillery.webp",
+    "featured": true,
+    "previewVideo": "https://www.youtube.com/watch?v=IUaMk3dJlcA",
+    "sortOrder": 8,
+    "slug": "festival-balls-artillery",
+    "brand": "Black Cat"
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "name": "Mother of All Fireworks",
+    "category": "Artillery Shells",
+    "brand": "Raccoon",
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "image": "/images/products/mother-of-all-fireworks.webp",
+    "imageWidths": [
+      320,
+      480,
+      604
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=Ovx4aht3c4k&pp=ygUfbW90aGVyIG9mIGFsbCBmaXJld29ya3MgcmFjY29vbg%3D%3D",
+    "sortOrder": 11,
+    "slug": "mother-of-all-fireworks",
+    "storeCodes": [
+      {
+        "token": "FJ6A27NZQWFNEC45WRS7B735",
+        "sku": "757201124027",
+        "gtin": "",
+        "sourceRow": 614
+      }
+    ]
+  },
+  {
+    "id": "neon-skies",
+    "name": "Neon Skies",
+    "category": "Artillery Shells",
+    "brand": "Raccoon",
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "image": "/images/products/neon-skies.webp",
+    "imageWidths": [
+      320,
+      480,
+      588
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=lkwuy6Fg5AM&pp=ygURbmVvbiBza2llc3JhY2Nvb24%3D",
+    "sortOrder": 12,
+    "slug": "neon-skies",
+    "storeCodes": [
+      {
+        "token": "H5F3BJT34LCN6P2AY2J62MF4",
+        "sku": "757201124010",
+        "gtin": "",
+        "sourceRow": 630
+      }
+    ]
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "name": "Neon Diablo",
+    "category": "Artillery Shells",
+    "brand": "Black Cat",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "image": "/images/products/neon-diablo-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      587
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=SCmgR_VrQEA&pp=ygUYbmVvbiBkaWFibG8gMjQgYmFsY2sgY2F0",
+    "sortOrder": 24,
+    "slug": "neon-diablo-24-pack",
+    "storeCodes": [
+      {
+        "token": "SBY3GLLCOXVL5YHSAJRZUXAU",
+        "sku": "715244064601",
+        "gtin": "",
+        "sourceRow": 214
+      }
+    ]
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "name": "The Patriot",
+    "category": "Artillery Shells",
+    "brand": "Black Cat",
+    "presentation": "6-inch shells \u00b7 24 pack",
+    "image": "/images/products/the-patriot-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      544
+    ],
+    "featured": false,
+    "previewVideo": "https://www.youtube.com/watch?v=wZaWki1pnuQ&pp=ygUVdGhlIHBhdHJpb3QgYmxhY2sgY2F0",
+    "sortOrder": 26,
+    "slug": "the-patriot-24-pack",
+    "storeCodes": [
+      {
+        "token": "5C7IFQOUCWYTXJGISORCIBWN",
+        "sku": "715244064380",
+        "gtin": "",
+        "sourceRow": 220
+      }
+    ]
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "6-inch shells \u00b7 6-piece pack",
+    "description": "Six-inch canister shells with two breaks in each shot.",
+    "manufacturerCode": "P8044",
+    "previewVideo": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+    "slug": "double-dragon-6-pack",
+    "image": "/images/products/double-dragon-6-pack.webp",
+    "imageWidths": [
+      320,
+      352,
+      352
+    ],
+    "featured": false,
+    "sortOrder": 40,
+    "storeCodes": [
+      {
+        "token": "3WHGF7SVFDVFMRVXUCISOM7A",
+        "sku": "705108804405",
+        "gtin": "",
+        "sourceRow": 330
+      }
+    ]
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "brand": "Monkey Mania",
+    "category": "Artillery Shells",
+    "presentation": "36 shells \u00b7 54 breaks",
+    "description": "An artillery assortment combining single-break, double-break and triple-break shells with canister shells.",
+    "features": [
+      "16 single-break, 8 canister, 6 double-break and 6 triple-break shells"
+    ],
+    "manufacturerCode": "MM40002",
+    "previewVideo": "https://www.youtube.com/watch?v=2dHuIqzB-30",
+    "slug": "land-of-the-free",
+    "image": "/images/products/land-of-the-free.webp",
+    "imageWidths": [
+      320,
+      480,
+      960
+    ],
+    "featured": false,
+    "sortOrder": 49,
+    "storeCodes": [
+      {
+        "token": "XZN7DKWNDG3J6PTPAD2S5X2W",
+        "sku": "757202400021",
+        "gtin": "",
+        "sourceRow": 534
+      }
+    ]
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "manufacturerCode": "P8050",
+    "previewVideo": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+    "slug": "chameleon-shells-24-pack",
+    "image": "/images/products/chameleon-shells-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 58,
+    "storeCodes": [
+      {
+        "token": "7KHVOFXS6SBVFD3SWNDZTBNE",
+        "sku": "",
+        "gtin": "705108805006",
+        "sourceRow": 249
+      }
+    ]
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "manufacturerCode": "P8031",
+    "previewVideo": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+    "slug": "g-force-24-pack",
+    "image": "/images/products/g-force-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      624
+    ],
+    "featured": false,
+    "sortOrder": 64,
+    "storeCodes": [
+      {
+        "token": "N6OTOY4DNT3WRUBLSUR5YSC7",
+        "sku": "705108803101",
+        "gtin": "",
+        "sourceRow": 397
+      }
+    ]
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "name": "King Dragon",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "6-inch shells \u00b7 24 pack",
+    "manufacturerCode": "RA62401A/B/C/D",
+    "previewVideo": "https://www.youtube.com/watch?v=IKgzCr-3u10",
+    "slug": "king-dragon-24-pack",
+    "image": "/images/products/king-dragon-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 72,
+    "storeCodes": [
+      {
+        "token": "PWYZQFTHJFKS7DQI5MFQSDSU",
+        "sku": "757201624015",
+        "gtin": "",
+        "sourceRow": 525
+      }
+    ]
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "manufacturerCode": "RA32408",
+    "previewVideo": "https://www.youtube.com/watch?v=b2bpAABo2NI",
+    "slug": "peacock-spider-24-pack",
+    "image": "/images/products/peacock-spider-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 80,
+    "storeCodes": [
+      {
+        "token": "LV65VKZH67LIUO4NCR3MY7E3",
+        "sku": "757201324083",
+        "gtin": "",
+        "sourceRow": 679
+      }
+    ]
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "name": "Raise the Dead",
+    "brand": "Winda",
+    "category": "Artillery Shells",
+    "presentation": "7-inch shells \u00b7 24 pack",
+    "manufacturerCode": "P8057",
+    "previewVideo": "https://www.youtube.com/watch?v=LwxUtHYn5zc",
+    "slug": "raise-the-dead-24-pack",
+    "image": "/images/products/raise-the-dead-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 95,
+    "storeCodes": [
+      {
+        "token": "72YAFHVRGOCXMFTRMJYMR6L4",
+        "sku": "",
+        "gtin": "705108805709",
+        "sourceRow": 1044
+      }
+    ]
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "7-inch shells \u00b7 24 shells",
+    "manufacturerCode": "BP-A113",
+    "previewVideo": "https://www.youtube.com/watch?v=CLfZr6AahYg",
+    "slug": "full-speed-24-pack",
+    "image": "/images/products/full-speed-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 113,
+    "storeCodes": [
+      {
+        "token": "33MRBL6PIMW3VFZZO24AOADU",
+        "sku": "687985911301",
+        "gtin": "",
+        "sourceRow": 390
+      }
+    ]
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "6-inch shells \u00b7 24 shells",
+    "manufacturerCode": "BP-A109",
+    "previewVideo": "https://www.youtube.com/watch?v=stLkljKHBCc",
+    "slug": "maelstrom-24-pack",
+    "image": "/images/products/maelstrom-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 120,
+    "storeCodes": [
+      {
+        "token": "4TG53MYUHLIM42CZSPF6DYWV",
+        "sku": "687985910908",
+        "gtin": "",
+        "sourceRow": 564
+      }
+    ],
+    "demonstration": {
+      "summary": "A red-tipped palm spreads golden trails through a cloud of white glitter.",
+      "effects": [
+        "Red-tipped palm",
+        "Gold trails",
+        "White glitter"
+      ],
+      "durationSeconds": 4.8,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=stLkljKHBCc",
+      "segmentStart": 5.5,
+      "segmentEnd": 10.3,
+      "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "4-inch shells \u00b7 24 shells",
+    "manufacturerCode": "BP-A053-2/24",
+    "previewVideo": "https://www.youtube.com/watch?v=I5sJSs1knvA",
+    "slug": "quest-24-pack",
+    "image": "/images/products/quest-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 129,
+    "storeCodes": [
+      {
+        "token": "7TS7HQ3JDS5V5H6BDNGX3J66",
+        "sku": "687985905300",
+        "gtin": "",
+        "sourceRow": 736
+      }
+    ]
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "12 ball shells",
+    "manufacturerCode": "BP2690",
+    "previewVideo": "https://www.youtube.com/watch?v=ELEFbRe_f-I",
+    "slug": "ruckus-12-pack",
+    "image": "/images/products/ruckus-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 130,
+    "storeCodes": [
+      {
+        "token": "Q6KGAOERMQ3NMSBOJ2GJTR22",
+        "sku": "687985269013",
+        "gtin": "",
+        "sourceRow": 779
+      }
+    ],
+    "demonstration": {
+      "summary": "Golden branches open into bright white points, leaving a short trail of fine glitter.",
+      "effects": [
+        "Gold branches",
+        "White tips",
+        "Fine glitter"
+      ],
+      "durationSeconds": 2.4,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=ELEFbRe_f-I",
+      "segmentStart": 5.25,
+      "segmentEnd": 7.65,
+      "note": "Official BP2690, 12 ball shells, 1-3/4 inch on title/overlay. Packaging verified at 3.4 seconds. Intro graphic through 5 seconds excluded. First real burst begins approximately 5.45; open at 5.6 and 6.2, sparse by 6.8, dark by 7.4. One sample; no claim about other eleven shells. No cut inside this burst; edits between separate shell demonstrations are excluded."
+    }
+  },
+  {
+    "id": "serious-equipment",
+    "name": "Serious Equipment",
+    "brand": "Brothers",
+    "category": "Reloadables",
+    "presentation": "48 shells \u00b7 82 breaks",
+    "manufacturerCode": "BP-A011",
+    "previewVideo": "https://www.youtube.com/watch?v=xeLx9jBmFTc",
+    "slug": "serious-equipment",
+    "image": "/images/products/serious-equipment.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 131,
+    "storeCodes": [
+      {
+        "token": "HBOU625S5LEK4PCVRH53HOQG",
+        "sku": "687985901104",
+        "gtin": "",
+        "sourceRow": 798
+      }
+    ]
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "4-inch shells \u00b7 16 shells",
+    "manufacturerCode": "RA11601",
+    "previewVideo": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
+    "slug": "arms-depot-16-pack",
+    "image": "/images/products/arms-depot-16-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 211,
+    "storeCodes": [
+      {
+        "token": "Y4SXCZVSAVHO2GCBJYKJPQZO",
+        "sku": "757201116015",
+        "gtin": "",
+        "sourceRow": 146
+      }
+    ],
+    "demonstration": {
+      "summary": "Pale silver-blue branches blossom into small red clusters, leaving a soft scattering of white sparks.",
+      "effects": [
+        "Silver-blue branches",
+        "Red spark clusters",
+        "White glitter"
+      ],
+      "durationSeconds": 3.6,
+      "scope": "Single shell sample",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
+      "segmentStart": 6.2,
+      "segmentEnd": 9.8,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. One visible launch, branching opening around 7.1 s, red secondary clusters around 7.7 s, fading by 9.8 s. No cut or simultaneous second launch visible within this sample.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "6-inch shells \u00b7 6 shells",
+    "manufacturerCode": "RA60601",
+    "previewVideo": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+    "slug": "break-the-rules-6-pack",
+    "image": "/images/products/break-the-rules-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 214,
+    "storeCodes": [
+      {
+        "token": "LC3DT2FV6CELZXJO3R6PA5GY",
+        "sku": "757201606011",
+        "gtin": "",
+        "sourceRow": 238
+      }
+    ]
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "manufacturerCode": "RA32409",
+    "previewVideo": "https://www.youtube.com/watch?v=YEuMKW3NufM",
+    "slug": "flawless-24-pack",
+    "image": "/images/products/flawless-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 216,
+    "storeCodes": [
+      {
+        "token": "NKVGAJ4J2IE4Q36QIMNWDHPG",
+        "sku": "757201324090",
+        "gtin": "",
+        "sourceRow": 371
+      }
+    ],
+    "demonstration": {
+      "summary": "Fine golden spokes spread into a broad, softly falling burst with warm amber tips.",
+      "effects": [
+        "Fine gold trails",
+        "Amber points",
+        "Falling starburst"
+      ],
+      "durationSeconds": 3.8,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=YEuMKW3NufM",
+      "segmentStart": 3.7,
+      "segmentEnd": 7.5,
+      "note": "Official RA32409, 5-inch 24-shell assortment. First shell only, not all package effects. Packaging and first burst inspected at 3.8, 4.4, 5.0 and 7.4 seconds. Burst between 4.4 and 5.0; approximately 4.65. No simultaneous unit or edit visible inside this individual burst; later shells excluded. Launch faint, not represented as a bright comet."
+    }
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "name": "Ghostacular",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "manufacturerCode": "RA32406",
+    "previewVideo": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+    "slug": "ghostacular-24-pack",
+    "image": "/images/products/ghostacular-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 217,
+    "storeCodes": [
+      {
+        "token": "RAXEGL5PWHZOIT73XXXQK362",
+        "sku": "757201324069",
+        "gtin": "",
+        "sourceRow": 415
+      }
+    ],
+    "demonstration": {
+      "summary": "A red ring expands around a second circle of red points, fading to pale silver.",
+      "effects": [
+        "Red concentric rings",
+        "Fading silver points"
+      ],
+      "durationSeconds": 3.6,
+      "scope": "First demonstrated shell only",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+      "segmentStart": 3.2,
+      "segmentEnd": 6.8,
+      "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "home-of-the-brave",
+    "name": "Home of the Brave",
+    "brand": "Monkey Mania",
+    "category": "Reloadables",
+    "presentation": "48 shells \u00b7 72 breaks",
+    "manufacturerCode": "MM40003",
+    "previewVideo": "https://www.youtube.com/watch?v=CW7K1Ln8Dnw",
+    "slug": "home-of-the-brave",
+    "image": "/images/products/home-of-the-brave.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 218,
+    "storeCodes": [
+      {
+        "token": "PF7MSTRWM3LEPHVVTJHTUGRH",
+        "sku": "757201400039",
+        "gtin": "",
+        "sourceRow": 456
+      }
+    ]
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "name": "Let Freedom Ring",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "manufacturerCode": "RA32405A/B/C/D",
+    "previewVideo": "https://www.youtube.com/watch?v=q6wcbHeNBqo",
+    "slug": "let-freedom-ring-24-pack",
+    "image": "/images/products/let-freedom-ring-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 221,
+    "storeCodes": [
+      {
+        "token": "XV7KE6QBZI7WEMU4JOBKEQJ2",
+        "sku": "757201324052",
+        "gtin": "",
+        "sourceRow": 538
+      }
+    ]
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "4-inch shells \u00b7 12 shells",
+    "manufacturerCode": "RA11201",
+    "previewVideo": "https://www.youtube.com/watch?v=66butJ3I7Tw",
+    "slug": "sniper-fire-12-pack",
+    "image": "/images/products/sniper-fire-12-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 225,
+    "storeCodes": [
+      {
+        "token": "KR3RZM5CYN7RTB47WMIVTE3H",
+        "sku": "757201112017",
+        "gtin": "",
+        "sourceRow": 839
+      }
+    ],
+    "demonstration": {
+      "summary": "Copper and red trails spread around bright white sparks, thinning into a soft silver shimmer.",
+      "effects": [
+        "Copper-red trails",
+        "White points",
+        "Silver shimmer"
+      ],
+      "durationSeconds": 3.8,
+      "scope": "Single shell sample",
+      "observedShots": 1,
+      "sourceUrl": "https://www.youtube.com/watch?v=66butJ3I7Tw",
+      "segmentStart": 6.2,
+      "segmentEnd": 10,
+      "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. First ascent around 6.6 s, opening around 7.05 s; thin copper/red trails remain around 8.8 s and are nearly dark by 9.6 s. No visible edit or second simultaneous unit in the selected sample.",
+      "confirmedShots": null
+    }
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "name": "Tiger Force",
+    "brand": "Raccoon",
+    "category": "Reloadables",
+    "presentation": "6-inch shells \u00b7 24 shells",
+    "manufacturerCode": "RA62402",
+    "previewVideo": "https://www.youtube.com/watch?v=EZrkTwF0GgQ",
+    "slug": "tiger-force-24-pack",
+    "image": "/images/products/tiger-force-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 226,
+    "storeCodes": [
+      {
+        "token": "WFOP4EFT7Q3WECR3URYJ6KNH",
+        "sku": "757201624022",
+        "gtin": "",
+        "sourceRow": 906
+      }
+    ]
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "name": "1-inch Mini Artillery Shells",
+    "brand": "Cutting Edge",
+    "category": "Artillery Shells",
+    "presentation": "1-inch shells \u00b7 12-pack",
+    "previewVideo": "",
+    "slug": "mini-artillery-12-pack",
+    "image": "/images/products/mini-artillery-12-pack.webp",
+    "imageWidths": [
+      320,
+      352,
+      352
+    ],
+    "featured": false,
+    "sortOrder": 228,
+    "storeCodes": [
+      {
+        "token": "WX7GBZIXZKXMZNUV7AGQX36N",
+        "sku": "8145270161111",
+        "gtin": "",
+        "sourceRow": 28
+      }
+    ]
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "name": "Whistling Buster",
+    "brand": "T-Sky",
+    "category": "Artillery Shells",
+    "presentation": "6 shells \u00b7 1 tube",
+    "previewVideo": "",
+    "slug": "whistling-buster-6-pack",
+    "image": "/images/products/whistling-buster-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      599
+    ],
+    "featured": false,
+    "sortOrder": 233,
+    "storeCodes": [
+      {
+        "token": "ZX3TJ5FTJU4TSBNYYZ25OE5P",
+        "sku": "841527101258",
+        "gtin": "",
+        "sourceRow": 96
+      }
+    ]
+  },
+  {
+    "id": "excalibur-24-pack",
+    "name": "Excalibur",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "4-inch shells \u00b7 24-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=JMnZhWxQXsQ",
+    "slug": "excalibur-24-pack",
+    "image": "/images/products/excalibur-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 245,
+    "storeCodes": [
+      {
+        "token": "KLAC5WRPOD32YE2RHQYR5D5T",
+        "sku": "8052530140116",
+        "gtin": "",
+        "sourceRow": 344
+      }
+    ]
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells \u00b7 6-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=K8poHnGn55w",
+    "slug": "nishiki-blast-6-pack",
+    "image": "/images/products/nishiki-blast-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 258,
+    "storeCodes": [
+      {
+        "token": "A5QPAZSLHSGWWLVXOQIFPISG",
+        "sku": "757201306034",
+        "gtin": "",
+        "sourceRow": 644
+      }
+    ]
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "name": "Raccoon 5-inch Canister Shells",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells \u00b7 24-pack",
+    "previewVideo": "https://www.youtube.com/watch?v=VNKj9MZJL5k",
+    "slug": "raccoon-5-inch-24-pack",
+    "image": "/images/products/raccoon-5-inch-24-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      563
+    ],
+    "featured": false,
+    "sortOrder": 264,
+    "storeCodes": [
+      {
+        "token": "EFZMXOBWHIVMSUS6YEKZLHZW",
+        "sku": "757201324014",
+        "gtin": "",
+        "sourceRow": 741
+      }
+    ]
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "12 shells",
+    "previewVideo": "https://www.youtube.com/watch?v=PTpKiwHiKUE",
+    "slug": "super-magnum-12-pack",
+    "image": "/images/products/super-magnum-12-pack.webp",
+    "imageWidths": [
+      320,
+      408,
+      408
+    ],
+    "featured": false,
+    "sortOrder": 268,
+    "storeCodes": [
+      {
+        "token": "TAESPIMBJC3BD7QYPG2HVSW4",
+        "sku": "8052530140819",
+        "gtin": "",
+        "sourceRow": 874
+      }
+    ]
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "name": "United We Stand",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "48 shells \u00b7 84 breaks",
+    "previewVideo": "https://www.youtube.com/watch?v=FpmloMND3wY",
+    "slug": "united-we-stand-48-pack",
+    "image": "/images/products/united-we-stand-48-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 273,
+    "storeCodes": [
+      {
+        "token": "LLYFGENB2BOJMKH4BIIMI7O7",
+        "sku": "8052530142714",
+        "gtin": "",
+        "sourceRow": 937
+      }
+    ]
+  },
+  {
+    "id": "goliath-36-shells",
+    "name": "Goliath",
+    "brand": "World-Class",
+    "category": "Artillery Shells",
+    "presentation": "36 shells",
+    "previewVideo": "https://www.youtube.com/watch?v=CogXasWVe_o",
+    "slug": "goliath-36-shells",
+    "image": "/images/products/goliath-36-shells.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 281,
+    "storeCodes": [
+      {
+        "token": "4RIXDLTM62EP3YANE6EI3ISQ",
+        "sku": "805253026520",
+        "gtin": "",
+        "sourceRow": 1015
+      }
+    ]
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "name": "Ring of Honor",
+    "brand": "Raccoon",
+    "category": "Artillery Shells",
+    "presentation": "5-inch shells \u00b7 6-pack",
+    "manufacturerCode": "RA30605",
+    "previewVideo": "",
+    "slug": "ring-of-honor-6-pack",
+    "image": "/images/products/ring-of-honor-6-pack.webp",
+    "imageWidths": [
+      320,
+      480,
+      640
+    ],
+    "featured": false,
+    "sortOrder": 303,
+    "storeCodes": [
+      {
+        "token": "DVZ5SA2JXOMIZGASFEHJGIR3",
+        "sku": "757201306058",
+        "gtin": "",
+        "sourceRow": 757
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "mode": "ground",
+    "requested": "balanced",
+    "compact": false,
+    "seconds": 45,
+    "drawnFps": 58.82,
+    "meanDrawMs": 3.76,
+    "p95DrawMs": 5.4000000059604645,
+    "maxDrawMs": 25.099999994039536,
+    "p95FrameMs": 17.600000000000364,
+    "over50ms": 0,
+    "peakActiveParticles": 816,
+    "peakDrawnPoints": 1400,
+    "peakBudget": 1400,
+    "heapPeakBytes": 31943690,
+    "qualityChanges": [],
+    "finalShellCounts": [],
+    "css": "1280×640",
+    "pixels": "1282×642",
+    "dpr": 1,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  }
+]

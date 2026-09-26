@@ -40,7 +40,7 @@
   {
     "id": "festival-balls-reloadable",
     "name": "Festival Balls",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "image": "/images/products/festival-balls-reloadable.webp",
     "featured": true,
     "previewVideo": "https://www.youtube.com/watch?v=38JSR3cUynU",
@@ -55,7 +55,15 @@
         "gtin": "",
         "sourceRow": 359
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "style": "Ball shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "neon-beef",
@@ -74,7 +82,11 @@
         "gtin": "",
         "sourceRow": 621
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {}
   },
   {
     "id": "diablo",
@@ -94,7 +106,14 @@
         "gtin": "",
         "sourceRow": 206
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "night-rider",
@@ -128,7 +147,11 @@
         "gtin": "",
         "sourceRow": 396
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {}
   },
   {
     "id": "festival-balls-artillery",
@@ -139,7 +162,11 @@
     "previewVideo": "https://www.youtube.com/watch?v=IUaMk3dJlcA",
     "sortOrder": 8,
     "slug": "festival-balls-artillery",
-    "brand": "Black Cat"
+    "brand": "Black Cat",
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {}
   },
   {
     "id": "star-light",
@@ -203,7 +230,14 @@
         "gtin": "",
         "sourceRow": 614
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "neon-skies",
@@ -228,7 +262,14 @@
         "gtin": "",
         "sourceRow": 630
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "sucker-punch",
@@ -553,7 +594,14 @@
         "gtin": "",
         "sourceRow": 214
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "galaxy-pack",
@@ -603,7 +651,14 @@
         "gtin": "",
         "sourceRow": 220
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "avalanche",
@@ -1021,7 +1076,14 @@
         "gtin": "",
         "sourceRow": 330
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "diwali-dazzler",
@@ -1234,7 +1296,23 @@
         "gtin": "",
         "sourceRow": 530
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "A red-glowing spin rises with green-white light and finishes in a small shower of silver sparks.",
+      "effects": [
+        "Red ground spin",
+        "Green-white ascent",
+        "Silver flower"
+      ],
+      "durationSeconds": 5.7,
+      "scope": "Single spinner sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=nktHb0AWQ5g",
+      "segmentStart": 5.1,
+      "segmentEnd": 10.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
   },
   {
     "id": "blond-joke",
@@ -1295,7 +1373,14 @@
         "gtin": "",
         "sourceRow": 534
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 36,
+      "totalBreaks": 54
+    }
   },
   {
     "id": "usa-saturn-missile-battery",
@@ -1587,7 +1672,14 @@
         "gtin": "705108805006",
         "sourceRow": 249
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "cluster-bomb",
@@ -1764,7 +1856,14 @@
         "gtin": "",
         "sourceRow": 397
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "galactic-empire",
@@ -2023,7 +2122,14 @@
         "gtin": "",
         "sourceRow": 525
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "lucky-streak",
@@ -2259,7 +2365,14 @@
         "gtin": "",
         "sourceRow": 679
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "battle-of-princeton",
@@ -2693,7 +2806,14 @@
         "gtin": "705108805709",
         "sourceRow": 1044
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "trooper-turret",
@@ -3219,7 +3339,7 @@
     "id": "full-speed-24-pack",
     "name": "Full Speed Fireworks",
     "brand": "Brothers",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "7-inch shells · 24 shells",
     "manufacturerCode": "BP-A113",
     "previewVideo": "https://www.youtube.com/watch?v=CLfZr6AahYg",
@@ -3239,7 +3359,15 @@
         "gtin": "",
         "sourceRow": 390
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "golden-peacock",
@@ -3466,7 +3594,7 @@
     "id": "maelstrom-24-pack",
     "name": "Maelstrom",
     "brand": "Brothers",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "6-inch shells · 24 shells",
     "manufacturerCode": "BP-A109",
     "previewVideo": "https://www.youtube.com/watch?v=stLkljKHBCc",
@@ -3502,7 +3630,15 @@
       "segmentEnd": 10.3,
       "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
       "confirmedShots": null
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "magic-crystal-4-pack",
@@ -3752,7 +3888,7 @@
     "id": "quest-24-pack",
     "name": "Quest",
     "brand": "Brothers",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "4-inch shells · 24 shells",
     "manufacturerCode": "BP-A053-2/24",
     "previewVideo": "https://www.youtube.com/watch?v=I5sJSs1knvA",
@@ -3772,13 +3908,21 @@
         "gtin": "",
         "sourceRow": 736
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "ruckus-12-pack",
     "name": "Ruckus",
     "brand": "Brothers",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "12 ball shells",
     "manufacturerCode": "BP2690",
     "previewVideo": "https://www.youtube.com/watch?v=ELEFbRe_f-I",
@@ -3814,13 +3958,21 @@
       "segmentStart": 5.25,
       "segmentEnd": 7.65,
       "note": "Official BP2690, 12 ball shells, 1-3/4 inch on title/overlay. Packaging verified at 3.4 seconds. Intro graphic through 5 seconds excluded. First real burst begins approximately 5.45; open at 5.6 and 6.2, sparse by 6.8, dark by 7.4. One sample; no claim about other eleven shells. No cut inside this burst; edits between separate shell demonstrations are excluded."
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 12,
+      "style": "Ball shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "serious-equipment",
     "name": "Serious Equipment",
     "brand": "Brothers",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "48 shells · 82 breaks",
     "manufacturerCode": "BP-A011",
     "previewVideo": "https://www.youtube.com/watch?v=xeLx9jBmFTc",
@@ -3840,7 +3992,15 @@
         "gtin": "",
         "sourceRow": 798
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 48,
+      "totalBreaks": 82
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "smash-hit",
@@ -5950,7 +6110,7 @@
     "id": "arms-depot-16-pack",
     "name": "Arms Depot",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "4-inch shells · 16 shells",
     "manufacturerCode": "RA11601",
     "previewVideo": "https://www.youtube.com/watch?v=Lo4tueGSQgs",
@@ -5986,7 +6146,15 @@
       "segmentEnd": 9.8,
       "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. One visible launch, branching opening around 7.1 s, red secondary clusters around 7.7 s, fading by 9.8 s. No cut or simultaneous second launch visible within this sample.",
       "confirmedShots": null
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 16,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "bang-bros",
@@ -6052,7 +6220,7 @@
     "id": "break-the-rules-6-pack",
     "name": "Break the Rules",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "6-inch shells · 6 shells",
     "manufacturerCode": "RA60601",
     "previewVideo": "https://www.youtube.com/watch?v=QiCjafNQrhI",
@@ -6072,7 +6240,15 @@
         "gtin": "",
         "sourceRow": 238
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "color-rage",
@@ -6108,7 +6284,7 @@
     "id": "flawless-24-pack",
     "name": "Flawless",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "5-inch shells · 24 shells",
     "manufacturerCode": "RA32409",
     "previewVideo": "https://www.youtube.com/watch?v=YEuMKW3NufM",
@@ -6144,13 +6320,21 @@
       "segmentStart": 3.7,
       "segmentEnd": 7.5,
       "note": "Official RA32409, 5-inch 24-shell assortment. First shell only, not all package effects. Packaging and first burst inspected at 3.8, 4.4, 5.0 and 7.4 seconds. Burst between 4.4 and 5.0; approximately 4.65. No simultaneous unit or edit visible inside this individual burst; later shells excluded. Launch faint, not represented as a bright comet."
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "ghostacular-24-pack",
     "name": "Ghostacular",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "5-inch shells · 24 shells",
     "manufacturerCode": "RA32406",
     "previewVideo": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
@@ -6185,13 +6369,21 @@
       "segmentEnd": 6.8,
       "note": "One demonstrated shell only, not the duration or all effects of the package. Visual timing is approximate.",
       "confirmedShots": null
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "home-of-the-brave",
     "name": "Home of the Brave",
     "brand": "Monkey Mania",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "48 shells · 72 breaks",
     "manufacturerCode": "MM40003",
     "previewVideo": "https://www.youtube.com/watch?v=CW7K1Ln8Dnw",
@@ -6211,7 +6403,15 @@
         "gtin": "",
         "sourceRow": 456
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 48,
+      "totalBreaks": 72
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "hot-as-hell",
@@ -6277,7 +6477,7 @@
     "id": "let-freedom-ring-24-pack",
     "name": "Let Freedom Ring",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "5-inch shells · 24 shells",
     "manufacturerCode": "RA32405A/B/C/D",
     "previewVideo": "https://www.youtube.com/watch?v=q6wcbHeNBqo",
@@ -6297,7 +6497,15 @@
         "gtin": "",
         "sourceRow": 538
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "neon-celebration",
@@ -6353,7 +6561,22 @@
         "gtin": "",
         "sourceRow": 763
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Ten red stars rise one at a time in a gently uneven rhythm.",
+      "effects": [
+        "Red rising stars",
+        "Individual comet trails"
+      ],
+      "durationSeconds": 18.2,
+      "scope": "Single red candle sample",
+      "observedShots": 10,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KeWM56ssE1Q",
+      "segmentStart": 6.8,
+      "segmentEnd": 25,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
   },
   {
     "id": "sky-painter-fountain",
@@ -6384,7 +6607,7 @@
     "id": "sniper-fire-12-pack",
     "name": "Sniper Fire",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "4-inch shells · 12 shells",
     "manufacturerCode": "RA11201",
     "previewVideo": "https://www.youtube.com/watch?v=66butJ3I7Tw",
@@ -6420,13 +6643,21 @@
       "segmentEnd": 10,
       "note": "Evidence and limits: docs/catalog/playground-scenes-2026-09/README.md. First ascent around 6.6 s, opening around 7.05 s; thin copper/red trails remain around 8.8 s and are nearly dark by 9.6 s. No visible edit or second simultaneous unit in the selected sample.",
       "confirmedShots": null
-    }
+    },
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 12,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "tiger-force-24-pack",
     "name": "Tiger Force",
     "brand": "Raccoon",
-    "category": "Reloadables",
+    "category": "Artillery Shells",
     "presentation": "6-inch shells · 24 shells",
     "manufacturerCode": "RA62402",
     "previewVideo": "https://www.youtube.com/watch?v=EZrkTwF0GgQ",
@@ -6446,7 +6677,15 @@
         "gtin": "",
         "sourceRow": 906
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    },
+    "promotionCategory": "Reloadables"
   },
   {
     "id": "8-oz-rockets-cutting-edge",
@@ -6496,7 +6735,13 @@
         "gtin": "",
         "sourceRow": 28
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 12
+    }
   },
   {
     "id": "2-minutes-extravaganza",
@@ -6624,7 +6869,15 @@
         "gtin": "",
         "sourceRow": 96
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "includedTubes": 1,
+      "contents": "Shell kit"
+    }
   },
   {
     "id": "america-enduring",
@@ -6921,7 +7174,14 @@
         "gtin": "",
         "sourceRow": 344
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "flag-missile-200",
@@ -7231,7 +7491,29 @@
         "gtin": "",
         "sourceRow": 644
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "style": "Canister shells"
+    },
+    "demonstration": {
+      "summary": "Warm gold spokes spread into fine, slowly falling copper-gold trails.",
+      "effects": [
+        "Gold spokes",
+        "Fine copper-gold fall"
+      ],
+      "durationSeconds": 5.2,
+      "scope": "Shell sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=K8poHnGn55w",
+      "segmentStart": 5.6,
+      "segmentEnd": 10.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
   },
   {
     "id": "one-bad-mother-in-law",
@@ -7389,7 +7671,14 @@
         "gtin": "",
         "sourceRow": 741
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 24,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "american-saturn-missile-300",
@@ -7494,7 +7783,13 @@
         "gtin": "",
         "sourceRow": 874
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 12
+    }
   },
   {
     "id": "the-king-assortment",
@@ -7627,7 +7922,14 @@
         "gtin": "",
         "sourceRow": 937
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 48,
+      "totalBreaks": 84
+    }
   },
   {
     "id": "vertical-limit",
@@ -7838,7 +8140,13 @@
         "gtin": "",
         "sourceRow": 1015
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 36
+    }
   },
   {
     "id": "hoot-hoot-hooray",
@@ -7993,7 +8301,23 @@
         "gtin": "",
         "sourceRow": 814
       }
-    ]
+    ],
+    "demonstration": {
+      "summary": "Red-tipped silver spokes open around a compact scattering of pale sparks.",
+      "effects": [
+        "Red tips",
+        "Silver spokes",
+        "Short pale glitter"
+      ],
+      "durationSeconds": 2.1,
+      "scope": "Single rocket burst sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=UOJQVjB-d4w",
+      "segmentStart": 7.7,
+      "segmentEnd": 9.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
   },
   {
     "id": "super-sword",
@@ -8407,7 +8731,14 @@
         "gtin": "",
         "sourceRow": 757
       }
-    ]
+    ],
+    "categoryAliases": [
+      "Reloadables"
+    ],
+    "shellPackage": {
+      "shellCount": 6,
+      "style": "Canister shells"
+    }
   },
   {
     "id": "party-sparklers-4-pack",

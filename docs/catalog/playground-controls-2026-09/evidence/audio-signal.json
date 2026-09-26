@@ -1,0 +1,10 @@
+{
+  "state": "running",
+  "volume": 0.35,
+  "time": 7.00330000000596,
+  "peak": 0.304128497838974,
+  "maxRms": 0.14806787206240984,
+  "maxVoices": 8,
+  "rms": 0,
+  "physicalOutput": "Not verified by this digital loopback"
+}

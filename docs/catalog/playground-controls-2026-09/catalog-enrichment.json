@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ladybugs-3-pack",
+    "demonstration": {
+      "summary": "A red-glowing spin rises with green-white light and finishes in a small shower of silver sparks.",
+      "effects": [
+        "Red ground spin",
+        "Green-white ascent",
+        "Silver flower"
+      ],
+      "durationSeconds": 5.7,
+      "scope": "Single spinner sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=nktHb0AWQ5g",
+      "segmentStart": 5.1,
+      "segmentEnd": 10.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
+  },
+  {
+    "id": "monkey-mania-10-ball-candles-6-pack",
+    "demonstration": {
+      "summary": "Ten red stars rise one at a time in a gently uneven rhythm.",
+      "effects": [
+        "Red rising stars",
+        "Individual comet trails"
+      ],
+      "durationSeconds": 18.2,
+      "scope": "Single red candle sample",
+      "observedShots": 10,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=KeWM56ssE1Q",
+      "segmentStart": 6.8,
+      "segmentEnd": 25,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
+  },
+  {
+    "id": "skybolt-rockets-5-pack",
+    "demonstration": {
+      "summary": "Red-tipped silver spokes open around a compact scattering of pale sparks.",
+      "effects": [
+        "Red tips",
+        "Silver spokes",
+        "Short pale glitter"
+      ],
+      "durationSeconds": 2.1,
+      "scope": "Single rocket burst sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=UOJQVjB-d4w",
+      "segmentStart": 7.7,
+      "segmentEnd": 9.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "demonstration": {
+      "summary": "Warm gold spokes spread into fine, slowly falling copper-gold trails.",
+      "effects": [
+        "Gold spokes",
+        "Fine copper-gold fall"
+      ],
+      "durationSeconds": 5.2,
+      "scope": "Shell sample",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=K8poHnGn55w",
+      "segmentStart": 5.6,
+      "segmentEnd": 10.8,
+      "note": "One reviewed unit or color variant only; package runtime and unreviewed effects are not implied."
+    }
+  }
+]

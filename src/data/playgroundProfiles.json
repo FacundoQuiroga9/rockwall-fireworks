@@ -475,7 +475,7 @@
       "status": "reviewed",
       "name": "Ghostacular",
       "brand": "Raccoon",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "sampleLabel": "First demonstrated shell only",
       "duration": 3.6,
@@ -525,7 +525,9 @@
           "launchVisible": false
         }
       ],
-      "scene": "aerial"
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "shellCount": 24
     },
     {
       "productId": "maelstrom-24-pack",
@@ -533,7 +535,7 @@
       "status": "reviewed",
       "name": "Maelstrom",
       "brand": "Brothers",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "sampleLabel": "First demonstrated shell only",
       "duration": 4.8,
@@ -585,7 +587,9 @@
           "arms": 8
         }
       ],
-      "scene": "aerial"
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "shellCount": 24
     },
     {
       "productId": "daffodil",
@@ -1138,7 +1142,7 @@
       "status": "reviewed",
       "name": "Flawless",
       "brand": "Raccoon",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "sampleLabel": "First demonstrated shell only",
       "duration": 3.8,
@@ -1188,7 +1192,9 @@
           "arms": 62
         }
       ],
-      "scene": "aerial"
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "shellCount": 24
     },
     {
       "productId": "ruckus-12-pack",
@@ -1196,7 +1202,7 @@
       "status": "reviewed",
       "name": "Ruckus",
       "brand": "Brothers",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "sampleLabel": "First demonstrated shell only",
       "duration": 2.4,
@@ -1246,7 +1252,9 @@
           "arms": 30
         }
       ],
-      "scene": "aerial"
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "shellCount": 12
     },
     {
       "productId": "jaws-brothers",
@@ -2078,7 +2086,7 @@
       "status": "reviewed",
       "name": "Arms Depot",
       "brand": "Raccoon",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "scene": "aerial",
       "sampleLabel": "Single shell sample",
@@ -2138,7 +2146,9 @@
           "branchColor": "#dce9ff",
           "clusterPointSize": 2.2
         }
-      ]
+      ],
+      "playback": "manual-shell",
+      "shellCount": 16
     },
     {
       "productId": "sniper-fire-12-pack",
@@ -2146,7 +2156,7 @@
       "status": "reviewed",
       "name": "Sniper Fire",
       "brand": "Raccoon",
-      "category": "Reloadables",
+      "category": "Artillery Shells",
       "kind": "shell-sample",
       "scene": "aerial",
       "sampleLabel": "Single shell sample",
@@ -2202,7 +2212,9 @@
           "radius": 146,
           "radialMin": 0.35
         }
-      ]
+      ],
+      "playback": "manual-shell",
+      "shellCount": 12
     },
     {
       "productId": "ghost-killer",
@@ -3178,6 +3190,394 @@
         "note": "Soft visual closure of the excerpt. The source remains active near its end; no verified product shutdown or total duration is claimed."
       },
       "playbackDuration": 84.6
+    },
+    {
+      "productId": "ladybugs-3-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Ladybugs",
+      "brand": "Brothers",
+      "category": "Spinners",
+      "kind": "spinner-sample",
+      "scene": "close",
+      "playback": "automatic",
+      "sampleLabel": "Single spinner sample",
+      "duration": 5.7,
+      "observedShots": 1,
+      "effects": [
+        "Red ground spin",
+        "Green-white ascent",
+        "Silver flower"
+      ],
+      "summary": "A red-glowing spin rises with green-white light and finishes in a small shower of silver sparks.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=nktHb0AWQ5g",
+        "manufacturerCode": "BP5035",
+        "segmentStart": 5.1,
+        "segmentEnd": 10.8,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+        "notes": [
+          "Official Brothers BP5035 video; three-piece pack, one unit shown.",
+          "Intro ends before the observed performance. No simultaneous units or cut within this sample.",
+          "Close-effects field: low spin, visible ascent, small high flower; automatic single-unit sample."
+        ]
+      },
+      "verified": [
+        "Exact product identity and package presentation",
+        "Visible colors, structure and event count within this sample"
+      ],
+      "estimated": [
+        "Timing uncertainty approximately 0.2 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "ladybugs-unit-1",
+          "launch": 0,
+          "burst": 3.0,
+          "spinSeconds": 1.2,
+          "shape": "spinner",
+          "colors": [
+            "#ed4c62",
+            "#d8eee1",
+            "#e2e6ef"
+          ],
+          "life": 2.5,
+          "seed": 3811,
+          "x": 0,
+          "launchVisible": true
+        }
+      ]
+    },
+    {
+      "productId": "monkey-mania-10-ball-candles-6-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "10 Ball Roman Candle",
+      "brand": "Monkey Mania",
+      "category": "Roman Candles",
+      "kind": "candle-sample",
+      "scene": "close",
+      "playback": "automatic",
+      "sampleLabel": "Single red candle sample",
+      "duration": 18.2,
+      "observedShots": 10,
+      "effects": [
+        "Red rising stars",
+        "Individual comet trails"
+      ],
+      "summary": "Ten red stars rise one at a time in a gently uneven rhythm.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=KeWM56ssE1Q",
+        "manufacturerCode": "MM-T6515A/B/C",
+        "segmentStart": 6.8,
+        "segmentEnd": 25,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+        "notes": [
+          "American Wholesale identifies MM-T6515A/B/C, Monkey Mania, six candles with ten shots per candle.",
+          "This is the complete first red candle only, not all six candles or all three color variants.",
+          "Ten distinct launches resolved in dense frame stepping. Green candle begins near 26 seconds; excluded.",
+          "Close-effects field: automatic ten-star sequence; no break or invented aerial explosion."
+        ]
+      },
+      "verified": [
+        "Exact product identity and package presentation",
+        "Visible colors, structure and event count within this sample"
+      ],
+      "estimated": [
+        "Timing uncertainty approximately 0.2 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "roman-red-1",
+          "launch": 0.1,
+          "burst": 0.8,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4103,
+          "x": 0,
+          "height": 0.56,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-2",
+          "launch": 3.1,
+          "burst": 3.8,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4206,
+          "x": 0,
+          "height": 0.59,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-3",
+          "launch": 5.05,
+          "burst": 5.75,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4309,
+          "x": 0,
+          "height": 0.58,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-4",
+          "launch": 6.7,
+          "burst": 7.4,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4412,
+          "x": 0,
+          "height": 0.61,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-5",
+          "launch": 8.4,
+          "burst": 9.1,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4515,
+          "x": 0,
+          "height": 0.6,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-6",
+          "launch": 9.75,
+          "burst": 10.45,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4618,
+          "x": 0,
+          "height": 0.57,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-7",
+          "launch": 11.5,
+          "burst": 12.2,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4721,
+          "x": 0,
+          "height": 0.59,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-8",
+          "launch": 13.0,
+          "burst": 13.7,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4824,
+          "x": 0,
+          "height": 0.58,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-9",
+          "launch": 14.7,
+          "burst": 15.4,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 4927,
+          "x": 0,
+          "height": 0.6,
+          "drift": 0.012,
+          "launchVisible": true
+        },
+        {
+          "id": "roman-red-10",
+          "launch": 16.5,
+          "burst": 17.2,
+          "shape": "comet",
+          "colors": [
+            "#f35a60"
+          ],
+          "life": 0.7,
+          "seed": 5030,
+          "x": 0,
+          "height": 0.56,
+          "drift": 0.012,
+          "launchVisible": true
+        }
+      ]
+    },
+    {
+      "productId": "skybolt-rockets-5-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Skybolt",
+      "brand": "Brothers",
+      "category": "Rockets",
+      "kind": "rocket-sample",
+      "scene": "aerial",
+      "playback": "automatic",
+      "sampleLabel": "Single rocket burst sample",
+      "duration": 2.1,
+      "observedShots": 1,
+      "effects": [
+        "Red tips",
+        "Silver spokes",
+        "Short pale glitter"
+      ],
+      "summary": "Red-tipped silver spokes open around a compact scattering of pale sparks.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=UOJQVjB-d4w",
+        "manufacturerCode": "BP1217",
+        "segmentStart": 7.7,
+        "segmentEnd": 9.8,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+        "notes": [
+          "Official Brothers BP1217 video labels five separate rocket effects. Only BP1217-1 is profiled here.",
+          "The lift cannot be resolved reliably in the reviewed frames; launch is hidden. No invented ascent.",
+          "Separate labeled demonstrations have editing gaps, so the five-pack is not treated as a continuous sequence.",
+          "Aerial scene, automatic single rocket burst sample.",
+          "Visual comparison corrected overly uniform red outline: irregular spoke lengths, pale green-white interior glitter, red tips fade earlier than the interior."
+        ]
+      },
+      "verified": [
+        "Exact product identity and package presentation",
+        "Visible colors, structure and event count within this sample"
+      ],
+      "estimated": [
+        "Timing uncertainty approximately 0.2 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "skybolt-variant-1",
+          "launch": 0,
+          "burst": 0.2,
+          "shape": "palm",
+          "colors": [
+            "#f45561"
+          ],
+          "life": 1.8,
+          "seed": 4441,
+          "x": 0,
+          "arms": 16,
+          "radius": 116,
+          "trailColor": "#e5ddc7",
+          "trailSeconds": 0.18,
+          "glitterCount": 24,
+          "launchVisible": false,
+          "radialMin": 0.32,
+          "angleJitter": 0.32,
+          "glitterBrightness": 1.8,
+          "glitterPointSize": 1.45,
+          "glitterColor": "#dcebdc",
+          "tipLife": 1.1
+        }
+      ]
+    },
+    {
+      "productId": "nishiki-blast-6-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Nishiki Blast",
+      "brand": "Raccoon",
+      "category": "Artillery Shells",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "sampleLabel": "Shell sample",
+      "duration": 5.2,
+      "observedShots": 1,
+      "effects": [
+        "Gold spokes",
+        "Fine copper-gold fall"
+      ],
+      "summary": "Warm gold spokes spread into fine, slowly falling copper-gold trails.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+        "manufacturerCode": "RA30603",
+        "segmentStart": 5.6,
+        "segmentEnd": 10.8,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+        "notes": [
+          "Official Raccoon RA30603 Nishiki Blast, five-inch canister shells. Approved catalog UPC ends 306034.",
+          "Video overlay PACKING 12/6 means twelve retail packages of six shells; retail limit is six, never 72.",
+          "Only the first individual shell is reviewed in detail and repeats. Later effects differ and remain pending individual review.",
+          "Lift near 5.7 seconds, burst near 7.2 seconds, fine falling tail through about 10.3 seconds. No simultaneous units in this sample."
+        ]
+      },
+      "verified": [
+        "Exact product identity and package presentation",
+        "Visible colors, structure and event count within this sample"
+      ],
+      "estimated": [
+        "Timing uncertainty approximately 0.2 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "nishiki-first-shell",
+          "launch": 0.1,
+          "burst": 1.6,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 3.5,
+          "seed": 4811,
+          "x": 0,
+          "arms": 54,
+          "radius": 154,
+          "radialMin": 0.48,
+          "trailColor": "#caa479",
+          "trailSeconds": 0.48,
+          "launchVisible": true
+        }
+      ],
+      "shellCount": 6
     }
   ]
 }

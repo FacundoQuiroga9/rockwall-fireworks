@@ -1,3 +1,4 @@
+import { shellPackageLabel } from '../shared/catalogCategory';
 import BogoBadge from '../components/productCarousel/BogoBadge';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -99,13 +100,14 @@ export default function ProductPage() {
             <BrandMark brand={product.brand} />
             {product.bogo && <p className="detail-bogo"><BogoBadge product={product} /><br /><strong>Buy One, Get One</strong><br />Marked BOGO in our source catalog. Current dates and conditions need store confirmation. Prepare a pair with another BOGO product in the same category in My List.</p>}
             {product.presentation && <p className="detail-presentation">{product.presentation}</p>}
+            {product.shellPackage && <p className="detail-presentation">{shellPackageLabel(product)}</p>}
             {product.description && <p className="detail-description">{product.description}</p>}
             {product.features?.length > 0 && (
               <ul className="detail-facts">
                 {product.features.map((fact) => <li key={fact}>{fact}</li>)}
               </ul>
             )}
-            {product.demonstration && <section className="detail-demonstration" aria-label="Product effects"><h2>{product.demonstration.scope.includes('shell') ? 'Shell sample' : 'The effect'}</h2><p>{product.demonstration.summary}</p><p>{durationLabel(product.demonstration)}{product.demonstration.confirmedShots ? ` · ${product.demonstration.confirmedShots} shots` : ''}</p><Link to={productVideoPath(product)}>Watch the reference</Link></section>}
+            {product.demonstration && <section className="detail-demonstration" aria-label="Product effects"><h2>{/shell/i.test(product.demonstration.scope) ? 'Shell sample' : /^Single /i.test(product.demonstration.scope) ? product.demonstration.scope : 'The effect'}</h2><p>{product.demonstration.summary}</p><p>{durationLabel(product.demonstration)}{product.demonstration.confirmedShots ? ` · ${product.demonstration.confirmedShots} shots` : ''}</p><Link to={productVideoPath(product)}>Watch the reference</Link></section>}
             <button className="detail-favorite" type="button" aria-pressed={favorite} onClick={() => toggle(product.id)}>
               {favorite ? 'Saved to favorites' : 'Save to favorites'}
             </button>

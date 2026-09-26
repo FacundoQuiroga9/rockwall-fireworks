@@ -1,3 +1,4 @@
+import { normalizeCategory, categorySearchText } from '../shared/catalogCategory.js';
 import { getBogoState } from '../shared/myList.js';
 
 export const getFeaturedProducts = (products) => {
@@ -46,10 +47,10 @@ export const filterCatalog = (products, { query = '', category = '', brand = '',
   const terms = normalizeSearch(query).split(/\s+/).filter(Boolean);
   return products.filter((product) => {
     if (bogoOnly && !getBogoState(product, offers, today).marked) return false;
-    if (category && product.category !== category) return false;
+    if (category && product.category !== normalizeCategory(category)) return false;
     if (brand && (product.brand || 'Unspecified') !== brand) return false;
     if (favorites && !favorites.includes(product.id)) return false;
-    const searchable = normalizeSearch([product.name, product.category, product.brand, product.presentation]
+    const searchable = normalizeSearch([product.name, categorySearchText(product), product.brand, product.presentation]
       .filter(Boolean).join(' '));
     return terms.every((term) => searchable.includes(term));
   }).sort((a, b) => a.name.localeCompare(b.name, 'en-US') || a.id.localeCompare(b.id));

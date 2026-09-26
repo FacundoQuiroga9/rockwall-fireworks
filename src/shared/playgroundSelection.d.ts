@@ -1,8 +1,10 @@
+export const PLAYGROUND_SCENES: readonly PlaygroundScene[];
+export function sceneLabel(scene: string): string;
 export const MAX_PLAYGROUND_SELECTION: number;
 type Profile = { productId: string; kind: string; name: string; brand: string; scene: string };
-export type PlaygroundScene = 'ground' | 'aerial';
+export type PlaygroundScene = 'ground' | 'aerial' | 'close';
 export type PlaygroundSelection = { scene: PlaygroundScene; picks: Record<PlaygroundScene, string[]> };
-export type PlaygroundPreferences = { volume: number; quality: string };
+export type PlaygroundPreferences = { volume: number; quality: string; sound?: boolean | null };
 export function profileScene(profile: Profile): PlaygroundScene | null;
 export function profileGroup(profile: Profile): string;
 export function togglePlaygroundSelection(ids: string[], id: string): { ids: string[]; limited: boolean };

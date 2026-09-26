@@ -7,6 +7,6 @@ export function formatDuration(seconds) {
 }
 export function durationLabel(value) {
   const scope = value.scope || value.sampleLabel || '';
-  const prefix = /shell/i.test(scope) ? 'Shell sample · ' : /excerpt|preview/i.test(scope) ? 'Preview · ' : '';
+  const prefix = /shell/i.test(scope) ? 'Shell sample · ' : /excerpt|preview|sample/i.test(scope) ? 'Preview · ' : '';
   return `${prefix}Approx. ${formatDuration(value.durationSeconds ?? value.duration)}`;
 }

@@ -48,7 +48,7 @@ export function isBogoIdentified(product) {
   return product?.bogo?.evidenceStatus === 'source-marked' && Boolean(product.bogo.sourceTokens?.length);
 }
 export function isBogoCandidate(product, promotion) {
-  return Boolean(isBogoIdentified(product) && promotion?.kind === 'bogo' && product.bogo.promotionId === promotion.id && product.bogo.group === product.category && !['Cake Packs', 'Cakes - Size Unconfirmed', 'Cakes'].includes(product.category));
+  return Boolean(isBogoIdentified(product) && promotion?.kind === 'bogo' && product.bogo.promotionId === promotion.id && product.bogo.group === (product.promotionCategory || product.category) && !['Cake Packs', 'Cakes - Size Unconfirmed', 'Cakes'].includes(product.category));
 }
 // A source marker is historical evidence, not approval of a current benefit.
 // All consumers (cards, filters and list assessment) use these same three states.
@@ -61,7 +61,7 @@ export function getBogoState(product, promotions, today = storeDate()) {
   return { marked, eligible, active: Boolean(eligible && promotionIsCurrent(promotion, today) && rulesReady && priceReady) };
 }
 export function canPair(first, second, promotion) {
-  return isBogoCandidate(first, promotion) && isBogoCandidate(second, promotion) && first.category === second.category;
+  return isBogoCandidate(first, promotion) && isBogoCandidate(second, promotion) && first.bogo.group === second.bogo.group;
 }
 export function startBogo(list, groupId, catalog, promotion) {
   const group = list.groups.find((g) => g.id === groupId);

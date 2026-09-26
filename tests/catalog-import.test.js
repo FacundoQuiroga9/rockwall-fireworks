@@ -10,7 +10,7 @@ const audit = '../docs/catalog/2026-08-square/';
 const reviewed = await read(`${audit}reviewed-matches.json`);
 const preserved = await read(`${audit}preserved-catalog.json`);
 const provenance = await read(`${audit}asset-provenance.json`);
-const commerce = [...await read('../docs/catalog/my-list-2026-09/commercial-review.json'), ...await read('../docs/catalog/refinement-2026-09-25/cake-research.json')];
+const commerce = [...await read('../docs/catalog/my-list-2026-09/commercial-review.json'), ...await read('../docs/catalog/refinement-2026-09-25/cake-research.json'), ...await read('../docs/catalog/playground-controls-2026-09/shell-category-review.json')];
 
 test('every added product has one reviewed Square identity and matching source resources', async () => {
   const originals = new Set(preserved.products.map((p) => p.id));

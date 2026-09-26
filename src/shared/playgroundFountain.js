@@ -5,7 +5,7 @@ export function createFountainModel(profile) {
   const smooth = (x) => { const t = Math.max(0, Math.min(1, x)); return t * t * (3 - 2 * t); };
   const ending = profile.ending;
   const maxLife = ending.tailSeconds;
-  const rate = 150;
+  const rate = 300;
   const seed = profile.stages.reduce((n, s) => n + s.end * 97, 714);
   function emission(time) {
     const index = Math.max(0, profile.stages.findLastIndex((s) => s.start <= time));

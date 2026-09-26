@@ -219,7 +219,6 @@ test('featured products are sorted without mutating the source data', () => {
   );
   assert.deepEqual(getProductCategories(featuredProducts), [
     '500g Cakes',
-    'Reloadables',
     'Artillery Shells',
     '200g Cakes',
     'Assortments',

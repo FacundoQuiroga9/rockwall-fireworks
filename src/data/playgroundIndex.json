@@ -74,5 +74,21 @@
   {
     "productId": "movie-time",
     "kind": "fountain-sample"
+  },
+  {
+    "productId": "ladybugs-3-pack",
+    "kind": "spinner-sample"
+  },
+  {
+    "productId": "monkey-mania-10-ball-candles-6-pack",
+    "kind": "candle-sample"
+  },
+  {
+    "productId": "skybolt-rockets-5-pack",
+    "kind": "rocket-sample"
+  },
+  {
+    "productId": "nishiki-blast-6-pack",
+    "kind": "shell-sample"
   }
 ]
