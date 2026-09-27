@@ -61,6 +61,8 @@ Esto comprueba generación/salida digital, **no confirma escucha física por alt
 - Pendientes anteriores conservados en [CSV](pending.csv), incluyendo referencias completas de fountains. No se amplían otras familias en esta tanda.
 - Salida audible física y revisión visual nativa quedan para una etapa posterior. No se efectuó despliegue web ni publicación de app.
 
-## Conectividad Git
+## Entrega Git
 
-Ambos repositorios trabajan en `main`, remoto `origin` por SSH a GitHub. La comprobación previa `git fetch origin` falló en los dos: `Could not resolve hostname github.com: -65563`. Es un impedimento de resolución/conectividad del entorno, no una confirmación de fallo de permisos de la cuenta. El resultado de commit y de los intentos de push se informa con sus hashes en la entrega. No se usa force push ni se reescribe historial.
+Implementación web: `4ff4146af779c0f9dd9dd6e882d38b6fe54df0b9`; app: `53aca9289af8457c5f56bb9c9e7b8c69f228756c`. Ambos commits se enviaron a `origin/main`, con confirmación de GitHub: `9d451d8..4ff4146 main -> main` y `566fb8b..53aca92 main -> main`.
+
+El primer `git fetch origin` falló al resolver `github.com` (`-65563`), pero los posteriores `git push origin main` terminaron con código 0 en ambos proyectos. No queda un push de implementación pendiente. Esta nota de entrega se versiona después de esos commits. No hubo force push, reescritura de historial, despliegue ni publicación. Los tres PDF locales preexistentes permanecen fuera de los commits.
