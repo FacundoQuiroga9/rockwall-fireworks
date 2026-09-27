@@ -1,0 +1,53 @@
+{
+  "url": "https://www.youtube.com/watch?v=CR1TTvKxTCo",
+  "samples": [
+    {
+      "time": 5,
+      "file": "neon-a-0.png"
+    },
+    {
+      "time": 6,
+      "file": "neon-a-1.png"
+    },
+    {
+      "time": 7,
+      "file": "neon-a-2.png"
+    },
+    {
+      "time": 8,
+      "file": "neon-a-3.png"
+    },
+    {
+      "time": 8.999999,
+      "file": "neon-a-4.png"
+    },
+    {
+      "time": 9.999998,
+      "file": "neon-a-5.png"
+    },
+    {
+      "time": 10.999987,
+      "file": "neon-a-6.png"
+    },
+    {
+      "time": 11.999983,
+      "file": "neon-a-7.png"
+    },
+    {
+      "time": 12.999982,
+      "file": "neon-a-8.png"
+    },
+    {
+      "time": 13.999981,
+      "file": "neon-a-9.png"
+    },
+    {
+      "time": 14.99998,
+      "file": "neon-a-10.png"
+    },
+    {
+      "time": 15.999975,
+      "file": "neon-a-11.png"
+    }
+  ]
+}

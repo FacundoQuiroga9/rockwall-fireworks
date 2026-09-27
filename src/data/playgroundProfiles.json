@@ -47,12 +47,12 @@
         {
           "id": "bump-bear-1",
           "launch": 0,
-          "burst": 1.0,
+          "burst": 1,
           "shape": "palm",
           "colors": [
             "#ff465c"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1103,
           "x": -0.025,
           "launchVisible": true
@@ -65,7 +65,7 @@
           "colors": [
             "#5df383"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1276,
           "x": 0.018,
           "launchVisible": true
@@ -78,7 +78,7 @@
           "colors": [
             "#ffc965"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1449,
           "x": 0,
           "launchVisible": true
@@ -91,7 +91,7 @@
           "colors": [
             "#e7efff"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1622,
           "x": 0.03,
           "launchVisible": true
@@ -104,7 +104,7 @@
           "colors": [
             "#ff465c"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1795,
           "x": -0.025,
           "launchVisible": true
@@ -117,7 +117,7 @@
           "colors": [
             "#5df383"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 1968,
           "x": 0.018,
           "launchVisible": true
@@ -130,7 +130,7 @@
           "colors": [
             "#ffc965"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 2141,
           "x": 0,
           "launchVisible": true
@@ -143,7 +143,7 @@
           "colors": [
             "#e7efff"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 2314,
           "x": 0.03,
           "launchVisible": true
@@ -156,7 +156,7 @@
           "colors": [
             "#ff465c"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 2487,
           "x": -0.025,
           "launchVisible": true
@@ -169,7 +169,7 @@
           "colors": [
             "#5df383"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 2660,
           "x": 0.018,
           "launchVisible": true
@@ -182,7 +182,7 @@
           "colors": [
             "#ffc965"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 2833,
           "x": 0,
           "launchVisible": true
@@ -195,7 +195,7 @@
           "colors": [
             "#e7efff"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 3006,
           "x": 0.03,
           "launchVisible": true
@@ -208,20 +208,20 @@
           "colors": [
             "#ff465c"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 3179,
           "x": -0.025,
           "launchVisible": true
         },
         {
           "id": "bump-bear-14",
-          "launch": 18.0,
-          "burst": 19.0,
+          "launch": 18,
+          "burst": 19,
           "shape": "palm",
           "colors": [
             "#5df383"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 3352,
           "x": 0.018,
           "launchVisible": true
@@ -234,7 +234,7 @@
           "colors": [
             "#ffc965"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 3525,
           "x": 0,
           "launchVisible": true
@@ -247,7 +247,7 @@
           "colors": [
             "#e7efff"
           ],
-          "life": 2.0,
+          "life": 2,
           "seed": 3698,
           "x": 0.03,
           "launchVisible": true
@@ -342,8 +342,8 @@
         },
         {
           "id": "band-of-brothers-4",
-          "launch": 10.0,
-          "burst": 11.0,
+          "launch": 10,
+          "burst": 11,
           "shape": "peony",
           "colors": [
             "#ff405b",
@@ -471,33 +471,31 @@
     },
     {
       "productId": "ghostacular-24-pack",
-      "revision": 1,
+      "revision": 2,
       "status": "reviewed",
       "name": "Ghostacular",
       "brand": "Raccoon",
       "category": "Artillery Shells",
       "kind": "shell-sample",
-      "sampleLabel": "First demonstrated shell only",
+      "sampleLabel": "Individual shell samples",
       "duration": 3.6,
       "observedShots": 1,
       "effects": [
-        "Red concentric rings",
-        "Fading silver points"
+        "Red rings",
+        "Blue-to-amber ring",
+        "Silver spokes with red stars"
       ],
-      "summary": "A single red ring sample from the 24-shell assortment. Other shells have different effects.",
+      "summary": "Red rings, a blue ring fading to amber, and silver spokes around red stars offer three distinct shell effects.",
       "source": {
         "url": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
         "manufacturerCode": "RA32406",
         "segmentStart": 3.2,
         "segmentEnd": 6.8,
-        "reviewedOn": "2026-09-25",
-        "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
-        "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
         "notes": [
-          "Official Raccoon demonstration identifies RA32406, 5-inch, 24 shells.",
-          "Only the first shell is represented. The individual shell number/name is not readable; no claim that this represents all 24.",
-          "Outer red circle expands, with a later inner group of red points and pale fading edges.",
-          "The launch is not visible; no bright launch trail is drawn. No cut observed within this burst."
+          "Original reviewed first sample retained. RA32406, 24-shell retail package; sequence labels are exploratory, not package numbers."
         ]
       },
       "verified": [
@@ -527,7 +525,133 @@
       ],
       "scene": "aerial",
       "playback": "manual-shell",
-      "shellCount": 24
+      "shellCount": 24,
+      "shellEffects": [
+        {
+          "id": "red-rings",
+          "label": "Red rings",
+          "duration": 3.6,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+            "manufacturerCode": "RA32406",
+            "segmentStart": 3.2,
+            "segmentEnd": 6.8,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Original reviewed first sample retained. RA32406, 24-shell retail package; sequence labels are exploratory, not package numbers."
+            ]
+          },
+          "events": [
+            {
+              "id": "ghostacular-24-pack-1",
+              "launch": 0,
+              "burst": 0.6,
+              "shape": "ring",
+              "colors": [
+                "#ff4861"
+              ],
+              "life": 2.9,
+              "seed": 1103,
+              "x": -0.025,
+              "launchVisible": false
+            }
+          ]
+        },
+        {
+          "id": "blue-amber-ring",
+          "label": "Blue ring to amber points",
+          "duration": 3.3,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+            "manufacturerCode": "RA32406",
+            "segmentStart": 8.8,
+            "segmentEnd": 12.1,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Burst near 9.4 s; blue ring at 10.2 s fades into amber points at 10.6–11.0 s. Single break, no bright lift visible."
+            ]
+          },
+          "events": [
+            {
+              "id": "blue-amber-ring",
+              "launch": 0,
+              "burst": 0.6,
+              "shape": "ring",
+              "colors": [
+                "#6f8bd5"
+              ],
+              "life": 2.4,
+              "seed": 9021,
+              "x": 0,
+              "launchVisible": false,
+              "radius": 158,
+              "colorChange": {
+                "start": 0.8,
+                "seconds": 0.35,
+                "colors": [
+                  "#d49450"
+                ]
+              },
+              "gravity": 9
+            }
+          ]
+        },
+        {
+          "id": "silver-palm-red-stars",
+          "label": "Silver spokes with red inner stars",
+          "duration": 3.9,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+            "manufacturerCode": "RA32406",
+            "segmentStart": 18.1,
+            "segmentEnd": 22,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Opening near 18.75 s. Silver spokes persist outside smaller red stars. One break; no visible lift."
+            ]
+          },
+          "events": [
+            {
+              "id": "silver-palm-red-stars",
+              "launch": 0,
+              "burst": 0.65,
+              "shape": "palm-glitter",
+              "colors": [
+                "#ede7dc"
+              ],
+              "life": 3.1,
+              "seed": 9263,
+              "x": 0,
+              "launchVisible": false,
+              "arms": 16,
+              "radius": 177,
+              "trailColor": "#dcdedb",
+              "trailSeconds": 0.26,
+              "radialMin": 0.7,
+              "accent": {
+                "count": 27,
+                "colors": [
+                  "#ed6a5d"
+                ],
+                "life": 2.3,
+                "radius": 0.76,
+                "size": 2.6,
+                "delay": 0.3
+              }
+            }
+          ]
+        }
+      ],
+      "effectOrder": "exploration"
     },
     {
       "productId": "maelstrom-24-pack",
@@ -649,7 +773,7 @@
         },
         {
           "id": "daffodil-2",
-          "launch": 2.0,
+          "launch": 2,
           "burst": 3.2,
           "shape": "flower",
           "colors": [
@@ -664,7 +788,7 @@
         },
         {
           "id": "daffodil-3",
-          "launch": 4.0,
+          "launch": 4,
           "burst": 5.2,
           "shape": "flower",
           "colors": [
@@ -679,7 +803,7 @@
         },
         {
           "id": "daffodil-4",
-          "launch": 6.0,
+          "launch": 6,
           "burst": 7.2,
           "shape": "flower",
           "colors": [
@@ -694,7 +818,7 @@
         },
         {
           "id": "daffodil-5",
-          "launch": 8.0,
+          "launch": 8,
           "burst": 9.2,
           "shape": "flower",
           "colors": [
@@ -755,7 +879,7 @@
         {
           "id": "daffodil-9",
           "launch": 14.8,
-          "burst": 16.0,
+          "burst": 16,
           "shape": "flower",
           "colors": [
             "#f85468",
@@ -814,7 +938,7 @@
         },
         {
           "id": "daffodil-13",
-          "launch": 22.0,
+          "launch": 22,
           "burst": 23.2,
           "shape": "flower",
           "colors": [
@@ -919,7 +1043,7 @@
         {
           "id": "ghost-dragon-2",
           "launch": 4.8,
-          "burst": 6.0,
+          "burst": 6,
           "shape": "ghost",
           "colors": [
             "#ff526d",
@@ -963,7 +1087,7 @@
         },
         {
           "id": "ghost-dragon-5",
-          "launch": 17.0,
+          "launch": 17,
           "burst": 18.2,
           "shape": "ghost",
           "colors": [
@@ -1461,7 +1585,7 @@
         {
           "id": "jaws-brothers-11",
           "launch": 31.9,
-          "burst": 33.0,
+          "burst": 33,
           "shape": "bouquet",
           "colors": [
             "#dbe4f0",
@@ -1540,7 +1664,7 @@
         },
         {
           "id": "jaws-brothers-16",
-          "launch": 43.0,
+          "launch": 43,
           "burst": 44.1,
           "shape": "bouquet",
           "colors": [
@@ -1615,7 +1739,7 @@
         },
         {
           "id": "american-anthem-2",
-          "launch": 4.0,
+          "launch": 4,
           "burst": 4.6,
           "shape": "color-peony",
           "colors": [
@@ -1647,7 +1771,7 @@
         },
         {
           "id": "american-anthem-4",
-          "launch": 11.0,
+          "launch": 11,
           "burst": 11.6,
           "shape": "color-peony",
           "colors": [
@@ -2295,7 +2419,7 @@
         },
         {
           "id": "ghost-killer-3",
-          "launch": 11.0,
+          "launch": 11,
           "burst": 11.8,
           "x": 0,
           "shape": "ghost-peony",
@@ -2313,7 +2437,7 @@
         },
         {
           "id": "ghost-killer-4",
-          "launch": 15.0,
+          "launch": 15,
           "burst": 15.8,
           "x": 0,
           "shape": "ghost-peony",
@@ -2385,7 +2509,7 @@
         },
         {
           "id": "ghost-killer-8",
-          "launch": 37.0,
+          "launch": 37,
           "burst": 37.8,
           "x": 0,
           "shape": "ghost-peony",
@@ -2719,7 +2843,7 @@
         {
           "id": "golden-peacock-3",
           "launch": 5.5,
-          "burst": 7.0,
+          "burst": 7,
           "x": 0,
           "shape": "palm-glitter",
           "colors": [
@@ -2740,7 +2864,7 @@
         {
           "id": "golden-peacock-4",
           "launch": 7.5,
-          "burst": 9.0,
+          "burst": 9,
           "x": 0,
           "shape": "palm-glitter",
           "colors": [
@@ -2782,7 +2906,7 @@
         {
           "id": "golden-peacock-6",
           "launch": 13.5,
-          "burst": 15.0,
+          "burst": 15,
           "x": 0,
           "shape": "palm-glitter",
           "colors": [
@@ -2907,7 +3031,7 @@
         },
         {
           "id": "golden-peacock-12",
-          "launch": 27.0,
+          "launch": 27,
           "burst": 28.5,
           "x": 0,
           "shape": "palm-glitter",
@@ -2971,7 +3095,7 @@
         {
           "id": "golden-peacock-15",
           "launch": 34.5,
-          "burst": 36.0,
+          "burst": 36,
           "x": 0,
           "shape": "palm-glitter",
           "colors": [
@@ -2992,7 +3116,7 @@
         {
           "id": "golden-peacock-16",
           "launch": 36.5,
-          "burst": 38.0,
+          "burst": 38,
           "x": 0,
           "shape": "palm-glitter",
           "colors": [
@@ -3236,7 +3360,7 @@
         {
           "id": "ladybugs-unit-1",
           "launch": 0,
-          "burst": 3.0,
+          "burst": 3,
           "spinSeconds": 1.2,
           "shape": "spinner",
           "colors": [
@@ -3400,7 +3524,7 @@
         },
         {
           "id": "roman-red-8",
-          "launch": 13.0,
+          "launch": 13,
           "burst": 13.7,
           "shape": "comet",
           "colors": [
@@ -3517,7 +3641,7 @@
     },
     {
       "productId": "nishiki-blast-6-pack",
-      "revision": 1,
+      "revision": 2,
       "status": "reviewed",
       "name": "Nishiki Blast",
       "brand": "Raccoon",
@@ -3525,27 +3649,29 @@
       "kind": "shell-sample",
       "scene": "aerial",
       "playback": "manual-shell",
-      "sampleLabel": "Shell sample",
+      "sampleLabel": "Individual shell samples",
       "duration": 5.2,
       "observedShots": 1,
       "effects": [
-        "Gold spokes",
-        "Fine copper-gold fall"
+        "Copper-gold fall",
+        "Green, sea-blue and pink pearls",
+        "Silver-to-gold tips",
+        "Blue stars"
       ],
-      "summary": "Warm gold spokes spread into fine, slowly falling copper-gold trails.",
+      "summary": "Copper-gold willows alternate with green, sea-blue and pink pearls, silver-tipped openings and lingering blue stars.",
       "source": {
         "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
         "manufacturerCode": "RA30603",
         "segmentStart": 5.6,
         "segmentEnd": 10.8,
         "reviewedOn": "2026-09-26",
-        "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
-        "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
         "notes": [
-          "Official Raccoon RA30603 Nishiki Blast, five-inch canister shells. Approved catalog UPC ends 306034.",
-          "Video overlay PACKING 12/6 means twelve retail packages of six shells; retail limit is six, never 72.",
-          "Only the first individual shell is reviewed in detail and repeats. Later effects differ and remain pending individual review.",
-          "Lift near 5.7 seconds, burst near 7.2 seconds, fine falling tail through about 10.3 seconds. No simultaneous units in this sample."
+          "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+          "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+          "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+          "Burst near 7.2 s. Sample ends after its falling tail; no package runtime is implied."
         ]
       },
       "verified": [
@@ -3558,26 +3684,1722 @@
       ],
       "events": [
         {
-          "id": "nishiki-first-shell",
+          "id": "gold-fall",
           "launch": 0.1,
           "burst": 1.6,
           "shape": "willow",
           "colors": [
-            "#dfb378",
-            "#efd4ac"
+            "#f5e6d1",
+            "#e8ce9e"
           ],
           "life": 3.5,
           "seed": 4811,
           "x": 0,
+          "launchVisible": true,
           "arms": 54,
           "radius": 154,
           "radialMin": 0.48,
           "trailColor": "#caa479",
           "trailSeconds": 0.48,
-          "launchVisible": true
+          "angleJitter": 0.06,
+          "colorChange": {
+            "start": 0.32,
+            "seconds": 0.5,
+            "colors": [
+              "#dfb378",
+              "#efd4ac"
+            ]
+          }
         }
       ],
+      "shellCount": 6,
+      "shellEffects": [
+        {
+          "id": "gold-fall",
+          "label": "Copper-gold willow",
+          "duration": 5.2,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 5.6,
+            "segmentEnd": 10.8,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 7.2 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "gold-fall",
+              "launch": 0.1,
+              "burst": 1.6,
+              "shape": "willow",
+              "colors": [
+                "#f5e6d1",
+                "#e8ce9e"
+              ],
+              "life": 3.5,
+              "seed": 4811,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 54,
+              "radius": 154,
+              "radialMin": 0.48,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.48,
+              "angleJitter": 0.06,
+              "colorChange": {
+                "start": 0.32,
+                "seconds": 0.5,
+                "colors": [
+                  "#dfb378",
+                  "#efd4ac"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "green-pearls",
+          "label": "Green pearls with gold willow",
+          "duration": 4.9,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 10.6,
+            "segmentEnd": 15.5,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 12.0 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "green-pearls",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "willow",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 3.3,
+              "seed": 5728,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 43,
+              "radius": 148,
+              "radialMin": 0.38,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.4,
+              "angleJitter": 0.11,
+              "accent": {
+                "count": 30,
+                "colors": [
+                  "#87eea2"
+                ],
+                "life": 1.1,
+                "radius": 1.07,
+                "size": 3.3
+              }
+            }
+          ]
+        },
+        {
+          "id": "sea-blue-pearls",
+          "label": "Sea-blue pearls with fine gold trails",
+          "duration": 4.5,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 16.7,
+            "segmentEnd": 21.2,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 18.0 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "sea-blue-pearls",
+              "launch": 0.1,
+              "burst": 1.3,
+              "shape": "willow",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 3.2,
+              "seed": 6645,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 35,
+              "radius": 161,
+              "radialMin": 0.35,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.36,
+              "angleJitter": 0.19,
+              "accent": {
+                "count": 19,
+                "colors": [
+                  "#a4e2f1"
+                ],
+                "life": 1.18,
+                "radius": 1.13,
+                "size": 3.5
+              }
+            }
+          ]
+        },
+        {
+          "id": "silver-gold",
+          "label": "Silver tips to dense gold willow",
+          "duration": 4.6,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 22.2,
+            "segmentEnd": 26.8,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 23.6 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "silver-gold",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "willow",
+              "colors": [
+                "#f5e6d1",
+                "#e8ce9e"
+              ],
+              "life": 3.2,
+              "seed": 7562,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 68,
+              "radius": 153,
+              "radialMin": 0.57,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.54,
+              "angleJitter": 0.05,
+              "colorChange": {
+                "start": 0.32,
+                "seconds": 0.5,
+                "colors": [
+                  "#dfb378",
+                  "#efd4ac"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "pink-pearls",
+          "label": "Pink pearls with open gold branches",
+          "duration": 4.6,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 27.4,
+            "segmentEnd": 32,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 28.8 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "pink-pearls",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "willow",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 3.1,
+              "seed": 8479,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 32,
+              "radius": 170,
+              "radialMin": 0.31,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.38,
+              "angleJitter": 0.26,
+              "accent": {
+                "count": 19,
+                "colors": [
+                  "#f68cba"
+                ],
+                "life": 1.25,
+                "radius": 1.08,
+                "size": 3.3
+              }
+            }
+          ]
+        },
+        {
+          "id": "blue-gold",
+          "label": "Blue stars and falling gold",
+          "duration": 5.3,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=K8poHnGn55w",
+            "manufacturerCode": "RA30603",
+            "segmentStart": 32.8,
+            "segmentEnd": 38.1,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Raccoon RA30603, UPC 757201306034, five-inch six-shell retail package. Case packing 12/6 is not the retail count.",
+              "Six distinct single-break samples in reference order; an exploration sequence, not official shell numbering. No simultaneous units or performance cuts within the individual samples.",
+              "Gold trails are separate from short colored pearls. Color changes and pearl persistence are specific to each sample.",
+              "Burst near 34.25 s. Sample ends after its falling tail; no package runtime is implied."
+            ]
+          },
+          "events": [
+            {
+              "id": "blue-gold",
+              "launch": 0.1,
+              "burst": 1.45,
+              "shape": "willow",
+              "colors": [
+                "#f5e6d1",
+                "#e8ce9e"
+              ],
+              "life": 3.8,
+              "seed": 9396,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 56,
+              "radius": 165,
+              "radialMin": 0.47,
+              "trailColor": "#caa479",
+              "trailSeconds": 0.5,
+              "angleJitter": 0.1,
+              "colorChange": {
+                "start": 0.32,
+                "seconds": 0.5,
+                "colors": [
+                  "#dfb378",
+                  "#efd4ac"
+                ]
+              },
+              "accent": {
+                "count": 26,
+                "colors": [
+                  "#6d8fe4"
+                ],
+                "life": 2.1,
+                "radius": 1.06,
+                "size": 2.5,
+                "delay": 0.13
+              }
+            }
+          ]
+        }
+      ],
+      "effectOrder": "exploration"
+    },
+    {
+      "productId": "double-dragon-6-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Double Dragon",
+      "brand": "Winda",
+      "category": "Artillery Shells",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "sampleLabel": "Individual shell samples",
+      "duration": 4.5,
+      "observedShots": 1,
+      "effects": [
+        "Two breaks per shell",
+        "Colored palms and dahlias",
+        "Brocade and glitter"
+      ],
+      "summary": "Paired breaks combine red and blue palms, colored dahlias, brocade trails and glittering stars.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+        "manufacturerCode": "P8044",
+        "segmentStart": 4.7,
+        "segmentEnd": 9.2,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+        "notes": [
+          "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+          "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+          "Breaks near 6.22 and 6.9 s. One counter increment and one lift cue for both."
+        ]
+      },
+      "verified": [
+        "Exact catalog variant and matching reference identity",
+        "Visible effect structure, principal colors and reviewed events"
+      ],
+      "estimated": [
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
+        "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
+      ],
+      "events": [
+        {
+          "id": "red-blue-palms-a",
+          "launch": 0,
+          "burst": 1.52,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ff5c67"
+          ],
+          "life": 2.3,
+          "seed": 11001,
+          "x": -0.012,
+          "launchVisible": false,
+          "radius": 142,
+          "y": -0.035
+        },
+        {
+          "id": "red-blue-palms-b",
+          "launch": 0,
+          "burst": 2.2,
+          "shape": "palm-glitter",
+          "colors": [
+            "#8a9ae8"
+          ],
+          "life": 2.2,
+          "seed": 11341,
+          "x": 0.025,
+          "launchVisible": false,
+          "radius": 156,
+          "launchCue": false,
+          "y": 0.035
+        }
+      ],
+      "shellEffects": [
+        {
+          "id": "red-blue-palms",
+          "label": "Red palm / blue palm",
+          "duration": 4.5,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 4.7,
+            "segmentEnd": 9.2,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 6.22 and 6.9 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "red-blue-palms-a",
+              "launch": 0,
+              "burst": 1.52,
+              "shape": "palm-glitter",
+              "colors": [
+                "#ff5c67"
+              ],
+              "life": 2.3,
+              "seed": 11001,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "y": -0.035
+            },
+            {
+              "id": "red-blue-palms-b",
+              "launch": 0,
+              "burst": 2.2,
+              "shape": "palm-glitter",
+              "colors": [
+                "#8a9ae8"
+              ],
+              "life": 2.2,
+              "seed": 11341,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "y": 0.035
+            }
+          ]
+        },
+        {
+          "id": "red-blue-brocade",
+          "label": "Red dahlia / blue to brocade",
+          "duration": 5.5,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 10.2,
+            "segmentEnd": 15.7,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 11.56 and 12.38 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "red-blue-brocade-a",
+              "launch": 0,
+              "burst": 1.36,
+              "shape": "color-peony",
+              "colors": [
+                "#f45b55"
+              ],
+              "life": 2.5,
+              "seed": 11314,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "arms": 36
+            },
+            {
+              "id": "red-blue-brocade-b",
+              "launch": 0,
+              "burst": 2.18,
+              "shape": "palm-glitter",
+              "colors": [
+                "#929de8"
+              ],
+              "life": 3.1,
+              "seed": 11760,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "arms": 24,
+              "colorChange": {
+                "start": 0.4,
+                "seconds": 0.45,
+                "colors": [
+                  "#dfb378",
+                  "#efd4ac"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "brocade-green",
+          "label": "Brocade with red / green palm",
+          "duration": 5,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 17,
+            "segmentEnd": 22,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 18.4 and 19.28 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "brocade-green-a",
+              "launch": 0,
+              "burst": 1.4,
+              "shape": "willow",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 2.9,
+              "seed": 11627,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "arms": 36,
+              "accent": {
+                "count": 14,
+                "colors": [
+                  "#f75b67"
+                ],
+                "life": 1.9,
+                "size": 2.5
+              }
+            },
+            {
+              "id": "brocade-green-b",
+              "launch": 0,
+              "burst": 2.28,
+              "shape": "palm-glitter",
+              "colors": [
+                "#94de8f"
+              ],
+              "life": 2.7,
+              "seed": 12179,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "arms": 17,
+              "accent": {
+                "count": 18,
+                "colors": [
+                  "#f65d65"
+                ],
+                "life": 2,
+                "size": 2.3,
+                "delay": 0.35
+              }
+            }
+          ]
+        },
+        {
+          "id": "gold-red",
+          "label": "Gold brocade / red dahlia",
+          "duration": 5,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 23,
+            "segmentEnd": 28,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 24.23 and 24.94 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "gold-red-a",
+              "launch": 0,
+              "burst": 1.23,
+              "shape": "palm-glitter",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 3.4,
+              "seed": 11940,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "arms": 31,
+              "y": 0.06
+            },
+            {
+              "id": "gold-red-b",
+              "launch": 0,
+              "burst": 1.94,
+              "shape": "color-peony",
+              "colors": [
+                "#f76655"
+              ],
+              "life": 2.35,
+              "seed": 12598,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "arms": 40,
+              "y": -0.05
+            }
+          ]
+        },
+        {
+          "id": "blue-green-red",
+          "label": "Blue-green glitter / red glitter",
+          "duration": 4.6,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 29,
+            "segmentEnd": 33.6,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 30.31 and 30.95 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "blue-green-red-a",
+              "launch": 0,
+              "burst": 1.31,
+              "shape": "color-peony",
+              "colors": [
+                "#749ce3",
+                "#91df8d"
+              ],
+              "life": 2.9,
+              "seed": 12253,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "arms": 30,
+              "accent": {
+                "count": 34,
+                "colors": [
+                  "#dbe6dc"
+                ],
+                "life": 2.4,
+                "radius": 0.65,
+                "size": 1.5,
+                "shimmer": true
+              }
+            },
+            {
+              "id": "blue-green-red-b",
+              "launch": 0,
+              "burst": 1.95,
+              "shape": "color-peony",
+              "colors": [
+                "#f8675b"
+              ],
+              "life": 2.6,
+              "seed": 13017,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "arms": 34,
+              "accent": {
+                "count": 35,
+                "colors": [
+                  "#dbe6dc"
+                ],
+                "life": 2.2,
+                "radius": 0.65,
+                "size": 1.5,
+                "shimmer": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "purple-orange-brocade",
+          "label": "Purple-orange stars / brocade to blue",
+          "duration": 4.9,
+          "breakCount": 2,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+            "manufacturerCode": "P8044",
+            "segmentStart": 34.5,
+            "segmentEnd": 39.4,
+            "reviewedOn": "2026-09-26",
+            "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+            "notes": [
+              "Winda P8044, six-inch six-shell package, UPC 705108804405. Six identifiable pairs, not twelve shells.",
+              "Reference order is an exploration order. Single lift per pair, no simultaneously fired units identified. Sixth sample ends near the recording boundary; its final sparse embers are modeled illustratively.",
+              "Breaks near 36.27 and 36.86 s. One counter increment and one lift cue for both."
+            ]
+          },
+          "events": [
+            {
+              "id": "purple-orange-brocade-a",
+              "launch": 0,
+              "burst": 1.77,
+              "shape": "color-peony",
+              "colors": [
+                "#d990e9",
+                "#f2a06b"
+              ],
+              "life": 2.55,
+              "seed": 12566,
+              "x": -0.012,
+              "launchVisible": false,
+              "radius": 142,
+              "arms": 34,
+              "accent": {
+                "count": 24,
+                "colors": [
+                  "#96da98"
+                ],
+                "life": 1.8,
+                "size": 1.7,
+                "shimmer": true
+              }
+            },
+            {
+              "id": "purple-orange-brocade-b",
+              "launch": 0,
+              "burst": 2.36,
+              "shape": "willow",
+              "colors": [
+                "#dfb378",
+                "#efd4ac"
+              ],
+              "life": 2.5,
+              "seed": 13436,
+              "x": 0.025,
+              "launchVisible": false,
+              "radius": 156,
+              "launchCue": false,
+              "arms": 44,
+              "colorChange": {
+                "start": 1,
+                "seconds": 0.5,
+                "colors": [
+                  "#8aace6"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "effectOrder": "exploration",
+      "playback": "manual-shell",
       "shellCount": 6
+    },
+    {
+      "productId": "raging-willow",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Raging Willow",
+      "brand": "Raccoon",
+      "category": "200g Cakes",
+      "kind": "cake",
+      "scene": "aerial",
+      "sampleLabel": "Full cake sequence",
+      "duration": 33.3,
+      "observedShots": 19,
+      "effects": [
+        "Gold willows",
+        "Blue, peach and sea-green pearls",
+        "Five-burst finale"
+      ],
+      "summary": "Blue, peach and sea-green pearls open into gold willows, building to a closely packed multicolor finale.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=PnXkPdmX0NE",
+        "manufacturerCode": "RA22512",
+        "segmentStart": 6.1,
+        "segmentEnd": 39.4,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+        "notes": [
+          "Raccoon RA22512, 200g, 19 shots, UPC 757201225120. One cake and one launch origin; no performance cuts or speed changes observed.",
+          "Fourteen individually spaced openings followed by five overlapping centers resolved with 0.04-second stepping at 36.2–36.56 s. Finale color assignment is a shared observed cluster palette; individual colors cannot all be isolated through the overlap.",
+          "Complete emission sequence and falling tail through the recording end. Source time bounds do not include the title card."
+        ]
+      },
+      "verified": [
+        "Exact catalog variant and matching reference identity",
+        "Visible effect structure, principal colors and reviewed events"
+      ],
+      "estimated": [
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
+        "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
+      ],
+      "events": [
+        {
+          "id": "raging-1",
+          "launch": 0.25,
+          "burst": 1.9,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18031,
+          "x": -0.025,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "raging-2",
+          "launch": 2.55,
+          "burst": 4.2,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18128,
+          "x": 0.022,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.018
+        },
+        {
+          "id": "raging-3",
+          "launch": 4.97,
+          "burst": 6.62,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18225,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#f68cba"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.012
+        },
+        {
+          "id": "raging-4",
+          "launch": 7.19,
+          "burst": 8.84,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18322,
+          "x": 0.018,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#95dfcd"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.012
+        },
+        {
+          "id": "raging-5",
+          "launch": 9.43,
+          "burst": 11.08,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18419,
+          "x": -0.018,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.008
+        },
+        {
+          "id": "raging-6",
+          "launch": 11.5,
+          "burst": 13.15,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18516,
+          "x": -0.025,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "raging-7",
+          "launch": 12.8,
+          "burst": 14.45,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18613,
+          "x": 0.022,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#f68cba"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.018
+        },
+        {
+          "id": "raging-8",
+          "launch": 15.25,
+          "burst": 16.9,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18710,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#95dfcd"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.012
+        },
+        {
+          "id": "raging-9",
+          "launch": 17.4,
+          "burst": 19.05,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18807,
+          "x": 0.018,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.012
+        },
+        {
+          "id": "raging-10",
+          "launch": 19.2,
+          "burst": 20.85,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 18904,
+          "x": -0.018,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.008
+        },
+        {
+          "id": "raging-11",
+          "launch": 21.25,
+          "burst": 22.9,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 19001,
+          "x": -0.025,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#f68cba"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "raging-12",
+          "launch": 22.5,
+          "burst": 24.15,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 19098,
+          "x": 0.022,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#95dfcd"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.018
+        },
+        {
+          "id": "raging-13",
+          "launch": 24.9,
+          "burst": 26.55,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 19195,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.012
+        },
+        {
+          "id": "raging-14",
+          "launch": 27.1,
+          "burst": 28.75,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.65,
+          "seed": 19292,
+          "x": 0.018,
+          "launchVisible": true,
+          "arms": 28,
+          "radius": 136,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 14,
+            "colors": [
+              "#6d8fe4"
+            ],
+            "life": 0.95,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.012
+        },
+        {
+          "id": "raging-15",
+          "launch": 28.45,
+          "burst": 30.1,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.78,
+          "seed": 19389,
+          "x": -0.018,
+          "launchVisible": true,
+          "arms": 25,
+          "radius": 125,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 12,
+            "colors": [
+              "#ec9abd",
+              "#9ddcca",
+              "#839ce1"
+            ],
+            "life": 1.05,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.008
+        },
+        {
+          "id": "raging-16",
+          "launch": 28.56,
+          "burst": 30.21,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.78,
+          "seed": 19486,
+          "x": -0.025,
+          "launchVisible": true,
+          "arms": 25,
+          "radius": 125,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 12,
+            "colors": [
+              "#ec9abd",
+              "#9ddcca",
+              "#839ce1"
+            ],
+            "life": 1.05,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "raging-17",
+          "launch": 28.64,
+          "burst": 30.29,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.78,
+          "seed": 19583,
+          "x": 0.022,
+          "launchVisible": true,
+          "arms": 25,
+          "radius": 125,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 12,
+            "colors": [
+              "#ec9abd",
+              "#9ddcca",
+              "#839ce1"
+            ],
+            "life": 1.05,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.018
+        },
+        {
+          "id": "raging-18",
+          "launch": 28.71,
+          "burst": 30.36,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.78,
+          "seed": 19680,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 25,
+          "radius": 125,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 12,
+            "colors": [
+              "#ec9abd",
+              "#9ddcca",
+              "#839ce1"
+            ],
+            "life": 1.05,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": -0.012
+        },
+        {
+          "id": "raging-19",
+          "launch": 28.77,
+          "burst": 30.42,
+          "shape": "willow",
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "life": 2.78,
+          "seed": 19777,
+          "x": 0.018,
+          "launchVisible": true,
+          "arms": 25,
+          "radius": 125,
+          "radialMin": 0.42,
+          "trailColor": "#c39e70",
+          "trailSeconds": 0.38,
+          "accent": {
+            "count": 12,
+            "colors": [
+              "#ec9abd",
+              "#9ddcca",
+              "#839ce1"
+            ],
+            "life": 1.05,
+            "radius": 1.04,
+            "size": 2.6
+          },
+          "y": 0.012
+        }
+      ]
+    },
+    {
+      "productId": "citrus-fountain",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Citrus",
+      "brand": "Black Cat",
+      "category": "Fountains",
+      "kind": "fountain",
+      "scene": "ground",
+      "sampleLabel": "Full fountain sequence",
+      "duration": 52.2,
+      "observedShots": null,
+      "effects": [
+        "Gold and silver jets",
+        "Red and green pearls",
+        "Branching sparkling flowers"
+      ],
+      "summary": "Bright gold and silver jets alternate with red and green pearls and broad showers of sparkling flowers.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=iziTm6Kz5EY",
+        "manufacturerCode": null,
+        "segmentStart": 3.2,
+        "segmentEnd": 55.4,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+        "notes": [
+          "Black Cat Citrus, UPC 715244022236, matching approved lime-colored cylindrical package and official BlackCatFireworksUSA video. No unconfirmed manufacturer code assigned.",
+          "One stationary fountain. Gold jet, colored flowers, a real low-emission intermission near 33.5 s, returning gold jet, then colored flowers. No obvious performance cut or speed change.",
+          "Exhaustion at 52.2–53.4 s; last isolated sparks are dark by 55.4 s, before the outro. Observed closure, not an excerpt fade."
+        ]
+      },
+      "verified": [
+        "Exact catalog variant and matching reference identity",
+        "Visible effect structure, principal colors and reviewed events"
+      ],
+      "estimated": [
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
+        "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
+      ],
+      "events": [],
+      "stages": [
+        {
+          "start": 0,
+          "end": 13,
+          "height": 0.64,
+          "spread": 0.2,
+          "intensity": 0.82,
+          "density": 1,
+          "clusters": 0,
+          "colors": [
+            "#f1d7a6",
+            "#e8e6d8"
+          ],
+          "transitionSeconds": 0
+        },
+        {
+          "start": 13,
+          "end": 30,
+          "height": 0.52,
+          "spread": 0.47,
+          "intensity": 0.85,
+          "density": 1,
+          "clusters": 1,
+          "colors": [
+            "#ed5757",
+            "#8fdd77",
+            "#f2d7a0",
+            "#dddcca"
+          ],
+          "transitionSeconds": 0.55
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "height": 0.13,
+          "spread": 0.2,
+          "intensity": 0.09,
+          "density": 0.08,
+          "clusters": 0,
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "transitionSeconds": 0.25
+        },
+        {
+          "start": 31,
+          "end": 40.5,
+          "height": 0.62,
+          "spread": 0.2,
+          "intensity": 0.87,
+          "density": 1,
+          "clusters": 0,
+          "colors": [
+            "#f1d7a6",
+            "#e8e6d8"
+          ],
+          "transitionSeconds": 0.4
+        },
+        {
+          "start": 40.5,
+          "end": 52.2,
+          "height": 0.49,
+          "spread": 0.5,
+          "intensity": 0.83,
+          "density": 1,
+          "clusters": 1,
+          "colors": [
+            "#ed5757",
+            "#8fdd77",
+            "#f2d7a0"
+          ],
+          "transitionSeconds": 0.5
+        }
+      ],
+      "ending": {
+        "kind": "observed",
+        "fadeStart": 49,
+        "emissionEnd": 50.2,
+        "tailSeconds": 2,
+        "note": "Reviewed natural exhaustion and last sparks, absolute source 52.2–55.4 s."
+      },
+      "playbackDuration": 52.2
+    },
+    {
+      "productId": "snow-cone",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Snow Cone",
+      "brand": "Winda",
+      "category": "Fountains",
+      "kind": "fountain",
+      "scene": "ground",
+      "sampleLabel": "Full fountain sequence",
+      "duration": 79,
+      "observedShots": null,
+      "effects": [
+        "Colorful fish",
+        "Silver jets",
+        "Red, green and blue pearls",
+        "Gold flowers"
+      ],
+      "summary": "Colorful fish and pearls give way to tall silver jets, then broad gold flowers and a sparkling final shower.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=JTc54W8erGg",
+        "manufacturerCode": "P3088",
+        "segmentStart": 4.5,
+        "segmentEnd": 83.5,
+        "reviewedOn": "2026-09-26",
+        "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+        "notes": [
+          "Winda P3088, UPC 705108308804, matching cone-shaped approved package. One stationary fountain; no obvious performance cut or speed change.",
+          "Real low-output intervals separate the flower sections and tall silver jet. The final jet falls around 81.5–82.5 s; isolated sparks finish by approximately 83.5 s.",
+          "Full observed emission; the last sparse embers and physical scale are illustrative. No generic repeated stage is appended."
+        ]
+      },
+      "verified": [
+        "Exact catalog variant and matching reference identity",
+        "Visible effect structure, principal colors and reviewed events"
+      ],
+      "estimated": [
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
+        "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
+      ],
+      "events": [],
+      "stages": [
+        {
+          "start": 0,
+          "end": 8.5,
+          "height": 0.3,
+          "spread": 0.43,
+          "intensity": 0.67,
+          "density": 0.6,
+          "clusters": 0,
+          "colors": [
+            "#f26966",
+            "#8bc89b",
+            "#88a1e1"
+          ],
+          "transitionSeconds": 0,
+          "wander": 0.035
+        },
+        {
+          "start": 8.5,
+          "end": 13.5,
+          "height": 0.42,
+          "spread": 0.42,
+          "intensity": 0.8,
+          "density": 0.85,
+          "clusters": 0.5,
+          "colors": [
+            "#f06562",
+            "#e5d5ab"
+          ],
+          "transitionSeconds": 0.7,
+          "wander": 0.018
+        },
+        {
+          "start": 13.5,
+          "end": 27.5,
+          "height": 0.57,
+          "spread": 0.46,
+          "intensity": 0.87,
+          "density": 1,
+          "clusters": 1,
+          "colors": [
+            "#e5be83",
+            "#f1e6c9"
+          ],
+          "transitionSeconds": 0.6
+        },
+        {
+          "start": 27.5,
+          "end": 30.5,
+          "height": 0.16,
+          "spread": 0.22,
+          "intensity": 0.2,
+          "density": 0.15,
+          "clusters": 0,
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "transitionSeconds": 0.4
+        },
+        {
+          "start": 30.5,
+          "end": 42.5,
+          "height": 0.79,
+          "spread": 0.2,
+          "intensity": 0.93,
+          "density": 1,
+          "clusters": 0,
+          "colors": [
+            "#f5e7d5",
+            "#ecd8af"
+          ],
+          "transitionSeconds": 0.5
+        },
+        {
+          "start": 42.5,
+          "end": 45.5,
+          "height": 0.13,
+          "spread": 0.23,
+          "intensity": 0.17,
+          "density": 0.14,
+          "clusters": 0,
+          "colors": [
+            "#dfb378",
+            "#efd4ac"
+          ],
+          "transitionSeconds": 0.45
+        },
+        {
+          "start": 45.5,
+          "end": 60.5,
+          "height": 0.5,
+          "spread": 0.49,
+          "intensity": 0.85,
+          "density": 1,
+          "clusters": 0.8,
+          "colors": [
+            "#f16b68",
+            "#96d68b",
+            "#91ade1",
+            "#e5bd83"
+          ],
+          "transitionSeconds": 0.65,
+          "wander": 0.012
+        },
+        {
+          "start": 60.5,
+          "end": 79,
+          "height": 0.62,
+          "spread": 0.61,
+          "intensity": 0.92,
+          "density": 1,
+          "clusters": 1,
+          "colors": [
+            "#e4ad64",
+            "#edc688"
+          ],
+          "transitionSeconds": 0.7
+        }
+      ],
+      "ending": {
+        "kind": "observed",
+        "fadeStart": 77,
+        "emissionEnd": 78,
+        "tailSeconds": 1.6,
+        "note": "Observed exhaustion at absolute 81.5–82.5 s. Remaining sparse sparks complete their trajectory; no added product stage."
+      },
+      "playbackDuration": 79.6
     }
   ]
 }

@@ -9,7 +9,16 @@ const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url)));
 const data = read('../src/data/playgroundProfiles.json'); const all = data.profiles;
 const products = read('../src/data/products.json');
 test('approved profiles remain identical and new excerpts retain evidence and honest scope', () => {
-  assert.deepEqual(all.slice(0,4).map((profile) => { const copy = { ...profile }; delete copy.scene; delete copy.playback; delete copy.shellCount; if (copy.kind === 'shell-sample') copy.category = 'Reloadables'; return copy; }), read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles);
+  const original = read('../docs/catalog/playground-evolution-2026-09/approved-profiles-before.json').profiles;
+  for (let i=0;i<4;i++) {
+    const copy={...all[i]}; delete copy.scene; delete copy.playback; delete copy.shellCount;
+    if(copy.kind==='shell-sample') copy.category='Reloadables';
+    if(copy.productId==='ghostacular-24-pack') {
+      // This iteration expands its reviewed bank while retaining the original first effect.
+      assert.deepEqual(copy.events,original[i].events);
+      for(const key of ['productId','name','brand','category','kind','duration']) assert.deepEqual(copy[key],original[i][key]);
+    } else assert.deepEqual(copy,original[i]);
+  }
   assert.deepEqual(validateProfiles(data, products), []);
   for (const p of all.slice(4,6)) { assert.match(p.sampleLabel, /excerpt/i); assert.ok(p.source.notes.length); assert.match(p.source.evidenceDirectory, /evolution/); }
   assert.equal(all.find((p) => p.productId === 'fairies-in-a-jar').observedShots, null);

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ghostacular-24-pack",
+    "demonstration": {
+      "summary": "Red rings, a blue ring fading to amber, and silver spokes around red stars offer three distinct shell effects.",
+      "effects": [
+        "Red rings",
+        "Blue-to-amber ring",
+        "Silver spokes with red stars"
+      ],
+      "durationSeconds": 3.6,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=WYXidPFSUbQ",
+      "segmentStart": 3.2,
+      "segmentEnd": 6.8,
+      "note": "3 documented effects in exploration order, not official shell numbering. Duration describes the first sample; retail count and break count are separate."
+    }
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "demonstration": {
+      "summary": "Copper-gold willows alternate with green, sea-blue and pink pearls, silver-tipped openings and lingering blue stars.",
+      "effects": [
+        "Copper-gold fall",
+        "Green, sea-blue and pink pearls",
+        "Silver-to-gold tips",
+        "Blue stars"
+      ],
+      "durationSeconds": 5.2,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=K8poHnGn55w",
+      "segmentStart": 5.6,
+      "segmentEnd": 10.8,
+      "note": "6 documented effects in exploration order, not official shell numbering. Duration describes the first sample; retail count and break count are separate."
+    }
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "demonstration": {
+      "summary": "Paired breaks combine red and blue palms, colored dahlias, brocade trails and glittering stars.",
+      "effects": [
+        "Two breaks per shell",
+        "Colored palms and dahlias",
+        "Brocade and glitter"
+      ],
+      "durationSeconds": 4.5,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=U6Oqjz9Y254",
+      "segmentStart": 4.7,
+      "segmentEnd": 9.2,
+      "note": "6 documented effects in exploration order, not official shell numbering. Duration describes the first sample; retail count and break count are separate."
+    }
+  },
+  {
+    "id": "raging-willow",
+    "demonstration": {
+      "summary": "Blue, peach and sea-green pearls open into gold willows, building to a closely packed multicolor finale.",
+      "effects": [
+        "Gold willows",
+        "Blue, peach and sea-green pearls",
+        "Five-burst finale"
+      ],
+      "durationSeconds": 33.3,
+      "scope": "Full cake sequence",
+      "observedShots": 19,
+      "confirmedShots": 19,
+      "sourceUrl": "https://www.youtube.com/watch?v=PnXkPdmX0NE",
+      "segmentStart": 6.1,
+      "segmentEnd": 39.4,
+      "note": "Complete reviewed emission; trajectories, scale and synthesized audio are illustrative."
+    }
+  },
+  {
+    "id": "citrus-fountain",
+    "demonstration": {
+      "summary": "Bright gold and silver jets alternate with red and green pearls and broad showers of sparkling flowers.",
+      "effects": [
+        "Gold and silver jets",
+        "Red and green pearls",
+        "Branching sparkling flowers"
+      ],
+      "durationSeconds": 52.2,
+      "scope": "complete",
+      "observedShots": null,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=iziTm6Kz5EY",
+      "segmentStart": 3.2,
+      "segmentEnd": 55.4,
+      "note": "Complete reviewed emission; trajectories, scale and synthesized audio are illustrative."
+    }
+  },
+  {
+    "id": "snow-cone",
+    "demonstration": {
+      "summary": "Colorful fish and pearls give way to tall silver jets, then broad gold flowers and a sparkling final shower.",
+      "effects": [
+        "Colorful fish",
+        "Silver jets",
+        "Red, green and blue pearls",
+        "Gold flowers"
+      ],
+      "durationSeconds": 79.0,
+      "scope": "complete",
+      "observedShots": null,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=JTc54W8erGg",
+      "segmentStart": 4.5,
+      "segmentEnd": 83.5,
+      "note": "Complete reviewed emission; trajectories, scale and synthesized audio are illustrative."
+    }
+  }
+]

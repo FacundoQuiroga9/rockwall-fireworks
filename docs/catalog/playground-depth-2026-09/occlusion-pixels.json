@@ -1,0 +1,83 @@
+{
+  "method": "Full-viewport CUA PNG screenshots; approved skyline alpha projected x233 y231 width974 height326; opaque mask eroded 4px. Interior sampled y238..437; open-sky gaps y238..367. Star breathing also changes some sky pixels. This supplements motion review, not a universal image assertion.",
+  "interiorPixels": 42932,
+  "samples": [
+    {
+      "file": "clean-00006.png",
+      "elapsed": 0.508,
+      "maxInteriorDifference": 0,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 0
+    },
+    {
+      "file": "clean-00013.png",
+      "elapsed": 1.089,
+      "maxInteriorDifference": 0,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 0
+    },
+    {
+      "file": "clean-00026.png",
+      "elapsed": 2.225,
+      "maxInteriorDifference": 2,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 0
+    },
+    {
+      "file": "clean-00041.png",
+      "elapsed": 3.476,
+      "maxInteriorDifference": 7,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 50
+    },
+    {
+      "file": "clean-00046.png",
+      "elapsed": 3.892,
+      "maxInteriorDifference": 12,
+      "interiorPixelsOver10": 7,
+      "openSkyPixelsOver10": 256
+    },
+    {
+      "file": "clean-00097.png",
+      "elapsed": 8.541,
+      "maxInteriorDifference": 7,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 0
+    },
+    {
+      "file": "clean-00168.png",
+      "elapsed": 14.826,
+      "maxInteriorDifference": 7,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 2
+    },
+    {
+      "file": "clean-00231.png",
+      "elapsed": 20.483,
+      "maxInteriorDifference": 0,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 4
+    },
+    {
+      "file": "clean-00298.png",
+      "elapsed": 26.505,
+      "maxInteriorDifference": 6,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 4
+    },
+    {
+      "file": "clean-00369.png",
+      "elapsed": 32.84,
+      "maxInteriorDifference": 6,
+      "interiorPixelsOver10": 0,
+      "openSkyPixelsOver10": 4
+    },
+    {
+      "file": "clean-00382.png",
+      "elapsed": 33.991,
+      "maxInteriorDifference": 11,
+      "interiorPixelsOver10": 4,
+      "openSkyPixelsOver10": 234
+    }
+  ]
+}

@@ -76,5 +76,37 @@
       0.055
     ],
     "scale": 0.92
+  },
+  "citrus-fountain": {
+    "type": "photo",
+    "src": "/images/products/citrus-fountain-320.webp",
+    "crop": [
+      72,
+      43,
+      175,
+      235
+    ],
+    "aspect": 0.7446808510638298,
+    "nozzle": [
+      0.5,
+      0.05
+    ],
+    "scale": 1
+  },
+  "snow-cone": {
+    "type": "photo",
+    "src": "/images/products/snow-cone-320.webp",
+    "crop": [
+      106,
+      42,
+      108,
+      236
+    ],
+    "aspect": 0.4576271186440678,
+    "nozzle": [
+      0.5,
+      0.05
+    ],
+    "scale": 1.05
   }
 }

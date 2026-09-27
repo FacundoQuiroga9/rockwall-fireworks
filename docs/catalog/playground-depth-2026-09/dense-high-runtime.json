@@ -1,0 +1,85 @@
+{
+  "elapsedMs": 34183,
+  "reports": 119,
+  "peakParticles": 459,
+  "peakPoints": 1342,
+  "peakHeap": 24879972,
+  "qualityChanges": [
+    {
+      "time": 15,
+      "quality": "high"
+    }
+  ],
+  "type": "rockwall-playground",
+  "state": "waiting",
+  "position": 33.8,
+  "duration": 33.8,
+  "shells": [
+    {
+      "index": 2,
+      "launched": 2,
+      "limit": 6,
+      "busy": false,
+      "complete": false,
+      "documentedEffects": 6,
+      "effectIndex": 1,
+      "effectId": "green-pearls",
+      "effectLabel": "Green pearls with gold willow",
+      "breakCount": 1,
+      "nextEffectId": "sea-blue-pearls",
+      "nextEffectIndex": 2,
+      "nextEffectLabel": "Sea-blue pearls with fine gold trails",
+      "available": true
+    },
+    {
+      "index": 3,
+      "launched": 2,
+      "limit": 6,
+      "busy": false,
+      "complete": false,
+      "documentedEffects": 6,
+      "effectIndex": 1,
+      "effectId": "red-blue-brocade",
+      "effectLabel": "Red dahlia / blue to brocade",
+      "breakCount": 2,
+      "nextEffectId": "brocade-green",
+      "nextEffectIndex": 2,
+      "nextEffectLabel": "Brocade with red / green palm",
+      "available": true
+    }
+  ],
+  "metrics": {
+    "frames": 896,
+    "fps": 58.9,
+    "meanDrawMs": 1.19,
+    "maxDrawMs": 14.9,
+    "particles": 0,
+    "quality": "high",
+    "requestedQuality": "high",
+    "activeParticles": 0,
+    "drawnPoints": 0,
+    "budget": 3200,
+    "targetBudget": 3200,
+    "detail": 1,
+    "pixelWidth": 2620,
+    "pixelHeight": 986,
+    "audio": {
+      "enabled": false,
+      "state": "uninitialized",
+      "running": false,
+      "error": "",
+      "voices": 0,
+      "rms": 0,
+      "peak": 0
+    },
+    "simultaneousProducts": 4,
+    "width": 1310,
+    "height": 493
+  },
+  "environment": {
+    "compact": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "dpr": 2,
+    "cores": 8
+  }
+}

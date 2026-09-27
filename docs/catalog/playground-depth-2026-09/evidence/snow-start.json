@@ -1,0 +1,29 @@
+{
+  "url": "https://www.youtube.com/watch?v=JTc54W8erGg",
+  "samples": [
+    {
+      "time": 4.498804,
+      "file": "snow-start-0.png"
+    },
+    {
+      "time": 4.978804,
+      "file": "snow-start-1.png"
+    },
+    {
+      "time": 5.498804,
+      "file": "snow-start-2.png"
+    },
+    {
+      "time": 5.978804,
+      "file": "snow-start-3.png"
+    },
+    {
+      "time": 6.498804,
+      "file": "snow-start-4.png"
+    },
+    {
+      "time": 6.978804,
+      "file": "snow-start-5.png"
+    }
+  ]
+}

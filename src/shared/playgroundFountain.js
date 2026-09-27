@@ -38,7 +38,7 @@ export function createFountainModel(profile) {
       const spread = (noise(salt) - .5) * state.spread + jet.tilt * .62;
       const lift = state.height * (.48 + noise(salt + 1) * .52) * (1 - Math.abs(jet.tilt) * .28);
       result.push({ id, born, life, color, spread, lift, nozzle: jet.nozzle, intensity: state.intensity,
-        x: spread * u, y: -4 * u * (1 - u) * lift,
+        x: spread * u + (birthStage.wander ?? 0) * Math.sin(age * (8 + noise(salt + 33) * 4) + salt) * Math.sin(u * Math.PI), y: -4 * u * (1 - u) * lift,
         alpha: smooth(age / .08) * Math.pow(1 - u, .65) * state.intensity,
         cluster: noise(salt + 31) < state.clusters * .13,
         clusterRadius: u > .38 && u < .78 ? Math.sin((u - .38) / .4 * Math.PI) : 0,

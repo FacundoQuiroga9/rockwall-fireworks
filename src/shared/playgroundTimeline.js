@@ -7,28 +7,35 @@ export function createTimeline(profiles) {
   let selected = profiles.map((_, i) => i), position = 0, anchor = 0, cursor = -.000001;
   let state = 'idle', started = false, preview = false, pending = [];
   const manual = p => p.playback === 'manual-shell';
+  const effects = p => p.shellEffects?.length ? p.shellEffects : [{ id: 'sample', label: 'Shell sample', duration: p.duration, events: p.events, breakCount: p.events.length }];
   const runs = new Map(), counts = profiles.map(() => 0);
   const autoDuration = () => Math.max(0, ...selected.filter(i => !manual(profiles[i])).map(i => profiles[i].playbackDuration ?? profiles[i].duration));
   const hasManual = () => selected.some(i => manual(profiles[i]));
-  const end = () => Math.max(autoDuration(), ...[...runs].map(([i, r]) => r.start + profiles[i].duration));
+  const end = () => Math.max(autoDuration(), ...[...runs.values()].map(r => r.start + r.duration));
   const duration = () => Math.max(0, ...selected.map(i => profiles[i].playbackDuration ?? profiles[i].duration));
   const renderEvents = () => Object.fromEntries(selected.filter(i => manual(profiles[i])).map(i => [i,
     preview ? profiles[i].events : runs.has(i) ? runs.get(i).events : [],
   ]));
   const shellState = i => {
     const p = profiles[i], limit = Number.isInteger(p.shellCount) && p.shellCount > 0 ? p.shellCount : null;
-    const busy = runs.has(i) && position < runs.get(i).start + p.duration - .000001;
+    const bank = effects(p), run = runs.get(i);
+    const busy = Boolean(run && position < run.start + run.duration - .000001);
+    const nextIndex = counts[i] % bank.length;
     return { index: i, launched: counts[i], limit, busy, complete: limit !== null && counts[i] >= limit,
+      documentedEffects: bank.length, effectIndex: run?.effectIndex ?? null, effectId: run?.effectId ?? null,
+      effectLabel: run?.label ?? null, breakCount: run?.breakCount ?? null, nextEffectId: bank[nextIndex].id,
+      nextEffectIndex: nextIndex, nextEffectLabel: bank[nextIndex].label,
       available: started && !preview && state !== 'paused' && !busy && (limit === null || counts[i] < limit) };
   };
   const snapshot = () => ({ state, position, duration: duration(), automaticDuration: autoDuration(), automaticPosition: Math.min(position, autoDuration()),
     selected: [...selected], started, preview, hasManual: hasManual(), shells: selected.filter(i => manual(profiles[i])).map(shellState), renderEvents: renderEvents() });
   function launch(i, now, first = false) {
     if (!selected.includes(i) || !manual(profiles[i]) || (!first && !shellState(i).available)) return false;
-    const events = profiles[i].events.map(e => ({ ...e, id: `${e.id}:${counts[i] + 1}`, launch: e.launch + position, burst: e.burst + position }));
-    runs.set(i, { start: position, events }); counts[i]++;
+    const bank = effects(profiles[i]), effectIndex = counts[i] % bank.length, effect = bank[effectIndex];
+    const events = effect.events.map(e => ({ ...e, id: `${effect.id}:${e.id}:${counts[i] + 1}`, launch: e.launch + position, burst: e.burst + position }));
+    runs.set(i, { start: position, events, duration: effect.duration, effectIndex, effectId: effect.id, label: effect.label, breakCount: effect.breakCount }); counts[i]++;
     // Events exactly at the resting cursor must be cued once on the next tick.
-    events.forEach(event => { if (event.launch <= cursor) pending.push({ profile: i, event, type: 'launch', time: event.launch }); });
+    events.forEach(event => { if (event.launchCue !== false && event.launch <= cursor) pending.push({ profile: i, event, type: 'launch', time: event.launch }); });
     if (state === 'waiting') { anchor = now - position * 1000; state = 'playing'; }
     return true;
   }
@@ -38,7 +45,7 @@ export function createTimeline(profiles) {
       position = Math.min(end(), Math.max(position, (now - anchor) / 1000));
       cues.push(...pending); pending = [];
       selected.forEach(i => (manual(profiles[i]) ? runs.get(i)?.events || [] : profiles[i].events).forEach(event => {
-        for (const type of ['launch', 'burst']) if (event[type] > cursor && event[type] <= position) cues.push({ profile: i, event, type, time: event[type] });
+        for (const type of ['launch', 'burst']) if (!(type === 'launch' && event.launchCue === false) && event[type] > cursor && event[type] <= position) cues.push({ profile: i, event, type, time: event[type] });
       }));
       cursor = position;
       if (position >= end()) state = hasManual() ? 'waiting' : 'ended';
@@ -76,7 +83,7 @@ export function validateProfiles(data, catalog) {
     if (!product || product.name !== profile.name || product.brand !== profile.brand || product.category !== profile.category) errors.push(`${profile.productId}: catalog identity changed`);
     if (ids.has(profile.productId)) errors.push('Duplicate profile');
     ids.add(profile.productId);
-    if (profile.status !== 'reviewed' || !['cake', 'cake-sample', 'shell-sample', 'fountain-sample', 'fountain', 'candle-sample', 'spinner-sample', 'rocket-sample'].includes(profile.kind) || !(profile.duration > 0) || (!profile.kind.startsWith('fountain') && profile.events.length !== profile.observedShots)) errors.push(`${profile.productId}: invalid review or duration`);
+    if (profile.status !== 'reviewed' || !['cake', 'cake-sample', 'shell-sample', 'fountain-sample', 'fountain', 'candle-sample', 'spinner-sample', 'rocket-sample'].includes(profile.kind) || !(profile.duration > 0) || (!profile.kind.startsWith('fountain') && profile.kind !== 'shell-sample' && profile.events.length !== profile.observedShots)) errors.push(`${profile.productId}: invalid review or duration`);
     if (Math.abs(profile.source.segmentEnd - profile.source.segmentStart - profile.duration) > 0.01) errors.push('Source segment duration differs');
     let previous = -1;
     const eventIds = new Set();
@@ -97,7 +104,28 @@ export function validateProfiles(data, catalog) {
     }
     if (profile.playback === 'manual-shell' && (profile.kind !== 'shell-sample' || (profile.shellCount != null && (!Number.isInteger(profile.shellCount) || profile.shellCount <= 0)))) errors.push('Invalid retail shell limit');
     if (profile.kind === 'shell-sample' && (profile.playback !== 'manual-shell' || (profile.shellCount != null && profile.shellCount !== product?.shellPackage?.shellCount))) errors.push('Shell controls must use the confirmed retail count');
-    if (profile.kind === 'shell-sample' && profile.events.length !== 1) errors.push('A shell sample must not fire the whole package');
+    if (profile.kind === 'shell-sample' && !profile.shellEffects && profile.events.length !== 1) errors.push('A shell sample must not fire the whole package');
+    if (profile.shellEffects) {
+      const bank = profile.shellEffects, effectIds = new Set();
+      if (profile.playback !== 'manual-shell' || !bank.length || bank.length > 48 || profile.effectOrder !== 'exploration') errors.push('Invalid documented shell effects');
+      if (JSON.stringify(bank[0]?.events) !== JSON.stringify(profile.events) || bank[0]?.duration !== profile.duration) errors.push('First shell effect must match the initial preview');
+      for (const effect of bank) {
+        if (effectIds.has(effect.id) || !effect.id || !effect.label || !effect.source?.url || !(effect.duration > 0)
+          || Math.abs(effect.source.segmentEnd - effect.source.segmentStart - effect.duration) > .01
+          || !Number.isInteger(effect.breakCount) || effect.breakCount < 1 || effect.breakCount > 4 || effect.events.length !== effect.breakCount
+          || effect.events.filter(e => e.launchCue !== false).length !== 1) errors.push(`${profile.productId}: invalid shell effect ${effect.id}`);
+        effectIds.add(effect.id);
+        const eventIds = new Set(); let previous = -1;
+        for (const event of effect.events) {
+          if (eventIds.has(event.id) || !Number.isFinite(event.launch) || !Number.isFinite(event.burst) || event.launch < 0 || event.burst < event.launch || event.burst < previous || !(event.life > 0) || event.burst + event.life > effect.duration + .01
+            || !['palm','peony','ring','palm-glitter','flower','ghost','willow','color-peony','bouquet','ghost-peony','wander'].includes(event.shape)
+            || !event.colors?.length || event.colors.some(color => !/^#[a-f\d]{6}$/i.test(color))) errors.push(`${profile.productId}: invalid variant event ${effect.id}/${event.id}`);
+          if (event.accent && (!(event.accent.count > 0 && event.accent.count <= 80) || !(event.accent.life > 0 && event.accent.life <= event.life) || !event.accent.colors?.length || event.accent.colors.some(color => !/^#[a-f\d]{6}$/i.test(color)))) errors.push('Invalid shell accent');
+          if (event.colorChange && (!(event.colorChange.start >= 0 && event.colorChange.start < event.life) || !(event.colorChange.seconds > 0) || !event.colorChange.colors?.length || event.colorChange.colors.some(color => !/^#[a-f\d]{6}$/i.test(color)))) errors.push('Invalid shell color transition');
+          eventIds.add(event.id); previous = event.burst;
+        }
+      }
+    }
   }
   return errors;
 }

@@ -15,9 +15,9 @@ const profiles = data.profiles;
 
 test('reviewed profiles resolve exact catalog identities and valid source segments', () => {
   assert.deepEqual(validateProfiles(data, products), []);
-  assert.equal(profiles.length, 23);
-  assert.deepEqual(profiles.filter((p) => p.kind === 'cake').map((p) => p.category), ['200g Cakes', '500g Cakes', '200g Cakes', '200g Cakes']);
-  assert.equal(profiles.filter((p) => p.kind === 'shell-sample').length, 7);
+  assert.equal(profiles.length, 27);
+  assert.deepEqual(profiles.filter((p) => p.kind === 'cake').map((p) => p.category), ['200g Cakes', '500g Cakes', '200g Cakes', '200g Cakes', '200g Cakes']);
+  assert.equal(profiles.filter((p) => p.kind === 'shell-sample').length, 8);
   assert.deepEqual(profiles.slice(0, 4).map((p) => p.events.length), [16, 12, 1, 1]);
   const broken = structuredClone(data); broken.profiles[0].events[0].burst = -1;
   assert.ok(validateProfiles(broken, products).length);

@@ -1,0 +1,52 @@
+{
+  "elapsedMs": 84920,
+  "reports": 275,
+  "peakParticles": 1384,
+  "peakPoints": 2480,
+  "peakHeap": 25432066,
+  "qualityChanges": [
+    {
+      "time": 33.8,
+      "quality": "high"
+    }
+  ],
+  "type": "rockwall-playground",
+  "state": "ended",
+  "position": 84.6,
+  "duration": 84.6,
+  "shells": [],
+  "metrics": {
+    "frames": 4970,
+    "fps": 58.7,
+    "meanDrawMs": 4.88,
+    "maxDrawMs": 49.8,
+    "particles": 0,
+    "quality": "high",
+    "requestedQuality": "auto",
+    "activeParticles": 0,
+    "drawnPoints": 0,
+    "budget": 3200,
+    "targetBudget": 3200,
+    "detail": 1,
+    "pixelWidth": 2620,
+    "pixelHeight": 1161,
+    "audio": {
+      "enabled": false,
+      "state": "uninitialized",
+      "running": false,
+      "error": "",
+      "voices": 0,
+      "rms": 0,
+      "peak": 0
+    },
+    "simultaneousProducts": 4,
+    "width": 1310,
+    "height": 580
+  },
+  "environment": {
+    "compact": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "dpr": 2,
+    "cores": 8
+  }
+}

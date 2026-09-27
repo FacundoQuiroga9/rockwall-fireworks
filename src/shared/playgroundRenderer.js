@@ -49,7 +49,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
       profileLimit = Math.min(budget, count + share);
       context.save();
       const cx = width * (panes === 1 ? .5 : .17 + pane * .66 / (panes - 1));
-      const cy = Math.max(45, height * .25);
+      const burstHeight = Math.max(45, height * .25);
       const capacity = detail / Math.max(1, selected.length * .42);
       if (profile.stages) {
         const model = fountains[pane];
@@ -114,6 +114,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
       for (const event of events[pane] ?? profile.events) {
         const age = time - event.burst;
         const ex = cx + event.x * 700 * scale;
+        const cy = burstHeight + (event.y ?? 0) * height;
         if (event.shape === 'comet' || event.shape === 'spinner') {
           const closeScale = Math.min(width / 800, height / 500);
           const elapsed = time - event.launch, rise = event.burst - event.launch;
@@ -172,6 +173,19 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         const radius = event.radius ?? (flower ? 105 : ring ? 147 : palm ? 158 : 155);
         const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
         const fade = Math.pow(Math.max(0, 1 - age / event.life), .75);
+        // Documented colored pearls are a separate component of this single
+        // break, with their own persistence. Their palette never depends on quality.
+        if (event.accent) {
+          const accent = event.accent, a = age - (accent.delay ?? 0);
+          if (a >= 0 && a < accent.life) for (let i = 0; i < accent.count; i++) {
+            const salt = event.seed + i * 193, angle = i / accent.count * Math.PI * 2 + noise(salt) * .18;
+            const r = radius * (accent.radius ?? 1.06) * (.7 + noise(salt + 4) * .3) * grow(a);
+            const visibility = i < 6 ? 1 : weight(salt + 10, Math.max(.5, capacity));
+            const envelope = Math.min(1, a / .055) * Math.pow(1 - a / accent.life, .6);
+            const shimmer = accent.shimmer ? .76 + .2 * Math.sin(a * 9 + i * 2.7) : 1;
+            dot(ex + Math.cos(angle) * r * scale, cy + (Math.sin(angle) * r + (accent.gravity ?? 16) * a * a) * scale, Math.max(.8, (accent.size ?? 3.1) * scale), accent.colors[i % accent.colors.length], envelope * shimmer * (accent.brightness ?? 1) * visibility, true);
+          }
+        }
         for (let i = 0; i < n; i++) {
           const seed = event.seed + i * 37;
           const visibility = palm && !willow ? 1 : weight(seed + 555, capacity);
@@ -182,7 +196,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
           // pause/seek stable; they do not accumulate particles or create emitters.
           const turn = (t) => wander ? Math.max(0, t - .3) * 16 * Math.sin(t * (5 + noise(seed + 2) * 3) + seed) : 0;
           const px = (t) => ex + (Math.cos(angle) * radius * radial * grow(t) + turn(t)) * scale;
-          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (ghost ? 7 : willow ? 12 : 20) * t * t + turn(t) * .5) * scale;
+          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (event.gravity ?? (ghost ? 7 : willow ? 12 : 20)) * t * t + turn(t) * .5) * scale;
           const color = colorPeony ? event.colors[Math.floor(i / n * event.colors.length)] : ghost ? ((i / n + age * .22) % 1 < .5 ? event.colors[0] : event.colors[1]) : ring && age > 1.3 && noise(seed + 7) > .72 ? '#dddbda' : event.colors[i % event.colors.length];
           if (ghostPeony) {
             // Separate fading stars by sector; never replace the whole burst's
@@ -218,7 +232,14 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
           if (flower && age > .25 && i % 6 === 0) {
             for (let j = 0; j < 3; j++) dot(px(age) + Math.cos(seed + j * 2.1) * age * 9 * scale, py(age) + Math.sin(seed + j * 2.1) * age * 9 * scale, Math.max(.5, scale), '#eecb91', fade * .45);
           }
-          dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), wander && age > .7 ? '#e7eaf2' : glitter && age > 1.05 ? '#dae5ff' : color, (event.tipLife ? Math.pow(Math.max(0, 1 - age / event.tipLife), .75) : fade) * intensity * visibility, true);
+          const tipFade = (event.tipLife ? Math.pow(Math.max(0, 1 - age / event.tipLife), .75) : fade) * intensity * visibility;
+          const change = event.colorChange;
+          if (change) {
+            const u = Math.max(0, Math.min(1, (age - change.start - noise(seed + 21) * .12) / change.seconds));
+            const mix = u * u * (3 - 2 * u);
+            dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), color, tipFade * (1 - mix), true);
+            dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), change.colors[i % change.colors.length], tipFade * mix, mix >= 1);
+          } else dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), wander && age > .7 ? '#e7eaf2' : glitter && age > 1.05 ? '#dae5ff' : color, tipFade, true);
           if (ring && age > .48) {
             const t = age - .48;
             dot(ex + Math.cos(angle) * radius * .52 * grow(t) * scale, cy + (Math.sin(angle) * radius * .52 * grow(t) + 14 * t * t) * scale, Math.max(.6, 1.35 * scale), color, fade * .75, true);

@@ -1,0 +1,69 @@
+{
+  "elapsedMs": 42433,
+  "reports": 144,
+  "peakParticles": 459,
+  "peakPoints": 1456,
+  "peakHeap": 25252827,
+  "qualityChanges": [
+    {
+      "time": 0.007732000005960458,
+      "quality": "high"
+    }
+  ],
+  "type": "rockwall-playground",
+  "state": "waiting",
+  "position": 39.099999999999994,
+  "duration": 33.8,
+  "shells": [
+    {
+      "index": 3,
+      "launched": 6,
+      "limit": 6,
+      "busy": false,
+      "complete": true,
+      "documentedEffects": 6,
+      "effectIndex": 5,
+      "effectId": "blue-gold",
+      "effectLabel": "Blue stars and falling gold",
+      "breakCount": 1,
+      "nextEffectId": "gold-fall",
+      "nextEffectIndex": 0,
+      "nextEffectLabel": "Copper-gold willow",
+      "available": false
+    }
+  ],
+  "metrics": {
+    "frames": 288,
+    "fps": 54.2,
+    "meanDrawMs": 0.8,
+    "maxDrawMs": 4.2,
+    "particles": 0,
+    "quality": "high",
+    "requestedQuality": "auto",
+    "activeParticles": 0,
+    "drawnPoints": 0,
+    "budget": 3200,
+    "targetBudget": 3200,
+    "detail": 1,
+    "pixelWidth": 2620,
+    "pixelHeight": 892,
+    "audio": {
+      "enabled": false,
+      "state": "uninitialized",
+      "running": false,
+      "error": "",
+      "voices": 0,
+      "rms": 0,
+      "peak": 0
+    },
+    "simultaneousProducts": 4,
+    "width": 1310,
+    "height": 446
+  },
+  "environment": {
+    "compact": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "dpr": 2,
+    "cores": 8
+  }
+}

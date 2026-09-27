@@ -1,0 +1,37 @@
+{
+  "url": "https://www.youtube.com/watch?v=JTc54W8erGg",
+  "samples": [
+    {
+      "time": 80.50063,
+      "file": "snow-ending-0.png"
+    },
+    {
+      "time": 80.98063,
+      "file": "snow-ending-1.png"
+    },
+    {
+      "time": 81.50063,
+      "file": "snow-ending-2.png"
+    },
+    {
+      "time": 81.98063,
+      "file": "snow-ending-3.png"
+    },
+    {
+      "time": 82.50063,
+      "file": "snow-ending-4.png"
+    },
+    {
+      "time": 82.98063,
+      "file": "snow-ending-5.png"
+    },
+    {
+      "time": 83.50063,
+      "file": "snow-ending-6.png"
+    },
+    {
+      "time": 83.62063,
+      "file": "snow-ending-7.png"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-> Playground vigente: [23 perfiles, shells manuales, categorías y calidad](playground-controls-2026-09/README.md).
+> Playground vigente: [27 perfiles, bancos de shells y oclusión de Dallas](playground-depth-2026-09/README.md).
+
+> Informe previo:  [23 perfiles, shells manuales, categorías y calidad](playground-controls-2026-09/README.md).
 
 # Mantener alineados los catálogos
 

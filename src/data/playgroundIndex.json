@@ -90,5 +90,21 @@
   {
     "productId": "nishiki-blast-6-pack",
     "kind": "shell-sample"
+  },
+  {
+    "productId": "double-dragon-6-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "raging-willow",
+    "kind": "cake"
+  },
+  {
+    "productId": "citrus-fountain",
+    "kind": "fountain"
+  },
+  {
+    "productId": "snow-cone",
+    "kind": "fountain"
   }
 ]

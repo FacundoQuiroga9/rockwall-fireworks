@@ -1,3 +1,5 @@
+> Continuación vigente: [variedad de shells y profundidad de Dallas, 27 perfiles](../playground-depth-2026-09/README.md). Los conteos de este informe son históricos.
+
 # Shells manuales, categorías y calidad — 26 de septiembre de 2026
 
 Continuación de [escenarios compatibles](../playground-scenes-2026-09/README.md). Vista local: <http://localhost:5173/playground>. Sin despliegue ni publicación. Los informes anteriores son históricos; esta iteración reemplaza sus presupuestos de render y la política de sonido inicial.

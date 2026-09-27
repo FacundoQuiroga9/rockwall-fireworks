@@ -61,9 +61,14 @@ export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, m
       if (!button) continue;
       const countLabel = `${shell.launched}${shell.limit ? ` / ${shell.limit}` : ''} launched${shell.complete ? ' · Complete' : ''}`;
       if (status.textContent !== countLabel) status.textContent = countLabel;
+      const effect = $(`shell-effect-${shell.index}`);
+      if (effect && shell.documentedEffects > 1) {
+        const effectLabel = shell.effectIndex === null ? `Next: ${shell.nextEffectLabel}` : `Effect ${shell.effectIndex + 1} / ${shell.documentedEffects}: ${shell.effectLabel}${shell.breakCount > 1 ? ` · ${shell.breakCount} breaks` : ''}`;
+        if (effect.textContent !== effectLabel) effect.textContent = effectLabel;
+      }
       button.textContent = shell.busy ? 'Playing shell' : shell.complete ? 'All launched' : shell.limit ? `Launch ${shell.launched + 1} / ${shell.limit}` : 'Launch shell';
       button.disabled = !shell.available || launchPending.has(shell.index);
-      button.setAttribute('aria-label', `${config.profiles[shell.index].name}: ${button.textContent}`);
+      button.setAttribute('aria-label', `${config.profiles[shell.index].name}: ${button.textContent}${shell.documentedEffects > 1 && !shell.busy && !shell.complete ? `, ${shell.nextEffectLabel}` : ''}`);
       reset.hidden = !shell.complete; reset.disabled = shell.busy || state.state === 'paused';
     }
     soundUI(); qualityUI();
