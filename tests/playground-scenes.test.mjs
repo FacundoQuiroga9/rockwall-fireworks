@@ -14,11 +14,11 @@ test('product detail entry switches, saves and restores each scene without toggl
   let state=restorePlaygroundSelection(profiles);
   state=select(state,aerial[0].productId).state;
   const switched=select(state,ground[0].productId); state=switched.state;
-  assert.equal(state.scene,'ground'); assert.match(switched.message,/other picks are saved/);
+  assert.equal(state.scene,'ground'); assert.equal(switched.message,'');
   assert.deepEqual(state.picks.aerial,[aerial[0].productId]);
   state=select(state,ground[1].productId).state;
   const returned=select(state,aerial[0].productId);state=returned.state;
-  assert.equal(state.scene,'aerial');assert.match(returned.message,/Dallas Sky/);
+  assert.equal(state.scene,'aerial');assert.equal(returned.message,'');
   assert.deepEqual(state.picks.aerial,[aerial[0].productId]);assert.equal(state.picks.ground.length,2);
   state=select(state,ground[2].productId).state;
   assert.deepEqual(state.picks.ground,ground.slice(0,3).map(p=>p.productId));
@@ -52,7 +52,7 @@ test('filters never alter selection; clear and last deselection affect only the 
   state=toggle(state,ground[1].productId).state;
   const cleared=updatePlaygroundSelection(profiles,state,{type:'clear'});
   assert.equal(cleared.state.scene,'ground');assert.deepEqual(cleared.state.picks.ground,[]);
-  assert.deepEqual(cleared.state.picks.aerial,[aerial[0].productId]);assert.match(cleared.message,/Active selection cleared/);
+  assert.deepEqual(cleared.state.picks.aerial,[aerial[0].productId]);assert.equal(cleared.message,'Selection cleared.');
   state=updatePlaygroundSelection(profiles,cleared.state,{type:'scene',scene:'aerial'}).state;
   assert.deepEqual(sceneProfiles(profiles,state.picks[state.scene],state.scene),[aerial[0]]);
 });

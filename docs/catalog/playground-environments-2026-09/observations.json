@@ -1,0 +1,1148 @@
+[
+  {
+    "productId": "jawbreaker",
+    "retailShots": 25,
+    "publishedOpenings": 15,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
+      "manufacturerCode": "RA22009",
+      "segmentStart": 3.5,
+      "segmentEnd": 22.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA22009 / Jawbreaker: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
+        "Fifteen resolved openings in the first three phases. Later red/blue openings and the overlapping crackling finale near 29.7–30.0 s are pending finer separation. Editorial fade near 32.4 s does not verify the natural final tail.",
+        "Entire 33.841 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "jawbreaker-1",
+        "launch": 3.66,
+        "burst": 4.38,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-2",
+        "launch": 5.2,
+        "burst": 5.92,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-3",
+        "launch": 6.33,
+        "burst": 7.05,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-4",
+        "launch": 7.13,
+        "burst": 7.85,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-5",
+        "launch": 8.84,
+        "burst": 9.56,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-6",
+        "launch": 10.12,
+        "burst": 10.84,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#8bdbb4"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-7",
+        "launch": 11.6,
+        "burst": 12.32,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#8bdbb4"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-8",
+        "launch": 12.38,
+        "burst": 13.1,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#8bdbb4"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-9",
+        "launch": 13.19,
+        "burst": 13.91,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#8bdbb4"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-10",
+        "launch": 14.66,
+        "burst": 15.38,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 18,
+          "colors": [
+            "#8bdbb4"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-11",
+        "launch": 15.62,
+        "burst": 16.34,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 23,
+          "colors": [
+            "#cbb18b"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-12",
+        "launch": 17.22,
+        "burst": 17.94,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 23,
+          "colors": [
+            "#cbb18b"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-13",
+        "launch": 18.54,
+        "burst": 19.26,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 23,
+          "colors": [
+            "#cbb18b"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-14",
+        "launch": 19.98,
+        "burst": 20.7,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 23,
+          "colors": [
+            "#cbb18b"
+          ],
+          "life": 1.45,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "jawbreaker-15",
+        "launch": 20.36,
+        "burst": 21.08,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 23,
+          "colors": [
+            "#cbb18b"
+          ],
+          "life": 1.42,
+          "delay": 0.24,
+          "radius": 0.9,
+          "radialMin": 0.45,
+          "size": 1.7,
+          "shimmer": true
+        }
+      }
+    ]
+  },
+  {
+    "productId": "willow-explosion",
+    "retailShots": 24,
+    "publishedOpenings": 4,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
+      "manufacturerCode": "RA53631",
+      "segmentStart": 5.9,
+      "segmentEnd": 17.05,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA53631 / Willow Explosion: on-screen product code and approved package artwork agree. Retail presentation 24 shots is separate from resolved openings.",
+        "The first four isolated crowns are resolved. Rapid overlapping salvas from about 17.2 s onward need individual-center separation; the 27.1 s ending still contains faint embers. No repeated crowns are added to fill 24.",
+        "Entire 27.121 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "willow-explosion-1",
+        "launch": 6.05,
+        "burst": 6.96,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 15,
+          "colors": [
+            "#86a7e3"
+          ],
+          "life": 2.1,
+          "radius": 0.83,
+          "radialMin": 0.52,
+          "size": 1.65
+        }
+      },
+      {
+        "id": "willow-explosion-2",
+        "launch": 8.87,
+        "burst": 9.78,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 15,
+          "colors": [
+            "#86a7e3"
+          ],
+          "life": 2.1,
+          "radius": 0.83,
+          "radialMin": 0.52,
+          "size": 1.65
+        }
+      },
+      {
+        "id": "willow-explosion-3",
+        "launch": 11.92,
+        "burst": 12.83,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 15,
+          "colors": [
+            "#86a7e3"
+          ],
+          "life": 2.1,
+          "radius": 0.83,
+          "radialMin": 0.52,
+          "size": 1.65
+        }
+      },
+      {
+        "id": "willow-explosion-4",
+        "launch": 13.97,
+        "burst": 14.88,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 15,
+          "colors": [
+            "#86a7e3"
+          ],
+          "life": 2.1,
+          "radius": 0.83,
+          "radialMin": 0.52,
+          "size": 1.65
+        }
+      }
+    ]
+  },
+  {
+    "productId": "old-ironsides",
+    "retailShots": 30,
+    "publishedOpenings": 13,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
+      "manufacturerCode": "BP2452",
+      "segmentStart": 5.5,
+      "segmentEnd": 25.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Brothers BP2452 / Old Ironsides: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
+        "Thirteen resolved centers in the first three blocks: four blue/white, four white, five gold palms. Unresolved centers and later blocks prevent a complete 30-shot claim. Existing uncertain gram classification is unchanged.",
+        "Entire 42.561 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "old-ironsides-1",
+        "launch": 6.13,
+        "burst": 7.18,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-2",
+        "launch": 6.63,
+        "burst": 7.68,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-3",
+        "launch": 7.22,
+        "burst": 8.27,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-4",
+        "launch": 7.8,
+        "burst": 8.85,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-5",
+        "launch": 13.45,
+        "burst": 14.5,
+        "shape": "color-peony",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-6",
+        "launch": 14.1,
+        "burst": 15.15,
+        "shape": "color-peony",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-7",
+        "launch": 14.93,
+        "burst": 15.98,
+        "shape": "color-peony",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-8",
+        "launch": 15.27,
+        "burst": 16.32,
+        "shape": "color-peony",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 26,
+          "colors": [
+            "#e3e8eb"
+          ],
+          "life": 2.35,
+          "delay": 0.25,
+          "radius": 0.85,
+          "radialMin": 0.35,
+          "size": 1.25,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "old-ironsides-9",
+        "launch": 18.88,
+        "burst": 19.9,
+        "shape": "palm",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "old-ironsides-10",
+        "launch": 19.47,
+        "burst": 20.49,
+        "shape": "palm",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "old-ironsides-11",
+        "launch": 20.17,
+        "burst": 21.19,
+        "shape": "palm",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "old-ironsides-12",
+        "launch": 20.85,
+        "burst": 21.87,
+        "shape": "palm",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "old-ironsides-13",
+        "launch": 21.66,
+        "burst": 22.68,
+        "shape": "palm",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      }
+    ]
+  },
+  {
+    "productId": "color-rage",
+    "retailShots": 30,
+    "publishedOpenings": 4,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=NvDuDojoKT4",
+      "manufacturerCode": "RA53072",
+      "segmentStart": 5.55,
+      "segmentEnd": 15.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA53072 / Color Rage: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
+        "Four individually resolved colored openings before the red section. Delayed lace is represented as a component of the visible opening, not a separately verified launch. Later fast centers and the final overlap around 36 s remain unresolved; no 30-shot simulation is claimed.",
+        "Entire 39.921 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "color-rage-1",
+        "launch": 5.6,
+        "burst": 6.35,
+        "shape": "color-peony",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 30,
+          "colors": [
+            "#cbb18b",
+            "#e3e8eb"
+          ],
+          "life": 1.35,
+          "delay": 1.05,
+          "radius": 0.7,
+          "radialMin": 0.2,
+          "size": 1.3,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "color-rage-2",
+        "launch": 8.19,
+        "burst": 8.94,
+        "shape": "color-peony",
+        "colors": [
+          "#bf8bd9"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 30,
+          "colors": [
+            "#cbb18b",
+            "#e3e8eb"
+          ],
+          "life": 1.35,
+          "delay": 1.05,
+          "radius": 0.7,
+          "radialMin": 0.2,
+          "size": 1.3,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "color-rage-3",
+        "launch": 10.29,
+        "burst": 11.04,
+        "shape": "color-peony",
+        "colors": [
+          "#8bdbb4"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 30,
+          "colors": [
+            "#cbb18b",
+            "#e3e8eb"
+          ],
+          "life": 1.35,
+          "delay": 1.05,
+          "radius": 0.7,
+          "radialMin": 0.2,
+          "size": 1.3,
+          "shimmer": true
+        }
+      },
+      {
+        "id": "color-rage-4",
+        "launch": 12.41,
+        "burst": 13.16,
+        "shape": "color-peony",
+        "colors": [
+          "#86a7e3"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 30,
+          "colors": [
+            "#cbb18b",
+            "#e3e8eb"
+          ],
+          "life": 1.29,
+          "delay": 1.05,
+          "radius": 0.7,
+          "radialMin": 0.2,
+          "size": 1.3,
+          "shimmer": true
+        }
+      }
+    ]
+  },
+  {
+    "productId": "aggression",
+    "retailShots": 25,
+    "publishedOpenings": 5,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=fLGTxYPM494",
+      "manufacturerCode": "RA22007",
+      "segmentStart": 6.8,
+      "segmentEnd": 13.6,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA22007 / Aggression: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
+        "Five clearly isolated early red/Nishiki openings only. Subsequent green/gold/teal and dense crackling clusters require finer launch-center separation. The long retailer outro after about 23.4 s is not product duration.",
+        "Entire 43.48 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "aggression-1",
+        "launch": 7.06,
+        "burst": 7.9,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 19,
+          "colors": [
+            "#e97489"
+          ],
+          "life": 1.55,
+          "radius": 1,
+          "radialMin": 0.7,
+          "size": 2.2
+        }
+      },
+      {
+        "id": "aggression-2",
+        "launch": 8.52,
+        "burst": 9.36,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 19,
+          "colors": [
+            "#e97489"
+          ],
+          "life": 1.55,
+          "radius": 1,
+          "radialMin": 0.7,
+          "size": 2.2
+        }
+      },
+      {
+        "id": "aggression-3",
+        "launch": 9.5,
+        "burst": 10.34,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 19,
+          "colors": [
+            "#e97489"
+          ],
+          "life": 1.55,
+          "radius": 1,
+          "radialMin": 0.7,
+          "size": 2.2
+        }
+      },
+      {
+        "id": "aggression-4",
+        "launch": 10.18,
+        "burst": 11.02,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 19,
+          "colors": [
+            "#e97489"
+          ],
+          "life": 1.55,
+          "radius": 1,
+          "radialMin": 0.7,
+          "size": 2.2
+        }
+      },
+      {
+        "id": "aggression-5",
+        "launch": 11.1,
+        "burst": 11.94,
+        "shape": "willow",
+        "colors": [
+          "#cbb18b"
+        ],
+        "lift": "discrete illustrative locator",
+        "secondary": {
+          "count": 19,
+          "colors": [
+            "#e97489"
+          ],
+          "life": 1.55,
+          "radius": 1,
+          "radialMin": 0.7,
+          "size": 2.2
+        }
+      }
+    ]
+  },
+  {
+    "productId": "whisky-business",
+    "retailShots": 20,
+    "publishedOpenings": 14,
+    "scope": "excerpt",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=SxzplhvlmUk",
+      "manufacturerCode": "BS8039",
+      "segmentStart": 5.6,
+      "segmentEnd": 38.25,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8–10 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Bright Star BS8039 / Whisky Business: on-screen product code and approved package artwork agree. Retail presentation 20 shots is separate from resolved openings.",
+        "Fourteen individually resolved opening centers retained across the demonstration. Some faint/overlapping centers cannot be separated to verify all 20 shots. The final visible tails are included, but this remains an excerpt with incomplete event coverage, not a full retail sequence.",
+        "Entire 38.441 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "observedEvents": [
+      {
+        "id": "whisky-business-1",
+        "launch": 5.66,
+        "burst": 6.65,
+        "shape": "palm",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-2",
+        "launch": 8.0,
+        "burst": 9.18,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-3",
+        "launch": 9.06,
+        "burst": 9.97,
+        "shape": "palm",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-4",
+        "launch": 11.33,
+        "burst": 12.35,
+        "shape": "palm",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-5",
+        "launch": 13.96,
+        "burst": 15.1,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-6",
+        "launch": 16.55,
+        "burst": 17.49,
+        "shape": "palm",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-7",
+        "launch": 18.12,
+        "burst": 19.17,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-8",
+        "launch": 20.96,
+        "burst": 22.08,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-9",
+        "launch": 22.58,
+        "burst": 23.51,
+        "shape": "palm",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-10",
+        "launch": 24.76,
+        "burst": 25.77,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-11",
+        "launch": 26.48,
+        "burst": 27.42,
+        "shape": "palm",
+        "colors": [
+          "#e3e8eb"
+        ],
+        "lift": "visible tail",
+        "secondary": null
+      },
+      {
+        "id": "whisky-business-12",
+        "launch": 27.77,
+        "burst": 28.85,
+        "shape": "willow",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 14,
+          "color": "#e97489",
+          "life": 5.1,
+          "spread": 48,
+          "gravity": 9,
+          "drift": 0.3
+        }
+      },
+      {
+        "id": "whisky-business-13",
+        "launch": 29.68,
+        "burst": 30.7,
+        "shape": "willow",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 14,
+          "color": "#e97489",
+          "life": 5.1,
+          "spread": 48,
+          "gravity": 9,
+          "drift": -0.3
+        }
+      },
+      {
+        "id": "whisky-business-14",
+        "launch": 31.37,
+        "burst": 32.48,
+        "shape": "willow",
+        "colors": [
+          "#e97489"
+        ],
+        "lift": "visible tail",
+        "secondary": {
+          "count": 14,
+          "color": "#e97489",
+          "life": 5.1,
+          "spread": 48,
+          "gravity": 9,
+          "drift": 0.15
+        }
+      }
+    ]
+  }
+]

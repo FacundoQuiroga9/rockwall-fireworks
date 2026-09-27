@@ -1,0 +1,122 @@
+[
+  {
+    "scene": "aerial",
+    "requested": "auto",
+    "effective": "high",
+    "seconds": 35.0005,
+    "fps": 59.999142869387576,
+    "meanDrawMs": 1.2519047619402408,
+    "p95DrawMs": 2.2999999970197678,
+    "maxDrawMs": 8,
+    "p95FrameMs": 18.299999999999272,
+    "over50ms": 0,
+    "peakParticles": 305,
+    "peakPoints": 1183,
+    "heapPeak": 43014634,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": null,
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "scene": "aerial",
+    "requested": "high",
+    "effective": "high",
+    "seconds": 35.01700000000001,
+    "fps": 60.02798640660249,
+    "meanDrawMs": 1.230922930467197,
+    "p95DrawMs": 2.2999999970197678,
+    "maxDrawMs": 12.900000005960464,
+    "p95FrameMs": 18.10000000000582,
+    "over50ms": 0,
+    "peakParticles": 305,
+    "peakPoints": 1183,
+    "heapPeak": 27605498,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": null,
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "scene": "ground",
+    "requested": "auto",
+    "effective": "high",
+    "seconds": 35.000400000000006,
+    "fps": 59.742174375149986,
+    "meanDrawMs": 6.422620755570862,
+    "p95DrawMs": 8.100000008940697,
+    "maxDrawMs": 44.3999999910593,
+    "p95FrameMs": 17.89999999999418,
+    "over50ms": 1,
+    "peakParticles": 1545,
+    "peakPoints": 2755,
+    "heapPeak": 34642777,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": "/images/playground/environments/close-up-1774.webp",
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "scene": "ground",
+    "requested": "high",
+    "effective": "high",
+    "seconds": 35.000568,
+    "fps": 59.79902954717763,
+    "meanDrawMs": 6.4051122790424095,
+    "p95DrawMs": 8,
+    "maxDrawMs": 26.200000002980232,
+    "p95FrameMs": 17.89999999999418,
+    "over50ms": 0,
+    "peakParticles": 1545,
+    "peakPoints": 2755,
+    "heapPeak": 36138323,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": "/images/playground/environments/close-up-1774.webp",
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "path": "public/images/playground/environments/close-up-1100.webp",
+    "width": 1100,
+    "height": 550,
+    "bytes": 52680,
+    "sha256": "6137a092d82e16a02a897c933d4fb6c671a8d74faba9376e090807a44139f098",
+    "provenance": "Generated with built-in image_gen on 2026-09-27; prompt in generation-prompts.json. Original 1774x887. Resized and encoded as WebP; no product imagery added."
+  },
+  {
+    "path": "public/images/playground/environments/close-up-1774.webp",
+    "width": 1774,
+    "height": 887,
+    "bytes": 117342,
+    "sha256": "8f64f478c9499d369d78392140d6c0978b116e7d47fd4fb680c80bbc507a8be1",
+    "provenance": "Generated with built-in image_gen on 2026-09-27; prompt in generation-prompts.json. Original 1774x887. Resized and encoded as WebP; no product imagery added."
+  },
+  {
+    "path": "public/images/playground/environments/open-field-1100.webp",
+    "width": 1100,
+    "height": 550,
+    "bytes": 33416,
+    "sha256": "07eaec504ad37a6d3bb85d1551c4ec6578b71cd7daf90b89de27c1aeb373ae71",
+    "provenance": "Generated with built-in image_gen on 2026-09-27; prompt in generation-prompts.json. Original 1774x887. Resized and encoded as WebP; no product imagery added."
+  },
+  {
+    "path": "public/images/playground/environments/open-field-1774.webp",
+    "width": 1774,
+    "height": 887,
+    "bytes": 72882,
+    "sha256": "aef5d0e452874ea9b6239735d9b1aff9a9d7467963b00f0d64af267240110dd9",
+    "provenance": "Generated with built-in image_gen on 2026-09-27; prompt in generation-prompts.json. Original 1774x887. Resized and encoded as WebP; no product imagery added."
+  }
+]

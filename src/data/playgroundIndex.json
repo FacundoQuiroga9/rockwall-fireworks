@@ -178,5 +178,29 @@
   {
     "productId": "dreams-from-heaven",
     "kind": "cake-sample"
+  },
+  {
+    "productId": "jawbreaker",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "willow-explosion",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "old-ironsides",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "color-rage",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "aggression",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "whisky-business",
+    "kind": "cake-sample"
   }
 ]

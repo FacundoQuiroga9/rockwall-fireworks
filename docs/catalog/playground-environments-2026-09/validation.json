@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-27",
+  "web": {
+    "catalog:sync": "PASS",
+    "catalog:check": "PASS",
+    "lint": "PASS",
+    "test": {
+      "passed": 167,
+      "failed": 0
+    },
+    "build": "PASS; existing PDF-thumbnail chunk warning"
+  },
+  "app": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "test": {
+      "passed": 71,
+      "failed": 0
+    },
+    "visual": "Pospuesta por decisi\u00f3n del usuario",
+    "exports": "Not run, as requested"
+  },
+  "deployment": "Not run",
+  "sourceAudioRedistributed": false,
+  "physicalAudioOutput": "Not verified",
+  "browserErrors": []
+}

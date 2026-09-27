@@ -1,0 +1,320 @@
+[
+  {
+    "id": "jawbreaker",
+    "elapsedMs": 19467,
+    "reports": 67,
+    "peakParticles": 124,
+    "peakPoints": 124,
+    "peakHeap": 31705502,
+    "qualityChanges": [
+      {
+        "time": 19,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 19,
+    "duration": 19,
+    "shells": [],
+    "metrics": {
+      "frames": 1112,
+      "fps": 58.5,
+      "meanDrawMs": 0.19,
+      "maxDrawMs": 0.7,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "id": "willow-explosion",
+    "elapsedMs": 11603,
+    "reports": 42,
+    "peakParticles": 159,
+    "peakPoints": 1311,
+    "peakHeap": 31772418,
+    "qualityChanges": [
+      {
+        "time": 19,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 11.15,
+    "duration": 11.15,
+    "shells": [],
+    "metrics": {
+      "frames": 652,
+      "fps": 58.4,
+      "meanDrawMs": 1.16,
+      "maxDrawMs": 3.7,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "id": "old-ironsides",
+    "elapsedMs": 20580,
+    "reports": 71,
+    "peakParticles": 248,
+    "peakPoints": 579,
+    "peakHeap": 32710913,
+    "qualityChanges": [
+      {
+        "time": 11.15,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 20,
+    "duration": 20,
+    "shells": [],
+    "metrics": {
+      "frames": 1159,
+      "fps": 57.9,
+      "meanDrawMs": 0.38,
+      "maxDrawMs": 5.2,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "id": "color-rage",
+    "elapsedMs": 10401,
+    "reports": 38,
+    "peakParticles": 63,
+    "peakPoints": 63,
+    "peakHeap": 30341003,
+    "qualityChanges": [
+      {
+        "time": 20,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 9.95,
+    "duration": 9.95,
+    "shells": [],
+    "metrics": {
+      "frames": 582,
+      "fps": 58.4,
+      "meanDrawMs": 0.15,
+      "maxDrawMs": 0.8,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "id": "aggression",
+    "elapsedMs": 7499,
+    "reports": 28,
+    "peakParticles": 174,
+    "peakPoints": 1254,
+    "peakHeap": 32450551,
+    "qualityChanges": [
+      {
+        "time": 9.95,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 6.8,
+    "duration": 6.8,
+    "shells": [],
+    "metrics": {
+      "frames": 396,
+      "fps": 58.1,
+      "meanDrawMs": 1.19,
+      "maxDrawMs": 8.1,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "id": "whisky-business",
+    "elapsedMs": 33105,
+    "reports": 112,
+    "peakParticles": 111,
+    "peakPoints": 1253,
+    "peakHeap": 35541307,
+    "qualityChanges": [
+      {
+        "time": 6.8,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "ended",
+    "position": 32.65,
+    "duration": 32.65,
+    "shells": [],
+    "metrics": {
+      "frames": 1596,
+      "fps": 48.8,
+      "meanDrawMs": 0.63,
+      "maxDrawMs": 5.9,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 2620,
+      "pixelHeight": 1161,
+      "audio": {
+        "enabled": false,
+        "state": "uninitialized",
+        "running": false,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 580
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "jawbreaker",
+    "demonstration": {
+      "summary": "Purple pearls and white glitter give way to blue stars with green points, then purple and warm gold sparks.",
+      "effects": [
+        "Purple and blue pearls",
+        "White and green glitter",
+        "Warm gold sparks"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
+      "durationSeconds": 19.0,
+      "scope": "Sequence excerpt",
+      "observedShots": 15,
+      "confirmedShots": 25,
+      "segmentStart": 3.5,
+      "segmentEnd": 22.5,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  },
+  {
+    "id": "willow-explosion",
+    "demonstration": {
+      "summary": "Broad Nishiki willow crowns spread into long falling trails, scattered with small blue stars.",
+      "effects": [
+        "Nishiki willow",
+        "Blue stars",
+        "Long falling trails"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
+      "durationSeconds": 11.15,
+      "scope": "Sequence excerpt",
+      "observedShots": 4,
+      "confirmedShots": 24,
+      "segmentStart": 5.9,
+      "segmentEnd": 17.05,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  },
+  {
+    "id": "old-ironsides",
+    "demonstration": {
+      "summary": "Blue stars with white glitter give way to bright silver bursts and broad golden palms, with pauses between the groups.",
+      "effects": [
+        "Blue stars",
+        "White glitter",
+        "Golden palms"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
+      "durationSeconds": 20.0,
+      "scope": "Sequence excerpt",
+      "observedShots": 13,
+      "confirmedShots": 30,
+      "segmentStart": 5.5,
+      "segmentEnd": 25.5,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  },
+  {
+    "id": "color-rage",
+    "demonstration": {
+      "summary": "Bright white, purple, green and blue stars open in measured beats, followed by delicate pale glitter.",
+      "effects": [
+        "Colored dahlias",
+        "Pale trailing glitter"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=NvDuDojoKT4",
+      "durationSeconds": 9.95,
+      "scope": "Sequence excerpt",
+      "observedShots": 4,
+      "confirmedShots": 30,
+      "segmentStart": 5.55,
+      "segmentEnd": 15.5,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  },
+  {
+    "id": "aggression",
+    "demonstration": {
+      "summary": "Red stars spread around pale gold branches that bend into falling trails in a quickening rhythm.",
+      "effects": [
+        "Red stars",
+        "Pale gold branches",
+        "Falling trails"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=fLGTxYPM494",
+      "durationSeconds": 6.8,
+      "scope": "Sequence excerpt",
+      "observedShots": 5,
+      "confirmedShots": 25,
+      "segmentStart": 6.8,
+      "segmentEnd": 13.6,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  },
+  {
+    "id": "whisky-business",
+    "demonstration": {
+      "summary": "Golden tails rise into red-tipped palms and silver-speckled crowns, followed by broad willow trails and drifting red leaves.",
+      "effects": [
+        "Gold palm tails",
+        "Red and silver points",
+        "Willow trails",
+        "Falling red leaves"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=SxzplhvlmUk",
+      "durationSeconds": 32.65,
+      "scope": "Sequence excerpt",
+      "observedShots": 14,
+      "confirmedShots": 20,
+      "segmentStart": 5.6,
+      "segmentEnd": 38.25,
+      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+    }
+  }
+]

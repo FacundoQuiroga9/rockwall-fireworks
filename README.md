@@ -120,3 +120,7 @@ cambiar las URLs. Incluir el archivo oculto `.htaccess` al copiar el build.
 La auditoría inicial, el plan y el resultado final están documentados en
 `SITE_AUDIT.md`, `SITE_OPTIMIZATION_PLAN.md` y
 `SITE_OPTIMIZATION_REPORT.md`.
+
+## Playground — última iteración
+
+[Entornos Open Field/Close-up, selector simple y cobertura de cakes](docs/catalog/playground-environments-2026-09/README.md): 51 perfiles; 31 cakes (8 completas y 23 extractos). Incluye fuentes, recursos generados, validaciones y pendientes por ID.

@@ -43,7 +43,7 @@ export function restorePlaygroundSelection(profiles, value) {
   ]));
   return { scene, picks };
 }
-export const sceneChangeMessage = scene => `${sceneLabel(scene)} selected. Your other picks are saved.`;
+export const sceneChangeMessage = () => '';
 export function updatePlaygroundSelection(profiles, value, action) {
   const state = restorePlaygroundSelection(profiles, value);
   const previous = state.scene;
@@ -69,7 +69,7 @@ export function updatePlaygroundSelection(profiles, value, action) {
   }
   const message = [previous !== state.scene ? sceneChangeMessage(state.scene) : '',
     limited ? 'Four picks in this scene. Remove one before adding another.' : action.type === 'clear'
-      ? 'Active selection cleared. Your other scenes are saved.' : '',
+      ? 'Selection cleared.' : '',
   ].filter(Boolean).join(' ');
   return { state, limited, message };
 }

@@ -39,7 +39,7 @@
         "Observed burst count within the selected segment"
       ],
       "estimated": [
-        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second",
         "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
         "Launch timing where the lift is faint or outside the frame"
       ],
@@ -293,7 +293,7 @@
         "Observed burst count within the selected segment"
       ],
       "estimated": [
-        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second",
         "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
         "Launch timing where the lift is faint or outside the frame"
       ],
@@ -504,7 +504,7 @@
         "Observed burst count within the selected segment"
       ],
       "estimated": [
-        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second",
         "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
         "Launch timing where the lift is faint or outside the frame"
       ],
@@ -574,7 +574,7 @@
             "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
             "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
             "notes": [
-              "Burst near 9.4 s; blue ring at 10.2 s fades into amber points at 10.6\u201311.0 s. Single break, no bright lift visible."
+              "Burst near 9.4 s; blue ring at 10.2 s fades into amber points at 10.6–11.0 s. Single break, no bright lift visible."
             ]
           },
           "events": [
@@ -691,7 +691,7 @@
         "Observed burst count within the selected segment"
       ],
       "estimated": [
-        "Burst times within approximately 0.2\u20130.4 seconds; closely spaced finale approximately 0.1 second",
+        "Burst times within approximately 0.2–0.4 seconds; closely spaced finale approximately 0.1 second",
         "Particle trajectories, persistence, camera scale and synthesized sound are illustrative",
         "Launch timing where the lift is faint or outside the frame"
       ],
@@ -752,7 +752,7 @@
         "Visible effect structure and colors in the selected segment"
       ],
       "estimated": [
-        "Burst times approximately \u00b10.5 seconds; persistence and particle paths are illustrative",
+        "Burst times approximately ±0.5 seconds; persistence and particle paths are illustrative",
         "No physical size, height or sound calibration"
       ],
       "events": [
@@ -1021,7 +1021,7 @@
         "Visible effect structure and colors in the selected segment"
       ],
       "estimated": [
-        "Burst times approximately \u00b10.75 seconds from 1.5-second visual sampling; persistence and sector interpolation are illustrative",
+        "Burst times approximately ±0.75 seconds from 1.5-second visual sampling; persistence and sector interpolation are illustrative",
         "No physical size, height or sound calibration"
       ],
       "events": [
@@ -1174,10 +1174,10 @@
         "method": "Actual muted video inspected with paused frames and contact sheets; no redistributed audio.",
         "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
         "notes": [
-          "Spirit of \u201976 reference shows the Brothers BP4315 yellow-cap jar matching the approved product photograph.",
+          "Spirit of ’76 reference shows the Brothers BP4315 yellow-cap jar matching the approved product photograph.",
           "One stationary fountain; no simultaneous products or visible edit during the effect. Sampling spans ignition through the last faint embers.",
-          "Source seconds 3\u201320: white/gold jet with red stars; 25\u201340: broader blue/white branching clusters; 45\u201360: red/white/gold clusters; 65\u201370: diminishing warm jet and sparse stars; 75\u201376: isolated embers; 77: effect dark.",
-          "Stage and exhaustion boundaries are approximate (\u00b12 seconds); exposure, particle paths, apparent height and generated audio remain illustrative.",
+          "Source seconds 3–20: white/gold jet with red stars; 25–40: broader blue/white branching clusters; 45–60: red/white/gold clusters; 65–70: diminishing warm jet and sparse stars; 75–76: isolated embers; 77: effect dark.",
+          "Stage and exhaustion boundaries are approximate (±2 seconds); exposure, particle paths, apparent height and generated audio remain illustrative.",
           "74.4 seconds describes this complete demonstrated performance, not a guaranteed burn time for every unit. Source audio was muted during analysis."
         ],
         "previousReferences": [
@@ -1189,7 +1189,7 @@
         "Visible color sequence, ignition and natural exhaustion in a continuous demonstration"
       ],
       "estimated": [
-        "Stage transitions approximately \u00b12 seconds; particle paths, density and apparent height are illustrative",
+        "Stage transitions approximately ±2 seconds; particle paths, density and apparent height are illustrative",
         "No physical size, height or sound calibration"
       ],
       "events": [],
@@ -1255,7 +1255,7 @@
         "fadeStart": 60,
         "emissionEnd": 72.2,
         "tailSeconds": 2.2,
-        "note": "Approximate natural exhaustion from the continuous Spirit of \u201976 demonstration; warm jet subsides and isolated embers finish their trajectories."
+        "note": "Approximate natural exhaustion from the continuous Spirit of ’76 demonstration; warm jet subsides and isolated embers finish their trajectories."
       },
       "playbackDuration": 74.4,
       "scene": "ground"
@@ -1296,7 +1296,7 @@
         "Visible colors and effect development in the selected segment"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [
@@ -1356,7 +1356,7 @@
         "Visible colors and effect development in the selected segment"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [
@@ -1408,9 +1408,9 @@
         "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
         "notes": [
           "Official Brothers BP2377, 200g, 16 shots visible on packaging and overlay. One unit; no obvious cut within performance.",
-          "One-second decoded sampling throughout 6\u201353 seconds; final launches/apertures additionally sampled every 0.267 seconds.",
-          "Thirteen spaced bursts followed by three close launches around 48.3\u201348.9 seconds and openings around 49.6\u201350.1.",
-          "Final fade visible by 52\u201353 seconds before the logo outro. Golden branching follows the first pale points; no extra finale generated."
+          "One-second decoded sampling throughout 6–53 seconds; final launches/apertures additionally sampled every 0.267 seconds.",
+          "Thirteen spaced bursts followed by three close launches around 48.3–48.9 seconds and openings around 49.6–50.1.",
+          "Final fade visible by 52–53 seconds before the logo outro. Golden branching follows the first pale points; no extra finale generated."
         ]
       },
       "verified": [
@@ -1418,7 +1418,7 @@
         "Visible colors and effect development in the selected segment"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [
@@ -1717,7 +1717,7 @@
         "Visible colors and effect development in the selected segment"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [
@@ -1879,10 +1879,10 @@
         "method": "Muted source video inspected in Chrome, with decoded frames and timestamped contact sheets. No source audio redistributed.",
         "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
         "notes": [
-          "Spirit of \u201976 FG114 Jumboshell Fountain: the round gold shell-shaped Brothers package matches the catalog BP4247. Liberty Fireworks cross-identifies BP4247 with FG114 and embeds this reference.",
+          "Spirit of ’76 FG114 Jumboshell Fountain: the round gold shell-shaped Brothers package matches the catalog BP4247. Liberty Fireworks cross-identifies BP4247 with FG114 and embeds this reference.",
           "One stationary fountain. No obvious cut within the performance; the base and surrounding ground remain fixed. Early ignition refined at 6, 7 and 8 s; main video sampled about every five seconds; shutdown refined every second from 150.4 through 154.4 s.",
-          "Green points over warm spray at the start; larger white/gold branches by 20\u201340 s; narrower bright white jet and individual stars around 45\u201380 s; broad branching white sparks from about 80 s onward. Some highlights are overexposed; no additional saturated color specification is inferred.",
-          "Still a strong jet at 151.4\u2013152.4 s, then only last falling sparks at 153.4 s and a dark stage at 154.4 s. The shutdown precedes the final black frames. Boundaries remain approximate (\u00b11\u20132.5 s).",
+          "Green points over warm spray at the start; larger white/gold branches by 20–40 s; narrower bright white jet and individual stars around 45–80 s; broad branching white sparks from about 80 s onward. Some highlights are overexposed; no additional saturated color specification is inferred.",
+          "Still a strong jet at 151.4–152.4 s, then only last falling sparks at 153.4 s and a dark stage at 154.4 s. The shutdown precedes the final black frames. Boundaries remain approximate (±1–2.5 s).",
           "150.1 s describes this demonstrated full performance, not a guaranteed manufacturer runtime. The previous official excerpt remains archived; it was not looped or stretched."
         ],
         "previousReferences": [
@@ -1895,7 +1895,7 @@
         "Natural emission shutdown and last embers in the longer reference"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [],
@@ -1997,7 +1997,7 @@
         "fadeStart": 146.5,
         "emissionEnd": 147.7,
         "tailSeconds": 2.2,
-        "note": "Approximate natural shutdown at source 151.8\u2013153.0 seconds. Last sparks finish before the dark closing frames; no whole-scene opacity fade."
+        "note": "Approximate natural shutdown at source 151.8–153.0 seconds. Last sparks finish before the dark closing frames; no whole-scene opacity fade."
       },
       "playbackDuration": 150.1,
       "scene": "ground"
@@ -2030,8 +2030,8 @@
         "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
         "notes": [
           "Official Brothers BP4252 and fan-shaped blue package. Multiple angled jets belong to one unit, not multiple products.",
-          "Five-second sampling of the actual video from 5\u2013105 seconds. Camera framing changes but no obvious sequence cut in the selected performance.",
-          "Right-hand ignition, then three angled sprays by approximately 13s. Broad intermittent flowers and colored pearls; lower fan by about 88s, brighter central activity near 103\u2013105s.",
+          "Five-second sampling of the actual video from 5–105 seconds. Camera framing changes but no obvious sequence cut in the selected performance.",
+          "Right-hand ignition, then three angled sprays by approximately 13s. Broad intermittent flowers and colored pearls; lower fan by about 88s, brighter central activity near 103–105s.",
           "Recording ends during the late central activity. No full runtime or final product shutdown claimed."
         ]
       },
@@ -2040,7 +2040,7 @@
         "Visible colors and effect development in the selected segment"
       ],
       "estimated": [
-        "Times approximately \u00b10.5 seconds for aerial events; fountain boundaries \u00b12.5 seconds unless refined",
+        "Times approximately ±0.5 seconds for aerial events; fountain boundaries ±2.5 seconds unless refined",
         "Particle paths, density, camera scale and synthesized audio are illustrative"
       ],
       "events": [],
@@ -2240,7 +2240,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [
@@ -2310,7 +2310,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [
@@ -2377,7 +2377,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [
@@ -2564,7 +2564,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [
@@ -2784,9 +2784,9 @@
         "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
         "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
         "notes": [
-          "Spirit of \u201976 MS187 is a distributor code for Brothers Golden Peacock. Catalog model BP2112, matching named package and 16-shot 200g presentation; not a different product named Peacock.",
-          "Sixteen separate openings counted through a single continuous performance. No simultaneous second unit or obvious internal cut. The last sparks fade into the dark closing frames at 43\u201345 s.",
-          "Source sampled at one-second intervals from intro through the dark ending; timings are estimates (approximately \u00b10.5 s), not frame-accurate manufacturer timings. No additional finale pattern inferred."
+          "Spirit of ’76 MS187 is a distributor code for Brothers Golden Peacock. Catalog model BP2112, matching named package and 16-shot 200g presentation; not a different product named Peacock.",
+          "Sixteen separate openings counted through a single continuous performance. No simultaneous second unit or obvious internal cut. The last sparks fade into the dark closing frames at 43–45 s.",
+          "Source sampled at one-second intervals from intro through the dark ending; timings are estimates (approximately ±0.5 s), not frame-accurate manufacturer timings. No additional finale pattern inferred."
         ]
       },
       "verified": [
@@ -2794,7 +2794,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [
@@ -3165,7 +3165,7 @@
         "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
         "notes": [
           "Official Brothers BP4213 Movie Time fountain, matching popcorn-carton package. One stationary product, fixed framing; no obvious internal cut.",
-          "The source timer continues through a real intermission: strong emission at 46\u201348 s, last embers at 49 s, dark at 50 s, restart at 51\u201352 s. The simulation preserves this pause; old particles still complete their trajectories.",
+          "The source timer continues through a real intermission: strong emission at 46–48 s, last embers at 49 s, dark at 50 s, restart at 51–52 s. The simulation preserves this pause; old particles still complete their trajectories.",
           "Five-second sampling of the entire video, refined one-second sampling around the intermission. Still emitting at 87 s near the end of the recording. The exit after the excerpt is a simulation closure, not a verified product ending or total runtime."
         ]
       },
@@ -3174,7 +3174,7 @@
         "Visible effects and individually resolved events within the selected segment"
       ],
       "estimated": [
-        "Aerial timings approximately \u00b10.5 s; fountain stage boundaries approximately \u00b12.5 s, except the refined intermission (\u00b10.5 s)",
+        "Aerial timings approximately ±0.5 s; fountain stage boundaries approximately ±2.5 s, except the refined intermission (±0.5 s)",
         "Particle trajectories, camera scale, density and synthesized audio are illustrative"
       ],
       "events": [],
@@ -4073,7 +4073,7 @@
         "Visible effect structure, principal colors and reviewed events"
       ],
       "estimated": [
-        "Burst timings approximately \u00b10.2 seconds; fountain boundaries approximately \u00b11\u20132 seconds unless refined",
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
         "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
       ],
       "events": [
@@ -4529,7 +4529,7 @@
         "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
         "notes": [
           "Raccoon RA22512, 200g, 19 shots, UPC 757201225120. One cake and one launch origin; no performance cuts or speed changes observed.",
-          "Fourteen individually spaced openings followed by five overlapping centers resolved with 0.04-second stepping at 36.2\u201336.56 s. Finale color assignment is a shared observed cluster palette; individual colors cannot all be isolated through the overlap.",
+          "Fourteen individually spaced openings followed by five overlapping centers resolved with 0.04-second stepping at 36.2–36.56 s. Finale color assignment is a shared observed cluster palette; individual colors cannot all be isolated through the overlap.",
           "Complete emission sequence and falling tail through the recording end. Source time bounds do not include the title card."
         ]
       },
@@ -4538,7 +4538,7 @@
         "Visible effect structure, principal colors and reviewed events"
       ],
       "estimated": [
-        "Burst timings approximately \u00b10.2 seconds; fountain boundaries approximately \u00b11\u20132 seconds unless refined",
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
         "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
       ],
       "events": [
@@ -5134,7 +5134,7 @@
         "notes": [
           "Black Cat Citrus, UPC 715244022236, matching approved lime-colored cylindrical package and official BlackCatFireworksUSA video. No unconfirmed manufacturer code assigned.",
           "One stationary fountain. Gold jet, colored flowers, a real low-emission intermission near 33.5 s, returning gold jet, then colored flowers. No obvious performance cut or speed change.",
-          "Exhaustion at 52.2\u201353.4 s; last isolated sparks are dark by 55.4 s, before the outro. Observed closure, not an excerpt fade."
+          "Exhaustion at 52.2–53.4 s; last isolated sparks are dark by 55.4 s, before the outro. Observed closure, not an excerpt fade."
         ]
       },
       "verified": [
@@ -5142,7 +5142,7 @@
         "Visible effect structure, principal colors and reviewed events"
       ],
       "estimated": [
-        "Burst timings approximately \u00b10.2 seconds; fountain boundaries approximately \u00b11\u20132 seconds unless refined",
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
         "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
       ],
       "events": [],
@@ -5226,7 +5226,7 @@
         "fadeStart": 49,
         "emissionEnd": 50.2,
         "tailSeconds": 2,
-        "note": "Reviewed natural exhaustion and last sparks, absolute source 52.2\u201355.4 s."
+        "note": "Reviewed natural exhaustion and last sparks, absolute source 52.2–55.4 s."
       },
       "playbackDuration": 52.2
     },
@@ -5259,7 +5259,7 @@
         "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
         "notes": [
           "Winda P3088, UPC 705108308804, matching cone-shaped approved package. One stationary fountain; no obvious performance cut or speed change.",
-          "Real low-output intervals separate the flower sections and tall silver jet. The final jet falls around 81.5\u201382.5 s; isolated sparks finish by approximately 83.5 s.",
+          "Real low-output intervals separate the flower sections and tall silver jet. The final jet falls around 81.5–82.5 s; isolated sparks finish by approximately 83.5 s.",
           "Full observed emission; the last sparse embers and physical scale are illustrative. No generic repeated stage is appended."
         ]
       },
@@ -5268,7 +5268,7 @@
         "Visible effect structure, principal colors and reviewed events"
       ],
       "estimated": [
-        "Burst timings approximately \u00b10.2 seconds; fountain boundaries approximately \u00b11\u20132 seconds unless refined",
+        "Burst timings approximately ±0.2 seconds; fountain boundaries approximately ±1–2 seconds unless refined",
         "Particle trajectories, density, camera scale and synthesized sound remain illustrative"
       ],
       "events": [],
@@ -5397,7 +5397,7 @@
         "fadeStart": 77,
         "emissionEnd": 78,
         "tailSeconds": 1.6,
-        "note": "Observed exhaustion at absolute 81.5\u201382.5 s. Remaining sparse sparks complete their trajectory; no added product stage."
+        "note": "Observed exhaustion at absolute 81.5–82.5 s. Remaining sparse sparks complete their trajectory; no added product stage."
       },
       "playbackDuration": 79.6
     },
@@ -5428,7 +5428,7 @@
         "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
         "notes": [
           "World-Class Hot Dog, 16 shots, 200g. Matching green retail box and World-Class title in the Iowa Fireworks Farm demonstration. No model code invented.",
-          "Sixteen centers including pairs around 6.12/6.35 and 19.85/20.03, and four overlapping finale centers around 22.30\u201322.57. Last group reviewed with paused stepping. Final palette is shared silver/gold; fine center timings are estimates through overlap.",
+          "Sixteen centers including pairs around 6.12/6.35 and 19.85/20.03, and four overlapping finale centers around 22.30–22.57. Last group reviewed with paused stepping. Final palette is shared silver/gold; fine center timings are estimates through overlap.",
           "One apparent launch origin; no performance cuts or speed changes observed. The ground is outside the frame, so unit count cannot be independently inspected at the base. The complete visible performance and tail are retained, excluding title/outro."
         ]
       },
@@ -5437,7 +5437,7 @@
         "Visible principal colors, structures and openings within the reviewed windows"
       ],
       "estimated": [
-        "Visual timing approximately \u00b10.2 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
       ],
       "events": [
@@ -5864,7 +5864,7 @@
         "Visible principal colors, structures and openings within the reviewed windows"
       ],
       "estimated": [
-        "Visual timing approximately \u00b10.2 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
       ],
       "events": [
@@ -6188,7 +6188,7 @@
         "Visible principal colors, structures and openings within the reviewed windows"
       ],
       "estimated": [
-        "Visual timing approximately \u00b10.2 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
       ],
       "events": [
@@ -6606,7 +6606,7 @@
         "Visible principal colors, structures and openings within the reviewed windows"
       ],
       "estimated": [
-        "Visual timing approximately \u00b10.2 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
       ],
       "events": [
@@ -7285,8 +7285,8 @@
         "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
         "notes": [
           "Cutting Edge package and 16-shot presentation match the inventory; single apparent launch area.",
-          "Sixteen distinct openings counted. No edit or speed change observed within 6.80\u201338.35; branded intro/outro excluded.",
-          "All sixteen openings are represented. Editorial fade begins with sparse embers still visible near 38.35\u201338.60; keep preview scope, not a verified full product duration. First three lift cues are visually unresolved and omitted."
+          "Sixteen distinct openings counted. No edit or speed change observed within 6.80–38.35; branded intro/outro excluded.",
+          "All sixteen openings are represented. Editorial fade begins with sparse embers still visible near 38.35–38.60; keep preview scope, not a verified full product duration. First three lift cues are visually unresolved and omitted."
         ]
       },
       "verified": [
@@ -7294,7 +7294,7 @@
         "Visible event order, colors and structure in the published window"
       ],
       "estimated": [
-        "Event timing approximately \u00b10.15 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, scale, persistence and original synthesized audio"
       ],
       "events": [
@@ -7730,7 +7730,7 @@
         "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
         "notes": [
           "World-Class 16-shot 500g presentation and approved package match the OCFireworks reference.",
-          "Twelve separated openings followed by four distinct overlapping finale centers around 30.80\u201330.97; individual onset estimates, not a new firing pattern.",
+          "Twelve separated openings followed by four distinct overlapping finale centers around 30.80–30.97; individual onset estimates, not a new firing pattern.",
           "One apparent unit; no visible edit or speed change in the performance.",
           "All sixteen openings are represented, but sparse final embers meet the recording boundary. Retain excerpt status; 33.4 seconds is this preview, not a verified total product duration."
         ]
@@ -7740,7 +7740,7 @@
         "Visible event order, colors and structure in the published window"
       ],
       "estimated": [
-        "Event timing approximately \u00b10.15 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, scale, persistence and original synthesized audio"
       ],
       "events": [
@@ -8369,7 +8369,7 @@
           "Official RA22004 title, on-screen model and 200g package match the catalog.",
           "Publish the first five individually resolved openings only; later faster openings and overlapping finale need finer center separation before extending to the 25-shot retail sequence.",
           "No cut or speed change within the published window; one apparent launch area. The excerpt ends after the fifth tail, before the next opening. No artificial repeated finale.",
-          "Revision 2: 8\u201310 fps review resolves fifteen additional openings (15.73\u201322.90 s). Preserve the original first five events. Publish twenty, stopping before the unresolved overlapping final cluster near 24.4 s; still an excerpt, not a full 25-shot cake."
+          "Revision 2: 8–10 fps review resolves fifteen additional openings (15.73–22.90 s). Preserve the original first five events. Publish twenty, stopping before the unresolved overlapping final cluster near 24.4 s; still an excerpt, not a full 25-shot cake."
         ]
       },
       "verified": [
@@ -8377,7 +8377,7 @@
         "Visible event order, colors and structure in the published window"
       ],
       "estimated": [
-        "Event timing approximately \u00b10.15 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, scale, persistence and original synthesized audio"
       ],
       "events": [
@@ -8904,7 +8904,7 @@
         "Visible event order, colors and structure in the published window"
       ],
       "estimated": [
-        "Event timing approximately \u00b10.15 seconds; overlapping finale centers approximately \u00b10.1 seconds",
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
         "Illustrative trajectories, scale, persistence and original synthesized audio"
       ],
       "events": [
@@ -9388,7 +9388,7 @@
         "segmentStart": 5.6,
         "segmentEnd": 31.5,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Manufacturer BP2501 nine-shot rack, approved package and SKU 687985250110 match.",
@@ -9402,7 +9402,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -9588,7 +9588,7 @@
         "segmentStart": 6.5,
         "segmentEnd": 37.9,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Raccoon RA57206, 3-inch nine-shot rack; box and UPC match.",
@@ -9602,7 +9602,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -9955,7 +9955,7 @@
         "segmentStart": 7.4,
         "segmentEnd": 32.4,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Exact RA57207 nine-shot rack, approved box and manufacturer demonstration.",
@@ -9969,7 +9969,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -10182,7 +10182,7 @@
         "segmentStart": 6.2,
         "segmentEnd": 35.4,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "RA57212 nine-shot rack, approved package/UPC and official video agree.",
@@ -10196,7 +10196,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -10443,11 +10443,11 @@
         "segmentStart": 1.95,
         "segmentEnd": 26.4,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Black Cat Sky Ink, 16 shots and approved artwork are visible in the linked demonstration.",
-          "Twelve individual openings and four separated overlapping finale centers near 21.78\u201322.08; one apparent firing area. No performance cuts or speed changes observed.",
+          "Twelve individual openings and four separated overlapping finale centers near 21.78–22.08; one apparent firing area. No performance cuts or speed changes observed.",
           "Last sparse embers fade before 26.4; branded outro begins later. Source window excludes logo animation; duration is not the file length."
         ]
       },
@@ -10457,7 +10457,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -10902,7 +10902,7 @@
         "segmentStart": 7.2,
         "segmentEnd": 35.5,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "RA22002, 25 shots, manufacturer title and package match.",
@@ -10916,7 +10916,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -11505,7 +11505,7 @@
         "segmentStart": 4.25,
         "segmentEnd": 12.4,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "P5182 and Pyro Pilot artwork/25 shots on original video match the catalog; current maker URL retains former Top Maverick wording but code and UPC agree.",
@@ -11519,7 +11519,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -11661,7 +11661,7 @@
         "segmentStart": 5.15,
         "segmentEnd": 31.3,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Individual Brothers BP2924 25-shot cake and approved package match; not the four-cake assortment.",
@@ -11676,7 +11676,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -12214,7 +12214,7 @@
         "segmentStart": 6.05,
         "segmentEnd": 31.45,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Winda P5184, 16 shots, UPC 705108518401 and approved presentation match.",
@@ -12228,7 +12228,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -12690,7 +12690,7 @@
         "segmentStart": 4.65,
         "segmentEnd": 30.15,
         "reviewedOn": "2026-09-27",
-        "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+        "method": "Actual muted video reviewed with timestamped 8–10 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
         "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
         "notes": [
           "Exact Raccoon RA22010, 25-shot cake, approved artwork and UPC 757201220101.",
@@ -12704,7 +12704,7 @@
         "Individually resolved openings within the published window"
       ],
       "estimated": [
-        "Burst onsets approximately \u00b10.12 seconds; dense salvas approximately \u00b10.15 seconds",
+        "Burst onsets approximately ±0.12 seconds; dense salvas approximately ±0.15 seconds",
         "Apparent size, perspective, particle motion and synthesized audio are illustrative",
         "Faint or out-of-frame lifts use a discrete locator, not a claimed luminous tail; inferred lift times do not move the observed bursts"
       ],
@@ -13217,1903 +13217,6 @@
             "delay": 0.35,
             "radius": 0.87,
             "size": 2.4
-          }
-        }
-      ]
-    },
-    {
-      "productId": "jawbreaker",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Jawbreaker",
-      "brand": "Raccoon",
-      "category": "200g Cakes",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 19.0,
-      "observedShots": 15,
-      "effects": [
-        "Purple and blue pearls",
-        "White and green glitter",
-        "Warm gold sparks"
-      ],
-      "summary": "Purple pearls and white glitter give way to blue stars with green points, then purple and warm gold sparks.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
-        "manufacturerCode": "RA22009",
-        "segmentStart": 3.5,
-        "segmentEnd": 22.5,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Raccoon RA22009 / Jawbreaker: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
-          "Fifteen resolved openings in the first three phases. Later red/blue openings and the overlapping crackling finale near 29.7\u201330.0 s are pending finer separation. Editorial fade near 32.4 s does not verify the natural final tail.",
-          "Entire 33.841 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "jawbreaker-1",
-          "launch": 0.16,
-          "burst": 0.88,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 54702,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-2",
-          "launch": 1.7,
-          "burst": 2.42,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 54875,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-3",
-          "launch": 2.83,
-          "burst": 3.55,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 55048,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-4",
-          "launch": 3.63,
-          "burst": 4.35,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 55221,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-5",
-          "launch": 5.34,
-          "burst": 6.06,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 55394,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-6",
-          "launch": 6.62,
-          "burst": 7.34,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.25,
-          "seed": 55567,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#8bdbb4"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-7",
-          "launch": 8.1,
-          "burst": 8.82,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.25,
-          "seed": 55740,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#8bdbb4"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-8",
-          "launch": 8.88,
-          "burst": 9.6,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.25,
-          "seed": 55913,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#8bdbb4"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-9",
-          "launch": 9.69,
-          "burst": 10.41,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.25,
-          "seed": 56086,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#8bdbb4"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-10",
-          "launch": 11.16,
-          "burst": 11.88,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.25,
-          "seed": 56259,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 20,
-          "radius": 106,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 18,
-            "colors": [
-              "#8bdbb4"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-11",
-          "launch": 12.12,
-          "burst": 12.84,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 56432,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 26,
-          "radius": 116,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 23,
-            "colors": [
-              "#cbb18b"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-12",
-          "launch": 13.72,
-          "burst": 14.44,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 56605,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 26,
-          "radius": 116,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 23,
-            "colors": [
-              "#cbb18b"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-13",
-          "launch": 15.04,
-          "burst": 15.76,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.25,
-          "seed": 56778,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 26,
-          "radius": 116,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 23,
-            "colors": [
-              "#cbb18b"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-14",
-          "launch": 16.48,
-          "burst": 17.2,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 1.8,
-          "seed": 56951,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 26,
-          "radius": 116,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 23,
-            "colors": [
-              "#cbb18b"
-            ],
-            "life": 1.45,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "jawbreaker-15",
-          "launch": 16.86,
-          "burst": 17.58,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 1.42,
-          "seed": 57124,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 26,
-          "radius": 116,
-          "gravity": 15,
-          "tipLife": 1.25,
-          "accent": {
-            "count": 23,
-            "colors": [
-              "#cbb18b"
-            ],
-            "life": 1.42,
-            "delay": 0.24,
-            "radius": 0.9,
-            "radialMin": 0.45,
-            "size": 1.7,
-            "shimmer": true
-          }
-        }
-      ]
-    },
-    {
-      "productId": "willow-explosion",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Willow Explosion",
-      "brand": "Raccoon",
-      "category": "500g Cakes",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 11.15,
-      "observedShots": 4,
-      "effects": [
-        "Nishiki willow",
-        "Blue stars",
-        "Long falling trails"
-      ],
-      "summary": "Broad Nishiki willow crowns spread into long falling trails, scattered with small blue stars.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
-        "manufacturerCode": "RA53631",
-        "segmentStart": 5.9,
-        "segmentEnd": 17.05,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Raccoon RA53631 / Willow Explosion: on-screen product code and approved package artwork agree. Retail presentation 24 shots is separate from resolved openings.",
-          "The first four isolated crowns are resolved. Rapid overlapping salvas from about 17.2 s onward need individual-center separation; the 27.1 s ending still contains faint embers. No repeated crowns are added to fill 24.",
-          "Entire 27.121 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "willow-explosion-1",
-          "launch": 0.15,
-          "burst": 1.06,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 3.7,
-          "seed": 63204,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 48,
-          "radius": 165,
-          "radialMin": 0.48,
-          "gravity": 11,
-          "trailColor": "#d2bf9e",
-          "trailSeconds": 0.48,
-          "tipLife": 2.9,
-          "accent": {
-            "count": 15,
-            "colors": [
-              "#86a7e3"
-            ],
-            "life": 2.1,
-            "radius": 0.83,
-            "radialMin": 0.52,
-            "size": 1.65
-          }
-        },
-        {
-          "id": "willow-explosion-2",
-          "launch": 2.97,
-          "burst": 3.88,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 3.7,
-          "seed": 63377,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 48,
-          "radius": 165,
-          "radialMin": 0.48,
-          "gravity": 11,
-          "trailColor": "#d2bf9e",
-          "trailSeconds": 0.48,
-          "tipLife": 2.9,
-          "accent": {
-            "count": 15,
-            "colors": [
-              "#86a7e3"
-            ],
-            "life": 2.1,
-            "radius": 0.83,
-            "radialMin": 0.52,
-            "size": 1.65
-          }
-        },
-        {
-          "id": "willow-explosion-3",
-          "launch": 6.02,
-          "burst": 6.93,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 3.7,
-          "seed": 63550,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 48,
-          "radius": 165,
-          "radialMin": 0.48,
-          "gravity": 11,
-          "trailColor": "#d2bf9e",
-          "trailSeconds": 0.48,
-          "tipLife": 2.9,
-          "accent": {
-            "count": 15,
-            "colors": [
-              "#86a7e3"
-            ],
-            "life": 2.1,
-            "radius": 0.83,
-            "radialMin": 0.52,
-            "size": 1.65
-          }
-        },
-        {
-          "id": "willow-explosion-4",
-          "launch": 8.07,
-          "burst": 8.98,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.17,
-          "seed": 63723,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 48,
-          "radius": 165,
-          "radialMin": 0.48,
-          "gravity": 11,
-          "trailColor": "#d2bf9e",
-          "trailSeconds": 0.48,
-          "tipLife": 2.9,
-          "accent": {
-            "count": 15,
-            "colors": [
-              "#86a7e3"
-            ],
-            "life": 2.1,
-            "radius": 0.83,
-            "radialMin": 0.52,
-            "size": 1.65
-          }
-        }
-      ]
-    },
-    {
-      "productId": "old-ironsides",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Old Ironsides",
-      "brand": "Brothers",
-      "category": "Cakes - Size Unconfirmed",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 20.0,
-      "observedShots": 13,
-      "effects": [
-        "Blue stars",
-        "White glitter",
-        "Golden palms"
-      ],
-      "summary": "Blue stars with white glitter give way to bright silver bursts and broad golden palms, with pauses between the groups.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
-        "manufacturerCode": "BP2452",
-        "segmentStart": 5.5,
-        "segmentEnd": 25.5,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Brothers BP2452 / Old Ironsides: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
-          "Thirteen resolved centers in the first three blocks: four blue/white, four white, five gold palms. Unresolved centers and later blocks prevent a complete 30-shot claim. Existing uncertain gram classification is unchanged.",
-          "Entire 42.561 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "old-ironsides-1",
-          "launch": 0.63,
-          "burst": 1.68,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.75,
-          "seed": 58420,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 25,
-          "radius": 132,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-2",
-          "launch": 1.13,
-          "burst": 2.18,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.75,
-          "seed": 58593,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 25,
-          "radius": 132,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-3",
-          "launch": 1.72,
-          "burst": 2.77,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.75,
-          "seed": 58766,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 25,
-          "radius": 132,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-4",
-          "launch": 2.3,
-          "burst": 3.35,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.75,
-          "seed": 58939,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 25,
-          "radius": 132,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-5",
-          "launch": 7.95,
-          "burst": 9.0,
-          "shape": "color-peony",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 2.75,
-          "seed": 59112,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 34,
-          "radius": 141,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-6",
-          "launch": 8.6,
-          "burst": 9.65,
-          "shape": "color-peony",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 2.75,
-          "seed": 59285,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 34,
-          "radius": 141,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-7",
-          "launch": 9.43,
-          "burst": 10.48,
-          "shape": "color-peony",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 2.75,
-          "seed": 59458,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 34,
-          "radius": 141,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-8",
-          "launch": 9.77,
-          "burst": 10.82,
-          "shape": "color-peony",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 2.75,
-          "seed": 59631,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 34,
-          "radius": 141,
-          "tipLife": 1.45,
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          },
-          "accent": {
-            "count": 26,
-            "colors": [
-              "#e3e8eb"
-            ],
-            "life": 2.35,
-            "delay": 0.25,
-            "radius": 0.85,
-            "radialMin": 0.35,
-            "size": 1.25,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "old-ironsides-9",
-          "launch": 13.38,
-          "burst": 14.4,
-          "shape": "palm",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.8,
-          "seed": 59804,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 14,
-          "radius": 146,
-          "radialMin": 0.7,
-          "gravity": 18,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.35,
-          "glitterCount": 7,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "old-ironsides-10",
-          "launch": 13.97,
-          "burst": 14.99,
-          "shape": "palm",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.8,
-          "seed": 59977,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 14,
-          "radius": 146,
-          "radialMin": 0.7,
-          "gravity": 18,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.35,
-          "glitterCount": 7,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "old-ironsides-11",
-          "launch": 14.67,
-          "burst": 15.69,
-          "shape": "palm",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.8,
-          "seed": 60150,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 14,
-          "radius": 146,
-          "radialMin": 0.7,
-          "gravity": 18,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.35,
-          "glitterCount": 7,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "old-ironsides-12",
-          "launch": 15.35,
-          "burst": 16.37,
-          "shape": "palm",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.8,
-          "seed": 60323,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 14,
-          "radius": 146,
-          "radialMin": 0.7,
-          "gravity": 18,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.35,
-          "glitterCount": 7,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "old-ironsides-13",
-          "launch": 16.16,
-          "burst": 17.18,
-          "shape": "palm",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.8,
-          "seed": 60496,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 14,
-          "radius": 146,
-          "radialMin": 0.7,
-          "gravity": 18,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.35,
-          "glitterCount": 7,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.2,
-            "color": "#cbb18b"
-          }
-        }
-      ]
-    },
-    {
-      "productId": "color-rage",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Color Rage",
-      "brand": "Raccoon",
-      "category": "500g Cakes",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 9.95,
-      "observedShots": 4,
-      "effects": [
-        "Colored dahlias",
-        "Pale trailing glitter"
-      ],
-      "summary": "Bright white, purple, green and blue stars open in measured beats, followed by delicate pale glitter.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=NvDuDojoKT4",
-        "manufacturerCode": "RA53072",
-        "segmentStart": 5.55,
-        "segmentEnd": 15.5,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Raccoon RA53072 / Color Rage: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
-          "Four individually resolved colored openings before the red section. Delayed lace is represented as a component of the visible opening, not a separately verified launch. Later fast centers and the final overlap around 36 s remain unresolved; no 30-shot simulation is claimed.",
-          "Entire 39.921 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "color-rage-1",
-          "launch": 0.05,
-          "burst": 0.8,
-          "shape": "color-peony",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 2.4,
-          "seed": 54039,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 22,
-          "radius": 102,
-          "gravity": 15,
-          "tipLife": 1.12,
-          "accent": {
-            "count": 30,
-            "colors": [
-              "#cbb18b",
-              "#e3e8eb"
-            ],
-            "life": 1.35,
-            "delay": 1.05,
-            "radius": 0.7,
-            "radialMin": 0.2,
-            "size": 1.3,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "color-rage-2",
-          "launch": 2.64,
-          "burst": 3.39,
-          "shape": "color-peony",
-          "colors": [
-            "#bf8bd9"
-          ],
-          "life": 2.4,
-          "seed": 54212,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 22,
-          "radius": 102,
-          "gravity": 15,
-          "tipLife": 1.12,
-          "accent": {
-            "count": 30,
-            "colors": [
-              "#cbb18b",
-              "#e3e8eb"
-            ],
-            "life": 1.35,
-            "delay": 1.05,
-            "radius": 0.7,
-            "radialMin": 0.2,
-            "size": 1.3,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "color-rage-3",
-          "launch": 4.74,
-          "burst": 5.49,
-          "shape": "color-peony",
-          "colors": [
-            "#8bdbb4"
-          ],
-          "life": 2.4,
-          "seed": 54385,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 22,
-          "radius": 102,
-          "gravity": 15,
-          "tipLife": 1.12,
-          "accent": {
-            "count": 30,
-            "colors": [
-              "#cbb18b",
-              "#e3e8eb"
-            ],
-            "life": 1.35,
-            "delay": 1.05,
-            "radius": 0.7,
-            "radialMin": 0.2,
-            "size": 1.3,
-            "shimmer": true
-          }
-        },
-        {
-          "id": "color-rage-4",
-          "launch": 6.86,
-          "burst": 7.61,
-          "shape": "color-peony",
-          "colors": [
-            "#86a7e3"
-          ],
-          "life": 2.34,
-          "seed": 54558,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 22,
-          "radius": 102,
-          "gravity": 15,
-          "tipLife": 1.12,
-          "accent": {
-            "count": 30,
-            "colors": [
-              "#cbb18b",
-              "#e3e8eb"
-            ],
-            "life": 1.29,
-            "delay": 1.05,
-            "radius": 0.7,
-            "radialMin": 0.2,
-            "size": 1.3,
-            "shimmer": true
-          }
-        }
-      ]
-    },
-    {
-      "productId": "aggression",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Aggression",
-      "brand": "Raccoon",
-      "category": "200g Cakes",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 6.8,
-      "observedShots": 5,
-      "effects": [
-        "Red stars",
-        "Pale gold branches",
-        "Falling trails"
-      ],
-      "summary": "Red stars spread around pale gold branches that bend into falling trails in a quickening rhythm.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=fLGTxYPM494",
-        "manufacturerCode": "RA22007",
-        "segmentStart": 6.8,
-        "segmentEnd": 13.6,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Raccoon RA22007 / Aggression: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
-          "Five clearly isolated early red/Nishiki openings only. Subsequent green/gold/teal and dense crackling clusters require finer launch-center separation. The long retailer outro after about 23.4 s is not product duration.",
-          "Entire 43.48 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "aggression-1",
-          "launch": 0.26,
-          "burst": 1.1,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.65,
-          "seed": 54962,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 30,
-          "radius": 138,
-          "radialMin": 0.57,
-          "gravity": 14,
-          "trailColor": "#d1c2a4",
-          "trailSeconds": 0.32,
-          "tipLife": 1.8,
-          "accent": {
-            "count": 19,
-            "colors": [
-              "#e97489"
-            ],
-            "life": 1.55,
-            "radius": 1,
-            "radialMin": 0.7,
-            "size": 2.2
-          }
-        },
-        {
-          "id": "aggression-2",
-          "launch": 1.72,
-          "burst": 2.56,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.65,
-          "seed": 55135,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 30,
-          "radius": 138,
-          "radialMin": 0.57,
-          "gravity": 14,
-          "trailColor": "#d1c2a4",
-          "trailSeconds": 0.32,
-          "tipLife": 1.8,
-          "accent": {
-            "count": 19,
-            "colors": [
-              "#e97489"
-            ],
-            "life": 1.55,
-            "radius": 1,
-            "radialMin": 0.7,
-            "size": 2.2
-          }
-        },
-        {
-          "id": "aggression-3",
-          "launch": 2.7,
-          "burst": 3.54,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.65,
-          "seed": 55308,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 30,
-          "radius": 138,
-          "radialMin": 0.57,
-          "gravity": 14,
-          "trailColor": "#d1c2a4",
-          "trailSeconds": 0.32,
-          "tipLife": 1.8,
-          "accent": {
-            "count": 19,
-            "colors": [
-              "#e97489"
-            ],
-            "life": 1.55,
-            "radius": 1,
-            "radialMin": 0.7,
-            "size": 2.2
-          }
-        },
-        {
-          "id": "aggression-4",
-          "launch": 3.38,
-          "burst": 4.22,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 2.58,
-          "seed": 55481,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 30,
-          "radius": 138,
-          "radialMin": 0.57,
-          "gravity": 14,
-          "trailColor": "#d1c2a4",
-          "trailSeconds": 0.32,
-          "tipLife": 1.8,
-          "accent": {
-            "count": 19,
-            "colors": [
-              "#e97489"
-            ],
-            "life": 1.55,
-            "radius": 1,
-            "radialMin": 0.7,
-            "size": 2.2
-          }
-        },
-        {
-          "id": "aggression-5",
-          "launch": 4.3,
-          "burst": 5.14,
-          "shape": "willow",
-          "colors": [
-            "#cbb18b"
-          ],
-          "life": 1.66,
-          "seed": 55654,
-          "x": 0,
-          "launchVisible": false,
-          "arms": 30,
-          "radius": 138,
-          "radialMin": 0.57,
-          "gravity": 14,
-          "trailColor": "#d1c2a4",
-          "trailSeconds": 0.32,
-          "tipLife": 1.8,
-          "accent": {
-            "count": 19,
-            "colors": [
-              "#e97489"
-            ],
-            "life": 1.55,
-            "radius": 1,
-            "radialMin": 0.7,
-            "size": 2.2
-          }
-        }
-      ]
-    },
-    {
-      "productId": "whisky-business",
-      "revision": 1,
-      "status": "reviewed",
-      "name": "Whisky Business",
-      "brand": "Bright Star",
-      "category": "500g Cakes",
-      "scene": "aerial",
-      "kind": "cake-sample",
-      "playback": "automatic",
-      "sampleLabel": "Sequence excerpt",
-      "duration": 32.65,
-      "observedShots": 14,
-      "effects": [
-        "Gold palm tails",
-        "Red and silver points",
-        "Willow trails",
-        "Falling red leaves"
-      ],
-      "summary": "Golden tails rise into red-tipped palms and silver-speckled crowns, followed by broad willow trails and drifting red leaves.",
-      "source": {
-        "url": "https://www.youtube.com/watch?v=SxzplhvlmUk",
-        "manufacturerCode": "BS8039",
-        "segmentStart": 5.6,
-        "segmentEnd": 38.25,
-        "reviewedOn": "2026-09-27",
-        "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
-        "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
-        "notes": [
-          "Exact Bright Star BS8039 / Whisky Business: on-screen product code and approved package artwork agree. Retail presentation 20 shots is separate from resolved openings.",
-          "Fourteen individually resolved opening centers retained across the demonstration. Some faint/overlapping centers cannot be separated to verify all 20 shots. The final visible tails are included, but this remains an excerpt with incomplete event coverage, not a full retail sequence.",
-          "Entire 38.441 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
-          "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
-        ]
-      },
-      "verified": [
-        "Exact catalog model and package identity",
-        "Visible opening order and principal colors within the published excerpt"
-      ],
-      "estimated": [
-        "Opening times approximately \u00b10.15 seconds",
-        "Scale, trajectories, particle persistence and synthesized audio are illustrative",
-        "Unresolved overlapping openings are not synthesized to reach the retail count"
-      ],
-      "events": [
-        {
-          "id": "whisky-business-1",
-          "launch": 0.06,
-          "burst": 1.05,
-          "shape": "palm",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 3.1,
-          "seed": 61696,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-2",
-          "launch": 2.4,
-          "burst": 3.58,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 61869,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-3",
-          "launch": 3.46,
-          "burst": 4.37,
-          "shape": "palm",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 3.1,
-          "seed": 62042,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-4",
-          "launch": 5.73,
-          "burst": 6.75,
-          "shape": "palm",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 3.1,
-          "seed": 62215,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-5",
-          "launch": 8.36,
-          "burst": 9.5,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 62388,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-6",
-          "launch": 10.95,
-          "burst": 11.89,
-          "shape": "palm",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 3.1,
-          "seed": 62561,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-7",
-          "launch": 12.52,
-          "burst": 13.57,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 62734,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-8",
-          "launch": 15.36,
-          "burst": 16.48,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 62907,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-9",
-          "launch": 16.98,
-          "burst": 17.91,
-          "shape": "palm",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 3.1,
-          "seed": 63080,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-10",
-          "launch": 19.16,
-          "burst": 20.17,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 63253,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-11",
-          "launch": 20.88,
-          "burst": 21.82,
-          "shape": "palm",
-          "colors": [
-            "#e3e8eb"
-          ],
-          "life": 3.1,
-          "seed": 63426,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 12,
-          "radius": 141,
-          "radialMin": 0.6,
-          "gravity": 14,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.36,
-          "tipLife": 1.65,
-          "glitterCount": 12,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          }
-        },
-        {
-          "id": "whisky-business-12",
-          "launch": 22.17,
-          "burst": 23.25,
-          "shape": "willow",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 5.1,
-          "seed": 63599,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 32,
-          "radius": 156,
-          "radialMin": 0.6,
-          "gravity": 10,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.48,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          },
-          "horsetail": {
-            "count": 14,
-            "color": "#e97489",
-            "life": 5.1,
-            "spread": 48,
-            "gravity": 9,
-            "drift": 0.3
-          }
-        },
-        {
-          "id": "whisky-business-13",
-          "launch": 24.08,
-          "burst": 25.1,
-          "shape": "willow",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 5.1,
-          "seed": 63772,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 32,
-          "radius": 156,
-          "radialMin": 0.6,
-          "gravity": 10,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.48,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          },
-          "horsetail": {
-            "count": 14,
-            "color": "#e97489",
-            "life": 5.1,
-            "spread": 48,
-            "gravity": 9,
-            "drift": -0.3
-          }
-        },
-        {
-          "id": "whisky-business-14",
-          "launch": 25.77,
-          "burst": 26.88,
-          "shape": "willow",
-          "colors": [
-            "#e97489"
-          ],
-          "life": 5.1,
-          "seed": 63945,
-          "x": 0,
-          "launchVisible": true,
-          "arms": 32,
-          "radius": 156,
-          "radialMin": 0.6,
-          "gravity": 10,
-          "trailColor": "#cbb18b",
-          "trailSeconds": 0.48,
-          "tipLife": 1.65,
-          "glitterCount": 0,
-          "glitterColor": "#e3e8eb",
-          "launchColor": "#cbb18b",
-          "liftTrail": {
-            "seconds": 0.28,
-            "color": "#cbb18b"
-          },
-          "horsetail": {
-            "count": 14,
-            "color": "#e97489",
-            "life": 5.1,
-            "spread": 48,
-            "gravity": 9,
-            "drift": 0.15
           }
         }
       ]

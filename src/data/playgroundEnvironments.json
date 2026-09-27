@@ -1,0 +1,10 @@
+{
+  "ground": {
+    "wide": "/images/playground/environments/close-up-1774.webp",
+    "compact": "/images/playground/environments/close-up-1100.webp"
+  },
+  "close": {
+    "wide": "/images/playground/environments/open-field-1774.webp",
+    "compact": "/images/playground/environments/open-field-1100.webp"
+  }
+}

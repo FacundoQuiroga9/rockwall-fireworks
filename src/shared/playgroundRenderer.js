@@ -12,7 +12,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
   const weight = (seed, fraction) => Math.max(0, Math.min(1, (fraction - noise(seed)) / .12));
   const fountains = profiles.map((p) => p.stages ? makeFountain(p) : null);
   const images = new Map();
-  if (typeof Image !== 'undefined') for (const [id, base] of Object.entries(bases)) {
+  if (typeof Image !== 'undefined') for (const [id, base] of Object.entries(bases).filter(([id]) => profiles.some(p => p.productId === id))) {
     const image = new Image();
     image.onload = () => { if (!destroyed) draw(lastTime, active, lastEvents); };
     image.src = base.src; images.set(id, image);
