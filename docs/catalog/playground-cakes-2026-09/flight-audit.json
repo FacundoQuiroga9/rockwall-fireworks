@@ -1,0 +1,264 @@
+[
+  {
+    "productId": "bump-bear",
+    "primaryLifts": 16,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "band-of-brothers",
+    "primaryLifts": 12,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "ghostacular-24-pack",
+    "primaryLifts": 3,
+    "quietLocators": 3,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "maelstrom-24-pack",
+    "primaryLifts": 1,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "daffodil",
+    "primaryLifts": 15,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "ghost-dragon",
+    "primaryLifts": 8,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "flawless-24-pack",
+    "primaryLifts": 1,
+    "quietLocators": 1,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "ruckus-12-pack",
+    "primaryLifts": 1,
+    "quietLocators": 1,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": [
+      {
+        "eventId": "ruckus-12-pack-1",
+        "seconds": 0.2
+      }
+    ]
+  },
+  {
+    "productId": "jaws-brothers",
+    "primaryLifts": 16,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "american-anthem",
+    "primaryLifts": 8,
+    "quietLocators": 8,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "arms-depot-16-pack",
+    "primaryLifts": 1,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "sniper-fire-12-pack",
+    "primaryLifts": 1,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "ghost-killer",
+    "primaryLifts": 8,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "us-power",
+    "primaryLifts": 11,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "golden-peacock",
+    "primaryLifts": 16,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "nishiki-blast-6-pack",
+    "primaryLifts": 6,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "double-dragon-6-pack",
+    "primaryLifts": 6,
+    "quietLocators": 6,
+    "secondaryBreaksWithoutLift": 6,
+    "shortLifts": []
+  },
+  {
+    "productId": "raging-willow",
+    "primaryLifts": 19,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "hot-dog",
+    "primaryLifts": 16,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "battle-cry",
+    "primaryLifts": 8,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "break-the-rules-6-pack",
+    "primaryLifts": 6,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "chameleon-shells-24-pack",
+    "primaryLifts": 12,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "vertical-limit",
+    "primaryLifts": 16,
+    "quietLocators": 3,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "one-bad-mother-in-law",
+    "primaryLifts": 16,
+    "quietLocators": 15,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "strobing-willow",
+    "primaryLifts": 20,
+    "quietLocators": 20,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": [
+      {
+        "eventId": "strobing-1",
+        "seconds": 0.22
+      }
+    ]
+  },
+  {
+    "productId": "g-force-24-pack",
+    "primaryLifts": 12,
+    "quietLocators": 4,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "whacky-tobacky",
+    "primaryLifts": 8,
+    "quietLocators": 8,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "magnum-tremors",
+    "primaryLifts": 8,
+    "quietLocators": 8,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "migraine",
+    "primaryLifts": 6,
+    "quietLocators": 6,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "neon-jellyfish",
+    "primaryLifts": 7,
+    "quietLocators": 7,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "sky-ink",
+    "primaryLifts": 16,
+    "quietLocators": 16,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "wild-horses",
+    "primaryLifts": 18,
+    "quietLocators": 18,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "pyro-pilot",
+    "primaryLifts": 5,
+    "quietLocators": 5,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "wild-west",
+    "primaryLifts": 25,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "nation-ovation",
+    "primaryLifts": 13,
+    "quietLocators": 0,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  },
+  {
+    "productId": "dreams-from-heaven",
+    "primaryLifts": 18,
+    "quietLocators": 18,
+    "secondaryBreaksWithoutLift": 0,
+    "shortLifts": []
+  }
+]

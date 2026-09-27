@@ -1,5 +1,7 @@
 # Playground: escenario primero y tanda aérea — 2026-09-27
 
+> Informe histórico. Continuación actual: [ascensos, carrusel y cobertura de cakes](../playground-cakes-2026-09/README.md).
+
 Continuación de [la tanda aérea anterior](../playground-aerial-batch-2026-09/README.md). 302 productos canónicos; 35 perfiles publicados. No despliegue web ni publicación de la app. La revisión visual nativa está **pospuesta por decisión del usuario**: no Simulator, Metro, dispositivos ni exportaciones adicionales.
 
 ## Navegación y compatibilidad

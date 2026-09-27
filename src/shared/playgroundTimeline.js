@@ -92,6 +92,9 @@ export function validateProfiles(data, catalog) {
       eventIds.add(event.id); previous = event.burst;
     }
     for (const event of [...profile.events, ...(profile.shellEffects || []).flatMap(effect => effect.events)]) {
+      if (event.launchX != null && (!Number.isFinite(event.launchX) || Math.abs(event.launchX) > 1)) errors.push('Invalid launch origin');
+      if (event.plane && (!(event.plane.squash > 0 && event.plane.squash <= 1) || !Number.isFinite(event.plane.rotation))) errors.push('Invalid burst plane');
+      if (event.horsetail && (!Number.isInteger(event.horsetail.count) || event.horsetail.count < 1 || event.horsetail.count > 48 || !(event.horsetail.life > 0 && event.horsetail.life <= event.life) || !/^#[a-f\d]{6}$/i.test(event.horsetail.color))) errors.push('Invalid falling cluster');
       if (event.clusterRadialMin != null && !(event.clusterRadialMin >= 0 && event.clusterRadialMin <= 1)) errors.push('Invalid flower cluster distribution');
       if (event.liftTrail && (!(event.liftTrail.seconds > 0 && event.liftTrail.seconds <= .8)
         || !/^#[a-f\d]{6}$/i.test(event.liftTrail.color))) errors.push('Invalid bounded lift trail');

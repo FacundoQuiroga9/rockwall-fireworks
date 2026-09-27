@@ -5,7 +5,7 @@ $('start').onclick=async()=>{
   $('start').disabled=true;
   try{
     const kind=new URLSearchParams(location.search).get('capture');
-    const directory=kind==='navigation'?'/artifacts/navigation-recording/':kind==='aerial-batch'?'/artifacts/aerial-batch-recording/':kind==='depth'?'/artifacts/depth-recording/':kind==='depth-mixed'?'/artifacts/depth-mixed-recording/':'/artifacts/manual-shell-recording/',frames=await(await fetch(directory+'frames.json')).json();
+    const directory=kind==='cakes'?'/artifacts/cakes-recording/':kind==='navigation'?'/artifacts/navigation-recording/':kind==='aerial-batch'?'/artifacts/aerial-batch-recording/':kind==='depth'?'/artifacts/depth-recording/':kind==='depth-mixed'?'/artifacts/depth-mixed-recording/':'/artifacts/manual-shell-recording/',frames=await(await fetch(directory+'frames.json')).json();
     const load=async f=>createImageBitmap(await(await fetch(directory+f.file)).blob());
     let bitmap=await load(frames[0]);const canvas=$('output');canvas.width=bitmap.width;canvas.height=bitmap.height;
     const ctx=canvas.getContext('2d'),stream=canvas.captureStream(0),chunks=[],recorder=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp9',videoBitsPerSecond:2500000});

@@ -12,8 +12,9 @@ const command=(s,type,rest={})=>updatePlaygroundSelection(profiles,s,{type,...re
 
 test('three catalogs partition all published profiles, with only useful filters and scene-local search',()=>{
  const catalogs=PLAYGROUND_SCENES.map(s=>playgroundCatalog(profiles,s));
- assert.deepEqual(catalogs.map(c=>c.total),[26,3,6]);
- assert.deepEqual(catalogs[0].groups,[{name:'All',count:26},{name:'Cakes',count:15},{name:'Artillery Shells',count:11}]);
+ const cakes=profiles.filter(p=>p.kind.startsWith('cake')).length;
+ assert.deepEqual(catalogs.map(c=>c.total),[cakes+11,3,6]);
+ assert.deepEqual(catalogs[0].groups,[{name:'All',count:cakes+11},{name:'Cakes',count:cakes},{name:'Artillery Shells',count:11}]);
  assert.deepEqual(catalogs[2].groups,[]);
  const all=catalogs.flatMap(c=>c.visible.map(p=>p.productId));assert.equal(new Set(all).size,profiles.length);assert.deepEqual(all.sort(),profiles.map(p=>p.productId).sort());
  assert.equal(playgroundCatalog(profiles,'ground','Artillery Shells').visible.length,6);
@@ -52,7 +53,7 @@ test('new excerpts and twelve-effect bank match catalog identity and both platfo
  const ids=read('../docs/catalog/playground-navigation-2026-09/new-profile-ids.json');assert.equal(ids.length,4);
  for(const id of ids){const p=get(id);assert.equal(p.scene,'aerial');assert.equal(p.source.url,products.find(x=>x.id===id).previewVideo);for(const e of p.events)assert.ok(e.burst+e.life<=p.duration+.00001);}
  assert.equal(get('vertical-limit').kind,'cake-sample');assert.equal(get('vertical-limit').events.length,16);
- assert.equal(get('one-bad-mother-in-law').kind,'cake-sample');assert.equal(get('strobing-willow').events.length,5);
+ assert.equal(get('one-bad-mother-in-law').kind,'cake-sample');assert.equal(get('strobing-willow').events.length,20);
  const g=get('g-force-24-pack');assert.equal(g.shellCount,24);assert.equal(g.shellEffects.length,12);assert.ok(g.shellEffects.every(e=>e.breakCount===1));
  const timeline=createTimeline([get('vertical-limit'),get('one-bad-mother-in-law'),get('strobing-willow'),g]);timeline.play(0);timeline.play(0);
  let now=0;const seen=[];
@@ -62,7 +63,7 @@ test('new excerpts and twelve-effect bank match catalog identity and both platfo
   for(let step=0;step<120;step++){now+=50;seen.push(...timeline.tick(now).cues);}
   if(i<23)assert.equal(timeline.launch(3,now),true);
  }
- assert.equal(seen.filter(e=>e.profile<3&&e.type==='burst').length,37);assert.equal(seen.filter(e=>e.profile===3&&e.type==='burst').length,24);
+ assert.equal(seen.filter(e=>e.profile<3&&e.type==='burst').length,52);assert.equal(seen.filter(e=>e.profile===3&&e.type==='burst').length,24);
  assert.equal(timeline.launch(3,now),false);timeline.restart();timeline.play(now);assert.equal(timeline.snapshot().shells[0].effectIndex,0);
 });
 

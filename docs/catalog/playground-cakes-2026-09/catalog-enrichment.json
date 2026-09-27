@@ -1,0 +1,209 @@
+[
+  {
+    "id": "whacky-tobacky",
+    "demonstration": {
+      "summary": "Broad golden brocades spread slowly, trail into falling sparks and finish with overlapping crowns.",
+      "effects": [
+        "Golden brocades",
+        "Falling gold trails",
+        "Overlapping crowns"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=kfKXaQZ-2rk",
+      "durationSeconds": 25.9,
+      "scope": "Sequence excerpt",
+      "observedShots": 8,
+      "confirmedShots": 9,
+      "segmentStart": 5.6,
+      "segmentEnd": 31.5,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "magnum-tremors",
+    "demonstration": {
+      "summary": "Silver waves develop red, green and blue points around broad rings, while red glittering tails drift below.",
+      "effects": [
+        "Silver waves",
+        "Colored ring tips",
+        "Red glittering horse tails"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=VihP3cMcJi4",
+      "durationSeconds": 31.4,
+      "scope": "Sequence excerpt",
+      "observedShots": 8,
+      "confirmedShots": 9,
+      "segmentStart": 6.5,
+      "segmentEnd": 37.9,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "migraine",
+    "demonstration": {
+      "summary": "Red and green rings hang above pale horse tails that curl and fall through the sky.",
+      "effects": [
+        "Red and green rings",
+        "Pale horse tails"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ElEOhs6JI0U",
+      "durationSeconds": 25.0,
+      "scope": "Sequence excerpt",
+      "observedShots": 6,
+      "confirmedShots": 9,
+      "segmentStart": 7.4,
+      "segmentEnd": 32.4,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "neon-jellyfish",
+    "demonstration": {
+      "summary": "Peach, green and blue rings float over bright silver tentacles that stretch downward as the color fades.",
+      "effects": [
+        "Peach, green and blue rings",
+        "Silver falling tentacles"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=UG_3QDM9310",
+      "durationSeconds": 29.2,
+      "scope": "Sequence excerpt",
+      "observedShots": 7,
+      "confirmedShots": 9,
+      "segmentStart": 6.2,
+      "segmentEnd": 35.4,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "sky-ink",
+    "demonstration": {
+      "summary": "Warm gold branches carry red and white glitter, followed by red and silver plum blossoms. A tightly grouped finale opens into dense crackling flowers before the last sparks fade.",
+      "effects": [
+        "Gold branches",
+        "Colored pearls",
+        "Silver glitter",
+        "Crackling finale"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=mFICypgeVm8",
+      "durationSeconds": 24.45,
+      "scope": "Full cake sequence",
+      "observedShots": 16,
+      "confirmedShots": 16,
+      "segmentStart": 1.95,
+      "segmentEnd": 26.4,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "wild-horses",
+    "demonstration": {
+      "summary": "Blue, teal, pink and yellow pearls spread above small red plum blossoms in a varied, steady rhythm.",
+      "effects": [
+        "Colored pearls",
+        "Red plum blossoms"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=w5QUlnKoDnA",
+      "durationSeconds": 28.3,
+      "scope": "Sequence excerpt",
+      "observedShots": 18,
+      "confirmedShots": 25,
+      "segmentStart": 7.2,
+      "segmentEnd": 35.5,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "pyro-pilot",
+    "demonstration": {
+      "summary": "Golden branches spread into bright white strobes with a quick, irregular rhythm.",
+      "effects": [
+        "Gold brocade",
+        "White strobes"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=zQST3i4YhlY&pp=ygUQcHlybyBwaWxvdCB3aW5kYQ%3D%3D",
+      "durationSeconds": 8.15,
+      "scope": "Sequence excerpt",
+      "observedShots": 5,
+      "confirmedShots": 25,
+      "segmentStart": 4.25,
+      "segmentEnd": 12.4,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "wild-west",
+    "demonstration": {
+      "summary": "Red bouquets, bright white stars and blue pearls lead into twisting multicolor tails with sharp reports. Crackling bouquets close the sequence.",
+      "effects": [
+        "Red, white and blue bouquets",
+        "Twisting rising tails",
+        "Crackling finale"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=RbwodLEP4lw",
+      "durationSeconds": 26.15,
+      "scope": "Full cake sequence",
+      "observedShots": 25,
+      "confirmedShots": 25,
+      "segmentStart": 5.15,
+      "segmentEnd": 31.3,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "nation-ovation",
+    "demonstration": {
+      "summary": "Red and blue pearls change to red points and white glitter, alternating with warm crackling flowers.",
+      "effects": [
+        "Red and blue pearls",
+        "Blue-to-red transitions",
+        "White glitter",
+        "Gold crackling flowers"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=EeZPscToUz0&pp=ygUUbmF0aW9uIG92YXRpb24gd2luZGE%3D",
+      "durationSeconds": 25.4,
+      "scope": "Sequence excerpt",
+      "observedShots": 13,
+      "confirmedShots": 16,
+      "segmentStart": 6.05,
+      "segmentEnd": 31.45,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "dreams-from-heaven",
+    "demonstration": {
+      "summary": "Green stars and red points open in changing ring-like shapes, followed by blue pearls and gold branches with colored tips.",
+      "effects": [
+        "Green and red stars",
+        "Blue pearls",
+        "Gold branches"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ro7nIqMhvx0",
+      "durationSeconds": 25.5,
+      "scope": "Sequence excerpt",
+      "observedShots": 18,
+      "confirmedShots": 25,
+      "segmentStart": 4.65,
+      "segmentEnd": 30.15,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  },
+  {
+    "id": "strobing-willow",
+    "demonstration": {
+      "summary": "Blue, green and red pearls open above warm willow trails, followed by pale glittering branches that linger as they fall.",
+      "effects": [
+        "Blue, green and red pearls",
+        "Warm willow trails",
+        "Pale glitter"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=prG4cr0TASo",
+      "durationSeconds": 17.6,
+      "scope": "Sequence excerpt",
+      "observedShots": 20,
+      "confirmedShots": null,
+      "segmentStart": 6.65,
+      "segmentEnd": 24.25,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+    }
+  }
+]

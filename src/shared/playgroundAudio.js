@@ -53,7 +53,7 @@ export function createPlaygroundAudio(options = {}) {
   }
   function cue(type, event) {
     if (!enabled || !context || context.state !== 'running' || voices.size >= 10) return;
-    if (type === 'burst' && ['comet','spinner'].includes(event.shape)) return; // No invented aerial report for a pearl or spinner.
+    if (type === 'burst' && ['comet','spinner'].includes(event.shape) && !event.risingReport) return; // Only an explicitly reviewed report.
     const launch = type === 'launch', duration = launch ? event.shape === 'spinner' ? .85 : .25 : event.shape === 'ring' ? .65 : .95;
     const entry = voice(launch ? 2300 : 1700), now = context.currentTime;
     const level = (launch ? .24 : .78) / Math.sqrt(Math.max(1, voices.size / 2));

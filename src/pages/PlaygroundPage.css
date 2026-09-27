@@ -4,3 +4,19 @@
 
 /* Scene-first catalog: two compact rows, then the shared preview. */
 .playground-status:empty{display:none}.playground-selection-heading{margin:18px 0 14px}.playground-products{max-height:340px;overflow-y:auto;padding:3px;scrollbar-color:#987846 #111b2b}.playground-stage-shell{margin-top:24px}.playground-filters>div:empty{display:none}.playground-filters button span{font-size:.72rem;color:#acb9cf;margin-left:4px}
+
+/* One bounded horizontal row in every scene. Focus stays inside the rail. */
+.playground-rail{position:relative;display:flex;gap:8px;align-items:center;min-width:0;max-width:100%}
+.playground-rail .playground-products{display:flex;flex:1;min-width:0;max-height:none;overflow-x:auto;overflow-y:hidden;gap:12px;padding:7px 5px 14px;scroll-padding:6px;overscroll-behavior-x:contain;touch-action:pan-x pan-y;scrollbar-width:thin}
+.playground-rail .playground-product{flex:0 0 166px;width:166px;height:226px;min-height:226px;box-sizing:border-box;user-select:none}
+.playground-rail .playground-product img{flex:0 0 104px;pointer-events:none}
+.playground-rail .playground-product strong{height:2.6em;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.playground-rail .playground-category{height:1.2em;white-space:nowrap;overflow:hidden;max-width:100%;text-overflow:ellipsis}
+.playground-rail .playground-product small{height:1.2em;overflow:hidden}
+.playground-rail-arrow{flex:0 0 44px;height:44px;border:1px solid #8f714e;border-radius:8px;background:#172137;color:#f4cd93;font-size:28px;cursor:pointer}
+.playground-rail-arrow:disabled{opacity:.25;cursor:default}
+.playground-rail::before,.playground-rail::after{content:'';pointer-events:none;position:absolute;z-index:1;top:7px;bottom:14px;width:22px;opacity:0}
+.playground-rail::before{left:52px;background:linear-gradient(90deg,#080e1ddd,transparent)}
+.playground-rail::after{right:52px;background:linear-gradient(270deg,#080e1ddd,transparent)}
+.playground-rail[data-before=true]::before,.playground-rail[data-after=true]::after{opacity:1}
+.playground-rail .is-dragging,.playground-rail .is-dragging *{cursor:grabbing}

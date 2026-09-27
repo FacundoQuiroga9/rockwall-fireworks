@@ -1,8 +1,9 @@
 import { createFountainModel } from './playgroundFountain.js';
+import { aerialFlight } from './playgroundFlight.js';
 
 // This self-contained function also runs in the offline native WebView.
 // Every particle is sampled from absolute profile time, never accumulated frames.
-export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain = createFountainModel, bases = {}) {
+export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain = createFountainModel, bases = {}, flight = aerialFlight) {
   const context = canvas.getContext('2d', { alpha: true });
   let width = 1, height = 1, quality = compact ? 'balanced' : 'high';
   let profileLimit = 3200, destroyed = false;
@@ -111,10 +112,40 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         }
         context.restore(); return;
       }
-      for (const event of events[pane] ?? profile.events) {
+      const aerialEvents = events[pane] ?? profile.events;
+      const geometry = { center: cx, width, height, scale };
+      // Essential heads precede decorative particles, including dense earlier
+      // bursts in this lane. They survive every quality level and budget.
+      for (const event of aerialEvents) {
+        if (profile.scene !== 'aerial' || (['comet', 'spinner'].includes(event.shape) && !event.risingReport) || time >= event.burst) continue;
+        const head = flight(event, time, geometry);
+        if (!head) continue;
+        dot(head.x, head.y, Math.max(1.65, 2.1 * scale), head.color, head.documented ? .9 : .68, true);
+      }
+      for (const event of aerialEvents) {
         const age = time - event.burst;
+        // Shifted manual times can subtract to life - 1e-15. At the exact
+        // terminal instant those numerically tiny sparks are already extinct.
+        if (age >= event.life - 1e-9) continue;
         const ex = cx + event.x * 700 * scale;
         const cy = burstHeight + (event.y ?? 0) * height;
+        if (event.shape === 'comet' && event.risingReport) {
+          // A short twisting cake shot has one lift and a small report, not a
+          // spherical shell. Its origin/endpoint share the aerial coordinate space.
+          if (time < event.launch || age > event.life) continue;
+          for (let j = 1; j < 16; j++) {
+            const born = Math.min(time, event.burst) - j * .022;
+            const point = flight(event, born, geometry);
+            if (!point) continue;
+            dot(point.x, point.y,
+              Math.max(1.1, 2 * scale), event.colors[j % event.colors.length], (1 - j / 16) * Math.max(0, 1 - Math.max(0, age) / .5), j === 0);
+          }
+          if (age >= 0) for (let i = 0; i < 14; i++) {
+            const angle = i * Math.PI * 2 / 14, r = (1 - Math.exp(-age * 4)) * 18 * scale;
+            dot(ex + Math.cos(angle) * r, cy + Math.sin(angle) * r + age * age * 20 * scale, Math.max(.7, scale), '#dce1db', Math.pow(Math.max(0, 1 - age / event.life), 1.4), true);
+          }
+          continue;
+        }
         if (event.shape === 'comet' || event.shape === 'spinner') {
           const closeScale = Math.min(width / 800, height / 500);
           const elapsed = time - event.launch, rise = event.burst - event.launch;
@@ -135,25 +166,42 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         }
         // Optional documented tiger-tail lift: bounded, birth-time sparks.
         // Its short tail can outlive the lift without adding another emitter.
-        if (event.liftTrail && time >= event.launch && age < event.liftTrail.seconds) {
-          const span = event.burst - event.launch;
+        if (event.launchCue !== false && event.liftTrail && time >= event.launch && age < event.liftTrail.seconds) {
           for (let i = 0; i < 24; i++) {
             const born = time - i / 24 * event.liftTrail.seconds;
             if (born < event.launch || born > event.burst) continue;
-            const progress = (born - event.launch) / Math.max(.05, span), tailAge = time - born;
-            dot(ex + (noise(event.seed + i) - .5) * 2 * scale,
-              height * .83 * (1 - progress) + cy * progress + tailAge * tailAge * 22 * scale,
+            const point = flight(event, born, geometry), tailAge = time - born;
+            if (!point) continue;
+            dot(point.x + (noise(event.seed + i) - .5) * 2 * scale,
+              point.y + tailAge * tailAge * 22 * scale,
               Math.max(.6, 1.5 * scale), event.liftTrail.color,
               .65 * (1 - tailAge / event.liftTrail.seconds) * weight(event.seed + i * 79, Math.max(.5, capacity)), true);
           }
         }
-        if (time >= event.launch && age < 0 && event.launchVisible) {
-          const progress = (time - event.launch) / Math.max(0.05, event.burst - event.launch);
-          for (let t = 0; t < 14; t++) dot(ex, (height * .83) * (1 - progress) + cy * progress + t * 1.8 * scale, Math.max(.5, 1.3 * scale), event.launchColor || '#efcf98', .48 * (1 - t / 14) * (t < 6 ? 1 : detail), t === 0);
+        if (time >= event.launch && age < 0 && event.launchVisible && event.launchCue !== false) {
+          for (let t = 1; t <= 6; t++) {
+            const point = flight(event, time - t * .018, geometry);
+            if (point) dot(point.x, point.y, Math.max(.6, 1.2 * scale), point.color, .42 * (1 - t / 7) * detail);
+          }
         }
         if (age < 0 || age > event.life) continue;
         const radius = event.radius ?? (event.shape === 'flower' ? 105 : event.shape === 'ring' ? 147 : event.shape.startsWith('palm') || ['ghost','willow'].includes(event.shape) ? 158 : 155);
         const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
+        // A documented falling cluster belongs to this break, never a new
+        // launch/burst. Absolute-time curves keep seek and pause deterministic.
+        if (event.horsetail && age < event.horsetail.life) {
+          const tail = event.horsetail, life = tail.life;
+          for (let i = 0; i < tail.count; i++) {
+            const seed = event.seed + i * 137, visible = i < 5 ? 1 : weight(seed, capacity);
+            const dx = (noise(seed + 2) - .5) * (tail.spread ?? 35);
+            const x = t => ex + ((tail.drift ?? 0) * t * 35 + dx * grow(t)) * scale;
+            const y = t => cy + (-Math.sin(Math.min(1, t / .6) * Math.PI / 2) * (12 + noise(seed) * 15) + (tail.gravity ?? 17) * t * t) * scale;
+            const alpha = Math.pow(Math.max(0, 1 - age / life), .7) * visible;
+            context.beginPath(); context.strokeStyle = tail.color; context.lineWidth = Math.max(.7, scale); context.globalAlpha = alpha * .7;
+            for (let j = 0; j <= 6; j++) { const t = Math.max(0, age - .45 + j * .075); if (j) context.lineTo(x(t), y(t)); else context.moveTo(x(t), y(t)); }
+            context.stroke(); dot(x(age), y(age), Math.max(.8, 1.6 * scale), tail.color, alpha, true);
+          }
+        }
         // Documented colored pearls are a separate component of this single
         // break, with their own persistence. Their palette never depends on quality.
         if (event.accent) {
@@ -199,7 +247,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         const flower = event.shape === 'flower';
         const palm = event.shape.startsWith('palm') || ghost || willow;
         const ring = event.shape === 'ring';
-        const n = colorPeony ? Math.round((event.arms || 55) * 1.5) : willow ? Math.round((event.arms || 60) * 1.5) : palm ? (event.arms || 9) : ring ? 88 : 190;
+        const n = colorPeony ? Math.round((event.arms || 55) * 1.5) : willow ? Math.round((event.arms || 60) * 1.5) : palm ? (event.arms || 9) : ring ? (event.arms || 88) : 190;
         const fade = Math.pow(Math.max(0, 1 - age / event.life), .75);
         for (let i = 0; i < n; i++) {
           const seed = event.seed + i * 37;
@@ -210,8 +258,11 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
           // Wandering stars change direction after opening. Deterministic curves keep
           // pause/seek stable; they do not accumulate particles or create emitters.
           const turn = (t) => wander ? Math.max(0, t - .3) * 16 * Math.sin(t * (5 + noise(seed + 2) * 3) + seed) : 0;
-          const px = (t) => ex + (Math.cos(angle) * radius * radial * grow(t) + turn(t)) * scale;
-          const py = (t) => cy + (Math.sin(angle) * radius * radial * grow(t) + (event.gravity ?? (ghost ? 7 : willow ? 12 : 20)) * t * t + turn(t) * .5) * scale;
+          const plane = event.plane, rotation = plane?.rotation ?? 0;
+          const dx = Math.cos(angle) * Math.cos(rotation) - Math.sin(angle) * (plane?.squash ?? 1) * Math.sin(rotation);
+          const dy = Math.cos(angle) * Math.sin(rotation) + Math.sin(angle) * (plane?.squash ?? 1) * Math.cos(rotation);
+          const px = (t) => ex + (dx * radius * radial * grow(t) + turn(t)) * scale;
+          const py = (t) => cy + (dy * radius * radial * grow(t) + (event.gravity ?? (ghost ? 7 : willow ? 12 : 20)) * t * t + turn(t) * .5) * scale;
           const color = colorPeony ? event.colors[Math.floor(i / n * event.colors.length)] : ghost ? ((i / n + age * .22) % 1 < .5 ? event.colors[0] : event.colors[1]) : ring && age > 1.3 && noise(seed + 7) > .72 ? '#dddbda' : event.colors[i % event.colors.length];
           if (ghostPeony) {
             // Separate fading stars by sector; never replace the whole burst's
@@ -255,7 +306,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), color, tipFade * (1 - mix), true);
             dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), change.colors[i % change.colors.length], tipFade * mix, mix >= 1);
           } else dot(px(age), py(age), Math.max(.65, (palm ? 2.7 : 2.0) * scale), wander && age > .7 ? '#e7eaf2' : glitter && age > 1.05 ? '#dae5ff' : color, tipFade, true);
-          if (ring && age > .48) {
+          if (ring && event.secondaryRing !== false && age > .48) {
             const t = age - .48;
             dot(ex + Math.cos(angle) * radius * .52 * grow(t) * scale, cy + (Math.sin(angle) * radius * .52 * grow(t) + 14 * t * t) * scale, Math.max(.6, 1.35 * scale), color, fade * .75, true);
           }

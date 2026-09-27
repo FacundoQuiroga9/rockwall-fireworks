@@ -138,5 +138,45 @@
   {
     "productId": "g-force-24-pack",
     "kind": "shell-sample"
+  },
+  {
+    "productId": "whacky-tobacky",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "magnum-tremors",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "migraine",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "neon-jellyfish",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "sky-ink",
+    "kind": "cake"
+  },
+  {
+    "productId": "wild-horses",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "pyro-pilot",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "wild-west",
+    "kind": "cake"
+  },
+  {
+    "productId": "nation-ovation",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "dreams-from-heaven",
+    "kind": "cake-sample"
   }
 ]

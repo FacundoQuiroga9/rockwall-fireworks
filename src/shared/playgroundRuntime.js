@@ -1,9 +1,10 @@
 import { createQualityController } from './playgroundQuality.js';
+import { aerialFlight } from './playgroundFlight.js';
 // Self-contained runtime: factories are serialized explicitly for the offline app.
-export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, makeFountain, makeQuality = createQualityController) {
+export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, makeFountain, makeQuality = createQualityController, makeFlight = aerialFlight) {
   const $ = id => document.getElementById(id);
   const clock = makeTimeline(config.profiles);
-  const renderer = makeRenderer($('sky'), config.profiles, config.compact, makeFountain, config.bases);
+  const renderer = makeRenderer($('sky'), config.profiles, config.compact, makeFountain, config.bases, makeFlight);
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const fountains = config.profiles.map(p => p.stages ? makeFountain(p) : null);
   let reduced = config.reducedMotion || motion.matches, animationChosen = false;

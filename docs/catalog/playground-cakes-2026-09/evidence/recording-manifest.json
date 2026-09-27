@@ -1,0 +1,14 @@
+{
+  "seconds": 32.982,
+  "frames": 107,
+  "timing": "continuous screenshot capture; browser runtime elapsedMs, unaccelerated",
+  "audio": "silent video; synthesized signal separately measured",
+  "scenario": [
+    "sky-ink",
+    "wild-west",
+    "wild-horses",
+    "nishiki-blast-6-pack"
+  ],
+  "manualLaunches": 4,
+  "lastManualAfterCakes": true
+}

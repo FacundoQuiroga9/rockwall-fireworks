@@ -1,0 +1,1518 @@
+[
+  {
+    "productId": "whacky-tobacky",
+    "reference": "https://www.youtube.com/watch?v=kfKXaQZ-2rk",
+    "manufacturerCode": "BP2501",
+    "retailShots": 9,
+    "scope": "cake-sample",
+    "window": [
+      5.6,
+      31.5
+    ],
+    "notes": [
+      "Manufacturer BP2501 nine-shot rack, approved package and SKU 687985250110 match.",
+      "Six isolated centers and two independently visible final centers are resolved; nine is the retail count, not permission to add a ninth event.",
+      "Single apparent firing area; continuous performance timer, no observed speed edit. Full visible tail reviewed, but missing/unresolved ninth opening keeps excerpt scope."
+    ],
+    "observedEvents": [
+      {
+        "id": "whacky-tobacky-1",
+        "launch": 6.36,
+        "burst": 7.61,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-2",
+        "launch": 8.77,
+        "burst": 10.02,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-3",
+        "launch": 12.06,
+        "burst": 13.31,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-4",
+        "launch": 15.08,
+        "burst": 16.33,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-5",
+        "launch": 19.85,
+        "burst": 21.1,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-6",
+        "launch": 22.64,
+        "burst": 23.89,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-7",
+        "launch": 25.81,
+        "burst": 27.06,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "whacky-tobacky-8",
+        "launch": 25.84,
+        "burst": 27.09,
+        "effect": "willow",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "magnum-tremors",
+    "reference": "https://www.youtube.com/watch?v=VihP3cMcJi4",
+    "manufacturerCode": "RA57206",
+    "retailShots": 9,
+    "scope": "cake-sample",
+    "window": [
+      6.5,
+      37.9
+    ],
+    "notes": [
+      "Raccoon RA57206, 3-inch nine-shot rack; box and UPC match.",
+      "Six separated openings plus two resolved centers in the last cluster. Do not manufacture the unresolved ninth shot.",
+      "One apparent origin; no obvious internal edit or speed change. Ring perspective and central falling clusters are separate parts of each break."
+    ],
+    "observedEvents": [
+      {
+        "id": "magnum-tremors-1",
+        "launch": 6.83,
+        "burst": 8.19,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-2",
+        "launch": 10.61,
+        "burst": 12.09,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-3",
+        "launch": 15.0,
+        "burst": 16.32,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-4",
+        "launch": 18.77,
+        "burst": 20.19,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-5",
+        "launch": 22.62,
+        "burst": 24.02,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-6",
+        "launch": 26.96,
+        "burst": 28.26,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-7",
+        "launch": 30.63,
+        "burst": 31.98,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "magnum-tremors-8",
+        "launch": 30.73,
+        "burst": 32.22,
+        "effect": "palm",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "migraine",
+    "reference": "https://www.youtube.com/watch?v=ElEOhs6JI0U",
+    "manufacturerCode": "RA57207",
+    "retailShots": 9,
+    "scope": "cake-sample",
+    "window": [
+      7.4,
+      32.4
+    ],
+    "notes": [
+      "Exact RA57207 nine-shot rack, approved box and manufacturer demonstration.",
+      "Six isolated ring-and-tail effects are published before the overlapping silver finale. The final centers need separation; no invented three-shot fill.",
+      "Entire video reviewed; selected window is continuous with one apparent origin. All falling clusters are part of their own break."
+    ],
+    "observedEvents": [
+      {
+        "id": "migraine-1",
+        "launch": 7.58,
+        "burst": 8.82,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "migraine-2",
+        "launch": 11.63,
+        "burst": 12.87,
+        "effect": "ring",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "migraine-3",
+        "launch": 15.67,
+        "burst": 16.91,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "migraine-4",
+        "launch": 19.59,
+        "burst": 20.83,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "migraine-5",
+        "launch": 23.3,
+        "burst": 24.54,
+        "effect": "ring",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "migraine-6",
+        "launch": 27.35,
+        "burst": 28.59,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "neon-jellyfish",
+    "reference": "https://www.youtube.com/watch?v=UG_3QDM9310",
+    "manufacturerCode": "RA57212",
+    "retailShots": 9,
+    "scope": "cake-sample",
+    "window": [
+      6.2,
+      35.4
+    ],
+    "notes": [
+      "RA57212 nine-shot rack, approved package/UPC and official video agree.",
+      "Seven separate openings before the final overlapping cluster are included. Final centers remain unresolved, so the clip is not a complete nine-shot sequence.",
+      "Camera crops portions of early rings; later openings support the geometry, with ring perspective explicitly illustrative. No second firing area observed."
+    ],
+    "observedEvents": [
+      {
+        "id": "neon-jellyfish-1",
+        "launch": 6.39,
+        "burst": 7.57,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-2",
+        "launch": 9.74,
+        "burst": 10.92,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-3",
+        "launch": 14.16,
+        "burst": 15.34,
+        "effect": "ring",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-4",
+        "launch": 17.34,
+        "burst": 18.52,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-5",
+        "launch": 22.19,
+        "burst": 23.37,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-6",
+        "launch": 26.22,
+        "burst": 27.4,
+        "effect": "ring",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "neon-jellyfish-7",
+        "launch": 30.72,
+        "burst": 31.9,
+        "effect": "ring",
+        "colors": [
+          "#ef6c86",
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "sky-ink",
+    "reference": "https://www.youtube.com/watch?v=mFICypgeVm8",
+    "manufacturerCode": "BC6530",
+    "retailShots": 16,
+    "scope": "cake",
+    "window": [
+      1.95,
+      26.4
+    ],
+    "notes": [
+      "Black Cat Sky Ink, 16 shots and approved artwork are visible in the linked demonstration.",
+      "Twelve individual openings and four separated overlapping finale centers near 21.78\u201322.08; one apparent firing area. No performance cuts or speed changes observed.",
+      "Last sparse embers fade before 26.4; branded outro begins later. Source window excludes logo animation; duration is not the file length."
+    ],
+    "observedEvents": [
+      {
+        "id": "sky-ink-1",
+        "launch": 2.15,
+        "burst": 3.1,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-2",
+        "launch": 3.47,
+        "burst": 4.42,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-3",
+        "launch": 4.83,
+        "burst": 5.78,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-4",
+        "launch": 6.4,
+        "burst": 7.35,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-5",
+        "launch": 7.07,
+        "burst": 8.02,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-6",
+        "launch": 8.74,
+        "burst": 9.69,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-7",
+        "launch": 11.87,
+        "burst": 12.82,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-8",
+        "launch": 13.1,
+        "burst": 14.05,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-9",
+        "launch": 14.66,
+        "burst": 15.61,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-10",
+        "launch": 15.89,
+        "burst": 16.84,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-11",
+        "launch": 17.15,
+        "burst": 18.1,
+        "effect": "palm-glitter",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-12",
+        "launch": 18.39,
+        "burst": 19.34,
+        "effect": "palm-glitter",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-13",
+        "launch": 20.81,
+        "burst": 21.78,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-14",
+        "launch": 20.95,
+        "burst": 21.92,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-15",
+        "launch": 20.99,
+        "burst": 21.96,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "sky-ink-16",
+        "launch": 21.11,
+        "burst": 22.08,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "wild-horses",
+    "reference": "https://www.youtube.com/watch?v=w5QUlnKoDnA",
+    "manufacturerCode": "RA22002",
+    "retailShots": 25,
+    "scope": "cake-sample",
+    "window": [
+      7.2,
+      35.5
+    ],
+    "notes": [
+      "RA22002, 25 shots, manufacturer title and package match.",
+      "Eighteen independently resolved openings before the dense final cluster are published. Retail 25 is kept distinct; final overlap and any faint unresolved centers need further inspection.",
+      "The complete 39.641 s video was inspected; no obvious speed edit or second unit, but unresolved count prevents complete scope."
+    ],
+    "observedEvents": [
+      {
+        "id": "wild-horses-1",
+        "launch": 7.58,
+        "burst": 8.4,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-2",
+        "launch": 10.72,
+        "burst": 11.54,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-3",
+        "launch": 12.03,
+        "burst": 12.85,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-4",
+        "launch": 14.17,
+        "burst": 14.99,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-5",
+        "launch": 15.83,
+        "burst": 16.65,
+        "effect": "bouquet",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-6",
+        "launch": 16.81,
+        "burst": 17.63,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-7",
+        "launch": 18.29,
+        "burst": 19.11,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-8",
+        "launch": 18.9,
+        "burst": 19.72,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-9",
+        "launch": 20.15,
+        "burst": 20.97,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-10",
+        "launch": 21.86,
+        "burst": 22.68,
+        "effect": "bouquet",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-11",
+        "launch": 23.04,
+        "burst": 23.86,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-12",
+        "launch": 24.52,
+        "burst": 25.34,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-13",
+        "launch": 26.12,
+        "burst": 26.94,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-14",
+        "launch": 28.16,
+        "burst": 28.98,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-15",
+        "launch": 29.11,
+        "burst": 29.93,
+        "effect": "bouquet",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-16",
+        "launch": 30.63,
+        "burst": 31.45,
+        "effect": "bouquet",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-17",
+        "launch": 31.57,
+        "burst": 32.39,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "wild-horses-18",
+        "launch": 33.15,
+        "burst": 33.97,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "pyro-pilot",
+    "reference": "https://www.youtube.com/watch?v=zQST3i4YhlY&pp=ygUQcHlybyBwaWxvdCB3aW5kYQ%3D%3D",
+    "manufacturerCode": "P5182",
+    "retailShots": 25,
+    "scope": "cake-sample",
+    "window": [
+      4.25,
+      12.4
+    ],
+    "notes": [
+      "P5182 and Pyro Pilot artwork/25 shots on original video match the catalog; current maker URL retains former Top Maverick wording but code and UPC agree.",
+      "First five bursts only. Later close rising clusters and overlapping finale need independent component/timing review; full video inspected but those parts are not filled by repetition.",
+      "One apparent origin; no cuts or speed change inside the selected window."
+    ],
+    "observedEvents": [
+      {
+        "id": "pyro-pilot-1",
+        "launch": 4.43,
+        "burst": 5.28,
+        "effect": "palm-glitter",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "pyro-pilot-2",
+        "launch": 5.21,
+        "burst": 6.06,
+        "effect": "palm-glitter",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "pyro-pilot-3",
+        "launch": 7.35,
+        "burst": 8.2,
+        "effect": "palm-glitter",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "pyro-pilot-4",
+        "launch": 8.52,
+        "burst": 9.37,
+        "effect": "palm-glitter",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "pyro-pilot-5",
+        "launch": 9.63,
+        "burst": 10.48,
+        "effect": "palm-glitter",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "wild-west",
+    "reference": "https://www.youtube.com/watch?v=RbwodLEP4lw",
+    "manufacturerCode": "BP2924",
+    "retailShots": 25,
+    "scope": "cake",
+    "window": [
+      5.15,
+      31.3
+    ],
+    "notes": [
+      "Individual Brothers BP2924 25-shot cake and approved package match; not the four-cake assortment.",
+      "Five groups of five: red bouquets, white bouquets, blue stars, low rising multicolor spinners with reports, then crackling bouquets. The fourth group is not five spherical explosions.",
+      "One apparent firing area, continuous source timer, no internal edit or speed change observed. Last embers extinguish before the outro around 31.5 s.",
+      "Spiral radius and the lower height of the fourth group are illustrative visual geometry. Source launch and report timing retained separately."
+    ],
+    "observedEvents": [
+      {
+        "id": "wild-west-1",
+        "launch": 5.28,
+        "burst": 6.4,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-2",
+        "launch": 6.28,
+        "burst": 7.4,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-3",
+        "launch": 6.91,
+        "burst": 8.03,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-4",
+        "launch": 8.0,
+        "burst": 9.12,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-5",
+        "launch": 8.61,
+        "burst": 9.73,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-6",
+        "launch": 10.87,
+        "burst": 11.99,
+        "effect": "color-peony",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-7",
+        "launch": 11.67,
+        "burst": 12.79,
+        "effect": "color-peony",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-8",
+        "launch": 12.37,
+        "burst": 13.49,
+        "effect": "color-peony",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-9",
+        "launch": 13.28,
+        "burst": 14.4,
+        "effect": "color-peony",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-10",
+        "launch": 13.93,
+        "burst": 15.05,
+        "effect": "color-peony",
+        "colors": [
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-11",
+        "launch": 15.18,
+        "burst": 16.3,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-12",
+        "launch": 16.08,
+        "burst": 17.2,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-13",
+        "launch": 16.7,
+        "burst": 17.82,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-14",
+        "launch": 17.38,
+        "burst": 18.5,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-15",
+        "launch": 18.12,
+        "burst": 19.24,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-16",
+        "launch": 20.24,
+        "burst": 20.86,
+        "effect": "comet",
+        "colors": [
+          "#a7e8ae",
+          "#e3e7ec",
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-17",
+        "launch": 20.86,
+        "burst": 21.48,
+        "effect": "comet",
+        "colors": [
+          "#a7e8ae",
+          "#e3e7ec",
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-18",
+        "launch": 21.73,
+        "burst": 22.35,
+        "effect": "comet",
+        "colors": [
+          "#a7e8ae",
+          "#e3e7ec",
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-19",
+        "launch": 22.38,
+        "burst": 23.0,
+        "effect": "comet",
+        "colors": [
+          "#a7e8ae",
+          "#e3e7ec",
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-20",
+        "launch": 23.19,
+        "burst": 23.81,
+        "effect": "comet",
+        "colors": [
+          "#a7e8ae",
+          "#e3e7ec",
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-21",
+        "launch": 24.4,
+        "burst": 25.55,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-22",
+        "launch": 25.11,
+        "burst": 26.26,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-23",
+        "launch": 26.01,
+        "burst": 27.16,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-24",
+        "launch": 26.85,
+        "burst": 28.0,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "wild-west-25",
+        "launch": 27.76,
+        "burst": 28.91,
+        "effect": "bouquet",
+        "colors": [
+          "#d8b581"
+        ],
+        "lift": "observed"
+      }
+    ]
+  },
+  {
+    "productId": "nation-ovation",
+    "reference": "https://www.youtube.com/watch?v=EeZPscToUz0&pp=ygUUbmF0aW9uIG92YXRpb24gd2luZGE%3D",
+    "manufacturerCode": "P5184",
+    "retailShots": 16,
+    "scope": "cake-sample",
+    "window": [
+      6.05,
+      31.45
+    ],
+    "notes": [
+      "Winda P5184, 16 shots, UPC 705108518401 and approved presentation match.",
+      "Thirteen isolated openings before the overlapping closing cluster. Color changes and delayed crackle remain components of one opening, not extra shots.",
+      "Entire 35.421 s video inspected; no apparent speed edit or second unit. Final overlap near 31.6 s does not resolve every center, so no complete 16-shot claim."
+    ],
+    "observedEvents": [
+      {
+        "id": "nation-ovation-1",
+        "launch": 6.28,
+        "burst": 7.2,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-2",
+        "launch": 7.38,
+        "burst": 8.3,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86",
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-3",
+        "launch": 8.45,
+        "burst": 9.37,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-4",
+        "launch": 10.12,
+        "burst": 11.04,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-5",
+        "launch": 13.13,
+        "burst": 14.05,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-6",
+        "launch": 15.17,
+        "burst": 16.09,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-7",
+        "launch": 17.18,
+        "burst": 18.1,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86",
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-8",
+        "launch": 18.35,
+        "burst": 19.27,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86",
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-9",
+        "launch": 21.16,
+        "burst": 22.08,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-10",
+        "launch": 22.62,
+        "burst": 23.54,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86",
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-11",
+        "launch": 25.05,
+        "burst": 25.97,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-12",
+        "launch": 26.17,
+        "burst": 27.09,
+        "effect": "bouquet",
+        "colors": [
+          "#ef6c86"
+        ],
+        "lift": "observed"
+      },
+      {
+        "id": "nation-ovation-13",
+        "launch": 29.0,
+        "burst": 29.92,
+        "effect": "color-peony",
+        "colors": [
+          "#ef6c86",
+          "#e3e7ec"
+        ],
+        "lift": "observed"
+      }
+    ]
+  },
+  {
+    "productId": "dreams-from-heaven",
+    "reference": "https://www.youtube.com/watch?v=ro7nIqMhvx0",
+    "manufacturerCode": "RA22010",
+    "retailShots": 25,
+    "scope": "cake-sample",
+    "window": [
+      4.65,
+      30.15
+    ],
+    "notes": [
+      "Exact Raccoon RA22010, 25-shot cake, approved artwork and UPC 757201220101.",
+      "Eighteen individually resolved openings are retained, ending before the overlapping crackling finale near 30.4 s. The reference does not resolve all 25 centers, so no missing shots are synthesized.",
+      "Whole 35.121 s reference inspected. One apparent origin, no speed change observed; variable ring perspectives are illustrative. The final cluster is not miscounted as each of its crackling flowers."
+    ],
+    "observedEvents": [
+      {
+        "id": "dreams-from-heaven-1",
+        "launch": 5.08,
+        "burst": 5.8,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-2",
+        "launch": 5.93,
+        "burst": 6.65,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-3",
+        "launch": 7.48,
+        "burst": 8.2,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-4",
+        "launch": 8.83,
+        "burst": 9.55,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-5",
+        "launch": 9.82,
+        "burst": 10.54,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-6",
+        "launch": 10.42,
+        "burst": 11.14,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-7",
+        "launch": 11.58,
+        "burst": 12.3,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-8",
+        "launch": 13.02,
+        "burst": 13.74,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-9",
+        "launch": 14.6,
+        "burst": 15.32,
+        "effect": "color-peony",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-10",
+        "launch": 17.33,
+        "burst": 18.13,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-11",
+        "launch": 17.85,
+        "burst": 18.65,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-12",
+        "launch": 19.22,
+        "burst": 20.02,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-13",
+        "launch": 20.39,
+        "burst": 21.19,
+        "effect": "color-peony",
+        "colors": [
+          "#819fe1"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-14",
+        "launch": 22.37,
+        "burst": 23.09,
+        "effect": "palm",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-15",
+        "launch": 23.84,
+        "burst": 24.56,
+        "effect": "palm",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-16",
+        "launch": 24.61,
+        "burst": 25.33,
+        "effect": "palm",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-17",
+        "launch": 26.33,
+        "burst": 27.05,
+        "effect": "palm",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      },
+      {
+        "id": "dreams-from-heaven-18",
+        "launch": 27.08,
+        "burst": 27.8,
+        "effect": "palm",
+        "colors": [
+          "#a7e8ae"
+        ],
+        "lift": "illustrative locator"
+      }
+    ]
+  },
+  {
+    "productId": "strobing-willow",
+    "reference": "https://www.youtube.com/watch?v=prG4cr0TASo",
+    "scope": "extended-excerpt",
+    "window": [
+      6.65,
+      24.25
+    ],
+    "observedEvents": [
+      {
+        "burst": 15.73,
+        "color": "#819fe1"
+      },
+      {
+        "burst": 16.2,
+        "color": "#a7e8ae"
+      },
+      {
+        "burst": 16.64,
+        "color": "#ef6c86"
+      },
+      {
+        "burst": 17.08,
+        "color": "#e3e7ec"
+      },
+      {
+        "burst": 17.4,
+        "color": "#e3e7ec"
+      },
+      {
+        "burst": 17.7,
+        "color": "#819fe1"
+      },
+      {
+        "burst": 18.2,
+        "color": "#a7e8ae"
+      },
+      {
+        "burst": 18.82,
+        "color": "#ef6c86"
+      },
+      {
+        "burst": 19.36,
+        "color": "#e3e7ec"
+      },
+      {
+        "burst": 19.84,
+        "color": "#e3e7ec"
+      },
+      {
+        "burst": 20.18,
+        "color": "#819fe1"
+      },
+      {
+        "burst": 20.86,
+        "color": "#a7e8ae"
+      },
+      {
+        "burst": 21.48,
+        "color": "#ef6c86"
+      },
+      {
+        "burst": 22.04,
+        "color": "#e3e7ec"
+      },
+      {
+        "burst": 22.9,
+        "color": "#e3e7ec"
+      }
+    ],
+    "notes": [
+      "Original five events unchanged; no newly claimed total duration."
+    ]
+  }
+]
