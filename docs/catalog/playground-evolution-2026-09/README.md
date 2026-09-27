@@ -84,3 +84,6 @@ Los PDF conservan su generador intacto y las pruebas existentes de paginación/p
 - Antes de ampliar, resolver el conteo pendiente de Daffodil y Ghost Dragon con inspección más densa; buscar una toma completa de Fairies in a Jar. Ninguno debe convertirse en “Full sequence” sólo cambiando una etiqueta.
 - Siguiente lote sugerido: más muestras de artillery/canister con efecto identificable y cakes con abanicos o caídas prolongadas. Bamboozle continúa pendiente por su secuencia mixta compleja. No se añadió otra shell en este lote.
 - Para incorporar otro: seguir el método de la primera versión, añadir evidencia y perfil; actualizar índice/enriquecimiento; validar identidad, escena y continuidad de etapas; sync/check; revisar la secuencia frente al video y medir con cuatro. No deducir especificaciones de los valores del renderer.
+
+
+Actualización posterior: [escenarios y tanda aérea de 35 perfiles](../playground-navigation-2026-09/README.md). La validación nativa actual está pospuesta por decisión del usuario; los resultados y bloqueos de este informe son históricos.

@@ -1,6 +1,6 @@
 // Ephemeral playground selection is independent of My List and its storage.
-export const PLAYGROUND_SCENES = ['aerial', 'ground', 'close'];
-export const sceneLabel = scene => ({ aerial: 'Dallas sky', ground: 'Fountain field', close: 'Close effects' })[scene] || 'Scene';
+export const PLAYGROUND_SCENES = ['aerial', 'close', 'ground'];
+export const sceneLabel = scene => ({ aerial: 'Dallas Sky', ground: 'Close-up', close: 'Open Field' })[scene] || 'Scene';
 export const MAX_PLAYGROUND_SELECTION = 4;
 export const profileScene = (profile) => PLAYGROUND_SCENES.includes(profile.scene) ? profile.scene : null;
 export const profileGroup = profile => ({ 'shell-sample': 'Artillery Shells', 'candle-sample': 'Roman Candles', 'spinner-sample': 'Spinners', 'rocket-sample': 'Rockets', fountain: 'Fountains', 'fountain-sample': 'Fountains' })[profile.kind] || 'Cakes';
@@ -12,6 +12,20 @@ export function filterPlaygroundProfiles(profiles, group = 'All', search = '') {
   const query = search.trim().toLowerCase();
   if (group === 'Reloadables') group = 'Artillery Shells';
   return profiles.filter((p) => (group === 'All' || profileGroup(p) === group) && (!query || `${p.name} ${p.brand}`.toLowerCase().includes(query)));
+}
+// Catalog membership follows reviewed profile data, never product names/categories.
+export function playgroundCatalog(profiles, scene, group = 'All', search = '') {
+  const compatible = profiles.filter(p => profileScene(p) === scene);
+  const categories = [...new Set(compatible.map(profileGroup))];
+  const groups = categories.length > 1 ? ['All', ...categories] : [];
+  const normalized = group === 'Reloadables' ? 'Artillery Shells' : group;
+  const activeGroup = groups.includes(normalized) ? normalized : 'All';
+  return {
+    groups: groups.map(name => ({ name, count: filterPlaygroundProfiles(compatible, name).length })),
+    visible: filterPlaygroundProfiles(compatible, activeGroup, search),
+    total: compatible.length,
+    group: activeGroup,
+  };
 }
 export function sceneProfiles(profiles, ids, scene) {
   return [...new Set(ids)].map((id) => profiles.find((p) => p.productId === id)).filter((p) => p && profileScene(p) === scene).slice(0, MAX_PLAYGROUND_SELECTION);
@@ -29,22 +43,22 @@ export function restorePlaygroundSelection(profiles, value) {
   ]));
   return { scene, picks };
 }
-export const sceneChangeMessage = (scene) => scene === 'close' ? 'Switched to the close-effects field. Your other picks are saved.' : scene === 'ground'
-  ? 'Switched to the ground scene. Your other picks are saved.'
-  : 'Switched to the Dallas sky. Your other picks are saved.';
+export const sceneChangeMessage = scene => `${sceneLabel(scene)} selected. Your other picks are saved.`;
 export function updatePlaygroundSelection(profiles, value, action) {
   const state = restorePlaygroundSelection(profiles, value);
   const previous = state.scene;
   let limited = false;
   if (action.type === 'clear') state.picks[state.scene] = [];
   else if (action.type === 'scene' && PLAYGROUND_SCENES.includes(action.scene)) {
-    if (action.scene === previous) return { state, limited: false, message: 'This scene is already active. Your picks are unchanged.' };
+    if (action.scene === previous) return { state, limited: false, message: '' };
     state.scene = action.scene;
   }
   else if (action.type === 'toggle' || action.type === 'select') {
     const profile = profiles.find((p) => p.productId === action.id);
     const target = profile && profileScene(profile);
     if (!target) return { state, limited: false, message: 'This preview is unavailable.' };
+    // Only a product-detail entry may cross scenes; normal toggles stay scoped.
+    if (action.type === 'toggle' && target !== previous) return { state, limited: false, message: 'Choose this product in its scene.' };
     state.scene = target;
     const ids = state.picks[target];
     // A remembered pick activates its scene; only an active pick toggles off.
@@ -55,7 +69,7 @@ export function updatePlaygroundSelection(profiles, value, action) {
   }
   const message = [previous !== state.scene ? sceneChangeMessage(state.scene) : '',
     limited ? 'Four picks in this scene. Remove one before adding another.' : action.type === 'clear'
-      ? 'Active selection cleared. Your other scenes are saved.' : 'Playback reset. Press Play when ready.',
+      ? 'Active selection cleared. Your other scenes are saved.' : '',
   ].filter(Boolean).join(' ');
   return { state, limited, message };
 }

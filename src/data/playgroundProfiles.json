@@ -3571,13 +3571,13 @@
     },
     {
       "productId": "skybolt-rockets-5-pack",
-      "revision": 1,
+      "revision": 2,
       "status": "reviewed",
       "name": "Skybolt",
       "brand": "Brothers",
       "category": "Rockets",
       "kind": "rocket-sample",
-      "scene": "aerial",
+      "scene": "close",
       "playback": "automatic",
       "sampleLabel": "Single rocket burst sample",
       "duration": 2.1,
@@ -3600,7 +3600,7 @@
           "Official Brothers BP1217 video labels five separate rocket effects. Only BP1217-1 is profiled here.",
           "The lift cannot be resolved reliably in the reviewed frames; launch is hidden. No invented ascent.",
           "Separate labeled demonstrations have editing gaps, so the five-pack is not treated as a continuous sequence.",
-          "Aerial scene, automatic single rocket burst sample.",
+          "Open Field scene, automatic single rocket burst sample. Same distant burst framing; no city or invented ascent.",
           "Visual comparison corrected overly uniform red outline: irregular spoke lengths, pale green-white interior glitter, red tips fade earlier than the interior."
         ]
       },
@@ -5731,7 +5731,7 @@
         },
         {
           "id": "hot-dog-13",
-          "launch": 18.0,
+          "launch": 18,
           "burst": 18.75,
           "shape": "palm-glitter",
           "colors": [
@@ -6045,7 +6045,7 @@
         },
         {
           "id": "battle-cry-6",
-          "launch": 21.0,
+          "launch": 21,
           "burst": 22.3,
           "shape": "palm-glitter",
           "colors": [
@@ -6741,7 +6741,7 @@
           "breakCount": 1,
           "source": {
             "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
-            "segmentStart": 11.0,
+            "segmentStart": 11,
             "segmentEnd": 15.65,
             "reviewedOn": "2026-09-27",
             "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
@@ -7099,7 +7099,7 @@
           "source": {
             "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
             "segmentStart": 34.65,
-            "segmentEnd": 39.0,
+            "segmentEnd": 39,
             "reviewedOn": "2026-09-27",
             "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
             "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
@@ -7150,7 +7150,7 @@
           "breakCount": 1,
           "source": {
             "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
-            "segmentStart": 40.0,
+            "segmentStart": 40,
             "segmentEnd": 44.65,
             "reviewedOn": "2026-09-27",
             "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
@@ -7255,6 +7255,1752 @@
         }
       ],
       "effectOrder": "exploration"
+    },
+    {
+      "productId": "vertical-limit",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Vertical Limit",
+      "brand": "Cutting Edge",
+      "category": "200g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "playback": "automatic",
+      "sampleLabel": "Sequence excerpt",
+      "duration": 31.55,
+      "observedShots": 16,
+      "effects": [
+        "Gold branches",
+        "Delayed crackling flowers",
+        "Silver lift tails"
+      ],
+      "summary": "Golden branches spread into scattered crackling flowers, with a steady series of rising silver tails and warm falling sparks.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=vbqaM8cz2ZE",
+        "manufacturerCode": null,
+        "segmentStart": 6.8,
+        "segmentEnd": 38.35,
+        "reviewedOn": "2026-09-27",
+        "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+        "notes": [
+          "Cutting Edge package and 16-shot presentation match the inventory; single apparent launch area.",
+          "Sixteen distinct openings counted. No edit or speed change observed within 6.80–38.35; branded intro/outro excluded.",
+          "All sixteen openings are represented. Editorial fade begins with sparse embers still visible near 38.35–38.60; keep preview scope, not a verified full product duration. First three lift cues are visually unresolved and omitted."
+        ]
+      },
+      "verified": [
+        "Exact inventory identity, approved package image and reference title",
+        "Visible event order, colors and structure in the published window"
+      ],
+      "estimated": [
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "vertical-1",
+          "launch": 0.15,
+          "burst": 0.85,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 6101,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.1
+        },
+        {
+          "id": "vertical-2",
+          "launch": 2.56,
+          "burst": 3.26,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 6294,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.05
+        },
+        {
+          "id": "vertical-3",
+          "launch": 4.59,
+          "burst": 5.29,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 6487,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.04
+        },
+        {
+          "id": "vertical-4",
+          "launch": 7.01,
+          "burst": 7.71,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 6680,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.08
+        },
+        {
+          "id": "vertical-5",
+          "launch": 8.58,
+          "burst": 9.28,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 6873,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.02
+        },
+        {
+          "id": "vertical-6",
+          "launch": 10.13,
+          "burst": 10.83,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 7066,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.1
+        },
+        {
+          "id": "vertical-7",
+          "launch": 11.9,
+          "burst": 12.6,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 7259,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.06
+        },
+        {
+          "id": "vertical-8",
+          "launch": 13.05,
+          "burst": 13.75,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 7452,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.02
+        },
+        {
+          "id": "vertical-9",
+          "launch": 15.34,
+          "burst": 16.04,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 7645,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.07
+        },
+        {
+          "id": "vertical-10",
+          "launch": 17.34,
+          "burst": 18.04,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 7838,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.07
+        },
+        {
+          "id": "vertical-11",
+          "launch": 19.27,
+          "burst": 19.97,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8031,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.02
+        },
+        {
+          "id": "vertical-12",
+          "launch": 20.94,
+          "burst": 21.64,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8224,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.1
+        },
+        {
+          "id": "vertical-13",
+          "launch": 23.34,
+          "burst": 24.04,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8417,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.05
+        },
+        {
+          "id": "vertical-14",
+          "launch": 25.2,
+          "burst": 25.9,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8610,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": 0.09
+        },
+        {
+          "id": "vertical-15",
+          "launch": 26.94,
+          "burst": 27.64,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8803,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.08
+        },
+        {
+          "id": "vertical-16",
+          "launch": 28.25,
+          "burst": 28.95,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 2.6,
+          "seed": 8996,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 11,
+          "clusterArms": 7,
+          "clusterDelay": 0.94,
+          "clusterColors": [
+            "#f0cb86",
+            "#e9a16b"
+          ],
+          "clusterRadialMin": 0.3,
+          "clusterPointSize": 1.3,
+          "branchTrails": true,
+          "branchColor": "#c8a071",
+          "y": -0.02
+        }
+      ]
+    },
+    {
+      "productId": "one-bad-mother-in-law",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "One Bad Mother-In-Law",
+      "brand": "World-Class",
+      "category": "500g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "playback": "automatic",
+      "sampleLabel": "Sequence excerpt",
+      "duration": 33.4,
+      "observedShots": 16,
+      "effects": [
+        "Red and green pearls",
+        "Golden branches",
+        "Silver crackling flowers",
+        "Grouped final volley"
+      ],
+      "summary": "Red and green pearls ride bright golden branches, followed by dense silver crackling flowers. A closely grouped final volley fills the sky with sparkling clusters.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=RCZOKivGERU",
+        "manufacturerCode": null,
+        "segmentStart": 0.8,
+        "segmentEnd": 34.2,
+        "reviewedOn": "2026-09-27",
+        "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+        "notes": [
+          "World-Class 16-shot 500g presentation and approved package match the OCFireworks reference.",
+          "Twelve separated openings followed by four distinct overlapping finale centers around 30.80–30.97; individual onset estimates, not a new firing pattern.",
+          "One apparent unit; no visible edit or speed change in the performance.",
+          "All sixteen openings are represented, but sparse final embers meet the recording boundary. Retain excerpt status; 33.4 seconds is this preview, not a verified total product duration."
+        ]
+      },
+      "verified": [
+        "Exact inventory identity, approved package image and reference title",
+        "Visible event order, colors and structure in the published window"
+      ],
+      "estimated": [
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "mother-1",
+          "launch": 0.37,
+          "burst": 1.07,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 6101,
+          "x": 0,
+          "launchVisible": true,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-2",
+          "launch": 2.41,
+          "burst": 3.11,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 6294,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-3",
+          "launch": 5.39,
+          "burst": 6.09,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 6487,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-4",
+          "launch": 7.63,
+          "burst": 8.33,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 6680,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-5",
+          "launch": 10.43,
+          "burst": 11.13,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 6873,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-6",
+          "launch": 12.38,
+          "burst": 13.08,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 7066,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-7",
+          "launch": 14.54,
+          "burst": 15.24,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 7259,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-8",
+          "launch": 16.99,
+          "burst": 17.69,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 7452,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-9",
+          "launch": 18.95,
+          "burst": 19.65,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 7645,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-10",
+          "launch": 21.39,
+          "burst": 22.09,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 7838,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-11",
+          "launch": 24.64,
+          "burst": 25.34,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8031,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-12",
+          "launch": 26.67,
+          "burst": 27.37,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8224,
+          "x": 0,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0
+        },
+        {
+          "id": "mother-13",
+          "launch": 29.3,
+          "burst": 30,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8417,
+          "x": -0.07,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": -0.01
+        },
+        {
+          "id": "mother-14",
+          "launch": 29.37,
+          "burst": 30.07,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8610,
+          "x": -0.04,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0.02
+        },
+        {
+          "id": "mother-15",
+          "launch": 29.4,
+          "burst": 30.1,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8803,
+          "x": 0.01,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0.01
+        },
+        {
+          "id": "mother-16",
+          "launch": 29.47,
+          "burst": 30.17,
+          "shape": "bouquet",
+          "colors": [
+            "#f0cb86"
+          ],
+          "life": 3.15,
+          "seed": 8996,
+          "x": 0.04,
+          "launchVisible": false,
+          "clusters": 18,
+          "clusterArms": 17,
+          "clusterDelay": 0.88,
+          "clusterColors": [
+            "#e2e5dd",
+            "#f0cb86"
+          ],
+          "clusterRadialMin": 0.28,
+          "clusterPointSize": 1.5,
+          "branchTrails": true,
+          "branchColor": "#e5d4ae",
+          "accent": {
+            "count": 16,
+            "colors": [
+              "#ee5865",
+              "#9be6a4",
+              "#f0cb86"
+            ],
+            "life": 1.3,
+            "radius": 0.96,
+            "radialMin": 0.38,
+            "size": 2.6
+          },
+          "y": 0.06
+        }
+      ]
+    },
+    {
+      "productId": "strobing-willow",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Strobing Willow",
+      "brand": "Raccoon",
+      "category": "200g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "playback": "automatic",
+      "sampleLabel": "Sequence excerpt",
+      "duration": 9,
+      "observedShots": 5,
+      "effects": [
+        "Blue, green and red pearls",
+        "Warm willow trails",
+        "Pale glitter"
+      ],
+      "summary": "Blue, green and red pearls open above warm willow trails, followed by pale glittering branches that linger as they fall.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=prG4cr0TASo",
+        "manufacturerCode": "RA22004",
+        "segmentStart": 6.65,
+        "segmentEnd": 15.65,
+        "reviewedOn": "2026-09-27",
+        "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+        "notes": [
+          "Official RA22004 title, on-screen model and 200g package match the catalog.",
+          "Publish the first five individually resolved openings only; later faster openings and overlapping finale need finer center separation before extending to the 25-shot retail sequence.",
+          "No cut or speed change within the published window; one apparent launch area. The excerpt ends after the fifth tail, before the next opening. No artificial repeated finale."
+        ]
+      },
+      "verified": [
+        "Exact inventory identity, approved package image and reference title",
+        "Visible event order, colors and structure in the published window"
+      ],
+      "estimated": [
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "strobing-1",
+          "launch": 0,
+          "burst": 0.22,
+          "shape": "palm-glitter",
+          "colors": [
+            "#8ba9f4"
+          ],
+          "life": 2.2,
+          "seed": 6101,
+          "x": 0,
+          "launchVisible": false,
+          "arms": 14,
+          "radius": 114,
+          "trailColor": "#c5ad86",
+          "trailSeconds": 0.39,
+          "radialMin": 0.3,
+          "angleJitter": 0.33,
+          "glitterCount": 18,
+          "glitterColor": "#e2e5dd",
+          "glitterBrightness": 1.1,
+          "tipLife": 1.05,
+          "gravity": 13
+        },
+        {
+          "id": "strobing-2",
+          "launch": 0.53,
+          "burst": 1.23,
+          "shape": "palm-glitter",
+          "colors": [
+            "#9be6a4"
+          ],
+          "life": 2.2,
+          "seed": 6294,
+          "x": 0,
+          "launchVisible": false,
+          "arms": 14,
+          "radius": 114,
+          "trailColor": "#c5ad86",
+          "trailSeconds": 0.39,
+          "radialMin": 0.3,
+          "angleJitter": 0.33,
+          "glitterCount": 18,
+          "glitterColor": "#e2e5dd",
+          "glitterBrightness": 1.1,
+          "tipLife": 1.05,
+          "gravity": 13
+        },
+        {
+          "id": "strobing-3",
+          "launch": 2.38,
+          "burst": 3.08,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ee5865"
+          ],
+          "life": 2.2,
+          "seed": 6487,
+          "x": 0,
+          "launchVisible": false,
+          "arms": 14,
+          "radius": 114,
+          "trailColor": "#c5ad86",
+          "trailSeconds": 0.39,
+          "radialMin": 0.3,
+          "angleJitter": 0.33,
+          "glitterCount": 18,
+          "glitterColor": "#e2e5dd",
+          "glitterBrightness": 1.1,
+          "tipLife": 1.05,
+          "gravity": 13
+        },
+        {
+          "id": "strobing-4",
+          "launch": 4.11,
+          "burst": 4.81,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e2e5dd"
+          ],
+          "life": 2.2,
+          "seed": 6680,
+          "x": 0,
+          "launchVisible": false,
+          "arms": 14,
+          "radius": 114,
+          "trailColor": "#c5ad86",
+          "trailSeconds": 0.39,
+          "radialMin": 0.3,
+          "angleJitter": 0.33,
+          "glitterCount": 18,
+          "glitterColor": "#e2e5dd",
+          "glitterBrightness": 1.1,
+          "tipLife": 1.05,
+          "gravity": 13
+        },
+        {
+          "id": "strobing-5",
+          "launch": 6.06,
+          "burst": 6.76,
+          "shape": "palm-glitter",
+          "colors": [
+            "#e2e5dd"
+          ],
+          "life": 2.2,
+          "seed": 6873,
+          "x": 0,
+          "launchVisible": false,
+          "arms": 14,
+          "radius": 114,
+          "trailColor": "#c5ad86",
+          "trailSeconds": 0.39,
+          "radialMin": 0.3,
+          "angleJitter": 0.33,
+          "glitterCount": 18,
+          "glitterColor": "#e2e5dd",
+          "glitterBrightness": 1.1,
+          "tipLife": 1.05,
+          "gravity": 13
+        }
+      ]
+    },
+    {
+      "productId": "g-force-24-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "G-Force",
+      "brand": "Winda",
+      "category": "Artillery Shells",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "playback": "manual-shell",
+      "sampleLabel": "Individual shell samples",
+      "duration": 3.9,
+      "observedShots": 1,
+      "effects": [
+        "Red and green pearls",
+        "Silver and gold glitter",
+        "Golden palms",
+        "Crackling flowers"
+      ],
+      "summary": "Explore red and green pearls, silver glitter, golden palms and dense crackling flowers. The twelve documented effects vary in color, structure and persistence.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+        "manufacturerCode": "P8031",
+        "segmentStart": 4.75,
+        "segmentEnd": 8.65,
+        "reviewedOn": "2026-09-27",
+        "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+        "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+        "notes": [
+          "Winda P8031, 24-shell retail package, UPC 705108803101; yellow package in reference corresponds to the approved catalog identity.",
+          "Full 57.181-second official video inspected: twelve separated single-break samples, one launch per effect. Never use 96 shipping-case shots as the retail limit.",
+          "Intro fade at about 4.1 seconds; performance clock runs continuously after it. No split screen or simultaneous independent units observed. No speed change observed.",
+          "Exploration order follows the twelve visible reference samples, not official numbered shells. Current manufacturer effect list is not used to invent twelve unseen variants.",
+          "Older manufacturer demonstration may differ between production lots; reviewed package/model match, lot correspondence is unverified. Upper edge of some bursts extends beyond reference framing; illustrative radial extent estimated."
+        ]
+      },
+      "verified": [
+        "Exact inventory identity, approved package image and reference title",
+        "Visible event order, colors and structure in the published window"
+      ],
+      "estimated": [
+        "Event timing approximately ±0.15 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, scale, persistence and original synthesized audio"
+      ],
+      "events": [
+        {
+          "id": "g-force-1",
+          "launch": 0.08,
+          "burst": 0.93,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ee5865",
+            "#e9a16b"
+          ],
+          "life": 2.87,
+          "seed": 6101,
+          "x": 0,
+          "launchVisible": false,
+          "radius": 154,
+          "arms": 20,
+          "radialMin": 0.35,
+          "trailSeconds": 0.15,
+          "glitterCount": 60,
+          "glitterColor": "#f0cb86",
+          "glitterBrightness": 1.3,
+          "tipLife": 1.35
+        }
+      ],
+      "shellCount": 24,
+      "documentedEffects": 12,
+      "effectOrder": "exploration",
+      "shellEffects": [
+        {
+          "id": "g-force-effect-1",
+          "label": "Red pearls and warm glitter",
+          "duration": 3.9,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 4.75,
+            "segmentEnd": 8.65,
+            "burstTime": 5.68
+          },
+          "events": [
+            {
+              "id": "g-force-1",
+              "launch": 0.08,
+              "burst": 0.93,
+              "shape": "palm-glitter",
+              "colors": [
+                "#ee5865",
+                "#e9a16b"
+              ],
+              "life": 2.87,
+              "seed": 6101,
+              "x": 0,
+              "launchVisible": false,
+              "radius": 154,
+              "arms": 20,
+              "radialMin": 0.35,
+              "trailSeconds": 0.15,
+              "glitterCount": 60,
+              "glitterColor": "#f0cb86",
+              "glitterBrightness": 1.3,
+              "tipLife": 1.35
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-2",
+          "label": "Gold crackling flowers",
+          "duration": 3.75,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 8.75,
+            "segmentEnd": 12.5,
+            "burstTime": 9.65
+          },
+          "events": [
+            {
+              "id": "g-force-2",
+              "launch": 0.08,
+              "burst": 0.9,
+              "shape": "bouquet",
+              "colors": [
+                "#f0cb86"
+              ],
+              "life": 2.75,
+              "seed": 6294,
+              "x": 0,
+              "launchVisible": false,
+              "radius": 154,
+              "clusters": 30,
+              "clusterArms": 14,
+              "clusterDelay": 0.38,
+              "clusterColors": [
+                "#f0cb86",
+                "#e2e5dd"
+              ],
+              "clusterRadialMin": 0.25,
+              "clusterPointSize": 1.3,
+              "branchTrails": true,
+              "branchColor": "#f0cb86"
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-3",
+          "label": "Red stars with silver glitter",
+          "duration": 3.5,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 13.05,
+            "segmentEnd": 16.55,
+            "burstTime": 14.15
+          },
+          "events": [
+            {
+              "id": "g-force-3",
+              "launch": 0.08,
+              "burst": 1.1,
+              "shape": "palm-glitter",
+              "colors": [
+                "#ee5865"
+              ],
+              "life": 2.3,
+              "seed": 6487,
+              "x": 0,
+              "launchVisible": false,
+              "radius": 154,
+              "arms": 24,
+              "radialMin": 0.45,
+              "trailSeconds": 0.12,
+              "glitterCount": 66,
+              "glitterColor": "#e2e5dd",
+              "glitterBrightness": 1.25,
+              "tipLife": 1.3
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-4",
+          "label": "Green pearls and gold glitter",
+          "duration": 3.35,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 17.65,
+            "segmentEnd": 21,
+            "burstTime": 18.85
+          },
+          "events": [
+            {
+              "id": "g-force-4",
+              "launch": 0.08,
+              "burst": 1.2,
+              "shape": "palm-glitter",
+              "colors": [
+                "#9be6a4"
+              ],
+              "life": 2.05,
+              "seed": 6680,
+              "x": 0,
+              "launchVisible": false,
+              "radius": 154,
+              "arms": 24,
+              "radialMin": 0.35,
+              "trailSeconds": 0.12,
+              "glitterCount": 72,
+              "glitterColor": "#f0cb86",
+              "glitterBrightness": 1.4,
+              "tipLife": 1.4
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-5",
+          "label": "Pale palm with gold fall",
+          "duration": 4.3,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 21.7,
+            "segmentEnd": 26,
+            "burstTime": 23.2
+          },
+          "events": [
+            {
+              "id": "g-force-5",
+              "launch": 0.08,
+              "burst": 1.5,
+              "shape": "palm",
+              "colors": [
+                "#bb9de5",
+                "#e2e5dd"
+              ],
+              "life": 2.7,
+              "seed": 6873,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 23,
+              "radialMin": 0.55,
+              "trailSeconds": 0.39,
+              "trailColor": "#f0cb86",
+              "glitterCount": 20,
+              "tipLife": 1.3,
+              "gravity": 12
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-6",
+          "label": "Golden palm and pale glitter",
+          "duration": 4.65,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 27,
+            "segmentEnd": 31.65,
+            "burstTime": 28.65
+          },
+          "events": [
+            {
+              "id": "g-force-6",
+              "launch": 0.08,
+              "burst": 1.65,
+              "shape": "palm-glitter",
+              "colors": [
+                "#f0cb86"
+              ],
+              "life": 2.9,
+              "seed": 7066,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 22,
+              "radialMin": 0.5,
+              "trailSeconds": 0.48,
+              "trailColor": "#f0cb86",
+              "glitterCount": 32,
+              "glitterColor": "#daead6",
+              "gravity": 11
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-7",
+          "label": "Green pearls with copper spokes",
+          "duration": 3.75,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 32.3,
+            "segmentEnd": 36.05,
+            "burstTime": 33.72
+          },
+          "events": [
+            {
+              "id": "g-force-7",
+              "launch": 0.08,
+              "burst": 1.42,
+              "shape": "palm-glitter",
+              "colors": [
+                "#9be6a4",
+                "#f0cb86"
+              ],
+              "life": 2.23,
+              "seed": 7259,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 19,
+              "radialMin": 0.4,
+              "trailSeconds": 0.21,
+              "trailColor": "#e9a16b",
+              "glitterCount": 36,
+              "glitterColor": "#e2e5dd",
+              "tipLife": 1.35
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-8",
+          "label": "Red-tipped golden palm",
+          "duration": 3.8,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 36.2,
+            "segmentEnd": 40,
+            "burstTime": 37.5
+          },
+          "events": [
+            {
+              "id": "g-force-8",
+              "launch": 0.08,
+              "burst": 1.3,
+              "shape": "palm",
+              "colors": [
+                "#ee5865"
+              ],
+              "life": 2.4,
+              "seed": 7452,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 20,
+              "radialMin": 0.4,
+              "trailSeconds": 0.27,
+              "trailColor": "#f0cb86",
+              "glitterCount": 28,
+              "tipLife": 1.35
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-9",
+          "label": "Green-tipped golden palm",
+          "duration": 3.95,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 40.05,
+            "segmentEnd": 44,
+            "burstTime": 41.65
+          },
+          "events": [
+            {
+              "id": "g-force-9",
+              "launch": 0.08,
+              "burst": 1.6,
+              "shape": "palm",
+              "colors": [
+                "#9be6a4"
+              ],
+              "life": 2.25,
+              "seed": 7645,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 21,
+              "radialMin": 0.42,
+              "trailSeconds": 0.26,
+              "trailColor": "#f0cb86",
+              "glitterCount": 25,
+              "tipLife": 1.4
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-10",
+          "label": "Orange palm fading to gold",
+          "duration": 4.15,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 43.65,
+            "segmentEnd": 47.8,
+            "burstTime": 45.18
+          },
+          "events": [
+            {
+              "id": "g-force-10",
+              "launch": 0.08,
+              "burst": 1.53,
+              "shape": "palm",
+              "colors": [
+                "#e9a16b"
+              ],
+              "life": 2.52,
+              "seed": 7838,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 22,
+              "radialMin": 0.5,
+              "trailSeconds": 0.33,
+              "trailColor": "#f0cb86",
+              "glitterCount": 28,
+              "tipLife": 1.6
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-11",
+          "label": "Multicolor pearls and silver glitter",
+          "duration": 3.85,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 48.15,
+            "segmentEnd": 52,
+            "burstTime": 49.82
+          },
+          "events": [
+            {
+              "id": "g-force-11",
+              "launch": 0.08,
+              "burst": 1.67,
+              "shape": "palm-glitter",
+              "colors": [
+                "#ee5865",
+                "#9be6a4",
+                "#8ba9f4",
+                "#bb9de5"
+              ],
+              "life": 2.08,
+              "seed": 8031,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 24,
+              "radialMin": 0.36,
+              "trailSeconds": 0.15,
+              "glitterCount": 48,
+              "glitterColor": "#e2e5dd",
+              "tipLife": 1.25
+            }
+          ]
+        },
+        {
+          "id": "g-force-effect-12",
+          "label": "Long golden branches",
+          "duration": 4.85,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+            "segmentStart": 52,
+            "segmentEnd": 56.85,
+            "burstTime": 53.32
+          },
+          "events": [
+            {
+              "id": "g-force-12",
+              "launch": 0.08,
+              "burst": 1.32,
+              "shape": "palm-glitter",
+              "colors": [
+                "#f0cb86"
+              ],
+              "life": 3.43,
+              "seed": 8224,
+              "x": 0,
+              "launchVisible": true,
+              "radius": 154,
+              "arms": 25,
+              "radialMin": 0.5,
+              "trailSeconds": 0.49,
+              "trailColor": "#f0cb86",
+              "glitterCount": 34,
+              "glitterColor": "#d8e1cf",
+              "gravity": 11
+            }
+          ]
+        }
+      ]
     }
   ]
 }

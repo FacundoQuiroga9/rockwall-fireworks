@@ -1,0 +1,80 @@
+[
+  {
+    "id": "vertical-limit",
+    "demonstration": {
+      "summary": "Golden branches spread into scattered crackling flowers, with a steady series of rising silver tails and warm falling sparks.",
+      "effects": [
+        "Gold branches",
+        "Delayed crackling flowers",
+        "Silver lift tails"
+      ],
+      "durationSeconds": 31.55,
+      "scope": "Sequence excerpt",
+      "observedShots": 16,
+      "confirmedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=vbqaM8cz2ZE",
+      "segmentStart": 6.8,
+      "segmentEnd": 38.35,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-navigation-2026-09."
+    }
+  },
+  {
+    "id": "one-bad-mother-in-law",
+    "demonstration": {
+      "summary": "Red and green pearls ride bright golden branches, followed by dense silver crackling flowers. A closely grouped final volley fills the sky with sparkling clusters.",
+      "effects": [
+        "Red and green pearls",
+        "Golden branches",
+        "Silver crackling flowers",
+        "Grouped final volley"
+      ],
+      "durationSeconds": 33.4,
+      "scope": "Sequence excerpt",
+      "observedShots": 16,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=RCZOKivGERU",
+      "segmentStart": 0.8,
+      "segmentEnd": 34.2,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-navigation-2026-09."
+    }
+  },
+  {
+    "id": "strobing-willow",
+    "demonstration": {
+      "summary": "Blue, green and red pearls open above warm willow trails, followed by pale glittering branches that linger as they fall.",
+      "effects": [
+        "Blue, green and red pearls",
+        "Warm willow trails",
+        "Pale glitter"
+      ],
+      "durationSeconds": 9.0,
+      "scope": "Sequence excerpt",
+      "observedShots": 5,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=prG4cr0TASo",
+      "segmentStart": 6.65,
+      "segmentEnd": 15.65,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-navigation-2026-09."
+    }
+  },
+  {
+    "id": "g-force-24-pack",
+    "demonstration": {
+      "summary": "Red and green pearls, silver glitter, golden palms and dense crackling flowers offer a varied mix of colors, shapes and lingering trails.",
+      "effects": [
+        "Red and green pearls",
+        "Silver and gold glitter",
+        "Golden palms",
+        "Crackling flowers"
+      ],
+      "durationSeconds": 3.9,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=7pGhF7fvvN0",
+      "segmentStart": 4.75,
+      "segmentEnd": 8.65,
+      "note": "Internal evidence and coverage limits: docs/catalog/playground-navigation-2026-09."
+    }
+  }
+]

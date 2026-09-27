@@ -1,0 +1,70 @@
+{
+  "productId": "skybolt-rockets-5-pack",
+  "revision": 1,
+  "status": "reviewed",
+  "name": "Skybolt",
+  "brand": "Brothers",
+  "category": "Rockets",
+  "kind": "rocket-sample",
+  "scene": "aerial",
+  "playback": "automatic",
+  "sampleLabel": "Single rocket burst sample",
+  "duration": 2.1,
+  "observedShots": 1,
+  "effects": [
+    "Red tips",
+    "Silver spokes",
+    "Short pale glitter"
+  ],
+  "summary": "Red-tipped silver spokes open around a compact scattering of pale sparks.",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=UOJQVjB-d4w",
+    "manufacturerCode": "BP1217",
+    "segmentStart": 7.7,
+    "segmentEnd": 9.8,
+    "reviewedOn": "2026-09-26",
+    "method": "Actual muted video, paused frame stepping and timestamped contact sheets. No audio copied.",
+    "evidenceDirectory": "docs/catalog/playground-controls-2026-09/evidence",
+    "notes": [
+      "Official Brothers BP1217 video labels five separate rocket effects. Only BP1217-1 is profiled here.",
+      "The lift cannot be resolved reliably in the reviewed frames; launch is hidden. No invented ascent.",
+      "Separate labeled demonstrations have editing gaps, so the five-pack is not treated as a continuous sequence.",
+      "Aerial scene, automatic single rocket burst sample.",
+      "Visual comparison corrected overly uniform red outline: irregular spoke lengths, pale green-white interior glitter, red tips fade earlier than the interior."
+    ]
+  },
+  "verified": [
+    "Exact product identity and package presentation",
+    "Visible colors, structure and event count within this sample"
+  ],
+  "estimated": [
+    "Timing uncertainty approximately 0.2 seconds",
+    "Illustrative trajectories, scale, persistence and original synthesized audio"
+  ],
+  "events": [
+    {
+      "id": "skybolt-variant-1",
+      "launch": 0,
+      "burst": 0.2,
+      "shape": "palm",
+      "colors": [
+        "#f45561"
+      ],
+      "life": 1.8,
+      "seed": 4441,
+      "x": 0,
+      "arms": 16,
+      "radius": 116,
+      "trailColor": "#e5ddc7",
+      "trailSeconds": 0.18,
+      "glitterCount": 24,
+      "launchVisible": false,
+      "radialMin": 0.32,
+      "angleJitter": 0.32,
+      "glitterBrightness": 1.8,
+      "glitterPointSize": 1.45,
+      "glitterColor": "#dcebdc",
+      "tipLife": 1.1
+    }
+  ]
+}

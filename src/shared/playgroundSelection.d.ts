@@ -9,6 +9,7 @@ export function profileScene(profile: Profile): PlaygroundScene | null;
 export function profileGroup(profile: Profile): string;
 export function togglePlaygroundSelection(ids: string[], id: string): { ids: string[]; limited: boolean };
 export function filterPlaygroundProfiles<T extends Profile>(profiles: T[], group?: string, search?: string): T[];
+export function playgroundCatalog<T extends Profile>(profiles: T[], scene: PlaygroundScene, group?: string, search?: string): { groups: { name: string; count: number }[]; visible: T[]; total: number; group: string };
 export function sceneProfiles<T extends Profile>(profiles: T[], ids: string[], scene: string): T[];
 export function restorePlaygroundSelection(profiles: Profile[], value?: unknown): PlaygroundSelection;
 export function updatePlaygroundSelection(profiles: Profile[], value: PlaygroundSelection, action: { type: string; id?: string; scene?: string }): { state: PlaygroundSelection; limited: boolean; message: string };

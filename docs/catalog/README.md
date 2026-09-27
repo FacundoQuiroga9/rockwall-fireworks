@@ -73,3 +73,6 @@ Para reencuadrar recursos desde originales preservados: `npm run catalog:frame -
 
 
 Continuación actual del Playground: [continuidad, bases reales y 13 perfiles](playground-continuity-2026-09/README.md). La fuente de copy sigue en el overlay de evolution; `video-updates.json` de continuity se aplica después de video-research para preservar la referencia completa de Fairies.
+
+
+Iteración vigente del Playground: [navegación por tres escenarios y 35 perfiles](playground-navigation-2026-09/README.md). Incluye auditoría del sistema de lanzamiento de shells. Revisión visual nativa pospuesta por decisión del usuario; mantener sync/check, TypeScript, lint y pruebas automáticas.

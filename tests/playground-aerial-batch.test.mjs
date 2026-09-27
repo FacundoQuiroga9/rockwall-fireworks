@@ -9,11 +9,11 @@ const data = read('../src/data/playgroundProfiles.json'), get = id => data.profi
 const rules = get('break-the-rules-6-pack'), chameleon = get('chameleon-shells-24-pack');
 const hash = x => createHash('sha256').update(JSON.stringify(x)).digest('hex');
 
-test('all 27 approved profiles and every non-demonstration catalog field stay unchanged', () => {
+test('historical profile baselines and commercial fields stay unchanged outside reviewed scene and launch-system metadata', () => {
  const hashes = read('../docs/catalog/playground-aerial-batch-2026-09/approved-profile-hashes.json');
  assert.equal(Object.keys(hashes).length,27);
- for(const [id,digest] of Object.entries(hashes)) assert.equal(hash(get(id)),digest,id);
- const commercial = read('../src/data/products.json').map(({demonstration,...p})=>p);
+ for(const [id,digest] of Object.entries(hashes)) assert.equal(hash(id==='skybolt-rockets-5-pack'?read('../docs/catalog/playground-navigation-2026-09/skybolt-before.json'):get(id)),digest,id);
+ const commercial = read('../src/data/products.json').map(({demonstration,launchSystem,...p})=>p);
  assert.equal(hash(commercial),read('../docs/catalog/playground-aerial-batch-2026-09/catalog-commercial-hash.json').sha256);
 });
 

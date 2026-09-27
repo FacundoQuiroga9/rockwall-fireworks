@@ -7,19 +7,20 @@ import { buildPlaygroundDocument } from '../src/shared/playgroundDocument.js';
 import { createFountainModel } from '../src/shared/playgroundFountain.js';
 const profiles = JSON.parse(readFileSync(new URL('../src/data/playgroundProfiles.json', import.meta.url))).profiles;
 const aerial = profiles.filter(p=>p.scene==='aerial'), ground=profiles.filter(p=>p.scene==='ground');
+const select=(state,id)=>updatePlaygroundSelection(profiles,state,{type:'select',id});
 const toggle=(state,id)=>updatePlaygroundSelection(profiles,state,{type:'toggle',id});
 
-test('selecting either family automatically switches, saves and restores each scene without toggling off a remembered pick', () => {
+test('product detail entry switches, saves and restores each scene without toggling off a remembered pick', () => {
   let state=restorePlaygroundSelection(profiles);
-  state=toggle(state,aerial[0].productId).state;
-  const switched=toggle(state,ground[0].productId); state=switched.state;
+  state=select(state,aerial[0].productId).state;
+  const switched=select(state,ground[0].productId); state=switched.state;
   assert.equal(state.scene,'ground'); assert.match(switched.message,/other picks are saved/);
   assert.deepEqual(state.picks.aerial,[aerial[0].productId]);
-  state=toggle(state,ground[1].productId).state;
-  const returned=toggle(state,aerial[0].productId);state=returned.state;
-  assert.equal(state.scene,'aerial');assert.match(returned.message,/Dallas sky/);
+  state=select(state,ground[1].productId).state;
+  const returned=select(state,aerial[0].productId);state=returned.state;
+  assert.equal(state.scene,'aerial');assert.match(returned.message,/Dallas Sky/);
   assert.deepEqual(state.picks.aerial,[aerial[0].productId]);assert.equal(state.picks.ground.length,2);
-  state=toggle(state,ground[2].productId).state;
+  state=select(state,ground[2].productId).state;
   assert.deepEqual(state.picks.ground,ground.slice(0,3).map(p=>p.productId));
   savePlaygroundSession(profiles,state);
   assert.deepEqual(getPlaygroundSession(profiles).state,state);
@@ -29,21 +30,21 @@ test('selecting either family automatically switches, saves and restores each sc
 
 test('a full destination restores four, reports the limit and never replaces or adds a fifth', () => {
   let state=restorePlaygroundSelection(profiles);
-  for(const p of aerial.slice(0,4))state=toggle(state,p.productId).state;
-  state=toggle(state,ground[0].productId).state;
-  const result=toggle(state,aerial[4].productId);
+  for(const p of aerial.slice(0,4))state=select(state,p.productId).state;
+  state=select(state,ground[0].productId).state;
+  const result=select(state,aerial[4].productId);
   assert.equal(result.state.scene,'aerial');assert.equal(result.limited,true);assert.match(result.message,/Four picks/);
   assert.deepEqual(result.state.picks.aerial,aerial.slice(0,4).map(p=>p.productId));
   const selectedAgain=updatePlaygroundSelection(profiles,result.state,{type:'select',id:aerial[0].productId});
   assert.deepEqual(selectedAgain.state.picks.aerial,result.state.picks.aerial);
   const fiveGround=[...profiles,{...ground[0],productId:'fifth-ground'}];
   const fullGround=restorePlaygroundSelection(fiveGround,{scene:'aerial',picks:{ground:ground.map(p=>p.productId)}});
-  const g=updatePlaygroundSelection(fiveGround,fullGround,{type:'toggle',id:'fifth-ground'});
+  const g=updatePlaygroundSelection(fiveGround,fullGround,{type:'select',id:'fifth-ground'});
   assert.equal(g.limited,true);assert.equal(g.state.scene,'ground');assert.equal(g.state.picks.ground.length,4);
 });
 
 test('filters never alter selection; clear and last deselection affect only the active scene', () => {
-  let state=toggle(toggle(undefined,aerial[0].productId).state,ground[0].productId).state;
+  let state=select(select(undefined,aerial[0].productId).state,ground[0].productId).state;
   const before=structuredClone(state);
   for(const filter of ['All','Cakes','Fountains','Artillery Shells'])filterPlaygroundProfiles(profiles,filter,'no match');
   assert.deepEqual(state,before);

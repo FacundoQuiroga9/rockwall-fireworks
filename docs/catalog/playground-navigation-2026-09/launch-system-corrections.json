@@ -1,0 +1,242 @@
+[
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "brand": "Black Cat",
+    "image": "/images/products/diablo.webp",
+    "expectedPresentation": "5-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://blackcatfireworks.com/top-10-best-artillery-shell-kits-black-cat/"
+    ],
+    "evidence": "Manufacturer explicitly identifies Diablo as an artillery shell kit; catalog UPC 715244063291, original 5-inch 24-pack. Do not substitute Diablo Select.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "name": "Neon Diablo",
+    "brand": "Black Cat",
+    "image": "/images/products/neon-diablo-24-pack.webp",
+    "expectedPresentation": "5-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://blackcatfireworks.com/fireworks/reloadables/neon-diablo-24/"
+    ],
+    "evidence": "Manufacturer exact 24-pack under Reloadables; 5-inch presentation retained.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "name": "The Patriot",
+    "brand": "Black Cat",
+    "image": "/images/products/the-patriot-24-pack.webp",
+    "expectedPresentation": "6-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://blackcatfireworks.com/fireworks/reloadables/the-patriot/"
+    ],
+    "evidence": "Manufacturer BC6438, 24 six-inch canisters under Reloadables. No change to retail quantity or break counts.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "brand": "Winda",
+    "image": "/images/products/double-dragon-6-pack.webp",
+    "expectedPresentation": "6-inch shells \u00b7 6-piece pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/double-dragon-shell-kit/"
+    ],
+    "evidence": "Exact P8044 / UPC 705108804405: six shells, twelve breaks, one launch tube; explicitly reloadable kit; corroborated by official Winda P8044 page.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "brand": "Winda",
+    "image": "/images/products/chameleon-shells-24-pack.webp",
+    "expectedPresentation": "5-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/chameleon-shells-5/"
+    ],
+    "evidence": "Exact Winda P8050 24-pack five-inch variant listed as Reloadable Shell Kit; not the similarly named ball-shell package.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "brand": "Winda",
+    "image": "/images/products/g-force-24-pack.webp",
+    "expectedPresentation": "4-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/g-force/"
+    ],
+    "evidence": "Exact P8031 / UPC 705108803101 / 24 retail shells explicitly identified as reloadable kit; manufacturer page and approved blue-tube/yellow package corroborate identity.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "brand": "Raccoon",
+    "image": "/images/products/peacock-spider-24-pack.webp",
+    "expectedPresentation": "5-inch shells \u00b7 24 pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/peacock-spider/"
+    ],
+    "evidence": "Exact original RA32408 24-pack five-inch package listed as Reloadable Shell Kits; official UPC 757201324083 corroborates identity, not RA32408C compact packaging.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "brand": "Brothers",
+    "image": "/images/products/full-speed-24-pack.webp",
+    "expectedPresentation": "7-inch shells \u00b7 24 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/801"
+    ],
+    "evidence": "Official BP-A113, twenty-four seven-inch shells, Artillery Shell Kit; separate shells and launchers in approved package. Multiple breaks do not change shell count.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "brand": "Brothers",
+    "image": "/images/products/maelstrom-24-pack.webp",
+    "expectedPresentation": "6-inch shells \u00b7 24 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/827"
+    ],
+    "evidence": "Official BP-A109, six-inch 24-effect Artillery Shell Kit, matched original package with separate shells and launch tubes.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "brand": "Brothers",
+    "image": "/images/products/quest-24-pack.webp",
+    "expectedPresentation": "4-inch shells \u00b7 24 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1156"
+    ],
+    "evidence": "Official BP-A053-2/24 Artillery Shell Kit matched to approved 24-shell retail package, separate launchers. Not the 12-shell variant.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "brand": "Brothers",
+    "image": "/images/products/ruckus-12-pack.webp",
+    "expectedPresentation": "12 ball shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/829"
+    ],
+    "evidence": "Official BP2690 lists twelve separate ball shells and Artillery Shell Kit; matched approved photograph shows separate shells and launcher.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "brand": "Raccoon",
+    "image": "/images/products/arms-depot-16-pack.webp",
+    "expectedPresentation": "4-inch shells \u00b7 16 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/arms-depot/"
+    ],
+    "evidence": "Exact RA11601 / UPC 757201116015 explicitly reloadable canisters: 16 shells, 2 tubes; launch-system status only, no commercial quantity rewrite.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "brand": "Raccoon",
+    "image": "/images/products/break-the-rules-6-pack.webp",
+    "expectedPresentation": "6-inch shells \u00b7 6 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://elevatedfireworks.com/collections/reloadable-shell-kits/products/break-the-rules-6-shot-6-in-canister-shells"
+    ],
+    "evidence": "Exact original RA60601 / UPC 757201606011 six-shell Artillery Shell Kit in reloadable-kit collection; manufacturer model and approved package match, no compact variant substitution.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "brand": "Raccoon",
+    "image": "/images/products/flawless-24-pack.webp",
+    "expectedPresentation": "5-inch shells \u00b7 24 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/flawless/"
+    ],
+    "evidence": "Exact RA32409 24-pack five-inch canisters listed as Reloadable Shell Kits; USA Fireworks corroborates UPC 757201324090 and four tubes.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "brand": "Raccoon",
+    "image": "/images/products/sniper-fire-12-pack.webp",
+    "expectedPresentation": "4-inch shells \u00b7 12 shells",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/sniper-fire/"
+    ],
+    "evidence": "Exact RA11201 / UPC 757201112017 explicitly reloadable canister system, twelve-shell retail presentation; shipping-case ambiguity remains excluded.",
+    "reviewedAt": "2026-09-27"
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "brand": "Raccoon",
+    "image": "/images/products/nishiki-blast-6-pack.webp",
+    "expectedPresentation": "5-inch shells \u00b7 6-pack",
+    "fields": {
+      "launchSystem": "reloadable-kit"
+    },
+    "sources": [
+      "https://americanwholesalefireworks.com/nishiki-blast-5/"
+    ],
+    "evidence": "Original RA30603 six-pack five-inch kit, matching catalog UPC 757201306034. Reloadable kit; not Holy Nishiki 24-pack or compact C replacement.",
+    "reviewedAt": "2026-09-27"
+  }
+]

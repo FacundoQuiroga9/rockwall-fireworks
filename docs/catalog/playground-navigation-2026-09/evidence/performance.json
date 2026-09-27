@@ -1,0 +1,80 @@
+[
+  {
+    "mode": "aerial",
+    "requested": "auto",
+    "compact": false,
+    "seconds": 40,
+    "drawnFps": 59.62,
+    "meanDrawMs": 0.277,
+    "p95DrawMs": 0.5,
+    "maxDrawMs": 1,
+    "p95FrameMs": 16.80000000000291,
+    "over50ms": 0,
+    "peakActiveParticles": 878,
+    "peakDrawnPoints": 903,
+    "peakBudget": 3200,
+    "heapPeakBytes": 25076487,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      11
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  {
+    "mode": "aerial",
+    "requested": "high",
+    "compact": false,
+    "seconds": 40,
+    "drawnFps": 60.02,
+    "meanDrawMs": 0.259,
+    "p95DrawMs": 0.5,
+    "maxDrawMs": 0.9000000059604645,
+    "p95FrameMs": 16.80000000000291,
+    "over50ms": 0,
+    "peakActiveParticles": 878,
+    "peakDrawnPoints": 903,
+    "peakBudget": 3200,
+    "heapPeakBytes": 25678147,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      11
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  {
+    "mode": "manual",
+    "requested": "high",
+    "compact": false,
+    "seconds": 40,
+    "drawnFps": 60,
+    "meanDrawMs": 0.466,
+    "p95DrawMs": 0.9000000059604645,
+    "maxDrawMs": 1.2999999970197678,
+    "p95FrameMs": 16.79999999998836,
+    "over50ms": 0,
+    "peakActiveParticles": 767,
+    "peakDrawnPoints": 1588,
+    "peakBudget": 3200,
+    "heapPeakBytes": 26766471,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      11,
+      10,
+      6,
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "id": "festival-balls-reloadable",
+    "name": "Festival Balls",
+    "brand": "Monkey Mania",
+    "manufacturerCode": null,
+    "presentation": "6-piece pack \u00b7 yellow box",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "neon-beef",
+    "name": "Neon Beef",
+    "brand": "Winda",
+    "manufacturerCode": null,
+    "presentation": null,
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "brand": "Black Cat",
+    "manufacturerCode": null,
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://blackcatfireworks.com/top-10-best-artillery-shell-kits-black-cat/"
+    ],
+    "evidence": "Manufacturer explicitly identifies Diablo as an artillery shell kit; catalog UPC 715244063291, original 5-inch 24-pack. Do not substitute Diablo Select."
+  },
+  {
+    "id": "futurama-artillery",
+    "name": "Futurama Artillery",
+    "brand": "Raccoon",
+    "manufacturerCode": null,
+    "presentation": null,
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "festival-balls-artillery",
+    "name": "Festival Balls",
+    "brand": "Black Cat",
+    "manufacturerCode": null,
+    "presentation": null,
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "mother-of-all-fireworks",
+    "name": "Mother of All Fireworks",
+    "brand": "Raccoon",
+    "manufacturerCode": null,
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "neon-skies",
+    "name": "Neon Skies",
+    "brand": "Raccoon",
+    "manufacturerCode": null,
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "neon-diablo-24-pack",
+    "name": "Neon Diablo",
+    "brand": "Black Cat",
+    "manufacturerCode": null,
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://blackcatfireworks.com/fireworks/reloadables/neon-diablo-24/"
+    ],
+    "evidence": "Manufacturer exact 24-pack under Reloadables; 5-inch presentation retained."
+  },
+  {
+    "id": "the-patriot-24-pack",
+    "name": "The Patriot",
+    "brand": "Black Cat",
+    "manufacturerCode": null,
+    "presentation": "6-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://blackcatfireworks.com/fireworks/reloadables/the-patriot/"
+    ],
+    "evidence": "Manufacturer BC6438, 24 six-inch canisters under Reloadables. No change to retail quantity or break counts."
+  },
+  {
+    "id": "double-dragon-6-pack",
+    "name": "Double Dragon",
+    "brand": "Winda",
+    "manufacturerCode": "P8044",
+    "presentation": "6-inch shells \u00b7 6-piece pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/double-dragon-shell-kit/"
+    ],
+    "evidence": "Exact P8044 / UPC 705108804405: six shells, twelve breaks, one launch tube; explicitly reloadable kit; corroborated by official Winda P8044 page."
+  },
+  {
+    "id": "land-of-the-free",
+    "name": "Land of the Free",
+    "brand": "Monkey Mania",
+    "manufacturerCode": "MM40002",
+    "presentation": "36 shells \u00b7 54 breaks",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "chameleon-shells-24-pack",
+    "name": "Chameleon Shells",
+    "brand": "Winda",
+    "manufacturerCode": "P8050",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/chameleon-shells-5/"
+    ],
+    "evidence": "Exact Winda P8050 24-pack five-inch variant listed as Reloadable Shell Kit; not the similarly named ball-shell package."
+  },
+  {
+    "id": "g-force-24-pack",
+    "name": "G-Force",
+    "brand": "Winda",
+    "manufacturerCode": "P8031",
+    "presentation": "4-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/g-force/"
+    ],
+    "evidence": "Exact P8031 / UPC 705108803101 / 24 retail shells explicitly identified as reloadable kit; manufacturer page and approved blue-tube/yellow package corroborate identity."
+  },
+  {
+    "id": "king-dragon-24-pack",
+    "name": "King Dragon",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA62401A/B/C/D",
+    "presentation": "6-inch shells \u00b7 24 pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "peacock-spider-24-pack",
+    "name": "Peacock Spider",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA32408",
+    "presentation": "5-inch shells \u00b7 24 pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/peacock-spider/"
+    ],
+    "evidence": "Exact original RA32408 24-pack five-inch package listed as Reloadable Shell Kits; official UPC 757201324083 corroborates identity, not RA32408C compact packaging."
+  },
+  {
+    "id": "raise-the-dead-24-pack",
+    "name": "Raise the Dead",
+    "brand": "Winda",
+    "manufacturerCode": "P8057",
+    "presentation": "7-inch shells \u00b7 24 pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "full-speed-24-pack",
+    "name": "Full Speed Fireworks",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A113",
+    "presentation": "7-inch shells \u00b7 24 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/801"
+    ],
+    "evidence": "Official BP-A113, twenty-four seven-inch shells, Artillery Shell Kit; separate shells and launchers in approved package. Multiple breaks do not change shell count."
+  },
+  {
+    "id": "maelstrom-24-pack",
+    "name": "Maelstrom",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A109",
+    "presentation": "6-inch shells \u00b7 24 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/827"
+    ],
+    "evidence": "Official BP-A109, six-inch 24-effect Artillery Shell Kit, matched original package with separate shells and launch tubes."
+  },
+  {
+    "id": "quest-24-pack",
+    "name": "Quest",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A053-2/24",
+    "presentation": "4-inch shells \u00b7 24 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/1156"
+    ],
+    "evidence": "Official BP-A053-2/24 Artillery Shell Kit matched to approved 24-shell retail package, separate launchers. Not the 12-shell variant."
+  },
+  {
+    "id": "ruckus-12-pack",
+    "name": "Ruckus",
+    "brand": "Brothers",
+    "manufacturerCode": "BP2690",
+    "presentation": "12 ball shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://www.brotherspyrotechnics.com/ProductDetails/829"
+    ],
+    "evidence": "Official BP2690 lists twelve separate ball shells and Artillery Shell Kit; matched approved photograph shows separate shells and launcher."
+  },
+  {
+    "id": "serious-equipment",
+    "name": "Serious Equipment",
+    "brand": "Brothers",
+    "manufacturerCode": "BP-A011",
+    "presentation": "48 shells \u00b7 82 breaks",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "arms-depot-16-pack",
+    "name": "Arms Depot",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA11601",
+    "presentation": "4-inch shells \u00b7 16 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/arms-depot/"
+    ],
+    "evidence": "Exact RA11601 / UPC 757201116015 explicitly reloadable canisters: 16 shells, 2 tubes; launch-system status only, no commercial quantity rewrite."
+  },
+  {
+    "id": "break-the-rules-6-pack",
+    "name": "Break the Rules",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA60601",
+    "presentation": "6-inch shells \u00b7 6 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://elevatedfireworks.com/collections/reloadable-shell-kits/products/break-the-rules-6-shot-6-in-canister-shells"
+    ],
+    "evidence": "Exact original RA60601 / UPC 757201606011 six-shell Artillery Shell Kit in reloadable-kit collection; manufacturer model and approved package match, no compact variant substitution."
+  },
+  {
+    "id": "flawless-24-pack",
+    "name": "Flawless",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA32409",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/flawless/"
+    ],
+    "evidence": "Exact RA32409 24-pack five-inch canisters listed as Reloadable Shell Kits; USA Fireworks corroborates UPC 757201324090 and four tubes."
+  },
+  {
+    "id": "ghostacular-24-pack",
+    "name": "Ghostacular",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA32406",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "home-of-the-brave",
+    "name": "Home of the Brave",
+    "brand": "Monkey Mania",
+    "manufacturerCode": "MM40003",
+    "presentation": "48 shells \u00b7 72 breaks",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "let-freedom-ring-24-pack",
+    "name": "Let Freedom Ring",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA32405A/B/C/D",
+    "presentation": "5-inch shells \u00b7 24 shells",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "sniper-fire-12-pack",
+    "name": "Sniper Fire",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA11201",
+    "presentation": "4-inch shells \u00b7 12 shells",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://usa-fireworks.com/products/artillery-shells/sniper-fire/"
+    ],
+    "evidence": "Exact RA11201 / UPC 757201112017 explicitly reloadable canister system, twelve-shell retail presentation; shipping-case ambiguity remains excluded."
+  },
+  {
+    "id": "tiger-force-24-pack",
+    "name": "Tiger Force",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA62402",
+    "presentation": "6-inch shells \u00b7 24 shells",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  },
+  {
+    "id": "mini-artillery-12-pack",
+    "name": "1-inch Mini Artillery Shells",
+    "brand": "Cutting Edge",
+    "manufacturerCode": null,
+    "presentation": "1-inch shells \u00b7 12-pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "whistling-buster-6-pack",
+    "name": "Whistling Buster",
+    "brand": "T-Sky",
+    "manufacturerCode": null,
+    "presentation": "6 shells \u00b7 1 tube",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "excalibur-24-pack",
+    "name": "Excalibur",
+    "brand": "World-Class",
+    "manufacturerCode": null,
+    "presentation": "4-inch shells \u00b7 24-pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "nishiki-blast-6-pack",
+    "name": "Nishiki Blast",
+    "brand": "Raccoon",
+    "manufacturerCode": null,
+    "presentation": "5-inch shells \u00b7 6-pack",
+    "status": "confirmed",
+    "launchSystem": "reloadable-kit",
+    "sources": [
+      "https://americanwholesalefireworks.com/nishiki-blast-5/"
+    ],
+    "evidence": "Original RA30603 six-pack five-inch kit, matching catalog UPC 757201306034. Reloadable kit; not Holy Nishiki 24-pack or compact C replacement."
+  },
+  {
+    "id": "raccoon-5-inch-24-pack",
+    "name": "Raccoon 5-inch Canister Shells",
+    "brand": "Raccoon",
+    "manufacturerCode": null,
+    "presentation": "5-inch shells \u00b7 24-pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "super-magnum-12-pack",
+    "name": "Super Magnum",
+    "brand": "World-Class",
+    "manufacturerCode": null,
+    "presentation": "12 shells",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "united-we-stand-48-pack",
+    "name": "United We Stand",
+    "brand": "World-Class",
+    "manufacturerCode": null,
+    "presentation": "48 shells \u00b7 84 breaks",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "goliath-36-shells",
+    "name": "Goliath",
+    "brand": "World-Class",
+    "manufacturerCode": null,
+    "presentation": "36 shells",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "Exact manufacturer model is absent from the canonical record; matched launch-system documentation is still needed. No non-reloadable inference."
+  },
+  {
+    "id": "ring-of-honor-6-pack",
+    "name": "Ring of Honor",
+    "brand": "Raccoon",
+    "manufacturerCode": "RA30605",
+    "presentation": "5-inch shells \u00b7 6-pack",
+    "status": "pending",
+    "launchSystem": null,
+    "reason": "No product-level launch-system confirmation reviewed for this exact retail presentation; category aliases and shell counts alone are insufficient."
+  }
+]

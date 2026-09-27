@@ -47,7 +47,7 @@ test('manual run retains its last particles, clears on selection, and new famili
   assert.equal(c.snapshot().shells[0].busy,true);assert.ok(c.snapshot().renderEvents[0].length);
   c.tick(shells[0].duration*1000+1);assert.equal(c.snapshot().state,'waiting');assert.equal(c.snapshot().shells[0].available,true);
   c.select([]);assert.deepEqual(c.snapshot().renderEvents,{});assert.deepEqual(c.tick(999999).cues,[]);
-  const close=profiles.filter(p=>p.scene==='close');assert.equal(close.length,2);
+  const close=profiles.filter(p=>p.scene==='close');assert.equal(close.length,3);
   let state=updatePlaygroundSelection(profiles,undefined,{type:'select',id:shells[0].productId}).state;
   state=updatePlaygroundSelection(profiles,state,{type:'select',id:close[0].productId}).state;
   assert.equal(state.scene,'close');assert.deepEqual(state.picks.aerial,[shells[0].productId]);

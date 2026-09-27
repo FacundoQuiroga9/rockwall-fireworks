@@ -1,4 +1,4 @@
-import { shellPackageLabel } from '../shared/catalogCategory';
+import { shellPackageLabel, launchSystemLabel } from '../shared/catalogCategory';
 import BogoBadge from '../components/productCarousel/BogoBadge';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -100,6 +100,7 @@ export default function ProductPage() {
             <BrandMark brand={product.brand} />
             {product.bogo && <p className="detail-bogo"><BogoBadge product={product} /><br /><strong>Buy One, Get One</strong><br />Marked BOGO in our source catalog. Current dates and conditions need store confirmation. Prepare a pair with another BOGO product in the same category in My List.</p>}
             {product.presentation && <p className="detail-presentation">{product.presentation}</p>}
+            {launchSystemLabel(product) && <p className="detail-presentation">Launch system: {launchSystemLabel(product)}</p>}
             {product.shellPackage && <p className="detail-presentation">{shellPackageLabel(product)}</p>}
             {product.description && <p className="detail-description">{product.description}</p>}
             {product.features?.length > 0 && (

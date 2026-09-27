@@ -122,5 +122,21 @@
   {
     "productId": "chameleon-shells-24-pack",
     "kind": "shell-sample"
+  },
+  {
+    "productId": "vertical-limit",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "one-bad-mother-in-law",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "strobing-willow",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "g-force-24-pack",
+    "kind": "shell-sample"
   }
 ]
