@@ -117,7 +117,7 @@ export function run({ check = false } = {}) {
   const sceneVideos = read(resolve(webRoot, 'docs/catalog/playground-scenes-2026-09/video-updates.json'));
   let products = applyCommercialCorrections(applyVideoCorrections(applyVideoCorrections(applyVideoCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCommercialCorrections(applyCopyCorrections(applyManualCorrections(master, corrections), copyCorrections), commerce), cakeResearch), latestCakes), videos), continuityVideos), sceneVideos), ownerCakes);
   products = applyCommercialCorrections(products, read(resolve(webRoot, 'docs/catalog/playground-controls-2026-09/shell-category-review.json')));
-  for (const entry of [...read(resolve(webRoot, 'docs/catalog/playground-evolution-2026-09/catalog-enrichment.json')), ...read(resolve(webRoot, 'docs/catalog/playground-controls-2026-09/catalog-enrichment.json')), ...read(resolve(webRoot, 'docs/catalog/playground-depth-2026-09/catalog-enrichment.json'))]) {
+  for (const entry of [...read(resolve(webRoot, 'docs/catalog/playground-evolution-2026-09/catalog-enrichment.json')), ...read(resolve(webRoot, 'docs/catalog/playground-controls-2026-09/catalog-enrichment.json')), ...read(resolve(webRoot, 'docs/catalog/playground-depth-2026-09/catalog-enrichment.json')), ...read(resolve(webRoot, 'docs/catalog/playground-aerial-batch-2026-09/catalog-enrichment.json'))]) {
     const product = products.find((p) => p.id === entry.id);
     if (!product || product.previewVideo !== entry.demonstration.sourceUrl) throw new Error('Demonstration identity changed: ' + entry.id);
     product.demonstration = entry.demonstration;

@@ -1,0 +1,80 @@
+[
+  {
+    "mode": "aerial",
+    "requested": "auto",
+    "compact": false,
+    "seconds": 40.001,
+    "drawnFps": 47.9,
+    "meanDrawMs": 1.967,
+    "p95DrawMs": 4.399999991059303,
+    "maxDrawMs": 82.5,
+    "p95FrameMs": 33.39999999999782,
+    "over50ms": 4,
+    "peakActiveParticles": 444,
+    "peakDrawnPoints": 1931,
+    "peakBudget": 3200,
+    "heapPeakBytes": 47046268,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  {
+    "mode": "aerial",
+    "requested": "high",
+    "compact": false,
+    "seconds": 40,
+    "drawnFps": 49.45,
+    "meanDrawMs": 1.142,
+    "p95DrawMs": 2.4000000059604645,
+    "maxDrawMs": 4.200000002980232,
+    "p95FrameMs": 33.39999999999418,
+    "over50ms": 0,
+    "peakActiveParticles": 444,
+    "peakDrawnPoints": 1948,
+    "peakBudget": 3200,
+    "heapPeakBytes": 46484461,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  {
+    "mode": "manual",
+    "requested": "high",
+    "compact": false,
+    "seconds": 40.016,
+    "drawnFps": 50.85,
+    "meanDrawMs": 0.89,
+    "p95DrawMs": 2.2999999970197678,
+    "maxDrawMs": 4,
+    "p95FrameMs": 33.39999999999418,
+    "over50ms": 0,
+    "peakActiveParticles": 766,
+    "peakDrawnPoints": 1574,
+    "peakBudget": 3200,
+    "heapPeakBytes": 39400642,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      6,
+      10,
+      6,
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  }
+]

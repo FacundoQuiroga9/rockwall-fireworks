@@ -5400,6 +5400,1861 @@
         "note": "Observed exhaustion at absolute 81.5–82.5 s. Remaining sparse sparks complete their trajectory; no added product stage."
       },
       "playbackDuration": 79.6
+    },
+    {
+      "productId": "hot-dog",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Hot Dog",
+      "brand": "World-Class",
+      "category": "200g Cakes",
+      "kind": "cake",
+      "scene": "aerial",
+      "sampleLabel": "Full cake sequence",
+      "duration": 23.65,
+      "observedShots": 16,
+      "effects": [
+        "Silver and gold brocade",
+        "Close pairs",
+        "Rapid sparkling finale"
+      ],
+      "summary": "Silver and gold brocade crowns rise in singles and close pairs, finishing with a tightly grouped shower of sparkling trails.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=TcKkLNEQ-hE",
+        "segmentStart": 3.55,
+        "segmentEnd": 27.2,
+        "reviewedOn": "2026-09-27",
+        "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+        "notes": [
+          "World-Class Hot Dog, 16 shots, 200g. Matching green retail box and World-Class title in the Iowa Fireworks Farm demonstration. No model code invented.",
+          "Sixteen centers including pairs around 6.12/6.35 and 19.85/20.03, and four overlapping finale centers around 22.30–22.57. Last group reviewed with paused stepping. Final palette is shared silver/gold; fine center timings are estimates through overlap.",
+          "One apparent launch origin; no performance cuts or speed changes observed. The ground is outside the frame, so unit count cannot be independently inspected at the base. The complete visible performance and tail are retained, excluding title/outro."
+        ]
+      },
+      "verified": [
+        "Exact catalog identity and retail presentation",
+        "Visible principal colors, structures and openings within the reviewed windows"
+      ],
+      "estimated": [
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
+      ],
+      "events": [
+        {
+          "id": "hot-dog-1",
+          "launch": 0.04,
+          "burst": 0.63,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31001,
+          "x": -0.018,
+          "launchVisible": true,
+          "arms": 18,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.03
+        },
+        {
+          "id": "hot-dog-2",
+          "launch": 1.82,
+          "burst": 2.57,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31102,
+          "x": 0.012,
+          "launchVisible": true,
+          "arms": 20,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.035
+        },
+        {
+          "id": "hot-dog-3",
+          "launch": 2.05,
+          "burst": 2.8,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31203,
+          "x": -0.01,
+          "launchVisible": true,
+          "arms": 17,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": -0.055
+        },
+        {
+          "id": "hot-dog-4",
+          "launch": 3.74,
+          "burst": 4.49,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31304,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 22,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.02
+        },
+        {
+          "id": "hot-dog-5",
+          "launch": 5.87,
+          "burst": 6.62,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31405,
+          "x": 0.02,
+          "launchVisible": true,
+          "arms": 18,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": -0.015
+        },
+        {
+          "id": "hot-dog-6",
+          "launch": 7.49,
+          "burst": 8.24,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31506,
+          "x": -0.012,
+          "launchVisible": true,
+          "arms": 19,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.04
+        },
+        {
+          "id": "hot-dog-7",
+          "launch": 8.64,
+          "burst": 9.39,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31607,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 20,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.07
+        },
+        {
+          "id": "hot-dog-8",
+          "launch": 10.27,
+          "burst": 11.02,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31708,
+          "x": -0.018,
+          "launchVisible": true,
+          "arms": 18,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.04
+        },
+        {
+          "id": "hot-dog-9",
+          "launch": 11.85,
+          "burst": 12.6,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31809,
+          "x": 0.014,
+          "launchVisible": true,
+          "arms": 21,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.045
+        },
+        {
+          "id": "hot-dog-10",
+          "launch": 13.51,
+          "burst": 14.26,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 31910,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 19,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.06
+        },
+        {
+          "id": "hot-dog-11",
+          "launch": 15.55,
+          "burst": 16.3,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 32011,
+          "x": -0.012,
+          "launchVisible": true,
+          "arms": 18,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.03
+        },
+        {
+          "id": "hot-dog-12",
+          "launch": 15.73,
+          "burst": 16.48,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 2.6,
+          "seed": 32112,
+          "x": 0.015,
+          "launchVisible": true,
+          "arms": 19,
+          "radius": 124,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": -0.04
+        },
+        {
+          "id": "hot-dog-13",
+          "launch": 18.0,
+          "burst": 18.75,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 32213,
+          "x": -0.014,
+          "launchVisible": true,
+          "arms": 20,
+          "radius": 132,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.045
+        },
+        {
+          "id": "hot-dog-14",
+          "launch": 18.08,
+          "burst": 18.83,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 32314,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 18,
+          "radius": 132,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": -0.03
+        },
+        {
+          "id": "hot-dog-15",
+          "launch": 18.14,
+          "burst": 18.89,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 32415,
+          "x": 0.018,
+          "launchVisible": true,
+          "arms": 22,
+          "radius": 132,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.015
+        },
+        {
+          "id": "hot-dog-16",
+          "launch": 18.27,
+          "burst": 19.02,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 32516,
+          "x": -0.01,
+          "launchVisible": true,
+          "arms": 20,
+          "radius": 132,
+          "radialMin": 0.4,
+          "angleJitter": 0.18,
+          "trailColor": "#e2d4ba",
+          "trailSeconds": 0.78,
+          "glitterCount": 45,
+          "gravity": 15,
+          "tipLife": 1.7,
+          "y": 0.06
+        }
+      ]
+    },
+    {
+      "productId": "battle-cry",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Battle Cry",
+      "brand": "Raccoon",
+      "category": "500g Cakes",
+      "kind": "cake-sample",
+      "scene": "aerial",
+      "sampleLabel": "Cake excerpt",
+      "duration": 35.6,
+      "observedShots": 8,
+      "effects": [
+        "Broad silver crowns",
+        "Red and green stars",
+        "Lingering white glitter"
+      ],
+      "summary": "Broad silver crowns unfold into red, green and cool white glittering stars, with evenly spaced, lingering bursts.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=TKlNeHeOap4",
+        "segmentStart": 5.9,
+        "segmentEnd": 41.5,
+        "reviewedOn": "2026-09-27",
+        "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+        "notes": [
+          "Raccoon RA57203, 500g commercial cake group, 9-shot rack. Exact code/title and box match the catalog.",
+          "The entire 42.081-second video was reviewed, including the opening. Only eight centers are visible: 7.08, 11.30, 15.25, 19.25, 24.08, 28.20, 33.15, 37.78. No ninth event is invented; retain excerpt scope despite observing the last visible tail.",
+          "Static view and one apparent origin; no interior performance cuts or speed changes detected. Title ends near 5.9. Retail shot count remains distinct from eight reviewed events."
+        ],
+        "manufacturerCode": "RA57203"
+      },
+      "verified": [
+        "Exact catalog identity and retail presentation",
+        "Visible principal colors, structures and openings within the reviewed windows"
+      ],
+      "estimated": [
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
+      ],
+      "events": [
+        {
+          "id": "battle-cry-1",
+          "launch": 0.05,
+          "burst": 1.18,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33101,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#f67590"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-2",
+          "launch": 4.1,
+          "burst": 5.4,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33214,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#a2e876"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-3",
+          "launch": 8.05,
+          "burst": 9.35,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33327,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#bbd5f2"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-4",
+          "launch": 12.05,
+          "burst": 13.35,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33440,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#f67590"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-5",
+          "launch": 16.88,
+          "burst": 18.18,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33553,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#a2e876"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-6",
+          "launch": 21.0,
+          "burst": 22.3,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33666,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#bbd5f2"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-7",
+          "launch": 25.95,
+          "burst": 27.25,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33779,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#f67590"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        },
+        {
+          "id": "battle-cry-8",
+          "launch": 30.58,
+          "burst": 31.88,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.45,
+          "seed": 33892,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 36,
+          "radius": 162,
+          "radialMin": 0.5,
+          "angleJitter": 0.12,
+          "trailColor": "#d9dde7",
+          "trailSeconds": 0.6,
+          "glitterCount": 85,
+          "tipLife": 1.15,
+          "gravity": 12,
+          "accent": {
+            "count": 34,
+            "colors": [
+              "#a2e876"
+            ],
+            "life": 2.35,
+            "delay": 0.55,
+            "radius": 0.94,
+            "size": 2.5,
+            "shimmer": true,
+            "radialMin": 0.43
+          }
+        }
+      ]
+    },
+    {
+      "productId": "break-the-rules-6-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Break the Rules",
+      "brand": "Raccoon",
+      "category": "Artillery Shells",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "sampleLabel": "Individual shell samples",
+      "duration": 5.05,
+      "observedShots": 1,
+      "effects": [
+        "Tiger-tail lifts",
+        "Colored pearls",
+        "White flower clusters",
+        "Copper-gold fall"
+      ],
+      "summary": "Bright tiger-tail lifts lead to silver crowns, red and green pearls, flower clusters and falling copper-gold trails.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+        "segmentStart": 3.5,
+        "segmentEnd": 8.55,
+        "reviewedOn": "2026-09-27",
+        "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+        "notes": [
+          "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+          "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+          "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height."
+        ],
+        "manufacturerCode": "RA60601"
+      },
+      "verified": [
+        "Exact catalog identity and retail presentation",
+        "Visible principal colors, structures and openings within the reviewed windows"
+      ],
+      "estimated": [
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
+      ],
+      "events": [
+        {
+          "id": "break-the-rules-6-pack-effect-1",
+          "launch": 0.08,
+          "burst": 1.85,
+          "shape": "palm-glitter",
+          "colors": [
+            "#eee6dc",
+            "#e9edf6"
+          ],
+          "life": 3.05,
+          "seed": 36007,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 54,
+          "radius": 164,
+          "trailColor": "#d7d6cf",
+          "trailSeconds": 0.3,
+          "glitterCount": 85,
+          "gravity": 13,
+          "liftTrail": {
+            "seconds": 0.48,
+            "color": "#e4caaa"
+          },
+          "launchColor": "#e4caaa"
+        }
+      ],
+      "playback": "manual-shell",
+      "shellCount": 6,
+      "shellEffects": [
+        {
+          "id": "effect-1",
+          "label": "Silver crown and white glitter",
+          "duration": 5.05,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 3.5,
+            "segmentEnd": 8.55,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 5.35 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-1",
+              "launch": 0.08,
+              "burst": 1.85,
+              "shape": "palm-glitter",
+              "colors": [
+                "#eee6dc",
+                "#e9edf6"
+              ],
+              "life": 3.05,
+              "seed": 36007,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 54,
+              "radius": 164,
+              "trailColor": "#d7d6cf",
+              "trailSeconds": 0.3,
+              "glitterCount": 85,
+              "gravity": 13,
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#e4caaa"
+            }
+          ]
+        },
+        {
+          "id": "effect-2",
+          "label": "Red and green pearls with gold glitter",
+          "duration": 4.5,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 8.65,
+            "segmentEnd": 13.15,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 10.55 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-2",
+              "launch": 0.08,
+              "burst": 1.9,
+              "shape": "palm-glitter",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.55,
+              "seed": 36186,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 30,
+              "radius": 145,
+              "trailSeconds": 0.24,
+              "glitterCount": 90,
+              "tipLife": 0.9,
+              "accent": {
+                "count": 30,
+                "colors": [
+                  "#f67590",
+                  "#a2e876"
+                ],
+                "life": 1.3,
+                "radius": 1.12,
+                "size": 3
+              },
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#e4caaa"
+            }
+          ]
+        },
+        {
+          "id": "effect-3",
+          "label": "Fine gold branches with green and violet stars",
+          "duration": 5.1,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 13.5,
+            "segmentEnd": 18.6,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 15.78 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-3",
+              "launch": 0.08,
+              "burst": 2.28,
+              "shape": "willow",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.7,
+              "seed": 36365,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 36,
+              "radius": 129,
+              "trailColor": "#c59d70",
+              "trailSeconds": 0.27,
+              "radialMin": 0.36,
+              "accent": {
+                "count": 17,
+                "colors": [
+                  "#a2e876",
+                  "#8287ef"
+                ],
+                "life": 0.9,
+                "radius": 1.06,
+                "size": 2.1
+              },
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#f27f91"
+            }
+          ]
+        },
+        {
+          "id": "effect-4",
+          "label": "Red pearls and white flower clusters",
+          "duration": 5.05,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 18.65,
+            "segmentEnd": 23.7,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 20.48 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-4",
+              "launch": 0.08,
+              "burst": 1.83,
+              "shape": "bouquet",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 3.05,
+              "seed": 36544,
+              "x": 0,
+              "launchVisible": true,
+              "clusters": 30,
+              "branchTrails": true,
+              "branchColor": "#d4b58a",
+              "clusterDelay": 0.42,
+              "clusterColors": [
+                "#e9e5dc"
+              ],
+              "clusterArms": 8,
+              "clusterPointSize": 1.65,
+              "accent": {
+                "count": 17,
+                "colors": [
+                  "#f67590"
+                ],
+                "life": 1.2,
+                "delay": 0.3,
+                "radius": 1.03,
+                "size": 3
+              },
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#e4caaa",
+              "clusterRadialMin": 0.28
+            }
+          ]
+        },
+        {
+          "id": "effect-5",
+          "label": "Copper-gold fall with green pearls",
+          "duration": 5.3,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 24.45,
+            "segmentEnd": 29.75,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 26.65 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-5",
+              "launch": 0.08,
+              "burst": 2.2,
+              "shape": "willow",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.95,
+              "seed": 36723,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 39,
+              "radius": 146,
+              "trailColor": "#cda26b",
+              "trailSeconds": 0.43,
+              "radialMin": 0.4,
+              "gravity": 14,
+              "accent": {
+                "count": 16,
+                "colors": [
+                  "#a2e876"
+                ],
+                "life": 0.8,
+                "radius": 0.97,
+                "size": 2.4
+              },
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#e4caaa"
+            }
+          ]
+        },
+        {
+          "id": "effect-6",
+          "label": "Sea-green palm fading to silver",
+          "duration": 4.15,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+            "segmentStart": 30.3,
+            "segmentEnd": 34.45,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Raccoon RA60601, six-inch six-shell retail pack. Exact package and model label appear in the official Raccoon demonstration. Wholesale packing is not used as retail count.",
+              "All six individual samples reviewed. Single origin; no simultaneous units, internal sample cuts or speed changes identified. The editor separates introduction/outro from performance. Exploration order follows this demonstration, not official numbering on the shells.",
+              "Long luminous lifts are included as bounded tiger-tail trails. Smaller distant third/fifth openings are modeled with lower density; apparent size does not establish physical diameter or height.",
+              "Visible opening near 31.82 seconds. Single shell, single break."
+            ],
+            "manufacturerCode": "RA60601"
+          },
+          "events": [
+            {
+              "id": "break-the-rules-6-pack-effect-6",
+              "launch": 0.08,
+              "burst": 1.52,
+              "shape": "palm",
+              "colors": [
+                "#ace0ce",
+                "#dbefed"
+              ],
+              "life": 2.55,
+              "seed": 36902,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 35,
+              "radius": 151,
+              "trailColor": "#d2dce0",
+              "trailSeconds": 0.28,
+              "glitterCount": 32,
+              "colorChange": {
+                "start": 0.48,
+                "seconds": 0.34,
+                "colors": [
+                  "#dce1ed"
+                ]
+              },
+              "accent": {
+                "count": 17,
+                "colors": [
+                  "#99c4e6"
+                ],
+                "life": 1.35,
+                "radius": 1.08,
+                "size": 2.5
+              },
+              "liftTrail": {
+                "seconds": 0.48,
+                "color": "#e4caaa"
+              },
+              "launchColor": "#e4caaa"
+            }
+          ]
+        }
+      ],
+      "effectOrder": "exploration"
+    },
+    {
+      "productId": "chameleon-shells-24-pack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Chameleon Shells",
+      "brand": "Winda",
+      "category": "Artillery Shells",
+      "kind": "shell-sample",
+      "scene": "aerial",
+      "sampleLabel": "Individual shell samples",
+      "duration": 3.85,
+      "observedShots": 1,
+      "effects": [
+        "Color-changing peonies and palms",
+        "Copper-gold willows",
+        "Golden flower clusters"
+      ],
+      "summary": "Color-changing peonies and palms shift through violet, red, lime and silver, alongside copper-gold willows and clusters of golden flowers.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+        "segmentStart": 5.45,
+        "segmentEnd": 9.3,
+        "reviewedOn": "2026-09-27",
+        "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+        "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+        "notes": [
+          "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+          "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+          "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+          "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence."
+        ],
+        "manufacturerCode": "P8050"
+      },
+      "verified": [
+        "Exact catalog identity and retail presentation",
+        "Visible principal colors, structures and openings within the reviewed windows"
+      ],
+      "estimated": [
+        "Visual timing approximately ±0.2 seconds; overlapping finale centers approximately ±0.1 seconds",
+        "Illustrative trajectories, particle density, scale and original synthesized sound; camera exposure is not a colorimetric measurement"
+      ],
+      "events": [
+        {
+          "id": "chameleon-shells-24-pack-effect-1",
+          "launch": 0.05,
+          "burst": 1.35,
+          "shape": "color-peony",
+          "colors": [
+            "#8287ef",
+            "#f67590"
+          ],
+          "life": 2.25,
+          "seed": 38007,
+          "x": 0,
+          "launchVisible": true,
+          "arms": 46,
+          "radius": 146,
+          "colorChange": {
+            "start": 0.55,
+            "seconds": 0.23,
+            "colors": [
+              "#e2e9b0"
+            ]
+          }
+        }
+      ],
+      "playback": "manual-shell",
+      "shellCount": 24,
+      "shellEffects": [
+        {
+          "id": "effect-1",
+          "label": "Violet and red stars turning pale green",
+          "duration": 3.85,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 5.45,
+            "segmentEnd": 9.3,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 6.80 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-1",
+              "launch": 0.05,
+              "burst": 1.35,
+              "shape": "color-peony",
+              "colors": [
+                "#8287ef",
+                "#f67590"
+              ],
+              "life": 2.25,
+              "seed": 38007,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 46,
+              "radius": 146,
+              "colorChange": {
+                "start": 0.55,
+                "seconds": 0.23,
+                "colors": [
+                  "#e2e9b0"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-2",
+          "label": "Lime stars turning red",
+          "duration": 3.85,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 5.55,
+            "segmentEnd": 9.4,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 6.90 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-2",
+              "launch": 0.05,
+              "burst": 1.35,
+              "shape": "color-peony",
+              "colors": [
+                "#e2e979",
+                "#cde884"
+              ],
+              "life": 2.1,
+              "seed": 38186,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 34,
+              "radius": 130,
+              "colorChange": {
+                "start": 0.5,
+                "seconds": 0.25,
+                "colors": [
+                  "#f38c65",
+                  "#ef7186"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-3",
+          "label": "Yellow pearls over copper-gold trails",
+          "duration": 4.65,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 11.0,
+            "segmentEnd": 15.65,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 12.45 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-3",
+              "launch": 0.15,
+              "burst": 1.45,
+              "shape": "willow",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.95,
+              "seed": 38365,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 39,
+              "radius": 149,
+              "radialMin": 0.4,
+              "trailColor": "#cfa56e",
+              "trailSeconds": 0.32,
+              "accent": {
+                "count": 16,
+                "colors": [
+                  "#eddf84"
+                ],
+                "life": 0.9,
+                "radius": 1.05,
+                "size": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-4",
+          "label": "Red palm changing to pale gold",
+          "duration": 4.25,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 11.1,
+            "segmentEnd": 15.35,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 12.55 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-4",
+              "launch": 0.15,
+              "burst": 1.45,
+              "shape": "palm",
+              "colors": [
+                "#f67590"
+              ],
+              "life": 2.5,
+              "seed": 38544,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 32,
+              "radius": 149,
+              "trailColor": "#dfc79b",
+              "trailSeconds": 0.28,
+              "glitterCount": 0,
+              "colorChange": {
+                "start": 0.45,
+                "seconds": 0.28,
+                "colors": [
+                  "#e5e2c6"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-5",
+          "label": "Violet stars to gold flowers",
+          "duration": 4.4,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 16.35,
+            "segmentEnd": 20.75,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 17.75 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-5",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "bouquet",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.9,
+              "seed": 38723,
+              "x": 0,
+              "launchVisible": true,
+              "clusters": 45,
+              "branchTrails": true,
+              "branchColor": "#d6ae7b",
+              "clusterDelay": 0.72,
+              "clusterColors": [
+                "#efd39d",
+                "#e4b878"
+              ],
+              "clusterArms": 11,
+              "accent": {
+                "count": 28,
+                "colors": [
+                  "#8287ef"
+                ],
+                "life": 0.85,
+                "radius": 1.04,
+                "size": 2.5
+              },
+              "clusterPointSize": 1.65,
+              "clusterRadialMin": 0.28
+            }
+          ]
+        },
+        {
+          "id": "effect-6",
+          "label": "Red and green palm with white glitter",
+          "duration": 4.3,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 16.5,
+            "segmentEnd": 20.8,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 17.90 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-6",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "palm-glitter",
+              "colors": [
+                "#f67590",
+                "#a2e876"
+              ],
+              "life": 2.65,
+              "seed": 38902,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 27,
+              "radius": 155,
+              "trailColor": "#d5b88e",
+              "trailSeconds": 0.25,
+              "glitterCount": 65,
+              "colorChange": {
+                "start": 0.65,
+                "seconds": 0.32,
+                "colors": [
+                  "#dce5ee"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-7",
+          "label": "Red peony changing to lime",
+          "duration": 4.5,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 28.1,
+            "segmentEnd": 32.6,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 29.45 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-7",
+              "launch": 0.05,
+              "burst": 1.35,
+              "shape": "color-peony",
+              "colors": [
+                "#f67590"
+              ],
+              "life": 2.6,
+              "seed": 39081,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 43,
+              "radius": 144,
+              "colorChange": {
+                "start": 0.45,
+                "seconds": 0.25,
+                "colors": [
+                  "#b2e68b"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-8",
+          "label": "Open copper-gold willow",
+          "duration": 4.9,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 28.25,
+            "segmentEnd": 33.15,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 29.60 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-8",
+              "launch": 0.05,
+              "burst": 1.35,
+              "shape": "willow",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 3.25,
+              "seed": 39260,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 38,
+              "radius": 164,
+              "radialMin": 0.73,
+              "trailColor": "#bd925f",
+              "trailSeconds": 0.48,
+              "gravity": 14
+            }
+          ]
+        },
+        {
+          "id": "effect-9",
+          "label": "Violet and gold turning red",
+          "duration": 4.2,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 34.45,
+            "segmentEnd": 38.65,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 35.85 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-9",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "palm",
+              "colors": [
+                "#8287ef",
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 2.55,
+              "seed": 39439,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 43,
+              "radius": 144,
+              "trailColor": "#d2aa74",
+              "trailSeconds": 0.2,
+              "glitterCount": 0,
+              "colorChange": {
+                "start": 0.52,
+                "seconds": 0.3,
+                "colors": [
+                  "#f67590"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-10",
+          "label": "Multicolor palm turning silver",
+          "duration": 4.35,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 34.65,
+            "segmentEnd": 39.0,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 36.10 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-10",
+              "launch": 0.15,
+              "burst": 1.45,
+              "shape": "palm",
+              "colors": [
+                "#f67590",
+                "#a2e876",
+                "#dfdcee"
+              ],
+              "life": 2.6,
+              "seed": 39618,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 29,
+              "radius": 153,
+              "trailColor": "#d9c5a4",
+              "trailSeconds": 0.25,
+              "glitterCount": 17,
+              "colorChange": {
+                "start": 0.5,
+                "seconds": 0.38,
+                "colors": [
+                  "#e0ddea"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "effect-11",
+          "label": "Colored pearls to copper-gold flowers",
+          "duration": 4.65,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 40.0,
+            "segmentEnd": 44.65,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 41.35 seconds. Independent left panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "left"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-11",
+              "launch": 0.05,
+              "burst": 1.35,
+              "shape": "bouquet",
+              "colors": [
+                "#edc08b",
+                "#dba570"
+              ],
+              "life": 3.05,
+              "seed": 39797,
+              "x": 0,
+              "launchVisible": true,
+              "clusters": 39,
+              "branchTrails": true,
+              "branchColor": "#d89b61",
+              "clusterDelay": 1.1,
+              "clusterColors": [
+                "#eab767"
+              ],
+              "clusterArms": 10,
+              "accent": {
+                "count": 24,
+                "colors": [
+                  "#a2e876",
+                  "#f67590"
+                ],
+                "life": 0.72,
+                "radius": 0.9,
+                "size": 2.8
+              },
+              "clusterPointSize": 1.65,
+              "clusterRadialMin": 0.28
+            }
+          ]
+        },
+        {
+          "id": "effect-12",
+          "label": "Green palm turning red and silver",
+          "duration": 4.5,
+          "breakCount": 1,
+          "source": {
+            "url": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+            "segmentStart": 40.4,
+            "segmentEnd": 44.9,
+            "reviewedOn": "2026-09-27",
+            "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+            "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+            "notes": [
+              "Winda P8050, five-inch 24-shell retail pack; exact model, package and 24-shell label visible in the official Winda video.",
+              "Split screen presents independent left and right shell demonstrations, not paired breaks from a single shell. Each published effect has one lift, one break and increments one retail unit.",
+              "Twelve individually reviewed effects from pair windows 1, 2, 3, 5, 6 and 7. Exploration order alternates left/right within those windows, not official package numbering. The bank repeats after twelve; no 24-effect claim.",
+              "The fourth pair and later pairs remain pending finer individual review. No internal sample cuts or speed changes observed within the published windows; the edited split-screen arrangement does not establish package firing cadence.",
+              "Visible opening near 41.80 seconds. Independent right panel; not a second break from the other panel."
+            ],
+            "manufacturerCode": "P8050",
+            "screenSide": "right"
+          },
+          "events": [
+            {
+              "id": "chameleon-shells-24-pack-effect-12",
+              "launch": 0.1,
+              "burst": 1.4,
+              "shape": "palm",
+              "colors": [
+                "#a2e876"
+              ],
+              "life": 2.7,
+              "seed": 39976,
+              "x": 0,
+              "launchVisible": true,
+              "arms": 29,
+              "radius": 155,
+              "trailColor": "#d9d6c0",
+              "trailSeconds": 0.23,
+              "glitterCount": 12,
+              "colorChange": {
+                "start": 0.4,
+                "seconds": 0.35,
+                "colors": [
+                  "#f67590",
+                  "#e3dee5"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "effectOrder": "exploration"
     }
   ]
 }

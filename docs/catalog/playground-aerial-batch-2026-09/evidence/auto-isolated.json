@@ -1,0 +1,25 @@
+{
+  "mode": "aerial",
+  "requested": "auto",
+  "compact": false,
+  "seconds": 40,
+  "drawnFps": 59.42,
+  "meanDrawMs": 0.779,
+  "p95DrawMs": 1.5999999940395355,
+  "maxDrawMs": 2.9000000059604645,
+  "p95FrameMs": 17.300000000017462,
+  "over50ms": 1,
+  "peakActiveParticles": 444,
+  "peakDrawnPoints": 1931,
+  "peakBudget": 3200,
+  "heapPeakBytes": 25057241,
+  "qualityChanges": [],
+  "finalShellCounts": [
+    6
+  ],
+  "css": "1280×640",
+  "pixels": "2564×1284",
+  "dpr": 2,
+  "cores": 8,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+}

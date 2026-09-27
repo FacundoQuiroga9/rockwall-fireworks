@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "aerial",
+    "requested": "auto",
+    "compact": false,
+    "seconds": 40.001,
+    "drawnFps": 48.35,
+    "meanDrawMs": 1.636,
+    "p95DrawMs": 3.1000000089406967,
+    "maxDrawMs": 5,
+    "p95FrameMs": 33.399999999999636,
+    "over50ms": 0,
+    "peakActiveParticles": 444,
+    "peakDrawnPoints": 1931,
+    "peakBudget": 3200,
+    "heapPeakBytes": 31325435,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  {
+    "mode": "aerial",
+    "requested": "high",
+    "compact": false,
+    "seconds": 40,
+    "drawnFps": 52.7,
+    "meanDrawMs": 1.13,
+    "p95DrawMs": 2.2999999970197678,
+    "maxDrawMs": 4.600000008940697,
+    "p95FrameMs": 33.30000000000291,
+    "over50ms": 0,
+    "peakActiveParticles": 444,
+    "peakDrawnPoints": 1931,
+    "peakBudget": 3200,
+    "heapPeakBytes": 28086224,
+    "qualityChanges": [],
+    "finalShellCounts": [
+      6
+    ],
+    "css": "1280×640",
+    "pixels": "2564×1284",
+    "dpr": 2,
+    "cores": 8,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  }
+]

@@ -91,6 +91,11 @@ export function validateProfiles(data, catalog) {
       if (eventIds.has(event.id) || !Number.isFinite(event.launch) || !Number.isFinite(event.burst) || event.launch < 0 || event.burst < event.launch || event.burst < previous || event.burst >= profile.duration || !(event.life > 0) || !['palm', 'peony', 'ring', 'palm-glitter', 'flower', 'ghost', 'willow', 'color-peony', 'bouquet', 'ghost-peony', 'wander', 'comet', 'spinner'].includes(event.shape) || !event.colors.length || event.colors.some((color) => !/^#[a-f\d]{6}$/i.test(color))) errors.push(`${profile.productId}: invalid event ${event.id}`);
       eventIds.add(event.id); previous = event.burst;
     }
+    for (const event of [...profile.events, ...(profile.shellEffects || []).flatMap(effect => effect.events)]) {
+      if (event.clusterRadialMin != null && !(event.clusterRadialMin >= 0 && event.clusterRadialMin <= 1)) errors.push('Invalid flower cluster distribution');
+      if (event.liftTrail && (!(event.liftTrail.seconds > 0 && event.liftTrail.seconds <= .8)
+        || !/^#[a-f\d]{6}$/i.test(event.liftTrail.color))) errors.push('Invalid bounded lift trail');
+    }
     if (profile.kind.startsWith('fountain')) {
       const ending = profile.ending;
       if (!ending || !['simulation', 'observed'].includes(ending.kind) || !(ending.fadeStart >= 0) || !(ending.emissionEnd > ending.fadeStart) || !(ending.tailSeconds > 0 && ending.tailSeconds <= 3) || profile.playbackDuration !== Math.max(profile.duration, ending.emissionEnd + ending.tailSeconds)) errors.push('Invalid fountain ending');

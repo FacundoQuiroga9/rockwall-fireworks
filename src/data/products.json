@@ -1712,6 +1712,22 @@
     "shellPackage": {
       "shellCount": 24,
       "style": "Canister shells"
+    },
+    "demonstration": {
+      "summary": "Color-changing peonies and palms shift through violet, red, lime and silver, alongside copper-gold willows and clusters of golden flowers.",
+      "effects": [
+        "Color-changing peonies and palms",
+        "Copper-gold willows",
+        "Golden flower clusters"
+      ],
+      "durationSeconds": 3.85,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=3M1DRGY7mYI",
+      "segmentStart": 5.45,
+      "segmentEnd": 9.3,
+      "note": "12 documented effects; exploration order, not official shell numbering. Retail count, documented effects and breaks are separate. First-sample duration only."
     }
   },
   {
@@ -6263,6 +6279,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Broad silver crowns unfold into red, green and cool white glittering stars, with evenly spaced, lingering bursts.",
+      "effects": [
+        "Broad silver crowns",
+        "Red and green stars",
+        "Lingering white glitter"
+      ],
+      "durationSeconds": 35.6,
+      "scope": "Cake excerpt",
+      "observedShots": 8,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=TKlNeHeOap4",
+      "segmentStart": 5.9,
+      "segmentEnd": 41.5,
+      "note": "Eight reviewed openings from a nine-shot retail rack. Preview duration, not confirmed full product duration."
     }
   },
   {
@@ -6297,7 +6329,24 @@
       "shellCount": 6,
       "style": "Canister shells"
     },
-    "promotionCategory": "Reloadables"
+    "promotionCategory": "Reloadables",
+    "demonstration": {
+      "summary": "Bright tiger-tail lifts lead to silver crowns, red and green pearls, flower clusters and falling copper-gold trails.",
+      "effects": [
+        "Tiger-tail lifts",
+        "Colored pearls",
+        "White flower clusters",
+        "Copper-gold fall"
+      ],
+      "durationSeconds": 5.05,
+      "scope": "Individual shell samples",
+      "observedShots": 1,
+      "confirmedShots": null,
+      "sourceUrl": "https://www.youtube.com/watch?v=QiCjafNQrhI",
+      "segmentStart": 3.5,
+      "segmentEnd": 8.55,
+      "note": "6 documented effects; exploration order, not official shell numbering. Retail count, documented effects and breaks are separate. First-sample duration only."
+    }
   },
   {
     "id": "color-rage",
@@ -7301,6 +7350,22 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Silver and gold brocade crowns rise in singles and close pairs, finishing with a tightly grouped shower of sparkling trails.",
+      "effects": [
+        "Silver and gold brocade",
+        "Close pairs",
+        "Rapid sparkling finale"
+      ],
+      "durationSeconds": 23.65,
+      "scope": "Full cake sequence",
+      "observedShots": 16,
+      "confirmedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=TcKkLNEQ-hE",
+      "segmentStart": 3.55,
+      "segmentEnd": 27.2,
+      "note": "Complete visible sequence and tail reviewed; trajectories, density and synthesized audio are illustrative."
     }
   },
   {

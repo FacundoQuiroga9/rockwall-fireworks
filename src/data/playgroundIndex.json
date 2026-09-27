@@ -106,5 +106,21 @@
   {
     "productId": "snow-cone",
     "kind": "fountain"
+  },
+  {
+    "productId": "hot-dog",
+    "kind": "cake"
+  },
+  {
+    "productId": "battle-cry",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "break-the-rules-6-pack",
+    "kind": "shell-sample"
+  },
+  {
+    "productId": "chameleon-shells-24-pack",
+    "kind": "shell-sample"
   }
 ]

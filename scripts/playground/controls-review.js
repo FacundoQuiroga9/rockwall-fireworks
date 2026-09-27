@@ -8,11 +8,13 @@ import { createPlaygroundAudio } from '../../src/shared/playgroundAudio.js';
 const $=id=>document.getElementById(id);let cancelled=false,renderer,raf,audio;
 const results=[];
 const depthReview=new URLSearchParams(location.search).has('depth');
+const aerialBatch=new URLSearchParams(location.search).has('aerial-batch');
 $('stop').onclick=()=>{cancelled=true;cancelAnimationFrame(raf);renderer?.destroy();audio?.destroy();$('state').textContent='Stopped';$('batch').disabled=false;};
 function measure(mode,requested,compact,duration=45){return new Promise(resolve=>{
   const ids=['band-of-brothers','ghost-killer','us-power','golden-peacock'];
   let profiles=data.profiles.filter(p=>mode==='ground'?p.scene==='ground':mode==='manual'?p.playback==='manual-shell':ids.includes(p.productId)).slice(0,4);
   if(depthReview){const ids=mode==='ground'?['fairies-in-a-jar','movie-time','citrus-fountain','snow-cone']:mode==='manual'?['nishiki-blast-6-pack','double-dragon-6-pack','ghostacular-24-pack','maelstrom-24-pack']:['bump-bear','band-of-brothers','raging-willow','nishiki-blast-6-pack'];profiles=ids.map(id=>data.profiles.find(p=>p.productId===id));}
+  if(aerialBatch){const ids=mode==='manual'?['break-the-rules-6-pack','chameleon-shells-24-pack','nishiki-blast-6-pack','double-dragon-6-pack']:['hot-dog','battle-cry','raging-willow','break-the-rules-6-pack'];profiles=ids.map(id=>data.profiles.find(p=>p.productId===id));}
   if(mode==='stress')profiles=profiles.map(p=>({...p,events:p.events.map(e=>({...e,launch:0,burst:1}))}));
   const clock=createTimeline(profiles),adaptive=createQualityController(requested,compact);
   let quality=adaptive.snapshot().effective;renderer=createPlaygroundRenderer($('sky'),profiles,compact,createFountainModel,bases);renderer.setQuality(quality);
@@ -20,7 +22,7 @@ function measure(mode,requested,compact,duration=45){return new Promise(resolve=
   const step=now=>{
     if(cancelled)return resolve();if(!warmupStart)warmupStart=now;if(now-warmupStart<1300){renderer.draw(0,[]);raf=requestAnimationFrame(step);return;}if(!start){start=now;clock.play(now);}
     const seconds=(now-start)/1000;let state=clock.tick(now);
-    if(mode==='manual'||depthReview)for(const shell of state.shells)if(shell.available)clock.launch(shell.index,now);
+    if(mode==='manual'||depthReview||aerialBatch)for(const shell of state.shells)if(shell.available)clock.launch(shell.index,now);
     state=clock.snapshot();
     if(!last||now-last>= (compact||quality==='low'?1000/30:1000/60)-1){
       const gap=last?now-last:0;last=now;
@@ -36,7 +38,7 @@ function measure(mode,requested,compact,duration=45){return new Promise(resolve=
     $('metrics').textContent=JSON.stringify(results,null,2);renderer.destroy();resolve();
   };raf=requestAnimationFrame(step);
 });}
-$('batch').onclick=async()=>{cancelled=false;results.length=0;$('batch').disabled=true;if(depthReview){for(const [mode,quality] of [['aerial','auto'],['aerial','high'],['ground','auto'],['ground','high'],['manual','high']]){if(cancelled)return;await measure(mode,quality,false,35);} $('state').textContent='Depth suite complete';$('batch').disabled=false;return;}for(const mode of ['aerial','ground','manual'])for(const quality of ['balanced','high']){if(cancelled)return;await measure(mode,quality,false);}if(!cancelled)await measure('ground','high',true);if(!cancelled)await measure('stress','high',false,15);$('state').textContent='Bounded suite complete';$('batch').disabled=false;};
+$('batch').onclick=async()=>{cancelled=false;results.length=0;$('batch').disabled=true;if(aerialBatch){for(const [mode,quality] of [['aerial','auto'],['aerial','high'],['manual','high']]){if(cancelled)return;await measure(mode,quality,false,40);} $('state').textContent='Aerial batch suite complete';$('batch').disabled=false;return;}if(depthReview){for(const [mode,quality] of [['aerial','auto'],['aerial','high'],['ground','auto'],['ground','high'],['manual','high']]){if(cancelled)return;await measure(mode,quality,false,35);} $('state').textContent='Depth suite complete';$('batch').disabled=false;return;}for(const mode of ['aerial','ground','manual'])for(const quality of ['balanced','high']){if(cancelled)return;await measure(mode,quality,false);}if(!cancelled)await measure('ground','high',true);if(!cancelled)await measure('stress','high',false,15);$('state').textContent='Bounded suite complete';$('batch').disabled=false;};
 $('audio').onclick=async()=>{
   $('audio').disabled=true;const chunks=[];let record,stream,peaks=[];
   audio=createPlaygroundAudio({onOutput(node,context){const destination=context.createMediaStreamDestination();node.connect(destination);stream=destination.stream;record=new MediaRecorder(stream,{mimeType:'audio/webm;codecs=opus'});record.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};record.onstop=()=>{const blob=new Blob(chunks,{type:'audio/webm'}),reader=new FileReader();reader.onload=()=>{$('audio-data').value=reader.result;};reader.readAsDataURL(blob);$('audio-result').src=URL.createObjectURL(blob);stream.getTracks().forEach(t=>t.stop());};}});

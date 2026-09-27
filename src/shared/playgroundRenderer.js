@@ -133,11 +133,40 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
           }
           continue;
         }
+        // Optional documented tiger-tail lift: bounded, birth-time sparks.
+        // Its short tail can outlive the lift without adding another emitter.
+        if (event.liftTrail && time >= event.launch && age < event.liftTrail.seconds) {
+          const span = event.burst - event.launch;
+          for (let i = 0; i < 24; i++) {
+            const born = time - i / 24 * event.liftTrail.seconds;
+            if (born < event.launch || born > event.burst) continue;
+            const progress = (born - event.launch) / Math.max(.05, span), tailAge = time - born;
+            dot(ex + (noise(event.seed + i) - .5) * 2 * scale,
+              height * .83 * (1 - progress) + cy * progress + tailAge * tailAge * 22 * scale,
+              Math.max(.6, 1.5 * scale), event.liftTrail.color,
+              .65 * (1 - tailAge / event.liftTrail.seconds) * weight(event.seed + i * 79, Math.max(.5, capacity)), true);
+          }
+        }
         if (time >= event.launch && age < 0 && event.launchVisible) {
           const progress = (time - event.launch) / Math.max(0.05, event.burst - event.launch);
           for (let t = 0; t < 14; t++) dot(ex, (height * .83) * (1 - progress) + cy * progress + t * 1.8 * scale, Math.max(.5, 1.3 * scale), event.launchColor || '#efcf98', .48 * (1 - t / 14) * (t < 6 ? 1 : detail), t === 0);
         }
         if (age < 0 || age > event.life) continue;
+        const radius = event.radius ?? (event.shape === 'flower' ? 105 : event.shape === 'ring' ? 147 : event.shape.startsWith('palm') || ['ghost','willow'].includes(event.shape) ? 158 : 155);
+        const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
+        // Documented colored pearls are a separate component of this single
+        // break, with their own persistence. Their palette never depends on quality.
+        if (event.accent) {
+          const accent = event.accent, a = age - (accent.delay ?? 0);
+          if (a >= 0 && a < accent.life) for (let i = 0; i < accent.count; i++) {
+            const salt = event.seed + i * 193, angle = i / accent.count * Math.PI * 2 + noise(salt) * .18;
+            const r = radius * (accent.radius ?? 1.06) * ((accent.radialMin ?? .7) + noise(salt + 4) * (1 - (accent.radialMin ?? .7))) * grow(a);
+            const visibility = i < 6 ? 1 : weight(salt + 10, Math.max(.5, capacity));
+            const envelope = Math.min(1, a / .055) * Math.pow(1 - a / accent.life, .6);
+            const shimmer = accent.shimmer ? .76 + .2 * Math.sin(a * 9 + i * 2.7) : 1;
+            dot(ex + Math.cos(angle) * r * scale, cy + (Math.sin(angle) * r + (accent.gravity ?? 16) * a * a) * scale, Math.max(.8, (accent.size ?? 3.1) * scale), accent.colors[i % accent.colors.length], envelope * shimmer * (accent.brightness ?? 1) * visibility, true);
+          }
+        }
         if (event.shape === 'bouquet') {
           const clusters = event.clusters ?? 24;
           for (let i = 0; i < clusters; i++) {
@@ -156,7 +185,8 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             const arms = event.clusterArms ?? 10, colors = event.clusterColors || ['#edc185'];
             if (bloom >= 0 && bloom < 1.4) for (let arm = 0; arm < arms; arm++) {
               const a = arm / arms * Math.PI * 2, r = (1 - Math.exp(-bloom * 4)) * (9 + noise(salt + 7) * 12) * scale;
-              dot(x + Math.cos(a) * r, y + Math.sin(a) * r + bloom * bloom * 6 * scale, Math.max(.55, scale * (event.clusterPointSize ?? 1)), colors[arm % colors.length], Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / 1.4, .7), true);
+              const armRadius = event.clusterRadialMin == null ? r : r * (event.clusterRadialMin + (1 - event.clusterRadialMin) * noise(salt + arm * 101 + 29));
+              dot(x + Math.cos(a) * armRadius, y + Math.sin(a) * armRadius + bloom * bloom * 6 * scale, Math.max(.55, scale * (event.clusterPointSize ?? 1)), colors[arm % colors.length], Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / 1.4, .7), true);
             }
           }
           continue;
@@ -170,22 +200,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         const palm = event.shape.startsWith('palm') || ghost || willow;
         const ring = event.shape === 'ring';
         const n = colorPeony ? Math.round((event.arms || 55) * 1.5) : willow ? Math.round((event.arms || 60) * 1.5) : palm ? (event.arms || 9) : ring ? 88 : 190;
-        const radius = event.radius ?? (flower ? 105 : ring ? 147 : palm ? 158 : 155);
-        const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
         const fade = Math.pow(Math.max(0, 1 - age / event.life), .75);
-        // Documented colored pearls are a separate component of this single
-        // break, with their own persistence. Their palette never depends on quality.
-        if (event.accent) {
-          const accent = event.accent, a = age - (accent.delay ?? 0);
-          if (a >= 0 && a < accent.life) for (let i = 0; i < accent.count; i++) {
-            const salt = event.seed + i * 193, angle = i / accent.count * Math.PI * 2 + noise(salt) * .18;
-            const r = radius * (accent.radius ?? 1.06) * (.7 + noise(salt + 4) * .3) * grow(a);
-            const visibility = i < 6 ? 1 : weight(salt + 10, Math.max(.5, capacity));
-            const envelope = Math.min(1, a / .055) * Math.pow(1 - a / accent.life, .6);
-            const shimmer = accent.shimmer ? .76 + .2 * Math.sin(a * 9 + i * 2.7) : 1;
-            dot(ex + Math.cos(angle) * r * scale, cy + (Math.sin(angle) * r + (accent.gravity ?? 16) * a * a) * scale, Math.max(.8, (accent.size ?? 3.1) * scale), accent.colors[i % accent.colors.length], envelope * shimmer * (accent.brightness ?? 1) * visibility, true);
-          }
-        }
         for (let i = 0; i < n; i++) {
           const seed = event.seed + i * 37;
           const visibility = palm && !willow ? 1 : weight(seed + 555, capacity);
