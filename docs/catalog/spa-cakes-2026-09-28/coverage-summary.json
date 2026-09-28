@@ -1,0 +1,16 @@
+{
+  "catalogProducts": 302,
+  "allProfiles": 56,
+  "cakeInventoryIds": 117,
+  "profiledCakes": 36,
+  "complete": 14,
+  "excerpts": 22,
+  "withoutProfile": 81,
+  "added": [
+    "ghost-rings",
+    "hot-as-hell",
+    "pirate-captain"
+  ],
+  "browserPlayback": "pending: local listening socket denied by sandbox; file URL denied by browser policy",
+  "nativeVisual": "deferred by user"
+}

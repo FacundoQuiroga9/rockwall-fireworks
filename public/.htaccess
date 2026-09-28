@@ -1,15 +1,26 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  # Relative substitution supports this directory. Vite currently builds for /.
+# Install beside index.html in the domain document root (include this hidden file).
+# Apache 2.4 / LiteSpeed: AllowOverride must permit FileInfo, Options and Indexes.
+# Do not silently ignore a missing rewrite module: direct SPA URLs require it.
+Options -MultiViews -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 default
+RewriteEngine On
 
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^ - [L]
+# Existing files, including generated metadata HTML, keep their normal response.
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
 
-  # Missing assets must be 404s, never HTML disguised as an image or script.
-  RewriteRule ^(?:assets|images|fonts|catalog-pages)(?:/|$) - [R=404,L]
-  RewriteRule \.[^/]+$ - [R=404,L]
+# Missing resources must never receive the SPA, even with a trailing slash.
+RewriteRule ^(?:assets|images|fonts|catalog-pages)(?:/|$) - [R=404,L]
+RewriteRule (?:^|/)[^/]*\.[^/]*(?:/|$) - [R=404,L]
 
-  # Internal rewrite only: keep /products and /products/:slug in the address bar.
-  RewriteRule ^ index.html [L]
-</IfModule>
+# App routes take precedence over leftover directories from older uploads.
+# Internal rewrites preserve the path and query; no redirect to / or added slash.
+RewriteRule ^(?:playground|products(?:/[^/]+)?|my-list|terms-and-conditions|app-privacy|app-support|mobile-app)/?$ index.html [L]
+
+# Other real directories are handled normally by Apache.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# BrowserRouter handles remaining extensionless application paths.
+RewriteRule ^ index.html [L]

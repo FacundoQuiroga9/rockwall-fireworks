@@ -99,6 +99,11 @@ export function validateProfiles(data, catalog) {
       if (event.accent && (!Number.isFinite(event.accent.life) || !(event.accent.life > 0) || (event.accent.delay ?? 0) < 0 || (event.accent.delay ?? 0) + event.accent.life > event.life + .001)) errors.push(`${profile.productId}: secondary tail exceeds event life: ${event.id}`);
       if (event.launchX != null && (!Number.isFinite(event.launchX) || Math.abs(event.launchX) > 1)) errors.push('Invalid launch origin');
       if (event.plane && (!(event.plane.squash > 0 && event.plane.squash <= 1) || !Number.isFinite(event.plane.rotation))) errors.push('Invalid burst plane');
+      if (event.accent?.plane && (!(event.accent.plane.squash > 0 && event.accent.plane.squash <= 1) || !Number.isFinite(event.accent.plane.rotation))) errors.push('Invalid accent plane');
+      if (event.ringChase && (event.shape !== 'ring' || !Number.isInteger(event.ringChase.count) || event.ringChase.count < 3 || event.ringChase.count > 48
+        || !Number.isFinite(event.ringChase.fadeStart) || event.ringChase.fadeStart < 0 || !(event.ringChase.sweepSeconds > 0) || !(event.ringChase.fadeSeconds > 0)
+        || event.ringChase.fadeStart + event.ringChase.sweepSeconds + event.ringChase.fadeSeconds > event.life
+        || !event.ringChase.colors?.length || event.ringChase.colors.some(color => !/^#[a-f\d]{6}$/i.test(color)))) errors.push('Invalid ghost ring persistence');
       if (event.horsetail && (!Number.isInteger(event.horsetail.count) || event.horsetail.count < 1 || event.horsetail.count > 48 || !(event.horsetail.life > 0 && event.horsetail.life <= event.life) || !/^#[a-f\d]{6}$/i.test(event.horsetail.color))) errors.push('Invalid falling cluster');
       if (event.clusterRadialMin != null && !(event.clusterRadialMin >= 0 && event.clusterRadialMin <= 1)) errors.push('Invalid flower cluster distribution');
       if (event.clusterLife != null && (!Number.isFinite(event.clusterLife) || !(event.clusterLife > 0 && event.clusterLife <= event.life))) errors.push('Invalid flower cluster lifetime');

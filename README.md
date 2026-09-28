@@ -113,9 +113,20 @@ Se puede publicar el contenido de `dist/` en un hosting estático convencional.
 Como el sitio usa `BrowserRouter`, `public/.htaccess` configura el fallback a
 `index.html` para Hostinger/LiteSpeed y evita errores 404 al visitar rutas
 internas directamente. No hace falta SSR ni un servidor de aplicación.
-El build también genera documentos en `dist/catalog-pages/` con los metadatos
-propios de cada ruta del catálogo; las reglas de `.htaccess` los sirven sin
-cambiar las URLs. Incluir el archivo oculto `.htaccess` al copiar el build.
+Las rutas canónicas de la aplicación sirven `index.html` mediante reescritura
+interna. Los documentos de metadatos de `dist/catalog-pages/` y
+`dist/playground.html` se conservan como archivos HTML independientes; no son
+el fallback de las rutas canónicas. `Options -MultiViews` evita que Apache
+elija esos documentos por negociación de nombres.
+
+Incluir el archivo oculto `.htaccess` al copiar **el contenido** de `dist/`
+al document root del dominio, junto a `index.html`. `npm run hosting:package`
+genera un ZIP que incluye el archivo oculto y verifica su contenido.
+`npm run hosting:serve` inicia una instancia local aislada de Apache en macOS;
+`npm run hosting:check -- http://127.0.0.1:4180 --fixtures` verifica las rutas
+y recursos por HTTP real, incluyendo directorios antiguos simulados.
+Esto es independiente del fallback de Vite. Diagnóstico de Hostinger y pasos
+exactos: [informe de SPA y cakes](docs/catalog/spa-cakes-2026-09-28/README.md).
 
 La auditoría inicial, el plan y el resultado final están documentados en
 `SITE_AUDIT.md`, `SITE_OPTIMIZATION_PLAN.md` y
@@ -123,4 +134,4 @@ La auditoría inicial, el plan y el resultado final están documentados en
 
 ## Playground — última iteración
 
-[Entornos Open Field/Close-up, selector simple y cobertura de cakes](docs/catalog/playground-environments-2026-09/README.md): 51 perfiles; 31 cakes (8 completas y 23 extractos). Incluye fuentes, recursos generados, validaciones y pendientes por ID.
+[SPA y tres nuevas cakes](docs/catalog/spa-cakes-2026-09-28/README.md): 56 perfiles; 36 cakes de 117 IDs (14 completas y 22 extractos). Incluye fuentes, evidencia, validación automática y los bloqueos de revisión HTTP/visual local.

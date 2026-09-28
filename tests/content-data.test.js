@@ -193,7 +193,7 @@ test('app publication pages have routes, metadata, and public navigation', async
   assert.match(hostingerFallback, /RewriteEngine On/);
   assert.match(
     hostingerFallback,
-    /RewriteCond %\{REQUEST_FILENAME\} -f \[OR\]/,
+    /RewriteCond %\{REQUEST_FILENAME\} -f\n/,
   );
   assert.match(
     hostingerFallback,

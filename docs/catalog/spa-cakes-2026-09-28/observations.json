@@ -1,0 +1,1351 @@
+[
+  {
+    "productId": "ghost-rings",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=bmPKTKRDG4c",
+      "manufacturerCode": "P5498",
+      "segmentStart": 4.4,
+      "segmentEnd": 43.5,
+      "reviewedOn": "2026-09-28",
+      "method": "Complete reference playback at 1x; timestamped browser captures and slower inspection of overlapping centers. Original media clock; onset precision approximately ±0.15 s, extinction ±0.4 s.",
+      "evidenceDirectory": "docs/catalog/spa-cakes-2026-09-28/evidence",
+      "notes": [
+        "Winda P5498, 500g nine-shot rack. Approved nine-tube package and 705108549801 inventory identity match the manufacturer intro. https://www.getwinda.com/product-page/ghost-rings-9-s lists 9 shots; 2/1 is case packing.",
+        "Whole 44.161 s reference reviewed. Seven separated rings, then two centers at 39.40 and 39.78 s; the ninth was resolved inside the overlapping ending. No apparent internal cut, speed edit or second firing area.",
+        "The observed intervals are retained, including 3.6–5.5 s gaps. The manufacturer 20-second marketing duration does not replace this approximately 39-second performance window.",
+        "First ascent estimated at 4.40 s before the first 5.22 s opening. Last meaningful warm rays disappear around 43.5 s; stationary background lights are excluded from particle persistence.",
+        "Gold spokes persist after violet, red, amber and green tip sectors disappear. Ring tilt varies between shots; the final pair has separate centers. No added inner ring."
+      ]
+    },
+    "timing": {
+      "basis": "first-launch-to-last-significant-effect",
+      "firstLaunch": 0,
+      "lastLaunch": 34.56,
+      "lastBurst": 35.38,
+      "visibleEnd": 39.1,
+      "launchEvidence": "estimated where cropped or too faint",
+      "tailEvidence": "observed"
+    },
+    "events": [
+      {
+        "id": "ghost-rings-1",
+        "launch": 4.4,
+        "burst": 5.22,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 103001,
+        "x": -0.015,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.65,
+          "rotation": -0.4
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": null
+      },
+      {
+        "id": "ghost-rings-2",
+        "launch": 9.88,
+        "burst": 10.7,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 103212,
+        "x": 0.02,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.92,
+          "rotation": 0.2
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.48
+      },
+      {
+        "id": "ghost-rings-3",
+        "launch": 13.5,
+        "burst": 14.32,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 103423,
+        "x": 0,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.96,
+          "rotation": 0
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 3.62
+      },
+      {
+        "id": "ghost-rings-4",
+        "launch": 17.9,
+        "burst": 18.72,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 103634,
+        "x": -0.02,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.75,
+          "rotation": -0.55
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.4
+      },
+      {
+        "id": "ghost-rings-5",
+        "launch": 22.9,
+        "burst": 23.72,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 103845,
+        "x": 0.035,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.35,
+          "rotation": 1.35
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5
+      },
+      {
+        "id": "ghost-rings-6",
+        "launch": 28.38,
+        "burst": 29.2,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 104056,
+        "x": 0,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.88,
+          "rotation": 0.15
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.48
+      },
+      {
+        "id": "ghost-rings-7",
+        "launch": 33.04,
+        "burst": 33.86,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 104267,
+        "x": 0.02,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.5,
+          "rotation": 1
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.66
+      },
+      {
+        "id": "ghost-rings-8",
+        "launch": 38.58,
+        "burst": 39.4,
+        "life": 3.7,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 104478,
+        "x": -0.055,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.42,
+          "rotation": 1.3
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.54
+      },
+      {
+        "id": "ghost-rings-9",
+        "launch": 38.96,
+        "burst": 39.78,
+        "life": 3.72,
+        "shape": "ring",
+        "colors": [
+          "#ddb885"
+        ],
+        "seed": 104689,
+        "x": -0.02,
+        "launchVisible": false,
+        "y": 0.035,
+        "arms": 24,
+        "radius": 164,
+        "gravity": 8,
+        "plane": {
+          "squash": 0.86,
+          "rotation": 0
+        },
+        "secondaryRing": false,
+        "trailSeconds": 0.55,
+        "trailColor": "#dfb278",
+        "ringChase": {
+          "count": 16,
+          "fadeStart": 0.35,
+          "sweepSeconds": 1.85,
+          "fadeSeconds": 0.45,
+          "colors": [
+            "#9d88ed",
+            "#ed637c",
+            "#edc786",
+            "#8ed0af"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.38
+      }
+    ]
+  },
+  {
+    "productId": "hot-as-hell",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=yFp0xaHG-qY",
+      "manufacturerCode": "RA57216",
+      "segmentStart": 10,
+      "segmentEnd": 48.85,
+      "reviewedOn": "2026-09-28",
+      "method": "Complete reference playback at 1x; timestamped browser captures and slower inspection of overlapping centers. Original media clock; onset precision approximately ±0.15 s, extinction ±0.4 s.",
+      "evidenceDirectory": "docs/catalog/spa-cakes-2026-09-28/evidence",
+      "notes": [
+        "Raccoon RA57216, 500g nine-shot rack; flame-wrapped nine-tube package matches the approved image and video intro. Inventory UPC 757201572163. Retail identity corroboration: https://americanwholesalefireworks.com/hot-as-hell/ and https://www.fireworks.us/hot-as-hell-p/RA57216.htm .",
+        "Whole 69.381 s upload reviewed at 1x; introduction and final advertising excluded. Seven independent singles plus two overlapping centers at 44.52 and 44.72 s. No apparent internal performance cut, speed edit or second firing area.",
+        "Violet/pink outer tips with warm plum clusters alternate with blue or pale green tips and red plum clusters. Delayed cluster stars belong to the original break, never additional shots.",
+        "The second crown is low and partly cropped by the source camera. Reconstructed geometry is illustrative; the full nine-shot order and original clock are retained.",
+        "First launch estimated at 10.0 s; first break 10.82 s; significant final red/gold embers disappear around 48.85 s before the outro around 49.3 s."
+      ]
+    },
+    "timing": {
+      "basis": "first-launch-to-last-significant-effect",
+      "firstLaunch": 0,
+      "lastLaunch": 33.9,
+      "lastBurst": 34.72,
+      "visibleEnd": 38.85,
+      "launchEvidence": "estimated where cropped or too faint",
+      "tailEvidence": "observed"
+    },
+    "events": [
+      {
+        "id": "hot-as-hell-1",
+        "launch": 10,
+        "burst": 10.82,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#ddb583"
+        ],
+        "seed": 107001,
+        "x": 0,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#dfb985"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#ce91df"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.8,
+            "rotation": -0.15
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": null
+      },
+      {
+        "id": "hot-as-hell-2",
+        "launch": 14.73,
+        "burst": 15.55,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#e57778"
+        ],
+        "seed": 107212,
+        "x": -0.03,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#ec7779"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#84a8eb"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.72,
+            "rotation": 0.35
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.73
+      },
+      {
+        "id": "hot-as-hell-3",
+        "launch": 19.8,
+        "burst": 20.62,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#e57778"
+        ],
+        "seed": 107423,
+        "x": 0.025,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#ec7779"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#a4d294"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.9,
+            "rotation": -0.15
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.07
+      },
+      {
+        "id": "hot-as-hell-4",
+        "launch": 25.02,
+        "burst": 25.84,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#ddb583"
+        ],
+        "seed": 107634,
+        "x": -0.02,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#dfb985"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#cf8adb"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.78,
+            "rotation": 0.35
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.22
+      },
+      {
+        "id": "hot-as-hell-5",
+        "launch": 29.18,
+        "burst": 30,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#e57778"
+        ],
+        "seed": 107845,
+        "x": 0.01,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#ec7779"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#86acec"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.95,
+            "rotation": -0.15
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.16
+      },
+      {
+        "id": "hot-as-hell-6",
+        "launch": 33.77,
+        "burst": 34.59,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#e57778"
+        ],
+        "seed": 108056,
+        "x": 0.035,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#ec7779"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#a9d19c"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.8,
+            "rotation": 0.35
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.59
+      },
+      {
+        "id": "hot-as-hell-7",
+        "launch": 38.41,
+        "burst": 39.23,
+        "life": 3.6,
+        "shape": "bouquet",
+        "colors": [
+          "#ddb583"
+        ],
+        "seed": 108267,
+        "x": 0,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 2.55,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#dfb985"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#d390db"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.88,
+            "rotation": -0.15
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.64
+      },
+      {
+        "id": "hot-as-hell-8",
+        "launch": 43.7,
+        "burst": 44.52,
+        "life": 4.33,
+        "shape": "bouquet",
+        "colors": [
+          "#ddb583"
+        ],
+        "seed": 108478,
+        "x": 0.045,
+        "launchVisible": false,
+        "y": 0,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 3.25,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#dfb985"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#d49ade"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.81,
+            "rotation": 0.35
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 5.29
+      },
+      {
+        "id": "hot-as-hell-9",
+        "launch": 43.9,
+        "burst": 44.72,
+        "life": 4.13,
+        "shape": "bouquet",
+        "colors": [
+          "#e57778"
+        ],
+        "seed": 108689,
+        "x": -0.065,
+        "launchVisible": false,
+        "y": 0.025,
+        "radius": 165,
+        "clusters": 21,
+        "clusterDelay": 0.73,
+        "clusterLife": 3.25,
+        "clusterArms": 7,
+        "clusterRadialMin": 0.25,
+        "clusterPointSize": 1.35,
+        "clusterColors": [
+          "#ec7779"
+        ],
+        "branchColor": "#c4ae96",
+        "branchTrails": false,
+        "accent": {
+          "count": 21,
+          "colors": [
+            "#a3d4ae"
+          ],
+          "life": 1.16,
+          "radius": 1,
+          "radialMin": 0.98,
+          "size": 2.5,
+          "gravity": 14,
+          "plane": {
+            "squash": 0.91,
+            "rotation": -0.15
+          }
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.2
+      }
+    ]
+  },
+  {
+    "productId": "pirate-captain",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=SRH8mSodlK8",
+      "manufacturerCode": "RA22518",
+      "segmentStart": 2.89,
+      "segmentEnd": 25.9,
+      "reviewedOn": "2026-09-28",
+      "method": "Complete reference playback at 1x; timestamped browser captures and slower inspection of overlapping centers. Original media clock; onset precision approximately ±0.15 s, extinction ±0.4 s.",
+      "evidenceDirectory": "docs/catalog/spa-cakes-2026-09-28/evidence",
+      "notes": [
+        "Raccoon RA22518, 200g 21-shot cake. Official Raccoon video title, blue pirate box and approved inventory image agree; UPC 757201225182.",
+        "Whole 29.961 s upload reviewed at 1x; opening and first fish group revisited at 0.5x. No apparent internal performance cut, speed edit or second firing area.",
+        "The selected 2.89–25.90 s window contains 16 resolved centers: six gold/blue bouquets, a pair of blue/silver fish breaks, six red-to-silver openings, another pair of fish breaks. Original pauses and overlapping intervals are preserved.",
+        "The closing volley around 26.9–27.3 s has unresolved overlapping centers; the 21 retail shots are not reconciled. This excerpt deliberately ends after the preceding fish tails, before that volley. No finale is fabricated, duplicated or stretched.",
+        "The final selected fish opening is at 23.16 s; its silver tails diminish by about 25.9 s. That is the end of the selected phase, not the end of the retail product."
+      ]
+    },
+    "timing": {
+      "basis": "first-launch-to-last-significant-effect",
+      "firstLaunch": 0,
+      "lastLaunch": 19.45,
+      "lastBurst": 20.27,
+      "visibleEnd": 23.01,
+      "launchEvidence": "estimated where cropped or too faint",
+      "tailEvidence": "observed tail of selected phases; retail finale excluded"
+    },
+    "events": [
+      {
+        "id": "pirate-captain-1",
+        "launch": 2.89,
+        "burst": 3.71,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 111001,
+        "x": -0.015,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": null
+      },
+      {
+        "id": "pirate-captain-2",
+        "launch": 3.78,
+        "burst": 4.6,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 111212,
+        "x": 0.015,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.89
+      },
+      {
+        "id": "pirate-captain-3",
+        "launch": 4.98,
+        "burst": 5.8,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 111423,
+        "x": -0.02,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 1.2
+      },
+      {
+        "id": "pirate-captain-4",
+        "launch": 5.77,
+        "burst": 6.59,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 111634,
+        "x": 0.025,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.79
+      },
+      {
+        "id": "pirate-captain-5",
+        "launch": 6.28,
+        "burst": 7.1,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 111845,
+        "x": -0.01,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.51
+      },
+      {
+        "id": "pirate-captain-6",
+        "launch": 7.03,
+        "burst": 7.85,
+        "life": 2.35,
+        "shape": "bouquet",
+        "colors": [
+          "#d9b885"
+        ],
+        "seed": 112056,
+        "x": 0.03,
+        "launchVisible": false,
+        "y": 0,
+        "clusters": 13,
+        "clusterDelay": 0.5,
+        "clusterLife": 1.5,
+        "clusterArms": 5,
+        "clusterPointSize": 0.85,
+        "branchTrails": true,
+        "branchColor": "#d9ba8d",
+        "clusterColors": [
+          "#dfbd89"
+        ],
+        "accent": {
+          "count": 10,
+          "colors": [
+            "#7e9fdf"
+          ],
+          "life": 1.6,
+          "radius": 0.85,
+          "radialMin": 0.5,
+          "size": 2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.75
+      },
+      {
+        "id": "pirate-captain-7",
+        "launch": 9.09,
+        "burst": 9.91,
+        "life": 2.85,
+        "shape": "wander",
+        "colors": [
+          "#b3c7e3"
+        ],
+        "seed": 112267,
+        "x": -0.06,
+        "launchVisible": false,
+        "y": 0.025,
+        "arms": 10,
+        "radius": 110,
+        "gravity": 13,
+        "accent": {
+          "count": 13,
+          "colors": [
+            "#7998e5"
+          ],
+          "life": 1.35,
+          "radius": 1.05,
+          "radialMin": 0.6,
+          "size": 2.2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 2.06
+      },
+      {
+        "id": "pirate-captain-8",
+        "launch": 9.31,
+        "burst": 10.13,
+        "life": 2.85,
+        "shape": "wander",
+        "colors": [
+          "#b3c7e3"
+        ],
+        "seed": 112478,
+        "x": 0.065,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 10,
+        "radius": 110,
+        "gravity": 13,
+        "accent": {
+          "count": 13,
+          "colors": [
+            "#7998e5"
+          ],
+          "life": 1.35,
+          "radius": 1.05,
+          "radialMin": 0.6,
+          "size": 2.2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.22
+      },
+      {
+        "id": "pirate-captain-9",
+        "launch": 13.41,
+        "burst": 14.23,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 112689,
+        "x": -0.025,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 4.1
+      },
+      {
+        "id": "pirate-captain-10",
+        "launch": 14.83,
+        "burst": 15.65,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 112900,
+        "x": 0.01,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 1.42
+      },
+      {
+        "id": "pirate-captain-11",
+        "launch": 15.69,
+        "burst": 16.51,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 113111,
+        "x": 0.035,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.86
+      },
+      {
+        "id": "pirate-captain-12",
+        "launch": 16.79,
+        "burst": 17.61,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 113322,
+        "x": -0.02,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 1.1
+      },
+      {
+        "id": "pirate-captain-13",
+        "launch": 17.38,
+        "burst": 18.2,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 113533,
+        "x": 0.02,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.59
+      },
+      {
+        "id": "pirate-captain-14",
+        "launch": 18.87,
+        "burst": 19.69,
+        "life": 2.2,
+        "shape": "palm",
+        "colors": [
+          "#ed6976"
+        ],
+        "seed": 113744,
+        "x": 0,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 17,
+        "radius": 120,
+        "radialMin": 0.75,
+        "gravity": 15,
+        "trailColor": "#d3d3c8",
+        "trailSeconds": 0.16,
+        "tipLife": 1.55,
+        "glitterCount": 12,
+        "glitterColor": "#d8bd96",
+        "glitterBrightness": 0.4,
+        "colorChange": {
+          "start": 0.38,
+          "seconds": 0.16,
+          "colors": [
+            "#e2e4dd"
+          ]
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 1.49
+      },
+      {
+        "id": "pirate-captain-15",
+        "launch": 21.98,
+        "burst": 22.8,
+        "life": 2.85,
+        "shape": "wander",
+        "colors": [
+          "#b3c7e3"
+        ],
+        "seed": 113955,
+        "x": 0.065,
+        "launchVisible": false,
+        "y": 0.025,
+        "arms": 10,
+        "radius": 110,
+        "gravity": 13,
+        "accent": {
+          "count": 13,
+          "colors": [
+            "#7998e5"
+          ],
+          "life": 1.35,
+          "radius": 1.05,
+          "radialMin": 0.6,
+          "size": 2.2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 3.11
+      },
+      {
+        "id": "pirate-captain-16",
+        "launch": 22.34,
+        "burst": 23.16,
+        "life": 2.74,
+        "shape": "wander",
+        "colors": [
+          "#b3c7e3"
+        ],
+        "seed": 114166,
+        "x": -0.06,
+        "launchVisible": false,
+        "y": 0,
+        "arms": 10,
+        "radius": 110,
+        "gravity": 13,
+        "accent": {
+          "count": 13,
+          "colors": [
+            "#7998e5"
+          ],
+          "life": 1.35,
+          "radius": 1.05,
+          "radialMin": 0.6,
+          "size": 2.2
+        },
+        "launchEvidence": "estimated",
+        "intervalSincePrevious": 0.36
+      }
+    ]
+  }
+]

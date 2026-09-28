@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/catalog/build-pages.mjs",
+    "build": "vite build && node scripts/catalog/build-pages.mjs && node scripts/check-build.mjs",
+    "hosting:check": "node scripts/check-hosting.mjs",
+    "hosting:serve": "node scripts/apache-preview.mjs",
+    "hosting:package": "npm run build && python3 scripts/package-build.py",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "test": "node --test",
     "preview": "vite preview",

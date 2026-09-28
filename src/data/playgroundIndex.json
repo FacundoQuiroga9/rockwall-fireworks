@@ -210,5 +210,17 @@
   {
     "productId": "walkin-dead",
     "kind": "cake-sample"
+  },
+  {
+    "productId": "ghost-rings",
+    "kind": "cake"
+  },
+  {
+    "productId": "hot-as-hell",
+    "kind": "cake"
+  },
+  {
+    "productId": "pirate-captain",
+    "kind": "cake-sample"
   }
 ]

@@ -2119,6 +2119,23 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Nine brocade rings open at measured intervals. Colored tips disappear around each tilted ring while warm rays linger; two closely spaced rings close the sequence.",
+      "effects": [
+        "Brocade sun rings",
+        "Sequentially fading colored tips",
+        "Changing ring planes",
+        "Overlapping final pair"
+      ],
+      "durationSeconds": 39.1,
+      "scope": "Full cake sequence",
+      "observedShots": 9,
+      "confirmedShots": 9,
+      "sourceUrl": "https://www.youtube.com/watch?v=bmPKTKRDG4c",
+      "segmentStart": 4.4,
+      "segmentEnd": 43.5,
+      "note": "Full reviewed cake sequence; geometry and sound are illustrative."
     }
   },
   {
@@ -6866,6 +6883,23 @@
     "cakeClass": {
       "status": "verified-external",
       "grams": 500
+    },
+    "demonstration": {
+      "summary": "Colored rings open into red or gold plum clusters. Seven measured singles lead to two nearly simultaneous crowns, with the final clusters fading naturally.",
+      "effects": [
+        "Violet, blue and green rings",
+        "Delayed red and gold plum clusters",
+        "Seven paced singles",
+        "Two-shot closing overlap"
+      ],
+      "durationSeconds": 38.85,
+      "scope": "Full cake sequence",
+      "observedShots": 9,
+      "confirmedShots": 9,
+      "sourceUrl": "https://www.youtube.com/watch?v=yFp0xaHG-qY",
+      "segmentStart": 10,
+      "segmentEnd": 48.85,
+      "note": "Full reviewed cake sequence; geometry and sound are illustrative."
     }
   },
   {
@@ -9215,6 +9249,23 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Gold bouquets with blue points give way to silver swimming stars and red-to-silver palms. This excerpt preserves those phases and their pauses; the retail finale is not represented.",
+      "effects": [
+        "Gold bouquets with blue points",
+        "Blue and silver swimming stars",
+        "Red-to-silver palms",
+        "Two paired fish passages"
+      ],
+      "durationSeconds": 23.01,
+      "scope": "Sequence excerpt",
+      "observedShots": 16,
+      "confirmedShots": 21,
+      "sourceUrl": "https://www.youtube.com/watch?v=SRH8mSodlK8",
+      "segmentStart": 2.89,
+      "segmentEnd": 25.9,
+      "note": "16 resolved openings from a 21-shot cake. Closing volley excluded pending reconciliation; this is an excerpt."
     }
   },
   {

@@ -1,0 +1,326 @@
+[
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 2.591138,
+    "sourceFrame": "f022.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 1,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 5.7659,
+    "sourceFrame": "f053.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 2,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 6.561972,
+    "sourceFrame": "f061.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 3,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 7.493112,
+    "sourceFrame": "f070.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 4,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 10.884043,
+    "sourceFrame": "f104.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 5,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 19.486436,
+    "sourceFrame": "f187.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 6,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 24.534647,
+    "sourceFrame": "f236.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 7,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 30.067893,
+    "sourceFrame": "f290.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 8,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 34.639812,
+    "sourceFrame": "f334.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 9,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 39.614445,
+    "sourceFrame": "f383.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 10,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 40.13373,
+    "sourceFrame": "f388.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 11,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "ghost-rings",
+    "sourceTime": 42.916845,
+    "sourceFrame": "f415.png",
+    "sheet": "ghost-rings-reference.jpg",
+    "cell": 12,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 8.105107,
+    "sourceFrame": "f066.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 1,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 11.505511,
+    "sourceFrame": "f096.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 2,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 12.258241,
+    "sourceFrame": "f103.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 3,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 16.285605,
+    "sourceFrame": "f143.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 4,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 17.167326,
+    "sourceFrame": "f152.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 5,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 21.381855,
+    "sourceFrame": "f194.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 6,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 26.71313,
+    "sourceFrame": "f246.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 7,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 31.095995,
+    "sourceFrame": "f284.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 8,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 35.571475,
+    "sourceFrame": "f320.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 9,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 44.563645,
+    "sourceFrame": "f396.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 10,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 45.304605,
+    "sourceFrame": "f403.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 11,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "hot-as-hell",
+    "sourceTime": 48.613334,
+    "sourceFrame": "f433.png",
+    "sheet": "hot-as-hell-reference.jpg",
+    "cell": 12,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 2.332651,
+    "sourceFrame": "f013.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 1,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 4.415945,
+    "sourceFrame": "f027.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 2,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 5.443795,
+    "sourceFrame": "f031.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 3,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 6.835728,
+    "sourceFrame": "f040.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 4,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 9.917375,
+    "sourceFrame": "f060.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 5,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 10.485674,
+    "sourceFrame": "f064.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 6,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 14.712159,
+    "sourceFrame": "f097.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 7,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 16.696078,
+    "sourceFrame": "f112.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 8,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 19.040682,
+    "sourceFrame": "f128.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 9,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 23.801456,
+    "sourceFrame": "f160.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 10,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 25.784801,
+    "sourceFrame": "f175.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 11,
+    "brightness": "original",
+    "note": ""
+  },
+  {
+    "productId": "pirate-captain",
+    "sourceTime": 27.365286,
+    "sourceFrame": "f188.png",
+    "sheet": "pirate-captain-reference.jpg",
+    "cell": 12,
+    "brightness": "original",
+    "note": "Pirate Captain final cell is excluded from the profile"
+  }
+]

@@ -212,7 +212,24 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             const visibility = i < 6 ? 1 : weight(salt + 10, Math.max(.5, capacity));
             const envelope = Math.min(1, a / .055) * Math.pow(1 - a / accent.life, .6);
             const shimmer = accent.shimmer ? .76 + .2 * Math.sin(a * 9 + i * 2.7) : 1;
-            dot(ex + Math.cos(angle) * r * scale, cy + (Math.sin(angle) * r + (accent.gravity ?? 16) * a * a) * scale, Math.max(.8, (accent.size ?? 3.1) * scale), accent.colors[i % accent.colors.length], envelope * shimmer * (accent.brightness ?? 1) * visibility, true);
+            const rotation = accent.plane?.rotation ?? 0, squash = accent.plane?.squash ?? 1;
+            const dx = Math.cos(angle) * Math.cos(rotation) - Math.sin(angle) * squash * Math.sin(rotation);
+            const dy = Math.cos(angle) * Math.sin(rotation) + Math.sin(angle) * squash * Math.cos(rotation);
+            dot(ex + dx * r * scale, cy + (dy * r + (accent.gravity ?? 16) * a * a) * scale, Math.max(.8, (accent.size ?? 3.1) * scale), accent.colors[i % accent.colors.length], envelope * shimmer * (accent.brightness ?? 1) * visibility, true);
+          }
+        }
+        // A ghost ring loses its colored tips sector by sector while the
+        // brocade rays remain. It is one break, not a second launch or ring.
+        if (event.ringChase) {
+          const chase = event.ringChase, rotation = event.plane?.rotation ?? 0, squash = event.plane?.squash ?? 1;
+          for (let i = 0; i < chase.count; i++) {
+            const angle = i / chase.count * Math.PI * 2;
+            const fadeStart = chase.fadeStart + i / chase.count * chase.sweepSeconds;
+            const alpha = Math.min(1, age / .06) * Math.max(0, Math.min(1, 1 - (age - fadeStart) / chase.fadeSeconds));
+            const dx = Math.cos(angle) * Math.cos(rotation) - Math.sin(angle) * squash * Math.sin(rotation);
+            const dy = Math.cos(angle) * Math.sin(rotation) + Math.sin(angle) * squash * Math.cos(rotation);
+            dot(ex + dx * radius * grow(age) * scale, cy + (dy * radius * grow(age) + (event.gravity ?? 20) * age * age) * scale,
+              Math.max(.9, 2.8 * scale), chase.colors[Math.floor(i / chase.count * chase.colors.length)], alpha, true);
           }
         }
         if (event.shape === 'bouquet') {
@@ -283,7 +300,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             for (let j = 0; j <= 4; j++) { const t = Math.max(.3, age - .13 + j * .0325); if (!j) context.moveTo(px(t), py(t)); else context.lineTo(px(t), py(t)); }
             context.stroke();
           }
-          if (palm) {
+          if (palm || (ring && event.trailSeconds)) {
             const trailColor = event.trailColor || (event.shape === 'palm-glitter' || willow ? '#f8cd91' : '#dce5fc');
             const trailSeconds = event.trailSeconds ?? .34;
             context.globalAlpha = fade * .7 * visibility; context.strokeStyle = trailColor; context.lineWidth = Math.max(.65, 1.25 * scale);
