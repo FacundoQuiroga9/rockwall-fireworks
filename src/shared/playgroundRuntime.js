@@ -73,6 +73,12 @@ export function mountPlayground(config, makeTimeline, makeRenderer, makeAudio, m
       reset.hidden = !shell.complete; reset.disabled = shell.busy || state.state === 'paused';
     }
     soundUI(); qualityUI();
+    // Stop/restart may run after the last frame report. Publish live resource
+    // counts instead of retaining voices or particles from that previous frame.
+    if (metrics) {
+      const rendered = renderer.metrics?.();
+      metrics = { ...metrics, ...rendered, particles: rendered?.drawnPoints ?? particles, audio: audio.snapshot?.() };
+    }
     send({ state: state.state, position: state.position, duration: state.automaticDuration, shells: state.shells, metrics });
   }
   function stop(useLastFrame = false) {

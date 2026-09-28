@@ -1,0 +1,1142 @@
+[
+  {
+    "productId": "bump-bear",
+    "beforeDuration": 24.3,
+    "beforeEvents": 16,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=is8CCkWA4yI",
+      "manufacturerCode": "P5011",
+      "segmentStart": 4.4,
+      "segmentEnd": 28.7,
+      "reviewedOn": "2026-09-25",
+      "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+      "notes": [
+        "Official Winda demonstration. Intro identifies P5011, 16 shots.",
+        "One centered cake sequence; no visible fan or separate rapid finale. No obvious speed change or performance cut observed.",
+        "Alternating red, green, gold and silver palms. Final persistence estimated where recording ends.",
+        "Video height annotations are not used as calibrated measurements."
+      ]
+    },
+    "firstLaunch": 0,
+    "lastLaunch": 21.2,
+    "lastBurst": 22.2,
+    "lastParticle": 24.2,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 24.3,
+    "afterEvents": 16,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0,
+    "lastLaunchAfter": 21.2,
+    "lastBurstAfter": 22.2,
+    "lastParticleAfter": 24.2,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "band-of-brothers",
+    "beforeDuration": 33.8,
+    "beforeEvents": 12,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=Ndro9los2fk",
+      "manufacturerCode": "RA53653",
+      "segmentStart": 3.5,
+      "segmentEnd": 37.3,
+      "reviewedOn": "2026-09-25",
+      "method": "Visual inspection of the actual muted video, paused frames and frame stepping. No audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-2026-09/evidence",
+      "notes": [
+        "Official Raccoon demonstration of RA53653, 12 shots.",
+        "Single centered firing sequence; no obvious cut or slow motion in the chosen segment.",
+        "Nine separated bursts and three closely spaced final bursts. Final burst separation checked using 0.2-second frame samples.",
+        "Fine white points persist after the colored stars. Launches are faint; lift timing is approximate."
+      ]
+    },
+    "firstLaunch": 0.2,
+    "lastLaunch": 29.84,
+    "lastBurst": 30.84,
+    "lastParticle": 33.64,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 33.8,
+    "afterEvents": 12,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.2,
+    "lastLaunchAfter": 29.84,
+    "lastBurstAfter": 30.84,
+    "lastParticleAfter": 33.64,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "daffodil",
+    "beforeDuration": 28.4,
+    "beforeEvents": 15,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=_8IthnKIchA",
+      "manufacturerCode": "BP2115",
+      "segmentStart": 10.6,
+      "segmentEnd": 39,
+      "reviewedOn": "2026-09-25",
+      "method": "Actual muted video inspected with paused frames and contact sheets; no redistributed audio.",
+      "evidenceDirectory": "docs/catalog/playground-evolution-2026-09/evidence",
+      "notes": [
+        "BP2115 shown on packaging; American Wholesale Fireworks republishes a Brothers demonstration.",
+        "Single centered unit; no obvious cut or speed change inside the observed segment.",
+        "15 bursts resolved at 0.5-second sampling; the source labels the product 16 shots. The unresolved shot is not invented.",
+        "Steady individual rhythm; no invented multi-shot finale."
+      ]
+    },
+    "firstLaunch": 0.6,
+    "lastLaunch": 25.2,
+    "lastBurst": 26.4,
+    "lastParticle": 28.049999999999997,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 28.4,
+    "afterEvents": 15,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.6,
+    "lastLaunchAfter": 25.2,
+    "lastBurstAfter": 26.4,
+    "lastParticleAfter": 28.049999999999997,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "ghost-dragon",
+    "beforeDuration": 34.8,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=6zFLJt1m7q8",
+      "manufacturerCode": "RA57219",
+      "segmentStart": 7.5,
+      "segmentEnd": 42.3,
+      "reviewedOn": "2026-09-25",
+      "method": "Actual muted video inspected with paused frames and contact sheets; no redistributed audio.",
+      "evidenceDirectory": "docs/catalog/playground-evolution-2026-09/evidence",
+      "notes": [
+        "Official Raccoon video identifies RA57219 and the 9-shot rack.",
+        "One centered unit with no obvious performance cut; introduction excluded.",
+        "Eight resolved bursts; the ninth shot cannot be separated confidently in the sampled reference.",
+        "Sector motion is an approximation of the visible changing red/white points, not a physical measurement."
+      ]
+    },
+    "firstLaunch": 0.4,
+    "lastLaunch": 29.1,
+    "lastBurst": 30.3,
+    "lastParticle": 34.6,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 34.8,
+    "afterEvents": 8,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.4,
+    "lastLaunchAfter": 29.1,
+    "lastBurstAfter": 30.3,
+    "lastParticleAfter": 34.6,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "jaws-brothers",
+    "beforeDuration": 47,
+    "beforeEvents": 16,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=OgutQQqqgfY",
+      "manufacturerCode": "BP2377",
+      "segmentStart": 6,
+      "segmentEnd": 53,
+      "reviewedOn": "2026-09-26",
+      "method": "Muted source video inspected in Chrome, with decoded frames and timestamped contact sheets. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
+      "notes": [
+        "Official Brothers BP2377, 200g, 16 shots visible on packaging and overlay. One unit; no obvious cut within performance.",
+        "One-second decoded sampling throughout 6\u201353 seconds; final launches/apertures additionally sampled every 0.267 seconds.",
+        "Thirteen spaced bursts followed by three close launches around 48.3\u201348.9 seconds and openings around 49.6\u201350.1.",
+        "Final fade visible by 52\u201353 seconds before the logo outro. Golden branching follows the first pale points; no extra finale generated."
+      ]
+    },
+    "firstLaunch": 0.35,
+    "lastLaunch": 43,
+    "lastBurst": 44.1,
+    "lastParticle": 46.75,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 47,
+    "afterEvents": 16,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.35,
+    "lastLaunchAfter": 43,
+    "lastBurstAfter": 44.1,
+    "lastParticleAfter": 46.75,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "american-anthem",
+    "beforeDuration": 29,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=XlKS1F6et98",
+      "manufacturerCode": "RA57218",
+      "segmentStart": 8,
+      "segmentEnd": 37,
+      "reviewedOn": "2026-09-26",
+      "method": "Muted source video inspected in Chrome, with decoded frames and timestamped contact sheets. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-continuity-2026-09/evidence",
+      "notes": [
+        "Official RA57218, 9-shot rack visible on overlay; single centered rack, no obvious cut inside the selected performance.",
+        "Eight distinct openings resolved at approximately 8.7, 12.6, 16.5, 19.6, 24.3, 28.3, 31.5 and 34.9 seconds. Ninth advertised shot unresolved; keep as excerpt.",
+        "One-second sampling, no invented shots or repeated sequence. Source ends shortly after the last visible break; tail is kept within the selected window."
+      ]
+    },
+    "firstLaunch": 0.1,
+    "lastLaunch": 26.3,
+    "lastBurst": 26.9,
+    "lastParticle": 28.95,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 29,
+    "afterEvents": 8,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.1,
+    "lastLaunchAfter": 26.3,
+    "lastBurstAfter": 26.9,
+    "lastParticleAfter": 28.95,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "ghost-killer",
+    "beforeDuration": 41,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=oqXARGKUAXk",
+      "manufacturerCode": "RA57217",
+      "segmentStart": 6,
+      "segmentEnd": 47,
+      "reviewedOn": "2026-09-26",
+      "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+      "notes": [
+        "Official Raccoon RA57217 9-shot rack, 500g overlay. One centered unit; no obvious internal cut or simultaneous second product.",
+        "Eight distinct bursts resolved at about 8.5, 12.85, 17.8, 21.8, 26.9, 32.9, 38.85 and 43.8 s. Advertised total is nine; the unresolved ninth is not invented. Classified as excerpt despite a dark end to the recording.",
+        "Colors shift by sectors; the peach/green stars dim before blue points dominate, rather than all stars being recolored at once."
+      ]
+    },
+    "firstLaunch": 1.7,
+    "lastLaunch": 37,
+    "lastBurst": 37.8,
+    "lastParticle": 40.599999999999994,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 41,
+    "afterEvents": 8,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 1.7,
+    "lastLaunchAfter": 37,
+    "lastBurstAfter": 37.8,
+    "lastParticleAfter": 40.599999999999994,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "us-power",
+    "beforeDuration": 17.3,
+    "beforeEvents": 11,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=b0xT23KjsGk",
+      "manufacturerCode": "RA22534",
+      "segmentStart": 6.1,
+      "segmentEnd": 23.4,
+      "reviewedOn": "2026-09-26",
+      "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+      "notes": [
+        "Official Raccoon RA22534, 200g, 16 shots. A single visible firing position; decorative video border, no obvious internal cut in the selected portion.",
+        "Eleven separated openings resolved. Later closely overlapping finale launches and bursts cannot be counted reliably from the sampled footage; excerpt deliberately ends before that cluster. No fabricated shots to reach the advertised sixteen.",
+        "Openings sampled every 0.33 s, with the overlapping finale inspected at 0.1 s. Wander paths are an illustrative approximation of the visibly turning short silver streaks."
+      ]
+    },
+    "firstLaunch": 0.4,
+    "lastLaunch": 14.8,
+    "lastBurst": 15.8,
+    "lastParticle": 17.25,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 17.3,
+    "afterEvents": 11,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.4,
+    "lastLaunchAfter": 14.8,
+    "lastBurstAfter": 15.8,
+    "lastParticleAfter": 17.25,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "golden-peacock",
+    "beforeDuration": 40.8,
+    "beforeEvents": 16,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=0ZGF8eiJvcc",
+      "manufacturerCode": "BP2112",
+      "segmentStart": 3.7,
+      "segmentEnd": 44.5,
+      "reviewedOn": "2026-09-26",
+      "method": "Actual muted source video inspected in Chrome with decoded frames and timestamped contact sheets; no source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-scenes-2026-09/evidence",
+      "notes": [
+        "Spirit of \u201976 MS187 is a distributor code for Brothers Golden Peacock. Catalog model BP2112, matching named package and 16-shot 200g presentation; not a different product named Peacock.",
+        "Sixteen separate openings counted through a single continuous performance. No simultaneous second unit or obvious internal cut. The last sparks fade into the dark closing frames at 43\u201345 s.",
+        "Source sampled at one-second intervals from intro through the dark ending; timings are estimates (approximately \u00b10.5 s), not frame-accurate manufacturer timings. No additional finale pattern inferred."
+      ]
+    },
+    "firstLaunch": 0.4,
+    "lastLaunch": 36.5,
+    "lastBurst": 38,
+    "lastParticle": 40.2,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 40.8,
+    "afterEvents": 16,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.4,
+    "lastLaunchAfter": 36.5,
+    "lastBurstAfter": 38,
+    "lastParticleAfter": 40.2,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "raging-willow",
+    "beforeDuration": 33.3,
+    "beforeEvents": 19,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=PnXkPdmX0NE",
+      "manufacturerCode": "RA22512",
+      "segmentStart": 6.1,
+      "segmentEnd": 39.4,
+      "reviewedOn": "2026-09-26",
+      "method": "Actual muted video inspected in Chrome, paused frame stepping and timestamped contact sheets. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-depth-2026-09/evidence",
+      "notes": [
+        "Raccoon RA22512, 200g, 19 shots, UPC 757201225120. One cake and one launch origin; no performance cuts or speed changes observed.",
+        "Fourteen individually spaced openings followed by five overlapping centers resolved with 0.04-second stepping at 36.2\u201336.56 s. Finale color assignment is a shared observed cluster palette; individual colors cannot all be isolated through the overlap.",
+        "Complete emission sequence and falling tail through the recording end. Source time bounds do not include the title card."
+      ]
+    },
+    "firstLaunch": 0.25,
+    "lastLaunch": 28.77,
+    "lastBurst": 30.42,
+    "lastParticle": 33.2,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 33.3,
+    "afterEvents": 19,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.25,
+    "lastLaunchAfter": 28.77,
+    "lastBurstAfter": 30.42,
+    "lastParticleAfter": 33.2,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "hot-dog",
+    "beforeDuration": 23.65,
+    "beforeEvents": 16,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=TcKkLNEQ-hE",
+      "segmentStart": 3.55,
+      "segmentEnd": 27.2,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+      "notes": [
+        "World-Class Hot Dog, 16 shots, 200g. Matching green retail box and World-Class title in the Iowa Fireworks Farm demonstration. No model code invented.",
+        "Sixteen centers including pairs around 6.12/6.35 and 19.85/20.03, and four overlapping finale centers around 22.30\u201322.57. Last group reviewed with paused stepping. Final palette is shared silver/gold; fine center timings are estimates through overlap.",
+        "One apparent launch origin; no performance cuts or speed changes observed. The ground is outside the frame, so unit count cannot be independently inspected at the base. The complete visible performance and tail are retained, excluding title/outro."
+      ]
+    },
+    "firstLaunch": 0.04,
+    "lastLaunch": 18.27,
+    "lastBurst": 19.02,
+    "lastParticle": 22.47,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 23.65,
+    "afterEvents": 16,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.04,
+    "lastLaunchAfter": 18.27,
+    "lastBurstAfter": 19.02,
+    "lastParticleAfter": 22.47,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "battle-cry",
+    "beforeDuration": 35.6,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=TKlNeHeOap4",
+      "segmentStart": 5.9,
+      "segmentEnd": 41.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual video playback in Chrome at normal speed; timestamped frames and paused stepping for overlapping centers. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-aerial-batch-2026-09/evidence",
+      "notes": [
+        "Raccoon RA57203, 500g commercial cake group, 9-shot rack. Exact code/title and box match the catalog.",
+        "The entire 42.081-second video was reviewed, including the opening. Only eight centers are visible: 7.08, 11.30, 15.25, 19.25, 24.08, 28.20, 33.15, 37.78. No ninth event is invented; retain excerpt scope despite observing the last visible tail.",
+        "Static view and one apparent origin; no interior performance cuts or speed changes detected. Title ends near 5.9. Retail shot count remains distinct from eight reviewed events."
+      ],
+      "manufacturerCode": "RA57203"
+    },
+    "firstLaunch": 0.05,
+    "lastLaunch": 30.58,
+    "lastBurst": 31.88,
+    "lastParticle": 35.33,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 35.6,
+    "afterEvents": 8,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.05,
+    "lastLaunchAfter": 30.58,
+    "lastBurstAfter": 31.88,
+    "lastParticleAfter": 35.33,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "vertical-limit",
+    "beforeDuration": 31.55,
+    "beforeEvents": 16,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=vbqaM8cz2ZE",
+      "manufacturerCode": null,
+      "segmentStart": 6.8,
+      "segmentEnd": 38.35,
+      "reviewedOn": "2026-09-27",
+      "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+      "notes": [
+        "Cutting Edge package and 16-shot presentation match the inventory; single apparent launch area.",
+        "Sixteen distinct openings counted. No edit or speed change observed within 6.80\u201338.35; branded intro/outro excluded.",
+        "All sixteen openings are represented. Editorial fade begins with sparse embers still visible near 38.35\u201338.60; keep preview scope, not a verified full product duration. First three lift cues are visually unresolved and omitted."
+      ]
+    },
+    "firstLaunch": 0.15,
+    "lastLaunch": 28.25,
+    "lastBurst": 28.95,
+    "lastParticle": 31.55,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 31.55,
+    "afterEvents": 16,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.15,
+    "lastLaunchAfter": 28.25,
+    "lastBurstAfter": 28.95,
+    "lastParticleAfter": 31.55,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ],
+    "sharedRendererChange": "Delayed bouquet flowers now fade within parent life instead of disappearing while bright. Existing source window and event times unchanged."
+  },
+  {
+    "productId": "one-bad-mother-in-law",
+    "beforeDuration": 33.4,
+    "beforeEvents": 16,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=RCZOKivGERU",
+      "manufacturerCode": null,
+      "segmentStart": 0.8,
+      "segmentEnd": 34.2,
+      "reviewedOn": "2026-09-27",
+      "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+      "notes": [
+        "World-Class 16-shot 500g presentation and approved package match the OCFireworks reference.",
+        "Twelve separated openings followed by four distinct overlapping finale centers around 30.80\u201330.97; individual onset estimates, not a new firing pattern.",
+        "One apparent unit; no visible edit or speed change in the performance.",
+        "All sixteen openings are represented, but sparse final embers meet the recording boundary. Retain excerpt status; 33.4 seconds is this preview, not a verified total product duration."
+      ]
+    },
+    "firstLaunch": 0.37,
+    "lastLaunch": 29.47,
+    "lastBurst": 30.17,
+    "lastParticle": 33.32,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 33.4,
+    "afterEvents": 16,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.37,
+    "lastLaunchAfter": 29.47,
+    "lastBurstAfter": 30.17,
+    "lastParticleAfter": 33.32,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "strobing-willow",
+    "beforeDuration": 17.6,
+    "beforeEvents": 20,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=prG4cr0TASo",
+      "manufacturerCode": "RA22004",
+      "segmentStart": 6.65,
+      "segmentEnd": 24.25,
+      "reviewedOn": "2026-09-27",
+      "method": "Muted real-time reference review and timestamped screen captures, followed by per-event comparison. No reference audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-navigation-2026-09",
+      "notes": [
+        "Official RA22004 title, on-screen model and 200g package match the catalog.",
+        "Publish the first five individually resolved openings only; later faster openings and overlapping finale need finer center separation before extending to the 25-shot retail sequence.",
+        "No cut or speed change within the published window; one apparent launch area. The excerpt ends after the fifth tail, before the next opening. No artificial repeated finale.",
+        "Revision 2: 8\u201310 fps review resolves fifteen additional openings (15.73\u201322.90 s). Preserve the original first five events. Publish twenty, stopping before the unresolved overlapping final cluster near 24.4 s; still an excerpt, not a full 25-shot cake."
+      ]
+    },
+    "firstLaunch": 0,
+    "lastLaunch": 15.55,
+    "lastBurst": 16.25,
+    "lastParticle": 17.6,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 17.6,
+    "afterEvents": 20,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0,
+    "lastLaunchAfter": 15.55,
+    "lastBurstAfter": 16.25,
+    "lastParticleAfter": 17.6,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "whacky-tobacky",
+    "beforeDuration": 25.9,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=kfKXaQZ-2rk",
+      "manufacturerCode": "BP2501",
+      "segmentStart": 5.6,
+      "segmentEnd": 31.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Manufacturer BP2501 nine-shot rack, approved package and SKU 687985250110 match.",
+        "Six isolated centers and two independently visible final centers are resolved; nine is the retail count, not permission to add a ninth event.",
+        "Single apparent firing area; continuous performance timer, no observed speed edit. Full visible tail reviewed, but missing/unresolved ninth opening keeps excerpt scope."
+      ]
+    },
+    "firstLaunch": 0.76,
+    "lastLaunch": 20.24,
+    "lastBurst": 21.49,
+    "lastParticle": 25.439999999999998,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 24.89,
+    "afterEvents": 9,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 19.61,
+    "lastBurstAfter": 20.86,
+    "lastParticleAfter": 24.89,
+    "reviewMethod": "Complete manufacturer video replayed at 1x. Final volley and tail rechecked at 0.25x with the whole player visible; timestamps are the original media clock.",
+    "resultNotes": [
+      "Manufacturer BP2501 nine-shot rack, approved package and SKU 687985250110 match.",
+      "Six isolated crowns and three vertically offset final centers. The previous excerpt resolved only two of the three final centers; the new center is visibly distinct in the slowed reference, not inferred only from the package count.",
+      "First six absolute burst times are unchanged. Final centers approximately 27.13, 27.15 and 27.22 s (\u00b10.1 s); meaningful gold trails end about 31.25 s (\u00b10.3 s). First quiet lift inferred at 6.36 s, first burst 7.61 s.",
+      "One apparent firing area and continuous manufacturer timer. No performance cut or speed change observed. Excludes the title and unused leading window; geometry and tail threshold remain illustrative."
+    ]
+  },
+  {
+    "productId": "magnum-tremors",
+    "beforeDuration": 31.4,
+    "beforeEvents": 8,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=VihP3cMcJi4",
+      "manufacturerCode": "RA57206",
+      "segmentStart": 6.5,
+      "segmentEnd": 37.9,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Raccoon RA57206, 3-inch nine-shot rack; box and UPC match.",
+        "Six separated openings plus two resolved centers in the last cluster. Do not manufacture the unresolved ninth shot.",
+        "One apparent origin; no obvious internal edit or speed change. Ring perspective and central falling clusters are separate parts of each break."
+      ]
+    },
+    "firstLaunch": 0.33,
+    "lastLaunch": 24.23,
+    "lastBurst": 25.72,
+    "lastParticle": 30.32,
+    "auditStatus": "reference-replayed; unresolved components remain",
+    "afterDuration": 31.4,
+    "afterEvents": 8,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.33,
+    "lastLaunchAfter": 24.23,
+    "lastBurstAfter": 25.72,
+    "lastParticleAfter": 30.32,
+    "resultNotes": [
+      "Full 1x reference replay. Six separated colored/white crowns with falling cores retain the reviewed rhythm. Closing cluster near 32 s still has one unresolved center against nine retail shots."
+    ]
+  },
+  {
+    "productId": "migraine",
+    "beforeDuration": 25,
+    "beforeEvents": 6,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=ElEOhs6JI0U",
+      "manufacturerCode": "RA57207",
+      "segmentStart": 7.4,
+      "segmentEnd": 32.4,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Exact RA57207 nine-shot rack, approved box and manufacturer demonstration.",
+        "Six isolated ring-and-tail effects are published before the overlapping silver finale. The final centers need separation; no invented three-shot fill.",
+        "Entire video reviewed; selected window is continuous with one apparent origin. All falling clusters are part of their own break."
+      ]
+    },
+    "firstLaunch": 0.18,
+    "lastLaunch": 19.95,
+    "lastBurst": 21.19,
+    "lastParticle": 24.990000000000002,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 30.82,
+    "afterEvents": 9,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 23.87,
+    "lastBurstAfter": 25.11,
+    "lastParticleAfter": 30.82,
+    "reviewMethod": "Complete 1x replay, followed by 0.25x inspection of the second, sixth and final openings. Original media-clock times. Obstructed captures were discarded.",
+    "resultNotes": [
+      "Exact RA57207 nine-shot rack, approved box and manufacturer demonstration.",
+      "Six ring/horse-tail openings plus three white-palm centers in the final cluster at approximately 32.58, 32.62 and 32.69 s (\u00b10.1 s). The old excerpt ended before this different finale.",
+      "The slower check confirmed the original six absolute onsets within visual tolerance; they are preserved. 1x screenshot latency can make an opening appear earlier than its recorded frame label, so those coarse labels are not used to retime events.",
+      "First faint lift inferred at 7.58 s. Final falling tips approach the source boundary at 38.4 s; the closing fade is a bounded simulation, not a verified natural full duration. Retain excerpt scope despite nine resolved openings.",
+      "One apparent origin; no internal speed edit or performance cut observed. White palms are distinct from the earlier rings; no new lift is assigned to a horse-tail component."
+    ]
+  },
+  {
+    "productId": "neon-jellyfish",
+    "beforeDuration": 29.2,
+    "beforeEvents": 7,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=UG_3QDM9310",
+      "manufacturerCode": "RA57212",
+      "segmentStart": 6.2,
+      "segmentEnd": 35.4,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "RA57212 nine-shot rack, approved package/UPC and official video agree.",
+        "Seven separate openings before the final overlapping cluster are included. Final centers remain unresolved, so the clip is not a complete nine-shot sequence.",
+        "Camera crops portions of early rings; later openings support the geometry, with ring perspective explicitly illustrative. No second firing area observed."
+      ]
+    },
+    "firstLaunch": 0.19,
+    "lastLaunch": 24.52,
+    "lastBurst": 25.7,
+    "lastParticle": 29.2,
+    "auditStatus": "reference-replayed; unresolved components remain",
+    "afterDuration": 29.2,
+    "afterEvents": 7,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.19,
+    "lastLaunchAfter": 24.52,
+    "lastBurstAfter": 25.7,
+    "lastParticleAfter": 29.2,
+    "resultNotes": [
+      "Full 1x reference replay. A later green opening is outside the current excerpt; early rings are cropped. Fine timing review failed repeatedly with ENOSPC; no additional event published."
+    ]
+  },
+  {
+    "productId": "sky-ink",
+    "beforeDuration": 24.45,
+    "beforeEvents": 16,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=mFICypgeVm8",
+      "manufacturerCode": "BC6530",
+      "segmentStart": 1.95,
+      "segmentEnd": 26.4,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Black Cat Sky Ink, 16 shots and approved artwork are visible in the linked demonstration.",
+        "Twelve individual openings and four separated overlapping finale centers near 21.78\u201322.08; one apparent firing area. No performance cuts or speed changes observed.",
+        "Last sparse embers fade before 26.4; branded outro begins later. Source window excludes logo animation; duration is not the file length."
+      ]
+    },
+    "firstLaunch": 0.2,
+    "lastLaunch": 19.16,
+    "lastBurst": 20.13,
+    "lastParticle": 24.229999999999997,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 24.45,
+    "afterEvents": 16,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.2,
+    "lastLaunchAfter": 19.16,
+    "lastBurstAfter": 20.13,
+    "lastParticleAfter": 24.229999999999997,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "wild-horses",
+    "beforeDuration": 28.3,
+    "beforeEvents": 18,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=w5QUlnKoDnA",
+      "manufacturerCode": "RA22002",
+      "segmentStart": 7.2,
+      "segmentEnd": 35.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "RA22002, 25 shots, manufacturer title and package match.",
+        "Eighteen independently resolved openings before the dense final cluster are published. Retail 25 is kept distinct; final overlap and any faint unresolved centers need further inspection.",
+        "The complete 39.641 s video was inspected; no obvious speed edit or second unit, but unresolved count prevents complete scope."
+      ]
+    },
+    "firstLaunch": 0.38,
+    "lastLaunch": 25.95,
+    "lastBurst": 26.77,
+    "lastParticle": 28.3,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 28.3,
+    "afterEvents": 18,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.38,
+    "lastLaunchAfter": 25.95,
+    "lastBurstAfter": 26.77,
+    "lastParticleAfter": 28.3,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ],
+    "sharedRendererChange": "Delayed bouquet flowers now fade within parent life instead of disappearing while bright. Existing source window and event times unchanged."
+  },
+  {
+    "productId": "pyro-pilot",
+    "beforeDuration": 8.15,
+    "beforeEvents": 5,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=zQST3i4YhlY&pp=ygUQcHlybyBwaWxvdCB3aW5kYQ%3D%3D",
+      "manufacturerCode": "P5182",
+      "segmentStart": 4.25,
+      "segmentEnd": 12.4,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "P5182 and Pyro Pilot artwork/25 shots on original video match the catalog; current maker URL retains former Top Maverick wording but code and UPC agree.",
+        "First five bursts only. Later close rising clusters and overlapping finale need independent component/timing review; full video inspected but those parts are not filled by repetition.",
+        "One apparent origin; no cuts or speed change inside the selected window."
+      ]
+    },
+    "firstLaunch": 0.18,
+    "lastLaunch": 5.38,
+    "lastBurst": 6.23,
+    "lastParticle": 8.13,
+    "auditStatus": "reference-replayed; unresolved components remain",
+    "afterDuration": 8.15,
+    "afterEvents": 5,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.18,
+    "lastLaunchAfter": 5.38,
+    "lastBurstAfter": 6.23,
+    "lastParticleAfter": 8.13,
+    "resultNotes": [
+      "Full 1x reference replay plus 0.5x later section. First five openings are represented; low turning/report-like components at 12.3\u201314.3 and 22\u201324 s and final overlap remain unresolved. No generic fill added."
+    ]
+  },
+  {
+    "productId": "wild-west",
+    "beforeDuration": 26.15,
+    "beforeEvents": 25,
+    "scope": "cake",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=RbwodLEP4lw",
+      "manufacturerCode": "BP2924",
+      "segmentStart": 5.15,
+      "segmentEnd": 31.3,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Individual Brothers BP2924 25-shot cake and approved package match; not the four-cake assortment.",
+        "Five groups of five: red bouquets, white bouquets, blue stars, low rising multicolor spinners with reports, then crackling bouquets. The fourth group is not five spherical explosions.",
+        "One apparent firing area, continuous source timer, no internal edit or speed change observed. Last embers extinguish before the outro around 31.5 s.",
+        "Spiral radius and the lower height of the fourth group are illustrative visual geometry. Source launch and report timing retained separately."
+      ]
+    },
+    "firstLaunch": 0.13,
+    "lastLaunch": 22.61,
+    "lastBurst": 23.76,
+    "lastParticle": 26.110000000000003,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 26.15,
+    "afterEvents": 25,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.13,
+    "lastLaunchAfter": 22.61,
+    "lastBurstAfter": 23.76,
+    "lastParticleAfter": 26.110000000000003,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "nation-ovation",
+    "beforeDuration": 25.4,
+    "beforeEvents": 13,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=EeZPscToUz0&pp=ygUUbmF0aW9uIG92YXRpb24gd2luZGE%3D",
+      "manufacturerCode": "P5184",
+      "segmentStart": 6.05,
+      "segmentEnd": 31.45,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Winda P5184, 16 shots, UPC 705108518401 and approved presentation match.",
+        "Thirteen isolated openings before the overlapping closing cluster. Color changes and delayed crackle remain components of one opening, not extra shots.",
+        "Entire 35.421 s video inspected; no apparent speed edit or second unit. Final overlap near 31.6 s does not resolve every center, so no complete 16-shot claim."
+      ]
+    },
+    "firstLaunch": 0.23,
+    "lastLaunch": 22.95,
+    "lastBurst": 23.87,
+    "lastParticle": 25.4,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 25.4,
+    "afterEvents": 13,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.23,
+    "lastLaunchAfter": 22.95,
+    "lastBurstAfter": 23.87,
+    "lastParticleAfter": 25.4,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "dreams-from-heaven",
+    "beforeDuration": 25.5,
+    "beforeEvents": 18,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=ro7nIqMhvx0",
+      "manufacturerCode": "RA22010",
+      "segmentStart": 4.65,
+      "segmentEnd": 30.15,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video reviewed with timestamped 8\u201310 fps captures and finer frame comparison around overlapping openings. No reference audio copied.",
+      "evidenceDirectory": "docs/catalog/playground-cakes-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA22010, 25-shot cake, approved artwork and UPC 757201220101.",
+        "Eighteen individually resolved openings are retained, ending before the overlapping crackling finale near 30.4 s. The reference does not resolve all 25 centers, so no missing shots are synthesized.",
+        "Whole 35.121 s reference inspected. One apparent origin, no speed change observed; variable ring perspectives are illustrative. The final cluster is not miscounted as each of its crackling flowers."
+      ]
+    },
+    "firstLaunch": 0.43,
+    "lastLaunch": 22.43,
+    "lastBurst": 23.15,
+    "lastParticle": 25.4,
+    "auditStatus": "timing-contract-and-historical-records-checked; new complete reference comparison pending",
+    "afterDuration": 25.5,
+    "afterEvents": 18,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.43,
+    "lastLaunchAfter": 22.43,
+    "lastBurstAfter": 23.15,
+    "lastParticleAfter": 25.4,
+    "resultNotes": [
+      "No event data changed without new evidence. Historical review and scope retained; this status is not a fresh visual fidelity approval."
+    ]
+  },
+  {
+    "productId": "jawbreaker",
+    "beforeDuration": 19.0,
+    "beforeEvents": 15,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
+      "manufacturerCode": "RA22009",
+      "segmentStart": 3.5,
+      "segmentEnd": 22.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA22009 / Jawbreaker: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
+        "Fifteen resolved openings in the first three phases. Later red/blue openings and the overlapping crackling finale near 29.7\u201330.0 s are pending finer separation. Editorial fade near 32.4 s does not verify the natural final tail.",
+        "Entire 33.841 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.16,
+    "lastLaunch": 16.86,
+    "lastBurst": 17.58,
+    "lastParticle": 19.0,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 28.74,
+    "afterEvents": 25,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 25.66,
+    "lastBurstAfter": 26.38,
+    "lastParticleAfter": 28.740000000000002,
+    "reviewMethod": "Complete reference playback at 1x, supplemented by timestamped captures and 0.25x inspection of overlapping openings. Times use the original media clock, never elapsed review time.",
+    "resultNotes": [
+      "Raccoon RA22009, 25-shot 200g cake; approved cube and on-screen code match.",
+      "Revision 1 stopped after the first fifteen openings. Five blue-to-red openings and five final bouquet centers are now included. Its last gold accent also had 0.24 s of persistence outside the parent lifetime; restored without shifting any original burst interval.",
+      "Five final centers resolved with 0.25x playback at approximately 29.80, 29.84, 29.92, 29.98 and 30.04 s. Crackling flowers delayed about .64 s belong to those openings.",
+      "All 25 openings represented; final sparks approach an editorial fade near 32.4 s. Keep excerpt scope: the natural final ember disappearance is not independently established.",
+      "No apparent internal cut, speed edit or simultaneous second unit in the performance."
+    ]
+  },
+  {
+    "productId": "willow-explosion",
+    "beforeDuration": 11.15,
+    "beforeEvents": 4,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
+      "manufacturerCode": "RA53631",
+      "segmentStart": 5.9,
+      "segmentEnd": 17.05,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA53631 / Willow Explosion: on-screen product code and approved package artwork agree. Retail presentation 24 shots is separate from resolved openings.",
+        "The first four isolated crowns are resolved. Rapid overlapping salvas from about 17.2 s onward need individual-center separation; the 27.1 s ending still contains faint embers. No repeated crowns are added to fill 24.",
+        "Entire 27.121 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.15,
+    "lastLaunch": 8.07,
+    "lastBurst": 8.98,
+    "lastParticle": 11.15,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 20.95,
+    "afterEvents": 24,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 16.28,
+    "lastBurstAfter": 17.19,
+    "lastParticleAfter": 20.89,
+    "reviewMethod": "Complete reference playback at 1x, supplemented by timestamped captures and 0.25x inspection of overlapping openings. Times use the original media clock, never elapsed review time.",
+    "resultNotes": [
+      "Raccoon RA53631, 24-shot 500g cake; approved package and on-screen model agree.",
+      "Revision 1 stopped after four isolated openings at 17.05 s. Review of the complete clip and the latter half at 0.25x resolves the rapid section and four final centers.",
+      "Twenty-four openings are represented. Close pairs in the fast section are independent visible centers; particle flowers are not counted as extra launches.",
+      "One apparent firing area; no internal cut or speed edit detected. Opening timestamps are estimates, particularly superimposed pairs (\u00b10.10 s).",
+      "Last burst about 23.24 s. Long willow sparks remain very faint at the 27.121 s recording boundary; retain excerpt scope and a bounded 27.0 s simulation closure, not a verified natural product duration."
+    ]
+  },
+  {
+    "productId": "old-ironsides",
+    "beforeDuration": 20.0,
+    "beforeEvents": 13,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
+      "manufacturerCode": "BP2452",
+      "segmentStart": 5.5,
+      "segmentEnd": 25.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Brothers BP2452 / Old Ironsides: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
+        "Thirteen resolved centers in the first three blocks: four blue/white, four white, five gold palms. Unresolved centers and later blocks prevent a complete 30-shot claim. Existing uncertain gram classification is unchanged.",
+        "Entire 42.561 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.63,
+    "lastLaunch": 16.16,
+    "lastBurst": 17.18,
+    "lastParticle": 19.98,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 36.5,
+    "afterEvents": 27,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0,
+    "lastLaunchAfter": 34.05,
+    "lastBurstAfter": 35.1,
+    "lastParticleAfter": 36.5,
+    "reviewMethod": "Reviewed the complete timestamped source capture from the preceding iteration, including later phases and tail, against the current event ledger. Prior full 1x playback is documented in the environment report; no new full replay claimed here.",
+    "resultNotes": [
+      "Brothers BP2452, 30-shot retail presentation. No gram classification or promotion is changed by this audit.",
+      "Revision 1 included only the first three groups (13 resolved centers). Added the remaining blue/white, white-glitter and gold-palm groups without compressing the long pauses.",
+      "Twenty-seven distinct centers resolved in the full continuous timer-marked reference. Three retail-count openings remain unresolved within overlaps; keep excerpt scope, do not insert three generic events.",
+      "First visible tail at 5.5 s fixes the formerly late initial launch. Last resolved opening at 40.60 s, significant gold tail through approximately 42.0 s; the recording fades near 42.2 s.",
+      "One apparent firing area and continuous on-screen timer; no speed edit detected. Individual rises and tail envelopes remain estimates."
+    ]
+  },
+  {
+    "productId": "color-rage",
+    "beforeDuration": 9.95,
+    "beforeEvents": 4,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=NvDuDojoKT4",
+      "manufacturerCode": "RA53072",
+      "segmentStart": 5.55,
+      "segmentEnd": 15.5,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA53072 / Color Rage: on-screen product code and approved package artwork agree. Retail presentation 30 shots is separate from resolved openings.",
+        "Four individually resolved colored openings before the red section. Delayed lace is represented as a component of the visible opening, not a separately verified launch. Later fast centers and the final overlap around 36 s remain unresolved; no 30-shot simulation is claimed.",
+        "Entire 39.921 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.05,
+    "lastLaunch": 6.86,
+    "lastBurst": 7.61,
+    "lastParticle": 9.95,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 33.8,
+    "afterEvents": 30,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 29.53,
+    "lastBurstAfter": 30.28,
+    "lastParticleAfter": 33.800000000000004,
+    "reviewMethod": "Complete reference playback at 1x, supplemented by timestamped captures and 0.25x inspection of overlapping openings. Times use the original media clock, never elapsed review time.",
+    "resultNotes": [
+      "Raccoon RA53072, 30-shot 500g cake; approved blue/purple package and exact source code match.",
+      "Revision 1 included only four early openings. Full-frame audit separates six five-color cycles: the first leisurely group, four faster cycles and the final five-center salvo.",
+      "Thirty primary openings resolved. Delayed pale glitter belongs to each color opening; its brightness peak is not an additional launch.",
+      "Complete 39.921 s reference inspected through dark ending, with 31.9\u201339.9 s rechecked at 0.25x. First faint lift estimated at 5.60 s, first break 6.35 s, last break approximately 35.88 s, significant glitter disappears near 39.4 s (\u00b10.3 s threshold).",
+      "No apparent internal cut, speed edit or second firing area. Final pair onsets are estimates within \u00b10.08 s; their distinct colors and order do not change with graphical quality."
+    ]
+  },
+  {
+    "productId": "aggression",
+    "beforeDuration": 6.8,
+    "beforeEvents": 5,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=fLGTxYPM494",
+      "manufacturerCode": "RA22007",
+      "segmentStart": 6.8,
+      "segmentEnd": 13.6,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Raccoon RA22007 / Aggression: on-screen product code and approved package artwork agree. Retail presentation 25 shots is separate from resolved openings.",
+        "Five clearly isolated early red/Nishiki openings only. Subsequent green/gold/teal and dense crackling clusters require finer launch-center separation. The long retailer outro after about 23.4 s is not product duration.",
+        "Entire 43.48 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.26,
+    "lastLaunch": 4.3,
+    "lastBurst": 5.14,
+    "lastParticle": 6.8,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 15.14,
+    "afterEvents": 25,
+    "afterScope": "cake",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 11.06,
+    "lastBurstAfter": 11.9,
+    "lastParticleAfter": 15.14,
+    "reviewMethod": "Complete reference playback at 1x, supplemented by timestamped captures and 0.25x inspection of overlapping openings. Times use the original media clock, never elapsed review time.",
+    "resultNotes": [
+      "Raccoon RA22007, 25-shot 200g retail cake. The approved box and code match the reference.",
+      "Revision 1 represented only five red openings (6.8\u201313.6 s); the missing green, amber, teal and five-center crackling finale caused the short preview. No clock acceleration was found.",
+      "Five red openings, five green, five amber, five teal and five independently separated final centers. Secondary crackling flowers are components, not additional launches.",
+      "The manufacturer upload https://www.youtube.com/watch?v=BcWDnh162Vk uses the same performance with a shorter introduction; it is corroboration of identity, not an independent firing.",
+      "First burst at 7.90 s; faint/cropped lift is estimated at 7.06 s. Last opening at 18.96 s, meaningful trailing sparks persist through about 22.2 s (\u00b10.4 s visual threshold). The retailer outro begins around 23.4 s and is excluded.",
+      "No apparent internal cut, speed change or second firing area. The 15.14 s model includes the illustrative ascent; first burst through significant tail is about 14.3 s, not an imposed 13 s target."
+    ]
+  },
+  {
+    "productId": "whisky-business",
+    "beforeDuration": 32.65,
+    "beforeEvents": 14,
+    "scope": "cake-sample",
+    "reference": {
+      "url": "https://www.youtube.com/watch?v=SxzplhvlmUk",
+      "manufacturerCode": "BS8039",
+      "segmentStart": 5.6,
+      "segmentEnd": 38.25,
+      "reviewedOn": "2026-09-27",
+      "method": "Actual muted video playback inspected through its end; timestamped screen captures at approximately 8\u201310 fps, with close comparison of individual openings. No source audio redistributed.",
+      "evidenceDirectory": "docs/catalog/playground-environments-2026-09/evidence",
+      "notes": [
+        "Exact Bright Star BS8039 / Whisky Business: on-screen product code and approved package artwork agree. Retail presentation 20 shots is separate from resolved openings.",
+        "Fourteen individually resolved opening centers retained across the demonstration. Some faint/overlapping centers cannot be separated to verify all 20 shots. The final visible tails are included, but this remains an excerpt with incomplete event coverage, not a full retail sequence.",
+        "Entire 38.441 s reference inspected. No apparent performance speed change or second firing area; this does not establish physical unit count beyond the visible origin. Intros/outros are excluded.",
+        "Excerpt tails are bounded simulation closures, not verification of the physical finale or total product duration. Lift timing/geometry is estimated when faint or cropped; observed burst times are not shifted."
+      ]
+    },
+    "firstLaunch": 0.06,
+    "lastLaunch": 25.77,
+    "lastBurst": 26.88,
+    "lastParticle": 31.979999999999997,
+    "auditStatus": "reference-reviewed; corrected playback reviewed to end",
+    "afterDuration": 31.92,
+    "afterEvents": 14,
+    "afterScope": "cake-sample",
+    "firstLaunchAfter": 0.0,
+    "lastLaunchAfter": 25.71,
+    "lastBurstAfter": 26.82,
+    "lastParticleAfter": 31.92,
+    "reviewMethod": "Reviewed the complete timestamped source capture from the preceding iteration, including later phases and tail, against the current event ledger. Prior full 1x playback is documented in the environment report; no new full replay claimed here.",
+    "resultNotes": [
+      "Bright Star BS8039, 20-shot presentation and approved box match. Complete source frame sequence reviewed again.",
+      "No accelerated rhythm found in the fourteen resolved openings. Revision 1 retained .06 s before its first launch and .67 s after the last modeled particle. Trim those margins without shifting absolute source event times or stretching the falling leaves.",
+      "The 31.92 s excerpt ends with the existing last-particle lifetime at source 37.58 s. Faint single points near the recording end do not establish a new shot.",
+      "Six retail-count openings remain unresolved within the overlapping effects. Keep excerpt scope; do not infer a complete twenty-shot sequence from fourteen centers.",
+      "Gold palm trails, white/red stars and the final falling leaves remain unchanged. One apparent firing area; no internal cut or speed edit detected."
+    ]
+  }
+]

@@ -1,5 +1,7 @@
 # Entornos, selector simple y seis cakes — 2026-09-27
 
+> Continuación actual: [auditoría de fidelidad y duraciones](../playground-fidelity-2026-09/README.md). Las duraciones y coberturas de esta página describen el estado anterior a esa auditoría.
+
 Continuación de [ascensos y cobertura de cakes](../playground-cakes-2026-09/README.md). **302 productos, 51 perfiles; 117 IDs de cakes conciliados. Las cakes todavía no están completas.** No despliegue ni publicación. La revisión visual nativa está **pospuesta por decisión del usuario**: no se abrió Simulator, Metro ni dispositivos, ni se generaron exportaciones de rutina.
 
 ## Presentación y memoria

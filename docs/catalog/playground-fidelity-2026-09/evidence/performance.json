@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "aerial",
+    "requested": "auto",
+    "effective": "high",
+    "seconds": 35.0003,
+    "fps": 59.9423433513427,
+    "meanDrawMs": 1.5575786464491608,
+    "p95DrawMs": 3.800000011920929,
+    "maxDrawMs": 42.5,
+    "p95FrameMs": 16.799999999999272,
+    "over50ms": 1,
+    "peakParticles": 652,
+    "peakPoints": 1915,
+    "heapPeak": 36287302,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": null,
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "scene": "aerial",
+    "requested": "high",
+    "effective": "high",
+    "seconds": 35.00039999999999,
+    "fps": 60.02788539559549,
+    "meanDrawMs": 0.576106615921306,
+    "p95DrawMs": 1.2999999970197678,
+    "maxDrawMs": 2.300000011920929,
+    "p95FrameMs": 16.80000000000291,
+    "over50ms": 0,
+    "peakParticles": 652,
+    "peakPoints": 1915,
+    "heapPeak": 31387773,
+    "changes": [],
+    "buffer": [
+      2560,
+      1280
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": null,
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  },
+  {
+    "scene": "aerial",
+    "requested": "balanced",
+    "effective": "balanced",
+    "seconds": 35.00029999999999,
+    "fps": 60.02805690236943,
+    "meanDrawMs": 0.41527843910816,
+    "p95DrawMs": 0.9000000059604645,
+    "maxDrawMs": 1.5,
+    "p95FrameMs": 16.80000000000291,
+    "over50ms": 0,
+    "peakParticles": 482,
+    "peakPoints": 1044,
+    "heapPeak": 31689526,
+    "changes": [],
+    "buffer": [
+      1920,
+      960
+    ],
+    "css": [
+      1280,
+      640
+    ],
+    "image": null,
+    "environment": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 2,
+      "cores": 8
+    }
+  }
+]

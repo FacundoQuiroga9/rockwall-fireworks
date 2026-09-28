@@ -46,7 +46,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
     const budget = Math.round(currentBudget);
     const share = Math.floor(budget / Math.max(1, selected.length));
     profiles.forEach((profile, pane) => {
-      if (!selected.includes(pane) || (!profile.stages && profile.playback !== 'manual-shell' && time >= profile.duration)) return;
+      if (!selected.includes(pane)) return;
       profileLimit = Math.min(budget, count + share);
       context.save();
       const cx = width * (panes === 1 ? .5 : .17 + pane * .66 / (panes - 1));
@@ -126,7 +126,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
         const age = time - event.burst;
         // Shifted manual times can subtract to life - 1e-15. At the exact
         // terminal instant those numerically tiny sparks are already extinct.
-        if (age >= event.life - 1e-9) continue;
+        if (age >= Math.max(event.life, (event.accent?.delay ?? 0) + (event.accent?.life ?? 0)) - 1e-9) continue;
         const ex = cx + event.x * 700 * scale;
         const cy = burstHeight + (event.y ?? 0) * height;
         if (event.shape === 'comet' && event.risingReport) {
@@ -184,7 +184,7 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             if (point) dot(point.x, point.y, Math.max(.6, 1.2 * scale), point.color, .42 * (1 - t / 7) * detail);
           }
         }
-        if (age < 0 || age > event.life) continue;
+        if (age < 0) continue;
         const radius = event.radius ?? (event.shape === 'flower' ? 105 : event.shape === 'ring' ? 147 : event.shape.startsWith('palm') || ['ghost','willow'].includes(event.shape) ? 158 : 155);
         const grow = (t) => 1 - Math.exp(-Math.max(0, t) * 2.05);
         // A documented falling cluster belongs to this break, never a new
@@ -230,11 +230,15 @@ export function createPlaygroundRenderer(canvas, profiles, compact, makeFountain
             }
             dot(x, y, Math.max(.5, scale), event.branchColor || '#e2eafb', Math.max(0, 1 - age / 1.1) * .65, true);
             const bloom = age - delay;
+            // A delayed cluster has its own decay. Older profiles may allocate
+            // less than the default tail; fade within that reviewed window
+            // instead of cutting still-bright sparks at the parent deadline.
+            const clusterLife = Math.min(event.clusterLife ?? 1.4, Math.max(.05, event.life - delay));
             const arms = event.clusterArms ?? 10, colors = event.clusterColors || ['#edc185'];
-            if (bloom >= 0 && bloom < 1.4) for (let arm = 0; arm < arms; arm++) {
+            if (bloom >= 0 && bloom < clusterLife) for (let arm = 0; arm < arms; arm++) {
               const a = arm / arms * Math.PI * 2, r = (1 - Math.exp(-bloom * 4)) * (9 + noise(salt + 7) * 12) * scale;
               const armRadius = event.clusterRadialMin == null ? r : r * (event.clusterRadialMin + (1 - event.clusterRadialMin) * noise(salt + arm * 101 + 29));
-              dot(x + Math.cos(a) * armRadius, y + Math.sin(a) * armRadius + bloom * bloom * 6 * scale, Math.max(.55, scale * (event.clusterPointSize ?? 1)), colors[arm % colors.length], Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / 1.4, .7), true);
+              dot(x + Math.cos(a) * armRadius, y + Math.sin(a) * armRadius + bloom * bloom * 6 * scale, Math.max(.55, scale * (event.clusterPointSize ?? 1)), colors[arm % colors.length], Math.sin(Math.min(1, bloom / .12) * Math.PI / 2) * Math.pow(1 - bloom / clusterLife, .7), true);
             }
           }
           continue;

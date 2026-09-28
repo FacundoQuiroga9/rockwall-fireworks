@@ -2202,20 +2202,22 @@
       "grams": 200
     },
     "demonstration": {
-      "summary": "Purple pearls and white glitter give way to blue stars with green points, then purple and warm gold sparks.",
+      "summary": "Purple and blue bursts alternate with white, green and gold sparkle. Blue stars give way to red before a quick finale of crackling flowers.",
       "effects": [
-        "Purple and blue pearls",
-        "White and green glitter",
-        "Warm gold sparks"
+        "Purple stars and white glitter",
+        "Blue stars and green glitter",
+        "Gold shimmer",
+        "Blue to red stars",
+        "Crackling flower finale"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=Vm9Ug3rc84A",
-      "durationSeconds": 19,
+      "durationSeconds": 28.74,
       "scope": "Sequence excerpt",
-      "observedShots": 15,
+      "observedShots": 25,
       "confirmedShots": 25,
-      "segmentStart": 3.5,
-      "segmentEnd": 22.5,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentStart": 3.66,
+      "segmentEnd": 32.4,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -2357,19 +2359,20 @@
       "grams": 500
     },
     "demonstration": {
-      "summary": "Red and green rings hang above pale horse tails that curl and fall through the sky.",
+      "summary": "Red and green rings hang above curling silver horse tails, followed by an overlapping finale of white palms and falling trails.",
       "effects": [
         "Red and green rings",
-        "Pale horse tails"
+        "Pale horse tails",
+        "White palm finale"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=ElEOhs6JI0U",
-      "durationSeconds": 25,
+      "durationSeconds": 30.82,
       "scope": "Sequence excerpt",
-      "observedShots": 6,
+      "observedShots": 9,
       "confirmedShots": 9,
-      "segmentStart": 7.4,
-      "segmentEnd": 32.4,
-      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+      "segmentStart": 7.58,
+      "segmentEnd": 38.4,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Closing fade at source boundary is illustrative; not a verified full product duration."
     }
   },
   {
@@ -2858,13 +2861,13 @@
         "Falling red leaves"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=SxzplhvlmUk",
-      "durationSeconds": 32.65,
+      "durationSeconds": 31.92,
       "scope": "Sequence excerpt",
       "observedShots": 14,
       "confirmedShots": 20,
-      "segmentStart": 5.6,
-      "segmentEnd": 38.25,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentStart": 5.66,
+      "segmentEnd": 37.58,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -2942,20 +2945,21 @@
       "grams": 500
     },
     "demonstration": {
-      "summary": "Broad Nishiki willow crowns spread into long falling trails, scattered with small blue stars.",
+      "summary": "Blue stars sit among broad gold willow crowns. The steady opening gathers speed into overlapping salvas and a closely packed closing volley.",
       "effects": [
-        "Nishiki willow",
         "Blue stars",
-        "Long falling trails"
+        "Gold willow crowns",
+        "Accelerating salvas",
+        "Overlapping final volley"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=AtqiNrQGq-0",
-      "durationSeconds": 11.15,
+      "durationSeconds": 20.95,
       "scope": "Sequence excerpt",
-      "observedShots": 4,
+      "observedShots": 24,
       "confirmedShots": 24,
-      "segmentStart": 5.9,
-      "segmentEnd": 17.05,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentStart": 6.05,
+      "segmentEnd": 27,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -4133,20 +4137,20 @@
       "grams": null
     },
     "demonstration": {
-      "summary": "Blue stars with white glitter give way to bright silver bursts and broad golden palms, with pauses between the groups.",
+      "summary": "Gold-tailed launches alternate blue stars and white glitter with broad gold palms. Distinct pauses separate the groups before the closing palm volley.",
       "effects": [
         "Blue stars",
         "White glitter",
         "Golden palms"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=3d8P_pGNLc4",
-      "durationSeconds": 20,
+      "durationSeconds": 36.5,
       "scope": "Sequence excerpt",
-      "observedShots": 13,
+      "observedShots": 27,
       "confirmedShots": 30,
       "segmentStart": 5.5,
-      "segmentEnd": 25.5,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentEnd": 42,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -5917,13 +5921,13 @@
         "Overlapping crowns"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=kfKXaQZ-2rk",
-      "durationSeconds": 25.9,
-      "scope": "Sequence excerpt",
-      "observedShots": 8,
+      "durationSeconds": 24.89,
+      "scope": "Full cake sequence",
+      "observedShots": 9,
       "confirmedShots": 9,
-      "segmentStart": 5.6,
-      "segmentEnd": 31.5,
-      "note": "Internal evidence and coverage limits: docs/catalog/playground-cakes-2026-09."
+      "segmentStart": 6.36,
+      "segmentEnd": 31.25,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Six singles and three distinct final centers; source times retained."
     }
   },
   {
@@ -5953,6 +5957,23 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Red stars give way to vivid green points in a changing rhythm. A close red volley finishes with warm crackling sparkle.",
+      "effects": [
+        "Red-to-green stars",
+        "Colored rising points",
+        "Red closing volley",
+        "Warm crackling sparkle"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=egB6g9q3aXk",
+      "durationSeconds": 20.72,
+      "scope": "Sequence excerpt",
+      "observedShots": 18,
+      "confirmedShots": 19,
+      "segmentStart": 2.43,
+      "segmentEnd": 23.15,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -6218,6 +6239,23 @@
     "cakeClass": {
       "status": "confirmed",
       "grams": 200
+    },
+    "demonstration": {
+      "summary": "Red-tipped palms mingle with pale sparkle, then green glitter. Gold palm salvas punctuate the pace before a three-shot crackling finish.",
+      "effects": [
+        "Red-tipped palms",
+        "Pale and green glitter",
+        "Three-shot gold palm salvas",
+        "Crackling finale"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ua-qvzDNDPg",
+      "durationSeconds": 21.07,
+      "scope": "Full cake sequence",
+      "observedShots": 20,
+      "confirmedShots": 20,
+      "segmentStart": 2.38,
+      "segmentEnd": 23.45,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -6422,20 +6460,21 @@
       "grams": 200
     },
     "demonstration": {
-      "summary": "Red stars spread around pale gold branches that bend into falling trails in a quickening rhythm.",
+      "summary": "Red stars give way to quick green, amber and teal salvas over pale gold trails, finishing in a spreading cloud of crackling flowers.",
       "effects": [
-        "Red stars",
-        "Pale gold branches",
-        "Falling trails"
+        "Red, green, amber and teal stars",
+        "Pale gold falling trails",
+        "Quickening salvas",
+        "Crackling flower finale"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=fLGTxYPM494",
-      "durationSeconds": 6.8,
-      "scope": "Sequence excerpt",
-      "observedShots": 5,
+      "durationSeconds": 15.14,
+      "scope": "Full cake sequence",
+      "observedShots": 25,
       "confirmedShots": 25,
-      "segmentStart": 6.8,
-      "segmentEnd": 13.6,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentStart": 7.06,
+      "segmentEnd": 22.2,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {
@@ -6647,19 +6686,21 @@
       "grams": 500
     },
     "demonstration": {
-      "summary": "Bright white, purple, green and blue stars open in measured beats, followed by delicate pale glitter.",
+      "summary": "White, purple, green, blue and red stars give way to pale glitter. Repeating color cycles pick up speed before a close five-color finale and a lingering glitter finish.",
       "effects": [
-        "Colored dahlias",
-        "Pale trailing glitter"
+        "White, purple, green, blue and red stars",
+        "Delayed pale glitter",
+        "Quickening color cycles",
+        "Five-color closing salvo"
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=NvDuDojoKT4",
-      "durationSeconds": 9.95,
-      "scope": "Sequence excerpt",
-      "observedShots": 4,
+      "durationSeconds": 33.8,
+      "scope": "Full cake sequence",
+      "observedShots": 30,
       "confirmedShots": 30,
-      "segmentStart": 5.55,
-      "segmentEnd": 15.5,
-      "note": "Internal evidence and unresolved coverage: docs/catalog/playground-environments-2026-09/observations.json. Preview duration is not total product duration."
+      "segmentStart": 5.6,
+      "segmentEnd": 39.4,
+      "note": "Internal review: docs/catalog/playground-fidelity-2026-09/README.md. Media timestamps retained; retail count is independent of secondary sparkle clusters."
     }
   },
   {

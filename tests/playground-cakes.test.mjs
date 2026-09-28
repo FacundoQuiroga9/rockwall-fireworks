@@ -86,6 +86,6 @@ test('inventory reconciliation has one row per cake ID, preserves prior profiles
  const ids=read('../docs/catalog/playground-cakes-2026-09/new-profile-ids.json');assert.equal(ids.length,10);
  for(const id of ids){const p=get(id);assert.equal(p.scene,'aerial');assert.equal(p.playback,'automatic');assert.ok(p.source.notes.length);for(const e of p.events)assert.ok(e.burst+e.life<=p.duration+.001);}
  assert.equal(get('wild-west').events.filter(e=>e.risingReport).length,5);
- assert.equal(get('sky-ink').events.length,16);assert.equal(get('whacky-tobacky').observedShots,8);assert.equal(get('whacky-tobacky').kind,'cake-sample');
+ assert.equal(get('sky-ink').events.length,16);assert.equal(get('whacky-tobacky').observedShots,9);assert.equal(get('whacky-tobacky').kind,'cake');
  for(const file of ['src/data/playgroundProfiles.json','src/data/playgroundIndex.json','src/shared/playgroundFlight.js','src/shared/playgroundRenderer.js','src/shared/playgroundTimeline.js','src/shared/playgroundRuntimeSource.js'])assert.equal(readFileSync(new URL('../'+file,import.meta.url),'utf8'),readFileSync(new URL('../../rockwall-fireworks-mobile/'+file,import.meta.url),'utf8'),file);
 });

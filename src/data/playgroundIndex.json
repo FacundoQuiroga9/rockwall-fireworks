@@ -141,7 +141,7 @@
   },
   {
     "productId": "whacky-tobacky",
-    "kind": "cake-sample"
+    "kind": "cake"
   },
   {
     "productId": "magnum-tremors",
@@ -193,14 +193,22 @@
   },
   {
     "productId": "color-rage",
-    "kind": "cake-sample"
+    "kind": "cake"
   },
   {
     "productId": "aggression",
-    "kind": "cake-sample"
+    "kind": "cake"
   },
   {
     "productId": "whisky-business",
+    "kind": "cake-sample"
+  },
+  {
+    "productId": "fuego-loco",
+    "kind": "cake"
+  },
+  {
+    "productId": "walkin-dead",
     "kind": "cake-sample"
   }
 ]

@@ -7,12 +7,15 @@ export function createTimeline(profiles) {
   let selected = profiles.map((_, i) => i), position = 0, anchor = 0, cursor = -.000001;
   let state = 'idle', started = false, preview = false, pending = [];
   const manual = p => p.playback === 'manual-shell';
+  // The source window is metadata, never permission to erase a live tail.
+  // Keep this local: the timeline is serialized into the offline WebView.
+  const visibleEnd = p => Math.max(p.playbackDuration ?? p.duration, ...p.events.map(e => e.burst + Math.max(e.life, (e.accent?.delay ?? 0) + (e.accent?.life ?? 0))));
   const effects = p => p.shellEffects?.length ? p.shellEffects : [{ id: 'sample', label: 'Shell sample', duration: p.duration, events: p.events, breakCount: p.events.length }];
   const runs = new Map(), counts = profiles.map(() => 0);
-  const autoDuration = () => Math.max(0, ...selected.filter(i => !manual(profiles[i])).map(i => profiles[i].playbackDuration ?? profiles[i].duration));
+  const autoDuration = () => Math.max(0, ...selected.filter(i => !manual(profiles[i])).map(i => visibleEnd(profiles[i])));
   const hasManual = () => selected.some(i => manual(profiles[i]));
   const end = () => Math.max(autoDuration(), ...[...runs.values()].map(r => r.start + r.duration));
-  const duration = () => Math.max(0, ...selected.map(i => profiles[i].playbackDuration ?? profiles[i].duration));
+  const duration = () => Math.max(0, ...selected.map(i => visibleEnd(profiles[i])));
   const renderEvents = () => Object.fromEntries(selected.filter(i => manual(profiles[i])).map(i => [i,
     preview ? profiles[i].events : runs.has(i) ? runs.get(i).events : [],
   ]));
@@ -33,7 +36,7 @@ export function createTimeline(profiles) {
     if (!selected.includes(i) || !manual(profiles[i]) || (!first && !shellState(i).available)) return false;
     const bank = effects(profiles[i]), effectIndex = counts[i] % bank.length, effect = bank[effectIndex];
     const events = effect.events.map(e => ({ ...e, id: `${effect.id}:${e.id}:${counts[i] + 1}`, launch: e.launch + position, burst: e.burst + position }));
-    runs.set(i, { start: position, events, duration: effect.duration, effectIndex, effectId: effect.id, label: effect.label, breakCount: effect.breakCount }); counts[i]++;
+    runs.set(i, { start: position, events, duration: visibleEnd(effect), effectIndex, effectId: effect.id, label: effect.label, breakCount: effect.breakCount }); counts[i]++;
     // Events exactly at the resting cursor must be cued once on the next tick.
     events.forEach(event => { if (event.launchCue !== false && event.launch <= cursor) pending.push({ profile: i, event, type: 'launch', time: event.launch }); });
     if (state === 'waiting') { anchor = now - position * 1000; state = 'playing'; }
@@ -88,14 +91,17 @@ export function validateProfiles(data, catalog) {
     let previous = -1;
     const eventIds = new Set();
     for (const event of profile.events) {
+      if (!Number.isFinite(event.life) || event.burst + event.life > (profile.playbackDuration ?? profile.duration) + .001) errors.push(`${profile.productId}: event tail exceeds playback duration: ${event.id}`);
       if (eventIds.has(event.id) || !Number.isFinite(event.launch) || !Number.isFinite(event.burst) || event.launch < 0 || event.burst < event.launch || event.burst < previous || event.burst >= profile.duration || !(event.life > 0) || !['palm', 'peony', 'ring', 'palm-glitter', 'flower', 'ghost', 'willow', 'color-peony', 'bouquet', 'ghost-peony', 'wander', 'comet', 'spinner'].includes(event.shape) || !event.colors.length || event.colors.some((color) => !/^#[a-f\d]{6}$/i.test(color))) errors.push(`${profile.productId}: invalid event ${event.id}`);
       eventIds.add(event.id); previous = event.burst;
     }
     for (const event of [...profile.events, ...(profile.shellEffects || []).flatMap(effect => effect.events)]) {
+      if (event.accent && (!Number.isFinite(event.accent.life) || !(event.accent.life > 0) || (event.accent.delay ?? 0) < 0 || (event.accent.delay ?? 0) + event.accent.life > event.life + .001)) errors.push(`${profile.productId}: secondary tail exceeds event life: ${event.id}`);
       if (event.launchX != null && (!Number.isFinite(event.launchX) || Math.abs(event.launchX) > 1)) errors.push('Invalid launch origin');
       if (event.plane && (!(event.plane.squash > 0 && event.plane.squash <= 1) || !Number.isFinite(event.plane.rotation))) errors.push('Invalid burst plane');
       if (event.horsetail && (!Number.isInteger(event.horsetail.count) || event.horsetail.count < 1 || event.horsetail.count > 48 || !(event.horsetail.life > 0 && event.horsetail.life <= event.life) || !/^#[a-f\d]{6}$/i.test(event.horsetail.color))) errors.push('Invalid falling cluster');
       if (event.clusterRadialMin != null && !(event.clusterRadialMin >= 0 && event.clusterRadialMin <= 1)) errors.push('Invalid flower cluster distribution');
+      if (event.clusterLife != null && (!Number.isFinite(event.clusterLife) || !(event.clusterLife > 0 && event.clusterLife <= event.life))) errors.push('Invalid flower cluster lifetime');
       if (event.liftTrail && (!(event.liftTrail.seconds > 0 && event.liftTrail.seconds <= .8)
         || !/^#[a-f\d]{6}$/i.test(event.liftTrail.color))) errors.push('Invalid bounded lift trail');
     }

@@ -51,9 +51,10 @@ test('quiet scenario changes preserve independent picks and still reject a fifth
 test('six individually reviewed cake excerpts extend exact-ID coverage without changing approved profiles',()=>{
  assert.deepEqual(validateProfiles(data,products),[]);
  const get=id=>data.profiles.find(p=>p.productId===id);
- for(const p of read(doc+'baseline-profiles.json').profiles)assert.deepEqual(get(p.productId),p);
+ const corrected=read('docs/catalog/playground-fidelity-2026-09/corrected-profile-ids.json');
+ for(const p of read(doc+'baseline-profiles.json').profiles)if(!corrected.includes(p.productId))assert.deepEqual(get(p.productId),p);
  const ids=read(doc+'new-profile-ids.json');assert.equal(ids.length,6);
- for(const id of ids){const p=get(id);assert.equal(p.kind,'cake-sample');assert.equal(p.scene,'aerial');assert.equal(p.playback,'automatic');assert.equal(p.events.length,p.observedShots);assert.ok(Math.abs(p.duration-(p.source.segmentEnd-p.source.segmentStart))<1e-8);for(const e of p.events){assert.ok(e.burst>e.launch);assert.ok(e.burst+e.life<=p.duration+.001);}}
+ for(const id of ids){const p=get(id);assert.equal(p.kind,['aggression','color-rage'].includes(id)?'cake':'cake-sample');assert.equal(p.scene,'aerial');assert.equal(p.playback,'automatic');assert.equal(p.events.length,p.observedShots);assert.ok(Math.abs(p.duration-(p.source.segmentEnd-p.source.segmentStart))<1e-8);for(const e of p.events){assert.ok(e.burst>e.launch);assert.ok(e.burst+e.life<=p.duration+.001);}}
  const coverage=read(doc+'cake-coverage.json');assert.deepEqual(coverage.map(r=>r.productId).sort(),products.filter(p=>p.category.toLowerCase().includes('cake')).map(p=>p.id).sort());
  for(const id of ids)assert.equal(coverage.find(r=>r.productId===id).status,'excerpt');
 });

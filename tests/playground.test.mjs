@@ -15,8 +15,8 @@ const profiles = data.profiles;
 
 test('reviewed profiles resolve exact catalog identities and valid source segments', () => {
   assert.deepEqual(validateProfiles(data, products), []);
-  assert.equal(profiles.length, read('../docs/catalog/playground-environments-2026-09/baseline-profiles.json').profiles.length + read('../docs/catalog/playground-environments-2026-09/new-profile-ids.json').length);
-  assert.equal(profiles.filter((p) => p.kind === 'cake').length, 8);
+  assert.equal(profiles.length, read('../docs/catalog/playground-fidelity-2026-09/baseline-profiles.json').profiles.length + read('../docs/catalog/playground-fidelity-2026-09/new-profile-ids.json').length);
+  assert.equal(profiles.filter((p) => p.kind === 'cake').length, 12);
   assert.equal(profiles.filter((p) => p.kind === 'shell-sample').length, 11);
   assert.deepEqual(profiles.slice(0, 4).map((p) => p.events.length), [16, 12, 1, 1]);
   const broken = structuredClone(data); broken.profiles[0].events[0].burst = -1;

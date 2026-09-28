@@ -1,0 +1,1767 @@
+{
+  "samples": [
+    {
+      "elapsedMs": 14684,
+      "reports": 5,
+      "peakParticles": 0,
+      "peakPoints": 0,
+      "peakHeap": 0,
+      "qualityChanges": [],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 0,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": null,
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 14697,
+      "reports": 6,
+      "peakParticles": 0,
+      "peakPoints": 0,
+      "peakHeap": 34176103,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 0.009100000005961192,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 1,
+        "fps": 0,
+        "meanDrawMs": 0,
+        "maxDrawMs": 0,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 15010,
+      "reports": 7,
+      "peakParticles": 1,
+      "peakPoints": 7,
+      "peakHeap": 34233919,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 0.32500000000596085,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 20,
+        "fps": 60.1,
+        "meanDrawMs": 0.04,
+        "maxDrawMs": 0.2,
+        "particles": 7,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 1,
+        "drawnPoints": 7,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 1,
+          "rms": 0.00008938022795442799,
+          "peak": 0.00023022580717224628
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 15311,
+      "reports": 8,
+      "peakParticles": 1,
+      "peakPoints": 7,
+      "peakHeap": 34291293,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 0.6257000000059597,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 38,
+        "fps": 60,
+        "meanDrawMs": 0.04,
+        "maxDrawMs": 0.2,
+        "particles": 7,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 1,
+        "drawnPoints": 7,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 15628,
+      "reports": 9,
+      "peakParticles": 1,
+      "peakPoints": 7,
+      "peakHeap": 34339306,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 0.9424000000059605,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 57,
+        "fps": 60,
+        "meanDrawMs": 0.04,
+        "maxDrawMs": 0.2,
+        "particles": 7,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 1,
+        "drawnPoints": 7,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 15944,
+      "reports": 10,
+      "peakParticles": 1,
+      "peakPoints": 7,
+      "peakHeap": 34418143,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 1.2587000000059598,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 76,
+        "fps": 60,
+        "meanDrawMs": 0.04,
+        "maxDrawMs": 0.2,
+        "particles": 7,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 1,
+        "drawnPoints": 7,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 16245,
+      "reports": 11,
+      "peakParticles": 1,
+      "peakPoints": 7,
+      "peakHeap": 34454633,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 1.5591000000059612,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 94,
+        "fps": 60,
+        "meanDrawMs": 0.04,
+        "maxDrawMs": 0.2,
+        "particles": 7,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 1,
+        "drawnPoints": 7,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 16562,
+      "reports": 12,
+      "peakParticles": 81,
+      "peakPoints": 729,
+      "peakHeap": 34486647,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 1.8757000000059598,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 113,
+        "fps": 60,
+        "meanDrawMs": 0.13,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 2,
+          "rms": 0.01345714096326135,
+          "peak": 0.03190941363573074
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 16878,
+      "reports": 13,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34510078,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 2.1924000000059602,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 132,
+        "fps": 60,
+        "meanDrawMs": 0.21,
+        "maxDrawMs": 1.2,
+        "particles": 810,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 810,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 1,
+          "rms": 0.0007418605171934116,
+          "peak": 0.0015543578192591667
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 17195,
+      "reports": 14,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34540741,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 2.509100000005961,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 151,
+        "fps": 60,
+        "meanDrawMs": 0.25,
+        "maxDrawMs": 1.2,
+        "particles": 750,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 750,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 1,
+          "rms": 0.00003624562591495776,
+          "peak": 0.00006531974213430658
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 17512,
+      "reports": 15,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34566481,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 2.8257000000059596,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 170,
+        "fps": 60,
+        "meanDrawMs": 0.29,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 17828,
+      "reports": 16,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34589292,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 3.142500000005959,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 189,
+        "fps": 60,
+        "meanDrawMs": 0.32,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 18145,
+      "reports": 17,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34613654,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 3.459000000005959,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 208,
+        "fps": 60,
+        "meanDrawMs": 0.34,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 18445,
+      "reports": 18,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34636756,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 3.759100000005961,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 226,
+        "fps": 60,
+        "meanDrawMs": 0.36,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 18762,
+      "reports": 19,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34660850,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 4.07570000000596,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 245,
+        "fps": 60,
+        "meanDrawMs": 0.37,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19078,
+      "reports": 20,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34686483,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 4.392400000005961,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 264,
+        "fps": 60,
+        "meanDrawMs": 0.38,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19395,
+      "reports": 21,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34709573,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "playing",
+      "position": 4.709100000005961,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": true,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": false
+        }
+      ],
+      "metrics": {
+        "frames": 283,
+        "fps": 60,
+        "meanDrawMs": 0.4,
+        "maxDrawMs": 1.2,
+        "particles": 729,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 81,
+        "drawnPoints": 729,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    },
+    {
+      "elapsedMs": 19895,
+      "reports": 24,
+      "peakParticles": 81,
+      "peakPoints": 810,
+      "peakHeap": 34738698,
+      "qualityChanges": [
+        {
+          "time": 0.009100000005961192,
+          "quality": "high"
+        }
+      ],
+      "type": "rockwall-playground",
+      "state": "waiting",
+      "position": 5.2,
+      "duration": 0,
+      "shells": [
+        {
+          "index": 0,
+          "launched": 1,
+          "limit": 6,
+          "busy": false,
+          "complete": false,
+          "documentedEffects": 6,
+          "effectIndex": 0,
+          "effectId": "gold-fall",
+          "effectLabel": "Copper-gold willow",
+          "breakCount": 1,
+          "nextEffectId": "green-pearls",
+          "nextEffectIndex": 1,
+          "nextEffectLabel": "Green pearls with gold willow",
+          "available": true
+        }
+      ],
+      "metrics": {
+        "frames": 313,
+        "fps": 60,
+        "meanDrawMs": 0.39,
+        "maxDrawMs": 1.2,
+        "particles": 0,
+        "quality": "high",
+        "requestedQuality": "auto",
+        "activeParticles": 0,
+        "drawnPoints": 0,
+        "budget": 3200,
+        "targetBudget": 3200,
+        "detail": 1,
+        "pixelWidth": 1310,
+        "pixelHeight": 516,
+        "audio": {
+          "enabled": true,
+          "state": "running",
+          "running": true,
+          "error": "",
+          "voices": 0,
+          "rms": 0,
+          "peak": 0
+        },
+        "simultaneousProducts": 1,
+        "width": 1310,
+        "height": 516
+      },
+      "environment": {
+        "compact": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "cores": 8
+      }
+    }
+  ],
+  "final": {
+    "elapsedMs": 19895,
+    "reports": 24,
+    "peakParticles": 81,
+    "peakPoints": 810,
+    "peakHeap": 34738698,
+    "qualityChanges": [
+      {
+        "time": 0.009100000005961192,
+        "quality": "high"
+      }
+    ],
+    "type": "rockwall-playground",
+    "state": "waiting",
+    "position": 5.2,
+    "duration": 0,
+    "shells": [
+      {
+        "index": 0,
+        "launched": 1,
+        "limit": 6,
+        "busy": false,
+        "complete": false,
+        "documentedEffects": 6,
+        "effectIndex": 0,
+        "effectId": "gold-fall",
+        "effectLabel": "Copper-gold willow",
+        "breakCount": 1,
+        "nextEffectId": "green-pearls",
+        "nextEffectIndex": 1,
+        "nextEffectLabel": "Green pearls with gold willow",
+        "available": true
+      }
+    ],
+    "metrics": {
+      "frames": 313,
+      "fps": 60,
+      "meanDrawMs": 0.39,
+      "maxDrawMs": 1.2,
+      "particles": 0,
+      "quality": "high",
+      "requestedQuality": "auto",
+      "activeParticles": 0,
+      "drawnPoints": 0,
+      "budget": 3200,
+      "targetBudget": 3200,
+      "detail": 1,
+      "pixelWidth": 1310,
+      "pixelHeight": 516,
+      "audio": {
+        "enabled": true,
+        "state": "running",
+        "running": true,
+        "error": "",
+        "voices": 0,
+        "rms": 0,
+        "peak": 0
+      },
+      "simultaneousProducts": 1,
+      "width": 1310,
+      "height": 516
+    },
+    "environment": {
+      "compact": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "dpr": 1,
+      "cores": 8
+    }
+  },
+  "physicalAudibilityVerified": false
+}
