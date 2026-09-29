@@ -1,0 +1,80 @@
+[
+  {
+    "id": "alien-attack",
+    "demonstration": {
+      "summary": "Five quick volleys fill the sky with orange, purple, blue, lemon, green and red stars, surrounded by white glitter.",
+      "effects": [
+        "Five five-shot volleys",
+        "Mixed-color crowns",
+        "White glitter"
+      ],
+      "durationSeconds": 20.11,
+      "scope": "Full cake sequence",
+      "observedShots": 25,
+      "confirmedShots": 25,
+      "sourceUrl": "https://www.youtube.com/watch?v=wTSWjZvHc_M",
+      "segmentStart": 1.14,
+      "segmentEnd": 21.25,
+      "note": "Effects and timing vary between individual firings."
+    }
+  },
+  {
+    "id": "avalanche",
+    "demonstration": {
+      "summary": "Gold palms alternate with white sparkle and crackling clouds, building to a closely spaced closing volley.",
+      "effects": [
+        "Gold palms",
+        "White sparkle",
+        "Alternating crackle",
+        "Closing volley"
+      ],
+      "durationSeconds": 30.93,
+      "scope": "Sequence excerpt",
+      "observedShots": 15,
+      "confirmedShots": 16,
+      "sourceUrl": "https://www.youtube.com/watch?v=xKwSoKkHIo4",
+      "segmentStart": 5.62,
+      "segmentEnd": 36.55,
+      "note": "Effects and timing vary between individual firings."
+    }
+  },
+  {
+    "id": "viva-mexico",
+    "demonstration": {
+      "summary": "Red and green palms shine along gold trails, with three-shot volleys and a spreading gold crackle finale.",
+      "effects": [
+        "Red and green palms",
+        "Gold trails",
+        "Three-shot volleys",
+        "Gold crackle finale"
+      ],
+      "durationSeconds": 31.25,
+      "scope": "Full cake sequence",
+      "observedShots": 19,
+      "confirmedShots": 19,
+      "sourceUrl": "https://www.youtube.com/watch?v=4DyNqNq3Rtk",
+      "segmentStart": 3.55,
+      "segmentEnd": 34.8,
+      "note": "Effects and timing vary between individual firings."
+    }
+  },
+  {
+    "id": "forever-loyal",
+    "demonstration": {
+      "summary": "Red stars open above bright rising tails and linger among white glitter in a rolling sequence of overlapping bursts.",
+      "effects": [
+        "Red stars",
+        "White glitter",
+        "Bright rising tails"
+      ],
+      "durationSeconds": 23.06,
+      "scope": "Sequence excerpt",
+      "observedShots": 19,
+      "confirmedShots": 25,
+      "sourceUrl": "https://www.youtube.com/watch?v=meX3dU3eNm4",
+      "segmentStart": 4.12,
+      "segmentEnd": 27.18,
+      "note": "Effects and timing vary between individual firings."
+    }
+  }
+]

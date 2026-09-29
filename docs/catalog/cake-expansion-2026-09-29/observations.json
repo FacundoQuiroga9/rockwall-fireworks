@@ -1,0 +1,577 @@
+[
+  {
+    "productId": "alien-attack",
+    "confirmedShots": 25,
+    "mediaDuration": 23.001,
+    "firstLaunch": 1.14,
+    "lastLaunch": 18.11,
+    "lastBurst": 18.91,
+    "visibleEnd": 21.25,
+    "source": {
+      "url": "https://www.youtube.com/watch?v=wTSWjZvHc_M",
+      "manufacturerCode": "JL523019",
+      "segmentStart": 1.14,
+      "segmentEnd": 21.25,
+      "reviewedOn": "2026-09-29",
+      "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately ±0.12 s and extinction ±0.4 s. Not frame-calibrated.",
+      "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+      "notes": [
+        "Five five-center salvas; repeated phases are independently timed, not programmatically duplicated.",
+        "Continuous overlay timer; no apparent cut or speed edit in performance, no visible second firing origin. Origin is below crop so single unit inferred from branded demo and count.",
+        "Retail 25 shots, 500g; packing 4/1 describes shipping case, not four cakes in selected sale unit.",
+        "White strobe is a secondary component of each mixed-color opening. First group orange/purple; second blue/lemon; third purple/green; fourth red/blue; fifth blue/lemon/purple."
+      ]
+    },
+    "events": [
+      {
+        "id": "alien-attack-1",
+        "launch": 1.14,
+        "burst": 1.94,
+        "visibleEnd": 4.44
+      },
+      {
+        "id": "alien-attack-2",
+        "launch": 1.24,
+        "burst": 2.04,
+        "visibleEnd": 4.54
+      },
+      {
+        "id": "alien-attack-3",
+        "launch": 1.37,
+        "burst": 2.17,
+        "visibleEnd": 4.67
+      },
+      {
+        "id": "alien-attack-4",
+        "launch": 1.4,
+        "burst": 2.2,
+        "visibleEnd": 4.7
+      },
+      {
+        "id": "alien-attack-5",
+        "launch": 1.65,
+        "burst": 2.45,
+        "visibleEnd": 4.95
+      },
+      {
+        "id": "alien-attack-6",
+        "launch": 5.36,
+        "burst": 6.16,
+        "visibleEnd": 8.66
+      },
+      {
+        "id": "alien-attack-7",
+        "launch": 5.47,
+        "burst": 6.27,
+        "visibleEnd": 8.77
+      },
+      {
+        "id": "alien-attack-8",
+        "launch": 5.82,
+        "burst": 6.62,
+        "visibleEnd": 9.12
+      },
+      {
+        "id": "alien-attack-9",
+        "launch": 5.92,
+        "burst": 6.72,
+        "visibleEnd": 9.22
+      },
+      {
+        "id": "alien-attack-10",
+        "launch": 6.17,
+        "burst": 6.97,
+        "visibleEnd": 9.47
+      },
+      {
+        "id": "alien-attack-11",
+        "launch": 9.22,
+        "burst": 10.02,
+        "visibleEnd": 12.52
+      },
+      {
+        "id": "alien-attack-12",
+        "launch": 9.47,
+        "burst": 10.27,
+        "visibleEnd": 12.77
+      },
+      {
+        "id": "alien-attack-13",
+        "launch": 9.62,
+        "burst": 10.42,
+        "visibleEnd": 12.92
+      },
+      {
+        "id": "alien-attack-14",
+        "launch": 9.8,
+        "burst": 10.6,
+        "visibleEnd": 13.1
+      },
+      {
+        "id": "alien-attack-15",
+        "launch": 10.07,
+        "burst": 10.87,
+        "visibleEnd": 13.37
+      },
+      {
+        "id": "alien-attack-16",
+        "launch": 13.54,
+        "burst": 14.34,
+        "visibleEnd": 16.84
+      },
+      {
+        "id": "alien-attack-17",
+        "launch": 13.88,
+        "burst": 14.68,
+        "visibleEnd": 17.18
+      },
+      {
+        "id": "alien-attack-18",
+        "launch": 13.97,
+        "burst": 14.77,
+        "visibleEnd": 17.27
+      },
+      {
+        "id": "alien-attack-19",
+        "launch": 14.06,
+        "burst": 14.86,
+        "visibleEnd": 17.36
+      },
+      {
+        "id": "alien-attack-20",
+        "launch": 14.43,
+        "burst": 15.23,
+        "visibleEnd": 17.73
+      },
+      {
+        "id": "alien-attack-21",
+        "launch": 17.3,
+        "burst": 18.1,
+        "visibleEnd": 20.6
+      },
+      {
+        "id": "alien-attack-22",
+        "launch": 17.58,
+        "burst": 18.38,
+        "visibleEnd": 20.88
+      },
+      {
+        "id": "alien-attack-23",
+        "launch": 17.86,
+        "burst": 18.66,
+        "visibleEnd": 21.16
+      },
+      {
+        "id": "alien-attack-24",
+        "launch": 17.89,
+        "burst": 18.69,
+        "visibleEnd": 21.19
+      },
+      {
+        "id": "alien-attack-25",
+        "launch": 18.11,
+        "burst": 18.91,
+        "visibleEnd": 21.25
+      }
+    ]
+  },
+  {
+    "productId": "avalanche",
+    "confirmedShots": 16,
+    "mediaDuration": 38.581,
+    "firstLaunch": 5.62,
+    "lastLaunch": 33.13,
+    "lastBurst": 33.93,
+    "visibleEnd": 36.55,
+    "source": {
+      "url": "https://www.youtube.com/watch?v=xKwSoKkHIo4",
+      "manufacturerCode": "P5138",
+      "segmentStart": 5.62,
+      "segmentEnd": 36.55,
+      "reviewedOn": "2026-09-29",
+      "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately ±0.12 s and extinction ±0.4 s. Not frame-calibrated.",
+      "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+      "notes": [
+        "Winda P5138, 200g, retail 16 shots; approved blue snowmobile package matches the 2012 Winda upload. UPC 705108513802. Case packing is not a selected multi-cake unit.",
+        "Complete 38.581 s upload reviewed at 1x, 0.5x and a targeted final replay. Introduction 0–4 s; no apparent performance cut, speed edit or multiple firing origin. The firing area is outside the crop.",
+        "Twelve single centers plus three final centers resolved. Retail 16 shots is NOT reconciled. Remains a sequence excerpt despite observing the end of the upload; no missing center is manufactured.",
+        "The older linked 2017 upload rwmnn5bXmIk is shorter and cuts the tail. This independently timed 2012 demonstration is a reference version, not a guarantee that all production lots have identical cadence.",
+        "Final three centers around 33.84–33.93 s overlap. Extinction around 36.55 s precedes the closing fade at 38 s."
+      ]
+    },
+    "events": [
+      {
+        "id": "avalanche-1",
+        "launch": 5.62,
+        "burst": 6.42,
+        "visibleEnd": 9.07
+      },
+      {
+        "id": "avalanche-2",
+        "launch": 8.16,
+        "burst": 8.96,
+        "visibleEnd": 11.61
+      },
+      {
+        "id": "avalanche-3",
+        "launch": 10.22,
+        "burst": 11.02,
+        "visibleEnd": 13.67
+      },
+      {
+        "id": "avalanche-4",
+        "launch": 12.69,
+        "burst": 13.49,
+        "visibleEnd": 16.14
+      },
+      {
+        "id": "avalanche-5",
+        "launch": 14.72,
+        "burst": 15.52,
+        "visibleEnd": 18.17
+      },
+      {
+        "id": "avalanche-6",
+        "launch": 16.52,
+        "burst": 17.32,
+        "visibleEnd": 19.97
+      },
+      {
+        "id": "avalanche-7",
+        "launch": 18.76,
+        "burst": 19.56,
+        "visibleEnd": 22.21
+      },
+      {
+        "id": "avalanche-8",
+        "launch": 21.26,
+        "burst": 22.06,
+        "visibleEnd": 24.71
+      },
+      {
+        "id": "avalanche-9",
+        "launch": 23.82,
+        "burst": 24.62,
+        "visibleEnd": 27.27
+      },
+      {
+        "id": "avalanche-10",
+        "launch": 26.55,
+        "burst": 27.35,
+        "visibleEnd": 30.0
+      },
+      {
+        "id": "avalanche-11",
+        "launch": 29.07,
+        "burst": 29.87,
+        "visibleEnd": 32.52
+      },
+      {
+        "id": "avalanche-12",
+        "launch": 30.95,
+        "burst": 31.75,
+        "visibleEnd": 34.4
+      },
+      {
+        "id": "avalanche-13",
+        "launch": 33.04,
+        "burst": 33.84,
+        "visibleEnd": 36.49
+      },
+      {
+        "id": "avalanche-14",
+        "launch": 33.08,
+        "burst": 33.88,
+        "visibleEnd": 36.53
+      },
+      {
+        "id": "avalanche-15",
+        "launch": 33.13,
+        "burst": 33.93,
+        "visibleEnd": 36.55
+      }
+    ]
+  },
+  {
+    "productId": "viva-mexico",
+    "confirmedShots": 19,
+    "mediaDuration": 38.661,
+    "firstLaunch": 3.55,
+    "lastLaunch": 29.69,
+    "lastBurst": 30.74,
+    "visibleEnd": 34.8,
+    "source": {
+      "url": "https://www.youtube.com/watch?v=4DyNqNq3Rtk",
+      "manufacturerCode": "GM136",
+      "segmentStart": 3.55,
+      "segmentEnd": 34.8,
+      "reviewedOn": "2026-09-29",
+      "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately ±0.12 s and extinction ±0.4 s. Not frame-calibrated.",
+      "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+      "notes": [
+        "Sky Bacon GM136; 19-shot 500g retail unit. Intro held package matches the approved green/red eagle package and SKU 800000323105.",
+        "Complete 38.661 s Spirit of 76/Sky Bacon reference reviewed at 1x and 0.5x. Package introduction 0–3 s; continuous performance from one visible firing area; no apparent speed edit or internal cut. End-card overlays start around 28 s but do not conceal the burst centers.",
+        "Nineteen centers reconciled: three red opening breaks; five alternating singles; three green breaks at 18.34/19.04/19.08; five alternating singles; three gold/crackle breaks at 30.30/30.53/30.74.",
+        "Gold branches and delayed colored tips are components of the same opening, never extra shots. Uneven intra-volley intervals retained.",
+        "Significant final gold points diminish by approximately 34.8 s; outro logo around 36.8 s excluded."
+      ]
+    },
+    "events": [
+      {
+        "id": "viva-mexico-1",
+        "launch": 3.55,
+        "burst": 5.1,
+        "visibleEnd": 7.9
+      },
+      {
+        "id": "viva-mexico-2",
+        "launch": 3.83,
+        "burst": 5.38,
+        "visibleEnd": 8.18
+      },
+      {
+        "id": "viva-mexico-3",
+        "launch": 3.84,
+        "burst": 5.39,
+        "visibleEnd": 8.19
+      },
+      {
+        "id": "viva-mexico-4",
+        "launch": 7.41,
+        "burst": 8.46,
+        "visibleEnd": 11.26
+      },
+      {
+        "id": "viva-mexico-5",
+        "launch": 9.13,
+        "burst": 10.18,
+        "visibleEnd": 12.98
+      },
+      {
+        "id": "viva-mexico-6",
+        "launch": 11.83,
+        "burst": 12.88,
+        "visibleEnd": 15.68
+      },
+      {
+        "id": "viva-mexico-7",
+        "launch": 13.05,
+        "burst": 14.1,
+        "visibleEnd": 16.9
+      },
+      {
+        "id": "viva-mexico-8",
+        "launch": 15.13,
+        "burst": 16.18,
+        "visibleEnd": 18.98
+      },
+      {
+        "id": "viva-mexico-9",
+        "launch": 17.29,
+        "burst": 18.34,
+        "visibleEnd": 21.14
+      },
+      {
+        "id": "viva-mexico-10",
+        "launch": 17.99,
+        "burst": 19.04,
+        "visibleEnd": 21.84
+      },
+      {
+        "id": "viva-mexico-11",
+        "launch": 18.03,
+        "burst": 19.08,
+        "visibleEnd": 21.88
+      },
+      {
+        "id": "viva-mexico-12",
+        "launch": 21.05,
+        "burst": 22.1,
+        "visibleEnd": 24.9
+      },
+      {
+        "id": "viva-mexico-13",
+        "launch": 22.1,
+        "burst": 23.15,
+        "visibleEnd": 25.95
+      },
+      {
+        "id": "viva-mexico-14",
+        "launch": 23.75,
+        "burst": 24.8,
+        "visibleEnd": 27.6
+      },
+      {
+        "id": "viva-mexico-15",
+        "launch": 24.75,
+        "burst": 25.8,
+        "visibleEnd": 28.6
+      },
+      {
+        "id": "viva-mexico-16",
+        "launch": 26.23,
+        "burst": 27.28,
+        "visibleEnd": 30.08
+      },
+      {
+        "id": "viva-mexico-17",
+        "launch": 29.25,
+        "burst": 30.3,
+        "visibleEnd": 34.5
+      },
+      {
+        "id": "viva-mexico-18",
+        "launch": 29.48,
+        "burst": 30.53,
+        "visibleEnd": 34.73
+      },
+      {
+        "id": "viva-mexico-19",
+        "launch": 29.69,
+        "burst": 30.74,
+        "visibleEnd": 34.8
+      }
+    ]
+  },
+  {
+    "productId": "forever-loyal",
+    "confirmedShots": 25,
+    "mediaDuration": 33.741,
+    "firstLaunch": 4.12,
+    "lastLaunch": 24.34,
+    "lastBurst": 25.39,
+    "visibleEnd": 27.18,
+    "source": {
+      "url": "https://www.youtube.com/watch?v=meX3dU3eNm4",
+      "manufacturerCode": "MEPS-238",
+      "segmentStart": 4.12,
+      "segmentEnd": 27.18,
+      "reviewedOn": "2026-09-29",
+      "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately ±0.12 s and extinction ±0.4 s. Not frame-calibrated.",
+      "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+      "notes": [
+        "Pyro Shine MEPS-238, 25-shot 500g retail cake; red/blue flag package and GTIN 702367266043 agree with the official WINCO reference.",
+        "Complete 33.741 s upload played at 1x; opening and closing regions revisited at 0.5x. Intro 0–4 s, fading outro after 32 s. One visible firing area; no apparent performance cut or speed edit.",
+        "Nineteen individually distinguishable red/glitter openings from 5.50 through 25.39 s retained. The dense finale at approximately 28.28–28.69 s cannot reconcile all 25 retail shots and is excluded, not recreated.",
+        "The chosen window ends after the last selected red/white tail at approximately 27.18 s, before the next salvo. Sparse blue low points are visible in later lifts; their independent structure is unresolved and not promoted into additional shots.",
+        "Per-event positions and timing are measured approximations; red tips and white secondary points remain one event each."
+      ]
+    },
+    "events": [
+      {
+        "id": "forever-loyal-1",
+        "launch": 4.12,
+        "burst": 5.5,
+        "visibleEnd": 7.7
+      },
+      {
+        "id": "forever-loyal-2",
+        "launch": 5.24,
+        "burst": 6.29,
+        "visibleEnd": 8.49
+      },
+      {
+        "id": "forever-loyal-3",
+        "launch": 6.5,
+        "burst": 7.55,
+        "visibleEnd": 9.75
+      },
+      {
+        "id": "forever-loyal-4",
+        "launch": 7.18,
+        "burst": 8.23,
+        "visibleEnd": 10.43
+      },
+      {
+        "id": "forever-loyal-5",
+        "launch": 8.4,
+        "burst": 9.45,
+        "visibleEnd": 11.65
+      },
+      {
+        "id": "forever-loyal-6",
+        "launch": 9.95,
+        "burst": 11.0,
+        "visibleEnd": 13.2
+      },
+      {
+        "id": "forever-loyal-7",
+        "launch": 11.6,
+        "burst": 12.65,
+        "visibleEnd": 14.85
+      },
+      {
+        "id": "forever-loyal-8",
+        "launch": 12.2,
+        "burst": 13.25,
+        "visibleEnd": 15.45
+      },
+      {
+        "id": "forever-loyal-9",
+        "launch": 12.8,
+        "burst": 13.85,
+        "visibleEnd": 16.05
+      },
+      {
+        "id": "forever-loyal-10",
+        "launch": 14.85,
+        "burst": 15.9,
+        "visibleEnd": 18.1
+      },
+      {
+        "id": "forever-loyal-11",
+        "launch": 16.18,
+        "burst": 17.23,
+        "visibleEnd": 19.43
+      },
+      {
+        "id": "forever-loyal-12",
+        "launch": 17.11,
+        "burst": 18.16,
+        "visibleEnd": 20.36
+      },
+      {
+        "id": "forever-loyal-13",
+        "launch": 18.33,
+        "burst": 19.38,
+        "visibleEnd": 21.58
+      },
+      {
+        "id": "forever-loyal-14",
+        "launch": 19.5,
+        "burst": 20.55,
+        "visibleEnd": 22.75
+      },
+      {
+        "id": "forever-loyal-15",
+        "launch": 20.5,
+        "burst": 21.55,
+        "visibleEnd": 23.75
+      },
+      {
+        "id": "forever-loyal-16",
+        "launch": 21.35,
+        "burst": 22.4,
+        "visibleEnd": 24.6
+      },
+      {
+        "id": "forever-loyal-17",
+        "launch": 22.17,
+        "burst": 23.22,
+        "visibleEnd": 25.42
+      },
+      {
+        "id": "forever-loyal-18",
+        "launch": 23.43,
+        "burst": 24.48,
+        "visibleEnd": 26.68
+      },
+      {
+        "id": "forever-loyal-19",
+        "launch": 24.34,
+        "burst": 25.39,
+        "visibleEnd": 27.18
+      }
+    ]
+  }
+]

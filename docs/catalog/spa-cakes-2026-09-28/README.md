@@ -86,3 +86,8 @@ Pendientes concretos:
 5. [Neon Boom RA53040](https://www.youtube.com/watch?v=CR1TTvKxTCo): toma de 26,361 s revisada; separar aperturas sobreexpuestas y minas, conciliar los 25 shots y modelar el componente bajo antes de incorporar.
 6. [Joker RA22517](https://www.youtube.com/watch?v=5gunJrX6dQc): identidad y presentación de 20 shots verificadas; falta auditoría completa y componente de spinners bajos. Los demás IDs conservan su pendiente específico en la matriz.
 7. Revisión visual nativa: **pospuesta por decisión del usuario**. No se generó una publicación de la app.
+
+
+## Seguimiento 2026-09-29
+
+La [ampliación de cakes del 29/09](../cake-expansion-2026-09-29/README.md) añade Alien Attack y Viva Mexico completas, Avalanche y Forever Loyal como extractos. Cobertura vigente: 16 completas, 24 extractos, 77 sin perfil (incluidos packs, presentaciones especiales y bloqueos). Daffodil se reexaminó sin resolver 15/16 y conserva su perfil. La matriz nueva concilia los 117 IDs y mantiene los pendientes individuales. La revisión visual nativa sigue pospuesta.

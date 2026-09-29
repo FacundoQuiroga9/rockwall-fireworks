@@ -1,0 +1,37 @@
+[
+  {
+    "productId": "colorful-skies",
+    "source": "https://www.youtube.com/watch?v=7gcAO4M6p8s",
+    "finding": "23.521 s complete at 1x/0.5x. Raccoon RA22003 / 25 shots. First five color openings at ~7.50,9.18,10.66,12.19,14.14; gold lace is a delayed secondary effect. Dense accelerated cadence 14.7–20.8 has unresolved centers; do not infer 25 from label. Tail ~22.7. Need slower isolated onset review of the dense passage."
+  },
+  {
+    "productId": "america-first",
+    "source": "https://www.youtube.com/watch?v=AoL13E3J2G8",
+    "finding": "47.681 s complete at 1x; Raccoon RA53064 / 24 shots. Intro 0–10; dense white/color 12–15; large palms around 17.7/21/24.1. Outro around 27 overlaps remaining particles. Need primary-shot reconciliation and uncut tail, not 47 s playback."
+  },
+  {
+    "productId": "galactic-empire",
+    "source": "https://www.youtube.com/watch?v=0OkveYwscvs",
+    "finding": "43.441 s complete at 1x; Raccoon RA530126 / 21 shots. First lift ~6.4; groups ~7.8–8.8,13.2,18.2–19.9,26,31–33; low fan ~36.8 and final crowns ~37.8. Need reconcile low mines/comets versus primary shots. Dark after ~40.5. Alternative observed embedded asset: https://freedomfirstfireworks.com/wp-content/uploads/2024/11/500G-RA530126-GALACTIC-EMPIRE.mp4 (not downloaded/reviewed)."
+  },
+  {
+    "productId": "monkey-business",
+    "source": "https://www.youtube.com/watch?v=2WLNk8n4KPg",
+    "finding": "23.281 s complete at 1x; Raccoon RA22521 / 24 shots. Palms ~4.5,5.8,7.1,8.2; low whistling/spinning phase ~9.7–11.2; crowns ~13.2,14.1,15.5,16.6; low ~17–18.8; final ~20.7. Need low-flight representation and 24-shot reconciliation."
+  },
+  {
+    "productId": "fallout",
+    "source": "https://www.youtube.com/watch?v=cieneeS7rKc",
+    "finding": "36.641 s complete at 1x; Fox MEF6023 / 24 shots. Six low red mine/high crown cycles at ~3.9/4.6,9.4/10.1,14.9/15.5,18.8/19.6,24.3/25.1,29.9/30.5; last tail ~33.8. Must reconcile low components against 24 retail shots; six generic sphere events would misrepresent this product."
+  },
+  {
+    "productId": "eagle-pride",
+    "source": "https://www.youtube.com/watch?v=F3JOpCzt4fw",
+    "finding": "31.441 s complete at 1x plus 0.5x/targeted finale; Raccoon RA530120 / 30 shots. Six early primary crowns ~4.36,6.68,8.50,10.94,13.12,15.54 with blue-to-red transition/white-gold tails. Dense middle ~19.26–23.8 remains unresolved. Final three centers ~26.57,26.83,26.99; faint tail near source end. Need reconcile middle and verify terminal dark margin."
+  },
+  {
+    "productId": "daffodil",
+    "source": "https://www.youtube.com/watch?v=_8IthnKIchA",
+    "finding": "44.081 s complete at 1x; Brothers BP2115 / 16 shots. Package/intro 0–10.5; white comet lifts and 15 visually resolved colored openings ~12.5–36.5; dark by ~38.2 then outro. Earlier unresolved retail count persists; reviewed profile retained byte-for-byte. Need inspect first lifts ~10.5–12.5 for an unbroken comet/failed shot or obtain another complete demo, not invent a 16th burst."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "image": "/images/products/avalanche.webp",
+    "brand": "Winda",
+    "status": "approved",
+    "previewVideo": "https://www.youtube.com/watch?v=xKwSoKkHIo4",
+    "reason": "Matching P5138 package; alternative official Winda demonstration includes visible final decay. Timing is specific to the 2012 reference; shot-count mismatch remains explicitly unresolved.",
+    "previousPreviewVideo": "https://www.youtube.com/watch?v=rwmnn5bXmIk&pp=ygUPYXZhbGFuY2hlIHdpbmRh"
+  }
+]

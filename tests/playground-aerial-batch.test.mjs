@@ -14,6 +14,7 @@ test('historical profile baselines and commercial fields stay unchanged outside 
  assert.equal(Object.keys(hashes).length,27);
  for(const [id,digest] of Object.entries(hashes)) assert.equal(hash(id==='skybolt-rockets-5-pack'?read('../docs/catalog/playground-navigation-2026-09/skybolt-before.json'):get(id)),digest,id);
  const commercial = read('../src/data/products.json').map(({demonstration,launchSystem,...p})=>p);
+ for (const update of read('../docs/catalog/cake-expansion-2026-09-29/video-updates.json')) { const product=commercial.find(p=>p.id===update.id); assert.equal(product.previewVideo,update.previewVideo); product.previewVideo=update.previousPreviewVideo; }
  assert.equal(hash(commercial),read('../docs/catalog/playground-aerial-batch-2026-09/catalog-commercial-hash.json').sha256);
 });
 

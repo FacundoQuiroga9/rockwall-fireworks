@@ -121,3 +121,8 @@
 | `daytime-reveal-pink` | Daytime Reveal Pink · Sky Bacon | special-presentation | Daytime color-reveal effect needs daylight representation; no nighttime spherical-burst substitute. [Reference](https://www.youtube.com/watch?v=vfHbwYme_jE) |
 | `occupy-mars` | Occupy Mars · Winda | special-presentation | Hybrid presentation requires separating low components from aerial trajectory before assigning a profile. [Reference](https://www.youtube.com/watch?v=R1BXlnwc260) |
 | `whats-that` | What's That!?! · Sky Bacon | special-presentation | Novelty/hybrid presentation needs explicit component and scene review; not inferred from its cake category. [Reference](https://www.youtube.com/watch?v=L2WsPuS3AI8) |
+
+
+## Seguimiento 2026-09-29
+
+La [ampliación de cakes del 29/09](../cake-expansion-2026-09-29/README.md) añade Alien Attack y Viva Mexico completas, Avalanche y Forever Loyal como extractos. Cobertura vigente: 16 completas, 24 extractos, 77 sin perfil (incluidos packs, presentaciones especiales y bloqueos). Daffodil se reexaminó sin resolver 15/16 y conserva su perfil. La matriz nueva concilia los 117 IDs y mantiene los pendientes individuales. La revisión visual nativa sigue pospuesta.

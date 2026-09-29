@@ -20401,6 +20401,2650 @@
           }
         }
       ]
+    },
+    {
+      "productId": "alien-attack",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Alien Attack",
+      "brand": "Happy Family",
+      "category": "500g Cakes",
+      "scene": "aerial",
+      "kind": "cake",
+      "playback": "automatic",
+      "sampleLabel": "Full cake sequence",
+      "duration": 20.11,
+      "observedShots": 25,
+      "effects": [
+        "Five five-shot volleys",
+        "Mixed-color crowns",
+        "White glitter"
+      ],
+      "summary": "Five quick volleys fill the sky with orange, purple, blue, lemon, green and red stars, surrounded by white glitter.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=wTSWjZvHc_M",
+        "manufacturerCode": "JL523019",
+        "segmentStart": 1.14,
+        "segmentEnd": 21.25,
+        "reviewedOn": "2026-09-29",
+        "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately \u00b10.12 s and extinction \u00b10.4 s. Not frame-calibrated.",
+        "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+        "notes": [
+          "Five five-center salvas; repeated phases are independently timed, not programmatically duplicated.",
+          "Continuous overlay timer; no apparent cut or speed edit in performance, no visible second firing origin. Origin is below crop so single unit inferred from branded demo and count.",
+          "Retail 25 shots, 500g; packing 4/1 describes shipping case, not four cakes in selected sale unit.",
+          "White strobe is a secondary component of each mixed-color opening. First group orange/purple; second blue/lemon; third purple/green; fourth red/blue; fifth blue/lemon/purple."
+        ]
+      },
+      "verified": [
+        "Brand, product code/presentation and approved package image matched",
+        "Primary centers, phase order, intervals and selected tail visually reviewed"
+      ],
+      "estimated": [
+        "Pixel geometry, density, drift and synthesized audio are illustrative",
+        "Firing origin cropped/dark; understated illustrative 0.8 s ascents, not a verified commercial tail."
+      ],
+      "timing": {
+        "basis": "first-launch-to-last-significant-effect",
+        "firstLaunch": 0.0,
+        "lastLaunch": 16.97,
+        "lastBurst": 17.77,
+        "visibleEnd": 20.11,
+        "launchEvidence": "Firing origin cropped/dark; understated illustrative 0.8 s ascents, not a verified commercial tail.",
+        "tailEvidence": "White points diminish by approximately 21.25; dark remainder through 23.0. Threshold uncertainty \u00b10.35 s."
+      },
+      "events": [
+        {
+          "launch": 0.0,
+          "burst": 0.8,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#f0a04a",
+            "#b38ae8"
+          ],
+          "x": 0,
+          "y": 0,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-1",
+          "seed": 120001,
+          "launchVisible": false
+        },
+        {
+          "launch": 0.1,
+          "burst": 0.9,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#f0a04a",
+            "#b38ae8"
+          ],
+          "x": 0.045,
+          "y": -0.015,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-2",
+          "seed": 120212,
+          "launchVisible": false
+        },
+        {
+          "launch": 0.23,
+          "burst": 1.03,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#f0a04a",
+            "#b38ae8"
+          ],
+          "x": 0.12,
+          "y": -0.03,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-3",
+          "seed": 120423,
+          "launchVisible": false
+        },
+        {
+          "launch": 0.26,
+          "burst": 1.06,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#f0a04a",
+            "#b38ae8"
+          ],
+          "x": -0.07,
+          "y": 0.015,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-4",
+          "seed": 120634,
+          "launchVisible": false
+        },
+        {
+          "launch": 0.51,
+          "burst": 1.31,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#f0a04a",
+            "#b38ae8"
+          ],
+          "x": -0.13,
+          "y": 0.08,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-5",
+          "seed": 120845,
+          "launchVisible": false
+        },
+        {
+          "launch": 4.22,
+          "burst": 5.02,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#729de8",
+            "#ebdd80"
+          ],
+          "x": 0,
+          "y": 0.015,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-6",
+          "seed": 121056,
+          "launchVisible": false
+        },
+        {
+          "launch": 4.33,
+          "burst": 5.13,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#729de8",
+            "#ebdd80"
+          ],
+          "x": -0.1,
+          "y": -0.06,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-7",
+          "seed": 121267,
+          "launchVisible": false
+        },
+        {
+          "launch": 4.68,
+          "burst": 5.48,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#729de8",
+            "#ebdd80"
+          ],
+          "x": 0.055,
+          "y": 0.035,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-8",
+          "seed": 121478,
+          "launchVisible": false
+        },
+        {
+          "launch": 4.78,
+          "burst": 5.58,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#729de8",
+            "#ebdd80"
+          ],
+          "x": 0.11,
+          "y": 0.055,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-9",
+          "seed": 121689,
+          "launchVisible": false
+        },
+        {
+          "launch": 5.03,
+          "burst": 5.83,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#729de8",
+            "#ebdd80"
+          ],
+          "x": 0.16,
+          "y": 0.085,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-10",
+          "seed": 121900,
+          "launchVisible": false
+        },
+        {
+          "launch": 8.08,
+          "burst": 8.88,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#c096e6",
+            "#84d2a0"
+          ],
+          "x": 0.14,
+          "y": -0.04,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-11",
+          "seed": 122111,
+          "launchVisible": false
+        },
+        {
+          "launch": 8.33,
+          "burst": 9.13,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#c096e6",
+            "#84d2a0"
+          ],
+          "x": 0.11,
+          "y": 0.04,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-12",
+          "seed": 122322,
+          "launchVisible": false
+        },
+        {
+          "launch": 8.48,
+          "burst": 9.28,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#c096e6",
+            "#84d2a0"
+          ],
+          "x": 0.055,
+          "y": -0.035,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-13",
+          "seed": 122533,
+          "launchVisible": false
+        },
+        {
+          "launch": 8.66,
+          "burst": 9.46,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#c096e6",
+            "#84d2a0"
+          ],
+          "x": 0,
+          "y": 0.035,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-14",
+          "seed": 122744,
+          "launchVisible": false
+        },
+        {
+          "launch": 8.93,
+          "burst": 9.73,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#c096e6",
+            "#84d2a0"
+          ],
+          "x": -0.015,
+          "y": 0.09,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-15",
+          "seed": 122955,
+          "launchVisible": false
+        },
+        {
+          "launch": 12.4,
+          "burst": 13.2,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ef697a",
+            "#809eec"
+          ],
+          "x": -0.08,
+          "y": 0,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-16",
+          "seed": 123166,
+          "launchVisible": false
+        },
+        {
+          "launch": 12.74,
+          "burst": 13.54,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ef697a",
+            "#809eec"
+          ],
+          "x": 0.015,
+          "y": 0.015,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-17",
+          "seed": 123377,
+          "launchVisible": false
+        },
+        {
+          "launch": 12.83,
+          "burst": 13.63,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ef697a",
+            "#809eec"
+          ],
+          "x": 0.09,
+          "y": 0.055,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-18",
+          "seed": 123588,
+          "launchVisible": false
+        },
+        {
+          "launch": 12.92,
+          "burst": 13.72,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ef697a",
+            "#809eec"
+          ],
+          "x": 0.14,
+          "y": -0.04,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-19",
+          "seed": 123799,
+          "launchVisible": false
+        },
+        {
+          "launch": 13.29,
+          "burst": 14.09,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#ef697a",
+            "#809eec"
+          ],
+          "x": 0.17,
+          "y": 0.08,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-20",
+          "seed": 124010,
+          "launchVisible": false
+        },
+        {
+          "launch": 16.16,
+          "burst": 16.96,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#759ce8",
+            "#e6d895",
+            "#c091e1"
+          ],
+          "x": 0.11,
+          "y": -0.055,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-21",
+          "seed": 124221,
+          "launchVisible": false
+        },
+        {
+          "launch": 16.44,
+          "burst": 17.24,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#759ce8",
+            "#e6d895",
+            "#c091e1"
+          ],
+          "x": 0.04,
+          "y": -0.015,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-22",
+          "seed": 124432,
+          "launchVisible": false
+        },
+        {
+          "launch": 16.72,
+          "burst": 17.52,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#759ce8",
+            "#e6d895",
+            "#c091e1"
+          ],
+          "x": -0.035,
+          "y": 0.06,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-23",
+          "seed": 124643,
+          "launchVisible": false
+        },
+        {
+          "launch": 16.75,
+          "burst": 17.55,
+          "life": 2.5,
+          "shape": "palm-glitter",
+          "colors": [
+            "#759ce8",
+            "#e6d895",
+            "#c091e1"
+          ],
+          "x": -0.07,
+          "y": 0.1,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-24",
+          "seed": 124854,
+          "launchVisible": false
+        },
+        {
+          "launch": 16.97,
+          "burst": 17.77,
+          "life": 2.34,
+          "shape": "palm-glitter",
+          "colors": [
+            "#759ce8",
+            "#e6d895",
+            "#c091e1"
+          ],
+          "x": -0.12,
+          "y": 0.1,
+          "arms": 34,
+          "radius": 113,
+          "radialMin": 0.62,
+          "gravity": 13,
+          "trailColor": "#ccbcab",
+          "trailSeconds": 0.075,
+          "tipLife": 1.55,
+          "glitterCount": 58,
+          "glitterColor": "#f0eee3",
+          "glitterBrightness": 0.8,
+          "id": "alien-attack-25",
+          "seed": 125065,
+          "launchVisible": false
+        }
+      ]
+    },
+    {
+      "productId": "avalanche",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Avalanche",
+      "brand": "Winda",
+      "category": "200g Cakes",
+      "scene": "aerial",
+      "kind": "cake-sample",
+      "playback": "automatic",
+      "sampleLabel": "Sequence excerpt",
+      "duration": 30.93,
+      "observedShots": 15,
+      "effects": [
+        "Gold palms",
+        "White sparkle",
+        "Alternating crackle",
+        "Closing volley"
+      ],
+      "summary": "Gold palms alternate with white sparkle and crackling clouds, building to a closely spaced closing volley.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=xKwSoKkHIo4",
+        "manufacturerCode": "P5138",
+        "segmentStart": 5.62,
+        "segmentEnd": 36.55,
+        "reviewedOn": "2026-09-29",
+        "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately \u00b10.12 s and extinction \u00b10.4 s. Not frame-calibrated.",
+        "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+        "notes": [
+          "Winda P5138, 200g, retail 16 shots; approved blue snowmobile package matches the 2012 Winda upload. UPC 705108513802. Case packing is not a selected multi-cake unit.",
+          "Complete 38.581 s upload reviewed at 1x, 0.5x and a targeted final replay. Introduction 0\u20134 s; no apparent performance cut, speed edit or multiple firing origin. The firing area is outside the crop.",
+          "Twelve single centers plus three final centers resolved. Retail 16 shots is NOT reconciled. Remains a sequence excerpt despite observing the end of the upload; no missing center is manufactured.",
+          "The older linked 2017 upload rwmnn5bXmIk is shorter and cuts the tail. This independently timed 2012 demonstration is a reference version, not a guarantee that all production lots have identical cadence.",
+          "Final three centers around 33.84\u201333.93 s overlap. Extinction around 36.55 s precedes the closing fade at 38 s."
+        ]
+      },
+      "verified": [
+        "Brand, product code/presentation and approved package image matched",
+        "Primary centers, phase order, intervals and selected tail visually reviewed"
+      ],
+      "estimated": [
+        "Pixel geometry, density, drift and synthesized audio are illustrative",
+        "Dark/cropped lifts use a restrained 0.8 s illustrative ascent, without an asserted commercial tail."
+      ],
+      "timing": {
+        "basis": "first-launch-to-last-significant-effect",
+        "firstLaunch": 0.0,
+        "lastLaunch": 27.51,
+        "lastBurst": 28.31,
+        "visibleEnd": 30.93,
+        "launchEvidence": "Dark/cropped lifts use a restrained 0.8 s illustrative ascent, without an asserted commercial tail.",
+        "tailEvidence": "Final white points disappear around 36.55 s, uncertainty \u00b10.4 s; no loop or uniform time stretching."
+      },
+      "events": [
+        {
+          "launch": 0.0,
+          "burst": 0.8,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.025,
+          "y": 0,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-1",
+          "seed": 130001,
+          "launchVisible": false
+        },
+        {
+          "launch": 2.54,
+          "burst": 3.34,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.01,
+          "y": 0.06,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-2",
+          "seed": 130212,
+          "launchVisible": false
+        },
+        {
+          "launch": 4.6,
+          "burst": 5.4,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0,
+          "y": 0.03,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-3",
+          "seed": 130423,
+          "launchVisible": false
+        },
+        {
+          "launch": 7.07,
+          "burst": 7.87,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.04,
+          "y": -0.03,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-4",
+          "seed": 130634,
+          "launchVisible": false
+        },
+        {
+          "launch": 9.1,
+          "burst": 9.9,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.06,
+          "y": -0.06,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-5",
+          "seed": 130845,
+          "launchVisible": false
+        },
+        {
+          "launch": 10.9,
+          "burst": 11.7,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": -0.035,
+          "y": 0.055,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-6",
+          "seed": 131056,
+          "launchVisible": false
+        },
+        {
+          "launch": 13.14,
+          "burst": 13.94,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.04,
+          "y": 0,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-7",
+          "seed": 131267,
+          "launchVisible": false
+        },
+        {
+          "launch": 15.64,
+          "burst": 16.44,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.045,
+          "y": 0.055,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-8",
+          "seed": 131478,
+          "launchVisible": false
+        },
+        {
+          "launch": 18.2,
+          "burst": 19.0,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.01,
+          "y": 0.04,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-9",
+          "seed": 131689,
+          "launchVisible": false
+        },
+        {
+          "launch": 20.93,
+          "burst": 21.73,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.025,
+          "y": -0.055,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-10",
+          "seed": 131900,
+          "launchVisible": false
+        },
+        {
+          "launch": 23.45,
+          "burst": 24.25,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.04,
+          "y": -0.07,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 22,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.9,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-11",
+          "seed": 132111,
+          "launchVisible": false
+        },
+        {
+          "launch": 25.33,
+          "burst": 26.13,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.015,
+          "y": 0.04,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-12",
+          "seed": 132322,
+          "launchVisible": false
+        },
+        {
+          "launch": 27.42,
+          "burst": 28.22,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": -0.035,
+          "y": 0.02,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-13",
+          "seed": 132533,
+          "launchVisible": false
+        },
+        {
+          "launch": 27.46,
+          "burst": 28.26,
+          "life": 2.65,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.045,
+          "y": -0.06,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-14",
+          "seed": 132744,
+          "launchVisible": false
+        },
+        {
+          "launch": 27.51,
+          "burst": 28.31,
+          "life": 2.62,
+          "shape": "palm",
+          "colors": [
+            "#c9a071"
+          ],
+          "x": 0.07,
+          "y": -0.045,
+          "arms": 15,
+          "radius": 98,
+          "radialMin": 0.6,
+          "gravity": 17,
+          "trailColor": "#c59b6c",
+          "trailSeconds": 0.19,
+          "tipLife": 1.35,
+          "glitterCount": 8,
+          "glitterBrightness": 0.3,
+          "accent": {
+            "count": 76,
+            "colors": [
+              "#e6ded0"
+            ],
+            "delay": 0.68,
+            "life": 1.72,
+            "radius": 0.85,
+            "radialMin": 0.22,
+            "size": 1.1,
+            "shimmer": true,
+            "gravity": 20
+          },
+          "id": "avalanche-15",
+          "seed": 132955,
+          "launchVisible": false
+        }
+      ]
+    },
+    {
+      "productId": "viva-mexico",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Viva Mexico",
+      "brand": "Sky Bacon",
+      "category": "500g Cakes",
+      "scene": "aerial",
+      "kind": "cake",
+      "playback": "automatic",
+      "sampleLabel": "Full cake sequence",
+      "duration": 31.25,
+      "observedShots": 19,
+      "effects": [
+        "Red and green palms",
+        "Gold trails",
+        "Three-shot volleys",
+        "Gold crackle finale"
+      ],
+      "summary": "Red and green palms shine along gold trails, with three-shot volleys and a spreading gold crackle finale.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=4DyNqNq3Rtk",
+        "manufacturerCode": "GM136",
+        "segmentStart": 3.55,
+        "segmentEnd": 34.8,
+        "reviewedOn": "2026-09-29",
+        "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately \u00b10.12 s and extinction \u00b10.4 s. Not frame-calibrated.",
+        "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+        "notes": [
+          "Sky Bacon GM136; 19-shot 500g retail unit. Intro held package matches the approved green/red eagle package and SKU 800000323105.",
+          "Complete 38.661 s Spirit of 76/Sky Bacon reference reviewed at 1x and 0.5x. Package introduction 0\u20133 s; continuous performance from one visible firing area; no apparent speed edit or internal cut. End-card overlays start around 28 s but do not conceal the burst centers.",
+          "Nineteen centers reconciled: three red opening breaks; five alternating singles; three green breaks at 18.34/19.04/19.08; five alternating singles; three gold/crackle breaks at 30.30/30.53/30.74.",
+          "Gold branches and delayed colored tips are components of the same opening, never extra shots. Uneven intra-volley intervals retained.",
+          "Significant final gold points diminish by approximately 34.8 s; outro logo around 36.8 s excluded."
+        ]
+      },
+      "verified": [
+        "Brand, product code/presentation and approved package image matched",
+        "Primary centers, phase order, intervals and selected tail visually reviewed"
+      ],
+      "estimated": [
+        "Pixel geometry, density, drift and synthesized audio are illustrative",
+        "First visible rising cue approximately 3.55 s. Silver/gold ascent is visible; later partially cropped travel is modeled at 1.05 s. Launch paths and heights are illustrative."
+      ],
+      "timing": {
+        "basis": "first-launch-to-last-significant-effect",
+        "firstLaunch": 0.0,
+        "lastLaunch": 26.14,
+        "lastBurst": 27.19,
+        "visibleEnd": 31.25,
+        "launchEvidence": "First visible rising cue approximately 3.55 s. Silver/gold ascent is visible; later partially cropped travel is modeled at 1.05 s. Launch paths and heights are illustrative.",
+        "tailEvidence": "Final gold/crackle tail observed through approximately 34.8 s, uncertainty \u00b10.4 s."
+      },
+      "events": [
+        {
+          "launch": 0.0,
+          "burst": 1.55,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0,
+          "y": -0.04,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-1",
+          "seed": 140001
+        },
+        {
+          "launch": 0.28,
+          "burst": 1.83,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.15,
+          "y": 0.01,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-2",
+          "seed": 140212
+        },
+        {
+          "launch": 0.29,
+          "burst": 1.84,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.16,
+          "y": 0,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-3",
+          "seed": 140423
+        },
+        {
+          "launch": 3.86,
+          "burst": 4.91,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.005,
+          "y": 0.065,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-4",
+          "seed": 140634
+        },
+        {
+          "launch": 5.58,
+          "burst": 6.63,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.025,
+          "y": 0.08,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-5",
+          "seed": 140845
+        },
+        {
+          "launch": 8.28,
+          "burst": 9.33,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.015,
+          "y": 0.075,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-6",
+          "seed": 141056
+        },
+        {
+          "launch": 9.5,
+          "burst": 10.55,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.045,
+          "y": 0.06,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-7",
+          "seed": 141267
+        },
+        {
+          "launch": 11.58,
+          "burst": 12.63,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.02,
+          "y": 0.09,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-8",
+          "seed": 141478
+        },
+        {
+          "launch": 13.74,
+          "burst": 14.79,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.09,
+          "y": 0.04,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-9",
+          "seed": 141689
+        },
+        {
+          "launch": 14.44,
+          "burst": 15.49,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.12,
+          "y": 0.085,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-10",
+          "seed": 141900
+        },
+        {
+          "launch": 14.48,
+          "burst": 15.53,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.005,
+          "y": 0.11,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-11",
+          "seed": 142111
+        },
+        {
+          "launch": 17.5,
+          "burst": 18.55,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0,
+          "y": 0.075,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-12",
+          "seed": 142322
+        },
+        {
+          "launch": 18.55,
+          "burst": 19.6,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.035,
+          "y": 0.06,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-13",
+          "seed": 142533
+        },
+        {
+          "launch": 20.2,
+          "burst": 21.25,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.015,
+          "y": 0.08,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-14",
+          "seed": 142744
+        },
+        {
+          "launch": 21.2,
+          "burst": 22.25,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.025,
+          "y": 0.065,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#a7d5a5"
+            ]
+          },
+          "id": "viva-mexico-15",
+          "seed": 142955
+        },
+        {
+          "launch": 22.68,
+          "burst": 23.73,
+          "life": 2.8,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.005,
+          "y": 0.08,
+          "arms": 11,
+          "radius": 91,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.05,
+          "glitterCount": 22,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "colorChange": {
+            "start": 0.22,
+            "seconds": 0.22,
+            "colors": [
+              "#f47582"
+            ]
+          },
+          "id": "viva-mexico-16",
+          "seed": 143166
+        },
+        {
+          "launch": 25.7,
+          "burst": 26.75,
+          "life": 4.2,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": -0.11,
+          "y": 0.13,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.4,
+          "glitterCount": 44,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "accent": {
+            "count": 67,
+            "colors": [
+              "#e0cea4"
+            ],
+            "delay": 0.76,
+            "life": 2.65,
+            "radius": 0.92,
+            "radialMin": 0.3,
+            "size": 1.2,
+            "shimmer": true,
+            "gravity": 18
+          },
+          "id": "viva-mexico-17",
+          "seed": 143377
+        },
+        {
+          "launch": 25.93,
+          "burst": 26.98,
+          "life": 4.2,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.025,
+          "y": 0.025,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.4,
+          "glitterCount": 44,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "accent": {
+            "count": 67,
+            "colors": [
+              "#e0cea4"
+            ],
+            "delay": 0.76,
+            "life": 2.65,
+            "radius": 0.92,
+            "radialMin": 0.3,
+            "size": 1.2,
+            "shimmer": true,
+            "gravity": 18
+          },
+          "id": "viva-mexico-18",
+          "seed": 143588
+        },
+        {
+          "launch": 26.14,
+          "burst": 27.19,
+          "life": 4.06,
+          "shape": "palm",
+          "colors": [
+            "#cb9968"
+          ],
+          "x": 0.15,
+          "y": -0.01,
+          "arms": 19,
+          "radius": 130,
+          "radialMin": 0.6,
+          "gravity": 15,
+          "trailColor": "#d5bf94",
+          "trailSeconds": 0.32,
+          "tipLife": 2.4,
+          "glitterCount": 44,
+          "glitterColor": "#e4c995",
+          "glitterBrightness": 0.7,
+          "launchVisible": true,
+          "launchColor": "#e4d9b9",
+          "liftTrail": {
+            "color": "#d6c8ad",
+            "seconds": 0.22
+          },
+          "accent": {
+            "count": 67,
+            "colors": [
+              "#e0cea4"
+            ],
+            "delay": 0.76,
+            "life": 2.65,
+            "radius": 0.92,
+            "radialMin": 0.3,
+            "size": 1.2,
+            "shimmer": true,
+            "gravity": 18
+          },
+          "id": "viva-mexico-19",
+          "seed": 143799
+        }
+      ]
+    },
+    {
+      "productId": "forever-loyal",
+      "revision": 1,
+      "status": "reviewed",
+      "name": "Forever Loyal",
+      "brand": "Pyro Shine",
+      "category": "500g Cakes",
+      "scene": "aerial",
+      "kind": "cake-sample",
+      "playback": "automatic",
+      "sampleLabel": "Sequence excerpt",
+      "duration": 23.06,
+      "observedShots": 19,
+      "effects": [
+        "Red stars",
+        "White glitter",
+        "Bright rising tails"
+      ],
+      "summary": "Red stars open above bright rising tails and linger among white glitter in a rolling sequence of overlapping bursts.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=meX3dU3eNm4",
+        "manufacturerCode": "MEPS-238",
+        "segmentStart": 4.12,
+        "segmentEnd": 27.18,
+        "reviewedOn": "2026-09-29",
+        "method": "Complete browser playback at 1x, with timestamped captures and 0.5x replays. Media clock retained; onset precision approximately \u00b10.12 s and extinction \u00b10.4 s. Not frame-calibrated.",
+        "evidenceDirectory": "docs/catalog/cake-expansion-2026-09-29/evidence",
+        "notes": [
+          "Pyro Shine MEPS-238, 25-shot 500g retail cake; red/blue flag package and GTIN 702367266043 agree with the official WINCO reference.",
+          "Complete 33.741 s upload played at 1x; opening and closing regions revisited at 0.5x. Intro 0\u20134 s, fading outro after 32 s. One visible firing area; no apparent performance cut or speed edit.",
+          "Nineteen individually distinguishable red/glitter openings from 5.50 through 25.39 s retained. The dense finale at approximately 28.28\u201328.69 s cannot reconcile all 25 retail shots and is excluded, not recreated.",
+          "The chosen window ends after the last selected red/white tail at approximately 27.18 s, before the next salvo. Sparse blue low points are visible in later lifts; their independent structure is unresolved and not promoted into additional shots.",
+          "Per-event positions and timing are measured approximations; red tips and white secondary points remain one event each."
+        ]
+      },
+      "verified": [
+        "Brand, product code/presentation and approved package image matched",
+        "Primary centers, phase order, intervals and selected tail visually reviewed"
+      ],
+      "estimated": [
+        "Pixel geometry, density, drift and synthesized audio are illustrative",
+        "Visible warm/silver lifts; first cue about 4.12 s. Later travel approximated at 1.05 s where smoke obscures it. Sparse low blue points are not geometrically resolved."
+      ],
+      "timing": {
+        "basis": "first-launch-to-last-significant-effect",
+        "firstLaunch": 0.0,
+        "lastLaunch": 20.22,
+        "lastBurst": 21.27,
+        "visibleEnd": 23.06,
+        "launchEvidence": "Visible warm/silver lifts; first cue about 4.12 s. Later travel approximated at 1.05 s where smoke obscures it. Sparse low blue points are not geometrically resolved.",
+        "tailEvidence": "Last selected crown fades by about 27.18 s; this is not the retail finale or full-cake duration."
+      },
+      "events": [
+        {
+          "launch": 0.0,
+          "burst": 1.38,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0,
+          "y": 0,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-1",
+          "seed": 150001
+        },
+        {
+          "launch": 1.12,
+          "burst": 2.17,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.01,
+          "y": 0.03,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-2",
+          "seed": 150212
+        },
+        {
+          "launch": 2.38,
+          "burst": 3.43,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.02,
+          "y": -0.015,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-3",
+          "seed": 150423
+        },
+        {
+          "launch": 3.06,
+          "burst": 4.11,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.015,
+          "y": 0.02,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-4",
+          "seed": 150634
+        },
+        {
+          "launch": 4.28,
+          "burst": 5.33,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.025,
+          "y": 0.01,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-5",
+          "seed": 150845
+        },
+        {
+          "launch": 5.83,
+          "burst": 6.88,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0,
+          "y": 0,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-6",
+          "seed": 151056
+        },
+        {
+          "launch": 7.48,
+          "burst": 8.53,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.015,
+          "y": -0.02,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-7",
+          "seed": 151267
+        },
+        {
+          "launch": 8.08,
+          "burst": 9.13,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.02,
+          "y": 0.005,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-8",
+          "seed": 151478
+        },
+        {
+          "launch": 8.68,
+          "burst": 9.73,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.03,
+          "y": -0.01,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-9",
+          "seed": 151689
+        },
+        {
+          "launch": 10.73,
+          "burst": 11.78,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0,
+          "y": 0.02,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-10",
+          "seed": 151900
+        },
+        {
+          "launch": 12.06,
+          "burst": 13.11,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.025,
+          "y": 0,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-11",
+          "seed": 152111
+        },
+        {
+          "launch": 12.99,
+          "burst": 14.04,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.005,
+          "y": 0.015,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-12",
+          "seed": 152322
+        },
+        {
+          "launch": 14.21,
+          "burst": 15.26,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.02,
+          "y": -0.015,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-13",
+          "seed": 152533
+        },
+        {
+          "launch": 15.38,
+          "burst": 16.43,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0,
+          "y": 0.005,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-14",
+          "seed": 152744
+        },
+        {
+          "launch": 16.38,
+          "burst": 17.43,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.015,
+          "y": 0,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-15",
+          "seed": 152955
+        },
+        {
+          "launch": 17.23,
+          "burst": 18.28,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.025,
+          "y": 0.01,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-16",
+          "seed": 153166
+        },
+        {
+          "launch": 18.05,
+          "burst": 19.1,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0.005,
+          "y": -0.01,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-17",
+          "seed": 153377
+        },
+        {
+          "launch": 19.31,
+          "burst": 20.36,
+          "life": 2.2,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": -0.01,
+          "y": 0.025,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-18",
+          "seed": 153588
+        },
+        {
+          "launch": 20.22,
+          "burst": 21.27,
+          "life": 1.79,
+          "shape": "palm",
+          "colors": [
+            "#ef6b77"
+          ],
+          "x": 0,
+          "y": 0,
+          "arms": 14,
+          "radius": 89,
+          "radialMin": 0.68,
+          "gravity": 15,
+          "trailColor": "#e1cfad",
+          "trailSeconds": 0.11,
+          "tipLife": 1.7,
+          "glitterCount": 67,
+          "glitterColor": "#e9e7dd",
+          "glitterBrightness": 0.85,
+          "launchVisible": true,
+          "launchColor": "#e6d4aa",
+          "liftTrail": {
+            "color": "#d9c6a2",
+            "seconds": 0.16
+          },
+          "id": "forever-loyal-19",
+          "seed": 153799
+        }
+      ]
     }
   ]
 }

@@ -15,8 +15,8 @@ const profiles = data.profiles;
 
 test('reviewed profiles resolve exact catalog identities and valid source segments', () => {
   assert.deepEqual(validateProfiles(data, products), []);
-  assert.equal(profiles.length, read('../docs/catalog/spa-cakes-2026-09-28/baseline-profile-hashes.json').length + read('../docs/catalog/spa-cakes-2026-09-28/new-profile-ids.json').length);
-  assert.equal(profiles.filter((p) => p.kind === 'cake').length, 14);
+  assert.equal(profiles.length, read('../docs/catalog/spa-cakes-2026-09-28/baseline-profile-hashes.json').length + read('../docs/catalog/spa-cakes-2026-09-28/new-profile-ids.json').length + read('../docs/catalog/cake-expansion-2026-09-29/new-profile-ids.json').length);
+  assert.equal(profiles.filter((p) => p.kind === 'cake').length, 16);
   assert.equal(profiles.filter((p) => p.kind === 'shell-sample').length, 11);
   assert.deepEqual(profiles.slice(0, 4).map((p) => p.events.length), [16, 12, 1, 1]);
   const broken = structuredClone(data); broken.profiles[0].events[0].burst = -1;
@@ -112,7 +112,7 @@ test('product, promotion, storage engine, PDF and hero baselines remain intact',
     // Their actual HTTP contract is checked by npm run hosting:check.
     if (path === 'public/.htaccess') continue;
     let content = readFileSync(new URL(`../${path}`, import.meta.url));
-    if (path === 'src/data/products.json') { const oldFields = JSON.parse(content); oldFields.forEach((p) => { delete p.demonstration; delete p.launchSystem; delete p.categoryAliases; delete p.shellPackage; delete p.promotionCategory; }); for (const previous of read('../docs/catalog/playground-controls-2026-09/shells-before.json')) oldFields.find(p => p.id === previous.id).category = previous.category; for (const update of read('../docs/catalog/playground-continuity-2026-09/video-updates.json').concat(read('../docs/catalog/playground-scenes-2026-09/video-updates.json'))) { const product = oldFields.find((p) => p.id === update.id); assert.equal(product.previewVideo, update.previewVideo); product.previewVideo = update.previousPreviewVideo; } for (const correction of read('../docs/catalog/playground-scenes-2026-09/owner-cake-corrections.json')) Object.assign(oldFields.find(p => p.id === correction.id), correction.previousFields); content = JSON.stringify(oldFields, null, 2) + '\n'; }
+    if (path === 'src/data/products.json') { const oldFields = JSON.parse(content); oldFields.forEach((p) => { delete p.demonstration; delete p.launchSystem; delete p.categoryAliases; delete p.shellPackage; delete p.promotionCategory; }); for (const previous of read('../docs/catalog/playground-controls-2026-09/shells-before.json')) oldFields.find(p => p.id === previous.id).category = previous.category; for (const update of read('../docs/catalog/playground-continuity-2026-09/video-updates.json').concat(read('../docs/catalog/playground-scenes-2026-09/video-updates.json'), read('../docs/catalog/cake-expansion-2026-09-29/video-updates.json'))) { const product = oldFields.find((p) => p.id === update.id); assert.equal(product.previewVideo, update.previewVideo); product.previewVideo = update.previousPreviewVideo; } for (const correction of read('../docs/catalog/playground-scenes-2026-09/owner-cake-corrections.json')) Object.assign(oldFields.find(p => p.id === correction.id), correction.previousFields); content = JSON.stringify(oldFields, null, 2) + '\n'; }
     // Only the two explicitly reviewed promotion-group changes are normalized for the historical byte baseline.
     if (path === 'src/shared/myList.js') content = content.toString().replace('(product.promotionCategory || product.category)', 'product.category').replace('first.bogo.group === second.bogo.group', 'first.category === second.category');
     assert.equal(createHash('sha256').update(content).digest('hex'), digest, path);

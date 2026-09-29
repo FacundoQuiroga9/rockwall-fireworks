@@ -30,7 +30,9 @@ test('every added product has one reviewed Square identity and matching source r
     const edit = copyReviews.find((r) => r.id === product.id);
     assert.equal(product.presentation, edit?.fields.presentation === null ? undefined : review.presentation);
     assert.equal(product.category, commerce.findLast((c) => c.id === product.id)?.fields.category || review.category);
-    assert.equal(product.previewVideo, asset.source_video);
+    const videoUpdate = (await read('../docs/catalog/cake-expansion-2026-09-29/video-updates.json')).find((r) => r.id === product.id);
+    if (videoUpdate) assert.equal(videoUpdate.previousPreviewVideo, asset.source_video);
+    assert.equal(product.previewVideo, videoUpdate?.previewVideo || asset.source_video);
     assert.equal(product.featured, false);
     assert.equal(asset.source_sha256, review.sourceImageSha256);
     for (const output of asset.web) {

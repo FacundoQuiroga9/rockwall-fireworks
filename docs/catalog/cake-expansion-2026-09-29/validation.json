@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-29",
+  "web": {
+    "commands": [
+      {
+        "command": "npm run catalog:sync",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run catalog:check",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run lint",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run build",
+        "exitCode": 0
+      }
+    ],
+    "tests": 181,
+    "profiles": 60,
+    "catalogProducts": 302,
+    "build": "dist/",
+    "buildWarning": "Existing large PDF thumbnail chunk; build and upload-directory verification pass."
+  },
+  "app": {
+    "commands": [
+      {
+        "command": "npm run typecheck",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run lint",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test",
+        "exitCode": 0
+      }
+    ],
+    "tests": 73,
+    "visualReview": "postponed by user; no Simulator, Metro visual session, device run or app export"
+  },
+  "parity": "catalog:check PASS; products, profiles, index and shared runtime identical where shared",
+  "preservedProfiles": 56,
+  "browser": "See browser-validation.json and README; all four new published windows watched through terminal extinction",
+  "preview": "http://127.0.0.1:5173/playground"
+}

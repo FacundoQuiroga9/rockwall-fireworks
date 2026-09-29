@@ -85,3 +85,8 @@ Resultados finales en [VALIDATION.md](VALIDATION.md). Cada uno de los ocho perfi
 La mezcla de tres cakes y Nishiki verificó pausa a 0,299 s, primer lanzamiento contado una vez, segundo durante las cakes y tercero después de terminar éstas. Se verificó señal digital y contexto de audio activo; **no se comprobó salida física audible**. El registro anterior a la corrección de métricas conserva la muestra que reveló voces desactualizadas y se acompaña con la comprobación posterior.
 
 Vista previa: <http://localhost:5173/playground>. Galería reproducible: `node scripts/playground/fidelity-review-static.mjs`, luego `/artifacts/fidelity-review.html`; documento de producción sin HMR durante capturas. Benchmark: `/scripts/playground/fidelity-performance.html`. No dependencias nuevas; artefactos temporales ignorados por Git, evidencia compacta versionada. Dallas, el hero y los entornos no se regeneraron ni rediseñaron.
+
+
+## Seguimiento 2026-09-29
+
+La [ampliación de cakes del 29/09](../cake-expansion-2026-09-29/README.md) añade Alien Attack y Viva Mexico completas, Avalanche y Forever Loyal como extractos. Cobertura vigente: 16 completas, 24 extractos, 77 sin perfil (incluidos packs, presentaciones especiales y bloqueos). Daffodil se reexaminó sin resolver 15/16 y conserva su perfil. La matriz nueva concilia los 117 IDs y mantiene los pendientes individuales. La revisión visual nativa sigue pospuesta.
